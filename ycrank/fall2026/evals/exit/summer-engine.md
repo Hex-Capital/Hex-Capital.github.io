@@ -5,36 +5,36 @@
 
 ### Company case
 
-Strategic acquisition is the strongest private-company path. A game-engine or publishing platform could buy Summer to gain control of a creator-to-player distribution channel. Summer combines editable Godot-compatible projects, hosted multiplayer, and a publishing portal. The acquisition case depends on creators repeatedly publishing through Summer and the portal bringing their games returning players. Ownership could give a buyer control over that distribution and its economics. The memo records 2,966 weekly MCP/CLI package downloads and 13 entries in the first game jam. Summer reports 60,000+ organic users, 240,000+ reusable community assets, and 40% revenue growth over 30 days. These signals support testing the distribution thesis. Repeat publishing, player retention, absolute revenue, and the cash and runway available to reach the milestone remain unknown. (The Idea, Defensibility, Market & Traction, Key Facts)
+Strategic acquisition is Summer Engine’s strongest exit path. A game creation or publishing platform could pay to own Summer’s integrated workflow from editable Godot-compatible projects to hosted multiplayer, analytics, and a player portal. The potential benefit is acquiring a creator and player base that repeatedly publishes and plays hosted games. Ownership could beat building or partnering if Summer can show that those users stay with its publishing and hosting workflow and that the buyer could capture their activity after a sale. That benefit remains an inference. (*The Idea*, *Defensibility*)
 
-**Proceeds bridge.** The memo supplies neither check terms nor a supported sale price. The illustrative seed case uses one $500,000 check at a $10 million post-money valuation, with 5% initial ownership diluted to 3% and no follow-on checks. A 5× gross cash return within eight years requires $2.5 million to the holder, or $83.3 million in distributable equity proceeds at 3%. The hurdle is $125 million at 2% and $62.5 million at 4%. (Key Facts)
+The memo documents a public release, 2,966 weekly downloads of the MCP and CLI package, and 13 entries in Summer’s first game jam. Summer reports more than 60,000 organic users, 40% revenue growth over 30 days, and more than 240,000 reusable community assets. These signals support testing whether creators publish again within 90 days and bring players back to Summer-hosted games. The memo gives no cohort results, absolute revenue, burn, or runway, so the cost and timing of proving that milestone remain uncertain. The MIT license covers the MCP and CLI repository. Control and transferability of the hosted stack and community content rights remain unverified. (*Market & Traction*, *Defensibility*, *The Idea*)
 
-Both sale scenarios assume zero net debt, transaction costs, and other closing adjustments, with a simple pro rata waterfall and no preference deductions. Enterprise value therefore equals distributable equity consideration, paid entirely in cash at close. Stock, escrow, earnouts, rollover, and compensation are each $0. Prices and timing are scenario assumptions.
+**Proceeds bridge.** The memo supplies no investor terms or supported acquisition price range. The shared scenario assumes a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-ons. A 5× gross cash return within eight years requires $2.5 million to the holder, or $83.3 million in distributable equity at 3% ownership. The equity hurdle is $125 million at 2% and $62.5 million at 4%. With $5 million of illustrative net debt, the 3% case requires $88.3 million in enterprise value. The sale scenarios assume full cash payment at closing, before investor taxes, with no additional fees or senior claims modeled.
 
-| Scenario | Timing and outcome | Holder cash before taxes |
-|-----------|--------------------|--------------------------|
-| Modest sale | Year 4 at $40 million enterprise value | $1.2 million, 2.4× |
-| Strong sale | Year 7 at $100 million enterprise value | $3 million, 6.0× at 3% ownership. At 2%, $2 million, 4.0×. |
-| Prolonged private | Through year 8, growth plateaus, buyers stay away, public scale remains out of reach, and cash is reinvested | $0 realized, 0×, with shares retained |
+| Eight-year scenario | Gross cash to the holder |
+|---------------------|--------------------------|
+| Modest sale at $25 million enterprise value | $600,000, or 1.2×, after illustrative net debt |
+| Strong sale at $100 million enterprise value | $2.85 million, or 5.7×, after illustrative net debt |
+| Growth plateaus, buyers stay absent, public scale remains out of reach, and all available cash is reinvested with no share sale or payout | $0 realized, with shares still held |
 
-The memo leaves ownership and transfer rights for the hosted platform and community content unresolved. It also offers no evidence of independent shareholder liquidity through a secondary, buyout, public resale, or funded payout. (Defensibility, Market & Traction, Key Facts)
+The memo supports no buyout financing case, eligible secondary demand, public resale path, or capacity for funded payouts. In a wind-down, common holders would receive only the residual after obligations and preferences. The memo provides no basis to estimate that residual. (*Market & Traction*, *Key Facts*, *Key Risks*)
 
 ### Countercase
 
-Unity, Roblox, and GDevelop already connect coding agents to their editors, and Summer’s MCP/CLI package is MIT-licensed. A buyer can offer agent-assisted creation without buying Summer. The remaining ownership case is the creator and player network, whose retention is unverified and whose direct dollar-priced game sales are pending. This warrants Watch. The memo supports substitution for the tooling but establishes no price ceiling for a proven distribution asset. (Defensibility, Market & Traction, Key Risks)
+Unity, Roblox, and GDevelop already connect coding agents to their editors. A platform can offer agent-assisted creation in-house, and Summer’s editable exports let creators publish elsewhere. Direct dollar-priced sales on Summer Games are still pending. Together, these facts weaken the case that a buyer needs to own Summer to capture creator activity. The memo leaves a distinct acquisition case for a retained hosting and player network, but it gives no evidence that a buyer would pay enough for it. That gap supports Watch. The Pass gate remains untriggered because the memo establishes neither a structural closing block nor a credible sale price that leaves the holder materially short. (*Defensibility*, *The Idea*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 12/30 |
+| Counterparty rationale or source of cash | 13/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 9/20 |
+| Milestones and capital needed | 10/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 36/100** (Pass)
+**Total Score: 38/100** (Pass)
 
 ### Decisive diligence question
 
-Can Summer show that its portal delivers enough repeat publishing and returning players to make ownership worth at least $83.3 million in distributable equity proceeds to a game platform under the 3% case? Cohort data attributing repeat play to Summer’s portal, paired with buyer economics that support that price after accounting for build and partnership options, would move the action to Reach out.
+Can Summer’s repeat-publishing cohorts support a platform buyer’s case for paying at least $88.3 million in enterprise value under the 3% ownership and illustrative debt scenario? A platform pilot that measures 90-day repeat publishing and returning players, and quantifies the incremental contribution from those cohorts against building or partnering, would answer it. A buyer-side valuation range grounded in those results that clears the applicable holder hurdle would move the action to Reach out.

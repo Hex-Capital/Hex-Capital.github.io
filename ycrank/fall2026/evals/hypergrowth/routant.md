@@ -5,26 +5,26 @@
 
 ### Company case
 
-Path B, repeatable sales or partner distribution with account expansion, is Routant’s strongest path. The initial buyer is a software vendor deploying agents into multiple enterprises. Each deployment repeats the job of connecting private systems and securing customer approval for what the agent can do. Routant describes a single MCP endpoint for the vendor and an outbound gateway for each enterprise, which controls its own permissions and approvals. The observed launch engagement shows attention. The memo records demo calls to action but provides no buyer commitments, paid activations, or recurring production usage. (The Idea; Market & Traction; Key Facts)
+The strongest path is **repeatable direct sales** to software vendors deploying agents into enterprise customers’ private systems. The recurring job is to give agents scoped access, route sensitive actions for approval, and record what happened. Routant describes one Model Context Protocol endpoint for the vendor and outbound-only gateways with customer-managed policies. If the first vendor segment finds strong fit, the shared endpoint could let a vendor reuse its integration across customers and markets. That makes the workflow plausibly portable, although the effort required to satisfy a second market’s security and deployment requirements remains untested. (*The Idea*, *Key Risks*)
 
-If a vendor pays for the first deployment and can reuse its integration, that vendor could bring Routant into more customer environments and expand into more workloads. In a second geography, this assumes the same vendor integration works and local security, compliance, and support requirements can be handled without redesign. Each enterprise would still need to connect its systems and configure policies. The contribution test is whether the revenue from another deployment covers the added security review and setup assistance, ongoing gateway operations, and support. The memo gives no pricing or rollout cost data to test that assumption. (The Idea; Key Risks; Key Facts)
+The memo documents a YC launch, a demo video, and a demo-booking route. It provides no buyer evidence tracing a demo to paid production use, confirming a budget or workflow commitment, or showing repeat use or expansion. It also provides no rollout hours or marginal delivery costs. Acquisition, retention, contribution, and first-segment fit therefore take their absent-evidence defaults. (*The Idea*, *Market & Traction*, *Key Facts*)
 
 ### Countercase
 
-The enterprise could be the real unit of sale and implementation. Every customer controls which systems connect and which actions need approval, so each rollout could require a fresh security review, integration work, and support even when the vendor reuses its endpoint. AWS’s overlapping controls could also narrow the set of customers willing to pay for a separate gateway. These are credible risks. The memo documents no rollout showing proportional delivery effort or a structural limit on demand, so the Pass gate does not apply. (Key Risks; Defensibility)
+The first link likely to break is the handoff from vendor integration to enterprise go-live. Each enterprise still has to connect its systems and configure access policies and approvals. If Routant must do substantial integration and security work for every deployment, a reusable vendor endpoint could coexist with delivery effort that rises in proportion to revenue. The memo identifies the customer-side steps, while the effort they require remains unmeasured. The structural downside gate is untriggered. (*The Idea*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 9/25 |
+| Global buyer demand | 14/25 |
 | Repeatable acquisition and onboarding | 9/25 |
 | Retention and customer expansion | 7/20 |
 | Contribution as volume grows | 7/20 |
 | Evidence of fit in the first buyer segment | 4/10 |
 
-**Total Score: 36/100** (Pass)
+**Total Score: 41/100** (Pass)
 
 ### Decisive diligence question
 
-Can one paying vendor reuse its existing integration to bring an independent enterprise in a second geography into paid, recurring production use? A rollout record showing the same setup steps and no material increase in security-review, implementation, or support effort versus the first deployment would move the action to Reach out. (The Idea; Key Risks)
+Can two independent software vendors go from demo to paid production use for the same private-system access job through the same rollout process? Two paid go-lives would move the action to Reach out if the enterprise security teams completed gateway and policy setup using a shared checklist and deployment records showed comparable, bounded Routant support hours without custom integration.

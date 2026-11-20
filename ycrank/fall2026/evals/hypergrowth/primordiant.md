@@ -5,26 +5,26 @@
 
 ### Company case
 
-**Path B — Repeatable sales with account expansion.** The clearest initial buyer is a materials R&D team that repeatedly changes experimental protocols, such as a team iterating on heat-resistant coatings. Primordiant reports a coatings engagement at its Mountain View lab and a separate robot deployment to a client wet lab. Those are concrete early tests of two delivery models. The public beta waitlist gives buyers a way in, and the published terms say beta billing is disabled. The memo leaves the engagements’ acquisition routes, buyer commitments, payment, and repeat usage unverified. (The Idea, Market & Traction, Key Facts)
+The strongest path is repeatable direct sales for hosted materials R&D. The likely first buyer is a coatings R&D team that needs to run successive rounds of experiments as results inform what to test next. Primordiant reports a heat-resistant polymer coatings engagement at its Mountain View lab and a separate engagement that brought a prototype robot into a client wet lab. The hosted project gives the growth case a specific buyer and job. The site visit shows that a second client provided lab access for an early test. Buyer urgency, measured benefit, and project payment remain unknown. (The Idea, Market & Traction, Defensibility)
 
-**Scenario assumption:** If the hosted lab can reuse the coatings workflow, the waitlist could bring in similar teams, a standard protocol could get them to a first paid experiment, and follow-on experiment rounds could expand each account. A buyer in a second geography could use the same lab if any required sample shipping and handling fit the existing workflow. Contribution would depend on fees covering the added sales and setup time, materials, machine time, supervision, and compute, with equipment costs rising when capacity runs out. The memo leaves cross-market demand and those incremental costs unmeasured. (The Idea, Market & Traction, Key Risks)
+**Scenario assumption.** If customers can send samples to Mountain View and Primordiant can reuse the same intake and experimental setup, the hosted model could serve buyers in another market without installing robots at each site. The likely first bottleneck is getting the next buyer to a useful result with bounded setup effort. The memo documents a beta waitlist, a public launch, and disabled beta billing. It leaves the route from lead to paid activation, repeat orders, and the cost of delivering the next campaign unmeasured. At this stage, a paid rollout with a measured handoff would test the mechanism directly. (The Idea, Market & Traction, Key Risks)
 
 ### Countercase
 
-Primordiant could become a custom lab services business. The remote-controlled demo leaves autonomous execution across protocols unverified. The custom integration offering and on-site supervision requirements make it plausible that each new protocol takes engineering work and each new site adds installation and support. The two reported engagements leave open whether those costs rise in proportion to revenue, so the structural Pass gate remains untriggered. (The Idea, Market & Traction, Key Risks)
+Each new coatings project could require custom protocol work, instrument setup, and hands-on supervision. That would make the hosted lab a bespoke research service whose staffing and capacity costs rise with volume. The two reported engagements used different delivery models, and the remotely controlled demo leaves autonomous repeatability across protocols unverified. The reported three-week prototype build gives no comparable measure of rollout effort. The structural downside gate remains untriggered because the memo leaves open whether successive hosted projects can reuse enough setup to reduce marginal costs. (Market & Traction, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 9/25 |
+| Global buyer demand | 13/25 |
 | Repeatable acquisition and onboarding | 9/25 |
 | Retention and customer expansion | 7/20 |
 | Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 4/10 |
+| Evidence of fit in the first buyer segment | 5/10 |
 
-**Total Score: 36/100** (Pass)
+**Total Score: 41/100** (Pass)
 
 ### Decisive diligence question
 
-Can an independent materials R&D team in a second geography come through the waitlist and pay for a hosted coatings pilot that reuses the existing workflow? A completed pilot with buyer-confirmed results and a cost breakdown showing positive incremental contribution after acquisition and delivery would move the action to **Reach out**.
+Can a second independent coatings R&D buyer pay for a hosted campaign and reach a usable result through the same intake and setup as the first? A documented paid rollout showing which steps were reused and how much staff time and lab capacity the new buyer required would move the action to Reach out if the handoff is repeatable and the added effort is bounded.

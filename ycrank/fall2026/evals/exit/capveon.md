@@ -5,19 +5,17 @@
 
 ### Company case
 
-**Strategic acquisition is the strongest path.** A procurement intelligence platform could buy Capveon to connect early infrastructure project signals with equipment-specific bid qualification. Owning the linked records and specification-matching workflow could let the buyer control how that capability is integrated and updated across its customer base. The value of that control is an inference. Capveon describes the workflow, but the memo provides no measured customer benefit or buyer willingness to pay. (The Idea, Defensibility)
+Strategic acquisition is the strongest path. A procurement intelligence platform such as GovSpend could buy Capveon to add equipment-specification matching and page-cited bid review to its existing spend and meeting data. The buyer benefit would come from converting more infrastructure suppliers into paying customers or selling them a higher-value workflow. Ownership could make sense if controlling the linked project records and matching workflow generates more profit than building or licensing comparable features. That buyer rationale is an inference. Capveon reports linked records across more than 185,000 U.S. and Canadian agencies, which measures coverage. The memo records GovSpend’s announced majority acquisition by a sponsor, which establishes sector transaction activity and gives no usable price benchmark for Capveon. (The Idea; Defensibility; Market & Traction)
 
-The memo records an October launch and YC backing. Capveon reports substantial indexing coverage and previously claimed paying customers for an earlier workflow-handoff product, with no customer count or revenue disclosed. That gives Capveon a starting point for a paid test with water-equipment sellers. The milestone is repeatable evidence that sellers find eligible projects earlier and spend fewer hours qualifying bids. Funding and runway for the test are unknown. The memo also records a majority acquisition of GovSpend, but supplies neither a usable transaction price nor predictable Capveon cash flow to support an independent sponsor route. IP and data transfer rights are unverified. (Market & Traction, Key Facts, Defensibility)
+Capveon’s October launch and its territory demos and free bid reviews give it a plausible way to recruit infrastructure suppliers for a paid production pilot. A useful pilot would measure whether adding Capveon to an incumbent workflow increases paid conversion enough to support buyer economics. The earlier company claim of paying customers concerned its workflow-handoff offering and gave no customer count or revenue. Pilot funding, burn, runway, and the rights to transfer the linked dataset and core workflow remain unverified. The memo also leaves sponsor financing and cash generation, eligible secondary demand, public-market readiness, and distributable cash unevidenced. (The Idea; Market & Traction; Defensibility; Key Facts)
 
-**Illustrative proceeds bridge.** With no investment terms supplied, assume a $500,000 check at $10 million post-money, 5% initial ownership diluted to 3%, and no follow-on. The 5× objective requires $2.5 million in cash within eight years, equivalent to $83.3 million in distributable equity proceeds at 3% ownership, $125 million at 2%, or $62.5 million at 4%. The sale scenarios assume zero net debt, other price adjustments, and senior claims, so enterprise value equals distributable equity consideration. All consideration is cash at closing. Stock, escrow, earnouts, rollover, and compensation are each $0. The sale prices illustrate sensitivity. The memo supplies no evidence that a buyer would pay them.
+**Illustrative proceeds bridge.** Assume a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted by 40% to 3%, and no follow-ons. The 5× target requires $2.5 million gross cash within eight years, or $83.3 million of distributable equity at 3% ownership. The hurdle rises to $125 million at 2% and falls to $62.5 million at 4%. With $5 million of illustrative net debt, the 3% case requires about $88.3 million of enterprise value. A $25 million cash sale at year eight returns $600,000 gross (1.2×), and a $100 million sale returns $2.85 million (5.7×), using the same debt assumption and a simple pro rata allocation before investor taxes. Capveon’s actual ownership, debt, fees, and preferences are unspecified, and the memo supplies no usable evidence for a realizable sale price. (Market & Traction; Key Facts)
 
-- **Modest sale, year 5.** $40 million in enterprise value yields $1.2 million to the holder, or 2.4× gross.
-- **Strong sale, year 7.** $100 million yields $3 million, or 6× gross. At 2% ownership, it yields $2 million, or 4×.
-- **Prolonged private, through year 8.** Growth plateaus, buyers stay away, public scale remains out of reach, and cash is reinvested. The holder retains the shares and realizes $0, or 0×.
+If growth plateaus, buyers stay away, public-market scale remains out of reach, and Capveon reinvests all available cash without a payout or eligible share purchase, the holder realizes $0 by year eight and retains the shares. Wind-down recovery would depend on any residual after obligations and preferences, which the memo does not quantify. (Market & Traction; Key Facts)
 
 ### Countercase
 
-GovSpend already covers meeting intelligence and opportunity ranking, while GovSignals offers cited bid analysis and drafting. A buyer could assemble enough of Capveon’s workflow from existing tools or license Capveon’s capability, capping what it would pay to own the company. The memo establishes meaningful overlap. It leaves open whether those substitutes can match the combined workflow and whether their cost puts the acquisition hurdle out of reach. The structural Pass override is therefore unproven. (Defensibility, Key Risks)
+GovSpend already searches meeting records and ranks opportunities, while GovSignals already offers cited bid analysis and proposal drafting. Those overlaps give a potential buyer a credible reason to build or license the missing features. An incomplete or delayed agency feed could also erode the lead time that would justify paying for Capveon’s workflow. This is enough to hold outreach pending evidence of incremental buyer value. The memo establishes neither a structural block nor a supported sale price that leaves the holder materially short, so the Pass gate does not apply. (Defensibility; Key Risks)
 
 ### Dimension Scores
 
@@ -25,12 +23,12 @@ GovSpend already covers meeting intelligence and opportunity ranking, while GovS
 |-----------|-------|
 | Counterparty rationale or source of cash | 12/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 9/20 |
+| Milestones and capital needed | 8/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 36/100** (Pass)
+**Total Score: 35/100** (Pass)
 
 ### Decisive diligence question
 
-Can a paid water-equipment deployment produce repeatable gains in lead time and bid-review labor that a procurement platform can translate into acquisition economics supporting at least $83.3 million in distributable equity proceeds? A buyer-backed assessment that quantifies those gains at its own distribution scale and prices the build and license options would move the action to Reach out if it supports the hurdle.
+Can a paid production pilot with a procurement intelligence platform demonstrate enough incremental gross profit to justify acquiring Capveon? Buyer-validated paid conversion and gross profit after integration and data-maintenance costs, measured against the platform’s existing workflow, would answer it. Move to Reach out if those results support an acquisition price range that clears the modeled holder hurdle after debt and dilution.

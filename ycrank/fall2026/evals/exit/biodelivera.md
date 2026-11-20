@@ -5,38 +5,36 @@
 
 ### Company case
 
-**Strategic acquisition is the strongest path.** A pharma company developing targeted therapies could buy BioDelivera to control its Guided Chimeric Vehicles platform across multiple programs. The memo documents AbbVie’s acquisition of Capstan and Lilly’s acquisition of clinical-stage Orna, showing that pharma buyers have acquired adjacent platforms. BioDelivera reports efficacy in tumors, muscle, and brain. The ownership case remains an inference: reproducible human selectivity and consistent potency in a buyer-priority program could make the platform valuable, while evidence of reuse across programs could justify owning it. The memo gives no buyer feedback or human validation for BioDelivera. (The Idea, Defensibility, Market & Traction, Key Risks)
+**Strategic acquisition** is BioDelivera’s strongest path. AbbVie’s purchase of Capstan and Lilly’s announced acquisition of Orna show that pharma buyers have paid for adjacent delivery capabilities. BioDelivera claims its Guided Chimeric Vehicles can carry multiple cargo types and reports efficacy in tumors, muscle, and brain. If BioDelivera demonstrates reproducible selectivity in humans for a lead program, a buyer could value exclusive control of GCV across several programs. That rationale depends on evidence that the platform can be reused and that owning it would create more value than licensing a single program. The memo supplies no measured buyer benefit or BioDelivera-specific acquisition interest. (*The Idea*, *Market & Traction*, *Defensibility*)
 
-The founders’ doctoral research and YC backing support a plausible path to a validation milestone. The memo gives no test budget, committed funding, runway, or timeline. BioDelivera describes GCV as proprietary, while the memo leaves IP assignment and transfer rights unverified. Program licensing could generate company revenue, but the memo offers no evidence that licensing receipts would fund shareholder payouts or that another route would pay this holder. (Founders & Team, Market & Traction, Defensibility, The Idea, Key Facts)
+The founders’ doctoral research and YC backing support an early-stage path toward that milestone. The memo gives no study budget, funding commitment, or timeline, and identifies manufacturing consistency as an open risk. The company describes GCV as proprietary and traces it to doctoral research. The memo leaves ownership, assignment, and transfer rights unverified. (*Founders & Team*, *Market & Traction*, *Defensibility*, *Key Risks*)
 
-**Proceeds bridge.** The memo supplies no investment terms. The illustrative case assumes a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-on checks. A 5× gross return within eight years requires $2.5 million to the investor, or $83.3 million in distributable equity proceeds at 3% ownership. The hurdle rises to $125 million at 2% and falls to $62.5 million at 4%. Orna’s reported headline price of up to $2.4 billion supplies no usable price range for BioDelivera given the stage difference, the undisclosed cash breakdown in the memo, and the lack of BioDelivera-specific buyer economics. (Market & Traction, Key Facts)
+**Illustrative proceeds.** A $500,000 check at a $10 million post-money valuation buys 5%, diluted by 40% relative to 3%, with no follow-ons. The eight-year 5× target is $2.5 million in gross cash before investor taxes. It requires $83.3 million of distributable equity at 3% ownership, $125 million at 2%, or $62.5 million at 4%. With $5 million of illustrative net debt, the 3% case requires about $88.3 million in enterprise value. Actual investor terms, debt, fees, and senior claims are unverified. Orna’s announced price of up to $2.4 billion concerns a clinical-stage platform and provides no usable BioDelivera price range. (*Market & Traction*, *Key Facts*)
 
-The sale scenarios assume zero net debt, no other price adjustments, and a simple pro rata waterfall with no preference deductions. Enterprise value equals distributable equity consideration under those assumptions. All consideration is cash at closing. Stock, escrow, earnouts, rollover, and compensation are each modeled at $0. The prices and timing are illustrative.
+| Eight-year scenario | Gross cash to the holder |
+|---|---:|
+| $25 million enterprise-value sale, less $5 million illustrative net debt | $600,000 (1.2×) |
+| $100 million enterprise-value sale, less $5 million illustrative net debt | $2.85 million (5.7×) |
+| Growth plateaus, buyers stay away, public scale stays out of reach, and available cash is reinvested | $0, with shares retained |
 
-| Scenario | Timing and consideration | Investor cash at 3% | Gross multiple |
-|---|---|---:|---:|
-| Modest sale | Year 5, $50 million cash | $1.5 million | 3× |
-| Strong sale | Year 8, $100 million cash | $3 million | 6× |
-| Prolonged private | Through year 8, growth plateaus, buyers stay away, public scale remains out of reach, and cash is reinvested | $0, with shares still held | 0× realized |
-
-At 2% ownership, the modeled strong sale yields $2 million, or 4×. The memo leaves both attainable price and eventual ownership unresolved.
+A sponsor buyout lacks evidence of predictable cash generation. A secondary lacks evidence of eligible demand, and an IPO lacks evidence of operating scale and resale readiness. A licensing deal could bring cash into BioDelivera, but the memo offers no evidence of a funded dividend or buyback that would reach the holder. In a wind-down, any holder recovery would come from the residual after obligations and preferences, which the memo gives no basis to estimate. (*The Idea*, *Market & Traction*, *Key Facts*)
 
 ### Countercase
 
-A pharma company could get the delivery capability it needs through a program-specific license or an existing competing platform. AbbVie’s exclusive options with Umoja and its ownership of Capstan make that countercase concrete in overlapping indications. BioDelivera’s reported breadth leaves open whether a buyer would pay for control across programs. This gap keeps the case at Watch. The memo establishes neither a binding price cap nor a probable eight-year period without a credible route to cash, so the Pass overrides do not apply. (The Idea, Defensibility, Key Risks)
+AbbVie already owns Capstan and holds exclusive options with Umoja. Those alternatives reduce its incentive to buy BioDelivera in overlapping indications, and program licensing gives another pharma buyer a way to secure access with a narrower commitment. BioDelivera’s reported efficacy leaves human selectivity unresolved, so the case for paying to own the broader platform remains speculative. This supports Watch. The memo establishes neither a structural barrier to a sale nor a supported sale price that would leave the holder materially short, so the Pass gate does not apply. (*The Idea*, *Defensibility*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 14/30 |
+| Counterparty rationale or source of cash | 16/30 |
 | Plausible investor proceeds | 8/30 |
 | Milestones and capital needed | 9/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 38/100** (Pass)
+**Total Score: 40/100** (Pass)
 
 ### Decisive diligence question
 
-Can BioDelivera show a funded validation plan backed by a pharma buyer that explains what human selectivity and manufacturing consistency results would justify acquiring GCV over licensing a single program, at a conditional cash price capable of clearing the holder’s hurdle? A written plan with measurable success criteria and buyer economics supporting that price would move the action to Reach out.
+What acquisition price would a pharma buyer substantiate after BioDelivera demonstrates reproducible human selectivity in one lead program? Buyer feedback that ties a credible price range to that milestone and explains the value of owning GCV beyond a single-program license would answer it. Move to **Reach out** if the milestone has a plausible funding path and the implied cash payable to the holder can clear $2.5 million within eight years under defensible dilution and payment assumptions.

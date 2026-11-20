@@ -5,33 +5,23 @@
 
 ### Company case
 
-Strategic acquisition is the strongest path. A financial-crime software incumbent could buy Hickory’s institution-specific policy and audit workflows to deploy them across its customer base. The ownership case depends on Hickory proving it can replicate those workflows across banks and that buying the capability would save the acquirer meaningful time or cost compared with building or licensing it. (*The Idea*, *Defensibility*)
+Strategic acquisition is Hickory’s strongest path. An established financial-crime software vendor could buy Hickory’s institution-specific policy engine and audit workflows to extend its platform. Hickory describes cited evidence retrieval, action logs, and human approval. Ownership could be worth paying for if a buyer could deploy the same software across its customers and deliver measurable savings faster than building or licensing comparable workflows. The memo supplies no buyer economics or transaction evidence. *(The Idea, Defensibility)*
 
-The memo records a public launch and reports that Hickory’s compliance lead used an internal AI compliance tool at Seis. Hickory claims 10× faster queue processing, with no published benchmark method in the memo. A paid production deployment that measures analyst time saved after qualified review and confirms audit acceptance would test whether the workflow creates value. The reported financing entries do not establish the budget or runway for that test. The memo supplies no usable transaction terms, buyer valuation evidence, or independent fallback. (*Founders & Team*, *Market & Traction*, *Key Risks*, *Key Facts*)
+A paid bank deployment that measures investigation time and correction rates under the documented data restrictions would test that case. The YC launch, reported seed backing, and prior internal use of an AI compliance tool at Seis make a narrowly scoped test plausible. The memo gives no funded production plan, test budget, or runway. It also leaves IP ownership, contract assignment, and rights to transfer customer configurations and audit data unverified. Sponsor buyout and company-funded payouts lack evidence of cash generation, a secondary lacks eligible share demand, and an IPO lacks evidence of operating scale and reporting readiness. *(Market & Traction, Founders & Team, Key Risks, Key Facts)*
 
-**Proceeds bridge.** With no terms supplied for this check, the illustrative case assumes a $500,000 investment at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-on checks. The investor needs $2.5 million in gross cash within eight years. That requires $83.3 million in distributable equity proceeds at 3% ownership, $125 million at 2%, or $62.5 million at 4%.
-
-The sale scenarios below are assumptions. They use all-cash enterprise values with zero net debt, fees, or other adjustments, so enterprise value equals distributable equity consideration. The modeled waterfall is pro rata with no senior claims. Stock, escrow, earnouts, rollover, and compensation are each zero.
-
-| Scenario | Timing and outcome | Investor cash | Gross multiple |
-|---|---|---:|---:|
-| Modest sale | Year 5 at $40 million enterprise value | $1.2 million | 2.4× |
-| Strong sale | Year 7 at $100 million enterprise value | $3.0 million | 6.0× |
-| Prolonged private | Through year 8, growth plateaus, buyers stay away, public scale remains out of reach, and cash is reinvested. The investor retains all shares. | $0 | 0.0× |
-
-The strong scenario clears the hurdle at 3% ownership and yields 4.0× at 2%. The memo offers no buyer economics or comparable sale price to establish that the strong scenario is plausible. (*Market & Traction*, *Key Facts*)
+**Illustrative proceeds.** Assume a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted by 40% to 3%, and no follow-ons. The eight-year 5× target is $2.5 million gross, requiring $83.3 million in distributable equity at 3% ownership, $125 million at 2%, or $62.5 million at 4%. At 3%, an all-cash sale in year eight at $25 million enterprise value yields $600,000 (1.2×), and a $100 million sale yields $2.85 million (5.7×), each after $5 million of assumed net debt and before taxes, with fees and senior claims unmodeled. On those assumptions, the enterprise-value hurdle is $88.3 million. The memo supports no realizable sale range. If growth plateaus, buyers stay away, public scale remains out of reach, and available cash is reinvested without a secondary or payout, the holder realizes $0 and retains the shares. *(Market & Traction, Key Facts)*
 
 ### Countercase
 
-Nasdaq Verafin already offers financial-crime investigation agents, and Hummingbird offers agents for research and case documentation. An incumbent could extend those capabilities or license a workflow without buying Hickory. Hickory’s terms also say the software has no payment-rail integrations and is unsuitable for submission of consumer financial-account information, which narrows the monitoring-replacement claim. This evidence weakens the ownership case, but it establishes neither an adequate substitute for Hickory’s full workflow nor a price ceiling below the proceeds hurdle. The Pass override does not apply. (*Defensibility*, *Key Risks*)
+Nasdaq Verafin already offers investigation agents, and Hummingbird offers research and case-documentation agents. A buyer could cover much of Hickory’s current workflow with existing tools. Hickory claims 10× faster queue processing without a published benchmark method. Its documented terms require qualified review, specify no payment-rail integrations, and say the software is unsuitable for consumer financial-account information. Those terms carry more weight for current deployment scope than the monitoring-replacement pitch. They weaken the case for a premium acquisition but do not establish a structural block on selling the narrower workflow product or a supported sale price that leaves the holder materially short. The Pass gate is untriggered. *(Defensibility, Key Risks)*
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 11/30 |
+| Counterparty rationale or source of cash | 12/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 8/20 |
+| Milestones and capital needed | 7/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
@@ -39,4 +29,4 @@ Nasdaq Verafin already offers financial-crime investigation agents, and Hummingb
 
 ### Decisive diligence question
 
-Can Hickory show that owning its workflow would create enough value for a compliance-platform buyer to support a sale above the proceeds hurdle? A paid bank deployment with verified labor savings after qualified review and acceptable audit results would ground that case. Move to Reach out if buyer-specific economics at a plausible rollout scale support a price above the roughly $83.3 million hurdle at 3% ownership. Otherwise, stay on Watch.
+What acquisition value could a strategic buyer justify from the measured results of a paid bank deployment? A credible build-versus-buy analysis using reviewer time and correction rates under the documented data restrictions would move the action to Reach out if it supports a sale range that clears the holder’s eight-year cash target under plausible dilution. *(The Idea, Defensibility, Key Risks)*

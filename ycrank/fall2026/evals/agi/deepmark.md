@@ -5,28 +5,28 @@
 
 ### Company case
 
-**Path A — Scarce complements.** If cheaper voice generation increases automated calling, receiving contact centers may need a reliable way to verify which agent is calling and what it is authorized to do. DeepMark says its live watermark carries an agent ID through the phone network so the receiver can look up the issuer and authorization. The founders’ peer-reviewed robustness benchmark and prior speech-watermarking research support their ability to build and test the technology. The memo gives no comparative results showing reliable recovery on representative production calls. At seed, an independent qualification trial could establish that mechanism. (The Idea, Key Risks, Founders & Team)
+**Path A — Scarce complements.** If cheap voice models increase both legitimate AI calls and impersonation attempts, banks and contact centers may place more value on verifying which organization authorized an agent. DeepMark’s proposed rail embeds an agent credential in speech for the recipient to recover after phone-network transmission. The constraint is reliable verification across real call routes, where transcoding, compression, and noise can impair recovery. The memo describes a concrete mechanism and a published robustness benchmark, but gives no representative recovery results showing that this constraint binds for buyers or that DeepMark clears it. (*The Idea*, *Key Risks*)
 
-The memo records Vigil’s C2PA registration, which gives DeepMark an interoperability foothold. Durable value capture would depend on receivers gaining reliable access to authorized agents through DeepMark that competing systems struggle to match. The memo gives no issuer or verifier adoption counts. DeepMark reports one production voice-platform license with undisclosed scope and value. Confident Security’s testimonial supports production audio watermarking and leaves end-to-end call authorization unverified. (Defensibility, Market & Traction, Key Facts)
+Vigil’s C2PA registration gives DeepMark a route into standards-based provenance. The memo documents neither exclusive access nor a base of issuers and verifiers that makes the rail harder to replace. DeepMark reports a signed voice-platform license in production, with the buyer, scope, and terms undisclosed. Confident Security’s testimonial supports production use of low-latency audio watermarking. It leaves open whether call recipients use it to verify agent authorization. The founders’ published research and the live authentication launch show progress from research to product. (*Defensibility*, *Market & Traction*, *Founders & Team*)
 
-Under a platform-licensing scenario, each new issuer could increase the value of existing receiver integrations if those receivers can verify its agents without bespoke work. The memo is silent on pricing, verification volume, and the marginal cost of integration and support, so scale economics takes the default. Path B remains unproven because the memo gives no delivery-labor comparison or evidence of newly viable transactions. (The Idea, Key Facts, Key Risks)
+The expansion unit is an issuing-platform integration with usable verification at the receiving side. SDK and API delivery give DeepMark a plausible route to repeat deployments. Repeatability depends on verifier reuse and the work required to integrate and support each side. The memo gives no measurements of that work, call volumes, or realized prices. Low confidence reflects how much the scarcity and control case still depends on these untested assumptions. (*The Idea*, *Key Risks*, *Key Facts*)
 
 ### Countercase
 
-Resemble markets phone-compatible verification and announced a Telnyx deployment, while AudioSeal gives well-funded entrants a starting point for watermarking. Voice platforms and receiving contact centers control their respective integration points. If they can get equivalent authorization and call coverage from a bundled rival, DeepMark could lose the licensing economics even as demand for verification grows. The memo establishes credible competitive pressure and leaves functional substitution untested. That uncertainty keeps the case at Watch. Demonstrated easy substitution would trigger the Path A override. (Defensibility, Market & Traction, Key Risks)
+Resemble AI markets phone-compatible watermarking and real-time verification and has announced a Telnyx deployment. Voice platforms also have an open-source starting point in AudioSeal. If buyers can obtain equivalent authorization and recovery through a rival or their own integration, DeepMark’s two-sided deployment burden could outweigh the value of adopting its rail. The memo contains no buyer comparison establishing equivalent outcomes or observed switching, so the substitution risk warrants Watch under the unresolved-condition gate. (*Defensibility*, *Market & Traction*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 13/25 |
-| Durable value capture | 7/25 |
-| Customer demand | 8/20 |
-| Team and execution | 10/15 |
-| Scale economics | 4/15 |
+| Path-specific thesis fit | 11/25 |
+| Durable value capture | 8/25 |
+| Customer demand | 10/20 |
+| Team and execution | 9/15 |
+| Scale economics | 5/15 |
 
-**Total Score: 42/100** (Pass)
+**Total Score: 43/100** (Pass)
 
 ### Decisive diligence question
 
-Can DeepMark win a paid production rollout with an independent voice platform and contact center after a head-to-head qualification against the best available substitute on the same call traffic? The trial should measure correct authorization decisions, false accepts, missed verifications, and integration effort across representative routes. A paid rollout tied to a buyer-verified advantage that the rival cannot readily match would support Reach out if the updated score reaches 65 with at least medium confidence. Equivalent coverage and reliability from a readily deployable substitute that the buyer prefers would move the case to Pass. (The Idea, Key Risks, Market & Traction)
+Will an independent voice platform and receiving contact center choose DeepMark for a paid production rollout after a head-to-head test on representative call routes? Reach out if DeepMark meets the buyer’s recovery and authorization requirements where the best credible substitute falls short, and the buyer commits at a price that covers delivery. Pass if the substitute meets the same requirements at comparable total cost. (*The Idea*, *Market & Traction*, *Key Risks*)

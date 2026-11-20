@@ -5,38 +5,38 @@
 
 ### Company case
 
-Strategic acquisition by a legal workflow software vendor is the strongest path. Mike‑1 launched as a free research preview. It combines contract review with a workspace that retains prior redlines and matter history, and it routes matters requiring professional judgment to independent counsel. Index Law reports one contract turnaround under 60 minutes and quotes up to 80% below comparable traditional law-firm quotes. Those reports leave repeat usage, realized savings, and paid conversion unverified. (The Idea, Defensibility, Market & Traction, Key Facts)
+Strategic acquisition is the strongest path. A contract management vendor could buy Mike‑1 to add contract review, redlining, and counsel handoffs to its existing customer workflow. The memo describes a workspace that retains documents, redlines, and matter history. Ownership could save the buyer time and bring recurring customer relationships if paid customers repeatedly use that workflow and those relationships can transfer. Buyer interest and the value of those benefits remain unverified. (The Idea, Defensibility)
 
-A buyer could pay to own the integrated workflow if it could bring it to customers faster than building or licensing equivalent capabilities. The seed milestone is a paid customer cohort that repeatedly uses both company-specific review and counsel handoffs, with measurable time or cost savings after accounting for rework. The live preview supports testing that milestone. The memo provides no runway, cost estimate, or funded plan for reaching it. A software acquisition could preserve independent counsel referrals, but IP ownership, customer-data transfer rights, and continuity of counsel arrangements are unverified. The memo offers no independently supported fallback that could pay this holder. (The Idea, Defensibility, Market & Traction, Key Risks)
+The memo documents a public research preview with free access and advertised paid plans. Index Law reports one contract turned around in under an hour and quotes up to 80% below comparable law-firm quotes. A milestone that would strengthen the acquisition case is a paid customer cohort that renews and repeatedly uses the contract workflow and counsel handoffs over six months. The preview and founder-led onboarding give Index Law a way to test that milestone. Paid conversion, retention, burn, and the capital needed to reach it remain unknown. Independently billed legal advice gives a buyer a plausible way to acquire the software business while preserving the counsel arrangement, subject to customer data rights and contract terms. (The Idea, Market & Traction, Key Risks)
 
-The illustrative seed case assumes a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-on checks. The eight-year 5× objective requires $2.5 million in holder cash, or $83.3 million in distributable equity proceeds at 3% ownership. The equity hurdle is $125 million at 2% and $62.5 million at 4%. Advertised subscription prices provide no basis for estimating a purchase price. (Key Facts)
+**Illustrative proceeds.** A $500,000 check at a $10 million post-money valuation buys 5%, diluted to 3% after 40% relative dilution, with no follow-ons. The eight-year 5× target is $2.5 million gross. It requires $83.3 million of distributable equity at 3% ownership, $125 million at 2%, or $62.5 million at 4%. With $5 million of illustrative net debt, the 3% case requires $88.3 million of enterprise value. The memo leaves realizable sale prices, actual ownership, debt, fees, and senior claims unevidenced. (Key Facts)
 
-The sale scenarios below assume zero net debt and transaction costs, so enterprise value equals distributable equity consideration. They assume a simple pro rata waterfall with no preference adjustments. All consideration is cash at closing. Stock, escrow, earnouts, rollover, and compensation are each assumed to be $0. The prices and timing are scenario assumptions.
+| Eight-year scenario | Gross cash to the holder at 3% |
+|---|---:|
+| $25 million enterprise value, less $5 million of net debt | $600,000, or 1.2× |
+| $100 million enterprise value, less $5 million of net debt | $2.85 million, or 5.7× |
+| Growth plateaus, buyers stay away, public scale remains out of reach, and available cash is reinvested | $0, with shares retained |
 
-| Scenario | Timing | Distributable equity | Holder cash at 3% | Gross multiple |
-|---|---|---:|---:|---:|
-| Modest sale | Year 5 | $40 million | $1.2 million | 2.4× |
-| Strong sale | Year 7 | $100 million | $3.0 million | 6.0× |
-| Prolonged private | Through year 8 | No sale or payout | $0 | 0× |
+The sale scenarios assume cash at closing and a simple pro rata distribution before investor taxes, with zero fees and senior claims for illustration. In a wind-down, the holder would receive only its share of any residual after obligations and preferences. The memo supplies no basis to estimate that residual.
 
-The strong sale clears the hurdle at 3% and falls short at 2%, where it returns $2 million. In the prolonged-private scenario, growth plateaus, buyers stay away, public scale remains out of reach, and available cash is reinvested. The investor still holds the shares at year eight.
+The other routes lack independent support. A sponsor buyout lacks evidence of predictable cash generation. A secondary lacks eligible-share demand and terms. An IPO lacks evidence of public-market scale or resale readiness. A dividend or buyback lacks demonstrated distributable cash and a funded payout plan. (Market & Traction, Key Facts)
 
 ### Countercase
 
-Anthropic’s configurable legal plugin already covers basic contract review and NDA triage. If a buyer can reproduce the rest of Mike‑1’s value by adding playbooks and arranging counsel referrals, a build or license could cap what it would pay for ownership. The reported one-off turnaround and quote comparisons leave that substitution risk open. The memo establishes a substitute for part of the workflow, with no evidence that it caps the price of the full asset below the hurdle. The Pass override is therefore untriggered. The missing evidence on ownership economics keeps the action at Watch. (Defensibility, Market & Traction)
+A buyer could use an existing legal AI plugin for basic contract review and partner for counsel referrals. The memo identifies a configurable substitute for basic review, while repeat counsel usage and transfer rights for confidential matter history remain unverified. That could leave little worth acquiring at the required price. The substitute covers part of Mike‑1’s workflow, and the memo establishes neither a structural closing barrier nor a supported sale range that leaves the holder materially short. The Pass gate remains untriggered. (Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 12/30 |
+| Counterparty rationale or source of cash | 11/30 |
 | Plausible investor proceeds | 8/30 |
 | Milestones and capital needed | 9/20 |
-| Transaction feasibility | 5/10 |
+| Transaction feasibility | 6/10 |
 | Independent alternatives | 2/10 |
 
 **Total Score: 36/100** (Pass)
 
 ### Decisive diligence question
 
-Can repeat paid use of Mike‑1’s company-specific review and counsel handoffs create enough value over building or licensing to justify a strategic purchase that clears the holder’s proceeds hurdle? A buyer-side comparison grounded in paid cohort results, using workflows and assets that could transfer, would move the action to Reach out if it supports roughly $83.3 million in distributable equity value at the assumed 3% stake. Evidence that an ordinary build or license captures the same value and caps the price materially below that hurdle would move it to Pass.
+Would a contract management vendor value Mike‑1’s transferable customer relationships and repeat counsel workflow at a cash acquisition price that clears the holder’s eight-year target? Buyer-side economics grounded in paid cohort retention and repeat counsel use would move the action to Reach out if they support roughly $88.3 million in enterprise value under the illustrative terms, or the equivalent hurdle under actual shareholder terms.

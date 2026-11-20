@@ -1,30 +1,30 @@
 ﻿# Asakana -- Hypergrowth Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Low
+**Evidence confidence:** Medium
 
 ### Company case
 
-**Path B — Repeatable sales or partner distribution with account expansion.** The first buyer is a seafood distributor whose staff rekey restaurant orders into an ERP. One customer reported roughly 60 such orders a day and said reps spent about 30% of their day on the work. Asakana reports live U.S. seafood distributor deployments and says they returned 40% or more of order-desk time to selling. The buyer report establishes a recurring problem, and the company’s deployment claims give an early signal of fit. Paid usage and repeatable onboarding remain unverified. (The Idea, Market & Traction, Key Facts)
+Usage-based expansion is Asakana’s strongest path. U.S. seafood distributors have a daily job that could generate recurring billable volume. Staff receive restaurant orders through calls and messages, interpret shorthand, and enter orders into an ERP. One customer reported about 60 such orders per day and said reps spent about 30% of their day on the work. Asakana reports live deployments and says they freed up 40% or more of order-desk time for selling. Its published terms specify a commission on processed transaction volume at individually negotiated rates. (The Idea; Market & Traction)
 
-**Growth scenario.** If referrals and inbound demos can repeatedly win similar distributors, a reusable ERP setup could get order capture live. More processed orders could then grow commission revenue, and returns or credits could add workflows. In a second geography, multilingual intake could preserve the core workflow, while local order shorthand, catalog mappings, ERP connections, and messaging consent would still need validation. The memo documents volume-based pricing terms. Realized commissions and paid expansion remain unknown. (The Idea, Defensibility, Key Risks, Key Facts)
+If a distributor starts with one order stream and then routes more of its existing orders through Asakana, commission revenue could grow within the account. The memo gives no account-level record of payments, repeat use, or increased processed volume. Multilingual intake and the ability to write to an existing ERP make the workflow plausible in other markets, though ERP compatibility and outbound messaging consent remain unresolved. The first link likely to break is getting the next distributor live on a paid workflow with a reusable integration. The memo identifies referral and demo channels but gives no account-level record from either channel through paid activation. (The Idea; Market & Traction; Key Risks)
 
 ### Countercase
 
-Asakana could save distributors time while taking on substantial work itself. Legacy ERPs without APIs require custom connections, and ambiguous orders go to distributor staff for review. The next account could require fresh integration and catalog setup, while each additional order adds processing costs and may add support or buyer review time. The memo gives neither the costs Asakana incurs nor the commissions it collects, so the contribution from added volume is unknown. The Pass gate remains unmet because the evidence does not establish that costs scale proportionally without a credible path to improvement. A measured rollout would resolve more than a conversation today. (The Idea, Key Risks, Key Facts)
+The reported time savings could be real while the economics remain specific to each deployment. Asakana says legacy ERPs without APIs require custom connections, and ambiguous orders still go to distributor staff for review. If each account requires fresh integration work and ongoing support, higher order volume could generate too little incremental commission to cover Asakana’s delivery costs. The memo provides no rollout hours, exception rates, or per-order costs. The structural downside gate does not apply because the evidence identifies integration friction without establishing that delivery costs rise proportionally across credible deployments. (The Idea; Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 9/25 |
+| Global buyer demand | 14/25 |
 | Repeatable acquisition and onboarding | 9/25 |
 | Retention and customer expansion | 7/20 |
 | Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 6/10 |
+| Evidence of fit in the first buyer segment | 7/10 |
 
-**Total Score: 38/100** (Pass)
+**Total Score: 44/100** (Pass)
 
 ### Decisive diligence question
 
-Can an independent seafood distributor outside the U.S., acquired through referrals or inbound, go live on a reusable ERP setup and keep paying through its normal ordering cycle? A rollout showing recurring paid volume, measured setup effort, exception rates, and positive contribution after acquisition, integration, processing, and support costs would move the action to **Reach out**. (The Idea, Key Risks, Key Facts)
+Can the next independent U.S. seafood distributor go live on a paid workflow using a reused ERP integration, then increase its billable order volume over several normal ordering cycles? Move to Reach out if deployment and billing records show that progression and the added commission covers the added processing and support costs. Keep Watch if the rollout leaves paid repeat use or delivery effort unresolved.

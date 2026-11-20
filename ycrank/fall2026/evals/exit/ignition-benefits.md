@@ -1,40 +1,38 @@
 ﻿# Ignition Benefits -- Exit Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Medium
+**Evidence confidence:** Low
 
 ### Company case
 
-Strategic acquisition by an established employee-benefits broker is the strongest path. Alliant’s announced agreement to acquire Nava shows that a broker has pursued ownership of an AI-enabled benefits business. Ignition says carriers pay it for brokerage, and its published customer testimonials report that AWM Capital and Light Labs secured plans $156,914 and $113,115 below their respective renewal quotes. Those figures show reported employer savings. A buyer’s reason to own Ignition would be to capture the carrier commissions on a retained book of business and deploy its renewal workflow across more accounts. That ownership advantage remains an inference. (The Idea, Defensibility, Market & Traction)
+Strategic acquisition is the strongest path. An established benefits broker could buy Ignition to retain the carrier commissions from its employer accounts and bring its renewal workflow into the buyer’s brokerage. Ownership would make sense if the acquired accounts produce durable commissions after servicing costs. Licensing the software could provide the workflow alone. Alliant’s announced agreement to acquire Nava is evidence that a strategic buyer would pursue an adjacent AI-enabled brokerage. Ignition says carriers pay its commissions, and its published customer testimonials report that AWM’s negotiated plan came in $156,914 below its renewal quote and Light Labs saved $113,115 against its renewal quote. Those savings show why employers might choose Ignition. The buyer’s economics depend on how much commission the book retains and what it costs to service. (The Idea; Defensibility; Market & Traction)
 
-The operating milestone is a full repeat-renewal cycle that shows how many employers stay, how much commission Ignition collects, and what it costs to serve those accounts. Mango’s reported use of Ignition for ongoing benefits administration and the disclosed investor backing make that test plausible at seed. The memo gives no round size, burn, or runway to establish that the test is funded. It also gives no transaction terms showing whether customer relationships, carrier arrangements, and claims-data rights would transfer. No independent route to holder cash has usable support. (Defensibility, Market & Traction, Key Risks, Key Facts)
+The operating milestone is a cohort completing two renewal cycles with measured employer retention, retained carrier commissions, and contribution margin after servicing. Ignition has already placed plans and managed enrollment changes, giving it a practical path to measuring those results. Reported investor backing supports the early operating effort, while funding amount, burn, and runway remain unknown. Ignition reports operating as a licensed brokerage and handling ongoing benefits administration. An entity acquisition is a plausible structure, with carrier appointments, customer contracts, change-of-control consents, and claims-data rights still open. (Market & Traction; Defensibility; Key Risks)
 
-No check terms are supplied, so the bridge uses a $500,000 check at $10 million post-money, diluted from 5% to 3%, with no follow-on and a $2.5 million cash objective within eight years. The hurdle is $83.3 million in distributable equity proceeds at 3%, $125 million at 2%, and $62.5 million at 4%. The sale scenarios assume zero net debt and no other enterprise-to-equity adjustments, so enterprise value equals equity consideration. They assume pro rata allocation, no preference adjustment, and all consideration paid in cash at closing. Stock, escrow, earnouts, rollover, and compensation each contribute $0. Multiples are gross, before investor taxes.
+**Illustrative proceeds.** Assume a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted by 40% to 3%, no follow-ons, and a $2.5 million gross cash target within eight years. At 3%, the target requires $83.3 million of distributable equity, or $88.3 million in enterprise value with an illustrative $5 million of net debt. The equity hurdle is $125 million at 2% ownership and $62.5 million at 4%.
 
-| Illustrative outcome | Timing | Holder cash at 3% | Gross multiple |
-|---|---|---:|---:|
-| Modest sale at $50 million enterprise value | Year 5 | $1.5 million | 3× |
-| Strong sale at $100 million enterprise value | Year 8 | $3 million | 6× |
-| Prolonged private ownership with growth plateauing, buyers staying away, public scale out of reach, and cash reinvested | Through year 8 | $0, with shares retained | 0× |
+- A $25 million enterprise-value sale at year eight yields $600,000 gross, or 1.2×, after the assumed net debt.
+- A $100 million sale at year eight yields $2.85 million gross, or 5.7×, on the same basis. At 2% ownership, it yields $1.9 million, or 3.8×.
+- If the employer book plateaus, buyer interest fails to emerge, public scale stays out of reach, and all available cash is reinvested with no secondary or payout, eight years of private operation yield $0 realized and the holder retains the shares. Any wind-down recovery would be limited to the residual after obligations and preferences. The memo gives no basis to estimate that residual.
 
-The strong sale clears the hurdle at 3% and yields only $2 million at 2%. Both sale prices are scenario assumptions. The memo supplies no usable acquisition price or commission economics to establish a plausible valuation range. (Defensibility, Market & Traction, Key Facts)
+The sale figures assume pro rata cash at closing before investor taxes. Actual ownership, debt, fees, preferences, and deal terms are unknown. The memo gives no Nava deal price or Ignition commission and margin figures to anchor a realizable range, so the strong-sale scenario is a hurdle test. A sponsor buyout lacks evidence of cash generation and financing capacity. A secondary lacks eligible-share demand, an IPO lacks a path to public scale, and a dividend or buyback lacks evidence of distributable cash. (The Idea; Defensibility; Market & Traction; Key Facts)
 
 ### Countercase
 
-An incumbent could build or license a comparable renewal workflow and keep the commissions on its existing book. Nava already offers overlapping capabilities, Light Labs kept its Gusto payroll while switching brokers, and Ignition says it obtained competing quotes for AWM despite missing claims history. The memo establishes no exclusive data rights. Together, these facts weaken the case for paying an acquisition premium. They leave open whether a profitable, retained brokerage book could justify the required price, so neither structural Pass override applies. (The Idea, Defensibility, Key Risks)
+Alliant’s Nava agreement also supports the strongest countercase. If it closes, Alliant will have a similar AI-assisted renewal and service capability. Other brokers could build or license comparable tools. Ignition’s case for ownership therefore rests on a durable, transferable employer book, and the memo gives no cohort retention figures or evidence of exclusive claims-data rights. The customer savings could coexist with a book that is too small or costly to service to clear the holder’s hurdle. The memo establishes neither a structural block nor a supported sale price that leaves the holder materially short. Watch applies while the price case remains unsubstantiated. (Defensibility; Market & Traction; Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 19/30 |
+| Counterparty rationale or source of cash | 18/30 |
 | Plausible investor proceeds | 8/30 |
 | Milestones and capital needed | 11/20 |
-| Transaction feasibility | 5/10 |
+| Transaction feasibility | 6/10 |
 | Independent alternatives | 2/10 |
 
 **Total Score: 45/100** (Neutral)
 
 ### Decisive diligence question
 
-Can Ignition demonstrate through a completed repeat-renewal cohort that owning its brokerage book could justify at least $83.3 million in distributable equity proceeds at 3% ownership? Verified retention, collected commissions, and servicing costs would move the action to Reach out if a buyer could retain those economics after transfer and a credible scale-up case supports the required price after allowing for dilution. Until then, Watch.
+What cash-at-close price range would a strategic broker underwrite for Ignition’s transferable commission book after two renewal cycles? A buyer indication tied to cohort retention, retained commissions, servicing margins, and transfer terms would answer it. Move to **Reach out** if that range credibly supports $2.5 million in holder cash within eight years under defensible dilution and deal terms. Stay on **Watch** while the range is unsupported. Move to **Pass** if the strongest supported economics leave the holder materially short.

@@ -1,32 +1,30 @@
 ﻿# Bayworks -- Hypergrowth Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Low
+**Evidence confidence:** Medium
 
 ### Company case
 
-**Path B, repeatable sales with account expansion.** The initial buyer is a dealership group’s fixed-operations leader. Technicians use Bayworks to dictate warranty narratives against assigned repair orders, add evidence, and review drafts before saving them to the dealership management system. A demo intake form, dealer-issued accounts, and a PBS extension give Bayworks a concrete route from sales to activation. If the first installation saves technicians time and can be reused across a group, one sale could lead to more locations and recurring repair volume. Which channel won the reported groups and how much setup each required remain open. (The Idea, Market & Traction)
+Repeatable direct sales to dealership groups is Bayworks’ strongest path. The fixed-operations buyer has a recurring job worth improving: technicians dictate against an assigned repair order, add evidence, and review a manufacturer-formatted warranty narrative before saving it to the dealership management system. The memo documents a dealership-specific demo form, dealer-issued technician accounts, and a downloadable PBS extension. If the same integration and setup can be reused, one group sale could bring multiple locations live with modest effort per site. The underlying job plausibly travels to other markets, with portability dependent on local dealer-system compatibility and manufacturer formats. (The Idea, Market & Traction, Key Risks)
 
-Harvey Auto Group’s fixed-operations director endorsed the product, a concrete signal of initial fit. Bayworks reports six dealership groups, more than 50,000 repairs, and nearly seven figures in cARR within four months. The memo leaves the live, paying share of cARR undisclosed. Aggregate repair counts give an early usage signal, while retention and paid expansion remain unverified at the group level. (Market & Traction, Key Risks)
-
-The cross-market scenario assumes a second country’s dealers have the same warranty documentation job and can use the same core workflow. Bayworks would need to validate local manufacturer requirements, speech recognition, and repair-order writeback. Contribution could improve if a group sale and a reusable integration support multiple locations. The costs to measure are sales effort per group, setup and training per location, and processing and support per repair. The memo leaves cross-market demand and marginal contribution unmeasured. (The Idea, Market & Traction, Key Risks)
+Bayworks reports six dealership groups, more than 50,000 repairs, and nearly seven figures in cARR within four months. The memo also records an endorsement from Harvey Auto Group’s fixed-operations director. Together, these support early buyer commitment and workflow adoption. The share of cARR tied to live, paying deployments is undisclosed, and the aggregate repair count leaves repeat use and paid expansion by group unverified. (Market & Traction, Key Risks)
 
 ### Countercase
 
-The reported footprint could reflect a handful of group commitments whose locations still take substantial work to activate. The PBS-specific extension shows dependence on dealership software, and the memo flags inconsistent dealer records and noisy shop-floor inputs as potential sources of extra support. If each rollout needs custom integration and ongoing manual help, delivery effort could rise in step with revenue. The Pass gate requires evidence that this burden persists without a supported path to improvement. A paid rollout in a second market is the clearest test. (Market & Traction, Key Risks)
+The reported 80-plus locations could reflect large rollouts within a few group contracts while each new group still requires founder-led sales and custom integration. The PBS extension makes dealer-system dependency concrete, and the memo provides no comparable rollout hours or marginal delivery costs. Even assuming strong fit, the first link likely to break is getting the next independent group from sale to paid production with reusable setup and bounded effort. That link remains testable, so the structural downside gate does not apply. (The Idea, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 9/25 |
-| Repeatable acquisition and onboarding | 11/25 |
+| Global buyer demand | 13/25 |
+| Repeatable acquisition and onboarding | 12/25 |
 | Retention and customer expansion | 7/20 |
 | Contribution as volume grows | 7/20 |
 | Evidence of fit in the first buyer segment | 7/10 |
 
-**Total Score: 41/100** (Pass)
+**Total Score: 46/100** (Neutral)
 
 ### Decisive diligence question
 
-Can an independent dealership group outside the U.S. pay for Bayworks, use it on recurring warranty repairs, and bring a second location live with the same integration and less setup effort? A paid deployment with location-level usage records and measured sales, setup, and support effort would move the action to Reach out if it shows the workflow travels and the second location is easier to serve.
+Can two independent dealer groups on the same supported system reach paid production through the same demo-to-live process, with onboarding handed off from the founders? Account-level records showing payment, live repair-order writeback, and comparable setup and support hours would move the action to **Reach out** if they show the integration and rollout steps were reused with bounded effort.

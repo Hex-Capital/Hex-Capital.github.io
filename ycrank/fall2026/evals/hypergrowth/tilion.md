@@ -5,26 +5,26 @@
 
 ### Company case
 
-**Path A, product-led adoption.** The initial buyer is an engineering team running recurring browser-based data collection or monitoring. A developer can discover Fortress through GitHub or a package registry. If Tilion Cloud reliably completes those jobs, the team could move recurring workloads to the hosted product and spend more as it adds jobs. The memo records 804 GitHub stars and a 0.11-second median session lifecycle in a pre-release benchmark. It reports 100,000 Fortress installs, and Tilion claims use by engineers at more than 170 companies and millions of daily operations. These are early signals of developer interest and technical performance. Paid activation, initial buyer commitment, and repeat use by individual accounts remain unverified. (*The Idea*, *Market & Traction*)
+Usage-based expansion is Tilion’s strongest path. The first buyer is an engineering team running recurring browser-agent jobs for data collection or monitoring. Tilion announced Cloud pricing of $0.03 per browser-hour and says it can reassign a failed session’s task. If an initial workload completes reliably on Tilion Cloud, the team could move more scheduled jobs onto the service and generate more billable hours. Standard browser interfaces make the same integration plausible across markets. Buyer geography and the site-access requirements of a second market remain unverified. (The Idea, Defensibility, Key Risks)
 
-**Second-market scenario.** If the same engineering buyer can use the same integration abroad, Tilion would still need to verify reliable execution against a different mix of sites and their access policies. At the announced $0.03 per browser-hour, the contribution test is billed revenue per completed workload against compute and network costs across all attempts, plus the onboarding and support effort each account adds. The memo leaves both buyer portability and incremental costs unmeasured. (*The Idea*, *Key Risks*, *Key Facts*)
+The first likely break is between Fortress adoption and recurring paid Cloud use. Tilion distributes Fortress through GitHub and package registries. The memo reports 100,000 installs, and Tilion claims millions of unattended operations per day. Those figures leave buyer-level activation, payment, and repeat usage unresolved. The memo identifies no buyer-funded test or documented workflow change tied to a specific customer benefit. At this stage, a small paid pilot cohort spanning several scheduled runs could establish the link. (The Idea, Market & Traction, Key Risks)
 
 ### Countercase
 
-Fortress could attract a large free developer audience while Cloud struggles to convert it into recurring paid workloads. Tilion announced public access, but the current homepage routes visitors to a waitlist and the benchmark labels Cloud pre-release. An observed launch failure also shows why fast sessions alone leave the buyer’s core outcome unresolved. If failures regularly require fresh sessions, retries could raise delivery costs, while site-owner access policies could shrink the set of workloads Tilion can reliably serve. The evidence supports Watch. It does not establish the structural ceiling or proportional cost burden required for Pass. (*The Idea*, *Key Risks*)
+Fortress adoption could stay concentrated in free use while site-owner restrictions and session failures make Cloud workloads unreliable or costly to serve. The memo records a 0.11-second median session lifecycle in a pre-release benchmark and a failed launch in a separate test. The speed result leaves job completion and recovery costs open. Assuming the announced price and full billing before credits, 1,000 browser-hours yield $30 in revenue. The memo gives no cost measurements for compute, retries, or support at that volume. The structural downside gate remains unmet because the evidence leaves open whether a recurring segment can be served reliably at viable marginal cost. (The Idea, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 9/25 |
+| Global buyer demand | 15/25 |
 | Repeatable acquisition and onboarding | 9/25 |
 | Retention and customer expansion | 7/20 |
 | Contribution as volume grows | 7/20 |
 | Evidence of fit in the first buyer segment | 4/10 |
 
-**Total Score: 36/100** (Pass)
+**Total Score: 42/100** (Pass)
 
 ### Decisive diligence question
 
-Can an independent monitoring team in a second geography discover Fortress, activate paid Cloud through the standard integration, and keep running the same workload through a second billing cycle? An activation record and paid usage logs showing completed jobs, retry costs, and support effort would move the action to **Reach out** if they show repeat use with a credible path to positive contribution.
+Can two independent teams use the same onboarding process to put a recurring job into paid production and then add a second workload? Move to Reach out if account-level billing and job logs show both teams completing several scheduled cycles and adding paid usage with positive incremental contribution after compute, retries, and support. Keep Watch if that pattern remains unproven.

@@ -5,28 +5,26 @@
 
 ### Company case
 
-Path B, New Economies, is the strongest path. Anywhere has shipped a free iPhone app that brings saved places, visit history, and shared friend locations onto one map. The company says connected agents can read the map and add pins. The seed-stage hypothesis is that this workflow cuts the time spent finding recommendations and coordinating enough to make planning a casual outing worthwhile for groups that currently skip it. The memo contains no like-for-like comparison of completed plans that counts corrections and permission handling. (The Idea, Market & Traction, Key Risks)
+Path B, New Economies, is the strongest fit. Today, friends have to recover recommendations from chat threads and separate map lists, then pull them together for an outing. Anywhere describes a shared map that connected agents can read and update. The seed-stage hypothesis is that automating retrieval and pinning makes coordinated planning worthwhile for groups that currently skip it for casual outings. The labor-cost test is time per outing successfully planned, including checking suggestions, fixing pins, and handling permissions, alongside Anywhere’s own delivery costs. The memo provides no measured comparison or evidence of a newly viable planning cadence. (The Idea, Key Risks)
 
-Under model parity, the reason to pay would have to come from something like access to friends’ contributions that users cannot get elsewhere. Anywhere syncs personal history to the account, but the memo reports no retention or measured benefit from more friends joining. Reported first-week signups show launch interest. The observed 2.8/5 average across nine U.S. ratings is a weak early satisfaction signal, and the memo establishes neither repeat use nor willingness to pay. Delaroche’s prior map work at Zenly and Life360 and the shipped iPhone app support execution at seed. (Defensibility, Market & Traction, Founders & Team)
-
-In a paid-use scenario, the expansion unit would be an active friend group. Scale would depend on how many groups Anywhere can reach, how often they pay, and what remains after inference, map and place data, and support costs. The memo supplies no measured inputs for that bridge. The San Francisco location and recent launch make this a plausible seed-stage watch. (Key Facts, Key Risks, Market & Traction)
+Assuming competitors have equally capable models and equivalent map-editing tools, users might still choose Anywhere if each participating friend contributes places or visit history that make the map more useful to the group. The memo documents synced personal history and describes friend sharing. Incremental value from each friend, retention, and willingness to pay under parity remain hypotheses. YC reported thousands of first-week signups, and the app listing shows free use. That supports initial interest. Cost per active group and a viable price remain unknown. Delaroche’s prior map work at Zenly and Life360 and the shipped iPhone app support execution at seed. (Defensibility, Market & Traction, The Idea, Founders & Team)
 
 ### Countercase
 
-Cheap intelligence could make place discovery a standard maps feature while leaving the work of getting friends to agree largely intact. Google Maps already offers conversational place discovery and custom map results, and standard agent connectors make read/write access easier for competitors to offer. That overlap does not establish substitution for a shared history that friends actively maintain. Both Path B conditions remain unproven, so the outreach gate stays closed. Path A has no separate supported case because the memo identifies no bottleneck Anywhere controls and documents its reliance on third-party models and map data. (Defensibility, Key Risks)
+Anywhere may make existing map use more convenient while leaving casual group planning too effortful to become a recurring behavior. Google Maps already overlaps on conversational discovery, and Bump overlaps on friend locations and shared visits. Standard agent integrations make comparable map editing plausible. The 2.8/5 rating across nine U.S. ratings is an early warning with a small sample. These observations leave both Path B gates unproven and support Watch. The memo contains no direct comparison that closes the path and identifies no scarce input Anywhere controls for Path A. (The Idea, Market & Traction, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 9/25 |
-| Durable value capture | 6/25 |
+| Path-specific thesis fit | 10/25 |
+| Durable value capture | 8/25 |
 | Customer demand | 7/20 |
 | Team and execution | 10/15 |
 | Scale economics | 4/15 |
 
-**Total Score: 36/100** (Pass)
+**Total Score: 39/100** (Pass)
 
 ### Decisive diligence question
 
-Can a paid trial show that friend groups who routinely skip casual outings because of planning effort complete more outings of comparable quality with less hands-on time than with their current workflow, and repeatedly pay for Anywhere when offered an alternative with equally capable AI? Count corrections and permission handling, and test whether access to friends’ contributions explains the paid preference. A positive result on both conditions would support Reach out if rescoring clears the threshold with at least medium confidence. A credible result showing either no newly viable use or ready substitution would change the action to Pass.
+Will friend groups that previously skipped coordinated planning repeatedly pay a price that covers delivery costs when offered an equally capable alternative? A seed-stage field trial should compare the groups’ old chat-and-map workflow with Anywhere, measure all-in effort and cost per completed outing, and give groups access to a functionally equivalent option. Move to Reach out if groups plan outings they previously would have skipped with materially less effort and repeatedly pay for Anywhere because friends’ contributions improve the outcome. Move to Pass if a representative trial shows that the effort savings fail to unlock those outings or that groups readily switch under parity.

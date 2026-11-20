@@ -5,29 +5,31 @@
 
 ### Company case
 
-**Strategic acquisition is the strongest path.** A frontier model lab or training-data supplier could buy Epsilab to secure a reusable library of enterprise simulations, validated graders, and the workflow-data rights needed to extend them. The memo records Mercor’s acquisition of Deeptune, an adjacent enterprise-simulation asset. Epsilab reports work with unnamed frontier labs and access to practitioners and real workflow data. The ownership case is an inference: an acquirer could justify paying if control of those assets materially improves real-work performance or lowers the cost of producing reliable training environments relative to building or licensing them. The memo supplies no measured buyer benefit or usable acquisition price. (*The Idea, Defensibility, Market & Traction, Key Facts*)
+**Strategic acquisition** is the strongest path. A frontier lab could buy Epsilab for a reusable library of enterprise workflow simulations and validated graders. The memo records Mercor’s acquisition of Deeptune, an adjacent purchase of enterprise simulation capability. Epsilab reports working with unnamed frontier labs and using real workflow data and practitioners to build its environments. The acquisition rationale is conditional. Ownership could shorten the time and reduce the cost of developing reliable training environments if Epsilab can reuse the library across workflows and transfer the underlying rights. The memo leaves that benefit unmeasured. (*The Idea*, *Defensibility*, *Market & Traction*)
 
-A paid lab pilot could test whether gains carry over to held-out real workflows and whether production cost falls across successive environments. The team’s RL and infrastructure experience and the experiments described in its hiring materials make that test plausible at seed. Pilot funding, runway, and delivery economics remain unknown. The memo also leaves data and IP transfer rights unverified and supplies no independent fallback that could pay this investor. (*Founders & Team, Key Risks, Defensibility, Key Facts*)
+A paid production test could measure whether agents trained in Epsilab’s simulations complete more held-out real workflows and whether Epsilab can deliver a second environment faster or at lower cost. The open roles identify work on generalization and production automation. The reported lab engagements provide a plausible setting for a test, while test funding, delivery costs, and runway remain unknown. Reported access to workflow data leaves ownership and transfer rights unresolved. (*Market & Traction*, *Key Risks*, *Defensibility*)
 
-**Proceeds bridge.** With no deal terms disclosed, the illustrative seed case assumes a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-on checks. The 5× objective requires $2.5 million in gross cash by year eight. Under a simple pro rata waterfall, that takes $83.3 million of distributable equity proceeds at 3% ownership, $125 million at 2%, or $62.5 million at 4%. The sale scenarios below assume zero net debt, fees, or senior claims ahead of this holder, so enterprise value equals distributable equity consideration. All consideration is cash at closing. Stock, escrow, earnouts, rollover, and transaction-related compensation are each assumed to be $0. These are scenario inputs, with no memo-supported price range. (*Key Facts, Market & Traction*)
+**Illustrative proceeds.** Investor terms and a realizable acquisition price are undisclosed. Assume a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted by 40% to 3%, and no follow-ons. The 5× target is $2.5 million in gross cash within eight years. A simple pro rata allocation before investor taxes requires $83.3 million of distributable equity at 3% ownership, $125 million at 2%, or $62.5 million at 4%. With illustrative net debt of $5 million, the 3% case requires about $88.3 million in enterprise value. The memo gives no figures for company-specific debt, fees, or senior claims. (*Key Facts*, *Market & Traction*)
 
-| Illustrative outcome | Timing | Gross cash to holder at 3% | Gross multiple |
-|---|---|---:|---:|
-| Modest sale at $50 million enterprise value | Year 4 | $1.5 million | 3.0× |
-| Strong sale at $100 million enterprise value | Year 6 | $3.0 million | 6.0× |
-| Prolonged private ownership, with growth plateauing, buyers staying away, public scale out of reach, and cash reinvested | Through year 8, shares retained | $0 | 0× |
+| Eight-year scenario | Gross cash to the holder |
+|---|---:|
+| Modest sale at $25 million enterprise value, less $5 million of assumed net debt | $600,000 (1.2×) |
+| Strong sale at $100 million enterprise value, less $5 million of assumed net debt | $2.85 million (5.7×) |
+| Growth plateaus, buyers stay away, public scale remains out of reach, and all available cash is reinvested | $0, with shares still held |
+
+The sale prices are scenario assumptions. The adjacent acquisition has no disclosed price in the memo, and Epsilab has no disclosed revenue signal to support a range. The memo also leaves sponsor financing, investor-eligible secondary demand, public-market readiness, and distributable cash unevidenced. A wind-down recovery is unquantifiable without evidence of assets, obligations, and preferences. (*Market & Traction*, *Key Facts*)
 
 ### Countercase
 
-Frontier labs can build work-based evaluations internally, as the memo’s GDPval example shows, and open-source rollout and grading tools reduce the infrastructure they need to build. Even if Epsilab’s simulations work, a lab may get enough value through a license while Epsilab bears the cost of expert workflow design and grader validation. That could cap acquisition value below the proceeds hurdle. The evidence supports waiting for a buyer-backed test of the ownership advantage. It leaves the price ceiling unresolved, so the structural Pass override is untriggered. (*Defensibility, Key Risks*)
+Labs can build work-based evaluations internally, as OpenAI did with GDPval, and use open-source rollout and grading infrastructure. They could also commission individual environments while avoiding the cost of acquiring Epsilab. If each new workflow still requires substantial practitioner effort, or simulation gains fail to transfer to real work, ownership offers less incremental value. Those alternatives weaken buyer willingness to pay. The memo leaves open whether they can replace the full asset and whether an acquisition could clear the holder’s target, so the Pass gate is untriggered. (*Defensibility*, *Key Risks*, *The Idea*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 13/30 |
+| Counterparty rationale or source of cash | 14/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 9/20 |
+| Milestones and capital needed | 8/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
@@ -35,4 +37,4 @@ Frontier labs can build work-based evaluations internally, as the memo’s GDPva
 
 ### Decisive diligence question
 
-Can a paid frontier-lab pilot establish a measurable economic advantage to owning Epsilab’s transferable assets over building or licensing them? A buyer-validated result on held-out real workflows, backed by documented transfer rights and buyer economics capable of supporting the applicable proceeds hurdle, would move the action to Reach out. Evidence that building or licensing delivers comparable results and caps the buyer’s price materially below that hurdle would move it to Pass.
+Can a paid frontier-lab production test show enough value from owning a transferable Epsilab library to support an acquisition around or above the modeled $88.3 million enterprise-value hurdle? Measured gains on held-out real workflows and repeat delivery, paired with a buyer-side comparison of ownership, licensing, and internal build costs, would move the action to Reach out if the economics support that price. (*The Idea*, *Defensibility*, *Key Risks*)

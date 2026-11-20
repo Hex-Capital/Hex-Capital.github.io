@@ -5,28 +5,26 @@
 
 ### Company case
 
-**Path B — New economies** is the strongest path. Helios says its home test is designed to measure more than 1,000 biomarkers from a drop of blood and use repeat results alongside wearables and health records. The investment hypothesis is that automating interpretation and routine follow-up could reduce human labor enough to make frequent, broad testing affordable for consumers who currently test only occasionally. At equivalent quality, the relevant comparison is labor per usable result, including failed collections, redraws, manual review, and follow-up. The memo provides neither that comparison nor Helios-specific assay validation. (The Idea, Key Risks)
+**Path B — New Economies.** Helios could make frequent, broad biomarker monitoring economical for consumers who currently test only occasionally. Helios says its at-home test is designed to measure more than 1,000 biomarkers from a drop of blood and combine repeat results with health records, wearables, and outcomes. Compared with clinician-collected testing, self-collection could reduce collection labor and make repeat testing easier. The memo reports an unquantified waitlist and provides no test price, paid repeat use, or measured labor savings per usable result. (*The Idea*, *Market & Traction*)
 
-The reported waitlist is a weak demand signal with an undisclosed signup count. The memo gives no evidence of paid or repeat use of Helios Test. The founders’ prior molecular diagnostics work and acquisitions support a seed-stage case for executing a representative trial. Existing evidence leaves both Path B conditions open and falls short of the outreach gate. (Market & Traction, Founders & Team)
-
-**Scale scenario.** If Helios can acquire and retain consumers at a newly affordable testing cadence, annual revenue would be paying members × completed tests per member × realized price per test. Contribution per completed test must cover the kit, shipping, profiling, inference, review, redraws, and fulfillment. The advertised profiling price starts at $50 per sample and serves only as an external benchmark. Helios’s pricing, usable-sample rate, and repeat cadence remain unknown. (The Idea, Market & Traction, Key Risks)
+The unit to test is one successfully delivered repeat panel. The cost comparison needs to include collection, shipping, processing, failed samples and redraws, review, and fulfillment at the proposed cadence. The memo reports third-party profiling advertised from $50 per sample, which gives a processing reference point. Helios’s realized costs and contribution per panel remain unknown. In a scenario where equivalent interpretation models are cheap and widely available, buyers might still pay Helios for reliable home collection and a longitudinal record that demonstrably improves monitoring. Helios reports training on linked repeat draws and health records, while the memo leaves data exclusivity, retention, and predictive calibration unresolved. The founders’ prior diagnostics work supports their ability to run the test at seed, and Helios-specific assay validation remains undisclosed. (*Market & Traction*, *Defensibility*, *Founders & Team*, *Key Risks*)
 
 ### Countercase
 
-SiPhox already offers repeat home panels, and VO Health accesses broad protein profiling through a third-party platform. With abundant capital, entrants have an existing route to broad measurement. With comparable models, they could also offer interpretation. Helios reports training on linked repeat draws and health records, but the memo leaves exclusivity, predictive improvement, and buyer preference under parity unproven. If redraws and manual review absorb the labor savings, or buyers renew at the same rate with a comparable service, Path B fails. The evidence makes those outcomes credible without establishing either, so the override does not close Path B. The memo identifies no separate Helios-controlled bottleneck for Path A. (The Idea, Defensibility, Market & Traction, Key Risks)
+SiPhox already offers repeat home panels, and VO Health uses a third-party platform to profile more than 1,000 proteins from a small self-collected sample. Helios could end up selling a broader panel to consumers already served by home testing, with a rival able to source comparable profiling and pair it with equivalent interpretation. The memo also describes research in which delayed processing preserved agreement with venous draws for only some analytes. If Helios encounters that problem, redraws and review could erase the labor savings. These findings leave both Path B gates unproven. The memo contains no direct comparison that settles either gate for Helios, and it identifies no scarce input Helios controls that would support Path A. (*Market & Traction*, *Defensibility*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 9/25 |
+| Path-specific thesis fit | 8/25 |
 | Durable value capture | 7/25 |
 | Customer demand | 6/20 |
-| Team and execution | 10/15 |
+| Team and execution | 8/15 |
 | Scale economics | 5/15 |
 
-**Total Score: 37/100** (Pass)
+**Total Score: 34/100** (Pass)
 
 ### Decisive diligence question
 
-Can a paid, multi-cycle trial show that consumers previously priced out of frequent broad testing renew with Helios at a contribution-positive price when offered a service with comparable measurements and model capability? The trial should verify equivalent result quality and measure human labor per usable result, including reviews, redraws, and exceptions. A clear labor reduction and sustained paid preference for Helios would justify rescoring for Reach out if the score reaches 65 and confidence rises to at least Medium. A credible trial that rules out either the labor savings or paid preference would move the action to Pass on the current record.
+Can a paid repeat-testing pilot show that Helios serves consumers who previously went without frequent broad monitoring and that those consumers still choose Helios when offered a credible alternative with equivalent model quality? Move to Reach out if independent buyers pay and repeat at a price that covers measured delivery costs, the pilot demonstrates lower labor per analytically usable result than clinician-collected testing, and buyers show a preference for Helios’s collection or longitudinal service under model parity. Pass if a representative pilot shows that redraws and review erase the labor savings or that buyers readily switch under parity.

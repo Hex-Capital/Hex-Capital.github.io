@@ -5,26 +5,26 @@
 
 ### Company case
 
-**Path B — Repeatable sales or partner distribution with account expansion.** AI-agent vendors and resellers need an isolated, persistent environment for each client. ETEC+ reported replacing manual VPS setup with a branded service that went live in six days using the starter kit. Boon reported moving its agent infrastructure to Agent 37, integrating provisioning into its app, and deploying per-client agents in three days. These are concrete early signs of workflow adoption. The memo leaves open how the buyers were acquired and how much founder help each rollout took. (The Idea, Market & Traction, Defensibility)
+**Usage-based expansion** is the strongest path. The first buyers are software teams and agencies that run persistent AI agents for their own clients. Agent 37’s published Cloud pricing charges for running minutes and persistent disk. If those buyers keep their initial agents in production and add clients, each new deployment can increase billed usage. The same provisioning API and harness templates could serve buyers in another market if their workloads fit the supported runtime and their hosting and uptime requirements can be met. Buyer geography and any required localization remain open. (The Idea, Key Risks)
 
-The growth mechanism is usage-based. Once a reseller or software vendor integrates the API, each additional client can generate compute and storage revenue through the same setup. The API and starter kit could serve the same buyer in another geography, but the memo identifies no second-market customer and provides no evidence on regional hosting or support requirements. (The Idea, Market & Traction)
+Boon reported deploying per-client agents in three days, integrating provisioning and scheduled runs into its application, and lowering monthly cost per agent from $85 to $4.94. ETEC+ reported going live in six days with the starter kit and moving more than 30 existing clients to its branded service. The rollout times show two concrete routes to first value. The workflow changes and Boon’s reported savings support early fit. How those buyers were acquired, how much founder help they needed, and whether their paid workloads grew after rollout remain unverified. (Market & Traction, Defensibility)
 
 ### Countercase
 
-Boon reported that its monthly cost per agent fell from $85 to $4.94. That supports buyer value while leaving Agent 37’s contribution open. If the founder-reported $0.37 per sandbox per month represents realized revenue and the usage mix holds, 1,000 additional sandboxes would bring in about $370 a month before costs. Running workloads consume shared host capacity, persistent disks incur storage costs while retained, and some workloads require full VMs. Customer onboarding and production support could absorb much of that revenue. The memo provides no cost breakdown or paid cohort history to resolve this. The economics warrant Watch because the evidence leaves a structural scaling ceiling unproven. (Market & Traction, Key Facts, The Idea, Defensibility, Key Risks)
+A rapid migration can produce many live sandboxes at launch, then little paid expansion. The founder reported average Cloud revenue of $0.37 per sandbox per month. The memo gives no customer-level history of repeat paid use and no marginal cost measurements. In the favorable scenario, new workloads fill spare capacity on shared hosts. Once that capacity fills, added minute and disk revenue must cover additional server capacity, storage, rollout effort, and support. Boon’s savings establish a buyer benefit, while Agent 37’s contribution on the next workload remains unknown. That unresolved link warrants Watch. The structural downside gate stays open because the memo provides no affirmative evidence that added costs must remain proportional to revenue. (The Idea, Defensibility, Key Facts)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 9/25 |
-| Repeatable acquisition and onboarding | 14/25 |
+| Global buyer demand | 16/25 |
+| Repeatable acquisition and onboarding | 12/25 |
 | Retention and customer expansion | 7/20 |
 | Contribution as volume grows | 7/20 |
 | Evidence of fit in the first buyer segment | 8/10 |
 
-**Total Score: 45/100** (Neutral)
+**Total Score: 50/100** (Neutral)
 
 ### Decisive diligence question
 
-Can a paid cohort in a second geography activate through the existing API or starter kit and generate positive incremental contribution as customers add paid workloads? Billing and workload records across successive billing cycles, paired with measured onboarding, host, storage, and support costs, would answer it. A positive result would move the action to Reach out. Evidence that each added workload requires proportional delivery effort that consumes its revenue, with no supported path to improvement, would trigger Pass.
+Do independent Cloud buyers add profitable paid workloads after their initial rollout? Move to **Reach out** if billing, usage, and cost records from two buyers in the first segment show that they added production sandboxes at their normal client rollout cadence, paid for continued use after credits, and generated positive incremental contribution after capacity, storage, rollout, and support costs.

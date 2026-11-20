@@ -5,26 +5,26 @@
 
 ### Company case
 
-**Path B — Repeatable sales with account expansion.** Petrichor targets frontier AI biology teams that need fresh experimental data for successive training cycles, starting with cancer research. The company says its staff can run jobs in parallel and return customer-owned records suitable for model training. If those records become part of a recurring workflow, the same intake and delivery process could turn a first paid batch into larger orders. Per-batch pricing is a scenario assumption. *(The Idea; Defensibility)*
+Usage-based expansion is Petrichor’s strongest plausible path. The company says its staff run experiments for frontier AI biology teams and return structured records for model training, starting with cancer research. If those records prove useful, the same team could order more batches as its research progresses. Per-batch billing is a scenario assumption. The same buyer and job could exist across markets if Petrichor can serve remote teams through its existing lab, but the memo gives no buyer locations or cross-market delivery evidence. (The Idea)
 
-The memo records a public launch and roughly 84,000 launch-post views. The CEO solicits inquiries through the website and launch post, while paid activation, repeat orders, and buyer-validated fit remain unverified. In a second-market scenario, an overseas buyer could use the same lab and receive the same records remotely. That assumes procurement and data-handling requirements can be met without a bespoke setup and that any required sample transfers are manageable. The memo leaves those assumptions untested. *(The Idea; Market & Traction; Key Facts)*
+The memo documents a November launch and a direct inquiry channel through the CEO. It provides no buyer-funded test, completed onboarding, or repeat paid use. At this stage, the first link to test is whether an initial paid batch leads to another order that Petrichor can deliver through the same workflow with viable incremental economics. (The Idea; Market & Traction; Defensibility; Key Facts)
 
 ### Countercase
 
-Petrichor could win recurring orders and still scale like a contract lab. Each new buyer may require founder-led scoping and setup, while each added batch consumes bench time, consumables, quality-control labor, and equipment capacity. Petrichor says it will automate execution once it judges that safe, and Ginkgo reports that OpenAI already uses its cloud lab for data generation. The cost gate would trigger if measured rollouts showed proportional or worse effort or capital needs with no supported path to improvement. Staff-run execution makes that risk credible, but the memo leaves the cost of serving additional volume unmeasured. *(The Idea; Market & Traction; Key Risks)*
+Even if buyers value the records, each new batch could require fresh setup and bench labor that rise in proportion to revenue. Petrichor describes staff-run execution and says automation depends on when it judges it safe. Ginkgo’s reported work with a frontier AI buyer also gives the target segment a credible substitute. The structural downside gate does not apply because the memo offers no measured rollout effort or marginal costs showing that labor must scale in proportion to revenue. (Key Risks; Market & Traction)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 9/25 |
+| Global buyer demand | 12/25 |
 | Repeatable acquisition and onboarding | 9/25 |
 | Retention and customer expansion | 7/20 |
 | Contribution as volume grows | 7/20 |
 | Evidence of fit in the first buyer segment | 4/10 |
 
-**Total Score: 36/100** (Pass)
+**Total Score: 39/100** (Pass)
 
 ### Decisive diligence question
 
-Can an independent frontier AI biology team outside the U.S. come through Petrichor’s website or launch channel, complete a paid batch using the existing workflow, and place a larger paid repeat order? Move to **Reach out** if the order and delivery records show the same workflow served both batches and contribution improved on the larger batch after bench labor, consumables, quality control, and equipment capacity. Stay on **Watch** while that result is unresolved.
+Will an independent frontier AI biology team pay for a second comparable batch at its normal research cadence, and can Petrichor deliver it through the same workflow with less setup effort and positive incremental contribution? A paid repeat order with batch-level records covering labor, consumables, and any added capacity, alongside comparable quality and turnaround, would move the action to Reach out.

@@ -5,26 +5,28 @@
 
 ### Company case
 
-**Path A — Scarce complements.** Archgen could expand the number of usable layout iterations a physical-design team can complete before a stacked-die tapeout. Heat, placement, and cross-die timing have to be resolved together. Archgen reports that LayerTherm screened layouts in 62 ms versus 314 seconds for conventional solvers in its benchmark. The memo gives no prediction-error figures or end-to-end results after detailed verification and reruns. The observed first-place placement result supports a separate part of the mechanism, within the limits of the organizers’ proxy metric. Path B has weaker support because the memo identifies an existing workflow and leaves both newly viable transactions and willingness to pay under model parity unproven. (*The Idea*, *Market & Traction*, *Key Risks*)
+**Path A — Scarce complements.** If cheaper frontier intelligence increases demand for stacked AI accelerators, the engineering capacity to iterate on heat, placement, and cross-die timing could become more valuable. Archgen could capture some of that value if its tools let physical-design teams qualify more layouts within the same engineering budget and buyers cannot get comparable results from their existing toolchains. Archgen reports that LayerTherm averaged 62 ms versus 314 seconds for conventional solvers in its benchmark. The benchmark leaves prediction error and end-to-end time savings unresolved. (The Idea, Market & Traction, Key Risks)
 
-The San Francisco team is a plausible seed fit. The founders co-built the placement entry and bring semiconductor research and OpenROAD experience. Archgen reports signed pilots with undisclosed counterparties and payment terms, plus development with GlobalFoundries targeting a first tapeout in mid-2027. Those claims provide limited demand evidence and leave buyer budget and qualification commitments open. **Scale assumption:** If enterprise licensing follows, repeatable deployments would require license revenue to cover compute, customer-specific integration, and ongoing support. The memo supplies no pricing or deployment-cost inputs, so scale economics receives the absent-evidence default. (*Archgen Labs*, *Founders & Team*, *Market & Traction*, *The Idea*, *Key Facts*)
+The observed first-place placement proxy result shows that the two founders delivered a competitive prototype. The organizers caution that the metric alone cannot establish production readiness. Archgen reports signed pilots with undisclosed counterparties and payment terms, plus development work with GlobalFoundries targeting a first tapeout in mid-2027. These are early engagement signals. Independent buyer qualification and willingness to pay remain unverified. (Defensibility, Founders & Team, Market & Traction, Key Risks)
+
+A plausible expansion unit is an enterprise license per physical-design team. Repeatable economics depend on whether Archgen can reuse integrations and verified fixes across designs while keeping support and verification costs below the license revenue. The memo provides no deployment costs or realized pricing. (The Idea, Defensibility, Key Facts)
 
 ### Countercase
 
-With abundant capital and equally capable models, incumbents could add comparable screening and automation inside the flows customers already use. Siemens has demonstrated overlapping placement and electrothermal orchestration, Cadence bundles thermal simulation and signoff, and Archgen published its contest implementation. If incumbent tools yield the same signoff-quality iteration throughput, buyers may have little reason to pay for a separate tool. The overlap is concrete, while production equivalence remains untested. That leaves Path A open but below the outreach gate. (*Defensibility*, *Market & Traction*, *Key Risks*)
+Siemens has demonstrated overlapping placement and electrothermal automation in its own toolchain, and Cadence and Synopsys already offer integrated thermal analysis. Archgen also published its contest implementation. If detailed verification absorbs the screening gains or an incumbent delivers comparable time to signoff, Archgen has little leverage over a scarce capability. The memo establishes credible alternatives while leaving production equivalence unresolved, so the substitution gate remains open. (The Idea, Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 13/25 |
-| Durable value capture | 5/25 |
-| Customer demand | 8/20 |
+| Path-specific thesis fit | 12/25 |
+| Durable value capture | 7/25 |
+| Customer demand | 9/20 |
 | Team and execution | 9/15 |
-| Scale economics | 4/15 |
+| Scale economics | 5/15 |
 
-**Total Score: 39/100** (Pass)
+**Total Score: 42/100** (Pass)
 
 ### Decisive diligence question
 
-Will a pilot customer commit budget or engineering time to a second stacked-die project after a head-to-head production qualification against its incumbent flow? The trial should show more signoff-quality iterations within the same time budget after counting engineer review, missed hotspots, and verification reruns. It should also identify an Archgen-controlled capability the buyer values and the incumbent cannot match in that workflow. A positive result would support Reach out if the updated score clears 65 with at least medium confidence. Equivalent incumbent results with no distinct reason to buy would support Pass. (*Market & Traction*, *Defensibility*, *Key Risks*)
+Will an independent physical-design team commit to a paid follow-on deployment after a head-to-head trial on a representative stacked-die design? The trial should compare Archgen with the team’s best incumbent workflow at the same signoff standard, counting engineering hours, verification, and rework. A material reduction in engineering hours that earns the paid follow-on would move the action to Reach out. Comparable results from the incumbent would close Path A and move the action to Pass. (Market & Traction, Key Risks)

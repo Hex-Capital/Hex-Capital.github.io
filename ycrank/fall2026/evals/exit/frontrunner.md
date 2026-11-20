@@ -5,21 +5,25 @@
 
 ### Company case
 
-Strategic acquisition is Frontrunner’s strongest path. A CRM or revenue platform could buy its shared graph and agent workflows to turn sales outcomes into better account prioritization, lead routing, and outbound. Zoom’s acquisition of Common Room shows that a platform has bought adjacent buyer intelligence and agent capabilities. For Frontrunner, the ownership case depends on whether controlling the graph and how it feeds multiple workflows produces a durable gain beyond what a buyer could get through a license or its own integrations. That advantage is an inference. The memo supplies no buyer economics or usable acquisition price. (The Idea, Market & Traction, Key Risks)
+Strategic acquisition is Frontrunner’s strongest path. A revenue software platform could buy its shared graph and the workflows that use sales outcomes to improve account research, lead routing, and outbound. Zoom’s acquisition of Common Room demonstrates that a platform has paid to own adjacent buyer intelligence. The case for owning Frontrunner would depend on whether its graph generates enough incremental qualified pipeline across workflows to justify buying it over building or partnering. That buyer benefit remains an inference. (The Idea, Market & Traction)
 
-The seed milestone is repeatable incremental revenue lift across paid production deployments. Foresight Health’s CEO reported seven meetings in 48 hours after onboarding. Frontrunner separately claims a 15% higher new-business win rate. Those signals make a production test plausible, with the cost, runway, and reliability at scale still open. Frontrunner’s simulations found stale-data and early-stopping failures. Its in-service configuration licenses also leave assignment, customer-data rights, and continuity of third-party integrations to be verified. The memo supplies no independently supported fallback that can pay this holder. (Market & Traction, Key Risks, Defensibility)
+Foresight Health’s CEO reports seven meetings in 48 hours after onboarding. Frontrunner separately claims a 15% increase in new-business win rate and 40–50% conversion from signal-based outbound to booked meetings. These are early operating signals. A plausible seed milestone is a 90-day comparison across paying customers that measures incremental qualified pipeline against their existing workflows. The memo leaves retention, burn, runway, and the capital needed to complete that test open. (Market & Traction, Key Facts)
 
-**Proceeds bridge.** The disclosed 7% YC stake and the published standard deal leave the evaluated investor’s terms unspecified. The illustrative case uses a $500,000 check, 5% initial ownership diluted to 3%, and no follow-on checks. The eight-year, 5× gross cash objective is $2.5 million, requiring $83.3 million in distributable equity proceeds at 3% ownership, $125 million at 2%, or $62.5 million at 4%. (Market & Traction)
+Frontrunner’s in-service licenses for the configurations it builds provide some evidence of control over that layer. Buying the company is a plausible structure, with customer contract permissions and continued third-party API access still to verify. The memo leaves eligible secondary demand, sponsor financing capacity, public-market readiness, and distributable cash unevidenced. (Defensibility, Key Risks, Key Facts)
 
-The sale prices below are scenario assumptions. Both sales assume all cash at closing, zero net debt and transaction costs, and no preference leakage, so enterprise value equals distributable equity proceeds and the holder receives 3% pro rata before taxes. Stock, escrow, earnouts, rollover, and compensation are each $0.
+**Proceeds bridge.** Assume a $500,000 check at a $10 million post-money valuation, with 5% ownership diluted by 40% to 3%, no follow-ons, and a $2.5 million gross cash target within eight years. At 3%, that requires $83.3 million of distributable equity, or $88.3 million of enterprise value with $5 million of net debt. At 2% and 4% ownership, the equity hurdles are $125 million and $62.5 million, respectively. The sale scenarios assume cash at closing in year eight, $5 million of net debt, and zero fees or senior claims. Frontrunner’s actual debt, preferences, and holder terms are unknown. The Common Room acquisition establishes strategic interest in the category, with sale pricing for Frontrunner still unevidenced. (Market & Traction, Key Facts)
 
-- **Modest sale, year 5.** $50 million in enterprise value yields $1.5 million to the holder, or 3×.
-- **Strong sale, year 7.** $100 million in enterprise value yields $3 million, or 6×. At 2% ownership, it yields $2 million, or 4×.
-- **Prolonged private, through year 8.** Growth plateaus, buyers stay away, public scale remains out of reach, and cash is reinvested. The holder retains the shares and realizes $0, or 0×.
+| Scenario | Gross cash to the holder |
+|---|---:|
+| Modest sale at $25 million enterprise value | $600,000, or 1.2× |
+| Strong sale at $100 million enterprise value | $2.85 million, or 5.7×. At 2% ownership, this falls to $1.9 million, or 3.8×. |
+| Eight years private with growth plateauing, buyer interest absent, public scale out of reach, and all available cash reinvested | $0 realized, with shares retained |
+
+A wind-down recovery is unquantifiable without asset recoveries, obligations, and preferences.
 
 ### Countercase
 
-Zoom already combines buyer signals and agents with sales conversation data, and Unify already uses general-purpose models for research and outreach. A platform could bundle or license enough of Frontrunner’s functionality to make ownership uneconomic. The memo identifies no structural barrier to those substitutes. That is enough to wait for buyer-side evidence. It does not establish a price ceiling below the holder’s hurdle or make the prolonged-private scenario probable, so the Pass override does not apply. (Defensibility, Key Risks)
+Zoom already bundles Common Room’s buyer signals and agents with sales conversation data. Clay and Unify cover other parts of Frontrunner’s workflow, giving prospective buyers credible build or integration options. The short customer testimonial and company-reported outcomes leave the incremental value of owning the graph unresolved. That supports Watch. The Pass gate remains open pending evidence of a structural barrier or materially inadequate holder proceeds. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
@@ -28,11 +32,11 @@ Zoom already combines buyer signals and agents with sales conversation data, and
 | Counterparty rationale or source of cash | 16/30 |
 | Plausible investor proceeds | 8/30 |
 | Milestones and capital needed | 10/20 |
-| Transaction feasibility | 5/10 |
+| Transaction feasibility | 6/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 41/100** (Pass)
+**Total Score: 42/100** (Pass)
 
 ### Decisive diligence question
 
-After a paid production pilot, can a prospective platform buyer quantify enough incremental value from **owning** Frontrunner’s graph to support a purchase price that clears the holder’s cash hurdle? A buyer-validated comparison against building or licensing, grounded in repeatable production lift, would move the action to **Reach out** if the economics support that price.
+Can a revenue platform justify an acquisition price that leaves at least $83.3 million of distributable equity within eight years under the modeled 3% ownership? A buyer-specific valuation range grounded in repeatable paid-customer pipeline gains, the gross profit those gains could generate across the buyer’s customer base, and the cost of building or partnering would move the action to Reach out if it supported that hurdle.

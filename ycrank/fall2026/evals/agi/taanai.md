@@ -5,28 +5,26 @@
 
 ### Company case
 
-**Path B — New economies.** Taan could make custom, cut-synced soundtracks economical for short videos that would otherwise go unscored. Taan says its model aligns music to cuts and lets editors revise individual instruments or cues. The proposed labor saving is fewer regenerations and less manual retiming per accepted soundtrack. Taan reports 91.3% of events within ±500 ms in TimingBench and 73.2% on launch. The benchmark uses 30-second instrumental requests and Taan reference stems for some events. That supports testing the mechanism in short clips, with the labor savings and independent performance still unmeasured. (The Idea, Key Risks)
+**Path B — New Economies.** Taan could make custom scoring economical for high-volume video teams that currently leave some clips without a score aligned to specific cuts. That buyer segment is a scenario assumption. The memo describes editors repeatedly regenerating tracks when cues are missed. Taan’s cut detection and targeted revisions could reduce the hands-on time per approved soundtrack. Taan reports 91.3% of events within ±500 ms in TimingBench and 73.2% in its launch materials. Both figures come from Taan, and the short instrumental benchmark measures cue accuracy rather than the labor needed to finish a real edit. (The Idea; Key Risks)
 
-Music for Video AI identifies Taan as its scoring provider. That establishes one real integration, with payment, repeat volume, and whether the buyer previously went without custom scoring all unknown. The founders’ music-generation and signal-processing experience, along with the shipped preview, support their ability to run a seed-stage trial. The Fall 2026 launch and San Francisco base make the seed-led mandate a plausible fit. (Market & Traction, Founders & Team, Key Facts)
-
-**Scale scenario.** At full quota use, listed Creator and Agency pricing implies $0.60 and $0.75 in subscription revenue per included music minute, respectively. If those minutes all become accepted scores, that is the revenue per accepted minute before inference, retries, review, and support. A plausible expansion unit is another video-tool integration generating repeat scoring jobs. Job volume and contribution per accepted score remain unknown. (The Idea, Market & Traction, Key Facts)
+Music for Video AI identifies Taan as its scoring provider, showing use in an external workflow. The memo leaves payment, repeat volume, and whether the integration enabled previously uneconomic scoring unknown. The founders have relevant music-generation and signal-processing experience and shipped a preview with documented Studio and API access. The repeat unit is an approved soundtrack per clip. The $15 Creator and $45 Agency plans set prices and music-minute allowances, while contribution per approved clip depends on inference, retries, editor review and revisions, and any applicable music rights costs. The memo provides no measured cost per approved clip. (Market & Traction; Founders & Team; The Idea; Key Facts)
 
 ### Countercase
 
-Taan may make scoring faster for editors who already buy or create soundtracks, while equivalent controls become available inside tools they already use. ElevenLabs and Sonilo offer video-to-music APIs, and Premiere can generate music directly in the timeline. These are credible substitutes if they match Taan’s cue control and revision quality. Documented revision workflows make switching costs plausible, but the memo shows no buyer preference under parity or measurable network effect. The reported patent applications and claimed training licenses also leave control of a scarce input unproven, so Path A has no separate supported case. The alternatives establish a credible substitution risk, with neither Path B condition decisively disproven. Watch applies while both can be tested. (Defensibility, Market & Traction, Key Risks)
+Taan may save editors time on videos they already score while losing its edge once rivals match its timing and revision controls. ElevenLabs and Sonilo already offer video-to-music APIs, and Premiere can generate music inside the editing timeline. Saved revisions and API integration could give buyers a reason to stay, but the memo shows no retention or buyer preference under functional parity. The disclosed patent applications and Taan’s claim of licensed training music leave enforceable control and exclusivity unestablished. The alternatives make parity a credible risk without establishing equivalent performance. Both required Path B conditions remain open, which supports Watch. Confidence is Low because the decisive economics and buyer behavior rest on inference from a company benchmark and one external integration. (Defensibility; Market & Traction; Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 12/25 |
-| Durable value capture | 6/25 |
+| Path-specific thesis fit | 11/25 |
+| Durable value capture | 7/25 |
 | Customer demand | 8/20 |
-| Team and execution | 10/15 |
-| Scale economics | 6/15 |
+| Team and execution | 9/15 |
+| Scale economics | 5/15 |
 
-**Total Score: 42/100** (Pass)
+**Total Score: 40/100** (Pass)
 
 ### Decisive diligence question
 
-Will a cohort of short-video teams that previously skipped custom scoring repeatedly pay for Taan when they can use an equally capable alternative? A paid trial should compare accepted scores at equivalent quality, log human time and cost through retries and revisions, and give buyers a real choice once both tools meet the same cue-control standard. Measured labor savings that unlock repeat paid jobs, plus sustained preference for Taan under parity, would support Reach out if the updated score clears 65 with at least medium confidence. If either condition fails in a representative trial, move to Pass.
+Will independent video teams that previously skipped custom scoring pay for a second batch of clips with Taan when offered a similarly priced alternative with equivalent timing and revision controls? A representative paid trial should document what those teams previously left unscored, measure full delivery cost and editor time per approved clip, and record which provider wins the repeat order and why. Repeat payment at viable contribution, with a demonstrated reason to choose Taan under parity, would move the action to Reach out. If full costs still preclude repeat use or buyers switch without losing anything they value, close Path B and move to Pass.

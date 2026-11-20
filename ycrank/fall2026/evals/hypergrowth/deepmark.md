@@ -5,26 +5,28 @@
 
 ### Company case
 
-**Path B: Repeatable sales or partner distribution with account expansion.** The likely first buyer is a voice-AI platform that needs banks and contact centers to verify its agents’ identity and authorization on live calls. DeepMark reports that its first platform license was signed before YC and is in production. Confident Security’s CEO separately reports production use of low-latency audio watermarking, with the call-verification workflow unspecified. The published robustness benchmark establishes that watermark recovery has been tested. The memo leaves the license value, realized revenue, and verified call volume unknown. That is an early buyer commitment, with limited evidence of fit for live authentication. (The Idea; Market & Traction; Defensibility; Key Facts)
+Repeatable direct sales to voice-AI platforms is the strongest path. The recurring job is to let call recipients verify which AI agent is calling and what it is authorized to do. DeepMark offers demo-led evaluations, platform licenses, and SDK and API integrations. The job plausibly travels across markets, with portability contingent on reliable watermark recovery over local phone routes and compatible verification at the receiving end. (The Idea, Key Risks)
 
-**Scenario assumption.** If a platform can embed credentials once and reuse the integration across agents and enterprise customers, direct platform sales could bring many deployments through one account. More verified calls or workloads could grow license revenue if pricing scales with usage. In a second geography, the same buyer and product could serve the same job if watermark recovery holds across local call routes and receivers can reuse the verification integration. EU transparency rules provide a possible demand signal, with conditional exemptions for some live uses. The memo gives no second-market buyer evidence, repeat acquisition or activation records, or paid expansion. (The Idea; Market & Traction; Key Risks; Key Facts)
+DeepMark reports that its first voice-AI platform license was signed before YC and is in production. Separately, Confident Security’s CEO reports low-latency audio watermarking in production, and the memo documents a published robustness benchmark. The license is an early signal of buyer commitment. The testimonial and benchmark support technical feasibility. The license economics, how the buyer reached production, and whether call recipients verified credentials in that deployment remain undisclosed. The memo supplies no usable evidence of repeat use, paid expansion, or marginal rollout costs. (Market & Traction, Defensibility, Key Facts)
+
+Assuming platforms can reuse the same integration and call recipients can reuse their verification setup, successive licenses could spread the product with bounded rollout effort. Even with strong platform fit, the first link likely to break is getting the next buyer from evaluation to live verification without bespoke work on both sides. (The Idea, Key Risks)
 
 ### Countercase
 
-Each rollout could require two integrations and route-specific testing. A new platform may need SDK setup, each new receiver may need API or on-premises deployment and support, and a new geography may add testing for transcoding and noisy routes. More calls could add processing and verification costs, with the license terms and marginal costs unknown. This could make delivery effort rise with every deployment, even if the watermark works. The memo establishes the two-sided dependency and channel degradation risk. It leaves actual deployment effort and cost scaling unresolved, so the structural Pass gate is untriggered. (The Idea; Key Risks; Key Facts)
+A voice platform could deploy watermarking while too few call recipients can verify it for authentication to become a recurring workflow. If each rollout requires custom receiver integration and fresh testing for transcoding, compression, and noise, engineering effort could rise in proportion to sales. The two-sided integration requirement and channel degradation make that countercase credible. The structural downside gate requires affirmative evidence that this constraint blocks scalable delivery. Successive rollout effort is still unknown, so Watch is warranted. (Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 9/25 |
+| Global buyer demand | 14/25 |
 | Repeatable acquisition and onboarding | 9/25 |
 | Retention and customer expansion | 7/20 |
 | Contribution as volume grows | 7/20 |
 | Evidence of fit in the first buyer segment | 6/10 |
 
-**Total Score: 38/100** (Pass)
+**Total Score: 43/100** (Pass)
 
 ### Decisive diligence question
 
-Can an independent voice-AI platform in a second geography fund a live rollout that uses the existing SDK and verifier to authenticate recurring calls for a receiving customer? Buyer-confirmed activation, call records over a normal usage cycle, and measured setup and support effort showing the rollout can be repeated would move the action to Reach out. (The Idea; Market & Traction; Key Risks)
+Can a second independent voice-AI platform reach paid production with live receiver-side credential verification through a documented SDK and API rollout that someone other than a founder can run? A paid license, live verification records, and implementation logs showing bounded effort on both sides would move DeepMark to Reach out. A rollout that still depends on bespoke engineering would keep it on Watch.

@@ -1,32 +1,32 @@
 ﻿# Light Anchor -- Hypergrowth Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Low
+**Evidence confidence:** Medium
 
 ### Company case
 
-**Path B — Repeatable sales or partner distribution with account expansion.** The initial buyer is a beauty or wellness brand that needs ongoing US advertising and storefront operations. Light Anchor could win these brands through demos, launch campaigns on their existing accounts, and grow fee revenue as more campaigns or storefronts generate billable sales. Its work with Korean hair-care brand Anuko demonstrates one cross-border deployment into the US. A second destination market would test whether Light Anchor can reuse its campaign workflow while adapting creative, securing account access, and validating attribution locally. (The Idea, Key Risks)
+The strongest path is **channel-led or repeatable sales** through direct sales to beauty and wellness brands that need someone to run US e-commerce growth. Anuko, a Korean hair-care brand with an unstaffed US growth function, handed Light Anchor recurring Amazon campaign work. The rollout shows that Light Anchor can serve a brand based abroad through its existing US storefront and ad accounts. Serving another destination market remains untested. Light Anchor describes direct outreach and demos, and names other agency clients. Anuko is the only account the memo traces through live operation, and its lead source, onboarding effort, and fee payment are unreported. (The Idea, Market & Traction)
 
-Anuko gave Light Anchor an unstaffed growth function to run starting in July. Anuko’s testimonial reports daily Amazon sales at 54× the June baseline in an October week and sales at 3.07× ad spend over October 1–7. That is a concrete early signal for the buyer’s problem, with the absolute baseline and incremental sales still unknown. Light Anchor names seven agency brands and offers demos, but the memo does not connect those accounts to a common acquisition or onboarding process. Anuko’s July-to-October activity leaves renewal and expansion beyond the initial engagement unverified. (The Idea, Market & Traction, Key Facts)
+Light Anchor began running Anuko’s US growth in July. Anuko’s testimonial reports that daily Amazon sales reached 54× the June baseline in the week ending October 6, with sales at 3.07× ad spend on October 1–7. The handoff of live campaign work is concrete evidence of buyer commitment, and the July-to-October timeline gives an early signal of continued use. The figures cover a short performance window, with renewal, additional paid work, and collected fees still unverified. (The Idea, Market & Traction, Key Facts)
 
-**Illustrative contribution scenario.** At Light Anchor’s quoted 5–15% fee, each $100 of tag-attributed sales yields $5–$15 in agency revenue, assuming those sales are billable and the fee is collected. The client pays ad spend directly. The next account still adds sales effort, account setup, creative review, campaign oversight, agent compute, and reporting or attribution support. The company says its agents reuse operating records across brands, but the memo gives no measured reduction in delivery effort or realized account contribution. (The Idea, Defensibility, Key Facts, Key Risks)
+The first likely bottleneck after fit is onboarding and running the next account with less founder time. Light Anchor quotes 5–15% of tag-attributed sales and bills ad spend directly to clients. Under those terms, the next account’s contribution depends on fees collected after sales effort, setup, campaign oversight, support, and AI costs. The memo gives no account-level measurements for those costs. (The Idea, Key Facts)
 
 ### Countercase
 
-The managed service may scale like an agency if each brand needs fresh creative, hands-on campaign oversight, and recurring attribution reconciliation. Amazon and Meta already automate parts of campaign execution, which could leave Light Anchor competing on the most labor-intensive work. A founder’s account of family members packing skincare orders makes the labor constraint concrete for owned brands. The structural Pass gate is untriggered for the managed-service path because the cost of adding client accounts remains unmeasured. (Defensibility, Key Risks)
+Light Anchor could scale as a managed agency that still needs custom creative, storefront setup, and ongoing oversight for each brand. The company says its agents reuse operating records across brands, but the memo reports no measured reduction in rollout effort. Founder and family labor packing orders shows that manual work persists in the owned-brand portfolio. The managed service uses client-owned accounts, and its staffing needs remain unresolved. The structural downside gate requires affirmative evidence that every credible path is blocked. Here, the service’s ability to reuse work across accounts is a testable question, so Watch is warranted. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 13/25 |
+| Global buyer demand | 15/25 |
 | Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 7/20 |
+| Retention and customer expansion | 8/20 |
 | Contribution as volume grows | 7/20 |
 | Evidence of fit in the first buyer segment | 7/10 |
 
-**Total Score: 43/100** (Pass)
+**Total Score: 46/100** (Neutral)
 
 ### Decisive diligence question
 
-Can Light Anchor turn a cohort of independent beauty brands entering the US into recurring, contribution-positive accounts through the same demo-to-launch process? Move to **Reach out** once that cohort has paid fees beyond the initial campaign and account-level records show a common onboarding workflow and positive contribution after sales effort, founder time, compute, and support.
+Can a second independent beauty brand entering the US go from a standard sales demo to paid, recurring Amazon campaign operation through an onboarding process someone other than a founder can run? A collected fee and a rollout record showing positive contribution after delivery costs, with materially fewer founder hours than Anuko at comparable scope, would move the action to **Reach out**.

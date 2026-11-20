@@ -5,28 +5,28 @@
 
 ### Company case
 
-**Path A — Scarce complements.** As AI agents get better at planning travel, developers still need a way to turn a flexible budget into live, bookable inventory and service the reservation afterward. Jinko reports that airline sites can block browser agents and that conventional flight APIs commonly require fixed dates and destinations. Its documented workflow combines budget-led discovery across destinations with checkout, changes, and refunds. That gives Jinko a plausible way to relieve a booking bottleneck. The memo provides no head-to-head production data showing how often it completes bookings that would otherwise fail. (The Idea)
+**Path A — Scarce complements.** If cheap, capable AI increases the volume of agent-led travel searches, the constraint could be access to live fares that agents can book and service. The memo describes airline sites blocking browser agents and conventional flight APIs often requiring fixed dates and destinations. Travel-agent developers bear the cost when flexible searches fail to convert to bookings or require separate integrations for checkout and servicing. Jinko documents budget-led discovery, live pricing, approved checkout, changes, and refunds in one integration. That supports a specific mechanism, with the frequency and cost of those failures still unmeasured. (The Idea)
 
-Exa Connect’s live flight and hotel search listing shows an integration in use. The announced collaborations and a founder testimonial reporting live bookings within four hours suggest early buyer interest. Repeat paid booking volume remains unknown. The team previously built an airline distribution API together and ran European travel operations and engineering at Hopper, giving it relevant experience for a production qualification trial. The recent API launch supports applying a seed-stage standard. Paris puts Jinko outside the strategy’s primary U.S. focus, with geographic fit still open. (Market & Traction, Key Facts, Founders & Team)
+Jinko reports IATA and ARC accreditations that let customers book through its credentials. Those credentials support a plausible qualification advantage at seed. The memo leaves open which inventory rights Jinko controls and how readily a rival can reproduce the workflow. Exa Connect’s live flight and hotel search listing shows an integration in use as a product feature. A founder testimonial reports reaching live bookings in four hours. The memo gives no paid repeat booking volumes. The team’s prior airline distribution API work at Winglet, European travel operations at Hopper, and current API launch support its ability to ship and integrate the product. (Defensibility, Market & Traction, Founders & Team)
 
-**Scale scenario.** Assume a pay-as-you-go customer averages $300 per flight booking and 2,000 billable searches per booking over a month. At published rates, Jinko would collect $3 in booking fees plus $2.50 in search fees per booking, before supplier, search, and servicing costs. At or below 1,500 searches per booking, the same fare would yield $3 in fees. The surcharge provides some protection against search-heavy usage, with buyer tolerance and contribution per completed booking still unknown. (The Idea, Key Risks)
+For flight scale economics, the repeat unit is a completed booking. Published pricing yields a 1% booking fee plus $0.005 per excess search above the monthly 1,500:1 search-to-book threshold. In a scenario where agents explore more routes per booking while staying below that threshold, Jinko absorbs the incremental search cost without overage revenue. Contribution also depends on supplier, payment, and post-booking service costs. The memo gives no realized search-to-book ratios or per-booking costs, so the pricing supports a plausible revenue bridge and leaves viable contribution untested. (The Idea, Key Risks, Key Facts)
 
 ### Countercase
 
-With the same models and ample capital, competing aggregators can expose their own inventory and servicing. Etraveli already offers flight search, booking, and servicing through MCP, and Duffel offers embedded checkout across flights, stays, and cars. Jinko’s reported accreditations let customers book through its credentials, but the memo establishes no exclusive access or durable switching costs, and supplier agreements restrict fare markups. The overlap warrants a below-default value-capture score. It leaves open whether Jinko’s full budget-led workflow performs materially better for a specific buyer. Path A’s control condition remains unproven, and Path B has no measured labor savings or evidence of a newly viable buyer segment. That keeps the action at Watch. (The Idea, Defensibility, Market & Traction, Key Risks)
+Etraveli already offers agent-facing flight search, booking, and servicing through MCP, and Duffel offers embedded checkout across flights, stays, and cars. Jinko’s supplier agreements also restrict fare markups. An incumbent could offer comparable booking access and let developers reproduce budget-led discovery at similar cost, which would defeat the scarce-complement case. The memo establishes meaningful overlap and leaves equivalence on the full workflow unresolved. That keeps the path open at Watch. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
 | Path-specific thesis fit | 12/25 |
-| Durable value capture | 5/25 |
+| Durable value capture | 8/25 |
 | Customer demand | 8/20 |
 | Team and execution | 10/15 |
 | Scale economics | 6/15 |
 
-**Total Score: 41/100** (Pass)
+**Total Score: 44/100** (Pass)
 
 ### Decisive diligence question
 
-Will an independent agent developer keep paying Jinko after running the same budget-led flight requests through Jinko and Etraveli with the same model? A paid production trial should track successful bookings, post-booking changes and refunds, and Jinko’s contribution after search and servicing costs. Repeat paid volume tied to a material advantage Jinko can sustain under its supplier terms would justify rescoring for Reach out if the score, confidence, and mandate gates clear. If the incumbent delivers equivalent outcomes at comparable cost and the buyer switches, move to Pass on the current evidence.
+Can Jinko win a repeat paid deployment from an independent travel-agent developer after a side-by-side production trial against Etraveli on budget-led flight discovery through booking and servicing? Move to Reach out if the buyer commits at terms that cover Jinko’s measured delivery costs because Jinko controls access or servicing capability the rival could not match. Move to Pass if the rival delivers the same successful bookings at comparable cost and integration effort.

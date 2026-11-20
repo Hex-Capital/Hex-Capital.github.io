@@ -5,36 +5,28 @@
 
 ### Company case
 
-A strategic acquisition by a wholesale security-monitoring operator is Synara’s strongest path. The asset would be its workflow for turning alerts from existing cameras into verified interventions that integrators can sell under their own brands. The memo records Synara’s public launch, Becklar’s acquisition of remote-guarding provider Eyeforce, and Motorola Solutions’ acquisition of founder Boris Ploix’s prior video-analytics company, Calipsa. Those deals show that incumbents have bought adjacent capabilities. The ownership case for Synara is conditional. A buyer would need to show that owning the workflow across its dealer network delivers savings or incremental margin it cannot capture through a commercial agreement. (*The Idea*, *Market & Traction*, *Founders & Team*)
+Strategic acquisition is Synara’s strongest path. A wholesale monitoring operator such as Becklar could buy Synara’s integrator-branded response workflow to serve more sites on existing camera hardware. Synara markets AI triage, human verification, and live intervention, and advertises under 30 seconds from alert to action using illustrative footage. Becklar’s acquisition of Eyeforce establishes an appetite for remote guarding. Ownership would make economic sense if Synara brought durable dealer relationships and lower operator costs that Becklar could capture more efficiently by buying the company than by licensing its software. The memo supplies no measured savings, dealer retention, or Synara-specific buyer interest. (The Idea, Market & Traction, Key Risks)
 
-Synara advertises under 30 seconds from alert to action and labels its example footage illustrative. A paid multi-site deployment could test whether Synara lowers fully loaded operator cost per verified incident while preserving detection and response quality. The launch, partner program, and Ploix’s experience developing false-alarm filtering make that test plausible. The memo gives conflicting financing figures and establishes neither pilot funding nor runway. It also provides no evidence on IP ownership or the transferability of dealer contracts. No independent fallback has a supported path to cash for this holder. (*The Idea*, *Market & Traction*, *Founders & Team*, *Key Risks*, *Key Facts*)
+The next operating milestone is a paid rollout across multiple integrators that demonstrates renewals and lower operator time per site while maintaining verified response performance. The public launch and Boris Ploix’s experience building Calipsa’s alarm filtering support the ability to run that test. Conflicting financing entries of $125,000 and $500,000 leave available capital uncertain, and the memo gives no deployment budget or runway. IP ownership and the transferability of dealer agreements are also unverified. The memo provides no evidence of eligible secondary demand, cash flow for a sponsor buyout, operating scale for an IPO, or excess cash for payouts. (Market & Traction, Founders & Team, The Idea, Key Facts)
 
-The memo gives no terms for the check under evaluation, so the bridge uses the illustrative $500,000 seed check, 5% initial ownership diluted to 3%, and no follow-on checks. The eight-year 5× objective requires $2.5 million in holder cash, or $83.3 million in distributable equity proceeds at 3% ownership. The hurdle is $125 million at 2% and $62.5 million at 4%. Calipsa’s reported $39 million price is already net of acquired cash. It provides a directional price reference, and the memo gives no measured Synara economics to support a price above the hurdle. (*Founders & Team*, *Key Facts*)
-
-The sale scenarios assume zero net debt, fees, other closing adjustments, and senior claims. Enterprise value therefore equals distributable equity consideration, paid pro rata in cash at closing. Stock, escrow, earnouts, rollover, and compensation are each assumed to be $0. Prices and timing are scenario assumptions.
-
-| Scenario | Timing and outcome | Gross holder cash | Gross multiple |
-|---|---|---:|---:|
-| Modest sale | Year 5 at $40 million enterprise value | $1.20 million | 2.4× |
-| Strong sale | Year 7 at $90 million enterprise value | $2.70 million | 5.4× |
-| Prolonged private | Through year 8, growth plateaus, buyers stay away, public scale remains out of reach, and cash is reinvested. The holder retains all shares. | $0 | 0× |
+Under the shared scenario, a $500,000 check at a $10 million post-money valuation starts at 5% ownership and dilutes to 3%, with no follow-ons. The eight-year 5× target requires $2.5 million in gross cash before investor taxes, or $83.3 million of distributable equity at 3%, $125 million at 2%, and $62.5 million at 4%. With illustrative net debt of $5 million and simple pro rata distribution, the 3% case needs $88.3 million of enterprise value. A $25 million sale yields $600,000 (1.2×), while a $100 million sale yields $2.85 million (5.7×). Calipsa’s $39 million acquisition price net of cash acquired is a relevant reference with limited value for pricing Synara. The memo leaves Synara’s sale range, debt, fees, and senior claims unresolved. If growth plateaus, buyers stay away, public scale remains out of reach, and all available cash is reinvested, the holder realizes $0 after eight years and retains the shares. (Founders & Team, Market & Traction, Key Facts)
 
 ### Countercase
 
-Immix AI Link lets monitoring centers add AI filtering while keeping their operator workflows, and Becklar already offers remote guarding through dealers. An incumbent could therefore get much of the benefit through an existing product or partnership, limiting what it would pay to own Synara. That substitute is concrete, but the memo leaves open whether it matches Synara’s full response workflow and dealer economics. The evidence supports Watch and leaves the structural Pass override untriggered. (*Defensibility*, *The Idea*, *Key Risks*)
+Becklar already sells remote guarding through dealers, and Immix AI Link lets monitoring centers add AI filtering while keeping their operator workflows. A buyer may therefore have little reason to acquire Synara unless its dealer relationships or response economics prove difficult to replicate. These substitutes make the acquisition premium speculative. The Pass gate remains untriggered because the memo establishes neither a structural closing barrier nor a supported ceiling on Synara’s sale proceeds. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 13/30 |
-| Plausible investor proceeds | 10/30 |
-| Milestones and capital needed | 7/20 |
+| Counterparty rationale or source of cash | 15/30 |
+| Plausible investor proceeds | 9/30 |
+| Milestones and capital needed | 9/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 37/100** (Pass)
+**Total Score: 40/100** (Pass)
 
 ### Decisive diligence question
 
-Can a paid multi-site pilot show an ownership advantage large enough for a wholesale monitoring operator to justify roughly $83.3 million in distributable equity proceeds? A buyer-validated comparison against its best licensing or in-house option, with measured operating gains and a valuation bridge that clears the holder’s hurdle, would move the action to Reach out.
+Can a paid rollout across multiple integrators demonstrate enough incremental gross profit for a monitoring buyer to justify an acquisition near or above $88.3 million in enterprise value? Renewed dealer contracts and measured operator savings at comparable response quality would support Reach out if those results underpin a credible purchase range that clears the holder’s 5× target.

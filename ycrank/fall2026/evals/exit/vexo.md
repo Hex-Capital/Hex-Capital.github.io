@@ -5,34 +5,30 @@
 
 ### Company case
 
-A private strategic acquisition by an AI assistant platform is Vexo’s strongest exit path. Amazon’s acquisition of Bee shows that a platform has bought a wearable conversation-capture product. Vexo documents a connector that gives assistants permissioned access to conversation memory with source references. The founders report building the hardware, firmware, app, and agents in-house. A platform could pay to control that full system if ownership measurably improves capture reliability or follow-up completion compared with a connector partnership or an internal build. The memo supplies no measured ownership advantage or buyer price. (*Market & Traction*, *Defensibility*)
+Strategic acquisition is Vexo’s strongest path. An assistant platform could pay for the Band and its permissioned conversation-memory system if owning the full product materially increased repeat assistant use. Vexo documents a connector that retrieves memories with source references. The founders report designing the hardware, firmware, and app in-house, which gives a buyer a plausible set of assets to acquire. Bee’s acquisition establishes category precedent. The economic benefit of owning Vexo remains an inference, and the memo supplies neither a transaction price for Bee nor a buyer valuation for Vexo. (The Idea, Defensibility, Market & Traction)
 
-The operating milestone is a shipped cohort that keeps using the Band and measurably completes more follow-ups over time. The founder reports distributing prototypes, and checkout lists a January 30, 2027 shipping start for $199 preorders refundable before shipment. Those signals support a production test, with manufacturing funding and runway still unverified. A sale would also depend on verifying IP ownership and whether user permissions and revocable integrations could carry over or be renewed. No independent fallback has memo support. (*The Idea*, *Market & Traction*, *Defensibility*, *Key Risks*)
+The proposed operating milestone is a shipped, paying cohort that still uses memory-driven actions weekly after 90 days. Vexo lists a January 30, 2027 shipping start and charges $199 for refundable preorders. The CEO reports distributing prototypes to an undisclosed number of preorder customers. Those signals support a path to testing retention, while production funding, unit economics, and burn remain unknown. Transfer of the product appears plausible. Continued use of customer recordings and connected services would depend on consent and revocable permissions that the memo leaves unresolved. (The Idea, Market & Traction, Defensibility, Key Risks)
 
-**Illustrative proceeds.** A $500,000 check at a $10 million post-money valuation buys 5%, diluted by 40% to 3%, with no follow-on checks. The eight-year 5× target requires $2.5 million in holder cash, or $83.3 million in distributable equity proceeds at 3%. The hurdle is $125 million at 2% and $62.5 million at 4%.
+The proceeds bridge uses an illustrative $500,000 check at a $10 million post-money valuation, with 5% initial ownership diluted to 3% and no follow-ons. A 5× gross cash return within eight years requires $2.5 million to the holder, or $83.3 million in distributable equity at 3% ownership. The equity hurdle rises to $125 million at 2% and falls to $62.5 million at 4%. With illustrative net debt of $5 million, a $25 million enterprise-value sale in year eight yields $600,000 gross to the holder (1.2×), while a $100 million sale yields $2.85 million (5.7×). These are pro rata scenarios before investor taxes and any fees or senior claims. The memo supplies no Vexo-specific basis for pricing a sale at the roughly $88.3 million enterprise-value hurdle.
 
-- **Modest sale, year 4.** At an assumed $40 million enterprise value, the holder receives $1.2 million in cash at 3%, or 2.4× gross.
-- **Strong sale, year 6.** At an assumed $100 million enterprise value, the holder receives $3 million in cash at 3%, or 6× gross. At 2%, the same sale returns $2 million, or 4×.
-- **Prolonged private, through year 8.** Growth plateaus, buyers stay away, public scale remains out of reach, and available cash is reinvested. The holder receives $0, or 0× realized, and retains the shares.
-
-Both sale scenarios assume zero applicable net debt and zero other price adjustments, so enterprise value equals equity consideration. They assume all cash at close, simple pro rata allocation with no preference adjustment, and $0 each in stock, escrow, earnouts, rollover, and compensation. Proceeds are before investor taxes. The sale prices are scenario inputs. Bee’s acquisition price is undisclosed in the memo. (*Market & Traction*)
+The memo supplies no predictable cash flow to finance a sponsor buyout, no eligible secondary demand, no evidence of public-market scale or readiness, and no sustained excess cash or payout policy. If growth plateaus below listing scale, buyers stay away, and Vexo keeps reinvesting all available cash, the holder realizes $0 over eight years and retains the shares. In a wind-down, holder proceeds would depend on the residual after obligations and preferences, which the memo leaves unquantified. (The Idea, Market & Traction, Key Facts)
 
 ### Countercase
 
-Amazon already owns a close substitute in Bee. Other platforms can access Vexo memory through its connector or use Omi’s open-source capture and integration components to build their own product. The memo has no retention or migration data showing that Vexo’s accumulated memory creates switching costs. These substitutes weaken the case for an acquisition premium. Watch applies because the evidence leaves room for a measurable ownership advantage and does not establish a structural price ceiling. (*The Idea*, *Defensibility*, *Key Risks*)
+Amazon already has wrist-worn capture and follow-up workflows through Bee Frontier, and Omi’s open-source stack gives other platforms components for building a substitute. Vexo’s own connector also gives platforms a way to offer conversation memory through an integration. Those are concrete reasons a buyer could decline to acquire Vexo, especially while sustained paid use remains unproven. The evidence supports Watch. It leaves open whether another platform could justify buying Vexo at a price that clears the holder’s hurdle, so the Pass gate is untriggered. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 14/30 |
+| Counterparty rationale or source of cash | 16/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 9/20 |
-| Transaction feasibility | 5/10 |
+| Milestones and capital needed | 10/20 |
+| Transaction feasibility | 6/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 38/100** (Pass)
+**Total Score: 42/100** (Pass)
 
 ### Decisive diligence question
 
-Can a shipped-cohort test show a platform buyer that owning Vexo improves retained use and follow-up completion enough over a connector partnership or internal build to justify a price near or above the $83.3 million equity hurdle? Buyer-validated results with economics at that scale would move the action to Reach out.
+Can Vexo show that owning the Band and memory system would create enough value for an assistant platform to support a purchase price near or above $88.3 million under the modeled terms? Evidence that paying users still rely on memory-driven actions weekly after 90 days, coupled with a buyer-side estimate of the incremental value ownership would deliver over the existing connector, would move the action to Reach out if it supports that price.

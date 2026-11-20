@@ -5,36 +5,30 @@
 
 ### Company case
 
-The strongest path is a **strategic acquisition by an audiobook distributor**. The memo records Audora’s November launch, its account-free preview from story links, and playback that starts while the rest of the book is generated. The founder reports 10,000 waitlisted readers and authors. Paid conversion, repeat usage, and realized revenue remain unverified. A distributor could have a reason to own Audora if the preview converts readers into repeat buyers of rights-cleared audiobooks at attractive margins and the distributor cannot reproduce that customer acquisition advantage by licensing casting software. The memo supports testing that hypothesis, with acquisition value still conditional. (The Idea, Market & Traction, Key Facts)
+The strongest path is a **strategic acquisition by an audiobook distributor**. Audora’s account-free preview turns a story link into a sample with distinct character voices. A distributor could pay to own that workflow and the customer relationship if Audora builds a retained audience that pays for audio from authorized works. Ownership could capture repeat purchases and their margins. That benefit is an inference. The memo documents the launch and reports a founder-claimed waitlist of 10,000 readers and authors. Paid conversion and repeat use are unverified. (The Idea, Market & Traction, Key Facts)
 
-A paid pilot with authorized titles could measure preview-to-purchase conversion, repeat purchases, and contribution margin after generation and rights costs. The launched product gives Audora a starting point. The memo lists differing YC financing figures and provides no burn, runway, or pilot budget, so the capital and time needed remain uncertain. Its interim terms require authorized access and personal use for imported stories, which limits the commercial use a buyer can assume from the existing funnel. Transferable content rights, software IP ownership, and supplier terms remain unverified. The memo supplies no usable evidence of an independent route to cash for this holder. (Market & Traction, Key Risks, Key Facts)
+The operating milestone is a rights-cleared reader cohort that makes repeat purchases at a positive contribution margin after audio generation costs. The launch gives Audora a way to test that milestone. The memo records separate $500,000 and $125,000 financing reports and provides no burn or runway data, so the capital available to reach it is unclear. (Market & Traction, Key Risks)
 
-The illustrative check is **$500,000 at a $10 million post-money valuation**, with 5% initial ownership diluted to 3%, no follow-on checks, and a $2.5 million gross cash objective within eight years. That requires $83.3 million of distributable equity proceeds at 3% ownership, $125 million at 2%, or $62.5 million at 4%. The memo offers no usable acquisition pricing or buyer economics, so the prices below are scenario assumptions.
+Under the shared scenario, a $500,000 check at a $10 million post-money valuation buys 5%, diluted to 3% with no follow-ons. The eight-year 5× target requires $2.5 million in gross cash, or $83.3 million in distributable equity. With $5 million in illustrative net debt, that requires about $88.3 million in enterprise value. At year eight, a $25 million sale yields $600,000 gross (1.2×), while a $100 million sale yields $2.85 million (5.7×). At that same $100 million price, 2% ownership yields $1.9 million and 4% yields $3.8 million. These are pro rata scenarios before investor taxes. The reported convertible note’s treatment and any fees or senior claims remain unverified. The memo supplies no usable acquisition price evidence. (Market & Traction, Key Facts)
 
-| Scenario | Timing | Enterprise value → distributable equity | Gross holder cash at 3% |
-|---|---|---:|---:|
-| Modest sale | Year 5 | $30M → $30M | $0.9M (1.8×) |
-| Strong sale | Year 7 | $100M → $100M | $3.0M (6.0×) |
-| Prolonged private | Through year 8 | No sale or payout | $0 (0×), shares retained |
-
-Both sales assume zero net debt, deal fees, and senior claims, with simple pro rata allocation before investor taxes. The full equity consideration is cash at closing. Stock, escrow, earnouts, rollover, and compensation are each $0. At 2% ownership, the strong sale returns $2 million (4×). In the prolonged-private scenario, growth plateaus, buyers stay away, public-market scale remains out of reach, and cash is reinvested.
+A growth plateau with no buyer interest, public scale out of reach, and continued reinvestment produces $0 realized over eight years, with the shares still held. The memo supplies no cash generation to support a sponsor buyout or company-funded payout, no eligible demand for a secondary, and no operating-scale evidence for an IPO and resale. (Market & Traction, Key Facts)
 
 ### Countercase
 
-A distributor can already obtain automated character casting and publishing through ElevenLabs, and a public project demonstrates multi-voice narration using a commercial speech API. Those substitutes weaken the case for buying Audora’s software. The personal-use and source-site restrictions also weaken the case for buying its existing reader funnel. Together these support waiting for evidence of a rights-cleared distribution advantage. The memo leaves the value of that advantage unresolved, so neither Pass override is triggered. (Defensibility, Market & Traction, Key Risks)
+ElevenLabs already offers character casting and publishing, giving distributors a reason to use existing tools. Audora’s terms also limit imported stories to authorized personal use under source-site rules. Those imports provide no evidenced commercial catalog a buyer could acquire, and reliance on outside model providers adds execution risk. These constraints weaken the acquisition case. The memo establishes neither a structural block on a sale built around authorized works nor a supported price that would leave the investor materially short. The Pass gate stays open. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 10/30 |
+| Counterparty rationale or source of cash | 9/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 9/20 |
+| Milestones and capital needed | 8/20 |
 | Transaction feasibility | 4/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 33/100** (Pass)
+**Total Score: 31/100** (Pass)
 
 ### Decisive diligence question
 
-Can a paid distributor pilot show that owning Audora’s rights-cleared preview funnel would generate enough incremental profit over licensing casting software to justify the required acquisition price? Measured repeat purchases and contribution margin, paired with distributor economics that support the proceeds hurdle and confirm the necessary rights can transfer, would move the action to **Reach out**.
+Can Audora show that a retained, rights-cleared paying audience generates enough incremental profit for a distributor to support an acquisition near $88.3 million in enterprise value under the illustrative terms? Repeat-purchase and margin data, transferable rights, and a buyer-grounded valuation range that clears the holder’s target would move the action to Reach out. Absent that evidence, keep Watch.

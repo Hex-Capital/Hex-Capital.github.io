@@ -5,38 +5,30 @@
 
 ### Company case
 
-Strategic acquisition is the strongest path. A cloud or developer-infrastructure platform could buy Herdr to bring persistent, cross-host coding-agent supervision into its own product. DigitalOcean already offers a Herdr image and a plugin for its managed agent runtime, which shows concrete platform interest in the capability. The ownership case is an inference. A buyer could value control of the roadmap and access to a retained base of teams if those teams measurably benefit from Herdr’s cross-host workflow and are hard to win through a standard integration. The memo supplies no measured buyer benefit or acquisition price. (The Idea, Market & Traction)
+Strategic acquisition is herdr’s strongest path. A cloud or agent-runtime provider could buy herdr to turn its cross-host agent supervision into a distribution channel for paid compute. DigitalOcean already lists a one-click Herdr image and publishes a plugin for its managed agent runtime. Conductor’s announced move to Meta shows strategic interest in adjacent tooling, with transaction terms undisclosed. The ownership case is an inference. If herdr develops a retained user base on its hosted connection service, a buyer could gain control of where those users launch and manage agent workloads. The memo provides no measurement of that benefit. (The Idea, Market & Traction)
 
-The operating milestone is sustained paid use of the newer runtime by teams across multiple hosts, with a measured reduction in time spent supervising or recovering agent jobs. The $6M seed and 3.1K desktop repository stars support an initial test. Herdr reports 2.16M cumulative installs for the original TUI, whose sessions are separate from the newer runtime. Herdr has announced a Cloud waitlist with pricing undisclosed. Paid retention, burn, and runway remain unknown. The memo also leaves IP ownership and transfer terms unverified and supplies no independently supported fallback that could pay this holder. (Market & Traction, Key Risks, Key Facts, Defensibility)
+Herdr reports 2.16 million cumulative installs for the original TUI. The memo records a separate desktop release, 3.1K desktop repository stars, and a $6 million seed round. Those are early distribution and financing signals for testing a paid deployment. Herdr has announced a Cloud waitlist with pricing undisclosed, and the separate runtimes leave migration from the original TUI unproven. The memo gives no burn or runway figures to establish the capital needed to reach the milestone. It also leaves ownership and transferability of the hosted assets unverified. (The Idea, Market & Traction, Key Risks)
 
-With investment terms undisclosed, the illustrative bridge uses a $500,000 check at a $10M post-money valuation, 5% initial ownership diluted to 3%, and no follow-on checks. The eight-year 5× target requires $2.5M in holder cash, or $83.3M in distributable equity proceeds at 3%. The hurdle is $125M at 2% and $62.5M at 4%.
+Under the illustrative eight-year scenario, a $500,000 check at a $10 million post-money valuation starts at 5% ownership and falls to 3% after 40% relative dilution, with no follow-ons. The $2.5 million gross cash target requires $83.3 million of distributable equity at 3%, $125 million at 2%, or $62.5 million at 4%. With illustrative net debt of $5 million, the 3% case requires about $88.3 million in enterprise value. A $25 million sale yields $600,000 gross (1.2×), and a $100 million sale yields $2.85 million gross (5.7×), assuming pro rata distribution before taxes and no additional fees or senior claims. At 2% ownership, even the $100 million sale yields only $1.9 million. The memo supplies no usable sale price, buyer economics, or shareholder terms to support a realizable range. (Market & Traction, Key Facts)
 
-The sale scenarios assume all cash at closing, zero net debt and other enterprise-to-equity adjustments, and a simple pro rata waterfall with no preference deductions. Stock, escrow, earnouts, rollover, and compensation each contribute $0. Prices and timing are illustrative assumptions. The memo supplies no usable price evidence.
-
-| Scenario | Timing | Enterprise value and distributable equity | Holder cash | Gross multiple |
-|---|---|---:|---:|---:|
-| Modest sale | Year 5 | $50M | $1.5M | 3× |
-| Strong sale | Year 7 | $100M | $3M | 6× |
-| Prolonged private | Through year 8 | Shares retained | $0 | 0× realized |
-
-At 2% ownership, the strong sale yields $2M, or 4×. In the prolonged-private scenario, growth plateaus, buyers stay away, public scale remains out of reach, and cash is reinvested. That scenario shows the cost of waiting, while the evidence leaves its likelihood unresolved.
+If paid adoption plateaus, buyers stay away, public scale remains out of reach, and herdr reinvests any available cash, eight years of private operation yields $0 realized, with the shares still held. The memo documents no cash generation to support a sponsor buyout, no eligible secondary demand, no operating scale or readiness for a listing, and no distributable cash to fund dividends or buybacks. The seed financing supplies no evidence of a payment to existing holders. (Market & Traction, Key Facts)
 
 ### Countercase
 
-A platform can build on the Apache-2.0 core, as DigitalOcean’s integration illustrates. cmux already offers agent-status notifications, and a native agent app can cover overlapping supervision needs for single-provider teams. The original TUI’s install count leaves adoption of the newer runtime unresolved. If integration delivers most of the buyer benefit, the ownership premium could fall below the proceeds hurdle. This gap triggers Watch. The memo leaves the price ceiling and the value of owning a retained team base unresolved, so the structural Pass override remains unproven. (Defensibility, Market & Traction, Key Risks)
+DigitalOcean’s existing integration shows that a provider can offer herdr through a partnership. Apache-2.0 lets providers build on the core, cmux already offers agent-status notifications and a programmable socket, and native agent apps cover part of the workflow. A buyer could get enough of the benefit through integration or internal development, especially if the original TUI audience fails to migrate to the hosted product. That weakens the incentive to buy. The evidence establishes neither a structural barrier to a sale nor a supported price ceiling that leaves the holder materially short, so the Pass gate does not apply. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 16/30 |
+| Counterparty rationale or source of cash | 15/30 |
 | Plausible investor proceeds | 8/30 |
 | Milestones and capital needed | 12/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 43/100** (Pass)
+**Total Score: 42/100** (Pass)
 
 ### Decisive diligence question
 
-What would owning Herdr be worth to a cloud platform after a paid multi-host deployment demonstrates sustained team use and measurable operating gains over integrating the open core? Buyer-side economics that support a price clearing the holder’s proceeds hurdle under the applicable terms would move the action to Reach out.
+Can a paid Herdr Cloud deployment with a runtime provider show that owning the hosted product would generate enough incremental gross profit over the existing integration to support a sale near or above the illustrative $88.3 million enterprise-value hurdle? Retained paid usage across multiple hosts and a provider-validated estimate of the incremental economics would move the action to Reach out if they support that price range within eight years.

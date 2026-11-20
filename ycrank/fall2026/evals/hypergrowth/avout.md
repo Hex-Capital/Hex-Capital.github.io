@@ -5,26 +5,26 @@
 
 ### Company case
 
-**Path C, marketplace density and repeat transactions,** is Avout’s strongest path. Avout’s launch invites Series A and B hardware founders to apply and capital providers to get in touch. Avout says these founders face a recurring cash gap between buying equipment or inventory and collecting the associated revenue. It also says it helped arrange a $1.5 million term sheet for an unnamed data-center company. The specific financing proposal is an early signal of fit, with closing, disbursement, and any fee still unknown. The memo gives no evidence that the borrower came through the launch channel or that another applicant followed the same route. (The Idea, Market & Traction, Key Facts)
+Marketplace liquidity is Avout’s strongest path. Series A and B hardware companies need financing when equipment and inventory costs come due ahead of revenue. Avout says it uses borrower operating data to prepare underwriting packages for outside capital providers. If lenders can reuse those packages to assess similar deals, repeat participation could shorten the time to funding. The financing need plausibly travels across markets, though Avout’s ability to find lenders that accept the collateral and terms in a second market remains untested. (*The Idea*, *Key Risks*)
 
-In a plausible growth scenario, Avout turns borrower operating data into an underwriting package that several lenders can use. More eligible lenders could improve the chance of funding, and borrowers could return when they buy more equipment. A reusable intake and underwriting process, fed by recurring referrals, could bring in the next thousand borrowers. The memo provides no repeat transactions or measured contribution. In a second geography, the cash gap could recur, while lender coverage and local rules for taking and recovering collateral would determine whether the same package can produce a funded loan. (The Idea, Defensibility, Key Risks)
+The memo documents a YC launch signup route for borrowers and a shared inbox for lenders. Avout reports helping arrange a $1.5 million term sheet for an unnamed data-center company. That shows a proposed match, with closing, disbursement, and borrower commitment unconfirmed. The memo gives no usable evidence tying the launch channel to a funded deal or showing repeat activity at either side’s financing cadence. If Avout earns a placement fee, contribution on the next deal would depend on whether the collected fee covers sourcing, underwriting, lender coordination, and any servicing or capital commitments Avout takes on. The memo provides no fee or cost measurements. (*The Idea*, *Market & Traction*, *Key Facts*)
 
 ### Countercase
 
-Avout could remain a bespoke financing intermediary. Even within data centers, each deal could require fresh equipment valuation, contract review, and lender negotiation. The memo identifies an existing specialist that already sizes server loans against appraisals and customer contracts. Avout could incur underwriting and placement costs on applications that never fund. Under an assumed placement-fee model, contribution would depend on fees from funded deals covering work on unsuccessful applications as well as completed ones. The memo contains no measured costs or evidence that this labor grows proportionally with volume, so the structural Pass gate remains untriggered. (The Idea, Defensibility, Key Risks)
+Even with strong borrower demand, lender acceptance is the first link likely to break. If lenders reassess each asset and borrower from scratch, Avout could do substantial work on deals that stall and repeat that work on each new placement. The reported term sheet leaves this possibility open. At launch, the evidence supports Watch. The structural downside gate requires affirmative evidence that the constraint blocks every credible path. (*Market & Traction*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 9/25 |
+| Global buyer demand | 12/25 |
 | Repeatable acquisition and onboarding | 9/25 |
 | Retention and customer expansion | 7/20 |
 | Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 5/10 |
+| Evidence of fit in the first buyer segment | 4/10 |
 
-**Total Score: 37/100** (Pass)
+**Total Score: 39/100** (Pass)
 
 ### Decisive diligence question
 
-Can Avout replicate a funded data-center equipment financing in a second geography? A documented paid close in each geography would move the action to Reach out if both used substantially the same underwriting workflow, had lenders able to fund the collateral locally, and generated fees that covered measured acquisition, underwriting, and placement costs, including work on applications that did not close.
+Can a capital provider fund two independent data-center borrowers using the same Avout underwriting workflow, with the fee collected on the second deal covering the incremental work? Two disbursements, comparable underwriting records, and a fee and cost breakdown for the second deal would move Avout to Reach out. Repeated attempts showing that similar deals require bespoke underwriting that consumes the placement fee, with no credible way to reduce the work, would move it to Pass.

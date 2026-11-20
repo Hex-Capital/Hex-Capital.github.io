@@ -5,40 +5,30 @@
 
 ### Company case
 
-**Strategic acquisition** is the strongest path. An enterprise workflow automation platform could buy GodHands to gain desktop workflow capture and source-linked playbooks that its agents could use to handle customer-specific exceptions. Ownership could justify a premium if integrating the capture and playbook technology into the buyer’s product delivers a durable advantage over building it or licensing access. *(The Idea, Defensibility)*
+Strategic acquisition is the strongest path. An enterprise automation platform could buy GodHands’ desktop workflow capture and source-linked playbook software to help its customers handle undocumented exceptions in employee handovers and supervised agent workflows. The potential reason to own the software is faster rollout across applications that lack capture integrations. The memo describes that capability, while the rollout benefit to an acquirer is an inference. Buyer interest and the incremental benefit of ownership remain unverified. (The Idea, Defensibility, Key Risks)
 
-**Observed evidence.** GodHands launched its cross-functional product in October 2026, and the memo records YC backing and a $500,000 seed financing entry. The amount available for a production test and the company’s runway are unknown. *(Market & Traction)*
+The operating milestone is paid production deployments that show a repeatable improvement in handling exceptions compared with customers’ existing tools. Company-published testimonials report that a logistics team documented its escalation process within two weeks and that a replacement controller closed the books on time in month two. The October launch and confirmed YC backing make further testing plausible. The memo leaves paid adoption, burn, runway, and the capital needed for those tests open. (Market & Traction)
 
-**Company-reported evidence.** In testimonials published by GodHands, a logistics software company said it documented its escalation process within two weeks, and a public fintech said a replacement controller closed the books on time in month two, versus two quarters previously. These reports suggest value in capturing how teams handle exceptions. The acquisition case depends on showing that agents can use those playbooks reliably in paid production. GodHands currently requires users to approve proposed changes or messages before execution. The memo supplies no buyer economics or terms establishing which technology and customer rights could transfer, keeping confidence low. *(Market & Traction, Defensibility, Key Risks)*
+GodHands documents customer isolation and retention controls. A software acquisition is conceivable, with core IP ownership and rights to transfer customer contracts or retained playbooks still unverified. The memo also leaves the alternatives unevidenced. It supplies no cash-generation figures to underwrite a sponsor buyout or company-funded payout, no eligible secondary demand, and no evidence of public-market scale or readiness. (Defensibility, Key Risks, Market & Traction, Key Facts)
 
-**Proceeds bridge.** The memo supplies no terms for the check being evaluated. The illustrative $500,000 check at a $10 million post-money valuation starts at 5% ownership and falls to 3% after 40% relative dilution, with no follow-on checks. The eight-year objective is $2.5 million in gross cash, or 5×. That requires $83.3 million in distributable equity proceeds at 3% ownership, $125 million at 2%, or $62.5 million at 4%.
-
-The sale prices below are scenario assumptions. Both assume zero net debt and no other enterprise-to-equity adjustments, a simple pro rata waterfall with no preference impact, and full cash payment at closing. Stock, escrow, earnouts, rollover, and transaction compensation are each assumed to be $0. Holder proceeds are before investor taxes.
-
-| Scenario | Timing | Enterprise value → distributable equity | Holder cash at 3% | Gross multiple |
-|---|---|---:|---:|---:|
-| Modest sale | Year 5 | $40 million → $40 million | $1.2 million | 2.4× |
-| Strong sale | Year 7 | $100 million → $100 million | $3.0 million | 6.0× |
-| Prolonged private | Through year 8 | No sale or distribution | $0, shares retained | 0.0× |
-
-The strong sale clears the hurdle at 3% but yields only $2 million, or 4.0×, at 2%. The memo provides no acquisition comparables or measurable buyer economics to support either sale price. In the prolonged-private scenario, growth plateaus, buyers stay away, public scale remains out of reach, and the company reinvests available cash. The memo gives no usable evidence of an independent route that would pay this holder. *(Market & Traction, Key Facts)*
+**Illustrative proceeds.** With actual holder terms unavailable, assume a $500,000 check at $10 million post-money, 5% initial ownership diluted by 40% to 3%, and no follow-ons. The 5× target is $2.5 million in gross cash within eight years. A $25 million cash sale at year eight yields $600,000 (1.2×), and a $100 million sale yields $2.85 million (5.7×), each using $5 million of illustrative net debt and simple pro rata allocation before investor taxes. Fees and preferences are unmodeled because their terms are unknown. The target requires $83.3 million of distributable equity at 3% ownership, equivalent to $88.3 million of enterprise value with that debt. At 2% or 4%, the equity hurdle is $125 million or $62.5 million, respectively. The memo supplies no realizable sale price range. If growth plateaus, buyers stay absent, public scale remains out of reach, and GodHands reinvests all available cash with no secondary or payout, the holder realizes $0 over eight years and keeps the shares. (Market & Traction, Key Facts)
 
 ### Countercase
 
-A buyer could get enough of the benefit from an existing product or a commercial license. Scribe already offers background workflow capture and agent access, while Skan AI offers workflow discovery and execution. Even if GodHands’ accumulated playbooks create switching costs for customers, their customer-specific, isolated design leaves open which rights an acquirer could obtain. The evidence supports **Watch**. It leaves the ownership premium unresolved and does not establish a binding transfer barrier or a price ceiling that triggers a Pass override. *(The Idea, Defensibility, Key Risks)*
+Scribe already offers background capture and agent access, and Skan AI already sells workflow discovery and execution products. A potential acquirer could extend its existing stack or license the capture layer if retained customer playbooks have limited value across accounts. The testimonials describe customer workflow outcomes and leave the economics of acquiring GodHands unresolved. That gap supports Watch. The memo establishes neither a structural closing barrier nor a supported sale range that leaves the holder materially short, so the Pass gate does not apply. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 12/30 |
+| Counterparty rationale or source of cash | 11/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 9/20 |
+| Milestones and capital needed | 8/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 36/100** (Pass)
+**Total Score: 34/100** (Pass)
 
 ### Decisive diligence question
 
-Can GodHands demonstrate in paid production that owning its capture and playbook technology gives an automation platform enough incremental value over building or licensing to justify roughly $83 million in distributable equity value? A measured comparison on real customer exceptions, backed by a prospective buyer’s economics and a credible path to transfer the rights needed to reproduce the result, would move the action to **Reach out** if the economics clear the hurdle at plausible diluted ownership.
+What price could an enterprise automation platform justify for owning GodHands after paid deployments demonstrate a repeatable improvement in exception handling? Buyer-side economics grounded in those deployments would move the action to Reach out if they show why ownership beats building or licensing and support a price range that clears the holder’s cash target within eight years, about $88.3 million in enterprise value under the 3% ownership and $5 million net-debt assumptions.

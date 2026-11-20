@@ -5,26 +5,26 @@
 
 ### Company case
 
-**Path B, repeatable sales with account expansion,** is the strongest hypothesis. The memo documents a launch and founder-led LinkedIn outreach to AI rollout leads. The recurring job is helping employees apply AI to their own tasks without pulling internal champions away from their regular work. ChampionEffect says its coach guides employees on live calls through Slack or Teams and reuses what it learns to help coworkers. The memo provides no named buyer, paid deployment, or record of repeat use. (The Idea; Defensibility; Market & Traction; Key Facts)
+The strongest plausible path is repeatable direct sales to enterprise AI rollout leads. The recurring job is helping employees apply AI to their own work without relying on internal champions for every walkthrough. The founders invite rollout leads to contact them on LinkedIn. ChampionEffect says its coach joins live calls through Slack or Microsoft Teams and uses what it learns from walkthroughs to help coworkers. The same buyer and job could plausibly recur in other markets, with app approval and access to internal workflows still unresolved. (The Idea, Defensibility, Key Risks)
 
-If the coach becomes indispensable to rollout leads, the next thousand buyers could come through a repeatable sales process targeting the same role. The expansion hypothesis is that a walkthrough for one employee helps a second team get value with less setup, creating a reason to pay for wider use. In a second geography, that scenario assumes the same buyer owns the rollout and can deploy the same integration, with manageable changes to language, app approvals, and internal access rules. The economics would depend on whether workflow reuse reduces setup and support enough to offset live-session compute and workflow maintenance as usage grows. The memo provides no cross-market buyer evidence or rollout cost measurements. (The Idea; Defensibility; Key Risks; Key Facts)
+Even assuming strong fit with rollout leads, the first unproven link is getting an independent employer from founder contact to paid, live use through a process another person can run. The memo records a launch and names a prospecting channel. It provides no buyer commitment, paid go-live, repeat usage, or measured rollout costs. Acquisition, retention, contribution, and fit therefore take their absent-evidence defaults. (The Idea, Market & Traction, Defensibility, Key Facts)
 
 ### Countercase
 
-Each employer could require a separate approval process, hands-on setup for sensitive workflows, and ongoing work to keep guidance current. Employees could then stop using the coach once their initial rollout ends. The memo documents that Slack and Teams admins can restrict third-party apps and identifies access control and stale guidance as risks. It provides no deployment or usage records showing those risks have materialized. The structural Pass gate remains unmet. (Key Risks; Market & Traction)
+The strongest countercase is that workflow knowledge helps ChampionEffect scale within an employer while each new employer still requires custom setup. Slack and Teams administrators can restrict the app, and reusing walkthroughs may require account-specific access controls and ongoing updates as tools or processes change. If those steps require substantial founder time at each rollout, the direct-sales motion could remain labor-intensive as revenue grows. The memo identifies the risks but gives no deployment evidence that establishes a structural constraint, so the downside gate does not apply. (Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 9/25 |
+| Global buyer demand | 13/25 |
 | Repeatable acquisition and onboarding | 9/25 |
 | Retention and customer expansion | 7/20 |
 | Contribution as volume grows | 7/20 |
 | Evidence of fit in the first buyer segment | 4/10 |
 
-**Total Score: 36/100** (Pass)
+**Total Score: 40/100** (Pass)
 
 ### Decisive diligence question
 
-Can an independent employer outside the US buy through the stated LinkedIn channel, go live through a standard Slack or Teams approval process, and have a second team reuse the first team’s workflows in regular work? A single paid rollout with usage records and a breakdown of setup and support hours would answer it. If it shows repeat use across teams with limited hands-on work, move to **Reach out**.
+Can two independent employers from the same LinkedIn sales motion reach paid go-live using the same onboarding steps? Move to **Reach out** if rollout records show employees at both employers completing a real task with the coach and the second employer’s admin handling setup with limited, logged founder support. If both rollouts require substantial custom work, stay on **Watch**.

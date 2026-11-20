@@ -5,34 +5,30 @@
 
 ### Company case
 
-Strategic acquisition by a product-analytics platform is the strongest private-company path. Databuddy describes a workflow that combines traffic, errors, performance, and revenue data into scheduled investigations with inspectable queries. An analytics platform could buy that workflow to bring cross-tool diagnosis to its installed base. Ownership would make economic sense if production use showed that the integrated workflow improves customer retention or saves enough engineering time to justify buying it over building or licensing it. The memo records one customer’s reported switch from Framer Analytics, which supports demand for the bundle while leaving the value of the investigation workflow unmeasured. (The Idea, Market & Traction)
+Strategic acquisition is the strongest path. An analytics platform such as Mixpanel could buy Databuddy to add a cookieless tracker and a workflow that investigates conversion changes across traffic, errors, Web Vitals, and connected revenue. Databuddy says Databunny exposes the underlying queries and pushes scheduled investigations to Slack. Ownership could give a buyer control over the tracker and investigation workflow, permitting deeper integration and faster rollout if customers demonstrably benefit from using them together. The memo leaves that incremental benefit and any buyer valuation unverified. (*The Idea*, *Defensibility*)
 
-The memo records 38 active subscriptions and $3,345 in company-wide MRR. Reported financing of more than $560,000 gives the solo founder a plausible starting point for a production test. The memo gives no product-level retention, test budget, burn, or runway, so both the time and capital required remain uncertain. The transaction case also leaves software ownership, integration and customer-data transfer rights, and required consents unverified. The memo provides no separately supported route to cash for this holder. (Market & Traction, Key Facts, Founders & Team, Key Risks)
+A proposed milestone is a 90-day test showing that paying teams repeatedly use the combined workflow and resolve conversion incidents faster than with their existing tools. The memo records 38 active subscriptions and $3,345 in company-wide MRR. Those figures establish early paid adoption. The funding announcement’s claim of more than 3,000 businesses served leaves paid Databunny usage and retention unresolved. Self-serve onboarding makes a cohort test plausible, while the reported raise of more than $560,000 leaves current runway and the capital needed to reach the milestone open. Transferability of the code and customer agreements, including permissions for customer data, remains unverified. (*The Idea*, *Market & Traction*, *Key Facts*, *Key Risks*)
 
-The memo gives no terms for the evaluated check, so the bridge uses the illustrative $500,000 check at $10 million post-money. Initial ownership of 5% dilutes to 3%, with no follow-on checks. The eight-year 5× target is $2.5 million in cash before investor taxes, requiring $83.3 million in distributable equity proceeds at 3%. The hurdle is $125 million at 2% ownership and $62.5 million at 4%. The memo supplies no usable acquisition pricing or quantified buyer economics. (Market & Traction, Key Facts)
+Under the shared seed scenario, a $500,000 check at a $10 million post-money valuation starts at 5% ownership and falls to 3% after 40% relative dilution, with no follow-ons. The eight-year target is $2.5 million in gross cash before investor taxes. A pro rata distribution requires $83.3 million of distributable equity at 3% ownership, $125 million at 2%, or $62.5 million at 4%. At 3%, the illustrative $5 million of net debt raises the enterprise-value hurdle to $88.3 million. With that assumed debt and no modeled fees or senior claims, a $25 million sale in year eight yields $600,000 (1.2×), while a $100 million sale yields $2.85 million (5.7×). Actual shareholder terms, debt, and a realizable sale price remain unknown.
 
-The sale figures below are scenario assumptions. Both assume zero net debt and other price adjustments, so enterprise value equals equity consideration. A simple pro rata waterfall allocates the cash paid at closing. Stock, escrow, earnouts, rollover, and compensation are each assumed to be $0.
-
-- **Modest sale in year 4.** $30 million in enterprise value yields $900,000 to the holder, or 1.8× gross.
-- **Strong sale in year 7.** $100 million in enterprise value yields $3 million to the holder, or 6.0× gross. This clears the hurdle at 3% ownership and misses it at 2%.
-- **Prolonged private through year 8.** Growth plateaus, buyers stay away, public scale remains out of reach, and available cash is reinvested. The holder realizes $0, or 0× gross, and retains the shares.
+The other routes lack independent support. The memo establishes neither post-reinvestment cash flow for a sponsor buyout or company-funded payout, eligible demand for a secondary, nor a path to public scale and holder resale. In a prolonged-private scenario where revenue plateaus near current levels, buyer interest fails to emerge, public scale stays out of reach, and available cash is reinvested, the holder realizes $0 over eight years and retains the shares. A wind-down recovery would depend on the residual after obligations and preferences, which the memo leaves unquantified. (*Market & Traction*, *Key Facts*)
 
 ### Countercase
 
-Mixpanel already offers proactive metric monitoring, and PostHog exposes analytics to AI agents. Both can start with customer data they already hold. Databuddy’s strongest countercase is that an incumbent can reproduce enough of the workflow in-house or secure the same benefit through a partnership, leaving little reason to pay an acquisition premium. The memo gives no measured advantage for Databuddy’s full workflow, but the documented overlap covers only parts of it and establishes no price ceiling. That gap warrants Watch. The evidence does not trigger the structural Pass override. (The Idea, Defensibility, Key Risks)
+Mixpanel already monitors metrics proactively, and PostHog exposes analytics to AI agents using its existing customer data. A buyer could extend its own product or partner for the remaining telemetry. That puts the burden on Databuddy to show that owning the integrated workflow is worth paying for. The overlap weakens the acquisition rationale, but the memo establishes neither a complete substitute nor a supported sale price that leaves the holder materially short. The Pass gate is untriggered. (*Defensibility*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 9/30 |
+| Counterparty rationale or source of cash | 11/30 |
 | Plausible investor proceeds | 8/30 |
 | Milestones and capital needed | 9/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 33/100** (Pass)
+**Total Score: 35/100** (Pass)
 
 ### Decisive diligence question
 
-Can Databuddy show a prospective analytics acquirer that owning the investigation workflow is worth enough, relative to building or licensing it, to support a price that yields at least $83.3 million in distributable equity proceeds? A buyer-side production comparison with measured retention gains or engineering savings that support that price would move the action to **Reach out**. Evidence that a readily available substitute caps the price materially below the hurdle would move it to **Pass**.
+What acquisition price could an analytics platform justify for owning Databuddy once paying teams demonstrate repeat use and faster incident diagnosis? A buyer-side build-versus-buy assessment grounded in measured cohort results would answer it. A supported price range that clears the holder’s $2.5 million target under plausible dilution and deal terms would move the action to Reach out.

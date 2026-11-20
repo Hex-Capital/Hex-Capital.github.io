@@ -5,26 +5,26 @@
 
 ### Company case
 
-**Path A — Scarce complements.** Vorelios could expand the amount of simulation-backed design work aerospace teams can do within a fixed engineering schedule. Vorelios says conventional simulation runs can take hours or days. In early tests with clean CAD, it reports subsecond predictions, searches across thousands of candidates, and predictions within a few percent of a separate solver in those initial runs. That comparison supports a plausible seed-stage mechanism for screening designs faster. The commercial case depends on how much usable design capacity remains after engineers prepare inputs, handle exceptions, and verify results. (The Idea, Market & Traction, Key Risks)
+**Path B — New Economies.** Vorelios could make broad aerodynamic design studies economical for aerospace teams that currently skip them. The memo describes a prototype that searches across interacting physical effects. Vorelios says conventional simulation runs can take hours or days, while its prototype predicts physical fields from clean CAD in under a second. That supports a faster way to screen designs. The market-opening scenario assumes that screening reduces total engineering labor enough for a buyer to commission a study it previously went without. The memo records no such buyer commitment. (*The Idea*, *Market & Traction*)
 
-Vorelios reports building its own geometry-generation and simulation pipeline. With abundant capital and cheap models available to rivals, the capability a buyer might still need from Vorelios is reliable performance on unfamiliar designs. Whether its training pipeline produces an advantage there remains open. The memo describes relevant physics and cyber-physical systems backgrounds, and the founders are seeking numerical-solver and CFD specialists. Buyer commitments are unverified. An expansion unit would be another design family, with pricing and the costs of extending coverage and validating designs still unknown. (Defensibility, Founders & Team, Market & Traction, Key Facts)
+The unit of expansion is one design study whose results the buyer accepts. Vorelios reports searching thousands of candidates in initial runs, with predictions within a few percent of an independent solver. That gives the cost bridge a starting point. It remains unclear how much labor and compute each accepted study requires after CAD preparation, review, reruns, and solver validation. The founders’ backgrounds in physics and cyber-physical systems and the working prototype support seed-stage execution credit. Generalization to unfamiliar design families remains the next technical hurdle. (*Market & Traction*, *Founders & Team*, *Key Risks*)
 
 ### Countercase
 
-Vorelios says its previous architecture failed on design families outside its training set. If the current system still needs extensive CAD cleanup and solver rechecks, faster predictions could leave the engineering bottleneck in place. Open-source surrogate-building tools and competing physics-AI workflows also give buyers credible alternatives to test. The memo leaves end-to-end performance and substitutability unresolved, which keeps Path A below the outreach gate and supports Watch. Path B lacks evidence that the workflow opens a previously uneconomic transaction. (Key Risks, Defensibility, The Idea, Market & Traction)
+Vorelios may speed up design exploration for existing simulation buyers while leaving the labor that determines whether a study is affordable largely intact. The company reports that an earlier architecture failed on unfamiliar design families, and the clean-CAD requirement may leave significant preparation work with the buyer. Under model parity, Vorelios’s reported in-house training pipeline offers a possible accuracy advantage, but the memo gives no held-out results showing that advantage or buyer behavior showing a preference under equivalent output. PhysicsX’s aerodynamics offering and the reusable tools in PhysicsNeMo make substitution credible. Neither required Path B condition is established, and the memo contains no direct buyer comparison that defeats either one. Path A has no independent evidence of a scarce input Vorelios controls. (*The Idea*, *Defensibility*, *Market & Traction*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
 | Path-specific thesis fit | 12/25 |
-| Durable value capture | 8/25 |
+| Durable value capture | 7/25 |
 | Customer demand | 5/20 |
 | Team and execution | 8/15 |
-| Scale economics | 4/15 |
+| Scale economics | 5/15 |
 
 **Total Score: 37/100** (Pass)
 
 ### Decisive diligence question
 
-Will an independent aerospace buyer fund a trial on an unfamiliar design family and commit to continued use if Vorelios delivers more designs that meet the buyer’s acceptance criteria per engineer-hour than the buyer’s best available workflow? Count CAD preparation, failed runs, and solver verification on both sides. A material advantage that survives the comparison, plus a funded continuation, would support Reach out if the updated score and confidence clear the outreach gate. If the trial shows that rework erases the gain or an available substitute matches it, move to Pass. (The Idea, Market & Traction, Key Risks)
+Will an independent aerospace team pay for a repeat design study it previously skipped, and choose Vorelios after evaluating a comparably priced alternative with equivalent model output? Move to **Reach out** if a buyer-run trial on an unfamiliar design family shows that Vorelios clears the buyer’s former cost barrier after preparation, review, reruns, and validation, and the buyer places a repeat order at a viable price for a specific advantage it values under parity. Move to **Pass** if the comparison shows that the full workflow still exceeds the buyer’s cost threshold or that the buyer switches and retains the same outcome.

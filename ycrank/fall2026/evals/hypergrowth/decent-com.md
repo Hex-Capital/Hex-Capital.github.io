@@ -5,13 +5,13 @@
 
 ### Company case
 
-**Path B. Repeatable sales or partner distribution with account expansion.** Small U.S. employers have a recurring job: control health-plan costs between renewals. Decent offers self-serve quotes and pays referral fees when eligible employers receive written quotes. If those channels repeatedly lead to plan placements, provider commissions fund the brokerage relationship. In-year claims review could give employers a reason to stay through the next renewal. Channel conversion, realized commissions, renewal retention, and paid account expansion remain unverified. *(The Idea, Key Facts, Market & Traction)*
+**Channel-led or repeatable sales** is the strongest path. Decent offers U.S. small employers self-serve quotes, referrals, and founder consultations. The employer’s recurring job is to control health-plan costs during the year and at renewal. Decent earns commissions from providers when it places coverage. If employers can move from a quote to live coverage through a standard workflow, and administrators supply usable claims reports, Decent could serve more accounts while reusing its quoting and review process. (The Idea; Key Risks)
 
-Named customers report concrete savings. Locate reported saving more than $100,000 against its renewal quote, and Reflex Careers reported paying 10% below its prior-year rate after a proposed 15% increase. Those outcomes support early fit. The founders report 67 companies working with Decent and say AI handles 89% of brokerage work. The first figure leaves paid placements unclear, and the second leaves human time and cost per account unclear. *(Market & Traction, Key Facts)*
+Named customers report concrete savings. Locate reported more than $100,000 against its renewal quote, and Reflex Careers reported paying 10% less than the prior year after receiving a proposed 15% increase. Decent separately reports that a one-time surgery accounting for 46% of a client’s claims spend was excluded from the following year’s rates. These accounts support initial buyer fit and show how claims review can affect renewal pricing. The memo gives no account-level evidence of repeat paid use or expansion. (Market & Traction; Key Facts)
 
 ### Countercase
 
-The employer’s cost-control problem could recur abroad, but Decent’s workflow depends on local plan options, provider commissions, access to claims reports, and rules for handling sensitive data. In a second-country rollout, the quoting and review software might carry over, while provider relationships, plan comparisons, compensation arrangements, and claims-data access would need to be established locally. Each additional employer could also add referral costs before placement, plus advisor time and claims exceptions after placement. The memo establishes those dependencies and leaves their cost and portability untested. That supports Watch. The Pass gate requires evidence of a structural ceiling or proportional costs without a supported path to improvement. *(The Idea, Key Risks, Key Facts)*
+Decent may have a scalable quote tool attached to a high-touch brokerage. Its referral program pays for written quotes, and the founder-reported 67 companies “working with Decent” gives no count of commission-paying accounts or evidence of a repeatable handoff. The founder-reported 89% AI share of brokerage work gives no measure of staff time, referral costs, or contribution per account. The first link likely to break is the handoff from quote to live coverage and claims review, where founder effort and administrator-specific data access could limit throughput. The workflow as described is tied to U.S. coverage arrangements, and the memo gives no evidence of portability to another country. The structural downside gate remains untriggered because repeatable delivery is still a testable possibility. (The Idea; Market & Traction; Key Risks; Key Facts)
 
 ### Dimension Scores
 
@@ -21,10 +21,10 @@ The employer’s cost-control problem could recur abroad, but Decent’s workflo
 | Repeatable acquisition and onboarding | 9/25 |
 | Retention and customer expansion | 7/20 |
 | Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 7/10 |
+| Evidence of fit in the first buyer segment | 8/10 |
 
-**Total Score: 38/100** (Pass)
+**Total Score: 39/100** (Pass)
 
 ### Decisive diligence question
 
-Can Decent place and earn a commission on a plan for a small employer outside the U.S. using substantially the same quoting and claims-review workflow? One documented placement with usable claims access and a cost breakdown covering local setup, acquisition, and ongoing service would move the action to Reach out if it showed a credible path to positive contribution on subsequent accounts.
+Can a non-founder take several independent small employers from a self-serve or referred quote through commission-paying go-live and a first in-year claims review using the same workflow across administrators? Account records showing a repeatable handoff and positive contribution after referral and staff costs would move Decent to **Reach out**.

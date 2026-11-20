@@ -5,28 +5,28 @@
 
 ### Company case
 
-**Path B — Repeatable sales or partner distribution with account expansion.** The initial buyer is a commercial property insurer that needs to verify property details and prioritize inspections during underwriting and renewal. Ageospatial describes a product that matches addresses to buildings and combines imagery, public records, and carrier data into dated property records. If that workflow becomes routine, the same carrier could extend it to more properties and use the refreshed records at renewal. Winning the next thousand buyers would require a repeatable sales process and an integration that each carrier could reuse across its portfolio. (*The Idea*, *Defensibility*)
+The strongest path is **repeatable direct sales** to commercial property insurers. Ageospatial describes matching addresses to parcels and buildings, combining imagery and carrier data, and producing dated property records that help underwriters prioritize inspections. The same job plausibly recurs across insurers and markets. The record format and inspection workflow could carry over, while local data coverage, licensing, and insurer oversight leave the scope of adaptation open. *(The Idea, Key Risks)*
 
-The memo records that Ageospatial lists AXA and Die Mobiliar as “Trusted by.” The founder reports signing its largest insurance customer through a relationship-led sale. That signing is an early signal of buyer commitment. Payment, production use, repeat usage, and deployment geography remain unknown. (*The Idea*, *Market & Traction*, *Key Facts*)
+The founder reports signing the company’s largest insurance customer through a relationship-led sale. The memo observes that AXA and Die Mobiliar appear under “Trusted by,” with engagement terms undisclosed. The signature signals buyer interest, while the buyer’s budget, production use, and workflow change remain unverified. The memo also leaves open whether customers return at renewal or pay to cover more properties. *(The Idea, Market & Traction, Key Facts)*
 
-In a second-market scenario, the underwriting job and core property record could carry over if local parcel records, imagery coverage and licensing, and insurer oversight requirements can be handled without rebuilding the workflow. Each new carrier would add sales and integration effort. Each additional property or refresh could add data, compute, and manual review costs. Growth would compound if carriers pay to expand coverage and that revenue grows faster than those costs. The memo gives no rollout or workload cost measurements. (*The Idea*, *Key Risks*, *Key Facts*)
+Assuming strong fit with the first carrier, the first likely bottleneck is getting the next carrier from a demo to paid production. Ageospatial says its engineers deploy inside carrier systems. The memo gives no comparable implementation hours or costs, so it is unclear whether the next rollout can reuse enough of the first to improve contribution. *(The Idea, Defensibility, Key Risks)*
 
 ### Countercase
 
-Ageospatial could grow as an integration-heavy service, with each sale requiring a new relationship and each rollout requiring engineers to adapt the product to the carrier’s systems and local data. The reported sale and engineer-led deployments make that a credible risk. The memo leaves open how much work can be reused and whether costs rise in proportion to volume, so the structural Pass gate is untriggered. A paid rollout in a second market would be more informative than a conversation today. (*The Idea*, *Key Risks*)
+Ageospatial could win contracts while each carrier still requires a founder relationship and a custom integration. Carrier-specific data and third-party coverage could make that work recur with every deployment. The memo establishes an engineer-led deployment model and one reported relationship-led signing. Whether effort rises in proportion to revenue remains open, so the structural downside gate does not trigger. *(The Idea, Market & Traction, Key Risks)*
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 10/25 |
-| Repeatable acquisition and onboarding | 8/25 |
+| Global buyer demand | 13/25 |
+| Repeatable acquisition and onboarding | 9/25 |
 | Retention and customer expansion | 7/20 |
 | Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 5/10 |
+| Evidence of fit in the first buyer segment | 4/10 |
 
-**Total Score: 37/100** (Pass)
+**Total Score: 40/100** (Pass)
 
 ### Decisive diligence question
 
-Can an independent commercial property insurer in a second geography go live on a paid, recurring underwriting workload using the same core product and a reusable integration? A paid rollout with records of repeat use, local data changes, engineering hours, and ongoing delivery costs would answer it. If those records show that the workflow carries over with limited adaptation and that paid usage can grow faster than delivery effort, move to **Reach out**.
+Can a second independent commercial property insurer go from a direct demo to paid production for the same inspection-prioritization workflow using the first deployment’s integration process? A signed paid agreement, evidence of live underwriting use, and implementation logs showing a successful handoff and bounded engineering effort compared with the first rollout would move the action to **Reach out**.

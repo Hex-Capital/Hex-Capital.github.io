@@ -5,28 +5,28 @@
 
 ### Company case
 
-**Path A — Scarce complements** is Orgo’s stronger path. As models become better at operating graphical software, developers can delegate longer jobs that need a desktop to preserve files and application state between sessions and let a human take over when needed. Orgo offers persistent, isolated desktops across Linux, Windows, and macOS through one API. That makes reliable desktop execution a plausible bottleneck. Orgo says it can take months to build this infrastructure in-house, and the memo gives no measured comparison of provisioning effort or workload performance. Orgo’s claim that it operates its own U.S. infrastructure suggests operational control. Saved state and custom templates could make migration costly, an inference the memo leaves untested. (The Idea; Defensibility; Market & Traction)
+**Path A — Scarce complements** is Orgo’s strongest case. If cheap, capable models lead teams to run more always-on agents, persistent graphical desktops could become a deployment bottleneck for teams that need to preserve files and application state across runs. Orgo says building the VM provisioning, streaming, storage, isolation, and autoscaling in-house can take months. The memo gives no measured deployment delay or capacity shortfall, so the constraint remains plausible at seed. (The Idea)
 
-There is early evidence of use at a plausible U.S. seed entry. An agency operator reported that a client saved about 12 hours preparing a Squarespace shop with an agent hosted on Orgo. Orgo reports more than 1,000 teams and thousands of production desktops. Paid conversion and repeat usage remain unknown. The founders bring software engineering, commercial computer-use agent deployments, and applied AI experience. Orgo’s status page reported 99.760% fleet uptime over 30 days, leaving reliability for the most demanding persistent workloads an open execution question. (Market & Traction; Founders & Team; Key Risks)
+Orgo says it operates its own U.S. infrastructure. Saved machine state and custom templates could make migration costly, but the memo provides no evidence of retention or migration friction. An agency operator reported that a client saved about 12 hours preparing a Squarespace shop with an agent running on Orgo. That supports real workflow use. Orgo’s claims of more than 1,000 teams and thousands of production desktops leave paid repeat demand uncertain. (Defensibility, Market & Traction)
 
-The expansion unit is another paid desktop. **Scenario assumption:** A Small Linux VM billed for all 730 hours of a month at the listed $0.023 running-hour rate would generate about $16.79 in monthly gross revenue. Contribution depends on host utilization, persistent storage, streaming, and support costs. The memo establishes the price and billing unit. It leaves actual utilization, contribution margins, and expansion within paying accounts open. (The Idea; Key Facts)
+The founders’ software engineering and commercial computer-use work, a shipped desktop service, and a company-reported 30-day fleet uptime of 99.760% support seed-stage execution credit. For scale economics, the expansion unit is a paid desktop. At the posted Small Linux rate, 720 running hours would bill about $16.56, assuming continuous use at the hourly rate. Host utilization, hardware, storage, streaming, and support costs determine contribution, and the memo gives no realized cost figures. (Founders & Team, Key Risks, The Idea)
 
 ### Countercase
 
-AWS already offers Linux and Windows agent desktops with identity integration, and Daytona exposes a graphical desktop API. With ample capital, rivals could plausibly close more of the feature gap. Credible alternatives therefore exist for parts of the workload, while the memo gives no like-for-like evidence that buyers can move a stateful production workload without meaningful disruption. That leaves Path A short of the control and bottleneck-relief evidence required for outreach. Path B also falls short of the gate. The memo leaves open whether savings after human review and retries make a previously uneconomic job viable, and whether buyers would still pay Orgo when equivalent agent capability is available elsewhere. (Defensibility; Key Risks; Market & Traction)
+AWS WorkSpaces already offers Linux and Windows agent desktops with AWS identity integration, giving existing customers a credible way to bypass Orgo. Daytona also offers graphical desktop control. The overlap makes interchangeable supply a serious risk, but the memo contains no buyer comparison showing equivalent performance on persistent production workloads. The path remains open. The Squarespace testimonial does not establish that automation opened a previously uneconomic market, leaving Path B without an independent case. (Defensibility, Key Risks, Market & Traction)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 13/25 |
+| Path-specific thesis fit | 11/25 |
 | Durable value capture | 8/25 |
 | Customer demand | 10/20 |
-| Team and execution | 9/15 |
+| Team and execution | 10/15 |
 | Scale economics | 6/15 |
 
-**Total Score: 46/100** (Neutral)
+**Total Score: 45/100** (Neutral)
 
 ### Decisive diligence question
 
-**Will independent buyers keep paying Orgo after running the same persistent production workload on the best available alternative with the same model?** A paid comparison that measures job completion, state recovery, operator intervention, and migration effort would answer it. Move to Reach out if repeat paid use is tied to a measurable advantage Orgo controls and rivals would struggle to reproduce, and the evidence raises the score to at least 65 with medium or high confidence. Move to Pass if buyers can switch at comparable cost without losing reliability or meaningful workflow state.
+Will an independent buyer renew at a price that covers Orgo’s delivery costs after running the same persistent production workload on Orgo and AWS WorkSpaces? Move to Reach out if the buyer renews because of a material advantage in successful runs or recovery time that the trial traces to how Orgo operates its fleet. Move to Pass if WorkSpaces meets the same requirements at comparable cost and the buyer can migrate with little effort.

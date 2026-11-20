@@ -5,28 +5,26 @@
 
 ### Company case
 
-**Path B — New economies** is the strongest case. Sintropix says its shared ledger automates daily matching and posting, flags exceptions for review, and supports consolidation and local tax filing. If this reduces human labor per accurate close and accepted filing, smaller cross-border teams could afford a recurring managed service that is currently out of reach. The CEO reports that managed-service customers moved their month-end close from day 20 to day 1. That measures elapsed time. Total staff hours, correction rates, and filing acceptance remain unverified. (The Idea; Market & Traction; Key Risks)
+**Path B — New Economies.** The strongest seed-stage case is that Sintropix could make a reliable day-one consolidated close economical for small cross-border groups that already pay for local bookkeeping and filings but have gone without timely group reporting. That buyer segment is an assumption. The memo describes the current workaround of reconciling records from separate accounting firms, bank accounts, and spreadsheets. Sintropix says its shared ledger automates matching and posting, routes exceptions for review, and supports consolidation and local filing. The CEO reports that managed-service customers moved their month-end close from day 20 to day 1. That reported result supports a faster close. The labor and full delivery cost per accurate close and completed filing remain unmeasured. (The Idea, Market & Traction, Key Risks)
 
-The founders reported 10 ERP customers across four countries. That supports early interest, while paid repeat use by buyers previously priced out of the managed service remains unverified. The team’s shift from manual bookkeeping to a founder-built ERP shows relevant early execution. Reliable delivery through local filing cycles is the next test. The Fall 2026 YC batch and San Francisco location make seed entry a plausible mandate fit. (Sintropix; Market & Traction; Founders & Team)
-
-The scale unit is an added legal entity in an already supported jurisdiction. Using the reported fee structure, the added monthly fee must cover onboarding over the customer’s lifetime, plus ongoing review, corrections, filing labor, and software costs. **Scenario assumption:** enough paying entities in each jurisdiction share the cost of maintaining its tax rules and integrations. Faster closes alone leave that margin unknown. (The Idea; Key Risks; Key Facts)
+The founders’ move from manual bookkeeping to building and launching their own ERP shows relevant execution. Their reported 10 ERP customers provide an early demand signal, with payment, repeat use, and prior access to a day-one close unverified. A monthly fee tied to entities and integrations gives Sintropix a plausible way to charge as customers expand. With no implementation fee, the economics depend on recurring revenue covering onboarding, exception review, corrections, filing labor, and ongoing country-specific maintenance. (Founders & Team, Market & Traction, The Idea, Key Risks)
 
 ### Countercase
 
-Sintropix may be speeding up accounting that customers already buy while leaving much of the review and filing work intact. The memo documents overlapping consolidation and tax capabilities at Rillet and Campfire, and migration tooling at DualEntry. With equally capable models, a competing ERP paired with a local accountant could deliver the same outcome. Historical ledgers and reconciliation rules could make switching costly, but the memo offers no retention evidence or evidence that Sintropix controls filing operations buyers would struggle to replace. It also identifies no separate bottleneck Sintropix controls for Path A. Both Path B conditions remain unproven. The memo leaves a feasible test open, which supports Watch. (Defensibility; Market & Traction; Key Risks)
+Sintropix may be speeding up a service customers already buy while leaving enough review and local filing work in place to prevent a viable offering for smaller groups. Under model parity, a competing ERP paired with local accountants could deliver the same outcome. Rillet and Campfire already offer overlapping consolidation and tax capabilities. The managed-service launch in Chile gives Sintropix a plausible way to retain buyers by taking responsibility for the close and filing, though the memo provides no comparative buyer behavior or evidence of repeatable filing execution. Neither required condition is established, and the memo shows no direct failure of either condition. That supports Watch. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
 | Path-specific thesis fit | 10/25 |
-| Durable value capture | 6/25 |
+| Durable value capture | 7/25 |
 | Customer demand | 8/20 |
-| Team and execution | 9/15 |
+| Team and execution | 10/15 |
 | Scale economics | 6/15 |
 
-**Total Score: 39/100** (Pass)
+**Total Score: 41/100** (Pass)
 
 ### Decisive diligence question
 
-Can one paid cohort of cross-border teams previously priced out of managed close and filing complete a full cycle in a supported jurisdiction at lower total human labor, then renew at a price that covers delivery despite an equivalent-model alternative? Compare at equivalent accuracy and filing acceptance, counting onboarding, review, retries, corrections, and local filing work. Renewal tied to a filing capability Sintropix controls and buyers cannot readily replace would support Reach out if the resulting evidence clears the score and confidence gates. A representative trial showing that exception work erases the savings or buyers readily switch at parity would move the action to Pass.
+Can an independent Chilean multi-entity buyer that previously went without a day-one group close complete a paid trial and renew at a price that covers Sintropix’s full delivery cost after comparing it with an ERP using equivalent models plus local accountants? Reach out if the trial documents lower labor and full cost against the buyer’s prior workflow, accurate closes and completed filings, and a renewal specifically because the buyer values Sintropix’s handling of the close and filing. Keep Watch if the trial is inconclusive. Pass if a representative trial shows that review and filing costs erase the savings or that the buyer can switch and retain the same outcome.

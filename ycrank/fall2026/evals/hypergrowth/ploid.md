@@ -5,26 +5,26 @@
 
 ### Company case
 
-**Path A — Product-led adoption.** Start with developers at sales software companies who need fresh, correctly matched contact data each time their product enriches a lead. Ploid has documented APIs, an MCP server, and self-serve signup. The public launch drew 583,298 views, which shows reach at discovery. Ploid reports thousands of companies using the product, and a founder reports closing clients. The memo leaves open which buyers paid, how they activated, and whether they kept using it. (The Idea; Market & Traction; Key Facts)
+**Usage-based expansion** is Ploid’s strongest path. The first buyer is a product team at a sales platform that needs to search for people and refresh contact records as part of a recurring workflow. The documented self-serve signup and API give developers a route to test an initial workload. If that workflow delivers reliable results, the same integration could support more records or additional workflows. Workspaces buy monthly credit bundles, with published overage rates of $0.15–$0.20 per credit. Expansion would improve contribution only if incremental credit revenue covers the added vendor data, live retrieval, and support costs. The memo provides pricing and leaves those costs unmeasured. (The Idea, Key Risks)
 
-**Growth scenario.** Developers discover Ploid through launch coverage or integrations, get a usable match through the documented interface, and embed enrichment in a recurring production workflow. More workloads can then increase paid credit use. At the posted Growth price, a workspace would bring in $200 per month for 1,000 credits and $0.20 per additional credit. Contribution would depend on vendor data, live retrieval, compute, and support costs, as well as the effort required to acquire and onboard each workspace. In a second geography, the same buyer and API could serve the same job if local profile coverage, match quality, and deletion handling support it without a bespoke rollout. The memo provides pricing and a plausible mechanism, while paid activation, recurring use, incremental costs, and cross-market portability remain untested in the evidence. (The Idea; Key Facts; Key Risks)
+The buyer and job plausibly travel through the same API, with local data coverage and privacy obligations still unresolved. The first link likely to break is the move from API testing to a paid production workflow. Ploid claims thousands of companies use the product, and a founder reported closing clients. The memo leaves buyer commitments, the route to paid activation, and repeat consumption unverified. At this stage, a small set of independent buyer records could establish that link before renewals come due. (The Idea, Market & Traction, Key Facts, Key Risks)
 
 ### Countercase
 
-Launch attention could yield one-off trials while production buyers choose existing integrations with overlapping people-search and live-data features. Stale vendor contacts and ambiguous matches could leave customers with the validation work they came to avoid. If each new market requires separate data sourcing and substantial deletion operations, geographic growth could add costs as fast as revenue. These are supported risks. The memo contains no observed customer behavior or rollout costs that establish the structural ceiling required for Pass, and the early usage claims leave the decisive paid-activation test unresolved. (Defensibility; Market & Traction; Key Risks)
+Buyers could test Ploid for a one-off enrichment job and then return to an existing provider. Apollo and Crustdata offer overlapping capabilities, and Ploid documents both stale vendor-supplied contacts and identity matches that can remain unresolved. If those issues force customers to validate results manually, they could erase the workflow benefit even when API integration is easy. The structural downside gate remains open because the memo establishes the quality risks while leaving their frequency and effect on actual deployments unknown. (Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 9/25 |
+| Global buyer demand | 14/25 |
 | Repeatable acquisition and onboarding | 9/25 |
 | Retention and customer expansion | 7/20 |
 | Contribution as volume grows | 7/20 |
 | Evidence of fit in the first buyer segment | 4/10 |
 
-**Total Score: 36/100** (Pass)
+**Total Score: 41/100** (Pass)
 
 ### Decisive diligence question
 
-Can an independent sales software buyer in a second geography go from documented self-serve signup to paid production enrichment and keep using it through its next billing cycle? A signup-to-billing record showing recurring workloads, acceptable local match quality, limited founder intervention, and positive contribution after incremental data, retrieval, compute, and support costs would move the action to **Reach out**. An inconclusive test would keep it at **Watch**.
+Can two independent sales-platform teams take the same contact enrichment job from self-serve signup into paid production and keep running it through the next monthly billing cycle? Account-level onboarding records, invoices, and workload logs showing that pattern with bounded setup effort would move Ploid to **Reach out**.

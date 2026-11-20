@@ -5,28 +5,26 @@
 
 ### Company case
 
-**Path B — New economies.** Adside.ai is a plausible U.S. seed fit. Its documented workflow uses agents to draft campaigns and creative variants from brand briefs, then monitor performance across ad platforms. Campaign changes through the connector require confirmation. The seed hypothesis is that automating this work could make ongoing multi-channel ad management viable for startups that previously went without it. At equivalent campaign quality, the labor savings would have to survive customer approvals, creative retries, and correction of live campaign errors. The memo provides no measured comparison. (The Idea, Market & Traction, Key Risks)
+**Path B — New Economies.** Adside could make ongoing cross-channel paid ads economical for startups that previously went without them because they lacked the staff or budget to run them. The manual workflow requires tracking setup, campaign configuration, creative resizing, and reporting across platforms. Adside describes agents that draft campaigns, adapt creative, and monitor performance, with users confirming proposed changes through the connector. The founders previously built and sold Botdog, and Adside’s published Framer plugin shows that the team has shipped part of the tracking workflow. (The Idea; Founders & Team; Market & Traction)
 
-Adside reports 30 companies live at launch. The memo gives no paid conversion, renewals, or evidence that those companies previously went without multi-channel management. The founders previously built and sold Botdog, and the CTO has led integrations. Adside’s published tracking plugin is evidence of shipping, while profitable paid acquisition at Botdog remains a founder claim. (Market & Traction, Founders & Team)
-
-At the posted annual-prepay price, each additional self-serve brand would bring in $490 per month before inference, creative generation, support, and any staff time spent handling exceptions. The managed service starts at $2,500 per month, but the two offers have different service scopes. The price gap leaves both comparable-quality delivery costs and margins unproven. (The Idea, Key Facts)
+The expansion unit is one paying brand. Published self-serve fees are $990 per month or the equivalent of $490 per month with annual prepayment. Adside reported 30 companies live at launch, with their prior ad activity, payment, and repeat use unverified. The scenario assumes that automating setup, creative adaptation, and monitoring cuts the full cost of producing a campaign that meets the buyer’s acquisition target. That comparison needs to include buyer and Adside labor for approvals, retries, tracking fixes, compliance, and exception handling, as well as tooling and media spend. Realized revenue and delivery costs per brand remain unknown. (The Idea; Market & Traction; Key Facts; Key Risks)
 
 ### Countercase
 
-Adside may make an existing ad workflow cheaper while native tools absorb much of the value. Google’s connector and Meta’s direct agent access reduce the work needed to build substitutes. Adside’s cross-channel workflow and account-specific personalization could still give buyers a reason to stay, but the memo shows no paid preference under functional parity. The platforms control delegated access, leaving no separately supported scarce-complement case. The evidence leaves both Path B conditions open, so the outreach gate remains unmet and the thesis override does not apply. (The Idea, Defensibility, Key Risks)
+Adside may mainly save time for companies already running ads. Under model parity, account-specific history and consolidated workflows could give buyers a reason to stay if they improve results or reduce oversight. Google and Meta already offer direct agent access or native campaign tools, and Adside relies on delegated platform permissions. The memo leaves both the market opening and buyer preference under functional parity untested. That keeps the action at Watch. (Defensibility; Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 11/25 |
-| Durable value capture | 5/25 |
+| Path-specific thesis fit | 10/25 |
+| Durable value capture | 7/25 |
 | Customer demand | 8/20 |
-| Team and execution | 10/15 |
+| Team and execution | 9/15 |
 | Scale economics | 6/15 |
 
 **Total Score: 40/100** (Pass)
 
 ### Decisive diligence question
 
-Can a paid seed pilot show that startups previously priced out of ongoing multi-channel management renew with Adside when offered a functionally comparable alternative using equally capable models? The pilot should measure end-to-end labor, including approvals, retries, and error correction, against manual delivery at comparable campaign quality. Measured savings that make the service viable, positive contribution at the pilot price, and paid renewals under parity would support Reach out if the reassessed score reaches 65 with at least medium confidence. If fully costed delivery fails to open that market or buyers readily switch under parity, move to Pass.
+In a paid trial with independent startups that previously skipped cross-channel ads because of staffing or cost, can Adside meet a preset acquisition target at a lower full cost than the manual workflow and earn paid renewals after buyers try a functionally equivalent alternative? A representative trial that demonstrates both at viable delivery margins would move the action to Reach out. A trial showing that oversight erases the savings or that buyers readily switch while preserving the outcome would close Path B and move the action to Pass.

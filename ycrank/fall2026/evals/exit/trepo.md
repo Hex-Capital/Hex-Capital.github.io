@@ -5,36 +5,34 @@
 
 ### Company case
 
-Strategic acquisition is the strongest path. A grocery marketplace or large grocer could buy Trepo to turn household consumption data into repeat grocery orders. The reason to own Trepo would be control of the recurring shopping relationship and the rights to use its inventory history. That matters only if ownership yields more incremental profit than a license or an internal build. *(The Idea, Defensibility)*
+Strategic acquisition is Trepo’s strongest path. A grocery marketplace such as Instacart could buy Trepo to control a route into recurring household orders. Trepo’s device fits existing fridges and uses household consumption updates to generate draft carts. If those carts produce incremental orders at attractive margins, ownership could secure access to that demand and let the buyer direct orders through its own fulfillment network. Buyer interest and incremental order economics remain unverified. (The Idea, Market & Traction)
 
-**Observed evidence.** The iOS app had 59 U.S. ratings averaging 4.9. **Reported activity.** Trepo described a San Francisco beta that let households order carts generated from consumption data, and a seed investor reported grocery-partner pilots with undisclosed terms. Trepo targets March 2027 for hardware shipments. **Inference.** The beta makes a production test plausible. The decisive operating milestone is sustained incremental grocery contribution profit from repeat orders after fulfillment, relative to the buyer’s existing reorder tools. Pilot funding, hardware costs, and runway are undisclosed. Transferability of the software, household data rights, and partner agreements is unverified. The memo supplies no independently supported route to cash for this holder. *(Market & Traction, Key Risks, Key Facts)*
+The memo records a 4.9/5 iOS rating across 59 ratings and one reported preorder. Trepo’s founder described a San Francisco grocery-cart beta, and a seed investor reported grocery pilots with undisclosed terms. Those signals make a post-launch test plausible. The March 2027 hardware ship date is a company target, and fulfillment costs, runway, and capital needed to reach a production pilot are unknown. A route-specific milestone would be a shipped cohort that keeps its inventory current and generates repeat orders, with a grocery partner measuring incremental contribution margin against its existing reorder tools. The memo leaves IP ownership, data transfer rights, and partner consents unverified. It also supplies no separate evidence of buyout financing, eligible secondary demand, IPO readiness, or distributable cash. (Market & Traction, Founders & Team, Key Risks)
 
-The proceeds bridge uses the thesis’s illustrative $500,000 check at a $10 million post-money valuation, diluted from 5% to 3%, with no follow-on. The 5× objective requires $2.5 million in cash by year eight, or $83.3 million of distributable equity at 3% ownership. That rises to $125 million at 2% and falls to $62.5 million at 4%. The memo’s device and subscription prices provide no usable evidence for an acquisition valuation. *(Key Facts)*
+Under the illustrative seed terms, a $500,000 check at a $10 million post-money valuation buys 5%, diluted by 40% relative to 3%, with no follow-ons. The 5× target is $2.5 million in gross cash within eight years. A simple pro rata allocation before investor taxes requires $83.3 million of distributable equity at 3% ownership, $125 million at 2%, or $62.5 million at 4%. With $5 million of illustrative net debt, the 3% case requires about $88.3 million in enterprise value. The sale scenarios assume cash at closing and zero fees or senior claims for illustration. Trepo’s actual terms and a realizable sale-price range are unknown.
 
-For both sale scenarios, assume zero net debt and other enterprise-to-equity adjustments, a simple pro rata waterfall with no senior claims, and a full sale for cash at closing before investor taxes. Stock, escrow, earnouts, rollover, and compensation are each assumed to be zero. The prices and timing are scenario assumptions.
-
-| Scenario | Timing and equity consideration | Holder cash and gross multiple |
-|---|---|---|
-| Modest sale | Year 5, $40 million enterprise value converts to $40 million of equity consideration | $1.2 million, 2.4× |
-| Strong sale | Year 7, $100 million enterprise value converts to $100 million of equity consideration | $3.0 million, 6.0× at 3% ownership. At 2%, $2.0 million, 4.0×. |
-| Prolonged private | Through year 8, growth plateaus, buyers stay away, public scale remains out of reach, and cash is reinvested | $0 realized, 0×. The investor retains the shares. |
+| Eight-year scenario | Gross cash to the holder at 3% |
+|---|---:|
+| Modest sale at $25 million enterprise value, after $5 million of illustrative net debt | $600,000 (1.2×) |
+| Strong sale at $100 million enterprise value, after $5 million of illustrative net debt | $2.85 million (5.7×) |
+| Growth plateaus, no buyer emerges, public scale stays out of reach, and available cash is reinvested with no eligible secondary or payout | $0, with shares still held |
 
 ### Countercase
 
-A grocer or marketplace can already partner for cart-building or use purchase history to recommend replenishment. The announced Samsung–Instacart integration also shows how a partnership can connect kitchen recognition to ordering. If those alternatives capture most of the repeat-order profit, Trepo’s retrofit device and consumption history may command too little of an ownership premium to clear the proceeds hurdle. The memo gives no measured lift or retention for Trepo’s approach. The substitutes make that gap decisive for outreach, but their economics do not establish a structural price ceiling that triggers the Pass override. *(Market & Traction, Defensibility)*
+Instacart already offers purchase-history replenishment and has announced a fridge recognition-to-order integration with Samsung. A grocery platform could also integrate Trepo’s carts through a partnership. If households update inventory inconsistently, the resulting carts may add too little order volume to justify owning the device business. These are concrete alternatives to an acquisition, but the memo supplies no evidence of a structural closing block or a supported sale price that leaves the holder materially short. The Pass gate stays open, and the missing buyer economics support Watch. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 11/30 |
+| Counterparty rationale or source of cash | 12/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 9/20 |
+| Milestones and capital needed | 10/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 35/100** (Pass)
+**Total Score: 37/100** (Pass)
 
 ### Decisive diligence question
 
-Can a grocery partner’s production pilot demonstrate enough sustained incremental contribution profit from Trepo’s household inventory to justify buying the asset at a price that clears the holder’s hurdle? A partner-validated comparison against its existing reorder tools that supports an ownership premium over licensing and a credible path to $83.3 million in distributable equity at 3% would move the action to Reach out. If the comparison shows that licensing captures essentially the same economics and caps the supported price materially below the hurdle, move to Pass.
+Can a post-launch grocery-partner pilot show that owning Trepo would generate enough incremental contribution margin over the partner’s existing reorder tools or a Trepo integration to support a sale near or above the illustrative $88.3 million enterprise-value hurdle? A partner-validated comparison showing sustained repeat orders and economics that support that price would move the action to Reach out.

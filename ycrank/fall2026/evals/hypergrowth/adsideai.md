@@ -5,28 +5,26 @@
 
 ### Company case
 
-**Path A, product-led adoption,** is the strongest fit. The initial buyer is a startup marketing team running paid ads across several platforms. Its recurring job is to launch campaigns, adapt creative, and monitor performance across accounts. Adside offers a self-serve workflow that connects those accounts, drafts campaigns from a brief, and asks the buyer to approve changes. Adside reports inbound interest from its own paid campaigns and says 30 companies were live at launch. That count is an early fit signal. The memo leaves paid conversion, founder involvement in onboarding, and repeat usage unresolved. *(The Idea, Market & Traction, Key Facts)*
+Product-led adoption is Adside’s strongest path. The initial buyer is a startup marketing team running paid campaigns across multiple platforms. Adside describes a workflow in which buyers connect their ad accounts, turn a brief into campaign drafts and creative variants, approve changes, and monitor performance. Assuming buyers in a second market can use the same platforms and permissions, the workflow appears portable, with localization concentrated in creative, audiences, and campaign settings. The memo gives no buyer geography or cross-market rollout evidence. (The Idea, Key Risks)
 
-If the workflow becomes indispensable, the next thousand buyers could arrive through the same paid channel and activate by connecting their accounts and approving a first campaign. Repeat campaigns would sustain subscriptions, and agencies could expand by adding brands under per-brand pricing. Both are scenarios. In a second geography, the same integrations could serve the same buyer if account permissions carry over and local creative and support needs require little extra work. No second-market buyer or rollout is documented. *(The Idea, Market & Traction, Key Risks)*
-
-At the posted $490 monthly equivalent on an annual plan, contribution depends on how much subscription revenue remains after acquisition, onboarding, creative generation, compute, and ongoing support. The reported $50 per demo lacks a clear definition and a demo-to-paid conversion rate. Delivery costs and staff time per brand are also unknown. *(The Idea, Key Facts)*
+The memo records a free ad library, a listed YC workshop, and published per-brand subscription pricing. Adside reports inbound interest from its own ads and 30 companies live at launch. Those signals support early interest, while the memo leaves open which channel produced those accounts, what going live required, and whether buyers paid or changed their recurring workflow. Campaign monitoring and optimization give buyers a reason to return, but the memo provides no account-level repeat use or paid expansion. It also provides no implementation hours, support effort, or inference costs. Even assuming strong fit, the first unproven link is whether inbound buyers can reach a paid campaign launch through a standard onboarding process. (The Idea, Market & Traction, Key Facts)
 
 ### Countercase
 
-Adside may scale like an agency if each new brand needs hands-on tracking setup, creative review, and campaign troubleshooting. Its managed plan charges 10% of ad spend with a $2,500 monthly minimum, and the launch count leaves the mix of self-serve and managed customers unclear. If staff time rises with each brand, higher revenue could buy proportionally more delivery work. The memo supplies no workload or cost records establishing that pattern, so the structural Pass gate remains unmet. *(The Idea, Market & Traction, Key Facts)*
+The live accounts could have reached launch with substantial hands-on help. Adside offers human oversight and a managed service priced at 10% of ad spend with a $2,500 monthly minimum. If tracking setup, campaign QA, and ongoing optimization routinely require Adside staff, each new account could add recurring labor that limits contribution. The memo gives no delivery records showing that pattern or establishing that it would persist across both offerings. The structural downside gate does not apply. (The Idea, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 9/25 |
+| Global buyer demand | 16/25 |
 | Repeatable acquisition and onboarding | 9/25 |
 | Retention and customer expansion | 7/20 |
 | Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 5/10 |
+| Evidence of fit in the first buyer segment | 4/10 |
 
-**Total Score: 37/100** (Pass)
+**Total Score: 43/100** (Pass)
 
 ### Decisive diligence question
 
-Can a small cohort of multi-channel startups in one market outside the U.S. come through Adside’s paid campaigns, activate on the same self-serve workflow, and pay to run a second campaign cycle? Move to **Reach out** if cohort records show that sequence with limited staff intervention and measured acquisition and delivery costs that the subscription can plausibly cover.
+Can multiple independent startup teams acquired through Adside’s own paid ads buy the self-serve subscription, launch a campaign, and complete their next scheduled optimization cycle through the same onboarding process? Payment and campaign records, paired with a log of Adside staff time, would move the action to Reach out if the teams repeat that sequence with limited, standardized support. An unclear result or substantial manual intervention would keep the action at Watch.

@@ -1,32 +1,30 @@
 ﻿# Ignition Benefits -- Hypergrowth Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Low
+**Evidence confidence:** Medium
 
 ### Company case
 
-**Path B: Repeatable sales or partner distribution with account expansion.** Ignition targets employers with 25–500 employees at a recurring decision point, their health plan renewal. AWM Capital reported a negotiated plan $156,914 below its renewal quote and $23,457 below prior-year spend. Light Labs reported switching plans and saving $113,115 against its renewal quote. These named customer testimonials show employers acting on the brokerage’s work and provide an early signal of fit. (*The Idea*, *Market & Traction*)
+**Channel-led or repeatable sales** is the strongest path. Ignition targets employers with 25–500 employees facing a recurring health-plan renewal. It uses claims and workforce data to explain renewal pricing, then licensed brokers shop plans and manage enrollment. The named customer accounts show employers acting on that service. AWM’s negotiated plan came in $156,914 below its renewal quote and $23,457 below prior-year spend, while Light Labs switched plans and reported $113,115 in savings against its renewal quote. Those decisions support early fit. Mango’s ongoing eligibility and benefits support shows how the brokerage can stay embedded between renewals, though the memo provides no second-cycle retention or paid expansion evidence. (The Idea, Market & Traction, Defensibility)
 
-Ignition offers a free review, promotes it through CFO Leadership Council webinars, and offers $1,000 per qualified referral. It says carriers pay the brokerage. If those channels repeatedly produce placements, renewal analysis could win the account and ongoing administration could give employers a reason to stay. Mango’s ongoing eligibility and benefits support shows that the relationship can extend beyond enrollment. Channel-to-placement conversion, collected commissions, repeat renewals, and paid account expansion are unverified. (*The Idea*, *Defensibility*, *Key Facts*)
-
-**Second-market scenario.** If employers in another country face the same renewal problem, the risk analysis and quote comparison could carry over. Ignition would still need local carrier access, licensed brokerage capacity, usable claims or workforce data, and enrollment and compliance workflows. Contribution would depend on collected carrier compensation after acquisition costs, including referral fees where applicable, and the labor and platform costs of quoting, enrollment, and ongoing support. The cost of establishing those local capabilities would also need to be recovered. The memo provides no second-market rollout or measured contribution, leaving the growth mechanism untested. (*The Idea*, *Key Risks*, *Key Facts*)
+Ignition advertises a free review and a $1,000 qualified-referral incentive, and says carriers pay the brokerage. The memo documents employers reaching go-live but leaves their lead sources, handoff effort, and carrier payments open. The growth hypothesis is that a broker team can reuse the same intake, quoting, and enrollment process across referred employers. In a referral-channel scenario, assuming every qualified referral earns the advertised payout, referral cost per live account would be $1,000 divided by the share of qualified referrals that go live. Carrier commissions would also need to cover the sales, placement, enrollment, and ongoing support effort those accounts add. The memo gives no measured conversion, commissions, or labor costs. (The Idea, Market & Traction, Key Risks)
 
 ### Countercase
 
-Ignition could be a valuable U.S. brokerage whose workload rises roughly in step with placements. AWM’s missing claims data required workforce profiling, and Light Labs’ late switch required Ignition to reopen enrollment and coordinate employee support. If those exceptions are common, automating renewal analysis may save little of the work that governs capacity. The cases identify where costs can rise. Their frequency and labor cost are unknown, so the structural Pass gate remains unmet. (*Key Risks*)
+Even with strong buyer fit, the first link likely to break is the handoff from quote to go-live. AWM’s prior plan withheld claims history, and Ignition says it used a workforce profile to obtain competing quotes. Light Labs had to reopen completed enrollment, with Ignition coordinating the reset and employee support. These cases show that the team can handle exceptions, while leaving open how often a new account needs comparable intervention. The demonstrated workflow also relies on U.S. group plans, carrier access, and brokerage and disclosure requirements. Serving another country would likely require local carrier relationships, licensing, and compliance changes, with the extent of product adaptation unknown. The structural downside gate stays open because the memo does not establish that these costs rise in proportion to volume or that market entry requires rebuilding the core service. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 9/25 |
+| Global buyer demand | 8/25 |
 | Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 7/20 |
+| Retention and customer expansion | 8/20 |
 | Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 9/10 |
+| Evidence of fit in the first buyer segment | 8/10 |
 
-**Total Score: 41/100** (Pass)
+**Total Score: 40/100** (Pass)
 
 ### Decisive diligence question
 
-Can Ignition acquire and activate a first cohort of comparable employers outside the U.S. through its referral program, collect carrier commissions, and reuse its core workflow with limited local setup? Verified placements, commission receipts, and a rollout cost breakdown showing positive contribution after referral fees and measured broker and support time would move the action to **Reach out**.
+Can a broker team run the same referral-to-enrollment process without founder intervention across several independent employers in the target segment? Move to **Reach out** if a renewal-cycle cohort shows repeatable conversion to commission-paying go-lives, comparable implementation effort, and positive contribution after referral payouts and measured brokerage and support labor. Move to **Pass** if successive comparable wins still require bespoke work in proportion to revenue and the operating records show no credible way to reduce it.

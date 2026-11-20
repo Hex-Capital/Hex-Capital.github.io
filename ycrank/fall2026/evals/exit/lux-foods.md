@@ -5,38 +5,34 @@
 
 ### Company case
 
-Strategic acquisition is the strongest path. An established greenhouse or indoor produce operator could buy Lux to deploy its integrated crop and automation system across multiple farms. Ownership could be worth paying for if it secures a repeatable margin advantage the operator cannot capture through a supply agreement or replicate in-house. The memo documents existing greenhouse and automated indoor tomato offerings, as well as NatureSweet’s acquisition on undisclosed terms. Those facts establish a buyer category, while the ownership advantage for Lux remains an inference. (*The Idea*, *Market & Traction*)
+Strategic acquisition is the strongest path. An established produce operator could buy Lux’s compact-crop and robotic production system to gain a repeatable cost or supply advantage in premium cherry tomatoes. That is an inference. Lux reports 90% lower light intensity and says its first San Francisco farm is under development. Lux also says its projected yield and vessel-to-module design still need validation. The reported $500,000 convertible note is an early financing signal. The budget and runway for a commercial test remain unclear. A buyer would have a reason to own the system if a repeatable advantage could be secured through acquisition and would be harder to capture through internal development, licensing, or a supply agreement. (The Idea; Market & Traction; Key Risks)
 
-Lux reports that its first San Francisco farm is under development, but says its projected yield and vessel-to-module design still need validation. The operating milestone is repeatable saleable yield at commercial module scale, with realized selling prices and delivered costs that include energy, feedstock, labor, and facility costs. The memo lists a $500,000 convertible note but gives no terms, pilot budget, or runway. It identifies the University of California Regents as the patent owner and leaves Lux’s license and transfer rights unverified. A sponsor buyout has a weaker basis because the memo supplies no Lux revenue or cash-flow evidence. (*Market & Traction*, *Defensibility*, *Key Risks*, *Key Facts*)
+The NatureSweet acquisition and Village Fresh carve-out show sponsor activity in established produce businesses. Lux’s cash generation after reinvestment and its financing capacity remain unestablished, leaving a sponsor buyout unsupported. The memo also leaves eligible secondary demand, IPO scale and readiness, and distributable cash for dividends or buybacks unevidenced. (Market & Traction; Key Facts)
 
-**Proceeds bridge.** The reported note does not establish terms for the check under review. The illustrative $500,000 seed check buys 5% initially and dilutes to 3%, with no follow-on. The eight-year, 5× objective requires $2.5 million in holder cash, or $83.3 million in distributable equity at 3%. The hurdle is $125 million at 2% and $62.5 million at 4%.
+**Proceeds bridge.** Investor terms are unspecified. Assume a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted by 40% to 3%, and no follow-ons. The eight-year 5× target is $2.5 million gross before investor taxes. It requires $83.3 million of distributable equity at 3% ownership, versus $125 million at 2% or $62.5 million at 4%. With $5 million of illustrative net debt, the 3% case requires about $88.3 million of enterprise value. The comparisons assume simple pro rata allocation and no additional deductions. The reported note’s conversion and priority terms are unknown. The memo supplies no usable Lux price range or quantified buyer benefit to support clearing the hurdle. (Market & Traction; Key Risks)
 
-The sale scenarios assume no net debt or other price adjustments and a simple pro rata waterfall with no preference deductions. All equity consideration is cash paid at closing. Stock, escrow, earnouts, rollover, and compensation are each assumed to be $0. The prices and timing are illustrative because the memo supplies no usable valuation evidence.
-
-| Scenario | Timing | Enterprise value to distributable equity | Holder cash at 3% | Gross multiple |
-|---|---|---|---|---|
-| Modest sale | Year 5 | $40M to $40M | $1.2M | 2.4× |
-| Strong sale | Year 8 | $100M to $100M | $3.0M | 6.0× |
-| Prolonged private | Through year 8 | No sale or distribution | $0, shares retained | 0× realized |
-
-In the prolonged-private scenario, growth plateaus, buyers stay away, public scale remains out of reach, and available cash is reinvested. Even the illustrative strong sale yields only $2 million, or 4×, at 2% ownership.
+| Eight-year scenario | Gross cash to the holder |
+|---|---:|
+| Modest sale at $25 million enterprise value, after $5 million of illustrative net debt | $600,000 (1.2×) |
+| Strong sale at $100 million enterprise value, after $5 million of illustrative net debt | $2.85 million (5.7×) |
+| Growth plateaus, buyers stay away, public scale remains out of reach, and all available cash is reinvested with no secondary or payout | $0, with shares retained |
 
 ### Countercase
 
-An operator can already source year-round greenhouse tomatoes or produce tomatoes in an automated indoor farm. Lux’s reported reduction in light intensity leaves total production cost unproven. If the cost advantage disappears once feedstock and facility costs are counted, or if an operator can capture it through ordinary supply, there is little reason to buy Lux. University ownership of the patent also creates a concrete transfer risk. The memo establishes neither a binding transfer block nor a price ceiling across credible routes, so the Pass override does not apply. (*The Idea*, *Defensibility*, *Key Risks*)
+A produce operator can already source year-round greenhouse tomatoes, and Oishii already grows premium tomatoes in automated indoor farms. Lux’s reported reduction in light intensity leaves the cost per saleable pound unresolved once sugar, energy, and facility costs are included. The University of California Regents holds the compact-plant patent, and Lux’s license and change-of-control rights are unverified. An operator could therefore favor existing supply or a commercial agreement, while a sale of the production system could depend on rights Lux has yet to establish. The Pass gate remains untriggered because the memo establishes neither a transfer prohibition nor a supported sale price that leaves the holder materially short. (The Idea; Defensibility; Market & Traction; Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 12/30 |
+| Counterparty rationale or source of cash | 11/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 9/20 |
+| Milestones and capital needed | 8/20 |
 | Transaction feasibility | 4/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 35/100** (Pass)
+**Total Score: 33/100** (Pass)
 
 ### Decisive diligence question
 
-Will repeat commercial pilot runs show a delivered-margin advantage large enough for a prospective acquirer to value owning Lux’s system above the holder’s proceeds hurdle? Move to **Reach out** when a prospective buyer’s indicative valuation ties measured pilot economics to at least $83.3 million in distributable equity under the base case, with a credible path to transfer the required university license.
+Can Lux’s first San Francisco farm demonstrate a repeatable economic advantage that a produce operator would pay enough to own? Repeated production runs measuring saleable yield and fully loaded cost per pound would give an operator a basis to quantify that advantage. Move to Reach out if the resulting buyer economics support a price that can clear the holder’s target within eight years, about $88.3 million in enterprise value under the shared debt and ownership assumptions, with a credible path to transferring the required rights. (Market & Traction; Key Risks)

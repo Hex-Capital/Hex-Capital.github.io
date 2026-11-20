@@ -1,32 +1,32 @@
 ﻿# Superserve -- Hypergrowth Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Low
+**Evidence confidence:** Medium
 
 ### Company case
 
-**Path A, product-led adoption, is the strongest candidate.** Agent-platform engineering teams need to run isolated code and preserve session state between turns. Superserve’s console, SDKs, and CLI give developers a self-serve route to a first workload, and its Claude Managed Agents listing gives them a way to discover it. The growth hypothesis is that a team starts with one agent and pays for more active compute, memory, and retained storage as it puts more workloads into production. The memo documents the route and the pricing, while conversion through that route remains unverified. (*The Idea*, *Key Facts*)
+**Usage-based expansion** is Superserve’s strongest path. Engineering teams running coding agents need isolated environments that preserve files and processes between turns. Superserve’s microVMs can pause, resume, and fork with their state intact. The same workflow could serve buyers across markets using the existing product, with network policies configured for each deployment. Regional hosting and data-residency requirements remain untested in the memo. (The Idea, Key Risks)
 
-Lindy and Phaser each describe launching an agent product in under a month. Lindy credits Superserve’s help, and Phaser says it avoided building and maintaining new infrastructure. Those launches show that teams will integrate the product to solve a concrete problem. Superserve separately reports more than 100,000 machines per week and 48 million sandbox-minutes over 12 weeks. Those totals leave paid conversion, repeat use by the same accounts, and account expansion unresolved. (*Market & Traction*, *Key Facts*)
+The memo records a 0.56-second median snapshot start in an external benchmark. Customer testimonials describe Lindy and Phaser launching agent products in under a month, with Superserve helping Lindy and Phaser avoiding the need to build new infrastructure. Those launches show concrete initial value. The console, SDK, CLI, and Claude Managed Agents integration provide routes to activation, while the launches leave discovery, onboarding effort, and payment untraced. (The Idea, Market & Traction)
 
-The same buyer and workflow could recur outside the U.S. if the existing interfaces meet local buyers’ requirements. If buyers require in-region execution or state storage, Superserve would need regional hosting capacity and operational coverage. The memo establishes neither cross-market adoption nor what a regional rollout would cost. Pausing VMs and sharing base images could reduce idle compute and storage duplication. Each additional workload still consumes active host capacity and retained storage, and each new account may add integration and support time. Pricing shows how Superserve can bill for usage, while its incremental costs remain unmeasured in the memo. (*The Idea*, *Defensibility*, *Key Risks*, *Key Facts*)
+Superserve reports more than 100,000 machines per week and 48 million sandbox-minutes over 12 weeks. If customers add recurring workloads after a successful launch, active compute, memory, and retained storage can generate incremental revenue. The first unproven link is whether individual customers return and increase billed consumption after credits. Aggregate volume cannot establish that pattern. Shared base storage and pausing idle VMs offer plausible cost advantages, but the memo provides no measured marginal infrastructure, integration, or support costs. (The Idea, Defensibility, Market & Traction, Key Facts)
 
 ### Countercase
 
-Developers could try Superserve for an initial launch and later switch providers before their workloads expand. AWS offers suspendable Firecracker microVMs, and Claude Managed Agents documents interchangeable sandbox providers. Superserve’s indefinite paused-state retention gives buyers a reason to stay if they rely on it, but the memo has no account-level evidence that they do. The substitution risk supports Watch. The structural Pass gate remains unmet because the evidence establishes neither a ceiling on buyer demand nor proportional delivery costs without a path to improvement. (*Defensibility*, *Key Risks*, *Market & Traction*)
+Superserve could help teams launch agents without capturing much of their subsequent spending. AWS offers suspendable Firecracker microVMs, and Claude Managed Agents supports interchangeable sandbox providers. Buyers could shift growing workloads elsewhere if state persistence delivers too little incremental value. The memo leaves post-launch spending and delivery costs unresolved, so the structural downside gate is not triggered. (Defensibility, Key Risks, Key Facts)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 9/25 |
-| Repeatable acquisition and onboarding | 9/25 |
+| Global buyer demand | 17/25 |
+| Repeatable acquisition and onboarding | 11/25 |
 | Retention and customer expansion | 7/20 |
 | Contribution as volume grows | 7/20 |
 | Evidence of fit in the first buyer segment | 7/10 |
 
-**Total Score: 39/100** (Pass)
+**Total Score: 49/100** (Neutral)
 
 ### Decisive diligence question
 
-Can independent agent-platform teams outside the U.S. activate through Superserve’s standard onboarding and keep paying for production workloads at their normal operating cadence? A first cohort with activation records, onboarding effort, and account-level billing that show this pattern would move the action to Reach out. Trial activity or launch-only usage would keep it at Watch.
+Do independent coding-agent customers add recurring workloads that increase what they pay after credits? Account-level usage and invoices showing that pattern across multiple customers over their normal operating cadence would move Superserve to Reach out. Continued aggregate growth with inconclusive account-level evidence would keep it on Watch.

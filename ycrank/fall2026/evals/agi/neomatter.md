@@ -5,28 +5,30 @@
 
 ### Company case
 
-**Path B — New economies** is the strongest path. Neomatter describes picking up legal requests from email and chat, checking them against company precedents, and preparing cited drafts and redlines for counsel to approve. The CEO reports that one unnamed early customer saved dozens of hours per week and thousands of dollars in outside-counsel spending. That claim supports a plausible labor-saving mechanism. The memo leaves equivalent-quality review time and the volume of newly viable work unmeasured. (The Idea, Market & Traction)
+**Path B — New Economies.** Neomatter could make routine legal requests economical for lean in-house teams that currently defer them. The memo describes lawyers manually gathering requests, checking precedents, and coordinating approvals, with overflow handled through hiring or outside counsel. Neomatter says it automates intake and prepares cited drafts for lawyer approval. The CEO reports that one unnamed customer saved dozens of hours per week and thousands of dollars in outside-counsel spending. That claim supports a plausible labor-saving mechanism. Whether the savings let a team complete work it previously deferred remains an inference. (The Idea, Market & Traction)
 
-**Scenario assumption.** A lean legal team could start reviewing routine contracts it currently defers if automated intake and drafting reduce total lawyer time per completed review, including corrections, retries, and exceptions, at comparable quality. Under model parity, Neomatter’s best reason to keep paying would be its customer-specific playbooks, which the company says record approved fallback positions and who can authorize exceptions. Whether counsel would prefer Neomatter once an alternative can use the same precedents and approval rules remains open. (The Idea, Defensibility, Key Risks)
+The buyer-side test is cost per matter completed to the same legal standard. Compare internal labor and outside-counsel fees under the old workflow with subscription fees, setup, lawyer review, corrections, escalations, and compliance effort under Neomatter. For Neomatter, the rollout unit is a legal department, with room to add paid seats. The memo documents seat terms and leaves realized prices and per-department onboarding, inference, and support costs unknown. (The Idea, Key Risks, Key Facts)
 
-The memo records a public launch and named-seat subscription terms. The CEO’s reported weekly user growth has an undisclosed starting base, and paid conversion and repeat use remain unverified. The founders’ prior work on an email-integrated assistant and their launch of Neomatter support early execution, with reliable handling of legal exceptions still to be demonstrated. For each added department, seat revenue would need to cover integration and playbook setup as well as ongoing inference, support, and privileged-data controls. The memo supplies the billing unit, with realized prices and deployment costs still unknown. (Market & Traction, Founders & Team, Key Facts, Key Risks)
+If rivals have equally capable models, buyers might still pay Neomatter for an established playbook of lawyer-approved fallback positions and exception authority. The memo describes that product feature. Buyer preference and the effort required to migrate those playbooks remain untested. (Defensibility)
 
 ### Countercase
 
-Neomatter may make existing legal work faster while leaving the same requests uneconomic. Required lawyer approval and errors in redlines or precedent selection could absorb the drafting savings. Even if more work becomes viable, Legora already routes Slack requests into configured Skills, and LegalOn offers intake and drafting capabilities. With comparable models and ample capital, rivals could reproduce the intake and drafting workflow. The memo identifies no separate scarce complement Neomatter controls for Path A. The competitive overlap and review burden leave both Path B conditions unproven. A representative paid trial could still resolve them, which supports Watch. (The Idea, Defensibility, Market & Traction, Key Risks)
+Neomatter may help existing legal teams handle the same work more efficiently. Required lawyer approval and rework on difficult matters could leave previously deferred requests uneconomic. LegalOn already offers intake and drafting with access to OpenAI, and Legora routes Slack requests into customers’ existing configured workflows. These alternatives make substitution credible. The memo has no direct cost comparison or buyer switching evidence that settles either gate, so the path stays open on Watch. (Market & Traction, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 10/25 |
-| Durable value capture | 7/25 |
+| Path-specific thesis fit | 11/25 |
+| Durable value capture | 8/25 |
 | Customer demand | 7/20 |
-| Team and execution | 8/15 |
+| Team and execution | 9/15 |
 | Scale economics | 5/15 |
 
-**Total Score: 37/100** (Pass)
+**Total Score: 40/100** (Pass)
+
+Demand credit comes from CEO-reported user growth, with the starting base and paid repeat use unknown. Execution credit comes from the October public launch and the founders’ prior work integrating an assistant with email and calendar. Reliable delivery across representative legal matters remains unverified. (Market & Traction, Founders & Team)
 
 ### Decisive diligence question
 
-Will a lean in-house legal team pay to keep using Neomatter after a side-by-side trial on routine contract reviews it previously deferred, with a credible alternative using comparably capable models and the same playbook? Measure completed reviews at comparable quality, including all lawyer time for approvals, corrections, and exceptions, and observe whether the team renews at a price that covers delivery. A successful trial would support rescoring for Reach out if the score reaches 65 and confidence reaches at least Medium. Credible evidence that the work stays uneconomic or that buyers readily switch at parity would move the action to Pass.
+Will an independent, capacity-constrained legal team repeatedly pay a price that covers delivery costs to complete a category of previously deferred matters with Neomatter after testing an equivalent-model rival with access to the same precedents and approval rules? A representative trial showing acceptable legal quality, lower fully loaded cost per completed matter, and a paid renewal driven by a specific Neomatter advantage would move the action to Reach out. A trial showing that review and exceptions erase the savings, or that the buyer readily switches while preserving the outcome, would move it to Pass.

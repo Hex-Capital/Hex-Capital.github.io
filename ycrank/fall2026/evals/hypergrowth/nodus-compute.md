@@ -5,26 +5,28 @@
 
 ### Company case
 
-**Path A, product-led adoption.** The strongest starting buyer is an AI infrastructure lead with idle GPUs between recurring jobs and a need for extra capacity when demand spikes. Nodus documents a console, CLI, Python SDK, and coding-tool integrations that give developers a route to run a first job. If teams can activate through that route and reliably complete recurring jobs, additional paid GPU hours could grow each account. The same workflow could serve a second geography if teams can access compatible hardware and keep sensitive jobs in private pools. Path C could amplify growth if more fleet owners make compatible capacity available when borrowers need it. The memo provides no evidence of repeat transactions or better matching as the pool grows. (The Idea, Key Risks)
+Usage-based expansion is the strongest path. The initial buyer is an AI engineering team that repeatedly runs checkpointable training jobs. Nodus documents how it routes jobs to compatible GPUs, prioritizes customers’ own machines, and lets eligible jobs recover after interruption. Its published prices establish the billing unit, the GPU-hour. I infer that the same workflow could serve teams in other markets where compatible capacity and acceptable data placement are available. Paid adoption across markets remains unverified. (*The Idea*, *Key Risks*)
 
-The founders report that more than 200 teams joined after launch, and the company lists UC Berkeley and VoiceStudio as users. These are early interest signals. The memo provides no activation records, realized revenue, repeat workloads, or evidence of paid demand across geographies. Published hourly rates establish an asking price. Under a scenario where compatible idle hosts absorb additional jobs, contribution could improve if realized usage revenue covers host payments or purchased GPU time, checkpoint storage, data transfer, retries, and incremental support. The memo provides no production cost breakdown to test that scenario. (Market & Traction, Key Facts, Key Risks)
+The founders report that more than 200 teams joined after the October launch, and Nodus lists named users. The documented console and CLI provide a route to submit a job. The first unproven link is whether independent teams complete a paid workload through that route. The memo also leaves buyer budget commitments, recurring workflow changes, and repeat billed usage unverified. Those gaps drive the Low confidence rating. (*The Idea*, *Market & Traction*)
+
+In a favorable scenario, teams add paid GPU-hours on idle hosts after a successful first job. Expansion would improve contribution if the added revenue covers capacity, recovery, and support costs with a growing amount left over per completed workload. The published rates establish possible revenue per GPU-hour, and the reported benchmarks show specific technical capabilities. Production costs for the next workload remain unmeasured. (*The Idea*, *Defensibility*, *Key Risks*)
 
 ### Countercase
 
-Owners can reclaim lent GPUs, and eligible jobs must support checkpoint recovery or safe retries. Community hosts can inspect job data, which can force sensitive workloads onto private capacity. If those constraints routinely require Nodus to reserve replacement capacity or help customers configure private pools, costs could rise with each workload or account. The elastic-pooling test used synthetic tenants on a single node, so production data are needed to establish how often those costs arise. The documented constraints make the downside credible. The Pass gate requires evidence that the costs scale proportionally or worse without a supported path to improvement. (Key Risks)
+Host owners can reclaim GPUs, leaving jobs waiting when replacement capacity is unavailable. Community hosts can inspect job data, which limits shared-pool use for confidential workloads. If interruptions consume the savings or buyers need private capacity, early signups could yield little recurring paid usage on shared hosts. The pooling benchmark used synthetic tenants and replayed traffic on one node. The structural downside gate stays open because the memo leaves these constraints testable for checkpointable, non-confidential workloads. (*Market & Traction*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 9/25 |
+| Global buyer demand | 16/25 |
 | Repeatable acquisition and onboarding | 9/25 |
 | Retention and customer expansion | 7/20 |
 | Contribution as volume grows | 7/20 |
 | Evidence of fit in the first buyer segment | 4/10 |
 
-**Total Score: 36/100** (Pass)
+**Total Score: 43/100** (Pass)
 
 ### Decisive diligence question
 
-Can a paid cohort in a second geography activate through the same self-serve workflow and complete recurring production jobs with positive incremental contribution? Billing and job records showing repeat paid use, alongside measured compute, retry, and support costs, would move the action to Reach out.
+Can an early cohort of independent AI teams use the standard console or CLI workflow to complete a first paid checkpointable job, then add billed GPU-hours at its normal workload cadence? Move to Reach out if job logs and invoices show that pattern and the additional usage contributes positively after host capacity, retries, and support costs. (*The Idea*, *Market & Traction*, *Key Risks*)

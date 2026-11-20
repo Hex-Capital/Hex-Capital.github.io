@@ -5,28 +5,26 @@
 
 ### Company case
 
-**Path A — Scarce complements** is Lyon’s strongest case. The candidate bottleneck is getting a transaction-sequence model to improve lending decisions inside a financial institution’s own cloud and through its validation process. Lyon reports a 112% relative lift in default-prediction PR-AUC over one fintech’s existing tree-based model. That is an early signal of technical improvement against a buyer’s incumbent. Performance at lending decision thresholds, transfer to other institutions, and production qualification remain unverified. The disclosed use cases serve existing workflows, and the memo leaves Path B’s newly viable transaction and delivery-labor savings unproven. (The Idea, Market & Traction, Key Risks)
+**Path B — New Economies.** Lyon’s strongest case is that a bank could reuse one model trained on its transaction history across underwriting workflows, reducing the feature-engineering and maintenance labor now required for each workflow. The market-opening assumption is that this would let a bank serve a borrower segment it previously left unserved because building and maintaining a dedicated model cost too much. Lyon reports a 112% relative lift in default-prediction PR-AUC against one fintech’s existing tree-based model. That benchmark supports the technical premise. The memo gives no example of a newly served segment or a measured delivery-cost reduction. (*The Idea*, *Market & Traction*)
 
-Lyon reports training on tens of billions of transactions for a fintech and working with an insurer. Those engagements suggest early buyer interest, while payment and repeat use remain unknown. Noya’s experience at NVIDIA and in financial services and Höhn’s applied transformer research are relevant to a seed-stage test. The team’s ability to take a bank deployment through validation remains open. (Market & Traction, Key Facts, Founders & Team, Key Risks)
-
-If training gets cheaper, Lyon could still earn deployment and maintenance fees if it can reuse enough integration and validation work across institutions. Each new deployment would still need to cover training, integration, validation, and ongoing monitoring. Pricing, delivery costs, and repeat deployment economics are unknown. (The Idea, Key Risks, Key Facts)
+The fintech benchmark and reported work with an insurer are early engagement signals. Payment and repeat use remain unknown. The founders’ finance, machine-learning, and transformer experience, together with Lyon’s reported training run on tens of billions of transactions, support early execution. The expansion unit is one institution, with potential savings from reusing embeddings across its workflows. Each institution still requires its own training run, and the cost per underwriting decision at comparable quality remains unknown once compute, validation, monitoring, and human review are included. (*Market & Traction*, *Founders & Team*, *The Idea*, *Key Risks*, *Key Facts*)
 
 ### Countercase
 
-With ample capital and access to comparable models and tooling, a capable institution could build and operate the system itself. Revolut’s production rollout establishes that in-house delivery is feasible for at least one institution, and NVIDIA’s public training reference gives other teams a starting point. Lyon’s customer-owned models help address data custody, while the potential switching costs from reusing embeddings across workflows remain speculative. The reported benchmark compares Lyon with an incumbent tree model, so it leaves performance and deployment effort against a credible sequence-model alternative unresolved. That weighs against durable value capture and leaves the Reach out gate unmet. A buyer-side comparison could still change the decision. (Defensibility, Market & Traction, Key Risks)
+Lyon may improve predictions for workflows banks already run. If frontier-quality models become cheap and widely available, a bank could use its own transaction data and public training tooling to build a substitute. The memo documents an in-house production precedent at Revolut. Lyon’s customer-cloud deployment and potential integration across multiple workflows give buyers a possible reason to keep paying for implementation and maintenance. Customers own the trained models, and the memo provides no retention or buyer comparison under functional parity. The in-house precedent makes substitution credible. Whether a target bank can match Lyon’s full delivery economics remains open, so the path warrants Watch. (*The Idea*, *Defensibility*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 12/25 |
-| Durable value capture | 5/25 |
+| Path-specific thesis fit | 10/25 |
+| Durable value capture | 7/25 |
 | Customer demand | 6/20 |
-| Team and execution | 8/15 |
-| Scale economics | 4/15 |
+| Team and execution | 9/15 |
+| Scale economics | 5/15 |
 
-**Total Score: 35/100** (Pass)
+**Total Score: 37/100** (Pass)
 
 ### Decisive diligence question
 
-Will a second, independent institution qualify Lyon for paid production after a head-to-head test against a credible in-house sequence model on the same data? The buyer should compare performance at its actual lending decision thresholds and measure the engineering and validation work each option requires. A paid production commitment tied to a repeatable qualification advantage would support Reach out if the updated score and confidence clear the outreach gates. Comparable performance and qualification effort from the in-house option would support Pass.
+Will an independent bank pay to expand a Lyon deployment for a previously unserved borrower segment after comparing it with a functionally equivalent in-house option? Move to Reach out if a representative trial shows that Lyon makes the segment economical at the bank’s required underwriting quality after compute, validation, monitoring, and review costs, and the bank funds an expansion after the comparison. If full costs still rule out the segment, or the bank matches the outcome in-house and declines to pay Lyon, Pass on this case.

@@ -5,36 +5,36 @@
 
 ### Company case
 
-**Strategic acquisition by a restaurant POS or operations platform** is the strongest path. Shire turns existing camera feeds into table-status updates, staff alerts, and seating decisions. A platform could buy the software and integrations if exclusive control of those workflows improved customer retention or add-on revenue enough to justify the purchase price. That benefit to the buyer is an inference. Shire reports a 12% average reduction in table-turn time, with no published baseline or measurement window. The processing-savings testimonial measures a separate benefit. (The Idea, Market & Traction, Key Risks)
+Strategic acquisition is Shire’s strongest path. A restaurant POS platform such as Toast could buy Shire’s camera-to-seating software to add live signals about guests waiting, tables needing clearance, and server workload to its existing seating workflow. The memo documents that Toast Tables derives table status from POS and kitchen-display activity. The acquisition hypothesis is that owning Shire would let a platform monetize those additional signals across its installed base faster than building the capability. The buyer benefit and willingness to pay remain unmeasured. (The Idea, Market & Traction)
 
-Shire’s reported 13 live restaurants give it a starting point for a paid, multi-location comparison against a POS platform’s existing workflow. The memo lists conflicting financing figures and establishes neither runway nor a funded test. A software and integrations sale is conceivable, but IP ownership and customer-contract assignability are unverified. Published terms grant limited processing rights for platform operation and leave cross-customer training rights unestablished, so the case assigns no value to a transferable training dataset. The memo supplies no independently supported fallback that would pay this holder. (Market & Traction, Defensibility, Key Risks, Key Facts)
+A proposed milestone is a paid multi-location rollout that sustains faster table turns for 90 days against a POS-only baseline and tracks installation and support costs. Shire reports 13 live restaurants and a 12% average reduction in table-turn time. The memo supplies neither the comparison baseline nor the measurement window. The two financing listings differ at $125,000 and $500,000. Neither establishes available cash or burn, so funding for the rollout remains uncertain. Shire’s published data license covers platform operation. Assignment and continued camera access after a sale remain unverified. (Market & Traction, Key Risks, Defensibility)
 
-The evaluated check’s terms are unavailable. The illustrative case uses a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-on checks. A 5× gross cash return within eight years requires $2.5 million to the holder and $83.3 million in distributable equity proceeds. The equity hurdle is $125 million at 2% ownership and $62.5 million at 4%.
+The memo supplies no usable acquisition price or actual holder terms. Under the illustrative seed scenario, a $500,000 check at a $10 million post-money valuation buys 5% initially and falls to 3% after 40% relative dilution, with no follow-ons. The eight-year 5× cash target is $2.5 million before investor taxes. It requires $83.3 million of distributable equity at 3% ownership, $125 million at 2%, or $62.5 million at 4%. With $5 million of illustrative net debt, the 3% case requires about $88.3 million of enterprise value. Fees, preferences, and other deductions are unverified and excluded from these comparisons.
 
-The scenarios assume zero net debt, no fees or other enterprise-to-equity adjustments, and a simple pro rata waterfall with no preference effects. In each sale, all equity consideration is cash at close. Stock, escrow, earnouts, rollover, and compensation are each $0. Prices and timing are illustrative. The memo supplies no usable acquisition pricing or buyer economics.
+| Shire scenario | Cash realized by year eight |
+|---|---:|
+| $25 million enterprise-value sale, after $5 million of net debt | $600,000 (1.2×) |
+| $100 million enterprise-value sale, after $5 million of net debt | $2.85 million (5.7×) |
+| Growth plateaus, buyers stay absent, public scale remains out of reach, and available cash is reinvested | $0, with shares retained |
 
-| Scenario | Timing and sale assumptions | Gross cash to holder |
-|---|---|---|
-| Modest sale | Year 4, $40 million enterprise value and distributable equity | $1.2 million, 2.4× |
-| Strong sale | Year 7, $100 million enterprise value and distributable equity | $3.0 million, 6.0× at 3% ownership. At 2%, the same sale yields $2.0 million, 4.0× |
-| Prolonged private | Through year 8, growth plateaus, buyers stay away, public scale remains out of reach, and cash is reinvested | $0, 0×, with shares still held |
+In a wind-down, only the residual after obligations and preferences could reach the holder. The memo gives no basis to estimate it. It also establishes no independent liquidity route. A sponsor buyout lacks evidence of predictable cash generation, a secondary lacks share demand and seller eligibility, an IPO lacks evidence of scale and resale readiness, and a dividend or buyback lacks evidence of distributable cash and willingness to pay. (Market & Traction, Key Facts)
 
 ### Countercase
 
-Toast already bundles seating and live table status, while GuardMind and Koca describe camera-based alternatives. Shire’s prototype used reusable vision models and reported inconsistent classifications. A platform could plausibly get enough of the benefit through its own product or a license, leaving little reason to pay an acquisition premium. The overlap is documented. Whether those substitutes deliver comparable results, or cap the price below the holder’s hurdle, remains unresolved. The evidence supports Watch and does not trigger a Pass override. (The Idea, Defensibility, Market & Traction, Key Risks)
+Toast could extend its bundled seating product or license camera analytics. GuardMind and Koca already describe camera-based table tracking, and Shire’s prototype used reusable vision models and reported inconsistent classifications. Those facts weaken the case that a platform needs to own Shire, especially while the incremental benefit over POS-only workflows remains unverified. They establish neither a structural block nor a supported sale-price ceiling below the holder’s hurdle. The zero-cash private scenario is hypothetical, so the Pass gate does not apply. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 13/30 |
+| Counterparty rationale or source of cash | 14/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 10/20 |
+| Milestones and capital needed | 11/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 38/100** (Pass)
+**Total Score: 40/100** (Pass)
 
 ### Decisive diligence question
 
-Can a paid, multi-location POS-platform pilot show enough incremental gross profit from owning Shire’s camera-driven workflow to support a price above the holder’s proceeds hurdle? Move to Reach out if the platform corroborates the pilot results against its bundled workflow and its build and licensing alternatives, and the economics at a credible rollout scale support that price within eight years.
+After a paid rollout measures Shire’s lift over a POS-only baseline, can a POS platform substantiate an ownership premium large enough to clear the holder’s cash hurdle? A buyer-validated build-versus-buy analysis that translates the measured lift into platform revenue or retention, supports a price at or above the hurdle, and identifies a credible path to transfer the necessary rights would move the action to Reach out.

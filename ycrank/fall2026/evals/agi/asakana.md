@@ -5,28 +5,28 @@
 
 ### Company case
 
-**Path B — New economies.** Asakana turns multilingual texts, calls, and document images into ERP orders, routing ambiguous items to staff. The company reports returning 40%+ of order-desk time to selling. The memo gives no like-for-like measure of labor per correctly fulfilled order after exception review, supplier approval, and error correction. **Seed-stage scenario:** If those savings hold, a seafood distributor could profitably accept small restaurant orders it previously declined because manual entry cost too much. The memo leaves that market opening unverified. (The Idea, Market & Traction, Key Risks)
+**Path B — New Economies.** One distributor reported manually rekeying about 60 orders daily, with reps spending about 30% of their day on the work. Asakana says its live seafood distributor deployments returned 40% or more of order-desk time to selling. These figures give a baseline for the manual workload and an early signal of time savings. They do not establish labor savings per correctly fulfilled order. (The Idea, Market & Traction)
 
-One customer reports about 60 manually handled orders per day and says reps spent about 30% of their day on the work. Asakana reports live U.S. seafood distributor deployments. That supports demand for relief from an existing workload, while payment and repeat use by newly served buyers remain unknown. Matsuoka’s seafood distribution experience and Solis-Cohen’s computer-use engineering experience fit the workflow, and Asakana says they shipped a first version within a month. The U.S. location and early product progress make seed entry plausible. (The Idea, Market & Traction, Founders & Team, Key Facts)
+**Scenario assumption.** Seafood distributors may currently decline or batch small restaurant orders when the margin on each order cannot cover manual handling. Asakana could make those orders viable by resolving buyer shorthand against the catalog and posting orders into the existing ERP. The cost comparison needs to include manual entry and corrections in the old workflow, and Asakana’s commission, staff review, retries, fulfillment errors, and allocated integration costs in the new one. Asakana would also need commission revenue to cover inference, onboarding, and ongoing support across distributor deployments. The memo gives the commission structure and identifies manual approvals and custom ERP connections, but provides no realized prices or per-order costs. (The Idea, Key Risks)
 
-The documented pricing model charges a negotiated commission on processed volume. At each added distributor, processed order value times the commission rate must cover inference, onboarding, ERP integration, and ongoing support. Legacy systems may require custom connections, and the memo gives no realized commission rates, site volumes, or servicing costs to test that bridge. (The Idea, Key Risks)
+At seed, the founders’ seafood distribution and computer-use experience, together with the company’s reported first release within a month, support execution credit. The reported live deployments support early demand credit. Paid repeat use by buyers serving newly viable orders remains unproven. (Founders & Team, Market & Traction)
 
 ### Countercase
 
-The reported time savings may improve an existing order desk without making any new transactions viable. Choco already offers ERP posting with exception review, and Pepper already captures orders from voicemail and email. Asakana’s catalog history and custom ERP mappings could make switching costly, but buyer preference under functional parity, migration costs, and network effects remain untested. Suppliers retain fulfillment approval, and the memo identifies no scarce complement Asakana controls. Neither Path B condition clears the outreach gate. Both remain testable, so the evidence supports Watch. (Defensibility, Key Risks)
+The strongest countercase is that Asakana saves existing distributors time on orders they already serve, while a rival with equally capable models can deliver the same workflow. Choco already offers ERP posting and exception review. Asakana’s customer-specific catalog mappings and custom integrations could make switching costly, but the memo records no buyer behavior or migration costs that establish that advantage. The evidence leaves both Path B gates open. There is a specific market-opening hypothesis to test, and feature overlap alone does not establish that buyers can substitute without losing value. (Defensibility, Key Risks, Market & Traction)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
 | Path-specific thesis fit | 10/25 |
-| Durable value capture | 7/25 |
-| Customer demand | 7/20 |
+| Durable value capture | 8/25 |
+| Customer demand | 8/20 |
 | Team and execution | 9/15 |
-| Scale economics | 5/15 |
+| Scale economics | 6/15 |
 
-**Total Score: 38/100** (Pass)
+**Total Score: 41/100** (Pass)
 
 ### Decisive diligence question
 
-Can a paid trial at independent seafood distributors show that Asakana makes previously uneconomic small orders profitable and that distributors keep paying when offered a functionally equivalent alternative? Compare completed orders at matched fulfillment accuracy, count all human review and rework, and track repeat paid use after buyers can choose either workflow. A positive result would support Reach out if the updated score clears 65 with at least medium confidence. A representative trial showing that small orders still lose money or that buyers readily switch at parity would move the action to Pass. (The Idea, Defensibility, Key Risks)
+Will an independent seafood distributor repeatedly pay Asakana a viable commission to fulfill small orders it previously declined for cost reasons when a credible alternative has equivalent model quality? A paid field trial should track fully loaded cost per correctly fulfilled order, including exceptions, and test whether the distributor keeps paying Asakana after trying the alternative. Repeat orders at viable economics and a demonstrated reason to stay would move the action to Reach out. A representative trial showing that the orders remain uneconomic or that the distributor readily switches while preserving the outcome would move it to Pass.

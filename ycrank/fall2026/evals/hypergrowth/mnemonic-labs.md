@@ -5,13 +5,13 @@
 
 ### Company case
 
-The memo supports no Hypergrowth path yet. The closest is **Path B, repeatable sales with account expansion**, if Mnemonic sells its model to quant desks. The recurring job would be finding new trading strategies. A desk could pay to test the model in one research workflow, then add workloads or markets if it proves useful. Reaching the next thousand desks would require a repeatable sales channel and a reusable setup. In a second geography, the same model would need to work with local market feeds and licensing terms without a costly rebuild. This is a scenario. The memo identifies proprietary trading as a possible business model and records a public launch and inbound invitation, with no buyer activation or paid use documented. (The Idea; Market & Traction; Key Risks; Key Facts)
+Usage-based expansion is the strongest hypothesis, assuming Mnemonic sells model access to independent quant desks. A desk could pay to run one recurring strategy-research workload and add workloads if the model helps it find strategies that hold up in live trading. The memo infers this buyer and job. It gives too little detail on a customer-facing product or what would carry over to a desk in another market. (*The Idea*, *Key Risks*)
 
-The company reports building its training pipeline and model architecture in under six weeks and using more than 25 TB of tokens in its launch training run. The memo records about 197,000 views of the launch post. Those are early signals of technical progress and attention. The decisive uncertainty is whether an independent desk will pay to use the model in a recurring workflow. (Market & Traction; Key Facts)
+The memo records a November 13 launch through Launch YC and X. Mnemonic reports building its training pipeline and model architecture in under six weeks and using over 25 TB of tokens in its launch training run. The first unresolved link is whether a quant desk will activate a workload and pay for it. The memo gives no usable evidence of buyer commitment, onboarding to paid use, recurring customer workloads, or the marginal cost of serving them. A buyer-funded test would be meaningful at this stage. (*The Idea*, *Market & Traction*, *Key Facts*)
 
 ### Countercase
 
-The strongest countercase is that Mnemonic becomes a proprietary trading operation. In that scenario, growth depends on net trading profits as the firm deploys more capital. The next market could add data licensing, compute, and execution costs, while larger orders could erode returns through price impact. The memo provides no live returns or execution-cost data to establish how those costs change with volume. A structural ceiling therefore remains unproven, leaving the case at Watch under the decision framework. (The Idea; Key Risks)
+Mnemonic may monetize through proprietary trading, the business model inferred in the memo. Growth on that route would depend on deploying more capital while preserving returns after execution costs and market impact. The memo identifies both as risks and reports no live performance or execution costs for Mnemonic. It also flags potential exchange-data licensing restrictions on an external offering, with the applicable terms unknown. These are unresolved constraints, so the structural downside gate remains untriggered. (*The Idea*, *Key Risks*)
 
 ### Dimension Scores
 
@@ -27,4 +27,4 @@ The strongest countercase is that Mnemonic becomes a proprietary trading operati
 
 ### Decisive diligence question
 
-Will an independent quant desk fund a pilot that uses the same model for recurring strategy research across two geographies? A paid pilot with documented repeat use and measured setup and serving costs would move the case to **Reach out** by testing buyer commitment and cross-market reuse in one deployment.
+Can an independent quant desk pay for and repeatedly run a strategy-research workload through a setup Mnemonic can reuse? A buyer-funded pilot with repeat use at the desk’s normal research cadence and measured setup, compute, and support costs would move the action to Reach out if those costs support a viable price.

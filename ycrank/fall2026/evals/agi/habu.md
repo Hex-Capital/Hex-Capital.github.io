@@ -5,28 +5,30 @@
 
 ### Company case
 
-**Path B — New economies** is the strongest path. The seed-stage hypothesis is that HABU can reduce sponsor labor enough to finance and execute smaller Phoenix apartment infill projects whose expected fees would otherwise fail to cover the work. HABU reports a working parcel-screening and first-pass underwriting module and estimates at least 1,000 hours of desk work per conventional project. The estimate is a company claim. Savings at equivalent quality, including local diligence, human review, and rework, remain unmeasured. (The Idea, Defensibility, Key Risks)
+**Path B — New Economies.** HABU’s strongest case is that automating parcel screening and underwriting could make smaller Phoenix infill apartment projects economical to sponsor. The scenario assumes that fixed developer staff time currently causes sponsors to decline some smaller projects and that HABU can remove enough of that cost to earn a viable fee. The memo identifies investors who already hire developers. It leaves the proposed newly viable segment unverified. (*The Idea*, *Key Risks*)
 
-The memo reports a first site under contract. That gives HABU a specific project on which to test whether investors will pay for its execution when competing sponsors have comparable AI. The contract terms and project financing are unverified in the memo. The CEO reports prospective project checks of $100K–$1M, with commitments still unverified. Corporate securities sales establish fundraising for HABU itself. The founders bring multifamily predevelopment and production AI systems experience, with joint delivery through construction and lease-up still unproven. (Market & Traction, Founders & Team, Key Risks)
+**Observed evidence.** HABU had its first Phoenix site under contract in October. That gives it a specific parcel on which to test its sponsorship model. Tharalson’s acquisition and predevelopment experience and Chen’s production AI experience are relevant to that test. (*Market & Traction*, *Founders & Team*)
 
-Each additional sponsored site requires a construction loan and project equity. The scale test is whether the development fee covers the incremental staff and oversight needed to deliver each project, with sponsor equity tying up capital and any promote contingent on profits. The memo gives no fee or cost figures to test that bridge, and falling Phoenix asking rents add pressure to the upside case. (The Idea, Key Risks)
+**Company claims.** HABU reports a working first-pass screening and underwriting module and estimates at least 1,000 hours of desk work per conventional project. Five times as many projects per manager and up to 20% faster delivery are targets. The CEO reports prospective project checks of $100K–$1M. The memo records no committed project equity or paid development engagement. (*The Idea*, *Defensibility*, *Market & Traction*, *Key Risks*)
+
+**Investment inference.** The expansion unit is one financed and delivered project. The cost comparison needs to include staff hours spent on rejected parcels, review and rework, manual approvals, construction oversight, and financing and lease-up exposure. Development fees would need to cover execution costs at the smaller project size, with any promote contingent on profits. Under model parity, investors could still pay HABU to source and secure a parcel, coordinate local approvals, and deliver the project as sponsor. The site contract gives that case some grounding. The memo leaves both the full-cost advantage and buyer preference under parity untested. (*The Idea*, *Market & Traction*, *Key Risks*)
 
 ### Countercase
 
-HABU may screen sites faster while pursuing the same projects conventional sponsors already serve. It still gathers local approval knowledge manually, competing developers can use much of the same public parcel data, and retained screening records have yet to show an advantage tied to actual project outcomes. With comparable models and ample capital, incumbents could match the screening while continuing to offer financed development. The memo establishes neither a newly viable transaction nor a reason to choose HABU under model parity. It also gives no separate evidence that HABU controls a scarce input under Path A. Both Path B conditions remain testable on a real deal, which supports Watch. (Defensibility, Market & Traction, Key Risks)
+HABU may be making an existing development service more efficient. Phoenix incumbents already finance infill projects, and the memo identifies a plausible route for them to reproduce first-pass screening using public inputs and their own deal histories. HABU still gathers local approval knowledge manually, and each sponsored project needs separate debt and equity. Those constraints could absorb enough of the desk-work savings to leave the same projects viable for the same investors. There is no direct comparison showing that substitution is easy or that the savings disappear. Both Path B gates remain open, which supports Watch. (*Defensibility*, *Market & Traction*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
 | Path-specific thesis fit | 9/25 |
-| Durable value capture | 7/25 |
+| Durable value capture | 8/25 |
 | Customer demand | 6/20 |
-| Team and execution | 8/15 |
-| Scale economics | 5/15 |
+| Team and execution | 9/15 |
+| Scale economics | 6/15 |
 
-**Total Score: 35/100** (Pass)
+**Total Score: 38/100** (Pass)
 
 ### Decisive diligence question
 
-Can HABU secure a binding commitment at a viable fee from an independent project investor for a Phoenix infill deal that conventional sponsor economics would leave unserved? A like-for-like deal comparison should show that measured labor savings, including review and exceptions, make the deal viable and that the investor chooses HABU’s execution over a credible sponsor with comparable AI. A positive result would warrant rescoring for Reach out if it clears the score and confidence gates. Evidence that full delivery costs erase the savings or that buyers switch readily at parity would move the action to Pass.
+Can HABU win a paid mandate from an independent investor for a smaller Phoenix infill project whose conventional sponsor cost would have kept it from proceeding? Move to Reach out if the investor commits project capital at a viable fee after comparing a sponsor with equivalent screening, and matched predevelopment records plus a conservative budget for remaining execution show that labor savings make the project viable. A comparison that shows equivalent economics and execution from the alternative would close the path and move the action to Pass.

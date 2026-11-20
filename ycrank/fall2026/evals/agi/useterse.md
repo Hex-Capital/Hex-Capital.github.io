@@ -1,30 +1,32 @@
 ﻿# Terse -- AGI Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Low
+**Evidence confidence:** Medium
 
 ### Company case
 
-**Path A — Scarce complements.** If cheaper intelligence leads developers to run more agents in parallel, coordinating writes to shared state becomes more important. Karatzas reports that stale PostgreSQL reads caused agents working on a shared CSV to duplicate work. Terse’s shipped runtime serializes calls to each actor by default and commits actor state and SQLite writes together on successful calls. Its self-hosting option could matter to buyers who need deployment control. The memo leaves open how much duplicate work Terse prevents in production and whether its advantage holds when many agents contend for the same actor. (The Idea, Key Risks)
+**Path A — Scarce complements.** If cheaper frontier intelligence leads developers to run more agents concurrently, reliable coordination of shared state becomes more valuable. Application teams bear the cost of duplicate work and have to engineer around it. Terse’s CEO reports that stale PostgreSQL reads caused agents editing a shared CSV to repeat work. The shipped Durable Actors runtime gives each actor its own SQLite database and serializes calls by default, directly addressing that failure mode. The runtime supports the mechanism at seed stage. Scarcity still depends on how it performs against alternatives in production. (The Idea, Key Risks)
 
-Doop’s creator reported a migration in progress. Terse’s CTO reported that Munito used the runtime to coordinate 32,752 VM launches in a demo. These are early signs of adoption, with paid production use and repeat buying still unknown. The founders’ assistant infrastructure and data pipeline experience, together with the runtime and hosted launch, support a seed-stage execution case. Terse Cloud can bill for more CPU and RAM as customer workloads grow. Contribution on the next workload depends on the cost of compute, storage, networking, and support, which the memo leaves unmeasured. (Market & Traction, Founders & Team, The Idea, Key Facts)
+Doop’s creator reported a migration in progress, a concrete sign that an outside developer is committing engineering time. The hosted launch and the founders’ experience with assistant infrastructure and data pipelines support their ability to deliver. Repeat paid cloud use remains unverified. (Market & Traction, Founders & Team)
+
+The expansion unit is billed compute and memory. As an illustrative scenario, one requested CPU and one GiB of RAM billed continuously would cost a customer about $0.095 per hour at published rates. Dormancy could reduce billed time if dormant actors release those resources. Terse’s contribution depends on realized utilization, hosting costs and support, while slow calls to a busy actor could limit throughput. (The Idea, Key Risks)
 
 ### Countercase
 
-Rivet already offers self-hosted actors with per-actor SQLite and WebSockets. Cloudflare bundles persistent state and WebSockets into Workers, and Terse’s own MIT-licensed runtime gives users a route to run it without buying Terse Cloud. With ample capital and equal model access, rivals could compete on hosting and persistence behavior. The memo identifies possible migration work from embedded actor state, while buyer retention and willingness to pay for Terse’s specific persistence guarantees remain untested. The overlap weighs against durable value capture. A production comparison could still establish that Terse controls a capability buyers need, so the Path A override remains open. Path B lacks evidence of a newly viable paid transaction after accounting for delivery labor and exceptions. (Defensibility, The Idea, Key Risks, Market & Traction)
+Rivet already offers self-hosted actors with per-actor SQLite and WebSockets, and Cloudflare bundles persistent state and WebSockets into Workers. Terse describes a concrete difference in default behavior: it commits persisted fields and SQLite writes together on successful calls, while Rivet offers an explicit immediate save. A buyer could find Rivet’s approach sufficient or deploy Terse’s MIT-licensed runtime itself. State migration could create switching costs over time, but buyer behavior has yet to establish them. The overlap keeps Terse below the Reach out gate. The memo leaves open whether a substitute meets the same production requirements at comparable cost, so the Path A case remains testable. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
 | Path-specific thesis fit | 12/25 |
-| Durable value capture | 5/25 |
-| Customer demand | 8/20 |
+| Durable value capture | 7/25 |
+| Customer demand | 10/20 |
 | Team and execution | 10/15 |
 | Scale economics | 5/15 |
 
-**Total Score: 40/100** (Pass)
+**Total Score: 44/100** (Pass)
 
 ### Decisive diligence question
 
-Will an independent buyer keep paying for Terse Cloud after running the same concurrent-agent workflow on Terse and its best deployable alternative, including Rivet where self-hosting matters? A sustained paid production deployment tied to a reproducible advantage in correctly completed jobs under contention and retries would justify rescoring for Reach out, subject to the score and confidence gates. Equivalent results at comparable cost followed by the buyer choosing the substitute would move the action to Pass.
+Will an independent team pay for Terse Cloud after running the same production coordination workload on Terse and its best feasible alternative, including Rivet or self-hosting? Move to **Reach out** if the buyer commits paid production budget because Terse meets a predefined correctness or latency target that the alternative cannot economically match. Move to **Pass** if the alternative meets the buyer’s requirements at comparable or lower total cost and the buyer sees no reason to pay Terse.

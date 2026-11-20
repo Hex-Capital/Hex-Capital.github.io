@@ -5,26 +5,26 @@
 
 ### Company case
 
-**Path B: Repeatable sales or partner distribution with account expansion.** Outworld publicly demoed Horizon and invited robot foundation-model teams to discuss their training and evaluation workflows. The company says Horizon calibrates simulation against measured robot behavior, reports the agreement, and reconstructs environments for training and evaluation. The recurring job is testing dexterous manipulation policies with fewer physical robot runs and operator resets. The memo documents the launch but gives no buyer activation, paid use, or repeat workloads. (The Idea; Market & Traction; Key Facts)
+**Usage-based expansion** is the strongest plausible path. The memo records a public launch and demo for Horizon. Outworld describes a simulator that reconstructs scenes and calibrates dexterous manipulation against physical robot measurements. The first buyer is a robot foundation-model team that repeatedly trains and evaluates policies. (The Idea; Market & Traction)
 
-If Horizon saves hardware time at acceptable fidelity, direct sales could win a team on one workload and grow the account as it adds tasks and environments. That scenario assumes Outworld can reuse calibrated models and the implementation workflow. A buyer in a second geography would still need compatible robot data, integration, and validation on its hardware. Contribution improves if reuse lowers calibration and onboarding effort per deployment and additional workload revenue covers compute and support. The memo provides no measurements of those costs. (The Idea; Defensibility; Key Risks)
+If Horizon can reduce physical test cycles while preserving policy performance on hardware, a team could start with one paid evaluation workload and add others as it tests new policies and tasks. The billing unit is unknown. The same job plausibly travels across markets, but each buyer may need to collect hardware measurements and calibrate its own setup. Even assuming strong fit, the first link at risk is getting an independent buyer from demo to hardware-validated value with a repeatable amount of effort. The memo shows a discovery channel but provides no buyer activation, budget commitment, repeat use, or measured rollout costs. A buyer-funded test would be meaningful at this stage. (The Idea; Key Risks; Key Facts)
 
 ### Countercase
 
-If each robot or task needs fresh physical measurements and hands-on tuning, onboarding could consume much of the hardware time Horizon is meant to save, while Outworld’s delivery labor grows with each deployment. MuJoCo Playground and SuperDex already provide overlapping calibration and tactile simulation components, giving teams a basis for building parts of the workflow themselves. The memo establishes the availability of those components. Proportional delivery costs and buyer substitution remain risks, so the structural Pass gate is unproven. (Defensibility; Market & Traction; Key Risks)
+Horizon could shift work from physical testing to bespoke calibration. If each robot or task needs fresh measurements and substantial tuning, added workloads could consume much of the labor the simulator is meant to save. Reusing calibrated models could reduce that effort, but the memo reports no evidence of such reuse. The structural downside gate is unmet because proportional delivery costs remain a hypothesis that a buyer pilot can test. (Defensibility; Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 9/25 |
+| Global buyer demand | 14/25 |
 | Repeatable acquisition and onboarding | 9/25 |
 | Retention and customer expansion | 7/20 |
 | Contribution as volume grows | 7/20 |
 | Evidence of fit in the first buyer segment | 4/10 |
 
-**Total Score: 36/100** (Pass)
+**Total Score: 41/100** (Pass)
 
 ### Decisive diligence question
 
-Can an independent robot foundation-model team outside the US pay for Horizon, activate through the same calibration workflow, and use it again in its next evaluation cycle? Move to Reach out if that rollout shows hardware agreement acceptable to the buyer, fewer physical robot hours than its existing workflow, and measured setup and running costs with limited bespoke engineering.
+Can an independent robot foundation-model team complete a paid Horizon pilot that meets its agreed policy-transfer benchmark on hardware? Move to **Reach out** if the pilot records the buyer’s and Outworld’s setup hours and shows that a second comparable workload can reuse the initial calibration with materially less effort.

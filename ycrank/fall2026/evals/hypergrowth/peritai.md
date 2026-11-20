@@ -1,32 +1,30 @@
 ﻿# Perit.AI -- Hypergrowth Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Low
+**Evidence confidence:** Medium
 
 ### Company case
 
-**Path B — Repeatable sales with account expansion.** The strongest initial buyer is a frontier lab’s voice evaluation team testing how its agents handle interruptions, accents, and noisy calls. Perit offers a scoped pilot and delivers expert-collected speech with QA reports and consent records. If labs rerun these evaluations with each model release, Perit could turn one pilot into recurring orders for more test cases and locales. That is the growth hypothesis. The memo gives no buyer-level reorder history. (The Idea; Market & Traction)
+**Channel-led or repeatable sales** is the strongest path, starting with direct sales to frontier labs that need to test voice agents against interruptions, accents, and noise. The memo documents a route from a submitted model failure to a scoped pilot, with quotes by delivery unit. Perit’s Foundry workspace supports reviewer calibration and batch QA. If labs commission new test batches as their models change, Perit could reuse the pilot and QA workflow across orders. That buying cadence is a scenario assumption. (The Idea, Defensibility)
 
-**Company claims.** Perit reports six AI lab customers, delivery of more than 6,000 speech hours across nine locales, and more than $11 million in revenue over 4.5 months. The memo also records a separate figure of more than $9 million over the same period. The figures are unreconciled, and the memo gives no revenue breakdown by buyer or program. The reported sales and deliveries are a concrete early fit signal, with limited visibility into paid demand for voice evaluation specifically. (Market & Traction; Key Facts)
-
-**Observed evidence and inference.** The memo records 29 marketplace listings and 703 monthly downloads of an open speech dataset, with paid conversion unverified. The reported nine-locale delivery suggests that parts of the collection workflow can travel. Buyer demand in a second geography remains unverified. A rollout there could reuse pilot scoping and batch QA, while a new language or accent would still require suitable contributors, reviewer calibration, and local consent and licensing checks. (The Idea; Market & Traction; Defensibility; Key Risks)
+Perit reports six lab customers and more than 6,000 speech hours delivered across nine locales. The reported locale coverage makes the same testing job credible across markets, with local contributor recruitment and consent handling still required. Buyer geography is unknown. Reported multimillion-dollar contracts and early revenue support initial budget commitment, although the memo leaves the two aggregate revenue figures unreconciled and gives limited detail on what individual voice buyers purchased. (Market & Traction, Key Risks, Key Facts)
 
 ### Countercase
 
-Perit could be winning large, one-off data programs. Program-specific quotes and per-unit delivery leave open how much sales and scoping effort the next buyer requires and how much contributor pay, annotation, review, rework, and consent handling each additional audio hour adds. Foundry gives Perit a way to reuse QA, but the memo provides no measured rollout costs or marginal contribution. The evidence leaves a structural cost ceiling unresolved, so the Pass gate does not trigger. A paid repeat rollout would be more informative than a conversation today. (The Idea; Defensibility; Key Risks; Key Facts)
+The first link likely to break is the handoff from a scoped pilot to a repeatable paid rollout. Early revenue could come from a few large, one-off programs. Each new order may require fresh scoping, contributor recruitment, consent checks, and reviewer calibration. The memo leaves buyer-level conversion, paid reorders, and marginal delivery costs open. The structural downside gate stays open because proportional delivery costs remain a plausible risk rather than a demonstrated constraint. (The Idea, Defensibility, Market & Traction, Key Risks, Key Facts)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 12/25 |
+| Global buyer demand | 16/25 |
 | Repeatable acquisition and onboarding | 9/25 |
 | Retention and customer expansion | 7/20 |
 | Contribution as volume grows | 7/20 |
 | Evidence of fit in the first buyer segment | 7/10 |
 
-**Total Score: 42/100** (Pass)
+**Total Score: 46/100** (Neutral)
 
 ### Decisive diligence question
 
-Can an independent frontier lab in a second buyer geography complete a paid voice-evaluation pilot through the same sales and QA workflow and then pay for a follow-on batch? A paid invoice and delivery record for each batch, with actual scoping, contributor, review, rework, and consent costs, would answer it. A paid repeat order with positive contribution and less setup effort would move the action to **Reach out**.
+Can a non-founder use the same playbook to take a second independent voice lab from a scoped pilot to a paid follow-on batch at its next evaluation cycle? Move to **Reach out** if the order and delivery records show that the handoff worked and the follow-on batch made a positive contribution after scoping, contributor, and QA costs at comparable acceptance quality.

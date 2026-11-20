@@ -1,38 +1,38 @@
 ﻿# Decent -- Exit Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Medium
+**Evidence confidence:** Low
 
 ### Company case
 
-The strongest path is a strategic acquisition by a benefits broker or payroll platform. Decent offers plan comparison and in-year claims review, with commissions paid by the selected provider. Customer testimonials report $60,000 in annual savings at Serif Health and more than $100,000 against Locate’s renewal quote. The founders report 67 companies working with Decent and AI handling 89% of brokerage work. A buyer could have a reason to own the brokerage if acquiring its employer relationships and claims-review workflow produces more retained commission income than building or partnering. The savings reports suggest employer value. Realized commission revenue, cohort retention, and servicing costs remain undisclosed. (*The Idea*, *Market & Traction*, *Key Facts*)
+**Strategic acquisition** is the strongest path. An established benefits brokerage could buy Decent’s small-employer brokerage book and year-round claims review workflow. The buyer could earn commissions from retained employer accounts and use claims review to improve retention at renewal. Customers Serif Health and Locate reported savings of $60,000 annually and more than $100,000 against a renewal quote, respectively. Decent also reported that one client’s renewal rates excluded a surgery that accounted for 46% of its claims spend. These figures measure employer outcomes. The buyer’s economic benefit would depend on retained commissions and the cost of servicing the accounts. The memo records Nice Healthcare’s acquisition of the earlier Decent health plan administrator, a separate business, and supplies no price benchmark for the current brokerage. (The Idea, Market & Traction, Key Risks)
 
-A full renewal cohort showing repeatable savings, employer retention, and positive commission contribution after servicing costs would strengthen the case. The reported customer base makes that test plausible at seed, while funding and runway remain unknown. A buyer would also need to confirm that employer and commission arrangements can transfer and that claims access can continue under the applicable permissions and agreements. The memo supplies no transaction terms that resolve those questions and no independently supported fallback for this holder. (*Market & Traction*, *Defensibility*, *Key Risks*, *Key Facts*)
+The seed-stage milestone is a full renewal cycle for a paying employer cohort, with documented retention, net commissions, and servicing costs. The founders reported 67 companies working with Decent and 89% of brokerage work handled by AI. That gives Decent a plausible cohort to measure, while paid conversions, realized commissions, burn, and capital needed to reach the milestone remain undisclosed. The memo leaves the other routes unevidenced. A sponsor buyout lacks demonstrated cash generation and financing, a secondary lacks eligible share demand and terms, an IPO lacks evidence of operating scale and a resale path, and a dividend or buyback lacks demonstrated distributable cash. (Market & Traction, Key Facts)
 
-The illustrative check is $500,000 at a $10 million post-money valuation. Initial ownership of 5% falls to 3% after 40% relative dilution, with no follow-on checks. The eight-year 5× objective requires $2.5 million in holder cash, or $83.3 million in distributable equity proceeds at 3% ownership. The hurdle is $125 million at 2% and $62.5 million at 4%. The sale scenarios assume zero net debt and other price adjustments, so enterprise value equals equity consideration. They also assume a simple pro rata waterfall with no preference deductions and all cash paid at closing. Stock, escrow, earnouts, rollover, and compensation each contribute $0. The prices are scenario assumptions. The memo supplies no basis for estimating a clearing price. (*Key Facts*, *Key Risks*)
+**Illustrative holder proceeds.** A $500,000 check at a $10 million post-money valuation buys 5%, diluted by 40% relative to 3%, with no follow-ons. The eight-year target is $2.5 million in gross cash. At 3%, that requires $83.3 million in distributable equity, or about $88.3 million in enterprise value with $5 million of assumed net debt. At 2% and 4%, the equity hurdles are $125 million and $62.5 million, respectively. Using the same illustrative debt and a simple pro rata allocation before taxes, fees, and any senior claims:
 
-| Scenario | Timing | Enterprise value and distributable equity | Holder cash | Gross multiple |
-|---|---|---:|---:|---:|
-| Modest sale | Year 5 | $40 million | $1.2 million | 2.4× |
-| Strong sale | Year 7 | $100 million | $3 million | 6.0× |
-| Prolonged private | Through year 8 | Growth plateaus, buyers stay away, public scale remains out of reach, and cash is reinvested | $0, shares retained | 0× realized |
+- A **$25 million sale** in year eight yields **$600,000 (1.2×)** at 3%.
+- A **$100 million sale** in year eight yields **$2.85 million (5.7×)** at 3%. At 2%, it yields **$1.9 million (3.8×)**.
+- If growth plateaus, buyers stay absent, public scale remains out of reach, and available cash is reinvested for eight years, the holder realizes **$0** and retains the shares. Wind-down proceeds would depend on the residual after obligations and preferences, which the memo leaves unquantified.
+
+Decent’s disclosed commission model gives a buyer a way to value the book once operating results are available. The memo provides no realized commission base or priced transaction evidence to support a sale near the hurdle. (Key Facts, Key Risks)
 
 ### Countercase
 
-A buyer could replicate automated quoting or partner for benefits servicing. Competitor overlap makes that substitute credible, and Decent’s more distinctive in-year review depends on what carriers and administrators share. If a buyer can get comparable renewal results through a partnership, the remaining ownership value may come mainly from the commission book, whose size and durability are unknown. The strongest sale scenario clears the hurdle only under favorable assumptions. The memo leaves a decisive gap in buyer economics and does not establish that substitutes cap the price below the hurdle across credible outcomes. The Pass override therefore does not apply. (*Defensibility*, *Market & Traction*, *Key Risks*, *Key Facts*)
+A buyer could build or license the overlapping quoting and administration workflows. Corridor and Ignition already demonstrate parts of that alternative. Buying the brokerage would be more compelling if ownership secured durable access to the employer accounts and claims reports that make year-round review valuable. Decent depends on carriers and administrators for those reports, handles sensitive data under business associate agreements, and has unverified data reuse and transfer rights. That dependency threatens execution, but the memo establishes neither a structural closing block nor a supported sale-price ceiling below the holder’s target. The Pass gate does not trigger. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 15/30 |
+| Counterparty rationale or source of cash | 16/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 11/20 |
-| Transaction feasibility | 5/10 |
+| Milestones and capital needed | 10/20 |
+| Transaction feasibility | 4/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 41/100** (Pass)
+**Total Score: 40/100** (Pass)
 
 ### Decisive diligence question
 
-Can a completed renewal cohort show enough transferable net commission contribution to give a strategic buyer an economic reason to pay a price that delivers at least $83.3 million in distributable equity by year eight? Cohort records covering retained employers, collected commissions, servicing costs, and continuing claims access would support **Reach out** if those economics plausibly clear the hurdle under a buyer’s build-or-partner comparison.
+Can Decent demonstrate a transferable book of paying employers whose renewal economics support a strategic sale at or above the roughly $88.3 million enterprise-value hurdle? A full renewal cycle of commission and servicing records, contracts confirming that commission and claims access can survive a change of control, and buyer underwriting that supports the price would move the action to **Reach out**.

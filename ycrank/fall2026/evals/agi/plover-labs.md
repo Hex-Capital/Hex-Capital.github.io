@@ -5,28 +5,28 @@
 
 ### Company case
 
-Path B, New economies, is the strongest path. Plover turns recurring coding-agent failures into repository-specific merge checks. The seed-stage investment case is that these checks could make routine patches viable when engineering teams currently defer them because review costs too much. Fieldguide reported 40% higher total merged PR throughput in Forge’s first production quarter and 1.3–1.6× faster merges for Forge-authored PRs, with flat rollback rates and defect severity. Plover separately claims Fieldguide tripled PRs per engineer. The figures use different measures, and neither isolates Plover’s contribution or measures end-to-end human labor. (The Idea, Market & Traction)
+**Path B — New Economies.** Enterprise engineers currently review agent-written changes before merge. Plover turns recurring repository failures into deterministic checks. The market-opening hypothesis is that those checks could make low-priority changes economical to ship routinely when engineer review previously kept them in the backlog. Fieldguide reported 40% higher merged PR throughput in Forge’s first production quarter, with flat rollback rates and defect severity. That supports the mechanism in a live workflow, while leaving open how much engineer time was saved and whether any previously deferred work became economical. (The Idea; Market & Traction)
 
-Plover reports five-figure monthly contracts with Envoy and Fieldguide. Fieldguide’s production use corroborates adoption at one enterprise. Payment by buyers for previously uneconomic work remains unproven. The founders’ applied agent research and developer-tool experience, together with the Fieldguide integration, support seed-stage execution. The San Francisco-based Fall 2026 YC company plausibly fits the seed mandate. (Key Facts, Market & Traction, Founders & Team)
+Under the scenario assumption that rivals have equally capable models, Plover’s best reason for buyers to stay is its ability to build and maintain repository-specific regression checks. Fieldguide uses Plover’s evaluation system to test proposed fixes against previously shipped work. Recreating that coverage could impose switching costs, depending on who owns the checks and how readily they transfer. Plover reports five-figure monthly contracts with Envoy and Fieldguide. Those reported commitments support demand for verification, while paid repeat use for newly viable work remains unproven. (Defensibility; The Idea)
 
-**Scenario assumption:** Teams have a recurring backlog of low-risk patches they defer because of review cost. The economics depend on human time per successfully merged patch, including review, retries, exception handling, and regression maintenance. Expansion then depends on how much paid patch volume each new repository adds relative to the cost of onboarding and maintaining it. Fieldguide co-built its deployment, and the memo leaves those incremental costs and repeatability unmeasured. (Key Risks)
+Forge produced merge-ready patches on 37 of 40 retrospective tasks, evidence that the joint implementation worked on real repository tasks. Fieldguide also reported 1.3–1.6× faster merges for Forge-authored PRs. Merge speed measures elapsed time. To establish repeatable economics per repository, Plover needs to show lower labor and full delivery cost per successfully shipped change after counting check setup and maintenance, engineer review, retries, exceptions, and inference. (Market & Traction; Key Risks)
 
 ### Countercase
 
-Forge may make an existing workflow faster while engineer approval remains necessary. A patch passed component tests yet missed a required integration. Fieldguide added a regression case and retained engineer approval at merge. Under model parity, Plover’s strongest potential advantage is its accumulated repository-specific regression coverage. That advantage depends on what buyers would lose by switching. Ownership and portability are undisclosed, and GitHub already offers required checks and automated review that cover parts of the workflow. The evidence leaves both Path B gates unresolved. The integration failure limits the claim for unattended merging, while a bounded class of deferred patches remains testable. Path A has no independently supported case for Plover’s control of a scarce bottleneck. (Key Risks, Defensibility)
+Plover may speed up an existing review workflow while leaving the labor bottleneck in place. A Forge patch passed component tests but missed a required integration. Fieldguide added a regression case and retained engineer approval at merge. GitHub’s required checks and automated review also give buyers a credible way to reproduce parts of the workflow. The approval requirement leaves the market-opening gate unresolved, and the feature overlap leaves model-parity value unresolved. A production comparison can test both. (Key Risks; Defensibility)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 12/25 |
-| Durable value capture | 8/25 |
+| Path-specific thesis fit | 14/25 |
+| Durable value capture | 9/25 |
 | Customer demand | 12/20 |
 | Team and execution | 10/15 |
 | Scale economics | 6/15 |
 
-**Total Score: 48/100** (Neutral)
+**Total Score: 51/100** (Neutral)
 
 ### Decisive diligence question
 
-Will an enterprise repeatedly pay a viable price to use Plover for a class of patches it previously deferred when a competing workflow has access to the same frontier model and can match its merge controls? A paid side-by-side trial should track total human minutes and delivery cost per successful merge, including retries, exceptions, and check maintenance, at equivalent quality. Repeat purchase of Plover with materially lower delivery labor would support **Reach out** if the updated score clears 65 with at least medium confidence. If review costs still make the patches uneconomic or the buyer switches under parity, move to **Pass**.
+Can a paying enterprise repeatedly ship a defined class of previously deferred changes at lower fully loaded cost and comparable defect and rollback rates, then choose to renew Plover after trialing an equivalent model with native merge controls? A production trial that demonstrates both would move the action to **Reach out**. If the trial shows that review and exceptions erase the savings or that the buyer switches while preserving the outcome, move to **Pass**.

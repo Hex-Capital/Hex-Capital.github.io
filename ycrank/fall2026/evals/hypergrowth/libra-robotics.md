@@ -1,32 +1,30 @@
 ﻿# Libra Robotics -- Hypergrowth Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Low
+**Evidence confidence:** Medium
 
 ### Company case
 
-**Path B — Repeatable sales with account expansion.** Libra sells completed solar installation work directly to engineering, procurement and construction contractors facing skilled-labor shortages. If a robot crew can install the same equipment reliably across sites, a contractor could start with one task and buy the same service on later projects. Libra’s physical testbeds and reusable alignment and fastening skills give it a plausible way to reduce engineering effort on each rollout. (*The Idea*, *Defensibility*)
+**Repeatable direct sales to utility-scale solar EPC contractors** is Libra’s strongest path. Contractors buy completed installation work. The recurring job plausibly travels across markets where contractors use compatible trackers, but changing site conditions leave the amount of adaptation uncertain. The memo records a live Texas demonstration, and Libra reports compatibility with FTC Solar’s 1P Pioneer tracker. The growth case assumes Libra can reuse alignment and fastening skills across sites and standardize commissioning for the next buyer. (*The Idea*, *Defensibility*, *Market & Traction*, *Key Risks*)
 
-**Observed evidence.** Libra demonstrated its robots live at FTC Solar’s Robo Day in Texas. **Company claims.** Sunstall provided field-test access, and Libra reports solar jobsite deployments and signed commercial agreements. These are early signals of fit. Contract values, realized revenue, and repeat orders are undisclosed. The reported $56 million in potential deployment value comes from letters of intent. Data-center pilots show adjacent experimentation but provide no evidence of expansion within a solar account. (*Market & Traction*, *Key Risks*, *Key Facts*)
-
-**Inference and scenario assumptions.** Solar contractors in another geography could buy the same installation service if Libra can reuse its robot configuration and skills across tracker designs, site conditions, and local safety requirements. Libra would still need to move, stage, and support equipment locally. In a per-unit pricing scenario, revenue would equal accepted installations times the contracted rate. Incremental contribution would deduct site engineering, mobilization, field labor, maintenance, downtime, and the cost of equipment capacity, plus the sales effort to win the job. Reusing skills could reduce engineering hours, while keeping crews busy across sites could spread equipment costs over more paid work. The memo gives no measured rollout costs or cross-market buyer evidence. (*The Idea*, *Defensibility*, *Key Risks*, *Key Facts*)
+Libra reports that Sunstall provided jobsite access for field testing and that it signed commercial solar installation agreements. Jobsite access shows a named contractor committed time and site resources to a meaningful test. Field testing gives the direct-sales motion a concrete activation step, while the commercial agreements lack disclosed buyers, values, and payment status. The memo provides no evidence of a customer returning for a later project or expanding paid work, so retention takes the absent-evidence default. (*The Idea*, *Market & Traction*, *Key Risks*, *Key Facts*)
 
 ### Countercase
 
-Libra could win real demand and still scale like a labor- and equipment-intensive contractor. Changing site conditions can require custom engineering, and Libra’s reported 10× reduction in task-to-deployment time has no independent cross-site benchmark. If each project needs substantial retooling, on-site support, and dedicated equipment, delivery effort and capital could rise in step with revenue. The memo establishes a concrete risk but leaves actual cost behavior unresolved, so the structural Pass gate is untriggered. (*The Idea*, *Key Risks*)
+Even if contractors value the installation service, **cross-site commissioning** could be the first link to break. Changing layouts and site conditions could require fresh engineering, field labor, and equipment mobilization for each project. Libra reports a 10× reduction in task-to-deployment time, an early signal that reuse could reduce rollout effort. The memo has no comparable cross-site measurements or realized job economics to show whether that improvement carries through to contribution. The structural downside gate requires affirmative evidence that these costs grow in proportion to volume with no supported path to improvement. The evidence leaves that question open and supports Watch. (*The Idea*, *Defensibility*, *Key Risks*, *Key Facts*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 9/25 |
-| Repeatable acquisition and onboarding | 9/25 |
+| Global buyer demand | 14/25 |
+| Repeatable acquisition and onboarding | 10/25 |
 | Retention and customer expansion | 7/20 |
-| Contribution as volume grows | 7/20 |
+| Contribution as volume grows | 8/20 |
 | Evidence of fit in the first buyer segment | 6/10 |
 
-**Total Score: 38/100** (Pass)
+**Total Score: 45/100** (Neutral)
 
 ### Decisive diligence question
 
-Can a solar contractor pay Libra to repeat the same installation task at a materially different second site while reusing the core robot configuration and reducing delivery effort per accepted unit? A customer-confirmed paid deployment and a comparable two-site breakdown of engineering hours, field labor, mobilization, and equipment utilization would answer it. A result showing reuse and improved contribution after those costs would move the action to **Reach out**.
+Can Libra bring an independent solar EPC contractor from direct sale through paid, accepted installation at a second site using the same tracker configuration and a commissioning process another operator can run? A completed rollout with buyer payment, a documented handoff, and lower site-specific engineering and field costs on comparable work would move the action to **Reach out**. A rollout that still requires substantial custom engineering and founder involvement would keep it at **Watch**.

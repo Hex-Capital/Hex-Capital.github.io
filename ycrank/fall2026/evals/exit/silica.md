@@ -5,34 +5,30 @@
 
 ### Company case
 
-Strategic acquisition is Silica’s strongest path. An actuator supplier or robot OEM could pay for a production-qualified joint design and its calibration process. Ownership could shorten development and give the buyer control over manufacturing and future designs. The memo records a public demo of gearbox-integrated sensing and maxon’s strategic minority investment in Synapticon at an undisclosed price. Those observations support the product mechanism and strategic interest in adjacent technology. The value of owning Silica remains an inference. (Defensibility, Market & Traction)
+Strategic acquisition is Silica’s strongest route. The memo documents a demonstration of gearbox-integrated output-torque sensing. Silica says the Q Series fits existing low-cost training arms and quotes under $500 per complete actuator. An actuator supplier such as ROBOTIS could use the design to add direct sensing to a product line that currently estimates torque from motor current. Ownership could be worth more than a supply agreement if it gives the buyer control over calibration, manufacturing, and integration and brings a qualified product to market faster than building one. Maxon’s undisclosed minority investment in Synapticon shows adjacent strategic interest. The buyer benefit specific to Silica remains unmeasured. (The Idea, Defensibility, Market & Traction)
 
-Silica reports more than 60,000 units requested and quotes a price under $500 per actuator. The requests go through an inquiry form, with paid conversion still unverified. The seed milestone is a paid OEM pilot that demonstrates repeatable torque accuracy under temperature changes and repeated loads at a viable production cost. The prototype demo and announced rollout support a path to testing. Pilot funding, runway, and IP transferability remain unverified. (The Idea, Market & Traction, Key Risks)
+At seed, the operating milestone is a paid production qualification on an existing training arm, with multiple units meeting agreed torque-accuracy and reliability thresholds under temperature changes and repeated loading. The demonstration supports a path to that test. Silica reports requests for more than 60,000 units, and the preorder process requires email confirmation. The storefront lists January production while the launch cites February sample shipments. Both are company plans. The memo leaves the qualification budget, available production funding, and rights to transfer the design and calibration assets unverified. (The Idea, Market & Traction, Key Risks)
 
-**Proceeds bridge.** The illustrative $500,000 check buys 5% initially and falls to 3% after 40% relative dilution, with no follow-on checks. A 5× gross cash return within eight years requires $2.5 million to the holder, or $83.3 million in distributable equity proceeds. The hurdle rises to $125 million at 2% ownership and falls to $62.5 million at 4%. The memo supplies no usable acquisition valuation or buyer economics.
+Under the illustrative seed terms, a $500,000 check at a $10 million post-money valuation buys 5%, diluted by 40% relative to 3%, with no follow-ons. The 5× target is $2.5 million gross within eight years. At 3%, that requires $83.3 million in distributable equity, or $88.3 million in enterprise value with $5 million of assumed net debt. The equity hurdle rises to $125 million at 2% ownership and falls to $62.5 million at 4%. A $25 million sale at year eight yields $600,000 gross (1.2×), and a $100 million sale yields $2.85 million gross (5.7×), using simple pro rata allocation after the assumed debt and before investor taxes. Silica’s debt, fees, and senior claims are unverified. The quoted unit price, preorder requests, and undisclosed adjacent stake price leave a realizable sale range unevidenced. (The Idea, Market & Traction)
 
-- **Modest sale, year 5.** At an assumed $40 million enterprise value, the holder receives $1.2 million in cash, or 2.4×.
-- **Strong sale, year 7.** At an assumed $100 million enterprise value, the holder receives $3 million in cash, or 6×. At 2% ownership, the same sale pays $2 million, or 4×.
-- **Prolonged private, year 8.** Growth plateaus, buyers stay away, public scale remains out of reach, and cash is reinvested. The holder retains the shares and realizes $0, or 0×.
-
-Both sale scenarios assume zero net debt and other enterprise-to-equity adjustments, a pro rata waterfall with no preference deductions, and all cash at closing. Stock, escrow, earnouts, rollover, and compensation are each assumed to be zero. The memo supplies no separately supported fallback that could pay this holder.
+If growth plateaus, buyers stay away, public-market scale remains out of reach, and Silica reinvests all available cash for eight years, the holder realizes $0 and retains the shares. The memo supplies no evidence of a sponsor-financeable cash flow, an eligible secondary, IPO readiness, or a funded payout. Wind-down proceeds would depend on the residual after obligations and preferences, which the memo leaves unquantified. (The Idea, Market & Traction, Key Facts)
 
 ### Countercase
 
-An OEM could buy Silica’s actuators as a customer or source integrated sensing from HEBI, Synapticon, or Harmonic Drive. If one of those options delivers comparable fit, reliability, and cost, the buyer’s reason to pay an acquisition premium weakens materially. The alternatives are real, but their economics in Silica’s target training arms remain unresolved. That gap warrants Watch. The evidence does not establish a structural Pass or trigger the proceeds override. (Defensibility, Key Risks)
+A robot maker can already source force-sensing modules from HEBI, integrated torque-sensing gears from Harmonic Drive, or custom sensing joints from Synapticon. Even if Silica qualifies its actuator, a buyer could capture the sensing benefit by purchasing units or licensing the design. The memo leaves open whether those alternatives match Silica’s claimed combination of price and compatibility with training arms. That undercuts the case for an ownership premium. The evidence does not trigger the Pass gate because it establishes neither a structural block nor a ceiling on holder proceeds. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 14/30 |
+| Counterparty rationale or source of cash | 15/30 |
 | Plausible investor proceeds | 8/30 |
 | Milestones and capital needed | 10/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 39/100** (Pass)
+**Total Score: 40/100** (Pass)
 
 ### Decisive diligence question
 
-Would a strategic OEM’s paid production pilot show enough incremental value from owning Silica to support the $83.3 million base-case equity hurdle? An OEM-backed comparison using measured reliability, integration cost, and expected volumes would move the action to Reach out if ownership economics could support that hurdle after expected deal adjustments.
+Would a paid production qualification show that owning the Q Series creates enough value for an actuator supplier to support a sale near the modeled $88.3 million enterprise-value hurdle? Repeatable field performance and buyer-validated economics for ownership versus sourcing or building would move the action to Reach out if they support that range. A successful qualification that supports only a supply relationship would leave the action at Watch.

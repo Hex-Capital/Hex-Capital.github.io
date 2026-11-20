@@ -5,26 +5,26 @@
 
 ### Company case
 
-**Path B — Repeatable sales with account expansion.** The initial buyer is a police chief or agency decision-maker. Patrol officers have a recurring job that Reconero aims to simplify by turning footage and dispatch records into timestamp-linked narratives and completed forms for officer review. The memo documents a public launch, a request for introductions to agency leaders, and demos using sample data or an agency export. The founders report consulting more than 100 officers and receiving feedback from several U.S. police units that tested an earlier beta. That gives Reconero an early signal of interest in the workflow. Paid adoption, realized time savings, and recurring production use remain unverified. (The Idea, Market & Traction, Key Facts, Key Risks)
+The strongest path is **repeatable direct sales** to police departments. Patrol officers have a recurring job: turning incident footage and records into reports for review and signature. Reconero says its product pulls from existing records and dispatch systems, drafts narratives linked to footage, and fills agency forms. If officers use it routinely and departments see value after officer review, a rollout that reuses integrations and form mappings across agencies could support repeatable sales. The reporting job plausibly travels across jurisdictions, but the effort to adapt to different systems, forms, and disclosure rules is unmeasured. (The Idea, Key Risks)
 
-**Growth scenario.** If a standard demo converts into a paid patrol deployment, the same records and dispatch integrations could support more forms or units within the agency. That expansion would improve contribution if additional revenue exceeds the cost of processing more video and providing support. Each new agency could still add sales and integration work. In a second jurisdiction, Reconero would also need to adapt form mappings and policy references and meet applicable disclosure, draft-retention, and audit requirements. The memo offers no second-market demand, standardized paid rollout, or cost data to establish that this model travels. (The Idea, Defensibility, Key Risks, Key Facts)
+The memo documents an October 30 public launch and a route from introductions to agency demos using sample data or an agency export. The founders report consulting more than 100 officers and receiving feedback from several U.S. police units that tested the earlier ReconeroRMS beta. At this stage, a buyer-funded test could establish meaningful commitment. The memo establishes no such commitment for the launched product and gives no usable evidence of repeat use or rollout cost. Even assuming strong fit, the first unresolved link is whether an agency demo can become a paid deployment through a process the next agency can follow. (The Idea, Market & Traction, Key Facts)
 
 ### Countercase
 
-Agencies already using Axon Evidence can obtain bundled drafting, so Reconero’s source-linked video and form completion need to deliver enough additional value to justify a separate purchase and rollout. A trial of a competing tool found no report-writing speed improvement, and a study of another system found lower accuracy ratings for AI-assisted reports. Those findings make time savings after officer review a decisive test. The Pass gate remains unmet because Reconero’s own deployment evidence is too sparse to establish a structural ceiling or proportional delivery costs. (The Idea, Market & Traction, Key Risks)
+Departments already buying Axon Evidence can obtain bundled drafting. Reconero’s footage-linked drafts and form completion could give departments a reason to buy separately, but a trial of a competing drafting tool found no speed improvement, and Reconero has disclosed no measured time savings after officer review. If those benefits are small and each agency requires custom integration and compliance work, selling and delivery effort could rise in proportion to revenue. The memo establishes neither that cost pattern nor a need to rebuild the product across markets, so the structural downside gate remains untriggered. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 9/25 |
+| Global buyer demand | 13/25 |
 | Repeatable acquisition and onboarding | 9/25 |
 | Retention and customer expansion | 7/20 |
 | Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 5/10 |
+| Evidence of fit in the first buyer segment | 4/10 |
 
-**Total Score: 37/100** (Pass)
+**Total Score: 40/100** (Pass)
 
 ### Decisive diligence question
 
-Can an independent agency in a second jurisdiction go from the standard export-based demo to paid, recurring patrol use with the same core product? A rollout that shows routine use, measured time savings after officer review, and recorded sales, setup, video-processing, and support costs consistent with positive contribution would move the action to Reach out. (The Idea, Key Risks)
+Can two independently sourced departments go from an agency-data demo to paid use in routine patrol reporting through the same rollout process? Two buyer-funded go-lives with documented setup hours and evidence that the second department reused the integration and form setup with bounded changes would move Reconero to **Reach out**.

@@ -5,13 +5,13 @@
 
 ### Company case
 
-**Path A — Scarce complements.** The potential bottleneck is trustworthy training and evaluation for dexterous robots. Physical trials require operators and repeated resets, while inaccurate contact physics can make simulated results unreliable on hardware. If cheaper intelligence lets robot foundation-model teams train and test more policies, teams could run into that physical testing constraint more often. Outworld says Horizon fits its manipulation simulator to measured robot behavior and reports agreement. The Fall 2026 launch and demo establish early execution, alongside the founders’ robotics research experience. The memo gives no head-to-head results on held-out hardware tasks or evidence of buyer commitment. (The Idea, Market & Traction, Founders & Team, Key Facts)
+Path A — Scarce complements. If cheaper robot intelligence increases the number of dexterous policies teams train and test, operator time and physical robot access could constrain how quickly teams validate them. Outworld says Horizon fits simulated contact dynamics to hardware measurements and reports agreement. If that agreement holds on unseen tasks, teams could move some trials into simulation and reserve robot time for final validation. The memo records a public demo and relevant robotics research by both founders. It gives no measured hardware transfer or throughput result. (The Idea; Founders & Team; Market & Traction; Key Risks)
 
-**Scale scenario.** If Outworld can reuse calibration across robot setups, each deployment could save operator and reset time at a given hardware success rate. The savings need to cover physical measurement, calibration, compute, and hardware validation, including retries after failed transfers. The memo supplies neither measured inputs for that comparison nor pricing. (Defensibility, Key Risks, The Idea)
+Repeated physical resets are an indirect demand signal. The memo reports no independent buyer commitment. In a scale scenario, the expansion unit is a calibrated robot and task setup. If calibration can be reused across enough policy runs, the operator and reset time saved could outweigh the cost of collecting calibration data, running simulations, and verifying results on hardware. Reuse, delivery costs, and pricing remain unverified. (The Idea; Market & Traction; Defensibility; Key Risks)
 
 ### Countercase
 
-MuJoCo Playground already offers hardware-trajectory fitting, SuperDex offers open tactile contact simulation, and Isaac Sim / Newton offers integrated training and evaluation. With abundant capital and equal access to models, customers and competitors could combine these capabilities. Horizon’s integrated workflow is a plausible advantage, but repeated physical calibration could erase the savings and leave buyers little reason to pay for it. The memo establishes overlapping capabilities and leaves end-to-end substitutability unresolved, so the Path A override is untriggered. Path B lacks evidence of a newly viable buyer or transaction and a reason to pay under model parity. A buyer-run comparison remains a credible seed-stage milestone, which supports Watch. (The Idea, Defensibility, Market & Traction, Key Risks)
+MuJoCo Playground already offers calibration from logged hardware trajectories, and SuperDex offers open-source tactile contact simulation. Horizon’s integrated workflow could save setup time, but the memo provides no buyer comparison showing that the advantage persists against those components. If calibration requires fresh physical measurements for each robot or task, it could also consume the operator time Horizon aims to free up. These risks leave scarce, durable control unproven. The memo contains no head-to-head result that closes the path. (Defensibility; Market & Traction; Key Risks)
 
 ### Dimension Scores
 
@@ -19,12 +19,12 @@ MuJoCo Playground already offers hardware-trajectory fitting, SuperDex offers op
 |-----------|-------|
 | Path-specific thesis fit | 10/25 |
 | Durable value capture | 7/25 |
-| Customer demand | 5/20 |
+| Customer demand | 6/20 |
 | Team and execution | 8/15 |
-| Scale economics | 4/15 |
+| Scale economics | 5/15 |
 
-**Total Score: 34/100** (Pass)
+**Total Score: 36/100** (Pass)
 
 ### Decisive diligence question
 
-Will an independent robot foundation-model team pay to qualify Horizon on a second robot setup after a head-to-head trial against its best available alternative? The trial should use the same policy and task, check success on held-out hardware trials, and count all calibration, compute, operator, reset, and validation costs. A material cost advantage at equivalent hardware performance that carries over to the second setup and earns a paid commitment would support Reach out if the updated score reaches 65 with at least medium confidence. A credible substitute matching Horizon on performance and all-in cost, with the buyer unwilling to pay for Horizon, would move the action to Pass.
+Can Horizon earn a paid repeat deployment from an independent robot-model team after a trial against its physical workflow and best available simulator? Move to Reach out if Horizon matches hardware success on held-out manipulation tasks, materially reduces total operator and robot time including calibration and verification, and earns a paid follow-on because the competing simulator cannot deliver comparable results at comparable cost. Move to Pass if the best substitute matches Horizon’s results and delivery costs or if calibration and verification erase the savings. (The Idea; Defensibility; Key Risks)

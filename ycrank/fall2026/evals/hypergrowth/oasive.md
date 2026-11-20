@@ -5,26 +5,26 @@
 
 ### Company case
 
-**Path B, repeatable sales with account expansion, is the strongest candidate.** Municipal bond fund analysts have a recurring job: monitoring issuer credit across filings, board meetings, and local news. Oasive’s borrower pages, source-linked answers, and portfolio watchlists put those inputs in one workflow. Its published sales process starts with a website access request and a demo, with custom team pricing and onboarding. If independent desks can go live through that process with a standard setup, they could expand to more analysts or portfolios using the same issuer coverage. Paid municipal activation, repeat use, and account expansion remain unverified. (The Idea, Key Facts)
+**Repeatable sales to municipal bond fund teams** is Oasive’s strongest path. Analysts repeatedly assess issuer repayment risk. Oasive brings audited financials, debt terms, local news, and timestamped meeting summaries into borrower pages and portfolio watchlists. If two funds follow the same issuers, Oasive could reuse the underlying research across accounts. The same workflow could serve a fund in another country if it covers U.S. municipal bonds. Supporting issuers in a second country would require sourcing and normalizing local disclosures and meeting records, with the scope of that work still untested. The founder reports coverage of more than 8,600 school districts across 43 states, a measure of issuer coverage. (The Idea, Market & Traction)
 
-The founder reports coverage of more than 8,600 school districts across 43 states shortly after the municipal launch. That is an early signal of domestic data coverage. The company separately reports 15 institutional desks using its original Macro & Rates and Agency MBS products. The memo gives no municipal buyer commitments or realized municipal revenue. In a second-market scenario, the same research workflow could travel if Oasive can map local financial disclosures and debt terms into its existing borrower pages and obtain reliable meeting records. Buyer demand and the cost of that adaptation remain untested. (Market & Traction, Key Facts, Key Risks)
+The memo documents a November 4 municipal launch, website access requests, demos, custom team pricing, and custom onboarding. It provides no municipal buyer record from discovery through first value and payment, no buyer-funded test, and no evidence of recurring use or paid expansion. The company-reported 15 institutional desks used the original Macro & Rates and Agency MBS offerings. At this stage, a small set of documented paid municipal rollouts would be enough to test the first likely bottleneck: getting the next team to recurring value through a process someone other than the founder can run. (The Idea, Market & Traction)
 
 ### Countercase
 
-Oasive could become a useful U.S. municipal research product whose coverage economics limit expansion. Each new desk may require sales, onboarding, and support. Each new issuer market may add source integration, data licensing, transcription, and accuracy work. Meeting coverage depends on public uploads, and an incumbent already combines municipal issuer data with AI-filtered local news. These risks support Watch. The Pass gate would require evidence of a structural ceiling or persistently proportional costs without a credible way to reduce them. The memo supplies no rollout cost or contribution data to establish that. (The Idea, Key Risks, Market & Traction)
+Coverage may scale faster than paid adoption. Analysts may still spend substantial time verifying automated output, and coverage depends on public recordings that can disappear. The memo also documents that licensed-data access can be suspended. If each fund requires custom portfolio setup, extra source coverage, or ongoing support, those costs could absorb the revenue from the next account. The memo gives no rollout effort or marginal cost measurements. The structural downside gate remains open because proportional delivery costs are a plausible risk and have yet to be demonstrated. (The Idea, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 9/25 |
+| Global buyer demand | 12/25 |
 | Repeatable acquisition and onboarding | 9/25 |
 | Retention and customer expansion | 7/20 |
 | Contribution as volume grows | 7/20 |
 | Evidence of fit in the first buyer segment | 4/10 |
 
-**Total Score: 36/100** (Pass)
+**Total Score: 39/100** (Pass)
 
 ### Decisive diligence question
 
-Can an independent institutional desk outside the U.S. pay for and adopt Oasive for recurring credit reviews of issuers in its market? A buyer-funded pilot that comes through the request-and-demo process, shows repeat use at the desk’s normal review cadence, and records the incremental data, onboarding, and support work would move the action to **Reach out** if the core workflow carries over with manageable effort.
+Can two independent municipal bond fund teams go from the same lead channel to paid, recurring issuer monitoring through an onboarding process someone other than the founder can run? Move to **Reach out** if both pay, return through their next normal issuer-review cycle, and activate through the same documented steps with bounded setup and support effort. Move to **Pass** if successive rollouts show that sustained paid use requires bespoke founder work proportional to account revenue and reveal no credible way to reuse that work.

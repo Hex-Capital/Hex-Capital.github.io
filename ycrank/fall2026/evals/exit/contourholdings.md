@@ -5,34 +5,36 @@
 
 ### Company case
 
-A private strategic acquisition by an environmental consulting consolidator is Contour’s strongest path. The memo records True Environmental’s purchase of Sikumiut Environmental Management, evidence that this buyer class pays to own consulting practices. Contour says it plans to acquire practices and embed Cortex in their permitting work, with staff retaining technical judgment. A consolidator could pay for the combined operation if owning the practices and Cortex together delivered durable margin gains across offices beyond what it could achieve by buying practices individually and licensing software. That advantage is an inference. Contour’s observed traction is a public launch, and the memo provides no completed acquisition, production results, or Contour revenue. (*The Idea*, *Market & Traction*, *Key Facts*)
+Strategic acquisition is Contour’s strongest exit path. The memo records True Environmental’s purchase of Sikumiut Environmental Management, showing that an environmental consulting platform will buy an operating practice. Contour says it plans to acquire practices and deploy Cortex internally for emissions calculations, permit drafting, and compliance work. A buyer could pay for the resulting client relationships and for productivity gains it could extend across its own practices. Ownership would become more attractive if those gains depend on integrating Cortex with practice workflows and records that a vendor partnership could only partly replicate. The memo establishes the adjacent purchase and Contour’s launch, while the buyer benefit remains an inference. (Market & Traction; The Idea; Defensibility)
 
-The operating milestone is a funded first practice acquisition with a production deployment that reduces total labor and rework per completed filing while maintaining quality. The founders’ enterprise AI and investment banking experience supports attempting that test. The acquisition cost, integration budget, and runway are unknown. A future sale also depends on transferable rights to Cortex and any reused filings, plus applicable client contract consents. A sponsor buyout has weaker support because the memo supplies no Contour cash-flow evidence to underwrite financing. The memo gives no independently supported route to cash for this holder. (*Founders & Team*, *Key Risks*, *Defensibility*, *Key Facts*)
+A route-specific seed milestone is a funded deployment across two acquired practices that shows lower labor and rework costs per completed filing while maintaining technical review quality. The founders’ enterprise AI and deal experience support the plausibility of that plan. The memo documents a public launch and leaves completed acquisitions, production results, and the capital required for acquisitions and integration unverified. It also leaves Cortex ownership and the transferability of client contracts and filing data unverified. (Founders & Team; Market & Traction; The Idea; Key Risks)
 
-The illustrative seed check is $500,000 at a $10 million post-money valuation, with 5% initial ownership diluted to 3% and no follow-on checks. The 5× objective requires $2.5 million in cash within eight years, or $83.3 million in distributable equity proceeds at 3% ownership. The hurdle is $125 million at 2% and $62.5 million at 4%. For the sensitivities below, assume zero net debt and no other enterprise-to-equity adjustments, so enterprise value equals equity consideration. Assume a pro rata waterfall with no preference diversion or fees. All consideration is cash at close, with zero stock, escrow, earnout, rollover, or compensation. Contour’s actual financing, waterfall, and sale terms are unknown. The memo provides no usable price or buyer economics for Contour, so the sale values are scenario assumptions. (*The Idea*, *Market & Traction*, *Key Facts*)
+**Illustrative proceeds.** Assume a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted by 40% to 3%, and no follow-ons. The 5× gross cash target within eight years is $2.5 million. Under a simple pro rata allocation before investor taxes, that takes $83.3 million of distributable equity at 3%, $125 million at 2%, or $62.5 million at 4%. With illustrative net debt of $5 million, the 3% case requires $88.3 million of enterprise value before any additional fees or senior claims.
 
-| Scenario | Timing and assumed outcome | Holder cash and gross multiple |
-|---|---|---|
-| Modest | Year 5 sale at $50 million enterprise value | $1.5 million, 3× |
-| Strong | Year 7 sale at $100 million enterprise value | $3 million, 6× at 3% ownership. At 2%, $2 million and 4× |
-| Prolonged private | Through year 8, growth plateaus, buyers stay away, public scale remains out of reach, and cash is reinvested | $0 realized, 0×. Shares remain held |
+| Eight-year scenario | Gross cash to the holder |
+|---|---:|
+| $25 million enterprise-value sale, less $5 million of net debt | $600,000 (1.2×) |
+| $100 million enterprise-value sale, less $5 million of net debt | $2.85 million (5.7×) |
+| Growth plateaus, buyers stay away, public scale remains out of reach, and available cash is reinvested | $0 realized, with shares retained |
+
+The sale prices are scenarios. The memo gives no usable basis for a Contour sale price, and any wind-down recovery would depend on residual value after obligations and preferences, which are unquantified. The other routes lack the evidence needed to underwrite holder cash: predictable cash generation and financing for a sponsor buyout, eligible share demand for a tender, operating and reporting scale for an IPO, or distributable cash and a payout commitment for dividends or buybacks. (Market & Traction; The Idea; Key Facts)
 
 ### Countercase
 
-ERM’s partnership with Blumen shows that a consultancy can obtain overlapping permitting capabilities through a vendor. A consolidator could buy practices directly and partner for software, leaving little reason to pay a premium for Cortex. Contour also faces the risk that staff review and emissions-calculation rework absorb the labor savings. The memo leaves both the substitute’s effectiveness and the resulting price ceiling unresolved. That gap warrants Watch, and the modeled $0 private outcome alone does not trigger the Pass override. (*Defensibility*, *Market & Traction*, *Key Risks*)
+A strategic buyer can acquire practices directly and partner for overlapping software. True Environmental’s acquisition and ERM’s partnership with Blumen show both options in use. If Cortex’s savings disappear after staff review and rework, a buyer has little reason to pay a premium for the combined platform. Contour’s permanent-hold pitch adds uncertainty about willingness to sell. The evidence supports Watch because it leaves both a binding sale restriction and materially inadequate proceeds unestablished. (Market & Traction; Defensibility; The Idea; Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 12/30 |
+| Counterparty rationale or source of cash | 13/30 |
 | Plausible investor proceeds | 8/30 |
 | Milestones and capital needed | 7/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 34/100** (Pass)
+**Total Score: 35/100** (Pass)
 
 ### Decisive diligence question
 
-Does the first funded practice integration show a durable margin gain from owning and deploying Cortex that a consolidator could not match through a vendor partnership? Before-and-after results on comparable filings should capture staff review, rework, and filing quality. If those results, together with the cost of replicating them across practices, support buyer economics at a price that could clear the $83.3 million equity hurdle, move to Reach out. (*The Idea*, *Defensibility*, *Key Risks*)
+Can a funded deployment across two acquired practices demonstrate enough repeatable, buyer-capturable profit to support a strategic sale above the holder’s proceeds hurdle? A measured reduction in filing costs after technical review, paired with a buyer-grounded valuation range that clears the hurdle under realistic dilution and debt, would move the action to Reach out.

@@ -5,36 +5,30 @@
 
 ### Company case
 
-A strategic acquisition by a large commercial real estate brokerage is Obia’s strongest private-company exit path. JLL’s acquisition of Raise shows that an integrated brokerage will buy a business combining brokerage and software. Obia’s potential asset is a pre-tour screening workflow that links tenant requirements and verified zoning decisions to completed leases. Ownership could be worth a premium if control of that workflow and the resulting data improves deal conversion or broker productivity more than licensing the software would. That advantage remains an inference. (The Idea, Defensibility, Market & Traction)
+Strategic acquisition is Obia’s strongest path. A commercial real estate brokerage could buy Obia’s pre-tour zoning and site-screening workflow to reduce broker hours spent on unsuitable properties and close more industrial leases. JLL’s acquisition of Raise establishes that a brokerage has bought an adjacent software-enabled business. Obia’s case for ownership over licensing would depend on a transferable workflow and a record of verified zoning decisions and lease outcomes that a buyer could use across its brokerage. The memo gives no measured buyer benefit or evidence of buyer interest. (*The Idea*, *Defensibility*, *Market & Traction*)
 
-Obia reports screening sites for an unnamed logistics operator, and its founder reports $1.05 million in closed lease value over 22 days. The figure measures lease value. Collected commissions, margins, and time saved are undisclosed. A production pilot that measures zoning accuracy, broker hours, and collected fees across completed searches would test whether the workflow creates repeatable value. YC’s standard $500,000 commitment provides a funding signal, while Obia’s runway and the cost of the test remain unknown. The October terms name Henkel as a sole proprietor while the website footer names Obia Inc., leaving open which entity owns the assets and contracts a buyer would need. (Market & Traction, Key Facts, Key Risks)
+Cho reports $1.05 million in closed lease value over 22 days. That measures the underlying leases, and Obia’s fees and margins are undisclosed. Obia also reports screening sites for a logistics operator. A credible seed milestone would be a repeat cohort of industrial searches showing fewer broker hours per closed lease, reliable screening, and positive contribution after delivery costs. YC participation supports a path to funding an initial test. The memo leaves the test budget, burn, and runway open. (*Market & Traction*, *Key Facts*)
 
-**Proceeds bridge.** Using the illustrative seed terms, one $500,000 check at a $10 million post-money valuation buys 5%, which falls to 3% after 40% relative dilution. With no follow-on checks, the eight-year 5× objective requires $2.5 million in holder cash and about $83.3 million in distributable equity proceeds. The hurdle is $125 million at 2% ownership and $62.5 million at 4%.
+Under the illustrative terms, a $500,000 check at a $10 million post-money valuation starts at 5% ownership and falls to 3% after 40% relative dilution, with no follow-ons. The eight-year 5× target is $2.5 million gross before investor taxes. It requires $83.3 million of distributable equity at 3%, compared with $125 million at 2% and $62.5 million at 4%. With illustrative net debt of $5 million and simple pro rata allocation, the 3% case requires $88.3 million of enterprise value. A $25 million sale yields $600,000 (1.2×), and a $100 million sale yields $2.85 million (5.7×). These are scenarios. The memo supplies no usable acquisition price or holder terms.
 
-The following scenarios assume zero net debt and no other enterprise-to-equity adjustments, so enterprise value equals equity consideration. They use a simple pro rata waterfall with no senior claims. All consideration is cash at closing, with zero stock, escrow, earnout, rollover, or compensation.
-
-- **Modest sale, year 5.** A $40 million sale yields $1.2 million to the holder, or 2.4×.
-- **Strong sale, year 7.** A $100 million sale yields $3 million, or 6×. At 2% ownership the same sale yields $2 million, or 4×. At 4% it yields $4 million, or 8×.
-- **Prolonged private, through year 8.** Growth plateaus, buyers stay away, public scale stays out of reach, and the company reinvests its cash. The holder realizes $0, or 0×, and retains the shares.
-
-The sale prices are scenario assumptions. The memo supplies neither a price for Raise nor Obia-specific buyer economics to support a valuation, and it provides no evidence of a fallback that could pay this holder. (Market & Traction, Key Facts)
+If growth plateaus, buyers stay away, public scale remains out of reach, and available cash is reinvested, the holder realizes $0 over eight years and retains the shares. The memo supplies no cash-generation evidence for a sponsor buyout or funded payout, no eligible secondary demand, and no evidence of listing readiness. (*Market & Traction*, *Key Facts*)
 
 ### Countercase
 
-An incumbent could build or license enough screening functionality to capture the benefit without buying Obia. CBRE already uses AI for lease-data extraction and research, and TenantBase uses AI to match tenants with brokers. Obia relies on third-party property data that its terms say may be incomplete or stale, and the memo describes no measured advantage from its own dataset. Those facts make the substitute credible, but they do not establish that it can replicate Obia’s zoning and operational screening or cap the acquisition price below the hurdle. The evidence supports Watch and does not trigger a Pass override. (The Idea, Defensibility, Key Risks)
+An incumbent could pair existing AI tools and local brokers with third-party property data, or license a screening tool. CBRE already uses AI for lease-data extraction, and TenantBase uses AI for broker matching. Obia’s terms identify a sole proprietorship while its footer names Obia Inc., leaving ownership and transfer of the workflow and contracts uncertain. These risks weaken the case for buying Obia. The memo establishes neither a structural block nor a supported sale price that would leave the holder materially short, so the Pass gate does not apply. (*Defensibility*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 13/30 |
+| Counterparty rationale or source of cash | 16/30 |
 | Plausible investor proceeds | 8/30 |
 | Milestones and capital needed | 10/20 |
 | Transaction feasibility | 4/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 37/100** (Pass)
+**Total Score: 40/100** (Pass)
 
 ### Decisive diligence question
 
-Can a production pilot with an integrated brokerage show enough incremental value from owning Obia’s workflow and data to support an acquisition above the roughly $83.3 million distributable-equity hurdle? A buyer-validated pilot that measures realized savings and fee gains against a build or license option would move the action to Reach out if those economics support the hurdle and the assets that generate them can transfer from the company whose shares the investor holds.
+What price could a strategic brokerage justify paying for Obia based on verified operating gains across a repeat cohort of industrial leases? A buyer-grounded valuation range tied to measured broker savings and incremental net fees would move the action to Reach out if it can clear the $2.5 million holder target within eight years on supportable ownership and transfer terms.

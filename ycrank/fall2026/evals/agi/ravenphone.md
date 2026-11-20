@@ -5,28 +5,28 @@
 
 ### Company case
 
-**Path B — New economies.** Raven’s prototype demonstrated voice-driven flight search and calendar changes. Raven describes a handset that handles tasks across apps and asks for approval where needed. The seed-stage hypothesis is that people who handle short scheduling and follow-up tasks themselves could afford to delegate them routinely. That would open a new use if Raven cuts human time per successfully completed task at equivalent quality, including approvals, retries, and corrections. The demo establishes technical feasibility for the tasks shown. Delivery labor and repeat use remain unmeasured. (The Idea, Market & Traction, Key Risks)
+**Path B — New Economies.** Raven could make recurring mobile workflows economical for people who currently skip or defer them because doing them by hand takes too much time. The prototype demo showed voice-driven flight search and calendar changes. That demonstrates basic delegation. The market-opening hypothesis is that users would complete those workflows more often once delegation cuts the time per successful outcome. The memo gives no field measurements of that time saving or evidence that users previously went without the outcome. (*The Idea*, *Market & Traction*)
 
-Raven reports more than 1,000 inbound contacts after the prototype debut. Its $199 pre-order is refundable before shipment and includes the first three months after activation. Order counts and paid renewals are undisclosed. Founder Isa Usmanov built the prototype and previously launched the email and calendar assistant Liam. Raven reports sending test handsets to early adopters, while final hardware specifications and commercial shipment timing remain open. (The Idea, Market & Traction, Founders & Team, Key Risks)
+Assume frontier-quality models become cheap and widely available. Raven would still need to save users time through its handset interface, cross-app execution and saved workflows. That advantage is inferred. The relevant comparison is the cost per successful task on Raven versus manual work and an existing phone with equivalent models, counting the subscription and the time users spend approving actions, retrying tasks and fixing errors. Raven’s delivery costs also include the handset, cellular service, inference, support, privacy compliance and returns. The posted offer is a refundable $199 preorder covering the first three months after activation, followed by a projected $99–$199 monthly fee. The membership gives Raven a unit it can sell repeatedly, but there are no realized costs or paid renewals to establish contribution per member. (*The Idea*, *Defensibility*, *Key Risks*)
 
-At the projected $99–$199 monthly price, contribution per retained member would depend on cellular service, inference, support and exception handling, and the cost of the handset, returns, and replacements spread over active months. The memo gives no per-member costs or retention with which to estimate that contribution. (The Idea, Key Risks)
+Raven reports more than 1,000 inbound contacts and says it delivered its first test handsets. The contacts show early interest, while the memo gives no preorder count or evidence of paid repeat use. Usmanov’s earlier email and calendar assistant and the working mobile prototype support seed-stage execution. Final hardware specifications and a commercial ship date remain open. (*Market & Traction*, *Founders & Team*, *Key Risks*)
 
 ### Countercase
 
-Buyers may get the workflows they value on a phone they already own. Galaxy S26 supports overlapping multi-step delegation, and Phone Harness gives agents control of existing handsets. Raven’s saved workflows could matter if they make recurring work easier enough to sustain a paid preference under model parity. The memo shows overlap on specific tasks and leaves end-to-end substitution untested. Path B’s outreach gate remains unmet. With abundant capital, rivals could also fund competing devices, and the memo identifies no scarce supply or capability Raven controls that would independently support Path A. (The Idea, Defensibility, Market & Traction, Key Risks)
+Raven may save time on work customers already do while asking them to switch handsets and pay a recurring fee. The Galaxy S26 already supports delegation for some multi-step tasks, and Phone Harness lets agents operate existing phones. Those alternatives give buyers credible ways to get parts of the outcome with hardware they already own. The memo gives no head-to-head results or observed switching, so the model-parity gate remains unresolved. It also identifies no scarce input Raven controls that would support Path A. (*The Idea*, *Defensibility*, *Market & Traction*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 10/25 |
-| Durable value capture | 5/25 |
+| Path-specific thesis fit | 9/25 |
+| Durable value capture | 7/25 |
 | Customer demand | 6/20 |
 | Team and execution | 9/15 |
-| Scale economics | 4/15 |
+| Scale economics | 5/15 |
 
-**Total Score: 34/100** (Pass)
+**Total Score: 36/100** (Pass)
 
 ### Decisive diligence question
 
-Can a representative seed pilot show that people who previously handled these tasks themselves repeatedly pay Raven’s post-intro price when a phone they already own has access to comparably capable models? Compare both devices with the users’ manual baseline on recurring scheduling and follow-up tasks. Measure human minutes per successful task at equivalent quality, including approvals and recovery, and track renewals after the introductory period. Material labor savings and paid preference under model parity would justify rescoring for Reach out, subject to the score, confidence, and mandate gates. If exceptions erase the savings or buyers switch to an equivalent workflow on their existing phones, move to Pass.
+Will independent users who previously skipped a recurring mobile workflow complete it regularly on Raven and renew at a price that covers delivery after trying an existing phone with equivalent models? A paid field trial that tracks successful outcomes and all user review and correction time would answer it. Move to Reach out if the trial shows that Raven’s labor savings unlock repeat use and that buyers renew after the introductory term despite the alternative. Pass if the trial shows that labor savings fail to unlock repeat use or that the alternative delivers the same outcome with comparable effort and buyers decline to renew.

@@ -5,23 +5,21 @@
 
 ### Company case
 
-A strategic acquisition by a legal or claims workflow vendor is Elithia’s strongest private exit path. The memo documents a source-linked chronology that physician experts can edit and sign off on, with organization-specific report templates. Elithia reports that 70+ physician experts use it on live cases and that two medico-legal agencies are under contract. The founder reports that one expert, his mother, cut report preparation from nearly a week to about two days and surfaced a missed document. That result suggests a measurable benefit worth testing across unrelated customers. (The Idea, Defensibility, Market & Traction)
+Strategic acquisition is Elithia’s strongest path. A legal or claims software platform could buy its editable, source-linked chronology workflow to add physician review and sign-off. Ownership could make sense if integrating that workflow and gaining access to medico-legal agencies generated more incremental profit than building or licensing comparable features. The memo describes the workflow and identifies platforms that already sell medical review. The acquisition rationale is an inference, with no buyer-side evidence of incremental profit or willingness to pay. (The Idea, Defensibility, Market & Traction)
 
-A buyer could justify ownership if exclusive control of the expert workflow and transferable agency relationships helped it win or retain accounts that it could not secure by building or licensing a chronology tool. A paid deployment that measures review time and material omissions across live cases would test the first link. The reported agency contracts give Elithia a place to run that test. Funding beyond a tracked $125,000 seed entry, burn, and runway remain unverified. The memo also leaves open which entity owns the IP and whether customer contracts can transfer. No independent path to holder cash is evidenced. (Market & Traction, Key Risks, Key Facts)
+Elithia reports 70+ physician experts using the product on live cases and two agencies under contract. That gives it a plausible path to a measurable milestone at seed. Both agencies would need to show repeat paid use, with reviewer hours saved per case and material omissions tracked against their existing workflow. The founder reports that one expert’s turnaround fell from nearly a week to about two days. That example comes from his mother’s practice, and the memo provides no independent replication, paid contract economics, or confirmed runway to reach the milestone. (Market & Traction, Key Facts)
 
-**Illustrative proceeds.** The mandate’s $500,000 check at a $10 million post-money valuation buys 5%, diluted to 3% with no follow-on checks. The 5× objective requires $2.5 million in cash within eight years, or $83.3 million in distributable equity at 3%. The hurdle is $125 million at 2% and $62.5 million at 4%. The memo provides no acquisition pricing evidence. The sale scenarios below assume zero net debt, no other price adjustments or senior claims, and a pro rata distribution of all consideration in cash at closing. Stock, escrow, earnouts, rollover, and compensation are each assumed to be zero. (Market & Traction, Key Facts)
+**Proceeds bridge.** Assume a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted by 40% relative to 3%, and no follow-ons. The $2.5 million gross cash target within eight years requires $83.3 million in distributable equity at 3% ownership, $125 million at 2%, or $62.5 million at 4%. With $5 million of illustrative net debt, the 3% case requires about $88.3 million in enterprise value. The memo supplies no company-specific debt, preference terms, or evidence supporting a realizable sale price. (Market & Traction, Key Facts)
 
-| Scenario | Timing and assumed outcome | Holder cash at 3% | Gross multiple |
-|---|---|---:|---:|
-| Modest sale | Year 5. $30 million enterprise value and distributable equity. | $900,000 | 1.8× |
-| Strong sale | Year 7. $100 million enterprise value and distributable equity. | $3 million | 6.0× |
-| Prolonged private | Through year 8. Growth plateaus, buyers stay away, public scale remains out of reach, and cash is reinvested. Shares remain held. | $0 | 0.0× |
+- **Modest sale by year eight.** A $25 million enterprise value leaves $20 million after illustrative net debt, yielding $600,000 gross to the holder, or 1.2×.
+- **Strong sale by year eight.** A $100 million enterprise value leaves $95 million after illustrative net debt, yielding $2.85 million gross, or 5.7×.
+- **Prolonged private operation.** If agency growth plateaus, potential buyers stick with existing tools, public-market scale remains out of reach, and Elithia reinvests available cash, the holder realizes $0 over eight years and keeps the shares.
 
-At 2% ownership, even the modeled strong sale returns $2 million, or 4.0×. The acquisition economics and applicable holder terms therefore both matter to the decision.
+The memo supplies no predictable cash generation for a sponsor buyout, eligible demand for a secondary, operating scale for an IPO, or surplus cash for dividends or buybacks. (Market & Traction, Key Facts)
 
 ### Countercase
 
-Medrecords AI already serves physician reviewers, Wisedocs offers source-linked chronologies and serves carriers and administrators, and EvenUp bundles medical review into its plaintiff workflow. A buyer may capture the same benefit through a license or its existing product. The memo identifies no structural barrier to substitution or measured advantage from physician corrections, and Elithia says it excludes customer records from model training. That evidence makes ownership economics the decisive gap. It leaves open whether substitutes cap an actual bid below the hurdle, so the structural Pass override is unproven. (The Idea, Defensibility, Market & Traction, Key Risks)
+EvenUp already bundles medical review, and Medrecords AI and Wisedocs already offer source-linked chronologies. Medrecords AI also serves physician reviewers. A platform could extend its own workflow or license a substitute if Elithia’s expert sign-off produces little incremental value. The memo also leaves open which entity controls the software and agency contracts, and what permissions would apply to customer records in a sale. Those gaps could affect closing. The evidence supports Watch because it establishes neither a structural block nor a credible sale price that leaves the holder materially short. (The Idea, Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
@@ -37,4 +35,4 @@ Medrecords AI already serves physician reviewers, Wisedocs offers source-linked 
 
 ### Decisive diligence question
 
-Can a paid production deployment give a potential acquirer a reason to buy Elithia at a price that clears the holder’s proceeds hurdle? Independently measured review-time savings at comparable material-event accuracy, paired with a buyer’s quantified case for ownership over building or licensing, would move Watch to Reach out if the supported price clears the hurdle under plausible holder terms.
+After both contracted agencies demonstrate repeat paid use, measurable reviewer time savings, and acceptable material-omission rates, can a plausible platform buyer justify an acquisition price that clears the holder’s cash hurdle? A buyer-side acquisition analysis that quantifies the advantage of ownership over building or licensing and supports roughly $88.3 million in enterprise value under the illustrative terms would move the action to Reach out.

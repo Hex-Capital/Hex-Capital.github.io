@@ -5,34 +5,36 @@
 
 ### Company case
 
-**Strategic acquisition** is the strongest private-company path. An industrial power provider or microgrid integrator could buy Micora to control the field-autonomy software and vehicle integration behind its redeployable solar-and-storage system. The memo documents a purchase and lease configurator and reports that Micora and LAKI Robotics are co-designing a vehicle with specialized forks. It also records strategic investments in adjacent prefabricated solar companies. Those investments establish interest in the category and leave acquisition pricing open. The ownership case is an inference: control could be worth paying for if Micora can repeatedly cut installation and relocation costs across a buyer’s sites and the buyer needs control of the system to capture those gains. (The Idea, Defensibility, Market & Traction)
+Strategic acquisition is Micora’s strongest path. An industrial power provider such as AES could buy Micora’s field-autonomy software and deployment know-how to bring power to remote sites faster and with less installation labor. AES co-led a financing for prefabricated solar supplier 5B, and EDF Renewables invested in ECOSUN. Those investments show strategic interest in prefabricated solar. The case for buying Micora depends on whether owning its software and deployment process would let a buyer capture repeatable savings across multiple sites that it could not achieve as cheaply through licensing or a partnership. The memo supplies no measured savings or acquisition price evidence. (*The Idea*, *Defensibility*, *Market & Traction*)
 
-Micora reports projects underway at Pacific island and manufacturing sites and says most setups reach available power in under three weeks from confirmed order, subject to site review. A repeatable field result across different sites is a plausible seed milestone given the collaboration and the team’s relevant experience. Independent performance results, the capital and runway to complete those deployments, and the rights to transfer the co-developed system remain unverified. The central ownership and pricing assumptions therefore have low evidence confidence. The memo supplies no independent fallback with a supported path to cash for this holder. (Market & Traction, Founders & Team, Key Risks, Defensibility, Key Facts)
+Micora reports deployments underway at Pacific island and manufacturing sites and says most setups reach available power within three weeks of a confirmed order, subject to site review. A credible seed-stage milestone would be to commission both types of site and document time to power, installation cost, and reliability against the incumbent option, then demonstrate a successful redeployment. The reported projects make that test plausible, while the budget and funding to complete it remain unknown. Micora’s contribution of its field-autonomy software to the LAKI vehicle collaboration gives a buyer an identifiable asset to acquire. The rights needed to transfer the jointly developed vehicle design and operate the integrated system remain unverified. (*Market & Traction*, *Key Risks*, *Defensibility*)
 
-**Proceeds bridge.** With actual check terms undisclosed, use the illustrative $500,000 check at a $10 million post-money valuation, with 5% initial ownership diluted to 3% and no follow-on checks. The eight-year 5× objective requires $2.5 million in holder cash. Under an assumed pro rata waterfall with zero net debt, other price adjustments, or senior claims, the required enterprise value and distributable equity value are both $83.3 million at 3% ownership, $125 million at 2%, and $62.5 million at 4%. The sale scenarios assume all consideration is cash paid at closing. Stock, escrow, earnouts, rollover, and compensation each contribute $0. The prices and timing are illustrative assumptions. The memo supplies no usable basis for an acquisition price. (Defensibility, Market & Traction, Key Facts)
+**Proceeds bridge.** With actual investor terms unavailable, assume a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted by 40% to 3%, and no follow-ons. The eight-year, 5× gross cash target is $2.5 million. On a simple pro rata basis before investor taxes, that requires $83.3 million of distributable equity at 3% ownership, $125 million at 2%, or $62.5 million at 4%. At 3% ownership and $5 million of illustrative net debt, the hurdle is $88.3 million of enterprise value. Micora’s actual debt, fees, and senior claims are unknown.
 
-| Scenario | Timing and assumed outcome | Holder cash at 3% and gross multiple |
-|---|---|---|
-| Modest sale | Year 5, $50 million enterprise value and distributable cash equity | $1.5 million, 3× |
-| Strong sale | Year 7, $100 million enterprise value and distributable cash equity | $3 million, 6×. At 2% ownership, $2 million, 4×. |
-| Prolonged private | Through year 8, growth plateaus, buyers stay away, public scale remains out of reach, and available cash is reinvested | $0, 0× realized. Shares remain held. |
+| Eight-year scenario | Gross holder cash |
+|---|---:|
+| Modest sale at $25 million enterprise value, less $5 million of assumed net debt | $600,000 (1.2×) |
+| Strong sale at $100 million enterprise value, less $5 million of assumed net debt | $2.85 million (5.7×) |
+| Growth plateaus, buyers stay away, public scale remains out of reach, and Micora reinvests all available cash with no secondary or payout | $0 realized, with shares still held |
+
+The sale values are sensitivities. The adjacent financings supply no realizable price range for Micora. A sponsor buyout lacks evidence of predictable cash generation and financing capacity. A secondary or tender lacks evidence of buyer demand and holder eligibility. An IPO lacks evidence of operating scale and readiness, and a dividend or buyback lacks evidence of distributable cash. Any wind-down recovery would depend on assets left after obligations and preferences, which the memo does not quantify. (*Market & Traction*, *Key Facts*)
 
 ### Countercase
 
-An integrator could buy or lease Micora’s system or assemble an alternative using standard batteries, prefabricated arrays, and competing installation automation. The memo identifies alternatives for those components and no demonstrated structural barrier. If an ordinary contract or an alternative build delivers comparable site economics, the ownership premium could fall below the holder’s hurdle. The memo does not establish equivalent performance or a binding price ceiling, so the structural Pass override does not apply. Watch is appropriate pending evidence that owning the system creates enough incremental value. (The Idea, Defensibility, Market & Traction, Key Risks)
+AES-backed Maximo already demonstrates automated solar installation, while 5B and ECOSUN offer prefabricated systems and Micora uses readily sourced batteries. A buyer could assemble or partner for much of the capability. Micora’s case for ownership rests on field integration producing a measurable advantage across varied terrain and weather, where independent validation is still missing. The memo establishes neither a structural block nor a supported sale price that leaves the holder materially short, so the Pass gate does not apply. (*The Idea*, *Defensibility*, *Market & Traction*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 14/30 |
+| Counterparty rationale or source of cash | 15/30 |
 | Plausible investor proceeds | 8/30 |
 | Milestones and capital needed | 10/20 |
-| Transaction feasibility | 5/10 |
+| Transaction feasibility | 6/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 39/100** (Pass)
+**Total Score: 41/100** (Pass)
 
 ### Decisive diligence question
 
-Can two paid deployments at materially different sites demonstrate enough value from **owning** Micora’s system to support an acquisition at the holder’s hurdle? A buyer-reviewed comparison of time to power, installed cost, uptime, and redeployment cost against the best contract or build alternative would answer it. Move to Reach out if the buyer’s plausible rollout volume makes the verified incremental economics of ownership sufficient to support the required price. Move to Pass if equivalent performance under an ordinary contract puts that price out of reach.
+What acquisition price could a strategic buyer justify from independently verified deployment savings at Micora’s Pacific island and manufacturing sites? Move to Reach out if measured installation costs, time to power, and reliability support buyer economics near or above the illustrative $88.3 million enterprise-value hurdle within eight years, after accounting for what the buyer could achieve by building or partnering. Stay at Watch while that price case remains unsupported.

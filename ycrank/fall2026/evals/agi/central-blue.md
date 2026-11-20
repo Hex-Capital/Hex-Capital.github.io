@@ -5,28 +5,28 @@
 
 ### Company case
 
-**Path A — Scarce complements.** Central Blue’s strongest case is selling usable power during eclipse to satellite operators whose onboard batteries limit imaging or electric propulsion. The company proposes to supply that power through HELION satellites and dedicated receivers, with CORE handling faults and delivery handoffs. If cheaper intelligence lowers the labor required to coordinate deliveries, a qualified network could become cheaper to operate. Even with the same models and ample capital, competitors would still need to qualify and deploy hardware that delivers useful power to the customer’s spacecraft. Central Blue has yet to demonstrate that capability. Path B lacks evidence of a newly viable transaction enabled by lower delivery labor. (The Idea, Defensibility, Key Risks)
+**Path A — Scarce complements.** Onboard solar arrays and batteries take up spacecraft mass, and stored power limits imaging and electric propulsion during eclipse. If cheaper AI leads satellite operators to run more power-intensive onboard workloads through eclipse, usable power at the spacecraft bus could become more valuable. That demand link is a scenario assumption. The memo identifies the existing spacecraft power constraint but gives no example of AI workloads tightening it. (The Idea)
 
-The planned Wave Motion ground demonstration gives a limited signal of partner engagement. Buyer spending, spacecraft integration commitments, and power purchases remain unestablished. Wu’s spacecraft navigation work and Choi’s aerospace testing experience support the seed-stage execution case. The prototype’s near-completion is a company claim, and the memo gives conflicting accounts of Satlyt flight-test status. The U.S.-based, early-stage company plausibly fits the mandate. Confidence is low because the decisive evidence still depends on a representative delivery test. (Market & Traction, Founders & Team, Key Risks, Key Facts)
+Central Blue proposes to sell power delivered by HELION satellites to dedicated receivers. Its stated target of 10 kW for four to five hours implies 40–50 kWh at the customer bus per full discharge if achieved. The expansion unit is a power delivery to a compatible spacecraft. Its economics depend on usable link time, repeat utilization, and whether customer revenue covers receiver integration and the launch and operation of the power nodes. The memo provides a delivery target and no measured inputs for that cost bridge. (The Idea, Key Risks)
 
-**Scale scenario.** If HELION meets its claimed target of 10 kW at the customer bus for four to five hours, one full discharge would deliver 40–50 kWh. Expansion depends on how much of each additional node’s output can be sold at the times and locations buyers need it, relative to launch, operating, and receiver integration costs. The memo supplies no utilization, pricing, or cost data for that calculation. (The Idea, Key Risks, Key Facts)
+The company reports a nearly complete prototype and a planned ground propulsion demonstration with Wave Motion. The named demonstration is an early engagement signal, with buyer budget, paid use, and repeat demand still unknown. The founders bring complementary experience in spacecraft navigation and aerospace testing. The planned demo gives the team a concrete next step, while CORE flight validation remains unclear. (Market & Traction, Founders & Team, Key Risks)
 
 ### Countercase
 
-Star Catcher’s orbital acquisition and tracking demonstration supports a competing design that uses standard solar panels. Its announced power purchase agreements suggest it is already pursuing overlapping buyers, although the memo gives no contract terms. If that design delivers equivalent usable power with less integration, Central Blue’s dedicated receiver becomes an adoption cost and its proposed CORE integration offers no demonstrated protection for pricing. The evidence leaves equivalent power delivery unresolved, so the Path A override has yet to trigger. The lack of validated relief and credible control keeps the case below the outreach gate. (Defensibility, Market & Traction, Key Risks)
+Star Catcher’s reported orbital acquisition and tracking demonstration establishes progress on a shared prerequisite, and its receiver design uses standard solar panels. Its announced power purchase agreements suggest competition for overlapping missions. Central Blue’s dedicated receiver adds integration work, and the memo offers no evidence that its receiver and CORE integration confers a qualified cost or reliability advantage. The rival demonstration leaves equivalent power delivery at the customer bus unresolved, so it challenges durable capture without closing Path A. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
 | Path-specific thesis fit | 9/25 |
-| Durable value capture | 5/25 |
+| Durable value capture | 7/25 |
 | Customer demand | 6/20 |
 | Team and execution | 8/15 |
-| Scale economics | 4/15 |
+| Scale economics | 5/15 |
 
-**Total Score: 32/100** (Pass)
+**Total Score: 35/100** (Pass)
 
 ### Decisive diligence question
 
-Will a target satellite operator commit spacecraft integration resources after independently verifying that HELION meets an eclipse power requirement its best available alternative cannot meet? A representative orbital test measuring usable power and delivery duration at the customer bus, followed by that commitment, could move the action to Reach out if the updated score and confidence clear the outreach gates. Verified equivalent delivery through existing panels at lower integration cost would move the action to Pass. (The Idea, Defensibility, Key Risks)
+Will an independent satellite operator commit qualification resources after a representative end-to-end test shows that HELION can meet its AI-driven eclipse power requirement at a viable delivered cost where onboard power and credible beaming alternatives fall short? A successful test and buyer commitment would move the action to Reach out. A credible substitute that meets the same requirement on viable terms would move it to Pass.

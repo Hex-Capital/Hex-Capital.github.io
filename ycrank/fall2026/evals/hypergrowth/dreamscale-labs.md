@@ -5,28 +5,26 @@
 
 ### Company case
 
-**Path B. Repeatable sales or partner distribution with account expansion.** The first buyer is a robotics team that needs to run compute-heavy policy evaluations repeatedly and would otherwise maintain its own model servers or work within onboard GPU limits. The HUD collaboration produced a published evaluation integration and cookbook. Dreamscale also reports a joint excavator-model evaluation with Actor Labs. These show concrete engagement with the evaluation workflow. Whether either team paid or returned for another evaluation cycle remains unknown. (The Idea, Market & Traction)
+**Usage-based expansion** is the strongest path. Robotics teams can start by evaluating a compute-intensive model through Dreamscale’s SDK. If hosted inference becomes part of a recurring workflow, teams could add robots or connect them for longer, generating revenue at the posted rate of $5 per connected robot-hour. The same evaluation workflow could serve teams in other markets wherever connectivity, GPU placement, and model rights permit. The memo gives no buyer geography or paid cross-market rollout. (The Idea, Key Risks)
 
-The growth scenario assumes Dreamscale can use the SDK and a reusable integration to bring similar teams live, then grow paid robot-hours as those teams run more evaluations or deploy more robots. The SDK provides a defined setup route, while Dreamscale reports customizing stacks and the memo gives no independent example of standard onboarding through to payment. The same buyer problem plausibly recurs abroad. Regional GPU placement gives Dreamscale a way to adapt the same service, subject to available capacity and acceptable tail latency. Buyer demand and willingness to pay in a second geography remain untested. (The Idea, Key Risks)
-
-At the listed $5 per connected robot-hour, contribution would come from paid hours after credits, less GPU capacity, network costs, and workload support. Each new customer can add sales, integration, and tuning labor. Each new region can add underused GPU capacity before demand builds. Dreamscale’s report that it matched or improved latency with half the GPUs on one model suggests a cost lever. The memo gives no utilization, delivery cost, or realized contribution figures. (The Idea, Defensibility, Key Risks)
+The memo documents a joint evaluation integration and cookbook with HUD and an excavator model evaluation with Actor Labs. Those collaborations show that external teams have put time into meaningful tests. Dreamscale reports 128 concurrent simulated rollouts in the HUD test and half the GPU count in a company-run comparison for one model. The GPU result suggests a potential delivery-cost advantage, while cost per billed hour remains unknown. At this stage, the first unresolved link is whether an evaluation converts into recurring paid robot-hours at the buyer’s normal cadence. (Market & Traction, Defensibility)
 
 ### Countercase
 
-The evaluation work may stay project-based, while production deployments may require per-site tuning, regional GPU capacity, and operator safety validation. The reported packet-recovery improvement came from one home Wi-Fi test with synthetic frames and simulated compute. Teams that require offline operation have an on-device alternative. If each rollout needs fresh engineering and lightly utilized regional capacity, delivery effort could grow as fast as revenue. The memo establishes a credible risk, with too little production evidence to trigger the Pass gate. (The Idea, Market & Traction, Key Risks)
+Dreamscale could become a useful evaluation service with intermittent demand. Physical deployments add tail-latency and operator safety requirements, and buyers that need offline operation can choose an on-device runtime. Dreamscale reports customizing stacks, so each rollout could also add integration and support work that absorbs the benefit of lower GPU use. Its reported tail-latency improvement came from a synthetic test on one home Wi-Fi link. The structural downside gate does not apply because the memo leaves a testable path through network-tolerant workloads and gives no evidence that delivery costs must rise in proportion to usage. (The Idea, Key Risks, Defensibility)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 10/25 |
-| Repeatable acquisition and onboarding | 9/25 |
+| Global buyer demand | 16/25 |
+| Repeatable acquisition and onboarding | 10/25 |
 | Retention and customer expansion | 7/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 6/10 |
+| Contribution as volume grows | 8/20 |
+| Evidence of fit in the first buyer segment | 5/10 |
 
-**Total Score: 39/100** (Pass)
+**Total Score: 46/100** (Neutral)
 
 ### Decisive diligence question
 
-Can an independent robotics team in a second geography use the standard SDK workflow, pay for repeat evaluation cycles at its normal cadence, and generate positive contribution after acquisition, setup, regional GPU capacity, networking, and support? A rollout with usage, billing, and cost records that demonstrates this would move the action to **Reach out**. Evidence that the rollout requires proportional custom engineering or dedicated capacity with no supported path to improvement would move it to **Pass**.
+Can an independent robotics team use the documented SDK to turn an initial evaluation into a recurring paid inference workload with limited custom setup? Billing and workload records showing paid robot-hours across the team’s normal operating cadence, together with onboarding and delivery effort for that workload, would move the action to **Reach out** if they show recurring paid use and a credible contribution at the posted price. A one-off evaluation would keep the action at **Watch**.

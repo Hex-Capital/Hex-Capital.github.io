@@ -5,26 +5,26 @@
 
 ### Company case
 
-**Path A, product-led adoption,** is the strongest candidate. The initial buyer is a consumer who wants to track health changes between conventional blood tests. The memo reports a Helios Test waitlist with undisclosed sign-ups. Helios plans to sell kits online and deliver results through web and mobile apps. It says the test is designed to measure more than 1,000 biomarkers from a drop of blood and use repeat measurements to track changes over time. The memo documents no paid Helios Test orders or customer retesting. Helios’s reported use of repeat draws for model training leaves customer retention unknown. (The Idea, Market & Traction, Defensibility)
+Product-led adoption is the strongest path. Helios targets consumers who want to spot health changes between conventional blood tests. The memo records a reported waitlist, and Helios describes a planned flow from online kit ordering to results on web or mobile. If consumers can collect a usable sample at home and get a result that informs a decision, that same workflow could support paid retesting and referrals. The buyer and recurring job plausibly travel across markets. Serving a second market would depend on maintaining sample quality through shipping and processing and meeting local requirements for handling sensitive health data. (*The Idea*, *Market & Traction*, *Key Risks*)
 
-**Scenario assumption.** If consumers find the first report useful enough to pay for another test, online ordering and at-home collection could serve the next thousand buyers through the same workflow. Repeat orders could spread acquisition cost over more purchases. Each order still adds kit, shipping, lab processing, and support costs, plus any recollections. Contribution improves only if repeat purchases generate enough margin after those costs to cover acquisition. The broader global home-testing market makes a second geography plausible. Helios would need to show that the same kit yields usable samples on a different shipping route and that it can serve that market’s privacy and support requirements without materially increasing cost. (The Idea, Market & Traction, Key Risks)
+The first unproven link is whether an independent buyer will pay and reach first value through that flow. Helios reports using repeat draws to train its model, but the memo does not establish paid customer retesting or its cadence. It also gives no test price, per-kit fulfillment or support costs, or concrete buyer commitment beyond the reported waitlist. Acquisition, retention, contribution, and first-segment fit therefore use their absent-evidence defaults. (*The Idea*, *Defensibility*, *Market & Traction*)
 
 ### Countercase
 
-The strongest downside is that at-home collection may fail to yield enough reliable, useful results at a cost consumers will pay repeatedly. The memo cites self-collection research in which delayed processing preserved agreement with venous draws for only some analytes. Helios’s own assay validation is undisclosed. If shipping delays lead to frequent recollections or require local lab capacity, delivery costs could rise with each order or geography while the value of retesting falls. The evidence leaves that structural ceiling unresolved, so the Pass gate is untriggered. (Key Risks, The Idea)
+Consumers may try a broad panel once and see little reason to pay again if subsequent results fail to guide a decision. The memo describes self-collection research in which delayed processing preserved agreement with venous draws for only some analytes, and Helios has yet to disclose its assay validation. If unusable samples require recollection or results routinely require hands-on explanation, servicing each kit could erode contribution even with online ordering. These risks are testable, and the memo leaves the structural downside gate untriggered. (*The Idea*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 9/25 |
+| Global buyer demand | 12/25 |
 | Repeatable acquisition and onboarding | 9/25 |
 | Retention and customer expansion | 7/20 |
 | Contribution as volume grows | 7/20 |
 | Evidence of fit in the first buyer segment | 4/10 |
 
-**Total Score: 36/100** (Pass)
+**Total Score: 39/100** (Pass)
 
 ### Decisive diligence question
 
-Can an early paid cohort in a second geography complete a first test and choose to buy a repeat test through the same online workflow? Order records, sample acceptance and recollection data, paid repeat orders at the intended price, and per-order costs comparable to the initial market would move the action to **Reach out**. A cohort that documents persistent recollection or local processing costs that absorb the margin, with no supported way to reduce them, would move it to **Pass**.
+Can an early cohort of independent consumers order and pay online, get a usable result without bespoke support, and pay to retest at the intended cadence? Cohort records showing that sequence, with fulfillment and support effort recorded per kit, would move the action to Reach out. A cohort that receives usable first results but consistently declines to retest because it sees little additional value would move it to Pass.

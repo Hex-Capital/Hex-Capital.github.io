@@ -1,32 +1,32 @@
 ﻿# ByteAsk -- AGI Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Low
+**Evidence confidence:** Medium
 
 ### Company case
 
-Path B, New economies, is ByteAsk’s strongest path. Build-aware retrieval and native verification could make small C/C++ performance fixes economical for teams that currently leave them in the backlog. In a company-run comparison using the same model, ByteAsk reports matching Codex CLI at 129 successful runs out of 144 at 68% lower cost. That supports a narrower claim about agent execution cost. Whether teams can complete previously deferred work at equivalent quality depends on the full cost of review, retries, and verification. (The Idea, Defensibility, Key Risks)
+**Path B — New Economies.** ByteAsk could make C++ performance work economical for teams that defer it because engineers must trace build variants, validate patches on target hardware, and review changes by hand. ByteAsk reports that its build-aware workflow matched Codex CLI at 129 successful runs out of 144 while costing 68% less in a same-model test. That comparison supports a cost advantage on the tested tasks. The market-opening scenario assumes those savings survive setup, verification, retries, and review, and bring previously deferred work within a buyer’s budget. The memo leaves that comparison open. (*The Idea*, *Defensibility*, *Key Risks*)
 
-The memo records a shipped CLI and a $1 million pre-seed round, consistent with the thesis’s U.S. seed mandate given ByteAsk’s San Francisco location. Customer accounts describe a Nodus pilot and Zith’s compiler-core rebuild, and ByteAsk’s plan migration refers to existing paid CLI subscribers. Payment and repeat use for previously uneconomic work remain unverified. The founders bring low-latency C++ and agent-engineering experience and previously built and sold a company together. The next execution test is delivering across customers with different build and hardware requirements. (ByteAsk, Market & Traction, Key Facts, Founders & Team)
+Nodus reported 2.3× co-located decode throughput and 52% higher co-located training throughput during a 30-day pilot. Zith’s creator reported using ByteAsk to rebuild a C++ compiler core, and the memo records a plan migration for existing paid CLI subscribers. Those are early signals of use and payment, with repeat paid demand for previously deferred work still unproven. Customer-specific build settings and hardware gates could give teams a reason to keep paying under model parity if replacing them requires substantial requalification. The memo documents their use at Nodus and leaves replacement cost unmeasured. (*Market & Traction*, *Key Facts*, *Defensibility*, *Key Risks*)
 
-The unit of expansion is a paid workspace. If ByteAsk pays list price for managed inference, its advertised markup leaves $0.20 per $1 of model spend before other delivery costs. Workspace fees and sandbox charges add revenue. Contribution depends on actual compute, onboarding, and ongoing support across build environments, which the memo leaves unquantified. (The Idea, Key Risks)
+The founders bring trading-system C++ and agent engineering experience and have shipped a CLI and an integration for existing agents. For scale, the unit to test is an accepted change on a new customer build and hardware target. Nodus logged 150 hours of engineer review. A repeatable cost advantage requires savings against the former workflow after counting that review, build setup, hardware and sandbox time, and failed runs per accepted change. The memo gives neither the accepted-change count nor the prior labor baseline needed to calculate that advantage. (*Founders & Team*, *The Idea*, *Key Risks*)
 
 ### Countercase
 
-ByteAsk could make existing engineering work cheaper while leaving the same work uneconomic for new buyers or smaller tasks. Nodus logged 150 engineer review hours in 30 days and gated changes on its target H100 hardware. Without a matched baseline, the pilot leaves open whether review and verification absorb the reported agent-cost savings. Customer-specific test integration could give buyers a reason to stay, but preference under functional parity remains untested. Cursor or Harness could bundle equivalent verification into tools teams already use. Path A has no separate supported case because the memo shows customer-specific hardware gates and establishes no ByteAsk control over scarce capacity. Neither Path B condition is established or defeated, so Watch applies. Confidence is low because the benchmark and customer reports leave both decisive conditions unresolved. (Defensibility, Market & Traction, Key Risks)
+ByteAsk may help existing engineering teams do work they already fund while leaving the economics of deferred work unchanged. Nodus’s throughput gains measure what the patches achieved, while its review hours show that engineer time remained a material input. Cursor and Harness already offer adjacent workflows and could bundle comparable verification. Giving rivals equivalent models leaves ByteAsk’s build integration as a plausible reason to stay, with no observed buyer preference under comparable verification. Both Path B conditions remain testable, so Watch is warranted. (*Market & Traction*, *Key Risks*, *Defensibility*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
 | Path-specific thesis fit | 12/25 |
-| Durable value capture | 8/25 |
-| Customer demand | 9/20 |
+| Durable value capture | 9/25 |
+| Customer demand | 10/20 |
 | Team and execution | 10/15 |
-| Scale economics | 6/15 |
+| Scale economics | 7/15 |
 
-**Total Score: 45/100** (Neutral)
+**Total Score: 48/100** (Neutral)
 
 ### Decisive diligence question
 
-Can a paid pilot show that independent C/C++ teams repeatedly buy ByteAsk for fixes they previously deferred on cost grounds, even when their existing agent offers equivalent build-aware verification? Compare the prior workflow, ByteAsk, and the parity alternative on comparable fixes at the same acceptance standard, counting review, retries, and hardware testing per accepted patch. Repeat paid choice and a measured labor reduction would support Reach out if the updated score clears 65 and confidence reaches at least Medium. A credible trial showing that the work remains uneconomic or that buyers readily switch at parity would move the action to Pass.
+Will an independent C++ team pay for a second round of previously deferred performance work after comparing ByteAsk with its former workflow and a same-model alternative with equivalent verification? Move to **Reach out** if the trial shows that ByteAsk brings the all-in cost per accepted change within budget and the buyer pays to repeat because ByteAsk’s build and hardware integration delivers value the alternative cannot retain on comparable terms. Move to **Pass** if full costs still put the work out of reach or the buyer can switch and preserve the outcome on comparable terms.

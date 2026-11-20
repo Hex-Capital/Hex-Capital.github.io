@@ -5,26 +5,26 @@
 
 ### Company case
 
-**Path A, product-led adoption**, is the strongest candidate. The initial buyer is a head of forward-deployed engineering or implementation whose team repeatedly reconstructs customer requirements from calls, tickets, and code. OpenScaffold offers free self-serve signup and says it converts those sources into a cited deployment plan that briefs existing coding agents. If teams can get a trustworthy first plan through standard connectors, they could reuse approved playbooks on later deployments and eventually pay for broader team access or SSO. That sequence is a scenario. The memo establishes the signup route and commercial inquiry option, while paid conversion and repeat use remain unverified. (*The Idea*, *Defensibility*, *Key Facts*)
+Product-led adoption is OpenScaffold’s strongest path. Heads of forward-deployed engineering and implementation are the proposed buyers. Their teams repeatedly turn customer calls, emails, and tickets into requirements for deployments. OpenScaffold offers a free self-serve plan and describes a workflow that turns those inputs into a source-cited plan, briefs existing coding agents, and checks changes against customer rules. If engineers can get a trustworthy brief from their first deployment, they could reuse the workflow on subsequent deployments and bring other engineers into it. Larger-team and SSO inquiries offer a possible route to payment. That expansion is a scenario. The recurring job and shared tool interfaces make the workflow plausible across markets, while permission to send customer content to a model subprocessor remains an adoption constraint. (The Idea, Key Risks)
 
-Faraday’s CEO publicly identified himself as a customer. Separately, the founder reported testing the product on a pilot partner’s real customer calls. Those are early fit signals around actual deployment work. The memo leaves Faraday’s activation route, payment, and workflow change unknown. In a second geography, the same buyer and workflow could plausibly carry over if the existing connectors work with local source material and the buyer can approve third-party processing of customer communications. The memo gives no cross-market buyer or rollout evidence. (*Market & Traction*, *The Idea*, *Key Risks*)
+Faraday’s CEO publicly identified himself as a customer. Separately, the founder reported testing on an unnamed pilot partner’s customer calls. The test shows early willingness to put real deployment material into the workflow, and the memo leaves open whether the two accounts are distinct. Discovery through self-serve signup, reliable first value, payment, and repeat use remain unverified. At this stage, the first link to test is whether an independent team can reach trustworthy first value without founder help. (The Idea, Market & Traction)
 
 ### Countercase
 
-The first deployment plan could add another review step to the work OpenScaffold aims to reduce. The founder reported that the product failed to distinguish customer requests from deployment-team requests 82% of the time in one pilot test. Source citations and human approval give reviewers a way to catch those errors, but each additional workload could bring more verification and model processing, while each new account could bring connector setup and data-access approval. The pilot result weighs against repeatable activation. The memo gives no per-workload cost or review-time measurements, so it leaves the structural-cost Pass gate unresolved. (*Key Risks*, *The Idea*)
+The founder reported that OpenScaffold failed to distinguish customer requests from the deployment team’s requests 82% of the time in one pilot test. That distinction is central to the brief engineers would rely on. If reviewers must reconstruct who asked for what from the original calls on each deployment, the review step could consume the time the product is meant to save and make self-serve activation difficult. Source citations give reviewers a way to check the output, but review time and rollout costs remain unmeasured. The single reported test leaves the persistence and cost of the problem open, so the structural downside gate does not apply. (The Idea, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 9/25 |
-| Repeatable acquisition and onboarding | 8/25 |
+| Global buyer demand | 13/25 |
+| Repeatable acquisition and onboarding | 9/25 |
 | Retention and customer expansion | 7/20 |
 | Contribution as volume grows | 7/20 |
 | Evidence of fit in the first buyer segment | 5/10 |
 
-**Total Score: 36/100** (Pass)
+**Total Score: 41/100** (Pass)
 
 ### Decisive diligence question
 
-Can an independent implementation team outside the U.S. pay for OpenScaffold, activate through the standard connectors, and use it on a second live deployment with buyer-accepted attribution accuracy and less review time than its existing workflow? A paid rollout with buyer-confirmed accuracy and logged review and founder-support time across both deployments would change the action to **Reach out**.
+Can a deployment team that discovers OpenScaffold through the public signup route onboard without founder help, produce a brief it trusts with less review time than its existing process, and pay to use it on its next deployment? A documented rollout showing that sequence would move the action to Reach out. If the team still has to reconstruct requirements by hand and declines to continue for that reason, keep it on Watch pending evidence that the attribution problem can be fixed.

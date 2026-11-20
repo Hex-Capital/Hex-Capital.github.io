@@ -5,26 +5,26 @@
 
 ### Company case
 
-**Path B — Repeatable sales or partner distribution with account expansion.** The initial buyer is a data center developer procuring made-to-spec electrical equipment before site energization. The memo documents a manufacturing launch, direct quote intake, and written project quotes. Applied Kinetics advertises a seven-week build-and-test window for pad-mounted transformers and reports access to 40+ partner plants. The 10+ GW figure describes projects equipped by that manufacturing base. The memo records no paid order, completed delivery, or repeat purchase by an Applied Kinetics customer. (The Idea, Market & Traction, Defensibility, Key Risks)
+Repeatable direct sales is the strongest path. Data center developers have a recurring job across projects: securing made-to-spec electrical equipment in time to energize each site. That job plausibly travels across markets, although buyer-approved factory lists, testing requirements, and delivery logistics may limit how much of the workflow carries over. The memo documents a launch soliciting direct inquiries and referrals. Applied Kinetics describes using agents to review specifications, schedule partner factories, and track production. Its seven-week pad-mounted transformer quote covers build and test. (The Idea, Market & Traction, Key Risks)
 
-**Scenario assumption:** If direct inquiries and referrals repeatedly convert into paid orders, Applied Kinetics could reuse its specification review, factory scheduling, and milestone tracking for additional equipment or later sites. In a second geography, the same workflow would need to match the buyer’s specifications to an approved factory and handle applicable approvals, testing, customs, freight, and site delivery. The global market forecast suggests room for the buyer problem to recur. Evidence of buyer willingness to pay across markets is still missing. (The Idea, Key Facts, Key Risks)
+Assuming comparable orders can reuse the specification review and factory scheduling workflow, the same team could handle more orders with less manual effort per order. The first unresolved link is turning a direct inquiry into a paid, delivered order through a process someone other than a founder can run. The memo leaves buyer commitments, completed deliveries, repeat purchases across projects, and order-level costs undocumented. (The Idea, Market & Traction, Key Facts)
 
 ### Countercase
 
-Applied Kinetics may scale like a custom equipment contractor. Buyer-approved factory lists can limit routing, and delivery commitments depend on specifications, quantity, approvals, and scope. Each order adds factory and logistics costs and could require substantial sales, engineering, and delivery coordination. Contribution depends on what remains from the project price after those costs, testing, customs, and any working capital required by payment timing. The memo gives no order-level evidence that coordination effort falls with reuse or that qualified factories can serve a second market through the same process. These risks justify Watch. The Pass gate requires observed evidence of a structural demand ceiling or proportional costs without a supported path to improvement. (The Idea, Key Risks)
+Applied Kinetics could operate as a bespoke equipment supplier whose workload grows in proportion to orders. Customer-approved factory lists can narrow the options for each order, and specifications, quantities, approvals, and delivery scope affect delivery commitments. The company reports access to more than 40 plants, while the 10+ GW figure describes projects equipped by its manufacturing base. Those figures leave Applied Kinetics’ own delivery effort and the benefit of switching factories unmeasured. The structural downside gate remains untriggered because the memo establishes these constraints but leaves open whether comparable orders can reuse enough of the workflow to improve contribution. (Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 9/25 |
+| Global buyer demand | 13/25 |
 | Repeatable acquisition and onboarding | 9/25 |
 | Retention and customer expansion | 7/20 |
 | Contribution as volume grows | 7/20 |
 | Evidence of fit in the first buyer segment | 4/10 |
 
-**Total Score: 36/100** (Pass)
+**Total Score: 40/100** (Pass)
 
 ### Decisive diligence question
 
-Can an independent data center developer in a second geography come through direct quote intake and pay for a completed transformer delivery using the same workflow as a first-market order? A side-by-side record of both orders showing approval and delivery milestones, coordination hours, and positive incremental contribution after fulfillment and any working-capital costs would move the action to **Reach out**.
+Can a second independent data center developer go from direct quote intake to paid, on-time delivery of a comparable pad-mounted transformer through the same workflow? Order records showing that a non-founder handled the second order with fewer manual hours and positive contribution after factory, testing, freight, customs where applicable, and delivery costs would move the action to Reach out.

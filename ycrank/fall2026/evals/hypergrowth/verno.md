@@ -5,26 +5,26 @@
 
 ### Company case
 
-Path B, repeatable sales with account expansion, is Verno’s strongest path. The initial buyer is an engineering manager or design lead at a process EPC. Each change to a piping and instrumentation diagram can require a drafting handoff and reconciliation across several deliverables. Verno documents native DWG/DXF write-back, updates across file types, and engineer approval before changes are written. Verno reports an active pilot and separately reports finding three conflicting design pressures for one tank in documents already issued for construction. Live customer sites are also reported. Those are early signals of a consequential problem and some deployment activity. Buyer identities, paid adoption, and repeat use remain unverified. (The Idea, Defensibility, Market & Traction, Key Facts)
+Repeatable direct sales is Verno’s strongest path. Process EPC engineering managers have a recurring job during design revisions: reconcile changes to piping and instrumentation diagrams with downstream documents before issuing them for construction. Verno’s documented workflow prepares native DWG/DXF edits and related document updates for engineer approval. That workflow could carry across markets where buyers use compatible files and permit U.S. inference. Case-by-case CAD compatibility and data residency requirements limit the buyers Verno can serve with its current deployment model. (The Idea, Defensibility, Key Risks)
 
-The growth scenario assumes a demo can convert an EPC into a paid deployment using reusable CAD, document, and approval configurations. If that setup carries across projects, the same account could add recurring workloads without a fresh sales cycle or a full implementation each time. An EPC in a second geography could use substantially the same product if its CAD variants, templates, engineering rules, and approval process fit that configuration. Deployment would also require approval for processing locations. Current documentation describes U.S. inference processing, so a buyer that requires local inference could need a different deployment. The main uncertainty is whether Verno can reproduce paid activation and recurring use with comparable setup effort across buyers. (The Idea, Defensibility, Key Risks)
+The memo records an active pilot and reports of live customer sites. Verno says it found three conflicting design pressures for one tank in documents already issued for construction. That example gives the pilot a concrete benefit to test, while buyer identity and budget commitment remain unknown. Verno solicits demos and introductions, but the memo gives no account-level history from either route to paid go-live. Reuse on later projects is a plausible expansion scenario under an enterprise license. Repeat use and paid expansion are unverified. (The Idea, Market & Traction, Key Facts)
 
 ### Countercase
 
-Verno could be selling a bespoke engineering implementation at every site. It handles some CAD compatibility inquiries case by case, supports customer-specific templates, and uses single-tenant deployments. The next customer could add compatibility validation, template and rule configuration, and security review. The next workload could add inference and support costs, while engineers still bear the review effort. The memo gives no measured error rates across customer document sets or rollout cost data to show how those burdens change with volume. A pilot is a meaningful early signal at this stage. The evidence leaves repeatability unresolved and does not establish the structural ceiling required for Pass. (The Idea, Defensibility, Key Risks, Market & Traction)
+Even with strong fit, onboarding could be the first link to break. A shared file format may still leave Verno validating each buyer’s CAD setup and configuring its templates and approval rules. Engineer sign-off controls who can write changes, while error rates across customer document sets and the setup, support, and inference costs of another deployment remain unmeasured. The structural downside gate does not apply. The memo identifies credible sources of bespoke work but gives no rollout comparison showing that work rises in proportion to sales or that it cannot be reused. (Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 9/25 |
+| Global buyer demand | 14/25 |
 | Repeatable acquisition and onboarding | 9/25 |
 | Retention and customer expansion | 7/20 |
 | Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 6/10 |
+| Evidence of fit in the first buyer segment | 5/10 |
 
-**Total Score: 38/100** (Pass)
+**Total Score: 42/100** (Pass)
 
 ### Decisive diligence question
 
-Can an independent process EPC in a second geography pay for Verno and use it on recurring production revisions through the same demo-to-live process as the first deployment? Move to Reach out when a buyer-confirmed rollout shows payment, repeated approved use, and measured setup and support effort comparable to the first rollout, with the buyer’s CAD and data-processing requirements met through the existing product.
+Can Verno take an independently sourced process EPC from demo to a paid, engineer-approved go-live on a real project using the same onboarding process as its pilot? A rollout record showing bounded setup hours and reuse of the existing CAD and document configuration would move the action to Reach out. A paid rollout that still depends on bespoke integration would keep it at Watch. (The Idea, Market & Traction, Key Risks)

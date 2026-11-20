@@ -5,26 +5,26 @@
 
 ### Company case
 
-**Path B — repeatable sales with account expansion.** The strongest starting buyer is a data center operator whose commissioning team repeatedly routes rack cables and relies on skilled technicians to handle variation. Shepherd publicly demonstrated its product and sought introductions to data center leaders through its launch. The company reports 95% cable-routing success on the bench. That gives Shepherd a specific task to take into a paid pilot. The memo records no buyer-funded deployment, paid activation, or repeat use. *(The Idea, Market & Traction, Key Facts)*
+Repeatable direct sales is Shepherd’s strongest path. The initial buyer would be a data center operator commissioning racks, with skilled technicians repeatedly routing and inserting cables. Shepherd sought buyer introductions through its public launch and showed a product demo. The company says its modular robot adapts to site equipment from technician demonstrations and runs locally under supervision. The same job plausibly exists across markets, with equipment variation making the effort to serve a new site uncertain. (The Idea, Market & Traction, Key Risks)
 
-The growth scenario assumes an operator pays for an initial rack-cabling deployment and expands to more racks and sites once it sees technician time savings at acceptable throughput and quality. To reach many more operators, Shepherd would need to turn its modular hardware and technician-led adaptation into a rollout that a local crew can repeat. In a second geography, the same product could serve the same commissioning buyer if rack and connector differences can be handled through local demonstrations and the crew can meet site acceptance and support requirements. The memo gives no evidence of buyer demand or a rollout in a second geography. *(The Idea, Defensibility, Key Risks)*
+Assuming operators pay per deployment, growth depends on reusing the hardware and setup process across sites. Each rollout must bring in enough to cover the robot, integration, and ongoing support while saving the buyer technician time. The memo gives no buyer-funded deployment, repeat paid use, or measured rollout costs. At this stage, a paid test followed by a comparable rollout could establish whether the sales and delivery process travels. (The Idea, Market & Traction, Key Facts)
 
 ### Countercase
 
-Shepherd could end up selling a custom automation project at every site. The company reports 60% cable-insertion success on the bench and describes technician supervision and exception handling. It also says some customer equipment is available only on site, requiring local adaptation. Each new site could therefore add hardware and installation costs, technician time for demonstrations and training, and ongoing supervision, exception handling, and maintenance. If the operator supplies the supervision, those hours still reduce the labor savings that justify the price. The memo provides no production cost or rollout measurements that establish proportional scaling, so the structural Pass gate is unmet. *(Market & Traction, Key Risks)*
+The first link likely to break is onboarding. Shepherd reports 95% bench success for cable routing and 60% for cable insertion. Some equipment is available only on site, and the adaptation process uses technician demonstrations and supervised exception handling. If each site needs fresh training and frequent intervention, deployment effort could rise in proportion to revenue and leave buyers with limited technician time savings. Bench results establish a reliability risk. The structural downside gate requires evidence that this constraint blocks the path in practice, which remains untested in the memo. (Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 9/25 |
+| Global buyer demand | 12/25 |
 | Repeatable acquisition and onboarding | 9/25 |
 | Retention and customer expansion | 7/20 |
 | Contribution as volume grows | 7/20 |
 | Evidence of fit in the first buyer segment | 4/10 |
 
-**Total Score: 36/100** (Pass)
+**Total Score: 39/100** (Pass)
 
 ### Decisive diligence question
 
-Will a data center operator fund a rack-cable-routing rollout at a second site after seeing the first site’s results? Move to **Reach out** if the second rollout reuses the same hardware design and installation process, meets buyer-agreed throughput and quality over repeated shifts, and records deployment and supervision costs that leave room for positive contribution at the price paid.
+Can a second independent data center operator pay for and accept the same rack-cabling workflow using the same hardware and setup procedure? Move to Reach out if comparable rollout records show lower setup effort at the second site and meaningful net technician time savings after supervision and rework.

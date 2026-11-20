@@ -5,28 +5,26 @@
 
 ### Company case
 
-**Path A — Scarce complements.** Limnion’s best case is that affordable, reliable access to high-volume logs and traces becomes a bottleneck for site reliability and platform teams as they run more agent-led investigations. That demand increase is a scenario assumption. Limnion says telemetry costs already rise at high volumes. Siglake gives agents read-only query access to telemetry stored in the customer’s own object store, and Limnion reports AWS tests at 1 TB and 2.02 billion rows. Those tests support technical plausibility. Production relief remains unverified after a failed 72-hour endurance test, with failover and tenant isolation still awaiting qualification. (The Idea, Defensibility, Key Risks)
+**Path A — Scarce complements.** Limnion’s strongest case is that cheap, capable incident-investigation agents could make reliable access to high-volume logs and traces more valuable. Limnion says telemetry costs rise at high volumes. Siglake’s documented design ingests OpenTelemetry into Iceberg tables in the customer’s object store and gives agents read-only query access. If frequent agent queries make cost or reliability a binding constraint, Limnion could charge to operate a deployment that customers and rivals would take meaningful time to reproduce. The memo establishes the architecture. The bottleneck and Limnion’s ability to control it remain hypotheses. (The Idea, Defensibility)
 
-A production deployment is the unit of expansion. Independent scaling of ingestion, compaction, and queries gives Siglake a way to add capacity where needed. Buyer savings depend on storage, compute, migration, and operator time at equivalent reliability. Limnion’s margin would depend on whether the proposed managed service can command a price above its provisioning, support, and operating costs. Managed deployment is still in development, so both sides of that cost bridge remain unmeasured. (The Idea, Defensibility, Key Risks)
-
-The Seattle-based launch-stage company is a plausible seed fit. Persen’s experience building observability products and the team’s shipment of v0.4.1 support execution. Repository stars and forks show developer interest, while buyer usage, qualification commitments, and willingness to pay remain unknown. (Founders & Team, Market & Traction, Key Facts)
+The public release and Persen’s prior database and log-management work support seed-stage execution. The release notes record bounded smoke-test passes, a failed 72-hour endurance test, and pending failover and tenant-isolation qualification. The company-reported AWS tests at 1 TB and 2.02 billion rows give an early sizing reference for the expansion unit, a deployment in each customer’s cloud. Managed deployment is still in development, and the cost of operating and supporting it at a viable price remains unmeasured. Repository stars and forks show developer interest. Evidence of independent buyer commitments is absent, so customer demand receives the default score. (Founders & Team, Key Risks, Defensibility, The Idea, Market & Traction)
 
 ### Countercase
 
-With abundant capital, competitors can build on the same open formats and reuse Siglake’s permissively licensed code. Observe already overlaps on OpenTelemetry ingestion and customer-owned Iceberg storage. Customers retain control of the data, and switching costs from Siglake-specific streaming integrations remain hypothetical. Cheap frontier models could make investigations more frequent while leaving buyers free to use another telemetry backend. Path B remains unproven because the memo gives no evidence of a previously uneconomic investigation becoming viable through lower delivery labor, or of buyers preferring Limnion under model parity. The overlap weighs against durable capture and keeps Limnion below the outreach gate. Equivalent production performance and easy substitution remain untested, so a buyer trial can still change the action. (The Idea, Defensibility, Market & Traction, Key Risks)
+Snowflake’s Observe preview already offers OpenTelemetry ingestion into customer-owned Iceberg storage that other engines can query. Customers control their data, and Siglake’s license permits rivals to reuse its code. The proposed switching costs from streaming integrations remain speculative. This overlap leaves durable control unproven. The memo has no buyer comparison showing that Observe or another substitute meets the same workload requirements, so the substitution gate remains open. Path B lacks evidence that Siglake lowers full labor cost enough to make a previously uneconomic use viable. (Defensibility, Key Risks, The Idea)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 11/25 |
-| Durable value capture | 5/25 |
+| Path-specific thesis fit | 10/25 |
+| Durable value capture | 7/25 |
 | Customer demand | 5/20 |
 | Team and execution | 9/15 |
-| Scale economics | 5/15 |
+| Scale economics | 6/15 |
 
-**Total Score: 35/100** (Pass)
+**Total Score: 37/100** (Pass)
 
 ### Decisive diligence question
 
-Will an independent platform team commit to paying for managed Siglake after a side-by-side production trial against its best available alternative? The trial should show lower all-in cost for the same investigation workload at the buyer’s required reliability, followed by a paid commitment at a price that covers Limnion’s delivery costs. A positive result would justify rescoring for Reach out if it clears the outreach threshold. A credible alternative matching the result with easy switching, and the buyer declining to pay a viable price, would move the action to Pass.
+Will an independent platform team commit budget for a managed deployment after a production trial shows Siglake meets agreed cost, query, and reliability targets on a sustained agent workload that its best available alternative cannot match? A paid commitment at a price that covers delivery, backed by an operating advantage the buyer cannot readily reproduce or source elsewhere, would move the action to Reach out. Equivalent performance and economics from an accessible substitute would close Path A and move the action to Pass.

@@ -5,21 +5,23 @@
 
 ### Company case
 
-Strategic acquisition is Ordo’s strongest path. A lab software vendor could buy Ordo to add source-linked QC and signed reporting for regulated CROs and CDMOs. Ordo reports paid pilots in the US and Europe and says one post-analysis workflow fell from 40 hours to 4, including scientist review. It describes customer-specific validation environments and source files sealed at signing. Those features could make ownership valuable if a buyer can reuse the software and validation tooling across its customer base and gain an advantage over licensing or building the capability. The memo records about $500,000 of YC financing and a separate angel round of undisclosed size. Paid pilots make it plausible to test whether the time savings repeat in production across labs. Runway and the cost of reaching that milestone remain unknown. (*The Idea*, *Defensibility*, *Market & Traction*, *Key Risks*)
+Strategic acquisition is the strongest path. A lab software vendor could buy Ordo’s source-linked QC and reporting workflow, including its validation tooling, to sell into its existing CRO and CDMO accounts. Ordo reports cutting one post-analysis workflow from 40 hours to 4, including scientist review. That measures potential value to a lab. The buyer case depends on converting those savings into recurring software sales and showing why ownership would capture more value than an integration. The memo supplies no buyer-side economics or acquisition pricing. (The Idea, Defensibility, Market & Traction)
 
-The memo gives no terms for the check being evaluated, so the bridge uses the illustrative $500,000 seed check at a $10 million post-money valuation, with 5% initial ownership diluted to 3% and no follow-on checks. The eight-year 5× objective requires $2.5 million of gross cash to the holder, or $83.3 million in distributable equity proceeds at 3% ownership. The hurdle rises to $125 million at 2% and falls to $62.5 million at 4%.
+The operating milestone is to convert paid pilots at multiple labs into recurring, QA-approved production contracts while reproducing the time savings and measuring the cost of validation at each site. Reported paid pilots and seed financing give Ordo a starting point. Undisclosed contract values, burn, and validation costs leave the time and capital needed uncertain. The memo describes customer-controlled release approval and leaves core IP ownership and customer contract transfer rights open. (Market & Traction, Key Facts, Key Risks, The Idea)
 
-| Illustrative outcome | Timing | Gross holder cash | Gross multiple |
-|---|---|---:|---:|
-| Modest sale at $40 million enterprise value | Year 5 | $1.2 million | 2.4× |
-| Strong sale at $100 million enterprise value | Year 7 | $3.0 million | 6.0× |
-| Prolonged private ownership | Through year 8 | $0 | 0.0× |
+Under the shared scenario, a $500,000 check at a $10 million post-money valuation buys 5%, diluted by 40% to 3% with no follow-ons. The eight-year 5× goal requires $2.5 million of gross cash before investor taxes. With illustrative net debt of $5 million, the holder needs about $88.3 million of enterprise value at 3% ownership, $130 million at 2%, or $67.5 million at 4%. The sale cases assume a pro rata distribution after net debt, with no adjustment for undisclosed fees or senior claims.
 
-Both sales assume zero net debt and no other enterprise-to-equity adjustments, so enterprise value equals equity consideration. The waterfall assumes pro rata cash at closing with no preference deductions. Stock, escrow, earnouts, rollover, and compensation each contribute $0. The strong sale clears the hurdle at 3% ownership but yields only $2 million at 2%. These prices are scenario assumptions. The memo gives no pilot contract values or buyer economics that support an acquisition price, and it leaves IP ownership and customer-contract transfer rights unverified. In the prolonged-private case, growth plateaus, buyers stay away, public-market scale remains out of reach, and cash is reinvested while the investor retains the shares. The memo supplies no independently supported fallback that pays this holder. (*Key Facts*, *Defensibility*, *Market & Traction*)
+| Year-eight scenario | Gross cash at 3% ownership |
+|---|---:|
+| Modest sale at $25 million enterprise value | $600,000 (1.2×) |
+| Strong sale at $100 million enterprise value | $2.85 million (5.7×) |
+| Growth plateaus, buyers stay absent, public scale remains out of reach, and cash is reinvested | $0, with shares still held |
+
+The strong sale clears the target under the scenario assumptions. Pilot pricing, recurring revenue, and buyer willingness to pay are unestablished, so the memo gives no basis for underwriting that sale price. The reported financings provide no evidence of an eligible secondary. The memo also leaves sponsor financing and cash generation, public resale scale, and distributable cash for dividends or buybacks unevidenced. (Market & Traction, Key Facts)
 
 ### Countercase
 
-ScienceMachine already offers source-linked reporting, document QC, and electronic approval. The IDBS–Alchemi integration also shows that a lab software vendor can add adjacent regulatory authoring through a partnership. If licensing delivers comparable results, a buyer has little reason to pay an ownership premium. Customer-specific validation may further limit how much deployment work a buyer can reuse. That supports Watch. A structural Pass would require evidence that these substitutes cap credible sale proceeds below the holder’s hurdle, which remains unresolved. (*Defensibility*, *Market & Traction*, *Key Risks*)
+ScienceMachine already offers overlapping source-linked reporting, QC, and approvals. The IDBS–Alchemi integration shows how an incumbent can add adjacent functionality through a partnership. If Ordo’s customer-specific validation also requires substantial work at each deployment, a buyer may see limited value in owning the product. These facts weaken the acquisition case. They leave both the attainable price and the ability to close unresolved, so the structural Pass gate is untriggered. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
@@ -27,12 +29,12 @@ ScienceMachine already offers source-linked reporting, document QC, and electron
 |-----------|-------|
 | Counterparty rationale or source of cash | 15/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 10/20 |
+| Milestones and capital needed | 12/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 40/100** (Pass)
+**Total Score: 42/100** (Pass)
 
 ### Decisive diligence question
 
-Would a lab software vendor’s quantified comparison of buying, building, and licensing Ordo support at least $83.3 million in distributable equity proceeds after Ordo demonstrates repeatable, validated production savings across labs? Buyer-side economics that clear that hurdle under plausible deal terms would move the action to Reach out. Evidence that licensing delivers comparable value and caps the credible sale price materially below the hurdle would move it to Pass.
+What acquisition price could a lab software vendor justify once Ordo converts paid pilots into repeatable production deployments? Recurring production contracts and buyer-side economics showing why ownership could support a sale near or above $88.3 million under the 3% scenario would move the action to Reach out. An unresolved price case keeps it at Watch. A supported upper bound that leaves holder proceeds materially short would trigger Pass.

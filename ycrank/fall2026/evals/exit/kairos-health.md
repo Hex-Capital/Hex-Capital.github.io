@@ -5,31 +5,29 @@
 
 ### Company case
 
-Strategic acquisition is Kairos’s strongest path. A dental practice-management or patient-communications vendor could buy Kairos to deploy its recall-to-booking workflow across an installed base. Kairos describes direct schedule write-back into Dentrix, Open Dental, and Eaglesoft using practice-specific booking rules. A customer testimonial reports more than 1,200 calls handled and over $21,000 in average monthly dental production. The memo provides no baseline for incremental production. The acquisition case depends on owning the workflow delivering more completed treatment, less staff rework, or faster rollout than the buyer could achieve by building or licensing it. *(Defensibility, Market & Traction)*
+Strategic acquisition is the strongest path. A dental practice software vendor could buy Kairos for its recall outreach and procedure-aware booking across Dentrix, Open Dental, and Eaglesoft. Owning that workflow could help the buyer sell a higher-value product to its existing customers and bring the capability to market faster. Kairos’s Pecan Dental testimonial reports 1,200+ calls handled and $21K+ in average monthly dental production. It leaves the incremental production attributable to Kairos and the buyer’s benefit from owning the workflow unmeasured. (The Idea, Defensibility, Market & Traction)
 
-The operating milestone is a paid multi-site rollout that measures incremental completed treatment and staff rework against the incumbent workflow. Kairos reported 16 live locations at launch, and the memo records early investment and awards. Those signals support a seed-stage test, while burn, runway, and the cost of the rollout remain unknown. Kairos describes business associate agreements and handling of protected health information. The memo leaves integration rights, contract assignment, and permitted patient-data transfer unresolved. *(Market & Traction, Key Risks)*
+A proposed seed milestone is a paid multi-location cohort that renews after six months and shows a repeatable increase in completed recall visits against each practice’s baseline, with booking errors and staff rework tracked. The founder reports 13 paying practices and $4K+ in monthly recurring revenue. The October launch reports 16 live locations, a separate measure. Reported early funding and live deployments make the test plausible, while burn, runway, and the capital needed to expand remain unknown. Kairos describes business associate agreements and data controls. The memo leaves the assignability of integration and customer agreements, and the buyer’s rights to use patient data, unverified. (The Idea, Market & Traction, Key Facts, Key Risks)
 
-Using the illustrative $500,000 seed check at a $10 million post-money valuation, 5% initial ownership falls to 3% after 40% relative dilution, with no follow-on checks. A 5× gross cash return within eight years requires $2.5 million to the investor, or about $83.3 million in distributable equity proceeds at 3% ownership. The hurdle is $125 million at 2% and $62.5 million at 4%. The sale scenarios assume zero net debt, fees, or other price adjustments, so enterprise value equals equity consideration. They assume a simple pro rata waterfall before investor taxes, with all consideration paid in cash at closing and zero stock, escrow, earnout, rollover, or transaction-linked compensation. Actual terms are unknown.
+The memo gives no usable strategic sale-price range or actual shareholder terms. Francisco Partners’ approximately $650M purchase of Weave establishes sponsor demand for a scaled suite with $239M in FY2025 revenue. Kairos’s narrower product and early revenue leave that transaction too distant to anchor its sale price. Kairos has no evidenced sponsor financing case, eligible secondary, public resale path, or funded payout. (Market & Traction, Key Facts)
 
-| Illustrative outcome | Timing | Investor cash | Gross multiple |
-|---|---|---:|---:|
-| Modest sale at $50 million enterprise value | Year 5 | $1.5 million | 3.0× |
-| Strong sale at $100 million enterprise value | Year 7 | $3.0 million | 6.0× |
-| Prolonged private ownership, with growth plateauing, buyers staying away, public scale out of reach, and cash reinvested | Through year 8 | $0, with shares still held | 0.0× realized |
+Under the shared scenario, a $500K check at a $10M post-money valuation buys 5%, diluted to 3% with no follow-ons. The eight-year target is $2.5M in gross cash before investor taxes. A simple pro rata allocation requires $83.3M in distributable equity at 3%, $125M at 2%, or $62.5M at 4%. With illustrative net debt of $5M, the 3% case needs about $88.3M in enterprise value. Kairos’s actual debt, fees, and senior claims are unknown.
 
-The memo records a roughly $650 million sponsor acquisition of Weave, a broader communications and payments business with $239 million in FY2025 revenue. That establishes a transaction in the category. Kairos’s founder-reported $4,000-plus MRR and the absence of evidence on retention or sustainable cash generation leave the sponsor route unsupported as a fallback. The memo supplies no usable Kairos acquisition price or buyer economics that support either sale scenario. *(Market & Traction, Key Facts)*
+- **Modest sale.** At $25M enterprise value in year eight, $20M remains after illustrative net debt, yielding $600K, or 1.2×.
+- **Strong sale.** At $100M enterprise value in year eight, $95M remains after illustrative net debt, yielding $2.85M, or 5.7×. At 2% ownership, the same sale yields $1.9M, or 3.8×.
+- **Prolonged private operation.** If paid adoption plateaus, buyers stay away, public scale remains out of reach, and Kairos reinvests all available cash without an eligible share purchase or payout, the holder realizes $0 over eight years and retains the shares.
 
 ### Countercase
 
-A platform vendor may get comparable results from its own bundled receptionist or a license for an overlapping product. Arini already offers recall and insurance workflows, while Weave and Peerlogic bundle reception with other products. The memo identifies no structural barrier and gives no evidence that Kairos’s practice-specific configuration creates switching costs. That makes the ownership premium the decisive gap. The evidence supports **Watch** because it leaves open whether substitutes match Kairos’s results and cap the purchase price below the proceeds hurdle. The prolonged-private scenario is a downside assumption, so it does not trigger the Pass override. *(Defensibility, Key Risks)*
+Weave already bundles AI reception with communications and payments, Peerlogic bundles it with phone infrastructure, and Arini offers overlapping recall, inbound, and verification workflows. A buyer could extend its own product or license a competing tool. Kairos’s scheduling integrations give a buyer a reason to look, but the memo does not establish enough incremental value to justify ownership at a price that clears the holder’s hurdle. This supports Watch pending price evidence. The memo establishes neither a structural block nor a supported ceiling on proceeds that would trigger Pass. (The Idea, Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 14/30 |
+| Counterparty rationale or source of cash | 15/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 11/20 |
+| Milestones and capital needed | 10/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
@@ -37,4 +35,4 @@ A platform vendor may get comparable results from its own bundled receptionist o
 
 ### Decisive diligence question
 
-Would a dental platform vendor’s build-versus-buy analysis, grounded in a paid multi-site rollout, justify enough cash to clear the investor’s proceeds hurdle? Move to **Reach out** if the rollout shows repeatable gains in completed treatment and lower staff rework versus the vendor’s best available alternative, and the vendor’s rollout economics support about $83.3 million in distributable equity proceeds at 3% ownership. Stay on **Watch** while that evidence is missing. Move to **Pass** if the comparison establishes that an available substitute caps buyer value below the hurdle.
+At what scale of retained paying locations would a dental software buyer value owning Kairos’s recall and booking workflow, over building or licensing an equivalent, at a price that clears the holder’s $2.5M cash target within eight years? Paid-cohort results on incremental completed visits, paired with a buyer’s build-versus-buy economics, would answer it. A supported price range that clears the target after dilution and senior claims at an attainable scale would move the action to Reach out. Evidence that the strongest credible sale would leave the holder materially short would move it to Pass.

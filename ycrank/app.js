@@ -391,10 +391,14 @@ function app() {
       window.location.hash = this.companyHash(slug);
     },
 
-    followCompanyLink(event, slug) {
+    activateCompanyCard(event, slug) {
       if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
       event.preventDefault();
-      this.openCompany(slug);
+      if (this.expandedCompanySlug === slug) {
+        this.openCompany(slug);
+      } else {
+        this.expandedCompanySlug = slug;
+      }
     },
 
     rememberCompanyList(slug) {
@@ -480,19 +484,9 @@ function app() {
       return this.manifest?.table.some(row => row.tractionRank != null) ?? false;
     },
 
-    get mobileSortOptions() {
-      return [
-        ...(this.hasMobileTraction ? [['tractionRank:1', 'Traction · #1 first'], ['tractionRank:-1', 'Traction · #1 last']] : []),
-        ['name:1', 'Company · A–Z'], ['name:-1', 'Company · Z–A'],
-        ...this.mobileEvaluators.flatMap(({ abbr, fullName }) => [
-          [abbr + ':-1', fullName + ' · Highest first'], [abbr + ':1', fullName + ' · Lowest first']
-        ])
-      ];
-    },
-
-    selectMobileSort(value) {
-      const [col, dir] = value.split(':');
-      this.mobileSort = { col, dir: Number(dir) };
+    sortMobileBy(col) {
+      this.sortBy(col);
+      this.expandedCompanySlug = null;
       this.acOpen = false;
       this.$refs.dashboardLayout?.scrollTo(0, 0);
     },
@@ -614,10 +608,6 @@ function app() {
           e.target.blur();
         }
       }
-    },
-
-    toggleCompanyPreview(slug) {
-      this.expandedCompanySlug = this.expandedCompanySlug === slug ? null : slug;
     },
 
     reportedArr(tractionReason) {

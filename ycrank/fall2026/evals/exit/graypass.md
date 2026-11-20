@@ -5,36 +5,28 @@
 
 ### Company case
 
-A strategic acquisition by a fraud or identity platform is GrayPass’s strongest private exit path. The memo documents short-lived signed proofs tied to individual application actions, such as payouts, and records LexisNexis’s acquisition of behavioral-risk vendor BehavioSec. A platform could buy GrayPass to integrate proof at the point of authorization and control how it develops across customer workflows. That ownership rationale is an inference. The memo supplies no measured production benefit or buyer economics that establish an advantage over building or licensing the capability. (The Idea, Defensibility, Market & Traction)
+Strategic acquisition is GrayPass’s strongest path. An identity or fraud platform could buy its software for issuing signed proof that a specific sensitive action was authorized. The memo documents that capability and records LexisNexis’s acquisition of BehavioSec, an adjacent behavioral-risk purchase. A buyer could gain control over how action-specific proof is integrated and distributed across its platform. That ownership advantage is an inference. Its value depends on GrayPass improving outcomes beyond the buyer’s existing controls. (The Idea, Defensibility, Market & Traction)
 
-GrayPass reports more than 900,000 customer-app sessions, $50,000 in October 2026 revenue, and $100,000 in early funding. These signals support a path to a paid production test. The decision API is in beta, behavioral recognition remains limited to sandbox and shadow evaluation, and each customer must integrate enforcement into its own authorization flow. The milestone is a paid deployment that measures unauthorized payouts and false challenges against the customer’s existing controls. The capital and runway needed to reach that milestone are unverified. A sale would also require diligence on IP ownership, customer contract assignability, and continued use of customer-scoped behavioral data under applicable consent terms. The memo documents consent requirements for collection in Illinois and supplies no deal-specific evidence on transfer. (Market & Traction, Key Facts, Key Risks, Defensibility)
+The operating milestone is a paid production rollout on a sensitive workflow, such as payouts, that measures incremental fraud-loss reduction, false challenges, and integration effort against the customer’s existing controls. GrayPass reports more than 900,000 sessions processed and $50,000 in October 2026 revenue as of launch. Those signals make a production test plausible. Behavioral recognition remains experimental, customers must wire enforcement into each workflow, and the disclosed $100,000 investment leaves current runway and test funding unclear. A software acquisition with buyer-led redeployment is a plausible structure. IP ownership and customer contract assignment remain unverified, and any reuse of tenant-scoped biometric templates would need to account for consent and deletion obligations. (Market & Traction, Key Facts, Key Risks, Defensibility)
 
-**Proceeds bridge.** The check terms are unspecified, so the scenarios assume a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted by 40% to 3%, and no follow-on checks. The goal is $2.5 million in gross cash within eight years, or 5×. The sale scenarios assume zero net debt and other closing adjustments, no preference claims, and pro rata allocation before investor taxes. All consideration is cash at closing. Stock, escrow, earnouts, rollover, and separate compensation are each assumed to be zero. Under those assumptions, enterprise value equals distributable equity, and the hurdle is $83.3 million at 3% ownership, $125 million at 2%, and $62.5 million at 4%.
-
-| Illustrative outcome | Timing | Gross cash to investor | Gross multiple |
-|---|---|---:|---:|
-| Modest sale at $40 million enterprise value | Year 5 | $1.2 million | 2.4× |
-| Strong sale at $100 million enterprise value | Year 7 | $3.0 million | 6.0× |
-| Growth plateaus, buyers stay away, public scale remains out of reach, and cash is reinvested | Through year 8 | $0, with shares retained | 0× realized |
-
-The sale prices are scenario assumptions. The adjacent acquisition has no disclosed price in the memo, and the reported revenue has no disclosed recurring mix or customer-level economics. The strong case clears the hurdle at 3% ownership and yields only $2 million, or 4×, at 2%. No independent fallback has usable evidence of cash reaching this holder within eight years. (Market & Traction, Key Facts)
+**Proceeds bridge.** Assume a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, no follow-ons, and an eight-year horizon. The 5× target requires $2.5 million in gross holder cash, or $83.3 million in distributable equity at 3% ownership. The equity hurdle rises to $125 million at 2% and falls to $62.5 million at 4%. With $5 million of illustrative net debt, the 3% case requires about $88.3 million in enterprise value. After that debt and assuming no additional deductions, a $25 million sale yields $600,000 gross (1.2×), and a $100 million sale yields $2.85 million (5.7×). At 2% ownership, the same strong sale yields $1.9 million (3.8×). The memo supplies neither a defensible sale price range nor actual shareholder terms, so the proceeds score uses the absent-evidence default. (Market & Traction, Key Facts)
 
 ### Countercase
 
-Castle already offers transaction-time policy decisions using behavioral and device evidence, and LexisNexis bundles behavioral biometrics with device and identity intelligence. GrayPass’s founder also acknowledges that incumbents could build the capability. If those routes deliver comparable production outcomes, signed proofs could be a feature a buyer can build or license cheaply, capping acquisition value below the proceeds hurdle. The memo establishes credible substitutes for parts of the workflow. It leaves open whether they match the value of an action-bound proof in production, so the evidence supports Watch and leaves the structural Pass override untriggered. (Defensibility, Key Risks)
+Castle already offers transaction-time policy decisions, and LexisNexis already bundles behavioral, device, and identity signals. The memo’s documented substitutes give a buyer credible build or licensing options. Their equivalence on signed proof for a specific action remains unestablished. If growth plateaus, buyers stay away, public scale remains out of reach, and GrayPass reinvests available cash for eight years, the holder realizes $0 and retains the shares. The memo supplies no evidence of eligible secondary demand, sustainable cash generation for a buyout or payout, or readiness for public resale. The private-operation downside is hypothetical, and the evidence establishes neither a structural block nor a credible sale-price ceiling that would trigger the Pass gate. (Defensibility, Key Risks, Market & Traction, Key Facts)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 16/30 |
+| Counterparty rationale or source of cash | 15/30 |
 | Plausible investor proceeds | 8/30 |
 | Milestones and capital needed | 11/20 |
-| Transaction feasibility | 5/10 |
+| Transaction feasibility | 6/10 |
 | Independent alternatives | 2/10 |
 
 **Total Score: 42/100** (Pass)
 
 ### Decisive diligence question
 
-How much incremental value would a fraud platform gain by owning GrayPass’s action-bound proof capability compared with building or licensing it? A customer-validated paid payout deployment showing fewer unauthorized payouts at an acceptable false-challenge rate against existing controls, with buyer economics that could support roughly $83 million in distributable equity, would move the action to Reach out. Evidence that a readily available substitute matches the production result at a cost that caps acquisition value below the hurdle would move it to Pass.
+What price could a strategic platform justify paying to own GrayPass after a paid production rollout measures the incremental benefit of action-bound proof? A buyer-side build-versus-buy analysis grounded in that rollout and supporting a price that clears the holder’s cash hurdle would move the action to Reach out. A supported price ceiling materially below the hurdle would move it to Pass.

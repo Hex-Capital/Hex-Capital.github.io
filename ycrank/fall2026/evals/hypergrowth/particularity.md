@@ -5,26 +5,26 @@
 
 ### Company case
 
-**Path B — Repeatable sales with account expansion.** The first buyer is a government consumer protection unit that repeatedly investigates hidden checkout fees and subscription traps. Particularity says its browser agents test those flows, preserve timestamped and hashed evidence, match it to complaints, and map findings to statutes for investigator review. The memo documents a public launch and agency outreach. Paid activation, recurring agency use, and expansion remain unverified. (*The Idea*, *Market & Traction*, *Key Facts*)
+The strongest path is repeatable direct sales to consumer protection agencies. Investigators have a recurring job of finding hidden fees and cancellation barriers and preserving evidence for review. Particularity says its browser agents test live checkout and cancellation flows, timestamp and hash captures, match them to complaints, and map findings to statutory elements. New York City’s cancellation rule and coordinated European enforcement sweeps show that the underlying job exists across jurisdictions. Reusing the browser-testing and capture workflow while adapting statutory rules is plausible. Procurement, security, and data residency requirements leave the scope of those changes unresolved. (The Idea, Market & Traction, Key Risks)
 
-The memo records new cancellation enforcement authority in New York City and coordinated online-pricing sweeps in the EU. Those activities show that the investigative job recurs across markets. The growth scenario assumes that the same browser-testing and evidence-capture software can serve agencies in both markets, with local statutes and evidence procedures handled through configuration. Under that assumption, an agency could buy an initial monitoring workflow and expand to more sites or investigation types. The main uncertainty is whether a second agency can put the same product into routine use with limited implementation work. (*The Idea*, *Market & Traction*, *Key Risks*)
+Assuming agency contracts are the business model and investigators find the captures useful, an agency could start with one enforcement sweep and expand to recurring sweeps or additional investigation types. The first unproven link is getting independent agencies from initial contact through procurement and into live use with a repeatable setup. The memo documents a public launch and call booking. Buyer commitments, paid activation, repeat use, and rollout costs remain unverified. At this stage, buyer-funded pilots with documented setup effort could support outreach. (The Idea, Market & Traction, Key Facts)
 
 ### Countercase
 
-Each agency could require a fresh procurement and security review, local hosting, and custom work to map statutes and meet evidence requirements. Each added workload could consume more browser compute and manual review, especially if failed sessions require investigators to rerun checks or corroborate captures. The memo documents security and data-residency requirements in an adjacent New York procurement and identifies browser reliability and evidence authentication as risks. That supports a concrete rollout-cost concern. The structural Pass gate remains untriggered because the memo contains no Particularity deployment data showing that those costs grow in proportion to sales or usage. (*Key Risks*, *Key Facts*)
+Each agency could require custom statutory mapping, evidence authentication, and hosting controls. New York State’s complaint-software solicitation illustrates the procurement risk with security and U.S. data-storage requirements. If those requirements force substantial engineering and staff support for each rollout, even strong investigator demand could yield a services-heavy sales motion. The structural downside gate remains untriggered because the memo documents potential requirements and leaves their actual deployment burden unmeasured. (The Idea, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 12/25 |
+| Global buyer demand | 13/25 |
 | Repeatable acquisition and onboarding | 9/25 |
 | Retention and customer expansion | 7/20 |
 | Contribution as volume grows | 7/20 |
 | Evidence of fit in the first buyer segment | 4/10 |
 
-**Total Score: 39/100** (Pass)
+**Total Score: 40/100** (Pass)
 
 ### Decisive diligence question
 
-Can a consumer protection agency in a second country fund a pilot and use the same software for a recurring sweep with bounded local setup? Move to **Reach out** if investigators use the captured evidence in their normal review workflow and the pilot records the staff time and compute needed for local rule configuration, evidence review, and reruns.
+Can Particularity bring two independent consumer protection agencies in different jurisdictions from initial contact into buyer-funded pilots using the same core workflow? Move to Reach out if both agencies use captured evidence in live investigations and rollout records show bounded local configuration and comparable setup effort. If the rollouts show that each jurisdiction requires rebuilding the core workflow with no supported path to reuse, move to Pass.

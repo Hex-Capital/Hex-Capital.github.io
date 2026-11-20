@@ -5,28 +5,26 @@
 
 ### Company case
 
-**Path B — New economies.** Organizely could make frequent production replanning economical for smaller manufacturers that rely on spreadsheets and lack the staff to update schedules when materials or equipment availability changes. Its factory ERP links production and maintenance planning, tracks materials, and drafts supplier orders for approval by text. Kinetic Labs, the founders’ prior business, uses demand planning and text approvals and reports saving 10 hours per employee per week. That testimonial supports the possibility of labor savings. Equivalent-quality labor costs, including data cleanup, approvals, and exceptions, remain unmeasured, and the memo leaves open whether the workflow served a previously uneconomic use. (The Idea, Defensibility, Market & Traction, Key Risks)
+**Path B — New Economies.** Organizely could make frequent production replanning and purchasing economical for small manufacturers that currently coordinate through spreadsheets or legacy ERP. The product is designed to use live factory data to update plans and draft supplier orders for approval by text. Kinetic Labs, the founders’ prior business, reports saving 10 hours per employee per week and achieving a 22% higher operating margin. Those figures suggest a possible labor-cost reduction, but the memo gives no baseline cost per successful planning cycle or breakdown of review, corrections, and exceptions. It also does not establish that a factory gained a planning capability it previously could not afford. (The Idea; Market & Traction; Key Risks)
 
-**Model-parity scenario.** If rival software offers equally capable planning, buyers might still pay Organizely to preserve plant-specific workflows and operating history. The linked workflows at Kinetic Labs make that plausible, while retention, switching costs, and buyer preference under parity remain untested. The company reports deployments across six states without disclosing installation counts or customer identities. Two public reviews show early use of the separate Shopify inventory app. Independent factory ERP payment and repeat use remain unknown. (Defensibility, Market & Traction, Key Risks)
-
-The founders’ factory operating, software engineering, and manufacturing project-management experience supports a seed-stage trial. Each additional factory is the expansion unit. Per-site contribution depends on ERP fees covering inference, ongoing support and exception handling, and a share of on-site setup costs. The memo leaves those inputs and factory ERP pricing unquantified. (Founders & Team, The Idea)
+Under the scenario assumption that rivals have equally capable models, buyers might still pay Organizely to keep plant-specific production, maintenance, and purchasing workflows connected. Kinetic Labs’ use of linked demand planning and order approvals shows how those workflows can become embedded. The cost of reproducing them and buyers’ willingness to stay are untested. Each new plant is the unit of expansion. Recurring ERP revenue would need to cover inference and support, plus the cost of on-site setup spread over the customer relationship. The memo gives no ERP price or deployment cost. (Defensibility; The Idea)
 
 ### Countercase
 
-Organizely may be making existing ERP work faster for buyers already served by the category. Sutton offers overlapping AI ERP capabilities, and Bizmark automates procurement and production planning from existing systems and spreadsheets. With cheap models and ample capital, rivals could close the feature gap, and the memo establishes no scarce input that Organizely controls for Path A. The overlap makes substitution credible. Actual switching under parity and the failure of the proposed new use remain unproven, so the thesis override has yet to trigger. (The Idea, Defensibility, Market & Traction)
+Organizely may make existing ERP work more efficient while serving the same buyers and workflows. Sutton already offers AI-based manufacturing ERP, and Bizmark automates procurement and production planning using existing systems and spreadsheets. The company reports deployments across six states without disclosing factory customers or paid repeat use. The two public reviews are for the Shopify inventory app. The memo leaves both Path B gates open because it contains neither a representative cost comparison for a newly served factory nor a buyer’s choice between equivalent products. The founders’ factory experience and the launched product support execution at seed. (Defensibility; Market & Traction; Key Risks; Founders & Team)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 11/25 |
+| Path-specific thesis fit | 10/25 |
 | Durable value capture | 7/25 |
-| Customer demand | 7/20 |
-| Team and execution | 10/15 |
+| Customer demand | 6/20 |
+| Team and execution | 9/15 |
 | Scale economics | 5/15 |
 
-**Total Score: 40/100** (Pass)
+**Total Score: 37/100** (Pass)
 
 ### Decisive diligence question
 
-Will independent small factories pay to keep using Organizely for a planning workflow they previously could not afford, after trying a functionally equivalent alternative? A paid trial should show repeat use, lower total labor at equivalent planning quality after setup, review, and exceptions, and a documented reason buyers choose Organizely under parity. A positive result would justify rescoring and Reach out if the case clears 65 with at least medium confidence. Reliable evidence that the labor savings disappear or buyers readily switch would move the action to Pass.
+Will an independent small manufacturer that previously could not justify frequent replanning pay to continue using Organizely after testing a functionally equivalent alternative? Move to Reach out if the trial shows that the fully loaded cost per successful planning cycle, including setup, review, and exceptions, makes the new cadence economical and the buyer renews because it values Organizely’s plant-specific workflows under model parity. A representative trial showing that the new cadence remains uneconomic or that the buyer can readily switch and preserve the outcome would close the path and move the action to Pass.

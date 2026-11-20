@@ -5,28 +5,28 @@
 
 ### Company case
 
-**Path B, new economies, is the strongest fit.** Alkera could make small pipeline repairs economical for teams that otherwise defer them because tracing downstream effects and validating business metrics takes too much specialist time. That buyer segment and its willingness to pay are hypotheses. Alkera describes using column lineage to identify affected dashboards, source-linked definitions to check business logic, and sandbox tests to validate proposed changes. It reports an 83.28% benchmark pass rate versus 68.49% for Claude Code over five runs with the same model. That supports the technical mechanism. The memo gives no production comparison of human review, retries, or recovery time per correct repair. (The Idea, Key Risks)
+**Path B — New Economies.** The plausible opening is repeat pipeline maintenance for small data teams that currently defer fixes because checking downstream effects takes too much engineering time. In that scenario, Alkera’s column-level lineage, source-linked business definitions, and sandbox tests could replace some manual dependency tracing and dashboard validation. Alkera reports an 83.28% DataAgentBench pass rate versus 68.49% for Claude Code over five runs with the same model. That supports a possible reliability gain from the workflow around the model. The market-opening test remains open because the benchmark leaves the full cost per correct production fix unknown, including integration upkeep, review, retries, approvals, and exceptions. (The Idea; Key Risks)
 
-A team’s accumulated, verified business definitions could give it a reason to keep paying Alkera when model capabilities converge. That advantage remains an inference. The memo documents launch attention and a shipped Databench release, with buyer commitments and repeat paid use undisclosed. The founders’ pipeline, agent, and data infrastructure work supports seed-stage execution. The reported early financing and San Francisco location make the mandate fit plausible. (Defensibility, Market & Traction, Founders & Team)
+With cheap, widely available frontier models, buyers might still pay for the continuity of verified definitions and trusted queries embedded in their workflows. That switching cost is an inference. Buyer preference and migration effort remain untested. Databench’s public release shows the team can ship a self-hostable workspace, and the founders bring relevant pipeline, agent, and data infrastructure experience. Launch attention and repository stars leave paid demand from the proposed segment unknown. (Defensibility; Market & Traction; Founders & Team)
 
-Self-serve signup provides a path to adding accounts. In a scenario where the next customer pays the listed $50 monthly Plus price, contribution is that fee less incremental inference, storage, integration upkeep, and support, including any review or exception handling Alkera absorbs. The memo leaves those costs, paid conversion, and the number of reachable buyers unknown. (The Idea, Key Facts)
+Another self-serve workspace on an already supported stack is a plausible unit of expansion. At the listed $200 monthly Pro price, Alkera would need to cover storage, inference, onboarding, and ongoing support from that revenue. The memo gives a price and a storage allowance while leaving actual usage costs and realized contribution unknown. (The Idea)
 
 ### Countercase
 
-Alkera may help existing data teams do the same work faster while still requiring enough specialist review to leave small repairs uneconomic. Unconnected systems can hide downstream effects. Even if the labor savings hold, Snowflake’s native tooling and Altimate’s lineage and testing features make substitution credible. With abundant capital and comparable models, competitors could build similar checks, and the memo identifies no separately controlled bottleneck for Path A. The overlap leaves Path B’s two conditions unproven. It falls short of the Reach out gate and leaves a feasible test for Watch. (Defensibility, Key Risks)
+Alkera could make existing data teams faster while leaving deferred maintenance uneconomic. The reported benchmark still leaves failed attempts, and disconnected systems can leave downstream effects outside the lineage graph, preserving manual review. Under model parity, Altimate already overlaps on warehouse connectors, dbt tests, and column lineage, while Snowflake offers a native option for dbt and catalog-aware SQL. The memo leaves both the net labor savings in live workflows and buyer behavior against a functionally equivalent substitute unresolved. Both gates remain open, which supports Watch. (Defensibility; Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 10/25 |
-| Durable value capture | 7/25 |
+| Path-specific thesis fit | 11/25 |
+| Durable value capture | 8/25 |
 | Customer demand | 5/20 |
-| Team and execution | 10/15 |
+| Team and execution | 9/15 |
 | Scale economics | 5/15 |
 
-**Total Score: 37/100** (Pass)
+**Total Score: 38/100** (Pass)
 
 ### Decisive diligence question
 
-Will teams that previously deferred small pipeline repairs repeatedly pay Alkera when a comparable same-model alternative can do the work? A paid field trial should compare the prior workflow, Alkera, and an alternative with comparable integration coverage at equivalent downstream accuracy. Count all human time per successful repair, including review, retries, and recovery, then see whether teams keep paying Alkera and identify what they value enough to stay. A result that clears both Path B conditions would support Reach out if the updated evaluation also clears the score and confidence gates. Evidence that review erases the savings or that buyers switch readily under parity would move the action to Pass.
+Will an independent small data team pay for a second cycle of pipeline fixes it previously deferred when it can choose a functionally equivalent alternative? In a paid production trial, compare all-in cost per verified fix with the team’s former manual workflow and offer a substitute using the same model. Move to **Reach out** if the savings make the deferred work affordable and the buyer chooses Alkera again at a price that covers delivery. Move to **Pass** if the trial shows the work remains uneconomic or the buyer switches and preserves the outcome.

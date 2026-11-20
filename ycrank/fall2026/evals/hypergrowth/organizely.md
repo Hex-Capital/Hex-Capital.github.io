@@ -5,26 +5,26 @@
 
 ### Company case
 
-**Path B — Repeatable sales or partner distribution with account expansion.** The first buyer is a growing manufacturer that needs to keep production on schedule as demand, materials, and equipment availability change. The factory ERP is marketed through demos and on-site setup. If Organizely can reuse the same data model and migration process across plants, it could win accounts on demand planning and grow them through purchasing, production scheduling, and maintenance. A second-country rollout would test whether the same buyer and workflow carry over with limited changes to data imports, integrations, and support. (The Idea)
+**Repeatable direct sales** is the strongest path. The initial buyer is a growing manufacturer that needs to turn demand forecasts and materials records into production plans and supplier orders. The memo documents a demo and on-site setup for the factory ERP. Under the scenario assumption that plants in a second market use comparable planning and purchasing workflows, the same product could plausibly travel with changes to data mappings and supplier approval rules. The company reports deployments across six U.S. states, with payment status and implementation differences undisclosed. (The Idea, Market & Traction, Key Risks)
 
-Organizely reports deployments across six U.S. states, an early signal of domestic reach with customer identities and installation counts undisclosed. Kinetic Labs, the founders’ prior business, uses demand planning and text-based supplier order approvals and reports a 22% higher operating margin and 10 hours saved per employee per week. That is a concrete signal of possible value in the first segment. Use across linked workflows shows room for account expansion, while retention, paid expansion, and independent factory buyers’ willingness to pay remain unverified. (Market & Traction, Defensibility, Key Risks)
+At founder-affiliated Kinetic Labs, the memo documents use for demand planning and supplier order approvals by text. Kinetic Labs reports saving 10 hours per employee per week and increasing operating margin by 22%. The linked workflows and weekly savings suggest recurring value. Paid expansion, renewal, and independent buyer commitment remain unverified. The Shopify app reviews concern a separate product and provide no evidence of conversion for the factory ERP. (Defensibility, Market & Traction, The Idea)
 
 ### Countercase
 
-Each new factory could require another hands-on sale, an on-site implementation, and ongoing help cleaning up materials and equipment records. If those costs rise with each customer and each added workflow, the ERP could scale like a services business. The documented Shopify listing, migration guide, and two customer reviews concern the inventory app. Factory ERP pricing and delivery costs are undisclosed, so those app signals leave the economics of factory rollout open. The memo gives enough reason to watch for a measured rollout, while the Pass gate requires evidence that the cost burden is structural. (The Idea, Market & Traction, Key Risks)
+Even with strong fit, the first link likely to break is the handoff from demo to live production. On-site setup and incomplete plant records could require repeated founder effort to configure each rollout. The memo gives no independent demo-to-payment record, comparable setup hours, or ERP pricing, so there is no basis to estimate what the next deployment contributes. The Kinetic Labs margin claim describes the buyer’s economics. At this launch stage, a repeatable paid rollout is a fair test. The structural downside gate remains untriggered because the cost and customization required across deployments are unresolved. (The Idea, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 10/25 |
+| Global buyer demand | 15/25 |
 | Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 7/20 |
+| Retention and customer expansion | 8/20 |
 | Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 5/10 |
+| Evidence of fit in the first buyer segment | 6/10 |
 
-**Total Score: 38/100** (Pass)
+**Total Score: 45/100** (Neutral)
 
 ### Decisive diligence question
 
-Can an independent manufacturer outside the U.S. pay for and run demand planning through a regular production cycle using the same ERP and onboarding process? A paid contract, usage records, and a rollout log showing limited local changes and measured sales, migration, and support effort would move the action to **Reach out** if they show a deployment the team can repeat.
+Can a non-founder take two unaffiliated manufacturers in the same segment from demo to paid go-live using the same onboarding process? Move to **Reach out** if rollout records show comparable, bounded setup hours, limited custom work, and both plants using the same planning and supplier-order workflows through a normal operating cycle.

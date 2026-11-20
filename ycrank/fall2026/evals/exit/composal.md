@@ -5,36 +5,31 @@
 
 ### Company case
 
-The strongest path is a strategic acquisition of Verify by a developer tooling or coding-agent platform. Verify’s documented workflow turns product goals into repeatable browser tests and preserves product maps, scenarios, and failure evidence. Owning Verify could let a platform embed those capabilities throughout its release workflow and roll them out across its customer base. That acquisition rationale is an inference. Composal reports finding more than 1,500 bugs in customer apps, with no disclosed measure of severity, avoided cost, or improvement over existing tools. Sparks is still at the beta waitlist stage. (The Idea, Defensibility, Market & Traction)
+The strongest path is a strategic acquisition of Verify by a coding-agent or developer-platform vendor. Verify’s documented workflow turns user journeys into repeatable browser tests and attaches recordings, logs, and reproduction steps to failures. A buyer could use that capability to add release verification to its coding workflow. Ownership could be worth more than licensing if deeper integration measurably improves release outcomes and the buyer can control how verification evolves. The memo documents the product workflow and a $500 monthly list price. Buyer economics and willingness to pay remain unverified. (The Idea, Defensibility)
 
-A production pilot that measures regressions caught and engineering time saved against existing QA would strengthen the case. Composal reports that authentication or network controls stalled five of ten setup calls. Verify supports dedicated test accounts and private-network connections, giving the team a way to address that friction. Pilot cost, available runway, and the ability to transfer the software and any customer materials essential to the deal remain unverified. (Key Risks, Defensibility)
+The operating milestone is repeat paid production use across multiple teams, with measured gains in release-blocking bugs caught or engineering time saved against their existing QA. Composal reports finding more than 1,500 bugs, and the memo records an early-access Recorder rollout. Those signals support testing the milestone. Composal also reports that five of ten setup calls stalled on authentication or network controls. The cost, runway, and timing needed to turn early use into repeatable deployment are unknown. The memo leaves IP ownership and transfer rights for customer contracts and test artifacts unverified. (Market & Traction, Key Risks)
 
-The illustrative seed case assumes a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-on checks. The eight-year objective is $2.5 million in gross cash, or 5×. That requires $83.3 million in distributable equity proceeds at 3% ownership, $125 million at 2%, or $62.5 million at 4%. Verify’s documented $500 monthly Team price provides no basis for valuing an acquisition. (The Idea)
+Under the illustrative seed terms, a $500,000 check at a $10 million post-money valuation starts at 5% ownership and falls to 3% after 40% relative dilution, with no follow-ons. A 5× gross cash return within eight years requires $2.5 million to the holder, or about $83.3 million of distributable equity at 3% ownership. The hurdle is $125 million at 2% and $62.5 million at 4%. With $5 million of assumed net debt, the 3% case requires about $88.3 million in enterprise value.
 
-| Illustrative outcome | Enterprise value to equity cash | Holder cash and timing |
-|---|---|---|
-| Modest sale | $40M to $40M | $1.2M in year 5, or 2.4× |
-| Strong sale | $100M to $100M | $3M in year 7, or 6×. At 2% ownership, $2M, or 4× |
-| Prolonged private | Growth plateaus, buyers stay away, public scale remains out of reach, and cash is reinvested | $0 through year 8, or 0×, with shares still held |
-
-The sale prices and timing are scenario assumptions. Both sales assume all-cash consideration at closing, zero net debt or other price adjustments, and pro rata allocation before investor taxes. Stock, escrow, earnouts, rollover, and compensation are each assumed to be $0. Actual investment terms and waterfall are unknown. The memo provides no separate evidence of a secondary, buyout, public resale, or distribution that could pay this holder.
+- A $25 million sale in year eight yields $600,000 gross, or 1.2×. A $100 million sale yields $2.85 million, or 5.7×. Both assume a full cash sale, $5 million of illustrative net debt, pro rata distribution before investor taxes, and no further deductions for fees or senior claims. The memo supplies no realizable sale-price range.
+- If Verify adoption plateaus, buyers stay away, public-market scale remains out of reach, and all available cash goes back into the business, the holder realizes $0 over eight years and retains the shares. The memo establishes neither the predictable cash generation needed for a sponsor buyout nor surplus cash for dividends or buybacks. It supplies no evidence of an eligible secondary or IPO resale path.
 
 ### Countercase
 
-Composal reports that nine teams it spoke with had already built internal QA agents, commonly using nightly browser runs that file tickets for engineers. Verify’s subscription also gives a platform a way to test the benefit without buying the company. If either approach delivers comparable coverage and economics, a buyer has little reason to pay an acquisition premium. The memo leaves that comparison open, so the structural Pass gate is unproven. (The Idea, Defensibility, Key Risks)
+Building internally or licensing could satisfy a buyer’s verification needs. Composal reports that nine teams it spoke with had already built QA agents, and the memo describes commercial alternatives spanning intent-based testing and managed coverage. That weakens the case for paying an ownership premium. The evidence leaves open whether Verify can outperform those options enough to justify a purchase. It establishes neither a structural block nor a supported sale price that would trigger the inadequate-proceeds gate. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 12/30 |
+| Counterparty rationale or source of cash | 10/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 10/20 |
+| Milestones and capital needed | 9/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 37/100** (Pass)
+**Total Score: 34/100** (Pass)
 
 ### Decisive diligence question
 
-Can a production pilot with a potential acquirer show that owning Verify creates enough incremental value to support the required sale price? Move to **Reach out** if measured reductions in escaped regressions and engineering time, compared with in-house QA and a Verify license, support a buyer’s valuation that could yield at least $83.3 million in distributable equity within eight years at the modeled 3% ownership.
+Could a coding-agent platform justify paying about $88 million in enterprise value for Verify once multiple paying teams show sustained, measurable gains over their existing QA? A buyer-side evaluation that quantifies those gains, tests build and licensing alternatives, and supports a price around that hurdle under the modeled shareholder terms would move the action to Reach out.

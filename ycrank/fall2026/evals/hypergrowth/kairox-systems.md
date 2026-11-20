@@ -5,28 +5,26 @@
 
 ### Company case
 
-**Path B — Repeatable sales or partner distribution with account expansion.** Military maritime teams are the initial users. Kairox says they rely on separate aerial and underwater drones, each with its own operators and logistics. If Tempest can replace both in a recurring workflow, a procurement buyer could start with one deployment and expand through follow-on orders for more units or teams. Kairox offers direct briefings and reports U.S. Marine Corps engagement and concept validation with U.S. and allied military end users. The allied feedback is an early signal that the problem may recur across markets. Buyer willingness to pay and the changes needed for local qualification, procurement, and support remain open. (The Idea, Market & Traction)
+**Repeatable direct sales** is the strongest path. Kairox offers direct government briefings and reports U.S. Marine Corps engagement and concept feedback from U.S. and allied military end users. The proposed buyer is a military maritime team that regularly uses both aerial and underwater systems. Kairox’s claim that those systems require separate operators and logistics makes the same job plausible across allied markets. Kairox reports laboratory component validation, and field qualification and the changes required for a second market remain open. (*The Idea*, *Market & Traction*, *Key Risks*)
 
-The reported validation is at the laboratory component stage, and Kairox describes procurement as a future milestone. The memo’s unquantified revenue classification leaves paid Tempest deployment uncertain. The record supports concept interest, with buyer commitment, repeatable activation, and account expansion still unverified. (Key Risks, Key Facts)
-
-**Scaling scenario.** If buyers can qualify and deploy a common configuration, follow-on orders could spread the initial bid and qualification effort over more units. Each additional unit would still require manufacturing, acceptance testing, and inventory funding. Each new account could add training and support, and each new geography could add qualification and procurement work. The contribution case depends on how much of that work Kairox can reuse and what it costs to deliver each additional unit. The memo gives no deployment cost data. (The Idea, Key Risks, Key Facts)
+**Scenario assumption.** If Tempest delivers enough value for a first buyer to adopt it, Kairox could grow through government purchases and repeat fleet orders. The first scaling test is whether the next buyer can qualify and deploy the same configuration with limited additional engineering. The memo records a briefing offer but leaves the route from discovery to activation unobserved. The revenue flag identifies neither a buyer nor a Tempest purchase. There is no usable evidence of repeat paid use or marginal delivery costs, and the reported concept feedback leaves buyer-confirmed urgency and meaningful commitment unresolved. Those four dimensions use their defaults. (*The Idea*, *Market & Traction*, *Key Risks*, *Key Facts*)
 
 ### Countercase
 
-Buyers may keep their existing fleets if Tempest fails to demonstrate a clear purchasing advantage. Even if an initial buyer adopts it, separate qualification and hands-on rollout for every customer could make sales and delivery effort rise in step with orders. Laboratory-stage validation and concept feedback leave that outcome plausible. The memo establishes neither a structural limit on demand nor proportional scaling costs, so the Pass gate does not apply. (Defensibility, Market & Traction, Key Risks)
+Buyers can keep their separate fleets, and Kairox still has to demonstrate an integrated field benefit large enough to justify procurement and a workflow change. Even after a first sale, buyer-specific qualification and support could make delivery effort rise in proportion to sales. The lab-stage evidence and concept feedback make that a credible downside. The structural downside gate does not apply because the memo has no deployment history showing that this cost pattern is unavoidable. (*The Idea*, *Defensibility*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 11/25 |
+| Global buyer demand | 12/25 |
 | Repeatable acquisition and onboarding | 9/25 |
 | Retention and customer expansion | 7/20 |
 | Contribution as volume grows | 7/20 |
 | Evidence of fit in the first buyer segment | 4/10 |
 
-**Total Score: 38/100** (Pass)
+**Total Score: 39/100** (Pass)
 
 ### Decisive diligence question
 
-Can an allied maritime procurement buyer fund and complete a field trial of the same Tempest configuration Kairox is offering U.S. buyers? Move to **Reach out** if the trial demonstrates that Tempest can take over a recurring workflow, documents the qualification and support effort, and identifies the budget holder and purchasing route for follow-on units. That would test buyer commitment and cross-market portability in one deployment. (The Idea, Market & Traction, Key Risks)
+Can a military maritime buyer fund and complete a field evaluation of the standard Tempest configuration? A buyer-funded evaluation that meets agreed acceptance criteria and documents limited buyer-specific engineering would move the action to **Reach out**. Continued concept feedback would keep it at **Watch**. (*Market & Traction*, *Key Risks*)

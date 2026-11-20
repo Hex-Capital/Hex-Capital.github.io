@@ -5,28 +5,28 @@
 
 ### Company case
 
-**Path A — Scarce complements.** Robot model teams need physical trials that reproduce failures, verify outcomes, and capture corrections. If cheaper intelligence lets teams produce more policy versions, access to repeatable physical tests could become more valuable. SE3 reports running standardized workcells and says partner-site sandboxes are the next step. Its reported Dream-1 test recorded zero full-task completions in 100 zero-shot episodes. That shows a failure mode the workcell can surface. Whether SE3’s corrections improve performance on held-out tasks remains open. (The Idea, Market & Traction, Key Risks)
+**Path A — Scarce complements** is the strongest path. If cheap, widely available robot intelligence increases the number of policies teams want to test, the bottleneck could shift to physical trials. Model teams bear the cost of setting up hardware and tasks, verifying outcomes, and resetting the workcell. SE3 reports zero full-task completions in 100 zero-shot Dream-1 trials at its test station. That result shows what physical evaluation can uncover on one setup. Whether target buyers face a shortage of qualified trial capacity remains open. (The Idea, Key Risks)
 
-SE3 released 500 teleoperation episodes across 10 benchmark tasks. The release and the founders’ experience in factory deployments, robotics research, and data infrastructure support seed-stage execution. The 1,596 monthly dataset downloads show early interest in the benchmark. Buyer commitments and revenue remain unverified. The reported San Francisco seed-stage profile fits the mandate. (Founders & Team, Market & Traction, Key Facts)
+SE3 reports access to automotive, processing, and hospitality sites. Its release of 500 teleoperation episodes across 10 benchmark tasks shows the team can collect and package physical robot data at seed stage. The 1,596 monthly downloads show interest in the public benchmark. The memo identifies no buyer commitment for the workcell service, and SE3 describes partner-site sandboxes as its next step. (Defensibility, Market & Traction, Key Facts)
 
-The scale unit is a completed customer evaluation. If standardized setups can be reused across orders, project fees could cover allocated hardware and site time, resets, human interventions, and annotation. The memo gives no measured throughput, utilization, or contribution margin to validate that scenario. (The Idea, Defensibility, Key Risks)
+A staffed workcell is a plausible unit of expansion. Project fees would need to cover hardware, site access, setup and resets, human interventions, and data preparation at realistic utilization. The memo provides the project-fee structure, while trial throughput, staffing costs, and utilization remain unmeasured in the evidence provided. (The Idea, Key Risks)
 
 ### Countercase
 
-Well-funded model teams could build comparable workcells using RoboDojo, and Enact already offers physical rollouts and recovery data. Site partners can constrain schedules and access, raw recording requires authorization, and any reusable library of failures depends on contract rights. If buyers can obtain equivalent results elsewhere or site partners control indispensable access, Path A fails. The memo identifies credible substitutes but leaves equivalence and SE3’s control unresolved. Path B has no evidenced newly viable buyer or transaction, so it offers no independent investment case today. (Defensibility, Market & Traction, Key Risks)
+Robot model teams could run their own physical benchmarks with RoboDojo or buy repeatable failure testing and recovery data from Enact. If either can reproduce the target workflow at comparable cost and turnaround, SE3’s site access offers little leverage. The memo gives no evidence that SE3 has enforceable access to hard-to-replace sites, and reuse of recordings depends on permissions. The alternatives make substitution credible, while their equivalence on partner-site tasks remains untested. That unresolved condition triggers Watch. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 13/25 |
+| Path-specific thesis fit | 12/25 |
 | Durable value capture | 8/25 |
-| Customer demand | 6/20 |
+| Customer demand | 5/20 |
 | Team and execution | 10/15 |
 | Scale economics | 5/15 |
 
-**Total Score: 42/100** (Pass)
+**Total Score: 40/100** (Pass)
 
 ### Decisive diligence question
 
-Will an independent robot model team pay for a repeat partner-site evaluation after SE3 demonstrates greater held-out task improvement per dollar than the buyer’s existing workflow? Count the milestone only if SE3 has enforceable repeat access and permission to collect the required recordings. A paid repeat order on those terms would support Reach out if the updated score reaches 65 with at least medium confidence. A comparable result from a readily available substitute would shift the action to Pass.
+Will an independent robot-model team commit to a paid repeat order for a partner-site workflow after comparing SE3 with its best in-house or vendor alternative? Move to Reach out if the buyer repeats at a price that covers delivery costs because SE3 provides materially more usable, verified rollouts through site access it can contractually secure. If the alternative matches that outcome at comparable cost and turnaround, close Path A and Pass. (The Idea, Defensibility, Key Risks)

@@ -5,28 +5,26 @@
 
 ### Company case
 
-**Path A — Product-led adoption.** The likely first buyer is a smartphone user who repeatedly moves between messaging, documents, and calls and would switch handsets to delegate that work. Cyclon says its OS agent can act across signed-in Android apps and run tasks in the background. If buyers can set up the phone themselves and complete a useful workflow quickly, creator demonstrations could bring more buyers into the same direct purchase and activation flow. Saved rules and user-created apps could deepen usage if customers keep relying on them. (The Idea, Defensibility)
+Product-led adoption is Cyclon’s strongest plausible path. The likely first buyers are smartphone users who frequently complete tasks across several apps and would switch handsets to automate them. Cyclon describes an Android agent that can find a document, change its permissions, and send it through a messaging app from a single request. That recurring job plausibly travels wherever the relevant apps and permissions work. App certification and identity checks limit which workflows and buyers Cyclon can serve, and delivery of its custom handset depends on FCC authorization. (The Idea, Key Risks)
 
-The memo records 1.5 million reported launch-post views and a live direct reservation offer. The $199 deposit is refundable and goes toward an estimated $699 handset price. The memo gives no reservation count, completed purchases, or activation and repeat-use records. The launch shows discovery, while willingness to switch and pay remains untested in the evidence. The same cross-app job could recur abroad, but serving a second market would require checking local app compatibility, handset authorization, fulfillment, and support. The memo gives no second-market buyer evidence. (Market & Traction, The Idea, Key Facts, Key Risks)
-
-At the estimated price, a completed sale would bring in $699 including the deposit, before acquisition, build, shipping, returns, support, and ongoing AI compute. A reusable OS and self-serve setup could reduce work per buyer. Each additional device still ties up inventory capital, and heavier use could raise compute costs while AI is included in the beta. The memo provides no unit-cost or usage-cost measurements. (The Idea, Key Facts, Key Risks)
+The memo records 1.5 million launch-post views and a direct preorder route. Cyclon offers a refundable $199 reservation toward an estimated $699 handset and describes a closed beta on refurbished Pixel 8a devices. Even if the product proves valuable to its first buyers, the first unproven growth link is whether people arriving through the website will complete payment, switch phones, and reach first value through standard onboarding. The memo provides no usable buyer records of activation, repeat use, or concrete commitment. It also gives no marginal cost measurements for devices, fulfillment, support, or cloud AI, which Cyclon includes during the beta. (The Idea, Market & Traction, Key Facts)
 
 ### Countercase
 
-Google already offers supported task automation on existing Android phones, so Cyclon has to deliver enough additional value to justify buying and switching devices. Its own compatibility caveats cover banking, payments, and work apps, and the custom handset faces an authorization dependency and conflicting delivery estimates. Those constraints could break activation or make each rollout expensive. The memo does not establish a structural ceiling or proportional scaling costs, so the Pass gate does not apply. (Market & Traction, Key Risks)
+Google already automates supported tasks on existing Android phones. Cyclon asks buyers to switch devices for broader automation, while work, banking, and payment apps can fail or limit what its agent can do. If those restrictions interrupt the routines that justify switching, a widely shared need could still yield weak conversion and repeat use. The structural downside gate stays open because the memo documents compatibility risks without showing that they block the target segment or force delivery costs to rise in proportion to sales. (Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 9/25 |
+| Global buyer demand | 13/25 |
 | Repeatable acquisition and onboarding | 9/25 |
 | Retention and customer expansion | 7/20 |
 | Contribution as volume grows | 7/20 |
 | Evidence of fit in the first buyer segment | 4/10 |
 
-**Total Score: 36/100** (Pass)
+**Total Score: 40/100** (Pass)
 
 ### Decisive diligence question
 
-Can a cohort recruited through a tracked creator campaign complete purchases near the intended price, activate without founder help, and keep delegating the same cross-app workflow over several weeks? Purchase, setup, and task records from that cohort would move the action to **Reach out** if they show the full sequence. Refundable reservations or one-off demos would keep it at **Watch**.
+Can the first cohort of independent buyers acquired through Cyclon’s website complete a full-price purchase, finish a recurring cross-app task through standard setup without founder help, and continue using that workflow over several weeks? Documented results across that cohort would move Cyclon to Reach out by showing that launch interest can convert into paid, recurring use.

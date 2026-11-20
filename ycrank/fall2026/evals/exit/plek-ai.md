@@ -5,32 +5,30 @@
 
 ### Company case
 
-**Strategic acquisition** is the strongest path. A workforce-planning platform that already sells into M&A could buy Plek’s task-level modeling and employee-by-employee reconciliation of overlapping savings. Ownership could let the buyer embed the technology across its customer base and control how it develops. That advantage is an inference. The memo documents Orgvue’s existing M&A workforce tools and an announced majority acquisition of Orgvue at undisclosed terms. The transaction shows interest in the category and gives no usable price benchmark for Plek. (The Idea, Defensibility, Market & Traction)
+Strategic acquisition is Plek’s strongest path. A workforce-planning vendor such as Orgvue could buy Plek’s task-level modeling software to add employee-by-employee EBITDA estimates and reconcile overlapping savings across restructuring scenarios. Plek reports that one pilot identified $30 million in potential annual EBITDA improvements, matching a six-week advisory estimate. That benchmark suggests the workflow could be valuable to a buyer’s customers. The case for ownership depends on whether exclusive integration and resale would generate more value than building or licensing the capability. The announced Orgvue majority acquisition shows that an adjacent workforce-planning business attracted a control buyer. Its undisclosed price provides no valuation benchmark for Plek. (The Idea, Market & Traction, Key Risks)
 
-Plek reports four completed pilots, deployment at a $2 billion PE fund, and onboarding with a PE adviser. Its reported $30 million annual EBITDA opportunity matched an adviser’s estimate of potential savings. The memo supplies no realized savings or disclosed paid renewals. Repeat paid production use across several deals, with customers verifying faster diligence or better decisions, would give a buyer a basis for valuing the workflow. The pilots make that milestone plausible, while conflicting funding figures and undisclosed burn and runway leave the cost and timing uncertain. The memo also leaves IP ownership and customer contract transfer rights unverified. A sponsor buyout is a weaker path because Plek’s recurring revenue and cash generation are unproven. (Market & Traction, Key Facts, Key Risks, Defensibility)
+A milestone that would strengthen the sale case is a paid expansion at the reported PE fund across at least two portfolio companies, with customer-verified time savings and fees that demonstrate repeat demand. Plek reports four completed pilots, a fund deployment, and advisory onboarding, so it has a plausible setting for that test. The memo gives no paid conversion or burn figures. The conflicting $125,000 and $500,000 funding estimates leave the budget and runway for the test unresolved. The product’s research origins and handling of employee data also leave IP ownership and customer contract transfer rights open. (Market & Traction, Defensibility, Key Risks)
 
-**Proceeds bridge.** Using the illustrative $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-on checks, the eight-year objective is $2.5 million in cash. That requires $83.3 million of distributable equity at 3% ownership, $125 million at 2%, or $62.5 million at 4%. The sale scenarios assume all-cash consideration at closing, so there is no stock, escrow, earnout, rollover, or compensation. They also assume no net debt, fees, other closing adjustments, or preference leakage. Under those assumptions, enterprise value equals distributable equity value and the holder receives 3% before taxes.
+**Proceeds bridge.** With actual ownership and waterfall terms unavailable, assume a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted by 40% to 3%, and no follow-ons. The eight-year 5× target is $2.5 million in gross cash before investor taxes. At 3%, that requires $83.3 million of distributable equity, or $88.3 million of enterprise value with illustrative net debt of $5 million. At 2% or 4% ownership, the equity hurdle is $125 million or $62.5 million, respectively. Under the same debt assumption and a simple pro rata waterfall, a $25 million sale at year eight yields $600,000 (1.2×), and a $100 million sale yields $2.85 million (5.7×). Actual debt, fees, and senior claims are unknown. The memo supplies no realizable price range, and the customer’s modeled EBITDA opportunity does not establish what an acquirer would pay. (Market & Traction, Key Facts)
 
-- **Modest sale, year 5.** A hypothetical $40 million sale pays the holder $1.2 million, or 2.4×.
-- **Strong sale, year 7.** A hypothetical $100 million sale pays $3 million, or 6×. At 2% ownership it pays $2 million, or 4×. The memo provides no buyer economics supporting the assumed price.
-- **Prolonged private, through year 8.** Growth plateaus, buyers stay away, public-market scale remains out of reach, and cash is reinvested. The holder retains the shares and realizes $0, or 0×. The memo supplies no independently supported fallback that pays this holder. (Market & Traction, Key Facts)
+The memo gives no evidence of the predictable cash generation needed for a sponsor buyout, eligible share demand for a secondary, public-market scale, or excess cash and willingness to fund a payout. If growth plateaus, no buyer emerges, public scale stays out of reach, and Plek reinvests available cash without a secondary or payout, the holder realizes $0 over eight years and retains the shares. A wind-down residual cannot be estimated without assets, obligations, and preferences. (Market & Traction, Key Facts)
 
 ### Countercase
 
-A buyer may be able to license Plek’s workflow or build enough of it in-house. Orgvue already sells M&A restructuring tools, and Reejig already maps work at the task level. Plek’s reported benchmark demonstrates agreement between estimates, leaving the value of its incremental capability in production unresolved. If licensing or building delivers comparable value, the premium for ownership could fall below the proceeds hurdle. The memo leaves that price ceiling unresolved, so the structural Pass override does not apply. (Defensibility, Market & Traction, Key Risks)
+Orgvue already sells M&A workforce scenario tools, and Reejig already maps work at the task level. Those capabilities make an internal build or a license credible alternatives to buying Plek. The $30 million benchmark measures modeled opportunity, and the memo gives no customer-verified savings realized from it. An incumbent could therefore value the feature while having little reason to pay enough for the company to clear the holder’s hurdle. The evidence leaves price and transferability unresolved and establishes neither a structural block nor a supported sale price below the hurdle. The Pass gate is untriggered. (The Idea, Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 14/30 |
+| Counterparty rationale or source of cash | 17/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 10/20 |
+| Milestones and capital needed | 12/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 39/100** (Pass)
+**Total Score: 44/100** (Pass)
 
 ### Decisive diligence question
 
-After repeat paid deployments, would owning Plek create enough incremental value for a workforce-planning platform to justify a price that clears this holder’s cash hurdle? A buyer’s quantified build-versus-license-versus-buy assessment, grounded in verified production results and supporting at least $83.3 million in distributable equity under the base assumptions, would move the action to Reach out. Evidence that a readily available substitute caps the price materially below that hurdle would move it to Pass.
+After a paid expansion across at least two portfolio companies, would the incremental economics of owning Plek’s software support a price that clears the holder’s $2.5 million cash target within eight years? A credible buyer valuation grounded in the expansion’s measured results and fees would move the action to Reach out if it clears the hurdle after dilution and claims. If the strongest supported price leaves the holder materially short, the action becomes Pass.

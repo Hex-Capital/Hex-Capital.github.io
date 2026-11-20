@@ -5,36 +5,36 @@
 
 ### Company case
 
-Strategic acquisition is the strongest path. A senior-care software platform could buy Ascenix to add incident reporting and compliance workflows across customers’ existing EHRs. Responsive Health Management reported 80% less time spent on manual fall analysis and 15% fewer non-compliance incidents over three months. That supports the value of the workflow to an operator. The ownership case is an inference. If Ascenix can reuse its connectors and facility rules across paid deployments, buying it could save a platform buyer meaningful development and rollout time. The memo gives no buyer-side estimate of that advantage. (The Idea, Defensibility, Market & Traction)
+**Strategic acquisition** is the strongest path. A senior-care software vendor such as August Health could buy Ascenix to add incident reporting, compliance follow-up, and reimbursement checks alongside its resident-record, medication, and payments products. Responsive Health Management reported 80% less time spent on manual fall analysis and 15% fewer non-compliance incidents over three months. Those figures show potential value to operators. The buyer rationale is an inference. Owning the connectors and configurable workflows could accelerate a broader rollout if they can be reused across EHRs and facility policies. The memo provides no estimate of that benefit to a buyer. (The Idea, Defensibility, Market & Traction)
 
-Ascenix reports 55 live facilities. That makes a test of repeatable paid deployment plausible at seed. Each site still requires integration and local policy validation, and the memo gives no deployment costs, retention, or runway to assess how much capital the test would take. Current EHR access supports operation today. Whether that access and the customer contracts would carry through a sale remains unverified. The reported PointClickCare secondary provides no evidence of demand for Ascenix shares, and the memo supports no independent fallback. (Market & Traction, Key Risks, Key Facts)
+The operating milestone is a retained cohort of paying multi-site operators on at least two EHRs, with measured implementation costs and recurring gross profit. Responsive reported deploying Ascenix across all its homes, and Ascenix reports 55 live facilities. That makes the milestone plausible at seed. Site-specific setup and policy validation leave rollout economics uncertain, and the memo gives no burn or runway figures to assess the capital needed. (Market & Traction, Key Risks)
 
-The illustrative $500,000 check starts at 5% ownership and falls to 3% after 40% relative dilution, with no follow-on checks. The 5× objective is $2.5 million in gross cash within eight years. A simple pro rata waterfall requires $83.3 million in distributable equity proceeds at 3% ownership, $125 million at 2%, or $62.5 million at 4%. The sale scenarios assume enterprise value equals distributable equity after zero net adjustments, with all consideration paid in cash at closing. Stock, escrow, earnouts, rollover, and compensation are each assumed to be zero. The memo supplies neither applicable waterfall terms nor a basis for estimating an Ascenix sale price. (Market & Traction, Key Facts)
+**Proceeds bridge.** The illustrative seed case assumes a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-ons. A 5× gross cash return within eight years requires $2.5 million to the holder, or $83.3 million in distributable equity at 3% ownership. The equity hurdle rises to $125 million at 2% and falls to $62.5 million at 4%. With illustrative net debt of $5 million, the 3% case requires about $88.3 million in enterprise value. The memo supplies no Ascenix sale-price evidence, investor terms, or quantified debt, fees, or senior claims. The scenarios use simple pro rata proceeds before investor taxes. (Market & Traction, Key Facts)
 
-| Illustrative outcome | Timing | Investor cash | Gross multiple |
-|---|---|---:|---:|
-| Modest sale at $40 million | Year 5 | $1.2 million | 2.4× |
-| Strong sale at $100 million | Year 7 | $3.0 million | 6.0× |
-| Prolonged private ownership | Through year 8 | $0 | 0.0× |
+| Illustrative outcome by year eight | Gross cash to the holder |
+|---|---:|
+| Modest sale at $25 million enterprise value, less $5 million of net debt | $600,000 (1.2×) |
+| Strong sale at $100 million enterprise value, less $5 million of net debt | $2.85 million (5.7×) |
+| Growth plateaus, buyers stay absent, public scale remains out of reach, and available cash is reinvested | $0, with shares still held |
 
-The strong sale clears the hurdle at 3% ownership and falls short at 2%. In the prolonged-private case, growth plateaus, buyers stay away, public scale remains out of reach, and the company reinvests its cash. The investor retains the shares.
+The memo depicts monthly invoicing but supplies no cash-generation evidence for a sponsor buyout or company-funded payout, no eligible Ascenix secondary demand, and no operating scale or reporting readiness to support an IPO. PointClickCare’s reported secondary does not establish demand for Ascenix shares. A wind-down would pay the holder only from any residual after obligations and preferences. The memo gives no basis to quantify that residual. (The Idea, Market & Traction, Key Facts)
 
 ### Countercase
 
-PointClickCare already offers native incident management and controls the integration Ascenix uses to access live notes and incident records. A platform buyer could build enough of the workflow internally or license it, limiting what it would pay to own Ascenix. Site-specific implementation further weakens the case that an acquisition would accelerate rollout. This supports Watch. The memo leaves open whether a substitute can match Ascenix across EHRs and whether that would cap every credible buyer’s price below the proceeds hurdle. (Defensibility, Key Risks)
+PointClickCare already offers native incident management, and Guardoc already automates chart compliance checks. An incumbent could use existing tools or license Ascenix’s workflows while leaving site-specific implementation with Ascenix. A sale to another vendor also depends on preserving live data access that PointClickCare controls. The memo leaves post-sale access and customer contract transferability unresolved. These risks weaken the ownership case, but the evidence establishes neither a structural block nor a sale-price ceiling that leaves the holder materially short. The Pass gate is therefore unmet. The missing support for a realizable price warrants Watch and Low confidence. (Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 17/30 |
+| Counterparty rationale or source of cash | 15/30 |
 | Plausible investor proceeds | 8/30 |
 | Milestones and capital needed | 11/20 |
-| Transaction feasibility | 5/10 |
+| Transaction feasibility | 4/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 43/100** (Pass)
+**Total Score: 40/100** (Pass)
 
 ### Decisive diligence question
 
-Can repeatable paid deployments across multiple EHRs show enough value from ownership to justify a sale yielding about $83.3 million in distributable equity? Move to Reach out if measured deployment costs and customer results support buyer economics at that hurdle after accounting for what the buyer could build or license.
+What acquisition price could a senior-care software vendor justify from owning Ascenix after it demonstrates repeatable paid deployments across EHRs? A buyer economics model grounded in retained revenue, deployment costs, and the savings from buying versus building or licensing would move the action to Reach out if it supports a credible price range that clears the holder’s 5× cash hurdle.

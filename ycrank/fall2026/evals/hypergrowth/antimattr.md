@@ -5,26 +5,28 @@
 
 ### Company case
 
-**Path B — Repeatable sales or partner distribution with account expansion.** The first plausible buyer is a factory maintenance team that needs hands-free troubleshooting in noisy environments. The named Geocarbonite partnership gives antimattr a route into that workflow through IntelliPro. The company reports two enterprise hardware pilots, with payment terms, customer identities, and any connection to IntelliPro undisclosed. It also reports 2,000+ preorders and a sold-out first batch. The India checkout offers a refundable reservation, and the memo leaves full-price conversion and buyer mix open. *(The Idea, Market & Traction, Key Facts)*
+The strongest path is **channel-led or repeatable sales** through direct hardware orders. The likely first buyers are people who frequently dictate or issue agent commands in noisy settings. Mnemosyne pairs voice-isolating earbuds with a tap-controlled ring for that job. The same workflow plausibly travels across markets, with field accuracy, language coverage, and local privacy requirements still open. (The Idea, Key Risks)
 
-**Scenario assumption.** If voice isolation makes Mnemosyne useful during routine troubleshooting, the same IntelliPro integration could bring the next thousand factory buyers in through a standard deployment. A plant could start with one maintenance crew and expand to more crews or sites. An Indian factory rollout would test whether the same kit and workflow carry over, including speech performance in local working languages, recording permissions, and local fulfillment and support. Each added crew would require devices, inventory, quality control, and fulfillment. More usage could add AI processing and support costs. Reusing the integration could spread setup effort across sites. Repeat deployments, retained use, paid expansion, and incremental costs remain unmeasured in the memo. *(The Idea, Market & Traction, Key Risks)*
+The memo documents an India checkout and in-person demos. The company reports that reservations rose from 400 to more than 2,000 and that the first hardware batch shipped and sold out. The sellout is an early fit signal, with batch size, buyer profiles, and realized prices undisclosed. The ₹799 refundable deposit leaves full-price conversion open, and the memo does not trace buyers from discovery to successful setup. Even assuming strong fit among initial users, the first scaling link to test is whether the direct channel can repeatedly turn reservations into full-price purchases and successful activation through standard setup. (The Idea, Market & Traction, Key Risks)
+
+Daily dictation could drive repeat use, but customer usage after delivery and paid expansion are unreported. For a hardware sale, contribution on the next unit would depend on the realized price after manufacturing, fulfillment, returns, support, and any costs of providing the advertised year of unlimited usage. The memo supplies no usable measures of those costs. (The Idea, Defensibility, Key Risks)
 
 ### Countercase
 
-The partner integration could yield isolated pilots that each require substantial setup and support. The company’s transcription comparison gives no test protocol for judging performance across factory conditions, and its manufacturing and quality-control setup leaves larger-run costs open. If every site needs custom integration and ongoing support, growth could consume delivery effort in proportion to sales. That would trigger the Pass gate if observed without a supported path to improvement. The evidence supports Watch while that remains unresolved. *(Defensibility, Market & Traction, Key Risks)*
+Early demand could reflect curiosity about a new device. A refundable reservation is a small commitment relative to the ₹7,999 starting price for the earbuds, and the sellout is hard to interpret without knowing how many units shipped. The company reports below 5% word error versus 30% for AirPods in its own comparison, with the test protocol undisclosed. If that advantage fades in buyers’ actual environments, the recurring reason to use Mnemosyne weakens. These are testable risks. The structural downside gate requires affirmative evidence that a constraint blocks every credible growth path. (The Idea, Market & Traction, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 9/25 |
+| Global buyer demand | 13/25 |
 | Repeatable acquisition and onboarding | 9/25 |
 | Retention and customer expansion | 7/20 |
 | Contribution as volume grows | 7/20 |
 | Evidence of fit in the first buyer segment | 5/10 |
 
-**Total Score: 37/100** (Pass)
+**Total Score: 41/100** (Pass)
 
 ### Decisive diligence question
 
-Can Geocarbonite bring an independent factory in a second geography into paid, recurring troubleshooting use with the same kit and IntelliPro integration? A buyer-funded rollout with usage through a normal maintenance cycle and a record of setup hours and ongoing support and processing costs would move the action to **Reach out** if it showed the deployment could be repeated with limited custom work.
+Can a new direct reservation cohort convert to full-price purchases and independently activate Mnemosyne for repeated dictation or agent commands in noisy settings? Order and usage records showing several independent buyers completing that sequence through standard setup and returning at their normal work cadence would move the action to **Reach out**. Reservations or shipments alone would keep it at **Watch**. (The Idea, Market & Traction, Key Risks)

@@ -5,15 +5,13 @@
 
 ### Company case
 
-**Path B — New economies.** Elithia automates the assembly of source-linked medical chronologies for malpractice and serious injury cases, with editable findings and expert sign-off. If it reduces total review labor at equivalent accuracy, physician experts and medico-legal agencies could profitably accept smaller cases they previously declined. The memo documents the workflow and cites a founder-reported example in which his mother’s report took about two days instead of nearly a week. That example suggests a labor-saving mechanism, with equivalent accuracy and savings on a representative set of cases still unmeasured. (The Idea, Market & Traction, Key Risks)
+**Path B — New Economies.** Physicians, nurses, and paralegals can spend days sorting and reconciling thousands of pages for a malpractice or serious injury case. Elithia automates record preparation and drafts a chronology for expert sign-off. The market-opening scenario is that medico-legal agencies commission full chronologies for cases they currently skip because manual review costs too much. Jain reports that one expert’s report went from nearly a week to about two days and that the software surfaced a missed document. The expert was his mother, and the comparison measures elapsed time. It gives limited support for the mechanism. *(The Idea, Market & Traction)*
 
-Elithia reports more than 70 physician experts using the product on live cases, two agency contracts, and some sales. The first 1,000 pages are free, and contract terms, paid conversion, and repeat use are undisclosed. The founder’s prior work with unstructured data and the launch of a workflow informed by live-case feedback support seed-stage execution. (The Idea, Market & Traction, Founders & Team)
-
-**Scale scenario.** If agencies route repeat cases at a viable price, the expansion unit is the next case. Contribution per case would be the realized fee less document processing, inference, support, and any review or rework Elithia bears. Whether smaller cases become viable also depends on the expert time the buyer still pays for. Paid rates, eligible case volume, and costs across cases remain unmeasured in the memo. (The Idea, Market & Traction, Key Risks)
+The economic test is whether Elithia lowers the full cost of a signed chronology at comparable accuracy and completeness. The manual baseline includes sorting, reconstruction, and verification. Elithia’s cost includes processing, inference, expert review and corrections, retries, exceptions, support, and applicable compliance. Self-serve onboarding offers a plausible way to deliver more reports, but the memo gives no realized cost per signed report or evidence that buyers commissioned reviews they previously skipped. Elithia reports 70+ physicians using the product on live cases and two agency contracts. The first 1,000 pages are free, and the terms and repeat paid usage are unknown. Jain’s unstructured-data experience and the shipped source-page verification workflow support seed-stage execution credit. *(The Idea, Market & Traction, Founders & Team, Key Risks)*
 
 ### Countercase
 
-Elithia may accelerate work that experts already accept while leaving the cost of checking omissions and resolving conflicting records high enough to keep smaller cases uneconomic. Medrecords AI and Wisedocs already offer source-linked chronologies, and Medrecords AI also targets physician reviewers. Elithia’s configurable templates and sign-off workflow could help retain buyers, but the memo contains no buyer preference test under functional parity. Both necessary Path B conditions remain unproven. The overlap supports Watch because it leaves a feasible test of substitution, and the memo identifies no separately controlled bottleneck for Path A. (The Idea, Defensibility, Key Risks)
+Elithia may speed up reviews customers already commission while leaving expert verification as the main cost. Material omissions and contradictory records can still require expert review. Under model parity, Medrecords AI and Wisedocs already offer source-linked chronologies, and Medrecords AI also serves physician reviewers. Elithia’s organization-specific templates could save report-formatting work, but the memo shows no buyer preference when outputs are comparable. The observed feature overlap makes substitution credible. Whether buyers would switch and whether lower costs would unlock new cases both remain open, so the action is Watch. *(Defensibility, Key Risks)*
 
 ### Dimension Scores
 
@@ -23,10 +21,10 @@ Elithia may accelerate work that experts already accept while leaving the cost o
 | Durable value capture | 7/25 |
 | Customer demand | 10/20 |
 | Team and execution | 8/15 |
-| Scale economics | 5/15 |
+| Scale economics | 6/15 |
 
-**Total Score: 41/100** (Pass)
+**Total Score: 42/100** (Pass)
 
 ### Decisive diligence question
 
-Will independent medico-legal agencies repeatedly pay Elithia a viable price to handle cases they previously declined on cost, when they can choose an alternative with comparable model capabilities? A paid trial should compare both workflows at equivalent expert-verified quality, count review time, omissions, retries, and rework, and record which product agencies choose for repeat cases. Repeat paid use with positive contribution and demonstrated preference under parity could move the action to Reach out if the reassessment clears 65 with at least medium confidence and confirms mandate fit. A representative trial showing that review costs erase the savings or that buyers readily switch at parity would move it to Pass.
+Will an independent medico-legal agency place a repeat paid order at a price that covers Elithia’s delivery costs for cases it previously skipped on cost grounds, after comparing Elithia with manual review and testing a rival with equivalent model capability? Move to Reach out if representative cases show comparable completeness and accuracy, lower full cost per signed report, and a repeat purchase tied to a specific advantage the rival lacks. Stay on Watch if the trial leaves either condition unresolved. Move to Pass if it shows that full review costs still keep those cases uneconomic or that the rival delivers the same outcome and the buyer readily switches.

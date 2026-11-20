@@ -5,23 +5,21 @@
 
 ### Company case
 
-Strategic acquisition is the strongest path. A CI platform or runner vendor could buy Graphide’s shared optimization library to cut compute costs and shorten test cycles across its installed base. Ownership could justify a premium if integrating the library into the buyer’s fleet delivers durable savings that the buyer cannot obtain as cheaply by building or licensing equivalent tooling. Graphide has launched the runner and documented GitHub App onboarding. It reports that 19 of 24 benchmark jobs ran at least 10× faster than their GitHub baselines. The benchmark hand-tuned 10 jobs on machines larger than those available to customers, and the advertised 70%+ bill savings are a target. The ownership premium remains an inference. (The Idea, Defensibility, Market & Traction, Key Risks)
+Strategic acquisition is Graphide’s strongest path. GitHub is a plausible buyer because it could integrate Graphide’s per-job cache tuning and test splitting into Actions. Graphide reports that 19 of 24 benchmark jobs ran at least 10× faster than their GitHub baselines. That suggests a potential customer benefit. The acquisition case depends on whether GitHub could turn those speed gains into lower compute costs at scale and capture more value by owning the tuning library than by building or licensing equivalent tooling. The memo leaves buyer interest and that economic advantage unverified. (The Idea, Defensibility, Market & Traction)
 
-The operating milestone is repeatable savings and faster full-suite runs across multiple paying customers on standard customer hardware, measured against competing runners. Graphide’s live product makes that test feasible in principle. The memo reports $500,000 in convertible-note financing, with conversion terms, burn, and runway undisclosed. IP ownership and the transferability of customer and third-party agreements are unverified. The memo gives no usable acquisition pricing or buyer economics and supports no independent route to cash for this holder. (The Idea, Market & Traction, Defensibility, Key Risks)
+Graphide’s documented GitHub App installation and migration workflow make a paid production test on standard runners plausible. The memo reports $500,000 in convertible-note financing, with runway, test budget, and note terms unknown. Graphide’s reported operation of its own runner fleet supports a plausible asset transfer. IP ownership, customer permissions for connected repositories, and integration terms still need verification. (The Idea, Defensibility, Market & Traction, Key Risks)
 
-**Proceeds bridge.** With check terms unavailable, use the illustrative $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-on. The eight-year 5× hurdle is $2.5 million in gross cash, requiring $83.3 million in distributable equity proceeds at 3%, $125 million at 2%, or $62.5 million at 4%.
+The illustrative investor puts in $500,000 at a $10 million post-money valuation, starts at 5%, and holds 3% after 40% relative dilution, with no follow-ons. The eight-year 5× target requires $2.5 million in gross cash, or about $83.3 million in distributable equity at 3%. The hurdle is $125 million at 2% and $62.5 million at 4%. At 3%, $5 million of illustrative net debt raises the hurdle to about $88.3 million in enterprise value. The note’s cash or dilution impact is unquantifiable from the memo. The memo also supplies no acquisition-price evidence. (Market & Traction, Key Facts)
 
-| Scenario | Assumed timing and value | Holder cash and gross multiple |
-|---|---|---|
-| Modest sale | Year 5 at $40 million enterprise value | $1.2 million, 2.4× |
-| Strong sale | Year 7 at $100 million enterprise value | $3 million, 6× |
-| Prolonged private | Through year 8, growth plateaus, buyers stay away, public scale remains out of reach, and cash is reinvested | $0, 0×, with shares retained |
+- A **$25 million sale in year eight** yields **$600,000 gross, or 1.2×**, after the illustrative net debt.
+- A **$100 million sale in year eight** yields **$2.85 million gross, or 5.7×**, on the same assumptions. Both sale cases use a simple pro rata allocation before investor taxes and before any unquantified fees or senior claims.
+- If growth plateaus, buyers stay away, public-market scale stays out of reach, and Graphide reinvests all available cash through year eight, the holder realizes **$0** and retains the shares. A wind-down would pay only the residual after obligations and preferences, which the memo leaves unquantifiable.
 
-The sale prices are scenario assumptions. Both assume zero net debt and no other enterprise-to-equity adjustments, so enterprise value equals distributable equity and the holder receives 3% pro rata before taxes. All consideration is cash at closing, with zero stock, escrow, earnouts, rollover, or compensation. The actual note treatment and waterfall remain unknown. Even the modeled strong sale yields only $2 million, or 4×, at 2% ownership.
+A sponsor buyout lacks evidence of predictable cash generation. A secondary lacks evidence of demand for eligible shares, an IPO lacks evidence of operating scale and readiness, and a dividend or buyback lacks evidence of distributable cash. (Market & Traction, Key Facts)
 
 ### Countercase
 
-GitHub has cut hosted-runner rates by up to 39%, and Depot and Blacksmith already have runner infrastructure on which they could add per-job tuning. A buyer could license Graphide’s service or build comparable tuning on its own fleet. Graphide’s benchmark leaves open how much incremental value survives on customer hardware against those alternatives. This gap warrants Watch. The memo does not establish that a substitute matches the benefit or caps the price below the proceeds hurdle, so the Pass override does not apply. (Defensibility, Market & Traction, Key Risks)
+GitHub already sells native runner capacity and cut hosted-runner prices by up to 39%. Depot and Blacksmith already have runner infrastructure on which they could build similar tuning. Graphide hand-tuned 10 benchmark jobs on 64- or 128-vCPU machines, while customer runners topped out at 32 vCPUs. Its 70%+ bill savings figure is a target. If the production gains shrink on standard hardware, GitHub could have little reason to pay an acquisition premium. The evidence supports Watch because it leaves both the cost of replicating the tuning and the achievable acquisition price unresolved. A structural block or materially inadequate proceeds would trigger Pass. (The Idea, Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
@@ -29,12 +27,12 @@ GitHub has cut hosted-runner rates by up to 39%, and Depot and Blacksmith alread
 |-----------|-------|
 | Counterparty rationale or source of cash | 14/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 10/20 |
-| Transaction feasibility | 5/10 |
+| Milestones and capital needed | 9/20 |
+| Transaction feasibility | 6/10 |
 | Independent alternatives | 2/10 |
 
 **Total Score: 39/100** (Pass)
 
 ### Decisive diligence question
 
-Can a CI platform’s build-versus-buy analysis, grounded in repeatable full-suite savings across paying customers on standard hardware, justify an acquisition price that clears this holder’s proceeds hurdle? Credible buyer-side economics supporting at least $83.3 million in distributable equity under the 3% case would move the action to Reach out. Evidence that building or licensing caps every credible buyer’s price below the applicable hurdle would move it to Pass.
+Can Graphide’s tuning deliver repeatable production savings large enough to support a strategic sale at roughly $88.3 million in enterprise value under the illustrative terms? A paid production test across multiple repositories on standard runners would measure fully loaded cost per job and runtime against native runners. Move to Reach out if those results support a buyer-specific price range that clears the holder’s hurdle after comparing acquisition with building or licensing.

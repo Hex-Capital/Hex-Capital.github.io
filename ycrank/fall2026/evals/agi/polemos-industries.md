@@ -1,30 +1,30 @@
 ﻿# Polemos Industries -- AGI Evaluation
 
-**Action:** Watch  
+**Action:** Pass  
 **Evidence confidence:** Low
 
 ### Company case
 
-**Path A — Scarce complements** is the strongest fit. Polemos claims that cost and limited availability constrain armed forces’ access to precision-strike systems and that volume production could lower unit costs. The potential bottleneck is qualified physical supply. If competitors had the same AI capabilities, buyers would still need a supplier that meets their procurement requirements. The memo identifies no measured bottleneck relief or evidence that cheaper intelligence improves Polemos’s ability to supply it. (The Idea, Key Risks)
+Path A, scarce complements, is the closest fit. Polemos claims that cost and limited availability constrain purchases of precision-strike systems and that volume production would lower unit costs. The memo identifies no evidence that broader AI adoption increases demand for the capacity Polemos proposes to supply or changes the economics of adding that capacity. It also leaves control of qualified capacity and unit economics unresolved. [The Idea; Defensibility; Key Risks]
 
-The observed public launch establishes visibility. The memo records no buyer commitment or revenue. The founder reports relevant defense engineering experience, which gives the team some seed-stage execution credit, while testing remains a stated next step. The memo supplies no capacity, capital cost, or unit-cost figures to assess expansion economics. (Market & Traction, Founders & Team, Key Risks, Key Facts)
+The memo records a public launch and audience attention. Independent buyer commitments remain unverified. The founder reports relevant defense engineering experience, while the company lists testing as a next step. The seed-stage case therefore rests mainly on company claims and indirect signals. [Market & Traction; Founders & Team; Key Risks]
 
 ### Countercase
 
-If well-funded competitors can qualify equivalent supply, buyers could capture the benefit of lower prices while Polemos earns little durable advantage. The memo identifies no controlled access, qualification advantage, or award history that would protect Polemos’s economics. It also gives no direct evidence that equivalent supply is readily available, so the Path A control gate remains unresolved. Path B lacks evidence that automation opens a previously uneconomic transaction and that buyers would still choose Polemos under model parity. (The Idea, Defensibility, Key Risks)
+If the reported shortage persists as rivals add supply, a focused producer that controls qualified capacity could capture value. The company’s account of limited availability makes that scenario plausible. The AI link and Polemos’s control of capacity remain assumptions. The Pass reflects a missing AGI investment case. The memo leaves open whether credible substitutes could close the path. [The Idea; Defensibility; Key Risks]
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 7/25 |
+| Path-specific thesis fit | 6/25 |
 | Durable value capture | 6/25 |
 | Customer demand | 5/20 |
 | Team and execution | 5/15 |
 | Scale economics | 4/15 |
 
-**Total Score: 27/100** (Pass)
+**Total Score: 26/100** (Pass)
 
 ### Decisive diligence question
 
-Would an independent target buyer commit procurement resources because Polemos can provide qualified supply the buyer cannot readily obtain elsewhere? A documented qualification decision and funded commitment on terms that let Polemos retain the economics would support Reach out if the updated score reaches 65 with at least medium confidence. A buyer finding that readily available equivalent supply already meets the need would support Pass. (Defensibility, Key Risks)
+Does wider AI adoption create persistent unmet demand for the production capacity Polemos aims to supply? Independent buyer evidence tying unmet demand to AI adoption and showing that available alternatives leave the constraint unresolved would move the action to Watch. [The Idea; Key Risks]

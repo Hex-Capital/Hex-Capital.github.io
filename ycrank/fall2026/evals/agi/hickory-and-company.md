@@ -5,26 +5,28 @@
 
 ### Company case
 
-**Path B — New economies** is Hickory’s strongest path. Hickory says its agents gather evidence, cite sources and draft BSA case documentation against institution-specific policies, with logged actions and human approval. The investment case is that automating this work could make additional reviews affordable for a community bank that currently lacks the staff budget to run them. That buyer and use case are scenario assumptions. Hickory claims 10× faster queue processing without publishing a benchmark method, and its terms require qualified human review. At equivalent audit quality, the market-opening test is whether Hickory’s price plus the bank’s remaining review and exception-handling costs fit a budget that could not cover the manual workflow. Hickory would also need room to earn a margin after inference, integration and support. The memo supplies no inputs to establish either result. (The Idea, Key Risks, Key Facts)
+**Path B — New Economies.** Bank and fintech compliance teams manually gather evidence, request data from IT, and document decisions. Hickory says its agents automate evidence gathering and drafting while qualified staff retain approval. A plausible market opening is recurring follow-up on low-priority alerts that a resource-constrained bank currently defers because review is too costly. That is a scenario assumption. Hickory claims 10× faster queue processing without a published benchmark method. The relevant comparison is full cost per audit-ready case at comparable quality, including analyst and IT time, inference, qualified review, retries, corrections, and escalations. The memo supplies no such comparison. (The Idea, Key Risks)
 
-Hickory’s U.S. location and early stage plausibly fit the seed mandate. Howland’s banking and fintech experience, Grow’s prior use of an internal AI compliance tool at Seis, and Anderson’s banking-systems background support the team’s ability to run a representative pilot. The memo documents a public launch and demo solicitation. Buyer commitment, payment and repeat use remain unknown. (Key Facts, Founders & Team, Market & Traction)
+Under model parity, a bank might still pay for institution-specific policy configuration and audit history if those features make recurring reviews easier to run and defend. Hickory describes the policy workflow, while switching costs remain an inference with no observed retention, premium, or buyer preference under parity. Reported backlogs are an indirect demand signal. The memo records a launch and demo solicitation and reports no independent buyer commitment. (Defensibility, The Idea, Market & Traction, Key Facts)
+
+The team brings banking and compliance experience, including use of an internal AI compliance tool at Seis. A plausible expansion unit is one institution under an inferred software license. Repeatable contribution depends on license revenue covering institution-specific setup, inference, and support. Hickory’s May 2026 terms limit the data and integrations available for that rollout, and the memo gives no realized pricing or deployment costs. (Founders & Team, The Idea, Key Risks, Key Facts)
 
 ### Countercase
 
-Hickory may help existing compliance teams process queues faster while qualified review, rework and integration consume enough of the savings to keep additional reviews uneconomic. Its terms also limit payment-rail integration and the submission of consumer financial-account information, leaving the scope of its proposed monitoring replacement uncertain. Under model parity, configured policies and audit histories could give a bank a reason to stay, but the memo shows no buyer preference or switching evidence. Verafin and Hummingbird already offer overlapping agent workflows. Even with abundant capital, the memo identifies no scarce input or qualification advantage Hickory controls that would support a separate Path A case. Both Path B gates remain unproven, and a representative seed-stage pilot could test them. (Key Risks, Defensibility)
+Hickory may help existing compliance teams clear the same queues faster while qualified review and exceptions keep previously deferred work uneconomic. Verafin and Hummingbird already offer overlapping investigation or documentation agents, so a bank with access to equivalent models may be able to retain the core outcome with a competing product. The memo establishes competitive overlap and a required human review step. It leaves both the actual cost of review and buyer behavior under functional parity unresolved. Neither gate is satisfied, and neither is decisively defeated. (Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 8/25 |
+| Path-specific thesis fit | 10/25 |
 | Durable value capture | 7/25 |
-| Customer demand | 5/20 |
+| Customer demand | 6/20 |
 | Team and execution | 8/15 |
-| Scale economics | 4/15 |
+| Scale economics | 5/15 |
 
-**Total Score: 32/100** (Pass)
+**Total Score: 36/100** (Pass)
 
 ### Decisive diligence question
 
-Will a community bank commit to repeat paid use for a class of reviews it previously could not afford after comparing Hickory with its manual workflow and a functionally equivalent alternative using comparably capable models? A paid pilot should hold audit quality constant, measure total human time including review, retries and exceptions, and establish what the bank values enough to keep paying Hickory for under parity. A positive result would warrant rescoring and could move the action to Reach out if it clears the score and confidence gates. A representative trial showing that either necessary condition fails would move the action to Pass.
+Will an independent bank pay for a second cycle of a previously deferred review workflow after comparing Hickory with its manual baseline and a functionally equivalent alternative using comparable models? Move to **Reach out** if the trial shows that Hickory brings the all-in cost per approved case within the bank’s budget at comparable audit quality and the bank renews at a viable price because Hickory’s policy and audit workflow matters to it. **Pass** if a representative trial shows the workflow remains uneconomic or the bank can switch while preserving the outcome. Otherwise, stay on **Watch**.

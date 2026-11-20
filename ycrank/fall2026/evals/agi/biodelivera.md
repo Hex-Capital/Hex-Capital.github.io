@@ -1,30 +1,30 @@
 ﻿# BioDelivera -- AGI Evaluation
 
-**Action:** Watch  
+**Action:** Pass  
 **Evidence confidence:** Low
 
 ### Company case
 
-Path A, scarce complements, is the strongest fit. Pharma developers could use BioDelivera’s Guided Chimeric Vehicles (GCVs) when the ability to deliver cargo selectively limits a therapeutic program. BioDelivera reports efficacy in tumors, muscle, and brain. The memo leaves open how selectively GCVs deliver cargo in human tissue and how they compare with an existing option. The founders’ co-authored drug-delivery study supports their ability to do the underlying research. Fall 2026 YC backing makes a seed-stage assessment reasonable. (The Idea; Market & Traction; Key Risks; Founders & Team)
+Path A, Scarce complements, is the closest fit. BioDelivera’s Guided Chimeric Vehicles are designed to deliver therapeutic cargo selectively to target cells. The company reports efficacy in tumors, muscle, and brain. If cheap frontier AI produces more viable drug candidates than existing delivery platforms can support, selective delivery could become a bottleneck that pharma developers pay BioDelivera to relieve. That scenario remains an assumption. The memo leaves AI-driven demand and the delivery constraint on any specific AI-enabled program unestablished. It also offers no evidence for Path B’s labor-cost or new-market tests. (The Idea, Market & Traction, Key Risks)
 
-**Scenario assumption:** Cheaper intelligence makes it economical to design more candidate therapies, increasing demand for selective delivery if physical qualification remains a bottleneck. Even with the same AI tools, a pharma buyer would still need access to a qualified vehicle for its program. BioDelivera describes GCV as proprietary, and the memo leaves its enforceable rights unverified. Program licensing is an inferred business model. Each additional program would need enough license revenue to cover its incremental qualification and manufacturing costs, which the memo leaves unquantified. It also records no BioDelivera buyer commitment. (Defensibility; The Idea; Key Risks; Market & Traction; Key Facts)
+BioDelivera describes GCV as proprietary, giving it a plausible basis for control whose enforceability remains unknown. The founders’ co-authored drug-delivery study establishes relevant research execution. The adjacent pharma acquisition signals interest in targeted delivery, while BioDelivera’s own buyer commitments remain unknown. Per-program licensing is a plausible expansion unit, but the memo provides no operating inputs for estimating the cost of qualification or consistent manufacturing across programs. (Defensibility, Founders & Team, Market & Traction, The Idea, Key Risks)
 
 ### Countercase
 
-Well-funded competing delivery programs could satisfy buyers in overlapping indications. AbbVie’s ownership of Capstan and exclusive options with Umoja illustrate how existing relationships can narrow BioDelivera’s access to partners. If an incumbent meets a buyer’s requirements, cheaper intelligence could expand the market while the incumbent captures the economics. The memo leaves program-level substitutability unresolved, so the Path A override has yet to trigger. Path B remains unsupported because the memo provides no evidence that automation makes a previously uneconomic transaction viable. (Market & Traction; Defensibility; Key Risks; The Idea)
+Pharma developers could qualify a competing platform for each indication. Aera, Capstan, and Umoja already have delivery programs, and existing pharma relationships could narrow BioDelivera’s partner options. The reported efficacy leaves human tissue selectivity and manufacturing consistency unresolved. The memo leaves substitute equivalence untested, so competition alone does not close Path A. Pass reflects the absence of a credible AI-linked bottleneck case in the memo. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 9/25 |
+| Path-specific thesis fit | 6/25 |
 | Durable value capture | 7/25 |
 | Customer demand | 5/20 |
-| Team and execution | 9/15 |
+| Team and execution | 8/15 |
 | Scale economics | 4/15 |
 
-**Total Score: 34/100** (Pass)
+**Total Score: 30/100** (Pass)
 
 ### Decisive diligence question
 
-Can BioDelivera qualify GCV for one pharma program whose delivery bottleneck persists as design work gets cheaper? The milestone is an independent buyer committing resources to a representative qualification, verifying that GCV clears a predefined selectivity requirement its best available alternative misses, and documenting that BioDelivera controls the rights needed for the program. That result would prompt rescoring and support Reach out if the case clears 65 with at least medium confidence. A finding that the existing option meets the same requirement would close this route and change the action to Pass unless a separate program supports Path A.
+Will an independent pharma developer fund a GCV qualification trial for a named AI-enabled therapeutic program that is stalled by delivery? A funded plan documenting the unmet delivery requirement and why available alternatives fall short would move the action to Watch pending qualification.

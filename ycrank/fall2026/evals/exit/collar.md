@@ -5,32 +5,32 @@
 
 ### Company case
 
-Strategic acquisition is Collar’s strongest path. An investor-relations platform or financial-data provider could buy Collar to embed its live, citation-backed prompts in an existing issuer workflow. Ownership could give the buyer control over how the product uses approved materials, how it behaves on live calls, and how it integrates with the buyer’s platform. That control becomes valuable if the workflow wins and retains issuer accounts and would take materially longer to reproduce than to acquire. FactSet’s $120.2 million purchase of Irwin shows that a financial-data provider has paid for an adjacent IR asset. Collar’s claimed reduction in earnings preparation from three weeks to about a day comes from an anonymized representative use case. The memo provides no verified production measurements or Collar-specific buyer economics. (*The Idea*, *Market & Traction*, *Key Risks*)
+Strategic acquisition is Collar’s strongest path. An investor-relations platform such as FactSet could add Collar’s document discrepancy checks and live, source-backed prompts to the investor-targeting workflow it acquired with Irwin. Ownership could make sense if integrating those tools improves customer retention or expansion enough to justify buying the product outright. Collar cites an anonymized, representative example in which earnings preparation fell from three weeks to about one day. That is a company claim about customer workflow savings. The memo gives no measured benefit to a buyer. (The Idea, Market & Traction)
 
-The seed milestone is conversion into paid, compliance-approved production at multiple issuers, followed by renewal after repeated earnings cycles. Collar reports $1.4 million in deals pending compliance and 4× month-over-month revenue growth from an undisclosed base. The memo separately records $500,000 in YC seed capital. That gives Collar capital to pursue the test, with burn, remaining runway, and the cost of getting through approvals and renewals still unknown. The acquisition is conditional on transfer of the software and any issuer data or contracts a buyer needs. The memo is silent on those rights and supplies no independently supported fallback that pays this holder. (*Market & Traction*, *Defensibility*, *Key Risks*)
+The operating milestone is to convert a meaningful share of the reported $1.4 million pipeline into paid, compliance-approved deployments that renew across earnings cycles. The memo reports $500,000 in YC seed capital. Runway, compliance costs, and pipeline conversion remain unknown, so the capital needed to reach that milestone is uncertain. A product acquisition is conceivable, with unverified rights to transfer the software and continue using issuer data after closing. (Market & Traction, Key Risks, Defensibility)
 
-**Proceeds bridge.** With no applicable investment terms supplied, use the illustrative $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-on checks. The eight-year 5× goal requires $2.5 million in gross holder cash, or $83.3 million in distributable equity proceeds at 3%. The hurdle is $125 million at 2% and $62.5 million at 4%. For both sale scenarios, assume zero net debt and seller fees, so enterprise value equals equity consideration. Assume simple pro rata allocation with no senior claims, all cash at closing, and $0 each in stock, escrow, earnouts, rollover, and compensation.
+**Proceeds bridge.** FactSet’s $120.2 million purchase of Irwin shows that an adjacent IR asset has sold above Collar’s illustrative hurdle. The memo gives too little evidence of Collar’s recurring revenue or buyer economics to infer a comparable price. With investor terms undisclosed, assume a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted by 40% to 3%, and no follow-ons. A 5× gross cash return within eight years requires $2.5 million to the holder, or $83.3 million in distributable equity at 3%. The equity hurdle rises to $125 million at 2% and falls to $62.5 million at 4%. (Market & Traction, Key Facts)
 
-- **Modest sale, year 5.** At an assumed $50 million enterprise value, the holder receives $1.5 million, or 3×.
-- **Strong sale, year 7.** At an assumed $100 million enterprise value, the holder receives $3 million, or 6×. At 2% ownership, the same sale yields $2 million, or 4×. The Irwin price gives a reference for what a strategic buyer has paid in the category. Collar’s evidence does not yet support a bid at this level. (*Market & Traction*)
-- **Prolonged private, through year 8.** Assume growth plateaus, buyers stay away, public-market scale remains out of reach, and cash is reinvested. The holder retains the shares and realizes $0, or 0×.
+- **Modest sale in year eight.** At $25 million of enterprise value and $5 million of illustrative net debt, the holder receives $600,000 gross, or 1.2×.
+- **Strong sale in year eight.** At $100 million of enterprise value and the same illustrative debt, the holder receives $2.85 million gross, or 5.7×. At 2% ownership, the same sale yields $1.9 million, or 3.8×. The 3% case needs about $88.3 million of enterprise value to clear the target before any fees or senior claims. Both sale scenarios assume pro rata cash distributions before investor taxes. Collar’s actual debt, fees, preferences, and payment timing are unknown.
+- **Prolonged private operation.** If growth plateaus, buyers stay away, public-market scale remains out of reach, and Collar reinvests all available cash, the holder realizes $0 over eight years and retains the shares. The memo establishes neither sponsor-ready cash flow nor a funded payout, eligible secondary, or credible IPO resale path. Any wind-down recovery would depend on assets remaining after obligations and preferences, which the memo does not quantify. (Market & Traction, Key Facts)
 
 ### Countercase
 
-Q4’s AI CRM already automates interaction capture, and Notified has expanded its earnings-preparation tools. If those products cover enough of the issuer workflow, a buyer could build or license the remaining live-prompt capability at a cost that caps any bid below the holder’s hurdle. Collar’s pending compliance deals and the absence of published live accuracy and latency benchmarks make that countercase credible. The memo does not establish that an incumbent can already match Collar’s approved-source workflow or that the price is structurally capped. The Pass override does not apply, and the unverified production advantage keeps the action at Watch. (*Defensibility*, *Market & Traction*, *Key Risks*)
+Incumbents may be able to build or license enough of the workflow. FactSet already owns Irwin’s targeting capability, Q4 has launched AI interaction capture, and Notified has added market intelligence to earnings preparation. Collar’s live prompts could still fill a gap, but the memo gives no live accuracy or latency benchmarks, and the reported pipeline is still pending compliance. These facts weaken the reason to buy and leave the achievable price unresolved. They establish neither a structural blocker nor a supported price ceiling below the holder’s hurdle, so the Pass gate does not apply. (The Idea, Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 17/30 |
-| Plausible investor proceeds | 13/30 |
-| Milestones and capital needed | 10/20 |
+| Counterparty rationale or source of cash | 18/30 |
+| Plausible investor proceeds | 10/30 |
+| Milestones and capital needed | 11/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 47/100** (Neutral)
+**Total Score: 46/100** (Neutral)
 
 ### Decisive diligence question
 
-Will multiple public issuers renew paid, compliance-approved contracts after two earnings cycles because Collar’s live, approved-source prompts deliver measurable gains their existing IR tools cannot match? Signed renewals and production records showing those gains would move Collar to Reach out to test whether a buyer could justify the required price. Pilots still awaiting approval or usage without paid renewals would keep it on Watch.
+After a cohort of public issuers clears compliance, pays, and renews across earnings cycles, what cash acquisition price could an IR platform justify from owning Collar’s live workflow? Verified renewal economics and a buyer-side build-versus-buy analysis supporting at least $83.3 million of distributable equity within eight years at 3% ownership would move the action to Reach out. If the strongest supported price and shareholder terms leave the holder materially short, the action moves to Pass.

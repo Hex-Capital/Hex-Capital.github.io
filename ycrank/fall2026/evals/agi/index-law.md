@@ -5,26 +5,26 @@
 
 ### Company case
 
-**Path B — New economies.** Mike‑1 could make routine contract review economical for small businesses that currently skip review on lower-value agreements. It uses company documents and past decisions to prepare redlines and signatures, then routes matters that require legal judgment to independent counsel. The Fall 2026 research preview launched with free access, which supports evaluating Index Law as a seed-stage opportunity. The earlier Assess launch shows the team has shipped two products. Index Law reports a contract turnaround under an hour, quotes up to 80% below comparable law-firm quotes, and work on ongoing contracts. Those claims provide an early signal, while equivalent quality, end-to-end labor savings, and repeat payment by previously underserved buyers remain unverified. (The Idea; Market & Traction; Founders & Team)
+**Path B — New Economies.** Mike‑1’s public research preview is live. Index Law describes a workflow that uses company documents and past decisions to prepare redlines and brief independent counsel when licensed judgment is needed. Under the prior delivery model, a startup had to find hourly counsel, explain its business, and coordinate each review. The investment scenario is that reducing those steps makes routine contract review economical for startups that previously skipped or deferred it. Index Law reports one contract turnaround under 60 minutes, quotes up to 80% below comparable law-firm quotes, and use across startups and larger companies. These claims leave paid repeat demand from the proposed segment and the labor saved per completed review unresolved. (The Idea, Market & Traction, Key Risks)
 
-**Seed scenario.** If small teams begin sending agreements they previously signed without review, Index Law could earn recurring subscription revenue as those reviews recur. At the advertised $149 Pro and $499 Teams monthly prices, contribution per added workspace would depend on inference, retries, support, and any review or coordination Index Law performs. Separately billed lawyer fees still count toward the buyer’s cost of getting a usable result. The memo gives proposed prices, with realized pricing, review frequency, escalation rates, and contribution per workspace still unknown. (The Idea; Key Facts; Key Risks)
+At the advertised prices, the buyer’s cost per successful review would include its share of the $149 or $499 monthly subscription, separately billed counsel, and internal time for approvals, retries, and corrections. That total has to beat hourly counsel on comparable matters at comparable quality. For Index Law, subscription revenue also has to cover inference, onboarding, and support as review volume grows. The memo leaves utilization and realized delivery costs unknown. Under model parity, retained matter history and effective counsel handoffs could still save buyers time, but buyer preference and better lawyer matching remain hypotheses. The Assess and Mike‑1 launches and Pativada’s prior institutional AI sales show early execution progress. Reliable delivery across legal exceptions remains untested in the memo. (The Idea, Defensibility, Market & Traction, Founders & Team, Key Risks)
 
 ### Countercase
 
-A general-purpose legal plugin already offers basic contract review and NDA triage. With comparable models and access to the same company playbook, buyers could reproduce routine work and hire counsel directly for exceptions. Mike‑1 retains redlines and matter history, which could make recurring work easier, but the memo shows no buyer preference under parity or evidence that a denser counsel network improves matching. If lawyer review and rework absorb the apparent savings, Mike‑1 may also serve the same contracts buyers already send to counsel. Independent lawyers supply licensed judgment, and the memo establishes no control over scarce counsel capacity to support Path A. Either failure would close Path B. Both remain plausible risks that a seed-stage trial can test. (Defensibility; Market & Traction; Key Risks)
+Mike‑1 may speed up reviews that businesses already buy. The memo identifies an existing legal plugin for basic contract review and NDA triage, as well as Crosby and Soxton as alternatives for attorney-backed work. If a buyer can pair equivalent AI with existing counsel and get the same result, retained history may offer too little reason to keep paying Index Law. Frequent attorney escalations or rework could also erase the savings on matters buyers previously skipped. The memo provides neither a full-cost comparison nor observed switching under functional parity, so both required conditions remain open to testing. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
 | Path-specific thesis fit | 10/25 |
-| Durable value capture | 7/25 |
-| Customer demand | 6/20 |
-| Team and execution | 8/15 |
+| Durable value capture | 8/25 |
+| Customer demand | 7/20 |
+| Team and execution | 9/15 |
 | Scale economics | 5/15 |
 
-**Total Score: 36/100** (Pass)
+**Total Score: 39/100** (Pass)
 
 ### Decisive diligence question
 
-Will small businesses pay to use Mike‑1 repeatedly for contracts they previously skipped reviewing when they can choose an equally capable model with the same playbook and hire counsel directly? A paid pilot should compare both workflows with the outside-counsel baseline at equivalent review quality, recording total labor, retries, escalations, buyer cost, and Index Law’s contribution. Repeat paid preference and lower delivery labor on previously skipped work would support Reach out if the updated score clears 65 with at least medium confidence. A representative trial showing that review labor erases the savings or that buyers readily switch under parity would change the action to Pass.
+Will independent startups repeatedly pay Index Law to complete routine reviews they previously skipped because of cost, even when offered a functionally equivalent AI workflow with access to counsel? A paid side-by-side pilot on comparable contracts would move the action to **Reach out** if buyers complete and reorder those reviews, the full cost including review and escalation is low enough to sustain the new usage, and buyers keep choosing Index Law for a demonstrable workflow or counsel advantage. If the pilot shows that the savings fail to unlock those reviews or that buyers readily switch while preserving the outcome, move to **Pass**.

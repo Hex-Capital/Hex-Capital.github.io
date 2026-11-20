@@ -5,36 +5,36 @@
 
 ### Company case
 
-Strategic acquisition is the strongest conditional path. A proprietary trading firm could buy Mnemonic’s model, training pipeline, and execution software to secure exclusive access to a repeatable trading edge. Ownership could justify a premium if it preserves that edge and lets the buyer deploy it faster than building in-house or licensing a signal. The operating milestone is sustained live profit after execution costs and market impact at a scale relevant to a buyer. The memo records a November 13 launch and prior quant trading roles for both founders. Mnemonic says it built the pipeline and architecture in under six weeks and used over 25 TB of tokens in its launch training run. The launch disclosed no live returns or execution costs. The memo lists a reported $125,000 investment, with the live test budget and runway still unknown. (The Idea, Market & Traction, Founders & Team, Key Risks)
+**Strategic acquisition is the strongest conditional path.** A quantitative trading firm could buy Mnemonic’s trained model and training pipeline to capture incremental trading profits and control how the model is retrained. Ownership could beat licensing if exclusive use protects a durable trading edge, or beat building if Mnemonic can demonstrate an edge the buyer would struggle to reproduce. Those are inferences. The memo records a November launch, and Mnemonic reports building its pipeline and architecture in under six weeks and using over 25 TB of tokens in its launch training run. The launch disclosed no live returns or execution costs, so the buyer benefit remains unmeasured. (The Idea, Market & Traction, Key Risks)
 
-The memo gives no terms for the check under evaluation, so the proceeds bridge uses the illustrative $500,000 check at a $10 million post-money valuation. The holder starts at 5% and ends at 3% after 40% relative dilution, with no follow-on checks. A 5× gross cash return within eight years requires $2.5 million to the holder, or $83.3 million in distributable equity at 3%. The equity hurdle is $125 million at 2% and $62.5 million at 4%.
+The operating milestone is repeatable live trading profit after fees, slippage, and market impact at a capital level that matters to a buyer. The founders’ quant experience and the company-reported training progress support attempting that test. The memo lists $125,000 in YC funding and leaves the test budget, available trading capital, and runway open. A sale would also depend on the buyer’s ability to use the model and any licensed data needed to run or retrain it. The memo raises that licensing question without establishing the applicable terms. (Founders & Team, Market & Traction, Key Risks)
 
-The sale scenarios assume enterprise value equals equity consideration, with zero net debt, fees, or other adjustments and a simple pro rata waterfall with no preference deductions. All consideration is cash at closing, with zero stock, escrow, earnouts, rollover, or compensation. The prices and dates are scenario assumptions. The memo supplies no buyer economics or transaction evidence to support a price range.
+**Illustrative eight-year proceeds.** Assume a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, no follow-ons, and simple pro rata proceeds before investor taxes. The 5× cash target is $2.5 million. That requires $83.3 million in distributable equity at 3% ownership, $125 million at 2%, or $62.5 million at 4%. With $5 million of illustrative net debt, the 3% case requires $88.3 million of enterprise value before any additional fees or senior claims. Actual holder terms, debt, and senior claims are unverified. The memo supplies no usable acquisition price range or buyer economics to support one. (Market & Traction, Key Facts)
 
-| Scenario | Assumed outcome | Holder cash on $500,000 invested |
-|---|---|---|
-| Modest | $40 million enterprise value and $40 million equity consideration in year 5 | $1.2 million, 2.4× |
-| Strong | $100 million enterprise value and $100 million equity consideration in year 7 | $3 million, 6× at 3% ownership. At 2%, proceeds fall to $2 million, 4×. |
-| Prolonged private | Growth plateaus, buyers stay away, public scale remains out of reach, and available cash is reinvested through year 8 | $0 realized, 0×. The holder retains the shares. |
+| Eight-year scenario | Gross cash to the holder |
+|---|---:|
+| Modest sale at $25 million enterprise value, less $5 million illustrative net debt | $600,000 (1.2×) |
+| Strong sale at $100 million enterprise value, less $5 million illustrative net debt | $2.85 million (5.7×) |
+| Growth plateaus, buyers stay absent, public scale remains out of reach, and available cash is reinvested | $0, with shares retained |
 
-Proprietary trading could eventually fund a buyback or distribution, but the memo supports neither sustained distributable cash nor a payout plan covering this holder. Market-data terms and the transferability of trained weights are also unverified. (The Idea, Key Facts, Key Risks)
+A wind-down would pay only the residual after obligations and preferences, which the memo leaves unquantifiable. The memo provides no operating cash flow to underwrite a sponsor buyout, no eligible demand for a secondary, no operating scale or readiness for an IPO, and no excess cash or payout commitment for dividends or a buyback. (The Idea, Market & Traction, Key Facts)
 
 ### Countercase
 
-A quant firm could build a similar system using published market-event pretraining methods, license a signal if licensing delivers the same economics, or walk away if the edge decays as capital scales. The memo identifies no current moat, describes published methods that reduce the need for privileged data, and records competitors reporting live deployment ahead of Mnemonic’s disclosed results. Those facts make an acquisition premium hard to underwrite. They leave open whether a substitute can match Mnemonic’s eventual live results or cap the price below the holder’s hurdle. The structural Pass gate is unproven. (Defensibility, Market & Traction, Key Risks)
+A quant firm could build its own model using published market-event pretraining methods or work with a rival that already reports live deployment. Mnemonic’s training scale shows development progress, while the rivals’ reported deployments are more direct evidence of operation under real execution conditions. A buyer might value the founders’ expertise while assigning little value to the model itself, which could leave shareholders with little cash if the consideration primarily compensates employees. That possibility and the open data-rights question support Watch. The Pass gate would require evidence that a material barrier prevents a sale or that the strongest credible sale economics leave the holder materially short. (Defensibility, Market & Traction, Founders & Team, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 8/30 |
+| Counterparty rationale or source of cash | 12/30 |
 | Plausible investor proceeds | 8/30 |
 | Milestones and capital needed | 9/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 32/100** (Pass)
+**Total Score: 36/100** (Pass)
 
 ### Decisive diligence question
 
-Can Mnemonic show independently verified live trading results at realistic capital levels that give a prospective buyer a credible reason to pay at least $83.3 million in distributable equity value for exclusive ownership? Sustained profit after execution costs and market impact, paired with a buyer’s assessment of the economics of owning the transferable assets versus building or licensing, would move the action to Reach out.
+Can a funded live trial show a repeatable trading edge that would make ownership worth roughly $88.3 million in enterprise value to a quant buyer under the 3% scenario? Verified live results after fees, slippage, and market impact, at a capital level relevant to the buyer, would provide the basis for comparing the model’s value with building or licensing an alternative. Move to Reach out if that comparison supports a sale range that clears the holder’s cash target. Until then, Watch.

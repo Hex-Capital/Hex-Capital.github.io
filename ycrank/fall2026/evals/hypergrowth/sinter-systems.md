@@ -5,26 +5,26 @@
 
 ### Company case
 
-**Path B — Repeatable sales with account expansion.** The initial buyer is a hardware team that frequently revises plastic parts. Sinter documents online ordering for FDM prototypes, automated design checks with engineering escalation, and founder outreach for molding pilots. The growth hypothesis is that a team enters through a prepaid prototype order, moves to short-run molding, and pays for subsequent revisions through the same workflow. Sinter reports producing more than 500 kg with customers in its first month. That is an early usage signal. The memo leaves the order channel, payment status, prototype-to-molding split, and repeat buying unresolved. (The Idea; Defensibility; Market & Traction; Key Facts)
+Sinter’s strongest path is **product-led adoption through online prototype ordering**. The first buyer is a hardware team that revises plastic parts frequently. The recurring job is getting the next revision into engineers’ hands quickly enough to keep development moving. Sinter documents a workflow that accepts designs through its website, REST API, and MCP integration, screens them for manufacturability, and quotes prepaid FDM prototype orders. The same digital intake could serve buyers in another market, though the memo leaves open whether fulfillment from San Francisco can preserve the turnaround those buyers need. (The Idea, Defensibility, Market & Traction)
 
-In a second-market scenario, the same buyer submits designs through the existing quote workflow and Sinter fulfills from San Francisco. Category estimates suggest demand beyond North America. This scenario assumes freight and customs preserve the turnaround buyers value. If local fulfillment is needed, Sinter would have to qualify presses and reproduce its tooling and quality checks. Automated quoting could reduce engineering time per order. Contribution on each additional job still depends on review, insert fabrication and replacement, press time, rework, and shipping. The memo provides no measured cost breakdown. (The Idea; Defensibility; Market & Traction; Key Risks)
+Sinter reports producing more than 500 kg of parts with customers in its first month. That gives an early signal of production activity, with buyer-level payment, acquisition route, and repeat orders still unknown. The growth scenario assumes paid prototype buyers return through the same workflow for each design revision. Sinter’s advertised per-part molding could extend that relationship if customers need molded parts, but the memo describes a founder-recruited pilot and gives no paid conversion evidence. Even assuming strong buyer fit, the first unproven link is whether independent buyers can go from upload to a paid, usable part through a standard process. The memo also gives too little evidence to judge concrete buyer commitment, repeat paid use, or marginal contribution. (The Idea, Market & Traction, Key Risks)
 
 ### Countercase
 
-The strongest countercase is that rapid molding remains a job shop whose engineering and press requirements rise with order volume. Published tests on other photopolymer inserts flag heat and creep, and the memo gives no Sinter tool-life figures. Protolabs advertises one-day aluminum molding, which challenges Sinter’s claimed 48-hour turnaround as a reason to switch. These risks make repeat paid use and delivery costs decisive. The memo does not establish the structural ceiling required for Pass. (Key Risks)
+Digital intake may simplify quoting while leaving the hard work in fulfillment. Sinter documents engineering escalation when automated mesh repair is inconclusive. If exceptions are common, each additional account could add substantial review and production labor. Molding could compound that burden if printed tools wear quickly, and the memo gives no Sinter tool-life figures by resin or geometry. These are testable risks at Sinter’s stage. The structural downside gate does not apply because the memo does not establish that costs rise in proportion to volume or that the delivery model must be rebuilt to serve another market. (Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 10/25 |
+| Global buyer demand | 14/25 |
 | Repeatable acquisition and onboarding | 9/25 |
 | Retention and customer expansion | 7/20 |
 | Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 5/10 |
+| Evidence of fit in the first buyer segment | 4/10 |
 
-**Total Score: 38/100** (Pass)
+**Total Score: 41/100** (Pass)
 
 ### Decisive diligence question
 
-Can independent hardware teams in a second geography place a first paid molding order and a paid revision through the same quote workflow while Sinter meets its promised turnaround and earns positive contribution on the repeat job? Order records and job-level costs covering engineering, tooling, press time, rework, and shipping would answer it. A successful cohort would move the action to Reach out.
+Can several independent hardware teams go from online design upload to accepting a paid prototype through the same workflow with limited founder and engineering time? Order records showing the entry channel, payment, delivery and acceptance, and manual effort for each job would answer it. A consistent route to paid first value with bounded effort would move Sinter to **Reach out**. Repeated dependence on founder intervention or custom engineering across ordinary prototype jobs, with no credible path to standardize that work, would move it to **Pass**.

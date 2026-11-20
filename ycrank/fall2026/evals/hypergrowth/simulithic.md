@@ -5,26 +5,28 @@
 
 ### Company case
 
-**Path B. Repeatable sales with account expansion.** The first buyer is an engineering team that repeatedly verifies multistep web flows before release. Simulithic documents a GitHub App and CLI that compare pull-request previews with a baseline across devices. If the first QA audit reliably finds a regression the team cares about, referrals could feed a repeatable sales process, the GitHub integration could turn the audit into a recurring paid check, and accounts could expand into more flows, devices, and production monitoring. Those are scenario assumptions. The company reports several live deployments, and Aly Moursy said he canceled Claude Max to try Simulithic. Together these support early trial intent and reported adoption. The memo gives no buyer-level record of paid conversion, recurring release checks, or expansion, and the reported weekly growth lacks a defined metric and starting base. (The Idea, Market & Traction, Key Facts)
+**Usage-based expansion** is the strongest path. The likely first buyer is an engineering lead at a startup shipping a web app with multistep user flows. Simulithic documents a recurring job: comparing pull-request previews against a baseline across browsers and devices. For teams using supported environments, the same GitHub App or CLI workflow could travel across markets, subject to app access and privacy review if the team enables visitor capture. Customer geography is unreported. *(The Idea, Key Risks)*
 
-The same release workflow plausibly travels to another geography through the same GitHub integration. If visitor capture is part of the rollout, the likely adaptation is local consent and data-handling review. The documented route exclusions, consent controls, and data processing addendum give that review a starting point. The memo identifies no second-market buyer. (The Idea, Key Risks)
+The founders report several live deployments, and Aly Moursy said he canceled Claude Max to try Simulithic. That supports early trial interest. The memo describes demos, referrals, and a free QA audit, but gives no account-level record connecting those channels to activation and payment. Even assuming the product reliably catches regressions, the first unproven link is whether the audit becomes a paid check that teams keep running at their normal release cadence. The memo gives no account-level record of repeat runs or paid expansion. *(The Idea, Market & Traction, Key Facts)*
+
+If a team starts with one critical flow and later buys credits to cover more flows or devices, the published schedule lists $1 per additional web or phone run. That scenario depends on customers actually purchasing credits. There are no realized prices or measurements of the incremental compute, device, and support costs needed to establish contribution. *(The Idea, Key Risks, Key Facts)*
 
 ### Countercase
 
-A free audit could convert into a labor-intensive QA service if each new account needs founder-led setup, manual journey editing, and ongoing failure triage. Each added flow, device, or agent can multiply browser, device, and inference costs. The product can cap flows and agents per check, and exhausted credits pause runs unless customers approve more. Contribution depends on what customers actually pay for incremental coverage after run costs and support time. The published $1 credit rate leaves both realized revenue and delivery cost unknown. The documented run limits make this a concrete risk, but the memo contains no measured rollouts showing that labor or costs rise proportionally with volume. The structural Pass gate is unproven. (The Idea, Key Risks, Key Facts)
+A free audit may surface enough bugs to justify a trial, while ongoing coverage may require teams to edit missed journeys and ration runs as the test matrix grows. Simulithic documents editable journeys and pauses new runs when credits are exhausted unless the customer approves more. Those constraints could keep deployments narrow or make them costly to support. The memo provides no observed pattern of abandonment or proportional delivery costs, so the structural downside gate does not apply. *(The Idea, Key Risks)*
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 10/25 |
+| Global buyer demand | 16/25 |
 | Repeatable acquisition and onboarding | 9/25 |
 | Retention and customer expansion | 7/20 |
 | Contribution as volume grows | 7/20 |
 | Evidence of fit in the first buyer segment | 5/10 |
 
-**Total Score: 38/100** (Pass)
+**Total Score: 44/100** (Pass)
 
 ### Decisive diligence question
 
-Can an engineering team in a second geography come through a referral and the standard audit, activate via the GitHub App, and pay to keep checks running across successive releases with limited founder help? A buyer-confirmed example with a paid invoice, release-check history, and logged setup and support time would move the action to **Reach out**. Until that result, **Watch**.
+Can two independent web-app teams convert a free audit into paid pull-request checks that they keep running across several normal release cycles? Account-level invoices, run histories, and setup records showing that both teams reached recurring paid use through the documented workflow with limited founder effort would move the action to **Reach out**. *(The Idea, Market & Traction, Key Facts)*

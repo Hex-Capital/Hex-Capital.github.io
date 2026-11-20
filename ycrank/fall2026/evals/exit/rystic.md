@@ -1,42 +1,32 @@
 ﻿# Rystic -- Exit Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Medium
+**Evidence confidence:** Low
 
 ### Company case
 
-Strategic acquisition is the strongest path. A CI or agent-testing platform could buy Rystic’s catalog of stateful, local API simulators and the verification pipeline that keeps them aligned with live services. The memo records LocalStack’s purchase of WonderTwin’s overlapping emulators, showing that a platform has bought this type of capability. Rystic reports running 50 Stripe test jobs in 19 seconds versus more than 40 minutes on shared sandboxes. That benchmark suggests a performance benefit. The ownership case is an inference: integrating the catalog and controlling its maintenance could save a buyer enough development time and ongoing work to justify a purchase. The memo gives no deal price or buyer-specific savings to size that advantage. (The Idea, Defensibility, Market & Traction)
+Strategic acquisition is Rystic’s strongest route. A CI or developer-tooling platform could buy Rystic’s stateful, multi-service simulators and its in-house verification pipeline to add agent testing to its own offering and avoid building and maintaining equivalent coverage. The memo records LocalStack’s purchase of overlapping emulators, which establishes a precedent for ownership in this category. Rystic reports that 50 Stripe test jobs took 19 seconds in its simulator versus more than 40 minutes on shared sandboxes. That company-run benchmark suggests a benefit to users. The buyer economics and the advantage of owning the product over licensing it remain unverified. (The Idea, Defensibility, Market & Traction)
 
-Tilo and HJBL report using Rystic in migration-assistant CI and exchange testing, respectively. The next milestone is a repeatable, paid multi-service CI deployment that measures defects caught and engineering time saved against the customer’s existing tools. The reported $125,000 seed entry leaves the budget and runway for that test unknown. The memo supplies no usable evidence on IP assignment, third-party rights, or acquisition consents, and no independently supported route to holder cash. (Market & Traction, Defensibility, Key Facts)
+The operating milestone is renewal across multiple paid CI deployments with measured time savings and defect detection against available substitutes. Rystic launched with 17 simulators, and Tilo’s testimonial describes use in CI. That gives Rystic a starting point for the test. The budget and runway to reach the milestone remain unknown. The in-house verification pipeline supports provisional credit for control of the asset, with IP assignments and transfer rights still unverified. The memo supplies no independent evidence of sponsor financing, eligible secondary demand, public-market readiness, or distributable cash. (Market & Traction, Defensibility, Key Facts)
 
-**Proceeds bridge.** Using the illustrative $500,000 check at a $10 million post-money valuation, 40% relative dilution takes ownership from 5% to 3%, with no follow-on checks. The 5× objective requires $2.5 million in cash by year eight, or $83.3 million in distributable equity proceeds at 3% ownership. The hurdle is $125 million at 2% and $62.5 million at 4%.
-
-The scenarios assume enterprise value equals equity consideration, with zero net debt or other price adjustments, a simple pro rata waterfall, and all cash paid at closing. Stock, escrow, earnouts, rollover, and compensation are each assumed to be zero. These prices and dates are illustrative.
-
-| Scenario | Timing | Cash to investor | Gross multiple |
-|---|---|---:|---:|
-| Modest sale at $30 million | Year 4 | $900,000 | 1.8× |
-| Strong sale at $100 million | Year 7 | $3 million | 6.0× |
-| Prolonged private ownership | Through year 8 | $0 | 0.0× |
-
-At 2% ownership, even the illustrative strong sale yields $2 million, or 4.0×. In the prolonged-private scenario, growth plateaus, buyers stay away, public scale remains out of reach, and cash is reinvested. The investor still holds the shares.
+**Illustrative holder proceeds.** A $500,000 check at a $10 million post-money valuation buys 5%, diluted to 3% with no follow-ons. Assuming pro rata proceeds before investor taxes and $5 million of net debt, a $25 million enterprise-value sale in year eight pays $600,000 gross (1.2×), and a $100 million sale pays $2.85 million (5.7×). The $2.5 million target requires $83.3 million of distributable equity, or $88.3 million of enterprise value with that debt assumption. At 2% or 4% ownership, the equity hurdle is $125 million or $62.5 million, respectively. The memo offers no usable sale-price evidence. If growth plateaus, buyers stay away, public scale remains out of reach, and available cash is reinvested in simulator upkeep, the holder realizes $0 over eight years and retains the shares. (Market & Traction, Key Facts)
 
 ### Countercase
 
-The clearest adjacent buyer already acquired overlapping GitHub, Stripe, and PostHog emulators. WireMock offers local stateful simulation, and Rystic offers custom enterprise licensing. A buyer could get enough coverage through assets it already owns or a license. Rystic’s published agreement rates of 95.0% for Slack and 92.4% for GitHub Pulls also leave room for fidelity gaps to limit the premium. This supports Watch. The memo leaves open whether those substitutes cover the workflows a buyer would value most and whether they would cap the price below the hurdle. (The Idea, Defensibility, Key Risks)
+LocalStack, the clearest precedent buyer, already owns overlapping GitHub, Stripe, and PostHog emulators. WireMock offers local stateful simulation, and Rystic’s published fidelity gaps leave buyers reason to test substitutes before paying for ownership. This weakens the acquisition rationale. The evidence leaves open both a sale to another platform and a price that clears the holder’s target, so the Pass gate remains untriggered. (Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 17/30 |
+| Counterparty rationale or source of cash | 15/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 10/20 |
-| Transaction feasibility | 5/10 |
+| Milestones and capital needed | 11/20 |
+| Transaction feasibility | 6/10 |
 | Independent alternatives | 2/10 |
 
 **Total Score: 42/100** (Pass)
 
 ### Decisive diligence question
 
-Can a CI or agent-testing platform quantify enough incremental value from owning Rystic to support at least $83.3 million in distributable equity proceeds at 3% ownership? A buyer’s build-versus-buy assessment grounded in a paid multi-service deployment would move the action to Reach out if it supports that price and identifies a plausible path to transfer the assets.
+After Rystic demonstrates paid CI renewals, could a platform without equivalent emulators justify paying at least $88.3 million in enterprise value under the modeled holder terms? A buyer-side analysis that quantifies incremental gross profit and avoided maintenance against building or licensing, and supports a price at or above that hurdle, would move the action to Reach out.

@@ -5,25 +5,23 @@
 
 ### Company case
 
-A strategic acquisition by an AI lab’s post-training group is Repovive’s strongest path. Repovive reports $100K in signed contracts across two formalization environments and a separate $200K coding-data letter of intent. Those disclosures indicate demand for the product. The memo provides no evidence of cash collected, measured customer outcomes, or acquisition interest. An ownership rationale would emerge if exclusive control of a continuously refreshed supply of private Lean tasks and machine-checked proofs gave a lab a durable advantage over licensing the environments. That advantage is an inference. (The Idea, Market & Traction, Defensibility)
+Strategic acquisition is the strongest path. An AI lab could buy Repovive to secure exclusive access to a regularly refreshed supply of private Lean tasks, machine-checked reference proofs, and training environments. Ownership could be worth paying for if it preserves a measurable post-training advantage and secures a task supply the lab cannot replicate economically through licensing or internal development. The memo reports $100,000 in signed contracts across two formalization environments, which supports willingness to pay for access. The separate $200,000 letter of intent covers broader coding data. Buyer-specific performance gains and acquisition economics remain unverified. (The Idea, Market & Traction, Defensibility)
 
-The operating milestone is a paid lab deployment that repeatedly improves proof completion on fresh, held-out tasks at a measured cost advantage over the lab’s existing workflow. Repovive has run programming contests, and the founders’ Lean dataset and post-training experience make that test plausible at seed. The memo leaves the test’s cost, funding, and runway open. It also leaves contributor rights, IP ownership, and transferability of customer agreements unverified. No independent route has usable evidence of cash reaching this holder. (Market & Traction, Founders & Team, Defensibility)
+A plausible operating milestone is a paid production renewal after a lab measures the cost to reach a fixed proof-solving target using refreshed Repovive tasks against its best open or internal alternative. The reported contracts provide a starting point for that test, and the founders’ Lean dataset and post-training experience supports the team’s ability to run it. The memo leaves the capital needed to replenish tasks and support production use unknown. Contributor rights and contract assignability are also unverified. The memo leaves sponsor financing, eligible secondary demand, public-market readiness, and distributable cash unevidenced. (Market & Traction, Founders & Team, Defensibility)
 
-The illustrative seed check is $500K at a $10M post-money valuation, with 5% initial ownership diluted to 3% and no follow-on checks. The 5× objective requires $2.5M in gross cash within eight years, or $83.3M in distributable equity proceeds at 3% ownership. The equity hurdle is $125M at 2% ownership and $62.5M at 4%.
+Under the illustrative seed terms, a $500,000 check at a $10 million post-money valuation buys 5%, diluted by 40% relative to 3% with no follow-ons. The eight-year 5× target is $2.5 million in gross cash before investor taxes. It requires $83.3 million of distributable equity at 3% ownership, $125 million at 2%, or $62.5 million at 4%. With illustrative net debt of $5 million, the 3% case requires about $88.3 million of enterprise value before any additional fees or senior claims. The memo supplies neither actual investor terms nor a supported acquisition price range. (Market & Traction, Key Facts)
 
-The sale cases below are sensitivities. The memo gives no usable price evidence. Both assume EV is paid in closing cash, with zero net debt and no other EV-to-equity adjustments. Equity consideration then flows pro rata with no preference adjustments. Stock, escrow, earnouts, rollover, and compensation are each assumed to be $0.
+| Illustrative eight-year outcome | Cash realized by the holder |
+|---|---|
+| $25 million enterprise-value sale | $20 million of distributable equity after $5 million of net debt. The holder receives $600,000, or 1.2×. |
+| $100 million enterprise-value sale | $95 million of distributable equity after $5 million of net debt. The holder receives $2.85 million, or 5.7×. |
+| Prolonged private operation | If lab demand plateaus, buyer interest fails to emerge, public scale stays out of reach, and available cash is reinvested, the holder realizes $0 and retains the shares. |
 
-| Scenario | Timing and enterprise-to-equity bridge | Holder cash on $500K invested |
-|---|---|---:|
-| Modest sale | Year 5. $50M EV → $50M distributable equity | $1.5M (3×) |
-| Strong sale | Year 7. $100M EV → $100M distributable equity | $3.0M (6×) |
-| Prolonged private | Through year 8. Growth plateaus, buyers stay away, public scale remains out of reach, and cash is reinvested | $0 (0×), shares retained |
-
-Even the modeled strong sale yields only $2M (4×) at 2% ownership. The memo gives no buyer economics to support a sale above the hurdle, and the modeled prolonged-private outcome provides no shareholder cash.
+The sale figures assume pro rata distribution and exclude undisclosed fees and senior claims. Wind-down recovery is indeterminate because the memo does not establish what would remain after obligations and preferences.
 
 ### Countercase
 
-An AI lab could license Repovive’s environments, use LeanDojo’s open environment or Reinforce Labs’ proof data, or build internally. The memo documents available alternatives and cites DeepMind’s internal verification research. If those options produce comparable results, they could cap what a lab would pay for ownership below the investor’s hurdle. The memo leaves comparable performance and the resulting price ceiling unresolved. That gap prevents outreach today and leaves the structural Pass override untriggered. (Defensibility, Key Risks)
+Licensing or building internally could meet a lab’s needs. LeanDojo offers an open training environment and proof datasets, Reinforce Labs offers type-checked Lean proof data, and DeepMind’s in-house work demonstrates that a lab can develop verification infrastructure. These alternatives weaken the case for paying to own Repovive. The memo does not establish that they match the performance of Repovive’s private environments, impose a structural block, or cap proceeds below the target. The Pass gate therefore does not apply, and the lack of buyer economics keeps the action at Watch. (Defensibility, Key Risks, Market & Traction)
 
 ### Dimension Scores
 
@@ -39,4 +37,4 @@ An AI lab could license Repovive’s environments, use LeanDojo’s open environ
 
 ### Decisive diligence question
 
-Does a paid lab deployment show a repeatable proof-completion gain on fresh, held-out Lean tasks whose value to the lab depends on owning Repovive’s task pipeline? Move to **Reach out** if a buyer-validated comparison against ordinary licensing and in-house alternatives shows an ownership advantage large enough to make an acquisition above the modeled hurdle credible.
+Would a production lab’s measured cost savings from exclusive access to Repovive’s refreshed task supply, relative to its best build or licensing option, justify an acquisition near the roughly $88.3 million enterprise-value hurdle under the illustrative terms? A paid renewal backed by a head-to-head production benchmark and a buyer’s documented build-versus-buy economics supporting that price range would move the action to Reach out.

@@ -5,28 +5,28 @@
 
 ### Company case
 
-**Path B — New economies** is the strongest fit for this U.S. seed-stage company. The memo documents a GalenOps demo using a synthetic study. Nxtcure says 13 agents handle routine trial work, qualified humans review consequential decisions, and its planned digital twins would model drug exposure and tumor response. The company describes the twin modules as in development or subject to validation. (The Idea; Market & Traction; Key Risks)
+**Path B — New Economies.** Conventional CROs rely on labor-intensive trial operations. Nxtcure says GalenOps assigns routine work to 13 agents and routes consequential decisions to qualified reviewers. The seed-stage evidence is a demo using a synthetic study. The founders bring oncology research and computational biology experience, and the team previously released a trial-matching app. Live trial execution remains unverified. (The Idea, Market & Traction, Founders & Team)
 
-**Scenario assumption.** A small oncology sponsor that previously deferred a study because conventional CRO delivery exceeded its budget might buy a per-program service if GalenOps cuts total delivery labor at equivalent quality. With equally capable models available to every vendor, the sponsor could still pay Nxtcure for accountable trial execution if Nxtcure controls the qualified review and operating workflow the sponsor needs. The memo documents neither that control nor a paid GalenOps engagement. The founder-reported pilots concerned the earlier trial-matching app. (The Idea; Defensibility; Market & Traction; Key Facts)
+**Scenario assumption.** A budget-constrained oncology biotech could proceed with a study it would otherwise defer if GalenOps cut labor and full delivery cost per successfully delivered study at comparable quality. The comparison needs to include qualified review, retries, exceptions, validation, compliance, and fulfillment. The proposed per-program pricing gives Nxtcure a unit for testing those economics. Buyer commitments, realized costs, and contribution per program remain unknown. (The Idea, Key Facts, Key Risks)
 
-The founders’ oncology and computational biology backgrounds and the release of the earlier app support seed-stage execution credit. The memo records no delivery of a live sponsor trial. The scale unit is the next sponsor program. Its fee would need to cover inference, reviewer time, retries, exception handling, compliance, and fulfillment, with enough qualified review capacity to serve more programs. Planned per-program pricing gives a unit to test. The memo supplies no rates, delivery costs, or reviewer throughput. (Founders & Team; Market & Traction; The Idea; Key Facts)
+Under model parity, the sponsor could still pay Nxtcure to take responsibility for trial execution and coordinate qualified review. That is a plausible basis for durable value capture if Nxtcure demonstrates control of those operations and sponsors value the integrated service. The digital twins remain subject to validation. (The Idea, Defensibility, Key Risks)
 
 ### Countercase
 
-Qualified review and exception handling could absorb the labor savings, leaving Nxtcure competing for trials sponsors already fund. Harbor offers trial execution and QuantHealth offers pre-enrollment simulation, so a sponsor with access to comparable models could buy those capabilities separately. Nxtcure’s integrated offering has no demonstrated buyer preference under that comparison. Reusable study outcomes could improve calibration, but the memo establishes neither reuse rights nor validation across studies. Even with abundant competing capital, the memo identifies no scarce trial input Nxtcure controls, leaving Path A unsupported. These risks leave both Path B conditions unproven and the outreach gate unmet. The synthetic demo and overlapping offerings do not establish that either condition fails in live use. (The Idea; Defensibility; Market & Traction; Key Risks)
+Qualified review and exception handling could absorb the labor savings, leaving the same sponsors buying substantially the same CRO service. Sponsors could also assemble overlapping capabilities from Harbor for execution and QuantHealth for simulation. The memo leaves both market opening and buyer preference under model parity unresolved. It offers a specific live test, which supports Watch. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 8/25 |
-| Durable value capture | 6/25 |
+| Path-specific thesis fit | 10/25 |
+| Durable value capture | 7/25 |
 | Customer demand | 5/20 |
 | Team and execution | 7/15 |
-| Scale economics | 4/15 |
+| Scale economics | 5/15 |
 
-**Total Score: 30/100** (Pass)
+**Total Score: 34/100** (Pass)
 
 ### Decisive diligence question
 
-Will an independent oncology sponsor pay Nxtcure to run a live study it previously could not afford and choose Nxtcure over an alternative with comparable model capabilities? One paid pilot could answer this if it documents the prior budget barrier, delivers equivalent quality against a same-scope conventional CRO benchmark, records all delivery labor and costs, and shows that the sponsor chose Nxtcure for trial operations it controls. A result that establishes both conditions would move the action to Reach out if the reassessment reaches 65 or above with at least medium confidence. An inconclusive pilot keeps the company on Watch. A result showing that full delivery costs erase the savings or that the sponsor readily switches at parity would move the action to Pass absent a separately supported Path A.
+Will an independent oncology sponsor that would otherwise defer a study pay Nxtcure a commercially viable price to run it after comparing a CRO alternative with equivalent AI? Move to Reach out if a paid live pilot shows lower labor and full delivery cost at comparable quality, and the sponsor commits to the next phase because it values Nxtcure’s accountability for execution.

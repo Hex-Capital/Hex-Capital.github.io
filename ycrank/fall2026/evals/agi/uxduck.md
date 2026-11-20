@@ -5,28 +5,26 @@
 
 ### Company case
 
-**Path B — New economies.** UXDuck combines browser simulation, custom-firmware support, flight replay, and permission-controlled AI assistance in one ground station. The founder reports that hardware incompatibilities can surface during flight. The seed-stage hypothesis is that cheaper AI assistance could cut hands-on integration and review enough for small custom-drone teams to run regression tests they previously skipped. That assumes comparable test quality after counting review, retries, and exceptions. The memo provides no such comparison. (The Idea)
+Path B — New Economies is the strongest path. Custom-drone teams currently repeat sensor integration, testing, and flight-data review across vehicles, according to the founder. UXDuck combines simulation, vehicle configuration, and flight replay with AI assistance. The market-opening hypothesis is that small teams could afford to run a full validation cycle after each hardware or firmware change, including changes for which they previously skipped or deferred testing. At seed, the relevant comparison is labor and full cost per successfully validated change, including engineering review, retries, and safety exceptions. A customer reported flying a custom-imported aircraft within five minutes of download. That observation supports fast setup, while the cost and cadence of full validation remain unmeasured. (The Idea; Market & Traction)
 
-A customer testimonial describes team use for demos and flying, and UXDuck reports more than 500 simulated flight hours. These are early usage signals. Paid repeat use by teams newly able to afford routine testing remains unverified. Butterworth’s prior drone software work and the documented fix for a flight-control regression support execution, while the ability to support more teams remains unproven. (Market & Traction, Founders & Team, Key Risks)
-
-For scale, the account-free simulator and desktop download provide a self-serve entry point. In a paid-team scenario, contribution would depend on realized fees less inference, onboarding, compatibility support, and ongoing service costs. Quote-based pricing and the broad market estimate leave both contribution per team and the number of reachable paying teams unknown. (The Idea, Key Facts)
+The same customer separately described using UXDuck for team demos and flying, an early demand signal with payment and repeat validation still unverified. Butterworth’s prior drone software and hardware integration work and the documented fix for a PX4 flight regression support execution credit. Scale economics receives the absent-evidence default. Business pricing is by inquiry, and the memo gives no realized price or delivery cost per commercial team. (Market & Traction; Founders & Team; Key Risks; The Idea)
 
 ### Countercase
 
-UXDuck may make existing drone-development workflows more convenient without making a new use economical. Mission Planner and QGroundControl already cover core workflows and can run alongside UXDuck. Competitors with the same models and ample capital could reuse the Apache-licensed core and fund cross-vehicle testing. Saved configurations and vehicle histories might give teams a reason to stay, but the memo shows no retention or preference under parity. It also identifies no scarce capability UXDuck controls for Path A. Neither Path B condition clears the outreach gate. The evidence leaves both conditions testable. (The Idea, Defensibility, Key Risks)
+UXDuck may make existing ground-station work faster without making a previously skipped validation cycle economical. Under the scenario assumption that incumbent tools gain equivalent AI and workflow capabilities, buyers could keep using Mission Planner or QGroundControl alongside UXDuck or extend the Apache-licensed core with existing MAVLink tooling. Saved configurations and vehicle change histories could give teams a reason to keep paying if they become engineering records, but the memo contains no evidence of retention or migration costs. Both Path B conditions remain open. The overlap makes substitution credible, while the memo records no buyer switching under functional parity. (The Idea; Defensibility; Market & Traction; Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
 | Path-specific thesis fit | 9/25 |
-| Durable value capture | 5/25 |
-| Customer demand | 8/20 |
-| Team and execution | 10/15 |
+| Durable value capture | 7/25 |
+| Customer demand | 7/20 |
+| Team and execution | 9/15 |
 | Scale economics | 4/15 |
 
 **Total Score: 36/100** (Pass)
 
 ### Decisive diligence question
 
-Will independent custom-drone teams that previously skipped routine regression testing repeatedly pay for UXDuck when their incumbent workflow has comparably capable AI? A paid trial should compare equivalent-quality results, count all hands-on time including retries and exceptions, and track repeat purchases at a price that covers incremental delivery costs. Measured labor savings that unlock recurring tests, paired with repeat purchases under model parity, would support Reach out if the revised case clears the score and confidence thresholds. Evidence that neither workflow makes the testing economical, or that teams readily switch under parity, would move the action to Pass.
+Will an independent small drone team that previously skipped per-change validation on cost grounds pay to repeat it with UXDuck when offered a functionally equivalent alternative using the same quality of AI? A side-by-side pilot should measure all-in cost per successfully validated change against the old workflow and record which tool the team pays to use for the next cycle. A credible cost reduction that enables the new cadence, followed by a paid repeat with UXDuck under parity, would move the action to Reach out. A representative result showing that review and retries erase the savings or that the team readily switches under parity would move it to Pass.

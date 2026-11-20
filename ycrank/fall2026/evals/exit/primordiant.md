@@ -5,31 +5,25 @@
 
 ### Company case
 
-Strategic acquisition is Primordiant’s strongest path. Bruker’s investment in Atinary shows that a lab-instrument vendor will commit capital to instrument-linked automation. Primordiant claims its robots can adapt experiments across changing procedures in existing labs. If that capability proves repeatable across sites, a vendor could buy the robot-control software and integration know-how to deploy it across its installed base and control the product roadmap. The ownership premium depends on how much faster or cheaper that would be than building or partnering. The memo gives no measured buyer economics or usable acquisition-price evidence. (The Idea; Market & Traction; Defensibility)
+Strategic acquisition by a laboratory instrument or automation vendor is the strongest path. Primordiant claims its robot can run an experiment, observe the result, and use it to select the next experiment inside an existing lab. A vendor could pay to embed that capability across its installed base if owning the stack materially lowers integration or operating costs relative to licensing it. Bruker’s investment in Atinary shows strategic interest in instrument-linked automation, with the amount undisclosed. The memo provides no measured buyer benefit or acquisition price evidence. (The Idea, Defensibility, Market & Traction)
 
-Primordiant reports bringing a prototype to a client wet lab and running a polymer-coatings engagement at its own lab. Those are concrete starting points for a cross-site test. The remotely controlled demo leaves autonomous repeatability unverified, and the memo gives no cost, runway, or confirmed funding for that test. IP ownership and transfer rights are undocumented in the memo. Any value attributed to training on customer content depends on opt-in or a written agreement under the published terms. The memo establishes no independent fallback that could deliver cash to this holder. (Market & Traction; Key Risks; Defensibility; Key Facts)
+Primordiant reports two client engagements, including a prototype brought to a client wet lab and a polymer-coatings project at its own lab. That supports repeatable customer-site deployment as a plausible seed milestone. The remotely controlled demo leaves autonomous operation across changing protocols unverified, and the memo gives no funded production plan or confirmed budget. A sale could center on the robot and software stack, whose ownership and transfer rights remain unverified. Any buyer case that depends on training with customer content would also need the opt-in or written agreement specified in the terms. (Market & Traction, Key Risks, Defensibility)
 
-**Illustrative proceeds bridge.** Assume a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-on. The eight-year objective is $2.5 million in gross cash. Under a simple pro rata waterfall, that requires $83.3 million in distributable equity proceeds at 3% ownership, $125 million at 2%, or $62.5 million at 4%.
+**Proceeds bridge.** With no actual investor terms disclosed, assume a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3% with no follow-ons, and a 5× gross cash target within eight years. A $2.5 million payout requires about $83.3 million in distributable equity at 3% ownership, $125 million at 2%, or $62.5 million at 4%. With $5 million of illustrative net debt, the 3% hurdle is about $88.3 million in enterprise value. At year eight, a $25 million sale yields $600,000 gross (1.2×), and a $100 million sale yields $2.85 million gross (5.7×), assuming pro rata distribution before investor taxes. Both prices are scenarios. Actual debt, fees, and senior claims are undisclosed.
 
-For both sale scenarios, assume zero net debt and other enterprise-to-equity adjustments, with a pro rata waterfall and no preference deductions. All equity consideration is cash at closing. Stock, escrow, earnouts, rollover, and compensation are each assumed to be $0. Prices and timing are illustrative.
-
-| Scenario | Timing | Enterprise value → distributable equity | Holder cash and gross multiple |
-|---|---|---:|---:|
-| Modest sale | Year 5 | $50M → $50M | $1.5M, 3× |
-| Strong sale | Year 7 | $100M → $100M | $3.0M, 6× at 3% ownership. At 2%, $2.0M, 4× |
-| Prolonged private | Through year 8 | Growth plateaus, buyers stay away, public scale remains out of reach, and cash is reinvested | $0, 0×, with shares retained |
+If growth plateaus, no buyer emerges, public scale stays out of reach, and all available cash is reinvested, the holder realizes $0 over eight years and retains the shares. Published pricing with beta billing disabled supplies no evidence of cash generation for a sponsor buyout, dividend, or buyback. The memo also supplies no evidence of IPO readiness or an eligible secondary. Any wind-down recovery would come from the residual after obligations and preferences, which the memo does not quantify. (The Idea, Market & Traction, Key Facts)
 
 ### Countercase
 
-An instrument vendor could get enough of the benefit through a supplier integration or an ordinary license. Thermo Fisher’s NVIDIA collaboration and Bruker’s Atinary partnership show that vendors already pursue this route. If Primordiant also needs substantial site-specific integration, ownership could offer too little incremental value to clear the proceeds hurdle. The memo supports substitution as a credible risk and leaves the price ceiling unresolved. That warrants Watch. The evidence establishes neither a structural price cap nor that the prolonged-private scenario is probable, so the Pass override does not apply. (Defensibility; Key Risks)
+Instrument vendors can already add AI through partnerships. The Thermo Fisher–NVIDIA and Bruker–Atinary collaborations give that alternative concrete support. If each Primordiant installation requires substantial custom work, a vendor could partner for the capabilities it needs and have little reason to buy the company. Those collaborations leave the ownership premium unproven. They establish neither a structural block nor a realizable price that falls materially short, so the Pass gate does not apply. (Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 12/30 |
+| Counterparty rationale or source of cash | 13/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 10/20 |
+| Milestones and capital needed | 9/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
@@ -37,4 +31,4 @@ An instrument vendor could get enough of the benefit through a supplier integrat
 
 ### Decisive diligence question
 
-Can a funded instrument-vendor pilot show repeatable autonomous protocol changes across two customer labs and establish an economic reason for the vendor to own the capability? Customer-verified gains in time and integration cost, together with a vendor comparison against building or licensing that supports a price near or above the modeled hurdle, would move the action to Reach out. If the pilot shows that a license captures essentially the same benefit and caps the price below the hurdle, move to Pass.
+Can a paid production rollout across two customer sites demonstrate enough incremental value from owning Primordiant’s stack to support a strategic sale above the holder’s proceeds hurdle? Deployment records showing repeatable autonomous operation across changing protocols, paired with a credible buyer-side estimate of savings over a partnership, would answer it. Move to Reach out if those economics support a price that can deliver $2.5 million to the holder within eight years under plausible dilution and deal terms.

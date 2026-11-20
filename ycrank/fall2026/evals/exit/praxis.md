@@ -5,36 +5,36 @@
 
 ### Company case
 
-Strategic acquisition by a legal practice-management platform such as Clio or Filevine is the strongest path. The memo documents incumbent products that already automate intake. Praxis describes a broader, lawyer-approved workflow spanning conflict checks, document verification, matter updates, and invoice follow-up. The acquisition case is that owning Praxis’s software and integrations could let a platform roll out those later steps faster and earn more from its installed base than it could by building or licensing equivalent capabilities. That advantage remains an inference. The customer testimonial gives a baseline of 1.5 hours a day spent on setup and engagement letters, with no quantified post-deployment result. (*The Idea*, *Market & Traction*, *Defensibility*)
+Strategic acquisition is the strongest path. Clio or Filevine could pay for Praxis’s reusable, lawyer-supervised software to extend their intake products into document verification, matter updates, and invoice follow-up. The potential benefit is faster rollout and more software revenue from existing customers. Ownership would make sense if Praxis can show that deploying the full workflow across firms is materially faster or more profitable than building it in-house or licensing it. The memo reports live U.S. law-firm deployments. Praxis cites an unnamed customer who previously spent about 1.5 hours a day on setup and engagement letters. That figure measures the prior workload. Time saved, paid adoption, and buyer economics remain unverified. (The Idea, Market & Traction, Key Facts)
 
-The memo reports live law-firm deployments, which give Praxis a place to test whether the broader workflow delivers repeatable gains. The seed milestone is paid adoption across multiple firms with measured gains beyond intake. The memo leaves paid adoption, burn, and runway undisclosed, so the time and capital required remain uncertain. Customer ownership of firm-specific workflows also narrows what a buyer could acquire outright. Rights to the core software and permissions for continued use of configurations and client data would need verification. (*Market & Traction*, *Key Facts*, *Defensibility*, *Key Risks*)
+The operating milestone is sustained paid use of post-intake workflows across multiple firms, with measured staff-time savings and reliable lawyer approvals. Reported live deployments provide a starting point. The memo leaves the customer count, revenue, and capital required to reach that milestone unknown. Firm ownership of configured workflows limits what Praxis itself can convey. Assignment rights and permissions to continue serving customers under an acquirer remain unverified. (Market & Traction, Key Facts, Defensibility, Key Risks)
 
-**Proceeds bridge.** With investment terms undisclosed, assume a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted by 40% to 3%, and no follow-on checks. The eight-year, 5× objective requires $2.5 million in gross cash. Under simple pro rata allocation, the holder needs $83.3 million of distributable equity proceeds at 3%, $125 million at 2%, or $62.5 million at 4%. The memo supplies no usable acquisition valuation for Praxis, so the sale prices below are scenario assumptions. Both sales assume zero net debt and other price adjustments, no preference diversion, and all equity consideration paid in cash at closing. Stock, escrow, earnouts, rollover, and compensation are each assumed to be zero. (*Key Facts*, *Market & Traction*)
+**Proceeds bridge.** With actual investor terms unavailable, assume a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-ons. The eight-year 5× target is $2.5 million in gross cash. At 3% ownership, that requires $83.3 million in distributable equity, or $88.3 million in enterprise value with illustrative net debt of $5 million. The equity hurdle is $125 million at 2% ownership and $62.5 million at 4%. The sale scenarios assume cash at closing, pro rata distribution, and no additional deductions for fees or senior preferences.
 
-| Scenario | Timing | Enterprise value to distributable equity | Gross holder cash at 3% |
-|---|---|---|---|
-| Modest sale | Year 5 | $50M less $0 in adjustments = $50M | $1.5M, 3× |
-| Strong sale | Year 7 | $100M less $0 in adjustments = $100M | $3.0M, 6× |
-| Prolonged private | Through year 8 | Growth plateaus, buyers stay away, public scale remains out of reach, and cash is reinvested | $0, 0×, shares retained |
+| Eight-year scenario | Gross cash to the holder |
+|---|---:|
+| Modest sale at $25 million enterprise value, less $5 million net debt | $600,000 (1.2×) |
+| Strong sale at $100 million enterprise value, less $5 million net debt | $2.85 million (5.7×) |
+| Growth plateaus, buyer interest fails to emerge, public scale stays out of reach, and available cash is reinvested | $0, with shares retained |
 
-The strong scenario clears the hurdle at 3% and falls to 4× at 2%. The memo provides no separately supported fallback. It discloses no recurring earnings or distributable cash for a buyout or payout, no demand for this holder’s shares, and no operating scale that supports a public resale case. (*Market & Traction*, *Key Facts*)
+The sale prices illustrate the hurdle. The memo provides no basis for a realizable price range. It also provides no evidence of cash generation to finance a sponsor buyout or company payout, eligible demand for a secondary, or operating scale for an IPO. Any wind-down recovery would depend on the residual after obligations and preferences, which the memo does not quantify. (Market & Traction, Key Facts)
 
 ### Countercase
 
-Clio and Filevine already offer AI intake inside the systems firms use. A platform could extend that functionality or license the added steps. Praxis’s customer-owned playbooks further limit the assets that ownership would secure. If the broader workflow is easy to reproduce, a buyer’s willingness to pay could fall well below the proceeds hurdle. The memo establishes meaningful overlap at intake and leaves substitutability across the full workflow unresolved. That supports Watch pending evidence of an ownership premium. The modeled $0 private outcome alone does not trigger the Pass override. (*The Idea*, *Defensibility*, *Key Risks*)
+Clio and Filevine already ship intake automation inside their suites. They can extend those tools or integrate with Praxis, and firms own the configured workflows that might otherwise make the deployments valuable to a buyer. Without measured gains from the post-intake features, a buyer has little evidenced reason to pay an acquisition premium. This supports Watch. The memo establishes neither a structural closing block nor a credible sale price that would leave the holder materially short. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 13/30 |
+| Counterparty rationale or source of cash | 12/30 |
 | Plausible investor proceeds | 8/30 |
 | Milestones and capital needed | 9/20 |
-| Transaction feasibility | 4/10 |
+| Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
 **Total Score: 36/100** (Pass)
 
 ### Decisive diligence question
 
-Can repeatable paid deployments show that owning Praxis’s transferable software would create enough incremental value for a practice-management platform to justify a price above the investor’s proceeds hurdle? Measured gains across firms in post-intake workflows, translated into buyer economics against build and licensing costs, would answer it. Evidence supporting a price above the $83.3 million base-case hurdle, with a credible path to transfer the assets responsible for those gains, would move the action to Reach out.
+Can repeat paid deployments show enough incremental value from Praxis’s post-intake workflows to support a suite buyer paying roughly $88 million in enterprise value under the modeled terms? Sustained usage and measured customer gains, tied to buyer-validated estimates of incremental profit or avoided development costs, would support moving to Reach out.

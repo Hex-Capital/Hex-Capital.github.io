@@ -5,31 +5,25 @@
 
 ### Company case
 
-A strategic acquisition by a robotics OEM or factory automation integrator is the strongest path. The memo documents a live EMG-control demonstration with a Proception robotic hand. Axonnic reports lower hand-pose error than Meta’s baseline across all 20 held-out participants. A buyer could pay to own the decoder, factory-trained policies, and reusable recordings if those assets let it deploy force-sensitive tasks faster or at lower cost than building its own system or licensing one. That ownership advantage remains an inference. (Market & Traction, Defensibility, The Idea)
+**Strategic acquisition** is the strongest path. A robotics OEM or factory automation integrator could buy Axonnic’s EMG capture and decoding stack to train robots on force-sensitive tasks such as sewing. The memo documents live EMG control of a Proception robotic hand. Axonnic reports lower hand-pose error than Meta’s benchmark baseline across all 20 held-out participants. The acquisition case is conditional on a buyer finding that Axonnic’s technology and transferable training data materially improve factory deployment economics, and that ownership captures more of that benefit than licensing or partnering. The size of that benefit remains unmeasured. (The Idea, Defensibility, Market & Traction)
 
-The next operating milestone is a repeatable factory sewing deployment that measures throughput and rework across operators and shifts using the robot’s own sensors. Axonnic reports initial paid pilots and a signed sewing LOI. Those support a path to a test, while electrode placement shifts, repeat data collections, and the work of adapting human demonstrations to robot controls leave execution and capital needs uncertain. Axonnic negotiates data reuse engagement by engagement. The memo leaves open whether the relevant rights would transfer to an acquirer. (Market & Traction, Key Risks, Defensibility)
+The operating milestone is a sewing deployment that shows a repeatable improvement in defect rates or setup time against a lower-cost capture method across operators and shifts. Reported paid pilots and sleeve shipments give Axonnic a way to test this at seed stage. The sewing LOI still requires robotic implementation, and recording retries and electrode placement shifts add execution risk. Pilot budgets and the capital needed to reach production remain unknown. (Market & Traction, Key Risks)
 
-The illustrative $500,000 check at a $10 million post-money valuation buys 5%, diluted to 3%, with no follow-on checks. The eight-year 5× objective requires $2.5 million in holder cash before investor taxes, or $83.3 million in distributable equity proceeds at 3%. The hurdle is $125 million at 2% and $62.5 million at 4%. Paid pilots of undisclosed size and sleeve preorder prices provide no usable acquisition-price evidence. (Key Facts)
+**Illustrative proceeds.** With actual investor terms unavailable, assume a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted by 40% to 3%, and no follow-ons. The eight-year target is $2.5 million in gross cash. A simple pro rata allocation before investor taxes requires $83.3 million in distributable equity at 3% ownership, $125 million at 2%, or $62.5 million at 4%. With $5 million in assumed net debt, the 3% case requires about $88.3 million in enterprise value. An Axonnic sale at $25 million in year eight would return $600,000 (1.2×). A $100 million sale would return $2.85 million (5.7×). Both scenarios deduct the assumed debt and leave any fees or senior claims unquantified. The memo’s pilot and preorder evidence leaves the realizable acquisition price unsupported. (Key Facts)
 
-| Illustrative outcome | Timing | Cash to holder | Gross multiple |
-|---|---|---:|---:|
-| Modest sale at $40 million enterprise value | Year 5 | $1.2 million | 2.4× |
-| Strong sale at $100 million enterprise value | Year 7 | $3.0 million | 6.0× |
-| Prolonged private ownership | Through year 8 | $0, with shares retained | 0× |
-
-The sale prices and dates are scenario assumptions. Both sales assume zero net debt and other purchase-price adjustments, so enterprise value equals equity consideration. The assumed waterfall is pro rata with no senior preferences. All consideration is cash at closing, with zero stock, escrow, earnout, rollover, or compensation. At 2% ownership, even the strong sale returns $2 million, or 4×. In the prolonged-private case, growth plateaus, buyers stay away, public scale remains out of reach, and cash is reinvested. The memo supplies no independent route to holder cash within the horizon. (Key Facts, Market & Traction)
+If growth plateaus, buyers stay absent, public scale remains out of reach, and Axonnic reinvests all available cash for eight years, the holder realizes $0 and retains the shares. The memo leaves sponsor financing capacity, eligible secondary demand, IPO scale, and distributable cash unevidenced. (Market & Traction, Key Facts)
 
 ### Countercase
 
-A robotics OEM could buy an EMG capture kit or commission task-specific training and capture most of the benefit through a commercial agreement. OYMotion already sells a kit and offers model fine-tuning, while Axonnic itself bundles an SDK with the sleeve and offers factory-specific training. If those options deliver comparable factory performance, the economics of licensing could cap acquisition willingness below the proceeds hurdle. The memo establishes that substitutes are available. Their production equivalence and effect on buyer willingness remain open, so the structural Pass gate stays open and the action is Watch. (The Idea, Defensibility, Market & Traction)
+An OEM could license Axonnic’s technology, use OYMotion’s commercially available capture kit, or build around its own capture tools. Proception already offers a demonstration glove. Axonnic also negotiates factory data reuse engagement by engagement, leaving the scope and transferability of the data rights uncertain. These facts weaken the case for ownership. Whether substitutes can match Axonnic in production, whether the relevant rights can transfer, and what a buyer would pay remain unresolved, so the Pass gate does not apply. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 14/30 |
+| Counterparty rationale or source of cash | 13/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 10/20 |
+| Milestones and capital needed | 11/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
@@ -37,4 +31,4 @@ A robotics OEM could buy an EMG capture kit or commission task-specific training
 
 ### Decisive diligence question
 
-In a repeatable factory sewing deployment, how much more would a robotics OEM gain from owning Axonnic’s transferable training assets than from the best licensed alternative? An OEM-validated comparison of throughput, rework, and integration costs across shifts would move the action to Reach out if the incremental economics make an acquisition near the proceeds hurdle credible. Comparable results through licensing would move the action to Pass if they cap buyer willingness materially below that hurdle.
+Can the sewing deployment establish enough value for a robotics OEM or integrator to justify buying Axonnic? A buyer-backed valuation range clearing the modeled proceeds hurdle, grounded in repeatable production gains over the buyer’s best alternative, would move the action to Reach out.

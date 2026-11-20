@@ -5,28 +5,26 @@
 
 ### Company case
 
-**Path A — Scarce complements.** As models get better at circuit design in simulation, frontier labs may need more bench tests to learn which designs work on physical hardware and which failures require a different experiment. Evident Machines launched FrontierEE Bench in Fall 2026. The company reported a 29.3% average hardware pass rate across 10 tasks that models passed at 100% in simulation. The standalone results were inaccessible, and whether training on those failures improves performance on unseen equipment remains open. The reported gap makes physical validation a plausible bottleneck at seed. (The Idea, Market & Traction, Key Risks)
+**Path A — Scarce complements.** If cheaper frontier models generate more circuit designs that labs need to test, repeatable physical experiments could become the bottleneck. Evident Machines’ benchmark has models direct experiments and interpret instrument readings while operators handle wiring and probe placement. The company reports that models passed all 10 tasks in simulation but averaged a 29.3% pass rate on physical hardware. That comparison suggests the bench captures failures simulation misses in this task set. The results remain unverified, and the memo records no frontier lab committing budget or operating time to access Evident’s capacity. (*The Idea*, *Market & Traction*, *Key Facts*)
 
-The San Francisco lab gives Evident a way to capture instrument readings and expert workflows. A reusable library of reproducible failures could give labs a reason to buy from Evident even with cheap access to equally capable models. The memo leaves exclusivity and buyer commitment unresolved. The founders’ complementary electrical engineering and model-systems experience, together with the benchmark launch, support early execution. Repeat delivery for a lab remains untested. (Defensibility, Founders & Team, Market & Traction, Key Facts)
-
-**Scale scenario.** If several labs license the same validated tasks, Evident can spread contributor and bench costs across buyers. If labs require bespoke tasks, each engagement adds manual wiring, probe placement, and reruns. The memo gives no labor hours, utilization, or pricing to establish margins. Path B also remains unproven because the memo documents neither an equivalent-quality labor comparison nor a newly viable buyer or transaction. (The Idea, Key Risks, Key Facts)
+The benchmark launch demonstrates early execution after the pivot, supported by the founders’ experience in electrical engineering, science AI, model reasoning, and systems engineering. The natural unit of expansion is a reproducible bench task that can be rerun across models. Adding benches could increase capacity if operator time for setup and reruns, contributor compensation, and equipment costs allow viable pricing. The memo provides no measured throughput or cost per task. (*Market & Traction*, *Founders & Team*, *The Idea*, *Key Risks*)
 
 ### Countercase
 
-A well-funded frontier lab could commission comparable evaluations from a hardware partner and retain control of the resulting data. Anthropic and Diode have already built overlapping circuit-board training tasks and an internal benchmark. That collaboration establishes a credible alternative. Whether it can match Evident’s physical measurements and failure coverage remains open. The evidence leaves Path A’s control gate unmet and supports Watch while a direct comparison is feasible. (Defensibility, Market & Traction, Key Risks)
+A frontier lab could build overlapping evaluations with a hardware partner, as Anthropic and Diode did for circuit-board tasks. Evident has a working bench and captures expert workflows and failure data, but the memo establishes neither exclusive access to those inputs nor a demonstrated advantage in cost, turnaround, or downstream training outcomes. The overlap makes substitution credible. An equivalent substitute for the same physical experiment workflow would close Path A, and that comparison remains untested. (*Defensibility*, *Market & Traction*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 14/25 |
+| Path-specific thesis fit | 15/25 |
 | Durable value capture | 8/25 |
 | Customer demand | 5/20 |
 | Team and execution | 10/15 |
 | Scale economics | 5/15 |
 
-**Total Score: 42/100** (Pass)
+**Total Score: 43/100** (Pass)
 
 ### Decisive diligence question
 
-Will a frontier lab place a repeat paid order after comparing Evident with its best available alternative on previously unseen hardware tasks? A trial with agreed thresholds for reproducibility and fully loaded cost per validated task would answer it. A repeat order following a material advantage, with Evident retaining rights to reuse the resulting tasks, would support Reach out if the updated score and confidence clear the outreach gates. An equivalent alternative on quality and cost would support Pass.
+Will an independent frontier lab pay for a repeat deployment after comparing Evident with its best alternative on the same physical experiments? A paid repeat at a price that covers delivery costs, backed by a reproducibility or turnaround advantage the alternative cannot match, would move the action to Reach out. Equivalent results on comparable terms would close Path A and move the action to Pass.

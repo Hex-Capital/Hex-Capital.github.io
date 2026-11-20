@@ -5,26 +5,28 @@
 
 ### Company case
 
-**Path B — New economies** is Collar’s strongest path. Its Fall 2026 seed stage and San Francisco location fit the stated mandate. The scenario to test is whether lean public-company investor relations teams that previously skipped tailored investor-meeting prep can now afford it routinely. Collar describes software that flags conflicting figures and retrieves citation-backed talking points from approved materials during calls. Its anonymized example puts earnings preparation at about one day versus three weeks. That is a company-reported change in elapsed time. Labor hours, review and correction costs, and live-answer quality remain unmeasured in the memo. (Collar, The Idea, Market & Traction, Key Risks)
+**Path B — New Economies** is Collar’s strongest path. Public-company IR teams compile figures and prepare for investor meetings in-house or outsource the work. Collar says some companies pay consultants $15,000 a month. Collar automates investor targeting and figure reconciliation, then surfaces answers from approved materials during calls. It reports that earnings preparation fell from three weeks to about one day in an anonymized example. That is an elapsed-time claim. The memo gives no labor hours or fully loaded cost per successful outcome. (The Idea; Market & Traction)
 
-Collar reports $1.4 million in deals pending compliance and 30 partners. Those claims indicate early interest. The memo leaves paid conversion, repeat use, and how many buyers previously skipped the work unknown. The documented IR launch and the founders’ prior collaboration support early execution, while delivery through repeated earnings cycles remains unverified. The memo provides no current price or marginal costs for onboarding, support, and inference, so contribution per additional issuer remains unknown. (Market & Traction, Founders & Team, The Idea)
+The scenario assumes that smaller public issuers currently forgo recurring investor outreach because preparation costs too much. One repeatable unit would be a completed, compliance-approved outreach cycle. Compare the staff time, consulting fees, and compliance review required by the former workflow with Collar’s fee and the issuer’s remaining setup, review, corrections, and exception handling. For Collar, repeatable contribution would depend on inference and live support costs as well as onboarding effort across cycles. Current pricing and delivery costs are undisclosed. (The Idea; Defensibility; Key Risks)
+
+Under model parity, issuers might keep paying Collar if accumulated meeting history and approved Q&A make each cycle easier to run. Collar’s reported mapping of 12,000-plus portfolio managers helps explain the targeting feature. The memo provides no evidence that buyers prefer Collar at parity or that this history keeps them from switching. Collar also reports $1.4 million in deals pending compliance and fourfold monthly revenue growth from an undisclosed base. Those signals come from the current IR market, with no disclosed conversion or repeat purchase from the proposed newly served segment. The documented IR launch and the founders’ prior procurement collaboration support early execution credit. Compliance clearance and live-answer reliability remain the next operating tests. (Defensibility; Market & Traction; Founders & Team; Key Risks)
 
 ### Countercase
 
-Collar may save time for large issuers already paying for investor relations while cheaper models and incumbent tools absorb much of the workflow. Q4’s AI CRM and Notified’s expanded earnings-prep tooling make substitution credible. Issuer-specific meeting history and approved Q&A could give buyers a reason to stay, but that is an inference. Collar’s reported map of 12,000-plus portfolio managers does not establish exclusive access or buyer preference under model parity. The memo establishes neither a newly viable purchase nor equivalent substitutes in practice. Both Path B conditions remain open, and there is no separately supported scarce complement under Path A. That supports Watch while a buyer trial can resolve the uncertainty. (The Idea, Defensibility, Key Risks)
+Collar may help established IR teams prepare faster while leaving previously excluded issuers unable to afford recurring outreach. Human review and corrections during live calls could absorb the savings. Q4’s AI CRM and Notified’s earnings tools also give incumbents a route to bundle similar capabilities. The memo documents those competing offerings and leaves actual substitution and fully loaded savings untested. Neither required condition is established, and neither has been directly defeated. That supports Watch at seed. (Market & Traction; Defensibility; Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 10/25 |
-| Durable value capture | 7/25 |
-| Customer demand | 8/20 |
-| Team and execution | 9/15 |
-| Scale economics | 4/15 |
+| Path-specific thesis fit | 11/25 |
+| Durable value capture | 8/25 |
+| Customer demand | 9/20 |
+| Team and execution | 8/15 |
+| Scale economics | 5/15 |
 
-**Total Score: 38/100** (Pass)
+**Total Score: 41/100** (Pass)
 
 ### Decisive diligence question
 
-Will independent issuers that previously skipped tailored prep pay for Collar and renew after a trial against their prior workflow and a functionally comparable cheap-model alternative? Across two earnings cycles, measure labor at equivalent accuracy and disclosure quality, including approval, corrections, and live exceptions. Verify that the labor savings made the purchase viable and that buyers renew at a price that covers incremental delivery costs because they value a specific Collar advantage. That result would support rescoring for Reach out if the case clears 65 with at least medium confidence. Clear evidence that either condition fails would move Collar to Pass.
+Will an independent public issuer that previously skipped recurring investor outreach pay for a second compliance-approved cycle with Collar after trialing a functionally equivalent substitute? Move to Reach out if logged costs show that Collar made the cadence affordable, the repeat order supports viable delivery economics, and the issuer chooses Collar because its accumulated meeting history or approved Q&A materially improves execution. Move to Pass if a representative trial shows that review and exceptions erase the savings or that the issuer switches and retains the same outcome. (The Idea; Defensibility; Key Risks)

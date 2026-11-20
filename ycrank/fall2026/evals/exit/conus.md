@@ -5,36 +5,30 @@
 
 ### Company case
 
-Strategic acquisition is the strongest path. An implant-workflow vendor could buy CONUS to add procedure-time device guidance to its hospital offering. The potential asset is the mapping between multiple manufacturers’ catalogs and each hospital’s implant inventory and protocols. Ownership could be worth paying for if those integrations take substantial time to recreate and give the buyer control over how the workflow evolves. The memo establishes a plausible use for the asset. The value of owning it remains an inference. (The Idea, Defensibility, Market & Traction)
+Strategic acquisition is the strongest path. A device manufacturer such as Stryker or Zimmer Biomet could pay to own CONUS’s software and hospital distribution. The asset is the combination of manufacturer catalogs with each hospital’s implant inventory and procedures. Ownership could give a buyer control over how device guidance is integrated into clinical workflows and reduce training and support costs. Those benefits are inferred. CONUS reports relationships with both manufacturers, but the memo provides no measured buyer benefit or acquisition interest. *(The Idea, Defensibility, Market & Traction)*
 
-The memo documents an app release and lists paid institutional AI licenses alongside free core access. CONUS reports 28 live hospitals and 53 onboarding, while its founder Q&A cites 25 live European hospitals. CONUS also reports working with major implant manufacturers. These are early deployment signals. Paid renewals and measured reductions in procedure-prep time across hospitals would make the acquisition case more concrete. The memo supplies no realized revenue, retention, measured customer savings, or funding and runway figures to show how far the team can get on current capital. It also leaves open whether hospital and manufacturer agreements would carry over in a sale. There is no supported independent route to cash for this holder. (The Idea, Defensibility, Market & Traction, Key Risks, Key Facts)
+The operating milestone is paid institutional renewals across multiple hospitals with sustained use of the site-specific, multi-manufacturer workflows. The memo documents a released app, and CONUS reports 28 live hospitals and 53 onboarding in its current profile, versus 25 live European hospitals in its founder Q&A. Those counts and the advertised institutional licenses make the milestone plausible. Paid conversion, retention, and the capital needed to reach it remain unverified. The memo supplies no usable evidence on whether catalog and hospital rights would survive a change of control. *(Market & Traction, Key Facts, Defensibility, Key Risks)*
 
-The memo supplies no investment or deal terms, so the proceeds bridge uses the illustrative **$500,000 check at a $10 million post-money valuation**, with 5% ownership diluted to 3% and no follow-on checks. The eight-year 5× objective requires $2.5 million in holder cash, or about $83.3 million in distributable equity proceeds at 3%. The hurdle is $125 million at 2% ownership and $62.5 million at 4%.
+Under the illustrative seed terms, a $500,000 check at a $10 million post-money valuation buys 5%, diluted to 3% with no follow-ons. The $2.5 million gross cash target within eight years requires $83.3 million of distributable equity at 3% ownership, $125 million at 2%, or $62.5 million at 4%. Using $5 million of illustrative net debt, the 3% case needs about $88.3 million in enterprise value. A $25 million sale in year eight yields $600,000 gross, or 1.2×. A $100 million sale yields $2.85 million, or 5.7×, at 3%, and $1.9 million, or 3.8×, at 2%. These are pro rata scenarios before investor taxes. Actual ownership, debt, fees, senior claims, and a realizable sale price are unverified. *(Key Facts, Market & Traction)*
 
-| Illustrative outcome | Cash to the investor before taxes |
-|---|---|
-| Modest sale in year 5 at $40 million enterprise value | $1.2 million, or 2.4× |
-| Strong sale in year 7 at $100 million enterprise value | $3 million, or 6×. At 2% ownership, the same sale yields $2 million, or 4×. |
-| Prolonged private through year 8 | $0, or 0× realized. Growth plateaus, buyers stay away, public scale remains out of reach, and available cash is reinvested. The investor retains the shares. |
-
-The sale scenarios assume zero applicable net debt, no other adjustments from enterprise value to equity consideration, and a simple pro rata waterfall with no senior preferences. All consideration is cash at closing. Stock, escrow, earnouts, rollover, and compensation are each assumed to be zero. The prices are sensitivity inputs. The memo gives no usable valuation evidence or buyer economics to support either price. (Market & Traction, Key Facts)
+A sponsor buyout lacks evidence of predictable cash generation. A secondary lacks evidenced share demand and seller eligibility. An IPO lacks evidence of public-market scale or resale readiness, and a dividend or buyback lacks evidenced distributable cash. If hospital growth plateaus, buyers stay absent, public scale remains out of reach, and CONUS reinvests all available cash, the holder realizes $0 by year eight and retains the shares. The memo does not quantify any wind-down residual after obligations and preferences. *(Market & Traction, Key Facts)*
 
 ### Countercase
 
-A buyer could license CONUS or build the parts it needs. M-Eido already offers AI search across uploaded implant manuals, and CONUS’s institutional terms prohibit paid placement and withhold hospital-specific usage data from manufacturers. Those terms weaken the case for a manufacturer paying a premium for control. The memo leaves open whether licensing can replicate the value of CONUS’s hospital-specific integrations. That uncertainty warrants Watch. The evidence establishes neither a structural price cap nor a probable eight-year outcome with no credible route to holder cash. (The Idea, Defensibility, Key Risks)
+A manufacturer could license the workflow or build document search. M-Eido already searches uploaded implant manuals, and CONUS’s institution terms prohibit paid placement and withhold hospital-specific usage data from manufacturers. Manufacturer ownership could also make competing suppliers less willing to participate, reducing the value of the multi-manufacturer product. The substitute and existing terms are more direct evidence than the inferred benefits of ownership. They leave acquisition pricing unsupported, but establish neither a structural block nor materially inadequate proceeds under credible sale economics. That gap supports Watch. *(Defensibility, Market & Traction, Key Risks)*
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 13/30 |
+| Counterparty rationale or source of cash | 15/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 10/20 |
+| Milestones and capital needed | 11/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 38/100** (Pass)
+**Total Score: 41/100** (Pass)
 
 ### Decisive diligence question
 
-Would an implant-workflow vendor value owning CONUS’s hospital integrations over licensing them enough to clear the modeled proceeds hurdle? A buyer-validated production pilot across multiple hospitals that quantifies the incremental value of ownership and supports a price above the roughly $83.3 million base-case equity hurdle would move the action to Reach out.
+Can a strategic buyer substantiate a purchase-price range that clears the holder’s $2.5 million cash target based on the incremental value of owning CONUS over licensing it? Buyer-validated economics tied to sustained use at renewing paid hospitals would move the action to **Reach out** if the implied range clears the target after dilution and senior claims. The action stays **Watch** while pricing remains unsupported. If the strongest supported price leaves the holder materially short, move to **Pass**.

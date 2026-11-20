@@ -5,28 +5,26 @@
 
 ### Company case
 
-**Path A — Product-led adoption.** The initial buyer is an engineering team running customer-facing AI agents. Its recurring job is to stop known failures from recurring in production. The memo records a Python SDK release and public launches. Mirrors offers self-serve signup and describes a workflow for scoping a rule, previewing where it would apply, and comparing live outcomes. If teams can reach first value through that workflow on their own, they could add more agents or workflows and grow paid usage under the $299 monthly Growth plan plus $0.005 per turn. (*The Idea*, *Market & Traction*, *Key Facts*)
+**Usage-based expansion** is the strongest path. The initial buyer is an engineering team running a customer-facing AI agent and repeatedly correcting its behavior. The memo records an October launch and a Python SDK release. Mirrors describes a workflow in which developers scope a rule, preview its reach against past conversations, and compare outcomes after delivering it to live runs. The company reports one design-partner example in which an agent made 75 errors editing a travel guide despite repeated stop instructions. That example establishes a concrete failure mode and leaves buyer urgency, commitment, and the effect of Mirrors’ guidance open. (The Idea; Market & Traction)
 
-Mirrors reports one design-partner example in which an agent hit 75 errors despite a stop rule in its prompt. The example shows a concrete failure mode, with buyer commitment and the effect of Mirrors’ guidance still unverified. The company’s reported 63,052 turns have an unspecified counting period and no disclosed paid or repeat-use breakdown. The memo also lacks an independent buyer activation through self-serve, so current fit and repeatable onboarding remain unproven. (*Market & Traction*, *Key Facts*)
-
-The growth scenario assumes the same SDK and rule workflow can serve buyers in a second geography, subject to local trace-data handling and production latency requirements. Each new account may add integration and support work, while each additional turn adds rule-matching infrastructure load. The memo gives pricing but no incremental cost measurements, so contribution at higher volume remains unknown. (*The Idea*, *Key Risks*, *Key Facts*)
+Assuming a team sees a meaningful reduction in errors on its first production workflow, it could apply the same SDK and rule workflow to another agent or use case. The SDK and account-specific configuration make the job plausibly portable across markets, with production integration and latency tolerance still to verify. Growth pricing is listed at $299 per month plus $0.005 per turn. The first unproven link is whether an independent team can move from signup or a founder demo to a recurring paid workload through a repeatable setup. The company’s reported 63,052 turns have no stated counting period, account breakdown, or paid share. For a product launched in October, repeat use over the workflow’s natural cadence would be an appropriate early test. The memo gives no usable measure of runtime delivery, onboarding, or support costs per additional workload. (The Idea; Market & Traction; Key Facts)
 
 ### Countercase
 
-Teams may handle recurring failures with steering hooks or middleware they already use. Mirrors’ preview and outcome comparisons would have to justify a separate production dependency. A delivered rule can still be ignored, and Mirrors says the agent proceeds without the rule after a 750 ms timeout. If teams need hands-on tuning for each workflow, the self-serve model could become support-intensive. The memo establishes neither a structural ceiling on global demand nor proportional delivery costs, so the Pass gate remains unmet. (*Defensibility*, *Key Risks*)
+Teams could use framework-native steering for the same corrections and avoid adding an external runtime dependency. Mirrors reports a 200 ms average response time and a 750 ms fail-open threshold. Even when a rule arrives on time, the model can disregard it. If scoped delivery and outcome measurement produce too little improvement, buyers may keep corrections in their existing stack and never expand paid use. The memo establishes a testable risk. The structural downside gate requires affirmative evidence that every credible path is blocked. (Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 9/25 |
+| Global buyer demand | 16/25 |
 | Repeatable acquisition and onboarding | 9/25 |
 | Retention and customer expansion | 7/20 |
 | Contribution as volume grows | 7/20 |
 | Evidence of fit in the first buyer segment | 4/10 |
 
-**Total Score: 36/100** (Pass)
+**Total Score: 43/100** (Pass)
 
 ### Decisive diligence question
 
-Can an independent engineering team outside the U.S. reach paid production use through the standard SDK without founder-led setup? One team that measures fewer repeat failures against comparable runs and then pays to keep the guidance live would move the action to Reach out. Until that result, the action stays Watch.
+Can two independent engineering teams use the same SDK workflow to put a first agent into paid production, sustain use over its natural cadence, and add a second workload that generates billed turns? Account-level onboarding and billing records showing that pattern with bounded implementation effort would move the action to **Reach out**. Repeated trials that end with teams reverting to framework-native steering because Mirrors delivers too little incremental benefit would move it to **Pass**.

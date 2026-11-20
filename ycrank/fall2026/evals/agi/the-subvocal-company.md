@@ -1,32 +1,32 @@
 ﻿# The Subvocal Company -- AGI Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Medium
+**Evidence confidence:** Low
 
 ### Company case
 
-**Path A — Scarce complements.** Subvocal’s strongest case is that capturing silently mouthed speech becomes a valuable input bottleneck as cheaper AI increases how often people dictate prompts and messages in shared spaces. A cheaper decoder still needs a usable signal when speaking aloud is impractical. The fall 2026 demonstration showed an RF glasses prototype decoding open-ended silent speech. The founders reported over 200 words per minute and 85–92% accuracy in showcase conditions. That establishes a seed-stage mechanism. Time to usable text after corrections, and performance across wearers, sessions, and devices, remain unmeasured in the memo. (*The Idea; Market & Traction; Key Risks*)
+**Path B — New Economies.** The first users to test are frequent dictation users in shared spaces. They currently type, whisper, or, as a scenario assumption, defer prompts and messages. Contactless RF glasses could make the deferred tasks worth doing in the moment if silently mouthing them saves enough time per usable result after setup, calibration, corrections, and retries. The memo documents a working showcase. The reported speed above 200 words per minute and 85–92% recognition accuracy are showcase figures and leave everyday task completion time unresolved. (*The Idea*, *Market & Traction*, *Key Risks*)
 
-Subvocal built custom RF hardware and collected labeled recordings from paid participants. The founders report that errors fell as the dataset grew. If those gains carry over to new wearers and production units, the hardware and data could give Subvocal an advantage even when competitors have access to equally capable models. Separately, the founders’ progression from an electrode prototype to working RF glasses shows relevant execution. Preserving signal quality in production is the next major engineering gap. (*Defensibility; Founders & Team; Key Risks*)
+Under model parity, the reason to pay Subvocal would be reliable, contactless capture of silent speech. Its custom RF hardware and labeled recordings give it a concrete basis for developing that capability. The founders report that errors fell as the dataset grew. The company also reports roughly 750 reservations backed by refundable $199 deposits toward the $499 hardware price. That is meaningful seed-stage interest, with conversion and repeat use still open. The team’s progression from an electrode prototype to an RF showcase demonstrates early execution on the sensing problem. (*Defensibility*, *Market & Traction*, *The Idea*, *Founders & Team*)
 
-The company reports roughly 750 preorders backed by refundable $199 deposits. That is a meaningful early commitment, with shipment conversion and repeat use still unknown. At the stated prices, the scale case depends on the $499 device price covering manufacturing, fulfillment, and returns, plus the planned $20 monthly tier covering decoding and support after accounting for free-tier usage. Those are scenario inputs. Production costs, subscription uptake, and the cost of serving additional wearers remain unknown. (*Market & Traction; The Idea; Key Facts; Key Risks*)
+Each additional active wearer is the unit of expansion. At the stated prices, the hardware sale would need to cover production, fulfillment, and expected returns, while the planned subscription would need to cover ongoing decoding and support across free and paid usage. The memo gives prices and identifies cost drivers. Production yield, calibration burden, and realized contribution remain unmeasured. (*The Idea*, *Key Risks*)
 
 ### Countercase
 
-Typing already works silently, and rival wearables could capture the same intent through different sensors. With ample capital and comparable models, a competitor could fund its own hardware and labeled data. The memo identifies rival sensing approaches and no structural barrier to entry. If correction and calibration erase the glasses’ speed advantage, or another device delivers comparable results at a similar price, buyers have little reason to pay Subvocal specifically. The memo leaves that substitution risk open, so Path A remains on Watch. Path B has weaker support because the memo identifies existing dictation users and leaves open whether lower delivery labor makes a previously uneconomic use viable. (*The Idea; Defensibility; Market & Traction; Key Risks*)
+Typing already works silently, and the reported showcase accuracy could translate into enough correction time to erase the speed advantage. Changes in sensor placement during manufacturing could make that worse. Even if the glasses open a new use, an equivalent decoder paired with a rival sensing device could preserve the outcome. The memo identifies an ear-worn alternative and leaves cross-wearer reliability unproven. These risks leave both Path B conditions open, supporting Watch while a production-unit field test is available. (*The Idea*, *Market & Traction*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 14/25 |
-| Durable value capture | 10/25 |
-| Customer demand | 11/20 |
-| Team and execution | 10/15 |
+| Path-specific thesis fit | 10/25 |
+| Durable value capture | 8/25 |
+| Customer demand | 12/20 |
+| Team and execution | 9/15 |
 | Scale economics | 5/15 |
 
-**Total Score: 50/100** (Neutral)
+**Total Score: 44/100** (Pass)
 
 ### Decisive diligence question
 
-Will independent target buyers pay for and keep using production-representative glasses after a repeated-use trial against typing and the best available silent-input alternative? Measure time to usable text across new wearers, sessions, and units, including calibration, retries, and corrections. Hold downstream model capability comparable where possible. A repeatable advantage tied to Subvocal’s RF system, paired with paid continued use, would support Reach out if the updated score clears the outreach threshold. Comparable results from an easy substitute at a similar price would move the case to Pass.
+Will independent preorder customers pay the stated hardware price and repeatedly use production glasses for tasks they previously deferred in shared spaces, even when offered a credible silent-input alternative with equivalent decoding? A field trial that records newly completed tasks, measures time per usable result against typing after calibration and corrections, and observes paid conversion and continued preference would answer it. Evidence of both newly viable use and paid preference under parity would move the action to Reach out. A representative result that defeats either condition would close Path B and move the action to Pass.

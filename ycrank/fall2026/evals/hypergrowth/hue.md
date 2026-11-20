@@ -5,26 +5,26 @@
 
 ### Company case
 
-**Path A — Product-led adoption.** The initial buyer is an engineering team shipping agents that send email or update CRM records. Hue says its SDK can turn recorded tool requests into a reusable checkpoint of app state, then give each test run an isolated copy. If teams use those checkpoints to catch regressions before each release, the SDK could bring in new buyers and a growing library of test cases could drive more paid runs. Hue documents self-serve subscriptions and possible usage charges. The memo records 69,000 weekly npm SDK downloads in one snapshot. That measures package activity and leaves buyer activation, payment, and repeat use unverified. (The Idea, Market & Traction, Defensibility)
+**Product-led adoption** is Hue’s strongest path. The initial buyer is an engineering team shipping agents that act in apps such as Gmail, Slack, or Salesforce. Its recurring job is to reproduce production failures and check for regressions before releases. Hue documents a workflow that reconstructs app state from recorded tool requests, then starts each test from an isolated copy of that state. The same workflow could serve teams in other markets if they use supported apps and can export enough trace data under Hue’s processing terms. The memo leaves buyer geography and cross-market rollout unverified. (The Idea, Defensibility, Key Risks)
 
-**Scenario assumption.** A team outside the US testing the same apps could use the same replicas and SDK if local redaction preserves enough trace state and the buyer can approve data processing under Hue’s terms. Each new account could add onboarding and privacy review. Each additional workload could add trace storage and compute for isolated runs. A market that requires different apps or data handling could also add replica engineering or compliance work. The memo provides no cross-market buyer test or measured rollout costs, so the contribution from incremental paid usage remains unknown. (The Idea, Key Risks)
+The memo reports 69,000 weekly npm SDK downloads, and Hue documents self-serve subscriptions. If teams can go from SDK install to a faithful replay on their own, they could reuse those cases across releases and introduce Hue to other teams. The first unproven link is whether independent teams reach that first useful replay and pay without custom setup. Downloads and subscription terms leave that link open. The memo also provides too little evidence of recurring customer use, marginal delivery costs, or initial buyer commitment to move those dimensions off their defaults. (Market & Traction, The Idea, Key Facts)
 
 ### Countercase
 
-The strongest downside is that realistic replay requires hands-on work for each buyer. Hue documents that missing trace fields can prevent reconstruction, and its terms add approval steps for personal and restricted data. If teams routinely need help recovering state or preparing traces for export, downloads may rarely turn into paid, recurring tests and support effort could rise with each deployment. The memo establishes those failure modes but gives no buyer rollout showing a structural ceiling or proportional delivery effort. The Pass gate remains unmet. (Key Risks)
+Hue says incomplete traces can prevent reconstruction. It supports local redaction and requires a data processing addendum before processing customer personal data. If teams routinely have to repair traces or recreate missing state by hand, activation could depend on account-specific engineering even where the testing need is urgent. That risk is testable. The memo does not establish that bespoke work is pervasive or unavoidable, so the structural downside gate does not apply. (Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 9/25 |
+| Global buyer demand | 16/25 |
 | Repeatable acquisition and onboarding | 9/25 |
 | Retention and customer expansion | 7/20 |
 | Contribution as volume grows | 7/20 |
 | Evidence of fit in the first buyer segment | 4/10 |
 
-**Total Score: 36/100** (Pass)
+**Total Score: 43/100** (Pass)
 
 ### Decisive diligence question
 
-Can an independent team outside the US go from SDK install to paid, recurring release checks on an existing replica using Hue’s standard redaction workflow and without a custom build? A paid account with trace-derived checks running across multiple releases and a record of the setup and support effort would move the action to **Reach out**. Until that milestone is met, **Watch**.
+Can two independent teams in the initial segment go from SDK install to a useful production-failure replay, start paying, and run the replay again in their next release cycle using the same onboarding process? Observing both teams do this with measured setup effort and no custom reconstruction by Hue would move the action to **Reach out**.

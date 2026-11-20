@@ -749,31 +749,12 @@ main {
     --company-card-radius: 12px;
   }
 
-  .mobile-company-sort {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    font-size: 0.8125rem;
-    color: var(--c-gray);
-  }
-
-  .mobile-company-sort select {
-    flex: 1;
-    min-width: 0;
-    min-height: 44px;
-    border: 1px solid var(--c-border);
-    border-radius: 8px;
-    padding-inline: 8px;
-    background: var(--c-card);
-    color: var(--c-text);
-  }
-
   .mobile-company-grid {
     display: grid;
-    grid-template-columns: minmax(0, 1fr) var(--score-columns,) var(--traction-column,);
+    grid-template-columns: minmax(0, 1fr) var(--score-columns,) var(--traction-column,) clamp(2.75rem, 14vw, 3.75rem);
     align-items: center;
     column-gap: 3px;
-    padding-inline: 10px 44px;
+    padding-inline: 10px;
   }
 
   .mobile-company-columns {
@@ -789,6 +770,18 @@ main {
   }
 
   .mobile-company-columns > span:first-child { text-align: left; }
+
+  .mobile-company-columns button {
+    position: relative;
+    min-height: 44px;
+  }
+  .mobile-company-columns button[aria-pressed="true"] { color: var(--c-accent); }
+  .mobile-sort-direction {
+    position: absolute;
+    inset-inline: 0;
+    bottom: 3px;
+    line-height: 1;
+  }
 
   .mobile-company-card {
     position: relative;
@@ -824,7 +817,6 @@ main {
   .mobile-company-memo { display: block; border-radius: inherit; }
   .mobile-company-memo:active { background: var(--c-card-hover); }
   .mobile-company-memo:focus-visible,
-  .mobile-company-expand:focus-visible,
   .mobile-company-star:focus-visible {
     outline: 2px solid var(--c-accent);
     outline-offset: -2px;
@@ -846,7 +838,9 @@ main {
     font-variant-numeric: tabular-nums;
   }
 
-  .mobile-company-expand, .mobile-company-star {
+  .mobile-company-arr { font-size: 0.75rem; overflow-wrap: anywhere; }
+
+  .mobile-company-star {
     position: absolute;
     right: 0;
     display: grid;
@@ -856,19 +850,10 @@ main {
     color: var(--c-gray);
     background: transparent;
     border-radius: 8px;
+    bottom: 0;
+    font-size: 1.125rem;
   }
 
-  .mobile-company-expand { top: 0; }
-  .mobile-company-expand span {
-    width: 8px;
-    height: 8px;
-    border-right: 1.5px solid currentColor;
-    border-bottom: 1.5px solid currentColor;
-    transform: translateY(-2px) rotate(45deg);
-  }
-  .is-expanded .mobile-company-expand { color: var(--c-accent); }
-  .is-expanded .mobile-company-expand span { transform: translateY(2px) rotate(225deg); }
-  .mobile-company-star { bottom: 0; font-size: 1.125rem; }
   .mobile-company-star[aria-pressed="true"] { color: var(--c-amber); }
 
   .mobile-company-details {

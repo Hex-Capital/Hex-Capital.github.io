@@ -5,28 +5,28 @@
 
 ### Company case
 
-**Path B, repeatable sales or partner distribution with account expansion.** PE operating partners are the clearest initial buyer. They need to estimate workforce savings during diligence and restructuring. Plek markets live demos to operating partners and advisory leads, and its operating-partner summit involvement gives it a way to reach those buyers. The memo gives no evidence that either route has repeatedly converted prospects into paying customers. (The Idea)
+**Repeatable direct sales** is the strongest path. PE operating partners could buy Plek to model workforce changes during diligence and restructuring, then use the same census-to-task workflow on subsequent deals or portfolio companies. The shared taxonomy and employee-level reconciliation make that workflow plausibly portable across markets. Buyer geography and the work required to adapt job mappings and employee-data handling for a second market remain unresolved. (The Idea; Defensibility; Key Risks)
 
-**Company-reported evidence.** Plek reports four completed pilots across businesses with 250 to 13,000 employees, a deployment at an unnamed $2B PE fund, and onboarding at an unnamed advisory firm. It also reports that its model identified $30M in potential annual EBITDA improvements at one business, matching an adviser’s six-week estimate. The comparison measures modeled opportunity. Realized savings, payment, and repeat use remain unverified. The pilots and deployment support early buyer fit, while the memo leaves the growth mechanism untested. (Market & Traction, Key Facts)
+The memo records a summit spotlight partnership and outreach through live demos. Plek reports four completed pilots, deployment at an unnamed $2B PE fund, and onboarding at an unnamed advisory firm. It also reports that its model identified $30M in potential annual EBITDA improvements at a 3,600-person company, matching an adviser’s six-week estimate. The pilots and deployment show early workflow commitment, and the benchmark suggests a specific benefit worth testing. Realized savings and buyer payments are unreported. (The Idea; Market & Traction; Key Risks)
 
-**Growth scenario.** If demos or adviser referrals repeatedly bring in PE sponsors, Plek could win the first diligence project and expand across deals and portfolio companies using the same census-to-task workflow. The first unproven step is repeatable paid activation. A rollout in a second geography would also test whether Plek can reuse its taxonomy with local job titles and languages and meet workforce-data requirements with limited changes. Contribution would improve if fees on additional workloads outgrow the incremental sales effort, census cleanup, validation interviews, compute, and support. The memo gives no rollout cost or paid expansion data. (The Idea, Defensibility, Key Risks, Key Facts)
+Assuming strong fit, the first likely bottleneck is taking a new sponsor from demo to paid deployment through a process another operator can run. The memo leaves that sequence untraced for any account and provides no repeat paid usage or comparable rollout costs. At this stage, a documented handoff on a paid rollout could change the action before renewal data are available. (The Idea; Market & Traction; Key Facts)
 
 ### Countercase
 
-Plek could become a project-based diligence service. Its free offer for abandoned deals shows a way to start a trial, and its order forms and statements of work provide a route to charging. The memo gives no conversion evidence. If analysts must clean up every census and conduct employee or manager interviews to validate the task mapping, delivery labor could rise with each project. That risk supports Watch. The memo does not establish the proportional delivery burden or structural limit on global demand that would trigger Pass. (The Idea, Key Risks, Key Facts)
+Plek could become a project-based diligence service. Free work on abandoned deals could consume delivery time without converting, while census mapping errors could require employee or manager interviews and manual review on each engagement. If that work scales with each deal, the shared taxonomy may have limited effect on delivery costs. The memo establishes the free offer and the option to validate mappings through interviews, while conversion and labor per rollout remain unknown. The structural downside gate stays open because proportional delivery effort is a testable risk. (The Idea; Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 9/25 |
+| Global buyer demand | 14/25 |
 | Repeatable acquisition and onboarding | 9/25 |
 | Retention and customer expansion | 7/20 |
 | Contribution as volume grows | 7/20 |
 | Evidence of fit in the first buyer segment | 6/10 |
 
-**Total Score: 38/100** (Pass)
+**Total Score: 43/100** (Pass)
 
 ### Decisive diligence question
 
-Can the deployed PE fund pay to roll out the same workflow at another portfolio company in a second geography? A paid order and a completed rollout showing limited changes to the taxonomy and data handling, with fees covering the incremental implementation and operating costs, would move the action to Reach out.
+Can a nonfounder take a new, independent PE sponsor from a standard demo through a paid first deployment using the same census intake and validation process? A customer-confirmed rollout with a paid invoice and logged implementation and review hours within a budget set before kickoff would move Plek to Reach out.

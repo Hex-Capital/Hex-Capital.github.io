@@ -5,26 +5,26 @@
 
 ### Company case
 
-**Path B — Repeatable sales or partner distribution with account expansion.** The first buyer to test is a produce distributor serving chefs who need consistent, year-round specialty tomatoes. The memo documents an existing trade in greenhouse-grown cherry and grape tomatoes. Lux reports that its first San Francisco farm is under development and is inviting buyers to discuss pilots. The memo identifies no buyer commitment, paid shipment, or reorder. (The Idea, Market & Traction, Key Facts)
+**Channel-led or repeatable sales** is the strongest plausible path. Specialty grocers buying premium cherry tomatoes have a recurring job that plausibly travels across markets. The memo describes established greenhouse supply for this category. Lux reports that its first San Francisco farm is under development and invites grocers, chefs, and produce distributors to discuss pilots. Wholesale supply agreements are an inference. Buyer commitments, paid deliveries, and reorders remain unverified. (The Idea, Market & Traction, Key Facts)
 
-**Scenario assumption:** If a distributor pays for weekly supply and gets the quality and consistency its customers need, it could add chef accounts through the same ordering and delivery process. The next thousand buyers would require additional distributor coverage and saleable output. In a second geography, Lux would first need to show that the same tomatoes arrive in acceptable condition at a delivered price buyers will pay. If shipping fails that test, expansion would require a regional production site. (The Idea, Key Risks)
+Assuming grocers value the fruit enough to reorder at a viable wholesale price, Lux could use a standard product specification and delivery schedule to serve similar accounts through produce distributors. Reliable fulfillment is the first likely bottleneck. Lux says its projected yield and vessel-to-module design still need validation. At the next increment of volume, revenue from saleable fruit would need to cover added sugar feedstock, energy, labor, spoilage, and delivery while supporting the capacity commitments required to supply it. Lux reports 90% lower light intensity. The memo provides no measured facility energy use or production cost. (The Idea, Defensibility, Key Risks)
 
 ### Countercase
 
-Incumbent suppliers already offer year-round tomatoes, so Lux has to earn shelf space or menu use on quality, consistency, and delivered price. Lux reports 90% lower light intensity, while its projected yield and vessel-to-module design remain unvalidated. The next order adds sugar feedstock, energy, harvest and packing labor, spoilage, and freight. Once capacity fills, more volume could also require new growing modules and robotics. The memo lacks measured costs at commercial yield, so the structural-cost Pass gate remains unproven. (The Idea, Market & Traction, Key Risks)
+Established greenhouse suppliers already offer branded snacking tomatoes year-round. Grocers may see too little benefit to switch or pay a premium. Even with buyer demand, regional growth could require duplicating farms and taking on capacity costs in proportion to sales. The memo shows that this risk remains unresolved, so the structural downside gate does not trigger. (Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 9/25 |
+| Global buyer demand | 12/25 |
 | Repeatable acquisition and onboarding | 9/25 |
 | Retention and customer expansion | 7/20 |
 | Contribution as volume grows | 7/20 |
 | Evidence of fit in the first buyer segment | 4/10 |
 
-**Total Score: 36/100** (Pass)
+**Total Score: 39/100** (Pass)
 
 ### Decisive diligence question
 
-Can an independent produce distributor reorder at the intended weekly cadence and wholesale price in a paid San Francisco pilot? Move to **Reach out** if repeat orders coincide with measured saleable yield and per-pound contribution after acquisition and fulfillment costs, with enough contribution at that yield to support the next production module. (The Idea, Key Risks)
+Can Lux fulfill a paid grocer pilot from its first commercial module reliably enough to earn repeat orders at the grocer’s normal buying cadence, at a price that supports the next module? Move to **Reach out** if actual orders, delivery records, and measured saleable yield and costs show reliable fill rates and a credible margin after incremental delivery and capacity costs.

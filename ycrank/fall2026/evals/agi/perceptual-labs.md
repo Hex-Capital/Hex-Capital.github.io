@@ -5,28 +5,26 @@
 
 ### Company case
 
-**Path A — Scarce complements.** The potential bottleneck is making a targeted, auditable change to a production model while preserving its unrelated capabilities. Perceptual Labs proposes tracing behavior to model circuits and editing the relevant weights. The investment case is that AI labs and enterprises with editable weights would pay for reliable edits if cheaper intelligence made it easier to propose changes while verifying and deploying them remained difficult. The memo reports an external proof of concept that improved math performance on a small model through direct weight edits. Perceptual’s own performance on representative customer workloads remains unverified. (The Idea, Market & Traction, Key Risks)
+**Path B — New Economies.** Perceptual Labs says its software will trace a model behavior to the circuits that produced it, edit the corresponding weights from a natural-language instruction, and log the change for audit. The investment hypothesis is that teams with editable weights could routinely fix narrow behaviors they currently leave alone because gradient-based post-training is too labor-intensive. The memo describes a third-party demonstration that improved a small model’s math performance through direct weight edits. That supports technical plausibility at seed. Whether Perceptual can make a previously skipped fix economical depends on total labor and cost per successful edit, including diagnosis, review, regression testing, retries, and rollback. (The Idea, Market & Traction, Key Risks)
 
-At seed, Miao’s interpretability and post-training work and Li’s model-training and product experience support the team’s ability to test the mechanism. The current product’s waitlist establishes launch activity, with buyer commitment still unknown. The founders’ reported Bryel Foundry engagements concern custom training, a separate workflow. (Founders & Team, Market & Traction, Key Risks)
-
-The scale scenario assumes customers can grant weight access and need recurring edits. Revenue would depend on eligible deployments, paid edits per deployment, and price. Contribution would depend on compute, human review, regression testing, retries, and rollback per accepted edit. The memo provides a broader interpretability market estimate and leaves these inputs unknown. Path B remains unproven because the memo identifies neither a previously uneconomic transaction opened by lower delivery labor nor a reason buyers would keep paying Perceptual under model parity. (The Idea, Key Facts, Key Risks)
+Under the scenario of cheap, widely available frontier models, buyers might still pay for a validated editing and regression workflow that reliably preserves unrelated capabilities on their own models. The memo identifies a possible library of validated edits and tests, with no deployment evidence or buyer preference under parity. The current product’s observed launch signal is an early-access waitlist with no documented buyer commitment. The founders’ reported Bryel training engagements concern a separate offering. Miao’s interpretability and post-training experience and Li’s model training and product work support the team’s ability to run a trial. The memo gives no current-product pricing or delivery data for estimating contribution per accepted edit. (Defensibility, Market & Traction, Founders & Team, Key Facts)
 
 ### Countercase
 
-WeightBench found that frontier agents failed its language-model patching tasks under the benchmark’s constraints. If that difficulty carries over to customer workloads, regression testing and retries could erase the savings over post-training. Even if the edits work, Goodfire’s published methods give well-funded labs and competitors with weight access a starting point for building overlapping capabilities. An edit and regression library could become defensible, but the memo offers it as a hypothesis. The evidence leaves production feasibility and control unresolved. That keeps Path A below the outreach gate while leaving a feasible seed-stage test. (Key Risks, Defensibility)
+Perceptual could make existing post-training work faster while leaving previously skipped fixes uneconomic. WeightBench found that frontier agents failed its model-patching tasks under the tested constraints, raising the possibility that retries and regression review consume the labor savings. Public techniques for mapping and editing internal representations also give teams with weight access a starting point for building a substitute. These findings leave both Path B gates unresolved because they establish neither Perceptual’s delivered cost nor buyer behavior against an equivalent workflow. The memo offers no independent evidence that Perceptual controls a scarce input or qualified capacity for Path A. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
 | Path-specific thesis fit | 9/25 |
-| Durable value capture | 5/25 |
+| Durable value capture | 6/25 |
 | Customer demand | 5/20 |
-| Team and execution | 8/15 |
+| Team and execution | 7/15 |
 | Scale economics | 4/15 |
 
 **Total Score: 31/100** (Pass)
 
 ### Decisive diligence question
 
-Will an independent buyer with editable production weights commit to a paid deployment after a head-to-head trial shows Perceptual can repeatedly deliver auditable edits at lower total cost per accepted change than the buyer’s post-training workflow and its best alternative using comparably capable models, while meeting agreed regression limits? A clear win and paid commitment would support Reach out if the updated score and confidence clear the outreach gate. A representative trial showing unacceptable regressions or an equivalent readily available substitute would support Pass. (The Idea, Defensibility, Key Risks)
+Will an independent buyer pay for a repeat batch of representative fixes it previously skipped, at a price that covers Perceptual’s full delivery cost, after comparing it with a credible alternative using equivalent models and weight access? Move to **Reach out** if the trial shows lower labor and full cost per accepted fix than gradient-based post-training, meets agreed regression limits, and earns the repeat order because Perceptual’s workflow delivers a measurable benefit the alternative cannot match. Move to **Pass** if a representative trial shows that full delivery costs still make the fixes uneconomic or that the buyer can switch under parity and retain the outcome.

@@ -1,40 +1,40 @@
 ﻿# Verdun -- Exit Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Medium
+**Evidence confidence:** Low
 
 ### Company case
 
-**Strategic acquisition** is Verdun’s strongest path. A security monitoring or incident-management platform could buy Verdun to integrate sites’ response protocols, alarm triage, and staffed intervention into its own operations. The memo records Motorola’s $79 million acquisition of Blue Eye, net of cash acquired, and its plan to integrate Blue Eye into its incident-management workflow. That deal establishes a buyer class and an integration rationale. For Verdun, the ownership case depends on whether controlling the workflows and any transferable customer contracts and data rights would produce operating savings or distribution gains beyond a white-label deal. (Market & Traction, The Idea, Defensibility)
+**Strategic acquisition** is Verdun’s strongest route. The memo records Motorola Solutions’ $79 million purchase of Blue Eye, net of cash acquired, and its plan to integrate live intervention into its incident-management workflow. A security platform or monitoring operator could buy Verdun to integrate site-specific alarm triage and staffed response across its installed camera base. Ownership could be worth more than licensing if it secured transferable customer relationships and workflows that produced measurable operating savings. Verdun reports that AI closed about 85% of alerts in a 14-day sample. That figure measures automation volume. The memo gives no comparison for threat recall, operator cost, or response time. (The Idea, Defensibility, Market & Traction)
 
-The memo records an anonymized screenshot of alarm activity across customer sites. Verdun reports that AI closed about 85% of alerts in a 14-day sample. That figure leaves operator labor savings and missed-threat rates unmeasured. A paid, multi-site parallel trial could test whether Verdun reduces operator minutes per camera while maintaining threat recall. The founders’ prior work in video security and Verdun’s existing trial offer support the ability to run that test. Verdun has YC backing, while the reported financing figures leave available runway and the capital needed for a broader rollout unclear. Site contracts govern video retention, and the memo leaves contract assignment and data reuse rights unverified. (Market & Traction, Founders & Team, The Idea, Key Risks)
+The operating milestone is a repeatable reduction in fully loaded monitoring cost across paid, multi-site deployments while maintaining threat recall. Verdun’s advertised side-by-side trials offer a way to test this, and the founders’ prior physical-security work makes the plan plausible at seed. The memo gives no paid conversion data, burn, or funded rollout budget. Dealer contracts and site-specific terms govern key customer relationships and video access, while assignment, change-of-control, and data reuse rights remain unverified. (The Idea, Founders & Team, Key Risks)
 
-**Proceeds bridge.** The illustrative seed check is $500,000 at a $10 million post-money valuation, with 5% initial ownership diluted to 3% and no follow-on checks. The eight-year objective is $2.5 million in gross cash, or 5×, requiring $83.3 million in distributable equity at 3% ownership. The hurdle is $125 million at 2% and $62.5 million at 4%. For the hypothetical sales below, assume no net debt, surplus cash, fees, or preference adjustments, so enterprise value equals distributable equity and the waterfall is pro rata. All consideration is cash at closing. Stock, escrow, earnouts, rollover, and compensation are each assumed to be zero.
+Under the shared scenario, a $500,000 check at a $10 million post-money valuation buys 5%, diluted to 3% with no follow-ons. The eight-year target is $2.5 million in gross cash. A pro rata allocation before investor taxes requires $83.3 million of distributable equity at 3%, $125 million at 2%, or $62.5 million at 4%. With illustrative net debt of $5 million, the 3% hurdle is $88.3 million of enterprise value. Blue Eye’s reported price provides a reference point for buyer spending. Even if $79 million were distributable equity in a Verdun sale, 3% would yield $2.37 million, or 4.74×. Verdun’s reported convertible note has undisclosed terms, so its effects on dilution and senior claims are unquantified. (Market & Traction)
 
-| Scenario | Assumed timing and price | Holder cash and gross multiple at 3% |
-|---|---|---:|
-| Modest sale | Year 5 at $79 million EV, using Blue Eye’s reported net-of-cash price only as a reference point | $2.37 million, 4.74× |
-| Strong sale | Year 7 at $100 million EV, an illustrative premium with no Verdun-specific pricing support | $3.00 million, 6.00× |
-| Prolonged private | Through year 8, growth plateaus, buyers stay away, public scale remains out of reach, and cash is reinvested | $0, 0×, shares retained |
+| Eight-year scenario | Gross holder cash at 3% |
+|---|---:|
+| Modest sale at $25 million enterprise value, less $5 million illustrative net debt | $600,000 (1.2×) |
+| Strong sale at $100 million enterprise value, less $5 million illustrative net debt | $2.85 million (5.7×) |
+| Growth plateaus, buyers stay away, public scale remains out of reach, and available cash is reinvested | $0 realized, with shares still held |
 
-The strong sale yields only $2 million at 2% ownership. The memo offers no usable evidence of a separate cash route for this holder. (Market & Traction, Key Facts)
+The memo supplies no evidence of cash generation or financing for a sponsor buyout, eligible demand for a secondary, operating scale or readiness for an IPO, or excess cash and a commitment to fund dividends or buybacks. (The Idea, Market & Traction, Key Facts)
 
 ### Countercase
 
-Verdun’s own white-label offer gives a security platform access to staffed monitoring through a commercial agreement. Existing competitors already combine AI detection with live intervention, and the most directly evidenced acquirer already owns Blue Eye. Even strong pilot results could therefore support customer adoption while leaving the premium for ownership too small to clear the proceeds hurdle. The memo establishes neither an adequate substitute for Verdun’s specific workflows nor a binding ceiling on buyer price. The structural Pass override does not apply. (The Idea, Defensibility, Market & Traction)
+Motorola already owns a live-intervention capability through Blue Eye. Deep Sentinel also combines AI detection with live guards, and Verdun’s own white-label offer gives an incumbent a way to partner. If Verdun’s triage savings are modest or customer access cannot transfer, a buyer has little reason to pay for ownership. The memo establishes neither a structural block nor a ceiling on proceeds. The adjacent sale supports a plausible buyer class, while Verdun-specific economics remain too thin to underwrite the required price. (The Idea, Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 16/30 |
-| Plausible investor proceeds | 12/30 |
-| Milestones and capital needed | 10/20 |
+| Counterparty rationale or source of cash | 18/30 |
+| Plausible investor proceeds | 10/30 |
+| Milestones and capital needed | 11/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 45/100** (Neutral)
+**Total Score: 46/100** (Neutral)
 
 ### Decisive diligence question
 
-What would a security platform gain by owning Verdun that it could not capture under a white-label contract? A buyer-validated, paid multi-site trial that shows lower operator minutes per camera at comparable threat recall would move the action to **Reach out** if the buyer’s economics support an ownership premium sufficient to clear the proceeds hurdle. Evidence that white-label access captures the same value and caps the price materially below the hurdle would move the action to **Pass**.
+Can paid, multi-site comparisons show that Verdun reduces fully loaded monitoring costs at comparable threat recall by enough to support an acquisition price above the holder’s hurdle? Measured savings, applied to the sites a plausible buyer could actually deploy or retain, would justify Reach out if they supported a price range clearing about $88.3 million in enterprise value under the illustrative terms. Until that bridge is supported, Watch.

@@ -5,28 +5,28 @@
 
 ### Company case
 
-**Path B — New economies.** Fleety uses call transcripts, equipment records, and job history to validate bookings, assign technicians, and revise schedules as jobs change. Fleety reports that at Albert Nahman Plumbing, Heating & Cooling it made about 92% of assignments, enabled one dispatcher to cover 30+ technicians, and saved roughly $60,000 in annual overhead. That is an early signal that automation could reduce dispatch labor. The memo leaves dispatcher review time, error recovery, and service quality relative to manual dispatch unmeasured. (*The Idea*, *Market & Traction*, *Key Risks*)
+**Path B — New Economies.** Today, dispatchers at plumbing and HVAC shops manually validate bookings and reshuffle schedules as jobs change. The seed-stage hypothesis is that Fleety could make continuous dispatch economical for smaller shops that currently rely on an owner or office worker and cannot justify staffing a dedicated dispatch desk. At Albert Nahman, Fleety reports making about 92% of assignments, enabling one dispatcher to manage more than 30 technicians, and saving about $60,000 a year in overhead. That case supports a plausible reduction in dispatcher workload. The proposed smaller-shop market remains a scenario assumption. (*The Idea*, *Market & Traction*)
 
-**Scenario assumption.** Smaller shops that currently reschedule jobs ad hoc could pay for continuous dispatch coverage if Fleety lowers the cost enough to make that service viable. The Albert Nahman deployment shows a possible labor-saving mechanism at a shop that already dispatches at scale. Demand evidence includes the Panther Services Group customer video and two named partners. Payment and repeat use among newly served shops remain unverified, and Fleety’s zero-churn claim lacks a cohort size and measurement period. (*Market & Traction*, *Key Facts*)
+The right comparison is full cost per correct, timely dispatch at similar service quality. The manual baseline includes staff time for booking checks, scheduling, and rework. The Fleety case includes the subscription, onboarding, remaining dispatcher review, overrides, and rework from assignment errors. The reported $60,000 is a starting point for that comparison, with the cost breakdown and measurement period undisclosed. Each new shop is a rollout unit. Fleety says it goes on-site for every deployment, so repeatable contribution depends on realized fees covering setup and ongoing support at smaller accounts. (*The Idea*, *Market & Traction*, *Key Risks*)
 
-The founders’ dispatch experience and prior operating work support their ability to test the workflow at seed. The next shop is the unit of expansion. At comparable service quality, buyer savings depend on avoided manual labor after review, overrides, error recovery, and the subscription fee. Fleety’s contribution depends on that fee covering inference, ongoing support, and deployment costs, including the on-site setup it says it performs for every customer. The memo leaves pricing and those costs unknown. (*Founders & Team*, *The Idea*, *Key Risks*)
+The memo records an operations manager appearing in a customer video and lists two other named partners. Payment, renewal, and uptake by the proposed smaller-shop segment remain unverified. Both founders worked as trades dispatchers, and Molanorouzi previously automated property-management operations. Fleety’s dispatcher approval and override controls show progress on handling exceptions in the live workflow. (*Market & Traction*, *Founders & Team*, *Key Risks*)
 
 ### Countercase
 
-Fleety may make existing dispatch teams more productive while ServiceTitan captures the economics. ServiceTitan already offers native assignment by skills and sales potential and controls access to its dispatch board. Fleety’s shop-specific rules and booking checks may matter to buyers, but the memo shows no paid preference under functional parity or measurable network effects. Technician capacity sits with the shops, leaving no separately supported scarce-complement path. The overlap makes substitution credible, while the absence of a like-for-like trial leaves both Path B conditions open. Watch is appropriate at seed. (*The Idea*, *Defensibility*, *Key Risks*)
+Fleety may chiefly reduce overhead for shops that already staff dispatch. Under model parity, a buyer might still pay for transcript-to-equipment validation, shop-specific dispatch rules, and direct writeback to the dispatch board. ServiceTitan already offers native technician matching by sales potential and skills, and Fleety relies on access to its board. The memo offers no buyer comparison showing that Fleety’s added workflow earns a premium or drives renewal when a credible native option is available. The reported zero churn has no disclosed cohort or measurement period. Both Path B gates remain open to testing, which supports Watch. (*The Idea*, *Defensibility*, *Market & Traction*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 9/25 |
-| Durable value capture | 7/25 |
+| Path-specific thesis fit | 12/25 |
+| Durable value capture | 8/25 |
 | Customer demand | 8/20 |
-| Team and execution | 10/15 |
+| Team and execution | 9/15 |
 | Scale economics | 5/15 |
 
-**Total Score: 39/100** (Pass)
+**Total Score: 42/100** (Pass)
 
 ### Decisive diligence question
 
-Will shops that previously could not justify continuous dispatch coverage pay and renew at a price that supports positive contribution when they can choose a functionally equivalent alternative with comparable models? A paid trial across several such shops should compare completed-job quality and fully loaded delivery labor with manual dispatch, including reviews, overrides, and errors, then offer buyers the equivalent alternative at renewal. Repeat paid use, verified labor savings, positive contribution, and a demonstrated preference for Fleety would support Reach out if the updated score reaches 65 and confidence reaches at least Medium. If realistic exception costs erase the savings or buyers readily switch under parity, Pass.
+Will an independent shop that previously could not justify continuous dispatch renew Fleety after a paid trial against a credible alternative with equivalent model capability? Move to **Reach out** if the trial shows that Fleety makes continuous dispatch affordable at comparable service quality after review, exceptions, and rollout costs, and the buyer renews at a price that covers Fleety’s delivery costs because its workflow adds value over the alternative. Move to **Pass** if a representative trial shows that the all-in cost still rules out continuous dispatch or that the buyer gets the same outcome from the alternative and declines to renew.

@@ -5,36 +5,30 @@
 
 ### Company case
 
-Strategic acquisition is Forward’s strongest path. A private-credit origination or debt-workflow platform could pay cash to own repeat deal flow from advisors and the lender response data that keeps mandate matching current. Ownership could justify a premium if controlling those relationships and data produces more funded loans than the buyer could secure through a commercial partnership. That advantage remains an inference. (The Idea, Defensibility)
+**Strategic acquisition** is Forward’s strongest route. A commercial real estate financing software provider or private-credit marketplace could buy Forward to gain an advisor origination channel and a lender network with current credit mandates. Ownership could be worth more than a distribution agreement if it secures a durable flow of deals that the buyer could convert into incremental funded loans. The memo records a customer testimonial crediting Forward with introductions to unfamiliar lenders and help securing term sheets. Forward reports that 100 U.S. funds signed funded-loan fee agreements and that its first Southern California advisor went exclusive after the first transaction. These signals establish a reason for a buyer to investigate the network. The buyer’s incremental economics remain unmeasured. (The Idea, Market & Traction, Defensibility)
 
-The memo records a US$1.5 million pre-seed announcement and a $100,000 grant award, giving Forward capital to test a broader rollout. Forward reports 100 signed lender fee agreements and exclusivity with its first advisor. A customer testimonial credits Forward with introductions to unfamiliar lenders and help securing term sheets. Funded volume, fee collections, and runway for a multi-advisor test remain unverified. At the stated 25 basis points, US$100 million in funded loans would generate US$250,000 in gross fees before costs. That gives the test a measurable output. The memo supplies no buyer valuation evidence, deal comparables, or terms governing transfer of the advisor agreements and lender data. It supports no separate liquidity route for this holder. (The Idea, Market & Traction, Key Risks, Key Facts)
+The operating milestone is repeat funded closings and collected fees from multiple independent advisors over consecutive quarters. The announced US$1.5 million pre-seed and $100,000 grant support testing that milestone. Burn, runway, and the capital needed to expand beyond the initial advisor remain unknown. At the stated 25-basis-point fee, $400 million in funded loans would produce $1 million in fees if fully collected. The memo’s reported $400 million is originated volume. The reported $180,000 annualized revenue and $545,000 contracted revenue measure different things, and both leave currency and cash collections unspecified. The funded-loan pricing terms establish when fees become payable. Funded volume and collections would establish the economics a buyer could underwrite. (The Idea, Market & Traction, Key Facts, Key Risks)
 
-The illustrative investor writes one $500,000 check at a $10 million post-money valuation. Dilution reduces ownership from 5% to 3%, and the eight-year objective is $2.5 million in gross cash. That requires $83.3 million in distributable equity proceeds at 3%, $125 million at 2%, or $62.5 million at 4%. Both sale scenarios assume zero net debt and closing adjustments, so enterprise value equals equity consideration. They also assume a pro rata waterfall with no preference leakage and cash paid at closing. Stock, escrow, earnouts, rollover, and compensation are each $0.
+**Illustrative holder proceeds.** Assume a $500,000 check at a $10 million post-money valuation, diluted from 5% to 3% ownership with no follow-ons. The eight-year target is $2.5 million gross before investor taxes. That requires $83.3 million in distributable equity at 3% ownership, $125 million at 2%, or $62.5 million at 4%. Using $5 million of illustrative net debt, the 3% case requires about $88.3 million in enterprise value before any additional fees or senior claims. At year eight, a $25 million sale yields $600,000 gross, or 1.2×, and a $100 million sale yields $2.85 million gross, or 5.7×. These are sensitivities. Forward’s actual shareholder terms, net debt, transaction costs, and realizable sale price are unverified. The memo also leaves the transferability of the advisor relationship, lender agreements, and underlying data rights open. (The Idea, Defensibility, Market & Traction, Key Facts)
 
-| Illustrative outcome | Timing | Holder cash before taxes | Gross multiple |
-|---|---|---:|---:|
-| Modest sale at $40 million enterprise value | Year 5 | $1.2 million | 2.4× |
-| Strong sale at $100 million enterprise value | Year 7 | $3 million | 6.0× |
-| Prolonged private ownership with growth plateaued, buyers absent, public scale out of reach, and cash reinvested | Through year 8 | $0, shares retained | 0× |
-
-These sale prices are scenario assumptions. Even the strong sale falls short at 2% ownership, yielding $2 million, or 4.0×.
+If growth plateaus, buyer interest fails to emerge, public-market scale stays out of reach, and Forward reinvests all available cash, the holder realizes $0 over eight years and retains the shares. The memo supplies no evidence of the post-reinvestment cash generation needed for a sponsor buyout or company-funded payout, eligible demand for a secondary, or a path to IPO scale and resale. In a wind-down, any holder recovery would depend on the residual after obligations and preferences. The memo gives no basis to estimate it. (Market & Traction, Key Facts, Key Risks)
 
 ### Countercase
 
-A buyer could get enough value through a commercial partnership or existing lender-discovery software. Lev and Leverest already cover parts of the workflow, Forward’s rollout began with one exclusive advisor, and the memo shows no measured matching lift. That makes the ownership premium uncertain. The evidence falls short of the structural Pass gate because it establishes neither a price ceiling below the hurdle nor a probable eight-year outcome with no credible liquidity route. (Defensibility, Market & Traction, Key Risks)
+A buyer could build or license lender discovery and deal coordination, functions already available through Lev and Leverest. Forward’s strongest potential reason to buy is access to advisor deal flow, yet its rollout began with one exclusive advisor, it earns fees only on funded loans, and the memo contains no measured matching lift. If the advisor relationship fails to replicate, a partnership could capture much of the available benefit at lower cost. This supports Watch. The evidence establishes neither a structural closing block nor a supported sale-price ceiling that would leave the holder materially short. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 14/30 |
+| Counterparty rationale or source of cash | 15/30 |
 | Plausible investor proceeds | 8/30 |
 | Milestones and capital needed | 11/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 40/100** (Pass)
+**Total Score: 41/100** (Pass)
 
 ### Decisive diligence question
 
-Can owning Forward generate enough incremental funded-loan economics over a commercial partnership to justify the modeled acquisition hurdle? A buyer-reviewed pilot showing repeat funded closings and collected fees across multiple advisors would move the action to Reach out if the measured advantage supports at least $83.3 million in distributable equity proceeds at 3% ownership within eight years.
+Can verified, repeat funded closings across independent advisors support a strategic buyer’s price range that clears the holder’s eight-year cash target? Closing and fee collection records across consecutive quarters would establish repeatability. Buyer feedback or a buyer-specific economic model would need to show why owning that deal flow justifies a price that clears the target after dilution and senior claims. That evidence would move the action to Reach out. (The Idea, Market & Traction, Key Facts, Key Risks)

@@ -5,34 +5,36 @@
 
 ### Company case
 
-**Strategic acquisition** is the strongest private-company path. A retail automation vendor could buy Theseus to add shelf restocking and order picking in existing grocery aisles. Ownership could give the buyer control of the manipulation software, training data, and operator workflows, shortening its own rollout if those assets transfer and work across stores. The memo documents launch footage in Zürich and reports two robots deployed across two stores. Theseus claims peak rates of 400 units restocked and 40 orders picked per hour, with pilots lined up for up to 10 more robots in 2027. The memo gives no sustained shift results or intervention rates. A paid multi-store rollout that demonstrates repeatable labor savings after remote operator costs would strengthen the acquisition case. The existing deployments and reported $500,000 YC note support a path to further testing, with pilot costs and runway still unknown. (*The Idea*, *Defensibility*, *Market & Traction*, *Key Risks*)
+Strategic acquisition is the strongest path for Theseus Robotics in Fall 2026. A retail automation vendor could buy its manipulation software, shelf-restocking and order-picking workflows, and any transferable training data to bring both tasks into existing grocery aisles. Owning the software and data could shorten the buyer’s development time and let it improve the system across its own deployments. The memo documents Ricoh’s investment in beverage-restocking company Telexistence, an adjacent sign of strategic interest in the category. The investment amount was undisclosed, leaving acquisition pricing open. (The Idea, Defensibility, Market & Traction)
 
-The reported note leaves conversion and holder terms unspecified, so the proceeds bridge uses the illustrative $500,000 check at a $10 million post-money valuation. A 40% relative dilution takes ownership from 5% to 3%, with no follow-on checks. Reaching 5× within eight years requires $2.5 million in cash to the holder, or $83.3 million in distributable equity proceeds at 3%. The hurdle is $125 million at 2% and $62.5 million at 4%. The memo gives no usable acquisition pricing or measured buyer economics, so the sale prices below are scenario assumptions. (*Market & Traction*, *Key Facts*)
+The memo records two robots deployed across two stores and launch footage from Zürich. Theseus reports peak rates of 400 units restocked and 40 units picked per hour, plus pilots lined up for up to 10 more robots in 2027. A paid multi-store rollout that measures full-shift throughput, remote operator time, and labor savings after hardware and service costs would help quantify the buyer’s benefit. The existing deployments make that test plausible. The reported $500,000 convertible note leaves fleet funding, cash burn, and runway unresolved. In-house model training and control-policy development support a plausible software transfer, while data rights, customer consents, and hardware supply terms remain unverified. (Market & Traction, Defensibility, Founders & Team, Key Risks)
 
-| Scenario | Timing | Enterprise value | Distributable equity cash | Holder cash and gross multiple |
-|---|---|---:|---:|---:|
-| Modest sale | Year 5 | $50M | $50M | $1.50M · 3.0× |
-| Strong sale | Year 7 | $100M | $100M | $3.00M · 6.0× |
-| Prolonged private | Through year 8 | No sale | $0 distributed | $0 · 0× realized, shares retained |
+Under the illustrative eight-year scenario, a $500,000 check at a $10 million post-money valuation buys 5%, diluted to 3% with no follow-ons. The $2.5 million gross cash target requires $83.3 million of distributable equity, or $88.3 million of enterprise value with $5 million of illustrative net debt. The equity hurdle rises to $125 million at 2% ownership and falls to $62.5 million at 4%. Actual ownership and note terms are unavailable, so the bridge applies simple pro rata allocation before investor taxes and leaves any separate note, preference, or fee adjustments unquantified. The memo gives neither a supported acquisition price range nor enough operating economics to derive one. (Market & Traction, Key Facts)
 
-Both sales assume zero net debt and transaction expenses, all cash at close, and a simple pro rata waterfall with no preference adjustments. Stock, escrow, earnouts, rollover, and compensation are each modeled at $0. Proceeds are before investor taxes. At 2% ownership, even the modeled strong sale yields only $2 million, or 4×. In the prolonged-private scenario, growth plateaus, buyers stay away, public scale remains out of reach, and cash is reinvested. The memo supplies no separately supported route to holder cash in that case. (*Market & Traction*, *Key Facts*)
+| Eight-year scenario | Gross cash to the holder |
+|---|---:|
+| Modest sale at $25 million enterprise value, less $5 million of illustrative net debt | $600,000 (1.2×) |
+| Strong sale at $100 million enterprise value, less $5 million of illustrative net debt | $2.85 million (5.7×) |
+| Growth plateaus, buyers stay away, public scale remains out of reach, and available cash is reinvested with no secondary or payout | $0, with shares still held and their value unquantified |
+
+The memo provides no evidence of predictable cash generation for a sponsor buyout, eligible share demand for a secondary, public-market scale or readiness, or distributable surplus for dividends or buybacks. A wind-down would pay shareholders only from the residual after obligations and preferences, which the memo does not quantify. (The Idea, Market & Traction, Key Facts)
 
 ### Countercase
 
-A buyer may be able to license the system, partner with another vendor, or build enough of the capability on similar hardware. Theseus uses off-the-shelf robot bodies, the memo describes a published shelf-stocking system built on commercially available hardware, and HIVE is already piloting overnight replenishment. If Theseus still needs substantial remote labor across stores, its training data may have limited value to an acquirer. The memo also leaves the transfer rights for that data and the hardware arrangements unverified. This countercase supports Watch. The evidence leaves both the price ceiling and the likelihood of prolonged private ownership unresolved, so neither Pass override applies. (*Defensibility*, *Market & Traction*, *Key Risks*)
+A buyer could license the software, partner with Theseus, or build on comparable off-the-shelf hardware. HIVE already pilots overnight replenishment, and the memo describes a separate shelf-stocking system built on off-the-shelf hardware. If Theseus needs substantial remote staffing or store-by-store tuning, owning its software and data may confer little advantage. The company’s reported peaks leave full-shift performance and cross-store transfer unresolved. That gap supports Watch. The memo establishes neither a structural block nor a credible sale price that would leave the holder materially short, so the Pass gate does not apply. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 13/30 |
+| Counterparty rationale or source of cash | 14/30 |
 | Plausible investor proceeds | 8/30 |
 | Milestones and capital needed | 11/20 |
-| Transaction feasibility | 5/10 |
+| Transaction feasibility | 6/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 39/100** (Pass)
+**Total Score: 41/100** (Pass)
 
 ### Decisive diligence question
 
-What incremental value would a retail automation vendor put on owning Theseus after a paid multi-store rollout? A buyer-side valuation grounded in sustained shift-level savings after teleoperation costs, and in capabilities the buyer could secure through ownership, would move the action to Reach out if it supports a price that clears the holder’s cash hurdle under plausible dilution and deal terms. (*Defensibility*, *Market & Traction*, *Key Risks*)
+Can a paid multi-store rollout demonstrate enough repeatable labor savings to support an acquisition price that clears the holder’s cash target? Full-shift results across stores, including intervention time and hardware and service costs, would need to support buyer economics consistent with roughly $88.3 million in enterprise value under the illustrative terms. That evidence would move the action to Reach out. A credible price range that remains materially below the hurdle under supported ownership terms would move it to Pass.

@@ -5,28 +5,28 @@
 
 ### Company case
 
-**Path A — Scarce complements.** Saccade’s strongest seed case is that machine learning applied to headset eye tracking could expand access to clinically useful assessment before memory symptoms. The memo documents a working near-infrared capture design and identifies a concrete gap in access. Roche’s pTau217 test is indicated for people already showing signs, symptoms, or complaints of cognitive decline. Saccade could benefit as analysis gets cheaper if its measurements produce a validated signal that clinics can use to decide who needs follow-up. That clinical performance remains unproven. (*The Idea*, *Defensibility*, *Key Risks*)
+**Path B — New Economies.** Saccade could make repeat assessment viable for adults who want information before memory symptoms and have fewer clinical testing options. Its five guided VR tasks and automated eye-movement scoring could reduce clinician time per usable result. The memo documents the gap in testing options but provides neither a labor and cost baseline for a comparable clinician-led assessment nor evidence that Saccade reduces either measure. Its terms say the assessment remains unvalidated for individual risk prediction. (The Idea; Key Risks)
 
-Under a scenario where competitors have abundant capital and comparable models, Saccade’s potential advantage would rest on repeatable signal capture and access to measurements linked to clinical outcomes. The custom hardware is documented. The patent-pending status and proprietary scoring model are company claims, and durable access to outcome-linked data remains unverified. The founder’s work on the original attachment and prior medical-device design support seed-stage execution. Saccade reports testing at San Francisco clinics and an ongoing study. Completed enrollment, clinic purchase commitments, and realized revenue remain unknown. (*Defensibility*, *Founders & Team*, *Market & Traction*, *Key Facts*)
+**Model-parity scenario.** If rivals have equally capable models, buyers could still pay Saccade for a validated measurement and reliable delivery of the headset exam, blood draw, and physician follow-up. The company claims a patent-pending attachment and proprietary scoring, but the memo establishes no enforceable protection or preferential access to clinical delivery. Separately, the documented working attachment and the founder’s medical-device experience support seed-stage execution. Reported clinic testing shows early use, with payment and repeat use unknown. (Defensibility; Founders & Team; Market & Traction; Key Facts)
 
-Acuity lists $897 per test. Four completed, paid tests would yield $3,588 in annual gross revenue per customer under a quarterly-repeat scenario. Contribution would depend on local staffing, blood draws and lab work, physician time, headset utilization, and scheduling. The memo provides no measured costs or repeat purchases. Those same delivery requirements leave Path B unproven because the memo lacks a like-for-like comparison showing that automation makes testing economical for a previously unserved buyer. (*The Idea*, *Key Risks*, *Key Facts*)
+**Scale economics.** The expansion unit is a completed quarterly assessment at a listed $897. A viable cost bridge depends on local staff and travel, equipment utilization, lab work, physician review, and repeat or inconclusive tests. The memo gives no realized price, delivery cost, or completed-visit throughput. (The Idea; Key Risks; Key Facts)
 
 ### Countercase
 
-The strongest countercase is that Saccade’s signal may be reproducible and have limited clinical value before symptoms. ViewMind already combines VR, eye tracking, and machine learning and is evaluating its system against amyloid and tau burden in people with mild cognitive impairment. Saccade’s terms say its assessment lacks validation for individual risk prediction, and the treatment pathway described in the memo requires early symptomatic disease and confirmed amyloid pathology. Together, these facts keep the outreach gate closed. ViewMind’s work in a different population leaves substitution in Saccade’s intended population unresolved, so a representative qualification trial can still change the action. (*Defensibility*, *Key Risks*)
+Automated scoring could save time while leaving the full visit too expensive to repeat, especially if the result seldom changes clinical follow-up. The memo documents limits on immediate treatment eligibility, and ViewMind’s similar VR eye-tracking approach gives buyers a plausible substitute under model parity. These risks keep both Path B conditions open. The memo contains no direct cost comparison or evidence of equivalent presymptomatic performance that would close the path. (Key Risks; Defensibility)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 10/25 |
+| Path-specific thesis fit | 9/25 |
 | Durable value capture | 8/25 |
 | Customer demand | 6/20 |
 | Team and execution | 9/15 |
 | Scale economics | 5/15 |
 
-**Total Score: 38/100** (Pass)
+**Total Score: 37/100** (Pass)
 
 ### Decisive diligence question
 
-Can an independent clinic complete a budgeted qualification trial showing that Saccade’s system meets prespecified accuracy thresholds against a biomarker reference in asymptomatic adults and improves a defined follow-up decision compared with the clinic’s current approach? Move to Reach out if the result earns a paid deployment commitment, shows that the advantage depends on a capability Saccade controls, and raises the score to the outreach threshold. A credible trial showing equivalent results from a readily available substitute would trigger Pass.
+Will an independent clinic pay to repeat Acuity for asymptomatic adults who previously went without assessment after a comparative pilot shows that it produces a validated result that informs follow-up, uses less clinician time per usable result, and covers full delivery costs at the price paid? Move to **Reach out** if the clinic reorders and identifies a measured advantage in Saccade’s assessment or delivery that persists when a rival has equivalent models. Move to **Pass** if the comparison shows the full cost prevents repeat use or an equivalent service preserves the outcome without Saccade.

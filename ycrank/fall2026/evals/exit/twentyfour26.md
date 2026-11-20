@@ -5,23 +5,15 @@
 
 ### Company case
 
-Strategic acquisition is the strongest path. An operator of digital factories could buy twentyfour26 to deploy its integrated quoting, machining, and inspection workflow across its own shops. Ownership could give the buyer control over deployment and the production data needed to improve the workflow across sites. That advantage depends on the workflow transferring beyond the original cell. The memo documents a launched CNC service with job-specific quote terms and records MISUMI’s acquisition of Fictiv as an adjacent transaction. The company reports making parts for Bay Area hardware teams, with its fastest jobs taking about 48 hours. The inspection feedback loop remains a development goal, and the memo gives no measured labor savings, yield improvement, or buyer economics. (The Idea, Defensibility, Market & Traction, Key Facts)
+Strategic acquisition is the strongest path. MISUMI’s acquisition of Fictiv shows that an industrial buyer has paid to add a digital manufacturing capability. A buyer in that class could acquire twentyfour26’s in-house CNC operation and its workflow from CAD intake through inspection to reduce programming, setup, and inspection costs on eligible jobs. Ownership would make economic sense if the workflow delivered repeatable savings across the buyer’s facilities that it could not capture as cheaply by licensing software or outsourcing jobs. The memo provides no measured savings or purchase price that would support an acquisition range for twentyfour26. (The Idea, Defensibility, Market & Traction)
 
-The existing shop gives the team a place to test replication. The memo lists $500,000 in financing with conflicting round dates and labels, leaving the cost and funding of a second-cell test unclear. Company-owned CNC equipment is identified, while software and data transfer rights are unverified. The memo supplies no separately supported fallback that could pay this holder. (Defensibility, Market & Traction, Key Facts)
+The company reports machining parts for Bay Area hardware teams, with its fastest turnaround at about 48 hours. The inspection feedback loop remains a development goal. A second cell running paid jobs could establish whether labor savings, throughput, and inspection quality hold across cells. Reported financing of $500,000 gives a limited funding signal because the round dates and labels differ and the cost of the test is unknown. The company-owned equipment provides a plausible starting point for transferring the operation. Software ownership and rights to reuse job and inspection data remain unverified. The memo gives no independent basis to underwrite a sponsor buyout, an eligible secondary, public resale, or a company-funded payout. (Market & Traction, Defensibility, Key Facts)
 
-**Proceeds bridge.** Use the illustrative $500,000 check at a $10 million post-money valuation, diluted from 5% to 3% with no follow-on checks. The eight-year objective is $2.5 million in gross cash. The sale scenarios assume zero net debt, fees, and price adjustments, so enterprise value equals distributable equity value. They assume pro rata allocation before investor taxes, no senior claims, and all consideration paid in cash at closing. Stock, escrow, earnouts, rollover, and compensation are each modeled at $0. The prices and timing are scenario assumptions.
-
-| Scenario | Timing | Distributable equity | Holder cash | Gross multiple |
-|-----------|--------|----------------------|-------------|----------------|
-| Modest sale | Year 5 | $40 million | $1.2 million | 2.4× |
-| Strong sale | Year 7 | $100 million | $3.0 million | 6.0× |
-| Prolonged private | Through year 8 | No sale or payout | $0 | 0× realized |
-
-The hurdle is about $83.3 million at 3% ownership, $125 million at 2%, and $62.5 million at 4%. At 2%, even the modeled strong sale returns only 4×. The memo provides no usable transaction price or buyer savings to support a valuation range. In the prolonged-private scenario, growth plateaus, buyers stay away, public scale remains out of reach, and cash is reinvested. The investor retains the shares. (Market & Traction, Key Facts)
+Under the illustrative terms, a $500,000 check at a $10 million post-money valuation buys 5%, diluted by 40% to 3% with no follow-ons. The eight-year target is $2.5 million in gross cash before investor taxes. A simple pro rata distribution requires $83.3 million of distributable equity at 3%, versus $125 million at 2% and $62.5 million at 4%. With illustrative net debt of $5 million, the 3% case requires about $88.3 million in enterprise value. At year eight, a $25 million sale yields $600,000 (1.2×) and a $100 million sale yields $2.85 million (5.7×), before any fees or senior claims. Actual debt, fees, and preferences are unknown. If growth plateaus within the current cell’s narrow job range, buyer demand fails to emerge, public scale stays out of reach, and available cash goes back into equipment and automation, the holder realizes $0 over eight years and retains the shares. In a wind-down, recovery is limited to any residual after obligations and preferences, which the memo gives no basis to estimate. (The Idea, Market & Traction, Key Risks)
 
 ### Countercase
 
-An incumbent could combine its existing automation with off-the-shelf CAM and outsource overflow. Protolabs already reports automated toolpath verification and combines owned factories with partner capacity. twentyfour26’s cell has geometry, material, and workholding limits, and lead times depend on available capacity. If a buyer can match the workflow’s economics with those substitutes, the ownership premium could fall below the proceeds hurdle. The memo establishes a credible substitute for parts of the workflow while leaving full substitution and the price ceiling unresolved. The structural Pass override does not apply. (The Idea, Defensibility, Key Risks)
+An acquirer could license CloudNC’s toolpath software or extend its own automation, as Protolabs has already done with toolpath verification. The cell’s limits on geometry, material, and workholding also narrow the order flow a buyer could bring in-house. These are concrete reasons a buyer might decline to pay for the integrated workflow while its inspection feedback loop is still in development. Whether those alternatives can match the full workflow remains unresolved, as does the sale price. The evidence supports Watch and falls short of the structural-block or inadequate-proceeds Pass gate. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
@@ -30,11 +22,11 @@ An incumbent could combine its existing automation with off-the-shelf CAM and ou
 | Counterparty rationale or source of cash | 13/30 |
 | Plausible investor proceeds | 8/30 |
 | Milestones and capital needed | 10/20 |
-| Transaction feasibility | 5/10 |
+| Transaction feasibility | 6/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 38/100** (Pass)
+**Total Score: 39/100** (Pass)
 
 ### Decisive diligence question
 
-Can a digital-factory operator replicate the workflow in a second cell and validate enough incremental value from owning it to support a price that clears the holder’s hurdle? A funded production trial measuring fully loaded cost, lead time, and inspection yield against the operator’s existing workflow would answer it if the operator can tie the results to credible rollout economics. Evidence supporting the roughly $83.3 million hurdle at 3% ownership would move the action to Reach out. Evidence that readily available substitutes match those economics and cap the price below the hurdle would move it to Pass.
+Can a second cell reproduce the economics on paid jobs representative of a strategic buyer’s order mix? Move to Reach out if measured labor per accepted part, throughput, and inspection yield across both cells support a buyer-validated price range that can clear the holder’s proceeds target after rollout costs. Stay at Watch while repeatability or the price range remains unverified.

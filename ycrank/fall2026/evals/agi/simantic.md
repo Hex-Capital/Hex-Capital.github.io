@@ -1,32 +1,32 @@
 ﻿# Simantic -- AGI Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Medium
+**Evidence confidence:** Low
 
 ### Company case
 
-**Path A — Scarce complements.** As cheaper coding agents make it easier to generate firmware changes, teams may need more validation runs before physical boards are available. Simantic could supply that capacity through Pyrite, which runs compiled firmware against modeled chips and peripherals. The founders report waiting weeks or months for hardware. A Waterloo student reported that the simulator matched the physical board in coursework. That is direct evidence for a bounded use case. Production teams still need to establish which tests they can reliably run before boards arrive. (The Idea, Market & Traction, Key Risks)
+**Path A — Scarce complements.** Simantic’s strongest case is that it can supply qualified firmware test capacity while embedded teams wait for physical boards or share hardware-in-the-loop rigs. The founders report waits of weeks or months. A Waterloo student reported that Simantic matched the physical board for their coursework, a narrow observation that supports the mechanism. **Scenario assumption:** If cheap coding agents increase the number of firmware changes awaiting validation, teams could run supported tests before boards arrive. That makes accurate models of specific chips and peripherals more valuable if they measurably relieve the queue. The memo leaves that effect unverified in a commercial workflow. (The Idea, Market & Traction)
 
-Simantic controls its proprietary engine and uses bench measurements to validate silicon behavior. If the validated models capture behavior that competing emulators miss, the same modeling work could serve multiple customers using the same chips. This is a plausible source of value capture. The bench examples establish some capability, while the cost and time for a well-funded competitor to reproduce the coverage remain unknown. (Defensibility)
+Simantic controls the proprietary Pyrite engine and documents bench comparisons of behavior and timing against real silicon. Those comparisons identify work a rival may have to reproduce for a given chip. The cost of doing so and the resulting advantage in buyer qualification remain unknown. The CTO reports an unnamed satellite customer, and Embedder announced an integration. These are early demand signals with payment and repeat use unverified. The founders’ embedded engineering experience and the shipped cloud API and pull-request testing workflow support execution at this stage. (Defensibility, Market & Traction, Founders & Team, The Idea)
 
-The company reports an unnamed satellite customer and more than 1.5 million runs, with most runs concentrated among 15 users. A separately announced integration shows partner interest. The memo establishes neither payment terms for the satellite customer nor repeat paid production use. The founders’ embedded and chip experience and their delivery of a simulator with API and pull-request workflows support seed-stage execution. For scale, the $100 monthly Developer plan provides a price point. The margin on adding another team depends on compute, support, and how much chip characterization can be reused. The memo gives no measured cost per added team or supported chip. (Market & Traction, Key Risks, Founders & Team, The Idea, Defensibility)
+The expansion unit is another board family qualified for recurring CI use. Simantic reports more than 1.5 million runs and 3,000 compute hours over two months. Its $100 monthly Developer plan supplies a price point. The economic bridge remains conditional on paid CI use covering compute and support, plus the cost of building, validating, and maintaining each board model. (Market & Traction, The Idea, Key Risks)
 
 ### Countercase
 
-With the same AI models and ample capital, a competitor could use Renode for agent-driven tests and validate the chip behaviors buyers care about. Veecle already offers Renode-backed agent testing. Where Simantic’s peripheral or analog coverage is incomplete, buyers still need physical hardware. If the alternative covers the same early tests, or both tools leave the same board-dependent bottleneck, Simantic’s advantage could disappear. The memo does not establish either outcome, so Path A remains open for a seed-stage qualification test. Path B lacks evidence that per-pull-request automation opens a previously uneconomic use after review and hardware fallback, or that buyers would keep paying Simantic under functional parity. (Market & Traction, Defensibility, Key Risks, The Idea)
+Veecle already offers agent testing through Renode, so a buyer may be able to get enough coverage from an existing emulator. Simantic also documents behaviors that still require physical measurements. If those behaviors account for most of the buyer’s validation delay, faster simulated runs may leave the bottleneck intact. The memo gives no commercial head-to-head result establishing equivalent coverage or showing a meaningful reduction in rig time. Path A remains open at Watch. The memo supplies no separate evidence of a newly viable buyer or use with durable value capture under model parity, so Path B provides no fallback. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 14/25 |
+| Path-specific thesis fit | 13/25 |
 | Durable value capture | 10/25 |
-| Customer demand | 9/20 |
+| Customer demand | 8/20 |
 | Team and execution | 10/15 |
 | Scale economics | 5/15 |
 
-**Total Score: 48/100** (Neutral)
+**Total Score: 46/100** (Neutral)
 
 ### Decisive diligence question
 
-Will an independent embedded team commit paid budget to keep using Pyrite after a side-by-side trial shows it can reliably run material tests before boards arrive that the team’s best available emulator cannot cover? Use the same firmware and AI model in both workflows, then verify results on silicon and record time to actionable results and hardware fallbacks. A material, repeatable advantage plus a paid commitment would justify rescoring for Reach out, subject to the score and mandate gates. If the alternative matches Pyrite on the tests that matter, or both workflows still wait on the same hardware, move to Pass on the current case. (The Idea, Defensibility, Key Risks)
+Will an independent embedded team pay for a repeat deployment after Simantic demonstrates that it frees up scarce rig time on a production-relevant board? Run the same firmware suite on Simantic and the buyer’s best available emulator, use physical-board results to check consequential misses, and measure rig hours and queue time saved. A material advantage followed by a paid repeat commitment would move the action to **Reach out**. Equivalent results from the substitute, or hardware-only checks that leave the queue intact, would close Path A and move the action to **Pass**. An inconclusive comparison keeps it at **Watch**.

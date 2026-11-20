@@ -1,38 +1,34 @@
 ﻿# Lantern AI -- Exit Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Medium
+**Evidence confidence:** Low
 
 ### Company case
 
-Strategic acquisition by an ATS vendor is Lantern AI’s strongest path. Ashby’s purchase of AI interviewer technology shows that an ATS vendor has paid to own an adjacent capability. Lantern’s potential acquisition asset is the layer that carries employer-approved hiring criteria and feedback across sourcing, screening, and interviews on top of existing ATSs. A buyer could gain control of how those workflows share and update hiring criteria. That would justify a premium if production results show that ownership delivers materially more value than building or licensing comparable automation, and if the necessary software and data rights can transfer. (The Idea, Defensibility)
+**Strategic acquisition by a recruiting software vendor** is the strongest path. Lantern’s asset is a layer that carries employer-approved hiring criteria and feedback across sourcing, screening, and interviews on top of an existing ATS. Ashby’s purchase of AI interviewer technology shows that an ATS vendor has paid to add an adjacent capability. A buyer could use Lantern to sell more modules into its installed base. Ownership would be worth a premium if integrating the shared criteria and feedback across those modules generated more revenue or saved more development time than building or licensing the same capabilities. The memo leaves that incremental benefit unmeasured. (The Idea, Defensibility)
 
-A customer reported screening more than 1,000 candidates and hiring one engineer. Lantern separately reports $1 million in enterprise ARR and one account expanding from about $11,000 to $92,000 annually. Those signals support pursuing a measurable comparison of hiring outcomes and recruiter workload across multiple ATS deployments. The memo provides no comparative results, costed test plan, or runway figures. It also supplies no acquisition-price evidence, transfer terms for the core assets, or independent route to cash for this holder. (Market & Traction, Key Facts, Defensibility, Key Risks)
+A proposed operating milestone is for several enterprise customers to renew across multiple workflows and show measurable reductions in recruiter time versus their existing ATS tools while maintaining hiring quality. Lantern reports $1 million in enterprise ARR and one account expanding from about $11,000 to $92,000 annually. A customer reported screening more than 1,000 candidates and hiring one engineer, which establishes use in a live workflow. The reported expansion makes the milestone plausible at seed. Repeatability, burn, and the capital needed to reach it remain unclear. Transferability of customer contracts and rights to use employer feedback after a sale also remains unverified. (Market & Traction, Key Facts, Key Risks)
 
-**Proceeds bridge.** Investment terms are undisclosed. The illustrative $500,000 seed check buys 5% initially and dilutes to 3%, with no follow-on checks. The eight-year objective is $2.5 million in gross cash, requiring $83.3 million in distributable equity proceeds at 3%, $125 million at 2%, or $62.5 million at 4%. Both sale scenarios assume zero net debt and no other purchase-price adjustments, so enterprise value equals equity consideration. They also assume simple pro rata allocation with no preference deductions, all cash at closing, and zero stock, escrow, earnout, rollover, or compensation. The sale prices and timing are illustrative assumptions.
+**Proceeds bridge.** Assume a $500,000 check at a $10 million post-money valuation, with 5% initial ownership diluted by 40% to 3%, no follow-ons, and a $2.5 million gross cash target within eight years. At 3%, the holder needs $83.3 million in distributable equity, compared with $125 million at 2% and $62.5 million at 4%. Using illustrative net debt of $5 million, the 3% case requires $88.3 million in enterprise value. A $25 million sale at year eight returns $600,000 gross, or 1.2×. A $100 million sale returns $2.85 million, or 5.7×, but returns $1.9 million, or 3.8×, at 2% ownership. These are pro rata sensitivities before investor taxes and assume no further deductions for fees or senior claims. Lantern’s shareholder terms and net debt are undisclosed, and the memo supplies too little pricing evidence to underwrite a realizable sale range. (Market & Traction, Key Facts)
 
-| Scenario | Timing | Investor cash | Gross multiple |
-|---|---|---:|---:|
-| Modest sale at $50 million | Year 4 | $1.5 million | 3× |
-| Strong sale at $100 million | Year 7 | $3 million | 6× |
-| Prolonged private ownership with growth plateauing, buyers staying away, public scale out of reach, and cash reinvested | Through year 8 | $0, with shares retained | 0× realized |
+A sponsor buyout lacks evidence of cash generation after reinvestment. A secondary lacks evidenced demand for this holder’s shares and confirmed eligibility. An IPO lacks support for public-market scale and holder resale, and a dividend or buyback lacks evidence of distributable cash and willingness to pay. If growth plateaus, buyer interest never develops, public scale stays out of reach, and Lantern reinvests all available cash, the holder realizes $0 over eight years and retains the shares. Any wind-down recovery would depend on the residual after obligations and preferences, which the memo leaves unquantifiable. (The Idea, Market & Traction, Key Facts)
 
 ### Countercase
 
-Ashby already offers overlapping automation in its ATS, and Workday has announced a recruiting agent and embedded candidate grading. An incumbent could build enough of the workflow itself or license what it needs. Lantern’s cross-workflow advantage has no comparative performance evidence in the memo, and analytics depends on the records each integration exposes. That is enough to defer outreach. A structural Pass would require evidence that substitutes cap the price below the holder’s hurdle or that another binding obstacle prevents meaningful cash. The memo establishes neither, and the prolonged-private scenario is illustrative. (Defensibility, Key Risks)
+Ashby’s interviewer acquisition also makes it a tougher prospective buyer because it already owns technology for part of Lantern’s workflow. Workday has announced a talent acquisition agent and embedded candidate grading. These are concrete substitutes for parts of Lantern’s product, and Lantern’s reliance on the ATS records available through each integration gives native vendors an advantage. A buyer could build the remaining features or license selected modules, while employer-specific feedback may have limited value if the buyer cannot carry it over. This weakens the ownership case. The Pass gate remains untriggered because the memo establishes neither a structural block nor a supported sale price that leaves the holder materially short. (Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 16/30 |
+| Counterparty rationale or source of cash | 17/30 |
 | Plausible investor proceeds | 8/30 |
 | Milestones and capital needed | 12/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 43/100** (Pass)
+**Total Score: 44/100** (Pass)
 
 ### Decisive diligence question
 
-Can a production benchmark across multiple enterprise ATS deployments show enough incremental value from owning Lantern’s transferable hiring-criteria layer to support a price that clears this holder’s cash hurdle? Move to Reach out if the results, applied to a prospective buyer’s build and licensing costs, support a credible path to at least $83.3 million in distributable equity proceeds at the illustrative 3% stake.
+What price range would an ATS vendor’s economics support for owning Lantern after multiple enterprise customers renew across workflows and demonstrate measurable gains over native ATS tools? Customer results paired with a buyer-specific estimate of incremental module revenue and avoided development costs could support **Reach out** if that range clears roughly $88.3 million in enterprise value under the modeled 3% ownership and $5 million net-debt assumptions, or clears the equivalent hurdle on actual terms. If the strongest supported price leaves the holder materially short, change the action to **Pass**.

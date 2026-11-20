@@ -1,32 +1,30 @@
 ﻿# Roma -- Hypergrowth Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Low
+**Evidence confidence:** Medium
 
 ### Company case
 
-**Path A — Product-led adoption.** The likely first buyer is a team lead who already uses several AI agents and repeatedly has to move context between them and chase results. Roma gives that work a shared task with a history of decisions, edits, and results. If one user can connect existing agents and complete a useful handoff without help, sharing the task could bring teammates into the workspace. More recurring workflows could then support paid team adoption. Roma announced free access through year-end 2026, so willingness to pay remains untested in the memo. (The Idea, Defensibility, Key Facts)
+Product-led adoption is Roma’s strongest path. The likely first buyer is a small team already coordinating work across several AI agents. Roma gives that team a shared task history for assigning work, handing it off, and reviewing results. Support for agents such as Claude and ChatGPT through a common integration standard makes the workflow plausibly portable across markets where those integrations are available. Paid adoption across markets remains unverified. Sharing task histories could bring teammates into the product, though the memo provides no evidence of that adoption loop. (The Idea, Defensibility, Market & Traction)
 
-The memo records 35 US iPhone ratings and a German storefront listing. Those show early US engagement and availability in a second market. Roma reports that some 2.0 users connected at least 10 agents, a concrete setup signal whose acquisition route and onboarding effort are unknown. On the original app, the CEO reported that Sam completed 39 follow-ups in a week, and Roma reported that many of its most active users spent more than three hours a day in the app. Sam’s example shows value in a specific workflow. The broader usage claim suggests repeat activity among selected early users, with retention of 2.0 teams still unmeasured. (The Idea, Market & Traction, Key Facts)
-
-**Scenario assumption.** A German team using the same agents could reuse the core handoff workflow if connector permissions and pickup reliability carry over. Language, billing, and support requirements remain untested. The next team could add acquisition and setup costs, while more handoffs could add connector, support, and built-in assistant costs where used. The memo provides no marginal cost measurements. The main constraint is whether teams acquired through the same self-serve route keep using and pay for recurring handoffs. (The Idea, Market & Traction, Key Risks)
+Roma’s iPhone listing had 35 US ratings. The company reported that some Roma 2.0 users connected at least 10 agents, and that Sam completed 39 follow-ups in a week using Claude in the original app. Sam’s reported workflow change supports early fit, while the company’s reports of daily use among its most active original-app users provide a narrow signal of retention. The agent connection count shows breadth of setup. The memo leaves open whether users acquired through a named channel can complete a reliable handoff on their own and return often enough to pay. That is the first link to test after the announced free period. The memo also gives no usable measure of the inference, integration, or support costs added by another active team. (The Idea, Market & Traction, Key Risks)
 
 ### Countercase
 
-Heavy free usage may reflect a small group of enthusiasts, and connecting agents can precede any recurring workflow. Roma reported missed iPhone pickups and shipped fixes and retries. If handoffs still require manual follow-up, Roma recreates the work it promises to remove. ClickUp and Notion already cover some agent delegation inside existing workspaces, which may be enough for teams with simpler needs. The memo establishes neither a structural ceiling on demand nor proportional delivery costs, so the Pass gate stays open pending a paid cohort test. (Market & Traction, Key Risks, Key Facts)
+Heavy free use by selected individuals could coexist with weak demand for a paid team workspace. ClickUp and Notion already cover some agent delegation inside existing workspaces, and Roma reported missed agent pickups on iPhone. If those misses persist after the reported fix and retries, users may still have to check on work manually, eroding the benefit Roma offers. The structural downside gate does not apply. The observed failures are specific, and their effect on repeat use and support effort remains testable. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 10/25 |
+| Global buyer demand | 16/25 |
 | Repeatable acquisition and onboarding | 9/25 |
 | Retention and customer expansion | 8/20 |
 | Contribution as volume grows | 7/20 |
 | Evidence of fit in the first buyer segment | 5/10 |
 
-**Total Score: 39/100** (Pass)
+**Total Score: 45/100** (Neutral)
 
 ### Decisive diligence question
 
-Can a cohort of multi-agent teams in a second market use the same self-serve route as US teams, complete its first handoff without founder help, and keep running recurring handoffs through its first paid renewal? Cohort records showing that pattern under the same core setup would move Roma to **Reach out**. Until then, **Watch**.
+Can independent teams arriving through one named channel complete their first cross-agent handoff through standard onboarding, convert at an actual price, and keep delegating work over several weekly cycles? Cohort records showing that sequence without founder assistance would move Roma to **Reach out**. Consistent abandonment at the handoff or payment step among teams with the recurring coordination job would move it to **Pass**.

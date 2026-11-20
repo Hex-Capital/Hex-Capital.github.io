@@ -5,28 +5,28 @@
 
 ### Company case
 
-**Path B — New economies.** The strongest seed-stage scenario is that small engineering teams could afford to turn recurring, low-priority tickets into reviewed pull requests when those tickets would otherwise stay in the backlog. The public beta documents a ticket-to-pull-request workflow, isolated cloud computers, and shared sessions. These features make the mechanism plausible. The memo provides no comparison of human time per accepted pull request at equivalent quality, including approvals, retries, and rework. (The Idea, Key Risks)
+Path B, New Economies, is the strongest fit. The seed-stage hypothesis is that small startups could routinely resolve low-priority engineering tickets they currently defer because triage, context gathering, implementation, and review consume too much engineer time. The public beta offers persistent agents, shared sessions, and a ticket-to-pull-request workflow. One named customer reports months of use coordinating several agents. That supports real use, while payment, viable pricing, and previously deferred work remain unverified. (The Idea, Market & Traction)
 
-One customer reported using the product for months to coordinate multiple agents. Payment and whether the product made previously uneconomic work viable remain unverified. The solo founder’s prior CTO and LLM evaluation experience, together with the shipped beta, support early execution. Reliable delivery across independent teams remains unverified. (Market & Traction, Founders & Team)
+Under that scenario, compare the full cost per accepted resolution with the startup’s manual workflow. Count human review, approvals, retries, exception handling, inference, and cloud runtime. The market opens if the product makes previously deferred tickets economical to resolve repeatedly at an equivalent quality bar. Under model parity, the reason to keep paying would have to come from the workspace itself. Versioned artifacts, configured roles, and permissions could save teams recurring setup and coordination work, but buyer preference and migration effort remain untested. The listed subscriptions and usage top-ups establish a pricing model. Realized revenue and delivery costs per workspace are unknown. (The Idea, Defensibility, Key Risks)
 
-The initial expansion unit is another startup subscription. Posted individual plans run from $40 to $200 per month, with optional usage top-ups. Contribution per subscriber would depend on subscription and top-up revenue after model usage, cloud compute, and variable support costs. The memo gives no measured cost per accepted task, usage distribution, or reachable startup buyer count. (The Idea, Key Facts)
+Lipp’s prior CTO and LLM evaluation work is relevant, and the public beta shows current delivery. The founder reports more than 20,000 internally shipped pull requests. That claim indicates internal use, while customer-side acceptance rates and supervision costs remain unmeasured in the memo. (Founders & Team, Market & Traction)
 
 ### Countercase
 
-The beta documents persistent agent instructions, permissions, and versioned work. Inference: carrying those settings forward could save teams reconfiguration work, but competitors with comparable models and capital could offer similar continuity. Frontier already overlaps in shared business context and agent execution, and Gumloop offers agents and a shared knowledge layer. No buyer has demonstrated a preference under functional parity. Human review and error recovery could also erase the savings, leaving the product to accelerate work teams already do. Both Path B conditions remain unproven, which blocks outreach and leaves room for a seed-stage test. The memo identifies no separate bottleneck the company controls for Path A. (Defensibility, The Idea, Key Risks)
+The product may help startups coordinate work they already do, with review and exception handling absorbing much of the labor savings. The customer testimonial establishes agent coordination but leaves the effect on completed work open. Gumloop and OpenAI already offer overlapping context or agent execution capabilities, making a comparable workspace a credible substitute under model parity. The memo contains no head-to-head buyer behavior or measured cost comparison. Both Path B gates remain open, supporting Watch at seed. (Market & Traction, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 10/25 |
-| Durable value capture | 8/25 |
+| Path-specific thesis fit | 9/25 |
+| Durable value capture | 7/25 |
 | Customer demand | 8/20 |
 | Team and execution | 9/15 |
-| Scale economics | 5/15 |
+| Scale economics | 4/15 |
 
-**Total Score: 40/100** (Pass)
+**Total Score: 37/100** (Pass)
 
 ### Decisive diligence question
 
-Can independent small engineering teams repeatedly pay The Company Company to deliver acceptable pull requests for tickets they previously deferred, while choosing it over a workflow with comparably capable models and equivalent repository access? A paid pilot that measures human minutes per accepted pull request, including review, retries, and rework, and ends with repeat purchases after teams try both options would test both conditions. Repeat paid use with materially lower delivery labor and viable contribution would support **Reach out** if the updated score and confidence clear the outreach gates. If review erases the labor savings or buyers readily switch under parity, move to **Pass**.
+Will independent seed-stage startups pay for a second round of previously deferred ticket work after comparing The Company Company with their manual process and a functionally comparable workspace using equivalent models? Move to Reach out if the trial shows lower full cost per accepted resolution on comparable tickets, viable repeat pricing, and a buyer preference tied to the company’s workspace. Move to Pass if the manual comparison shows the work remains uneconomic or buyers readily switch while preserving the outcome.

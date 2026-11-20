@@ -1,32 +1,30 @@
 ﻿# Adalat AI -- AGI Evaluation
 
-**Action:** Pass  
-**Evidence confidence:** High
+**Action:** Watch  
+**Evidence confidence:** Medium
 
 ### Company case
 
-**Path B, New economies, is the strongest path.** Live transcription could make it economical for understaffed trial courts to produce signed digital depositions routinely. A magistrate quoted in the memo reported hearing five to six witnesses per day with transcription, up from two to three. That suggests higher throughput. The memo provides no like-for-like measure of staff time per signed deposition, including corrections, sign-off and retries after recording interruptions. Adalat reports lower accuracy for live dictation than for batch dictation. Whether the labor savings make routine transcription viable in previously underserved courtrooms remains open. (The Idea, Market & Traction, Key Risks)
+**Path B — New Economies.** Adalat AI could make it economical for courts with limited stenographer capacity to hear and record witnesses whose testimony would otherwise be deferred. A magistrate quoted in the memo reported hearing five to six witnesses daily with transcription, up from two to three. That is evidence of a throughput gain in one courtroom. Whether the gain makes additional hearings economical depends on the full cost per signed, upload-ready deposition, including staff review, corrections, recording interruptions and support. Kerala requires endorsement and signatures before upload. (The Idea, Market & Traction, Key Risks)
 
-Kerala’s designation of Adalat as the primary tool, with approval required for substitutes, gives it a concrete incumbency advantage. Separately, Adalat reports about 1,100 monthly active users and more than 25,600 hours transcribed in Kerala in the first year. That supports recurring use under the mandate. The team progressed from pilot to court deployment and reports adapting workflows and training staff during rollout. The infrastructure exposure and reported remediation leave secure operation at scale to be verified. (Defensibility, Market & Traction, Founders & Team, Key Risks)
+Under a model-parity scenario, assume a rival can match Adalat AI’s Indian-language transcription quality. Kerala’s documented designation of Adalat AI as the primary deposition tool, with alternatives subject to approval, gives it some protection. Court-specific workflows and staff training could give buyers a reason to keep paying for the service under parity. The company reports substantial use in Kerala, and its rollout from a pilot to statewide deployment supports its ability to implement the workflow. The memo leaves the cost of repeating that rollout and buyer willingness to fund it unresolved. (Defensibility, Market & Traction, Key Risks)
 
 ### Countercase
 
-With comparably capable models widely available, a rival could pair transcription with review and seek court approval. TERES already offers court-approved speech-to-text with human review, and Adalat has released its Koyal dictation models. Kerala’s approval requirement creates switching friction, but the court controls approval. The memo shows neither buyer preference at equal functionality and viable pricing nor a separate bottleneck Adalat controls that would support Path A. (Defensibility, Market & Traction)
-
-The current vehicle triggers the mandate gate. Adalat operates through a grant-funded nonprofit, and the reviewed court agreements specify pro bono deployments. Those agreements generate zero court fees against the costs of inference, support and staff rollout. Grants fund deployment, while the memo identifies no equity vehicle through which an investor could participate in the operating economics. Even at seed, that makes the documented opportunity a Pass. Confidence is high in that decision, while commercial demand and unit economics remain uncertain. (The Idea, Market & Traction, Key Risks, Key Facts)
+The reviewed agreements specify pro bono deployment by a grant-funded nonprofit. Mandates and usage show institutional demand for the workflow, while willingness to pay a sustainable price remains untested. TERES already offers court-approved transcription with human review, and Adalat AI has released its own dictation models openly. If courts can approve an equivalent provider and preserve the workflow, the incumbent’s advantage could be temporary. The memo establishes neither buyer refusal at a viable price nor successful substitution, so the path remains open on Watch. (The Idea, Defensibility, Market & Traction)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 10/25 |
-| Durable value capture | 8/25 |
-| Customer demand | 9/20 |
+| Path-specific thesis fit | 12/25 |
+| Durable value capture | 15/25 |
+| Customer demand | 12/20 |
 | Team and execution | 10/15 |
-| Scale economics | 3/15 |
+| Scale economics | 6/15 |
 
-**Total Score: 40/100** (Pass)
+**Total Score: 55/100** (Neutral)
 
 ### Decisive diligence question
 
-Can an equity-eligible Adalat entity with rights to the product win a paid renewal from a court that previously could not afford routine transcription, after the court tests a functionally comparable alternative? A documented renewal and court records showing lower total staff time per signed deposition than under the prior workflow, including correction and rework, would move the action to Watch pending evidence that the economics repeat across courts.
+Will a court constrained by stenographer capacity renew Adalat AI from its own budget after a representative paid deployment that includes a comparison with a qualified, functionally equivalent alternative? Move to Reach out if the court economically hears additional witnesses against its former baseline, renews at a price that covers full delivery costs, and chooses Adalat AI for a demonstrated service or workflow advantage. Move to Pass if the comparison shows that full delivery costs erase the market opening or that a qualified substitute preserves the outcome and the court switches.

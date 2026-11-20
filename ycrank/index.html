@@ -139,9 +139,9 @@
         </div>
       </div>
       <template x-if="view === 'dashboard'">
-        <div class="company-search-meta flex items-center gap-2">
+        <div class="company-search-meta flex items-center gap-2" x-show="!mobileLayout || !staticMode">
           <span class="text-claude-border hidden sm:inline">|</span>
-          <span class="text-claude-dim text-sm" x-text="filteredTable.length + '/' + (manifest ? manifest.table.length : 0) + ' companies'"></span>
+          <span class="text-claude-dim text-sm hidden sm:inline" x-text="filteredTable.length + '/' + (manifest ? manifest.table.length : 0) + ' companies'"></span>
           <span class="text-claude-border hidden sm:inline">|</span>
           <button type="button" @click="watchlistFilter = !watchlistFilter; acOpen = false" :aria-pressed="watchlistFilter" x-show="!staticMode"
             :class="watchlistFilter ? 'text-claude-amber' : 'text-claude-dim hover:text-claude-amber'"
@@ -259,26 +259,33 @@
       <template x-if="mobileLayout && view === 'dashboard' && !loading && !noBuildData">
         <section class="mobile-company-list" aria-label="Companies"
           :style="{ '--score-columns': mobileEvaluators.length ? 'repeat(' + mobileEvaluators.length + ', clamp(1.55rem, 7.6vw, 2.25rem))' : '', '--traction-column': hasMobileTraction ? 'clamp(2.9rem, 12vw, 3.5rem)' : '' }">
-          <label class="mobile-company-sort">Sort by
-            <select :value="sortCol + ':' + sortDir" @change="selectMobileSort($event.target.value); $event.target.blur()">
-              <template x-for="[value, label] in mobileSortOptions" :key="value">
-                <option :value="value" :selected="value === sortCol + ':' + sortDir" x-text="label"></option>
-              </template>
-            </select>
-          </label>
-          <div class="mobile-company-grid mobile-company-columns" aria-hidden="true">
+          <div class="mobile-company-grid mobile-company-columns">
             <span>Company</span>
             <template x-for="thesis in mobileEvaluators" :key="thesis.slug">
-              <span :title="thesis.fullName" x-text="thesis.abbr === 'EXIT' ? 'Exit' : thesis.abbr"></span>
+              <button type="button" @click="sortMobileBy(thesis.abbr)" :aria-pressed="sortCol === thesis.abbr"
+                :aria-label="'Sort by ' + thesis.fullName + (sortCol === thesis.abbr ? (sortDir === -1 ? ', high to low' : ', low to high') : '')">
+                <span x-text="thesis.abbr === 'EXIT' ? 'Exit' : thesis.abbr"></span>
+                <span class="mobile-sort-direction" aria-hidden="true" x-show="sortCol === thesis.abbr" x-text="sortDir === -1 ? '↓' : '↑'"></span>
+              </button>
             </template>
-            <template x-if="hasMobileTraction"><span>Traction</span></template>
+            <template x-if="hasMobileTraction">
+              <button type="button" @click="sortMobileBy('tractionRank')" :aria-pressed="sortCol === 'tractionRank'"
+                :aria-label="'Sort by traction rank' + (sortCol === 'tractionRank' ? (sortDir === 1 ? ', best first' : ', best last') : '')">
+                Traction<span class="mobile-sort-direction" aria-hidden="true" x-show="sortCol === 'tractionRank'" x-text="sortDir === 1 ? '↑' : '↓'"></span>
+              </button>
+            </template>
+            <span>ARR</span>
           </div>
 
           <template x-for="row in filteredTable" :key="row.slug">
             <article class="mobile-company-card" :class="{ 'is-expanded': expandedCompanySlug === row.slug }">
               <a class="mobile-company-memo" :href="companyHash(row.slug)" :id="'mobile-company-' + row.slug"
-                @click="followCompanyLink($event, row.slug)"
-                :aria-label="'Open ' + row.name + ' memo'" :aria-describedby="'mobile-company-scores-' + row.slug">
+                @click="activateCompanyCard($event, row.slug)"
+                @keydown.space="if (expandedCompanySlug !== row.slug) activateCompanyCard($event, row.slug)"
+                :role="expandedCompanySlug === row.slug ? null : 'button'"
+                :aria-expanded="expandedCompanySlug === row.slug"
+                :aria-label="expandedCompanySlug === row.slug ? 'Open ' + row.name + ' memo' : 'Preview ' + row.name"
+                :aria-describedby="'mobile-company-scores-' + row.slug">
                 <div class="mobile-company-grid mobile-company-summary">
                   <h2 class="mobile-company-name" x-text="row.name"></h2>
                   <template x-for="thesis in mobileEvaluators" :key="thesis.slug">
@@ -288,9 +295,10 @@
                   <template x-if="hasMobileTraction">
                     <span class="mobile-company-number" x-text="row.tractionRank == null ? '–' : '#' + row.tractionRank"></span>
                   </template>
+                  <span class="mobile-company-number mobile-company-arr" x-text="row.revenue == null ? '' : formatRevenue(row.revenue)"></span>
                 </div>
                 <span class="sr-only" :id="'mobile-company-scores-' + row.slug"
-                  x-text="[...mobileEvaluators.map(thesis => thesis.fullName + ': ' + (row.scores?.[thesis.abbr] ?? 'Unavailable')), hasMobileTraction && 'Traction rank: ' + (row.tractionRank ?? 'Unavailable')].filter(Boolean).join('. ')"></span>
+                  x-text="[...mobileEvaluators.map(thesis => thesis.fullName + ': ' + (row.scores?.[thesis.abbr] ?? 'Unavailable')), hasMobileTraction && 'Traction rank: ' + (row.tractionRank ?? 'Unavailable'), row.revenue != null && 'ARR: ' + formatRevenue(row.revenue)].filter(Boolean).join('. ')"></span>
                 <p class="mobile-company-description" x-show="row.oneLiner" x-text="row.oneLiner"></p>
 
                 <template x-if="expandedCompanySlug === row.slug">
@@ -307,11 +315,6 @@
                   </div>
                 </template>
               </a>
-              <button type="button" class="mobile-company-expand" @click="toggleCompanyPreview(row.slug)"
-                :aria-expanded="expandedCompanySlug === row.slug"
-                :aria-label="(expandedCompanySlug === row.slug ? 'Collapse ' : 'Expand ') + row.name + ' details'">
-                <span aria-hidden="true"></span>
-              </button>
               <template x-if="!staticMode && expandedCompanySlug === row.slug">
                 <button type="button" class="mobile-company-star" @click="toggleWatchlist(row.slug, $event)"
                   :aria-label="'Watchlist ' + row.name" :aria-pressed="isWatchlisted(row.slug)"

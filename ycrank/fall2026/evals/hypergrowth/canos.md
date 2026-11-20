@@ -5,28 +5,26 @@
 
 ### Company case
 
-**Path B — Repeatable sales or partner distribution with account expansion.** The strongest initial buyer is a veterinary practice managing dogs through cancer treatment, with the owner paying per test. If serial blood draws help vets make treatment decisions, Canos could win a practice through one case, earn repeat orders during treatment, and reach more dogs through the same practice. The company’s order flow offers collection kits and checks arrangements with the clinic before requesting payment. Canos reports 10 clinics and mobile vets onboarding across New York City and the Bay Area, plus 150+ sign-ups from a veterinary trade show. That gives Canos a specific recruitment channel and collection workflow to test. Completed paid orders and clinic onboarding effort remain unknown. (The Idea, Market & Traction, Key Risks)
+Canos’s strongest path is **channel-led growth through veterinary clinics and mobile vets**. The initial job is monitoring dogs during cancer treatment. Veterinarians can collect blood during care, and Canos offers owners a per-test OncoTrack product. The memo documents US collection kits and an order flow that checks collection arrangements with the clinic before requesting payment. Canos reports 10 founding clinics and mobile vets onboarding across New York City and the Bay Area. The same draw-and-report workflow looks portable to comparable veterinary practices if they can meet Canos’s sample-handling requirements. Paid adoption across markets remains unverified. (The Idea, Market & Traction, Key Risks)
 
-The two U.S. regions give Canos an early test of geographic portability. The cross-border scenario assumes the same assay and reporting workflow can serve vets abroad. Canos would still need local collection partners, a shipping route that preserves samples, and a way to meet local testing requirements. The memo’s global screening estimate covers multiple testing methods and leaves the size of Canos’s reachable monitoring segment unknown. (The Idea, Key Risks)
-
-Canos lists OncoTrack at $399 and offers a free trial. Its reported longitudinal research covered 117 dogs across 514 time points, leaving paid repeat use at the treatment cadence unverified. At the listed price, contribution on a paid repeat test would be net receipts less any collection costs Canos bears, kit and shipping costs, sample processing, sequencing, analysis, and support. Growth would also need to cover clinic recruitment and setup, free trials, and any added lab capacity. The memo gives no realized price or cost breakdown. (The Idea, Defensibility, Key Risks)
+Assuming owners value the result enough to pay, the first link at risk is whether independent clinics can take an order through collection and delivery of a paid result using a workflow they can run again. The reported onboarding and trade-show interest leave that step open. Canos’s longitudinal research supports the rationale for serial draws. Paid repeat use at the treatment-monitoring cadence remains unverified, as does an initial buyer commitment of meaningful budget or clinic time. At the listed $399 OncoTrack price, contribution would depend on realized revenue after any trial and the incremental costs of clinic acquisition, collection coordination, kits, shipping, sequencing, and support. The memo gives no usable cost or rollout-effort measurements. (The Idea, Defensibility, Market & Traction, Key Risks)
 
 ### Countercase
 
-Vets may try the test and then stop ordering if serial results rarely change care. Canos’s reported diagnostic benchmark was retrospective, prospective validation is pending, and vets must interpret results alongside clinical assessment. If repeat orders are sparse, each new practice could require fresh selling and setup while each draw still incurs collection and lab costs. PetDx’s halt in sample processing shows that another sequencing-based offering stopped operating, though its cause is unknown from the memo. Canos’s paid repeat use and marginal costs remain unresolved, so the structural Pass gate is untriggered. (Market & Traction, Key Risks)
+Clinics and owners may try OncoTrack for free and decline to pay if the result adds too little to treatment decisions. Canos’s reported diagnostic performance comes from retrospective research, and the company says prospective validation is still needed. Even if buyers value the result, checking collection arrangements with each clinic could require recurring manual work. The memo leaves paid conversion and delivery effort unresolved, with no affirmative evidence that these constraints block the channel structurally. The downside gate does not apply. (The Idea, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 10/25 |
+| Global buyer demand | 15/25 |
 | Repeatable acquisition and onboarding | 9/25 |
 | Retention and customer expansion | 7/20 |
 | Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 5/10 |
+| Evidence of fit in the first buyer segment | 4/10 |
 
-**Total Score: 38/100** (Pass)
+**Total Score: 42/100** (Pass)
 
 ### Decisive diligence question
 
-Can independent practices in both launch regions use the same kit workflow to turn initial OncoTrack cases into paid repeat orders at the treatment cadence? A prospective rollout with order and payment records showing that serial results informed care, clinics reordered with limited founder help, and repeat tests contributed after collection, shipping, lab work, and support would move the action to Reach out.
+Can independent practices in both launch metros use the same onboarding process to deliver a first paid OncoTrack result with bounded Canos staff time? Order records and staff time logs showing that handoff across several practices would move Canos to **Reach out**.

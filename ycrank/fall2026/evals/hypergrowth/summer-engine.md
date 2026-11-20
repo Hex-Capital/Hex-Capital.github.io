@@ -5,28 +5,26 @@
 
 ### Company case
 
-**Path A — Product-led adoption.** The initial buyer is an indie game developer who can prototype with AI and needs a faster way to turn that prototype into an editable, playable game. Summer combines agent-assisted editing with hosted multiplayer, publishing, and analytics. If that workflow becomes indispensable, word of mouth can bring the next thousand creators into the free desktop or browser editor. Creators who keep building and updating games could then pay for hosted AI or move to higher tiers as usage grows. That paid expansion is an inference. The memo provides no evidence of repeat publishing, paid retention, or upgrades. (*The Idea*, *Defensibility*)
+Product-led adoption is Summer Engine’s strongest path. The likely first buyer is an indie developer who repeatedly builds, tests, and publishes playable games. The Godot-based editor supports agent-assisted changes to scenes, scripts, and assets alongside hosted multiplayer, publishing, and analytics. That workflow and the available Mac and Windows exports make the same product credible across markets. Mobile releases require platform-specific toolchains, browser play is a research preview, and the memo gives no buyer geography. (The Idea, Key Risks)
 
-The memo records 2,966 weekly downloads of the agent integration package, a concrete signal of distribution. Summer reports more than 60,000 organic users, but the memo gives no download-to-activation or activation-to-payment rates. The first game jam drew 13 entries, showing that some creators committed time to making a submission. Summer also reports 40% revenue growth over 30 days, with no starting revenue figure or breakdown of who paid and why. Together, these are early signals of interest and willingness to try the workflow. Paid fit among indie developers remains uncertain. (*The Idea*, *Market & Traction*)
-
-The same editor could serve indie developers in a second geography. The cross-market test would check whether creators can activate, pay, and publish with the existing workflow, and whether language, billing, or support requires added work. The memo gives no buyer or payment data by geography. For an illustrative $20 Pro subscriber, incremental contribution would be the monthly subscription price less payment fees, model inference, any multiplayer and publishing infrastructure used, and support. The cohort also has to cover the cost of serving free users who never convert. Bringing an external agent can shift inference cost away from Summer, while also removing one reason to subscribe. The memo provides no marginal cost or cohort contribution measurements. (*The Idea*, *Market & Traction*, *Key Risks*)
+The memo records 13 entries in Summer’s first game jam, a concrete sign that a community channel can get creators to a playable submission. Summer reports more than 60,000 organic users and 40% revenue growth over 30 days. The connection between those signals remains unverified. Even assuming strong fit with indie developers, the first link likely to break is conversion from free creation to a recurring hosted-AI subscription. The revenue figure does not identify the paying segment or what buyers paid to accomplish. The memo also gives no cohort evidence of repeat paid use or measurements of incremental inference, hosting, and support costs. (The Idea, Market & Traction, Key Risks)
 
 ### Countercase
 
-Creators may try Summer for a jam or a prototype, then keep using the free external-agent workflow, export the game, or return to an incumbent editor that already supports coding agents. That would leave Summer with organic reach and few reasons for creators to become recurring subscribers. Heavy use by paying creators could also drive up hosted costs faster than subscription revenue. The memo documents the free alternatives and incumbent overlap. It leaves churn and contribution unresolved, so the structural Pass gate is unmet. (*The Idea*, *Defensibility*, *Key Risks*)
+The free editor and external-agent connection may deliver enough value for active creators to keep building without subscribing. Unity, Roblox, and GDevelop also offer agent connections, giving creators a way to adopt similar workflows in tools they already use. That could leave Summer with organic adoption and weak paid conversion. The structural downside gate does not apply because the memo gives no cohort evidence that this pattern persists. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 9/25 |
+| Global buyer demand | 16/25 |
 | Repeatable acquisition and onboarding | 11/25 |
 | Retention and customer expansion | 7/20 |
 | Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 5/10 |
+| Evidence of fit in the first buyer segment | 4/10 |
 
-**Total Score: 39/100** (Pass)
+**Total Score: 45/100** (Neutral)
 
 ### Decisive diligence question
 
-Can an organically acquired cohort of indie developers in a second geography activate without founder help, pay for hosted AI, and remain active through its next development or publishing cycle at positive incremental contribution? Cohort records that trace those steps and include the cost of serving free users would move the action to **Reach out**. Until that result is available, **Watch**.
+Do independently acquired indie developers who reach a first playable build through self-serve onboarding convert to hosted AI and keep using it through their first monthly renewal? A cohort showing that sequence across multiple creators would move Summer to Reach out. A cohort that shows active creators consistently staying free or canceling after the initial build would move it to Pass.

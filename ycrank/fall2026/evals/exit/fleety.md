@@ -5,23 +5,17 @@
 
 ### Company case
 
-Strategic acquisition by a field-service software platform is Fleety’s strongest path to investor cash. The memo documents a public launch and describes a workflow that checks bookings against call transcripts and equipment records, then writes technician assignments to ServiceTitan’s dispatch board. Fleety reports that it made about 92% of assignments at Albert Nahman, where one dispatcher managed more than 30 technicians and the shop saved about $60,000 a year in overhead. A platform could have a reason to own that workflow if it measurably improves booking accuracy and dispatch across shops, and ownership lets the platform capture those gains more effectively than building or licensing the capability. The reported savings establish a reason to test the product. Buyer willingness to pay and the economics of ownership remain unverified. (The Idea; Defensibility; Market & Traction)
+Strategic acquisition by ServiceTitan is Fleety’s strongest path. Fleety’s software writes assignments directly to the ServiceTitan dispatch board and checks bookings against call transcripts, equipment records, and past notes. The asset ServiceTitan could buy is the workflow that validates jobs before dispatch, together with the shop-specific rules that put it into practice. Ownership could create subscription or retention value if bundling that workflow yields measurable gains over Dispatch Pro and acquiring it gets those gains to customers faster than building it internally or partnering. The buyer benefit is an inference. (*The Idea*, *Defensibility*)
 
-The operating milestone is a paid rollout across multiple shops that measures incremental gains over native dispatch and tracks the cost of deploying each shop. The founders’ dispatch experience and the reported live deployment make that test plausible at seed. Fleety says its team goes on-site for every deployment, and the memo leaves deployment costs, runway, and funding for the test unverified. Integration establishes a way to use the product today. The rights to transfer the software, customer contracts, data, and platform access remain unverified. The memo supplies no independently supported fallback that could pay this holder. (The Idea; Defensibility; Market & Traction; Founders & Team; Key Risks; Key Facts)
+The memo records a customer video featuring Panther Services Group and names two other partners. Fleety reports that its software handled about 92% of assignments at Albert Nahman, let one dispatcher manage more than 30 technicians, and saved about $60,000 a year in overhead. That claim describes the whole deployment. The incremental contribution from booking validation and the share of savings ServiceTitan could capture are unknown. The next operating milestone is to reproduce the incremental benefit over Dispatch Pro across several shops and measure deployment labor. Fleety says it goes on-site for every deployment, and the capital and time needed to reach that milestone remain unverified. The current integration shows the workflow can operate on ServiceTitan. Transfer rights for customer contracts and data, continued access, and buyer willingness remain open. (*Market & Traction*, *The Idea*, *Key Risks*)
 
-**Proceeds bridge.** Use the illustrative $500,000 check at a $10 million post-money valuation, with 5% initial ownership diluted to 3%, no follow-on checks, and a $2.5 million gross cash objective within eight years. The holder needs $83.3 million in distributable equity proceeds at 3% ownership, $125 million at 2%, or $62.5 million at 4%. The memo supplies no usable pricing evidence. The following sale prices and timing are scenario assumptions. With no assumed net debt, fees, or preference adjustments, enterprise value equals distributable equity consideration, allocated pro rata. All consideration is assumed paid in cash at closing, with zero stock, escrow, earnouts, rollover, or compensation.
+**Illustrative eight-year proceeds.** Assume a $500,000 check at $10 million post-money, 5% initial ownership diluted by 40% to 3%, no follow-ons, and a simple pro rata allocation before investor taxes. The $2.5 million cash target requires $83.3 million of distributable equity at 3% ownership, $125 million at 2%, or $62.5 million at 4%. With illustrative net debt of $5 million, the 3% hurdle is $88.3 million in enterprise value. At year eight, a $25 million sale yields $600,000 gross (1.2×), and a $100 million sale yields $2.85 million gross (5.7×), each after that illustrative debt. Fleety’s actual debt, fees, senior claims, and shareholder terms are unknown. The memo supplies no usable sale-price evidence, so these figures establish the hurdle and its sensitivity to ownership. (*Market & Traction*, *Key Facts*)
 
-| Scenario | Assumed outcome | Holder cash at 3% | Gross multiple |
-|---|---|---:|---:|
-| Modest sale | $40 million enterprise value in year 5 | $1.2 million | 2.4× |
-| Strong sale | $100 million enterprise value in year 8 | $3.0 million | 6.0× |
-| Prolonged private | Growth plateaus, buyers stay away, public scale remains out of reach, and cash is reinvested through year 8 | $0, with shares retained | 0× realized |
-
-Even the strong sale yields only $2 million, or 4.0×, at 2% ownership. The reported shop savings give no basis for underwriting the sale prices in the table. (Market & Traction; Key Facts)
+The memo gives no cash-flow evidence for a sponsor buyout or company-funded payout, no eligible demand for a secondary, and no evidence that Fleety is approaching public-market scale or readiness. If growth plateaus, buyers stay away, public scale remains out of reach, and Fleety reinvests available cash without a secondary or payout, the holder realizes $0 by year eight and keeps the shares. That is a scenario assumption. (*Market & Traction*, *Key Facts*)
 
 ### Countercase
 
-ServiceTitan already ranks technicians by sales potential and skills, and Fleety relies on access to its dispatch board. Housecall Pro already offers AI call answering and booking. A platform could build the remaining booking checks or license them, capping what it would pay to own Fleety. The memo shows meaningful overlap but leaves open whether those substitutes can match Fleety’s booking validation and dispatch results together. It also identifies a risk of losing platform access, with no documented transfer block. The evidence supports Watch. It establishes neither a binding barrier nor a price ceiling, and the modeled prolonged-private outcome alone does not trigger the Pass override. (The Idea; Defensibility; Market & Traction; Key Risks)
+ServiceTitan already ranks technicians by sales potential and skills. It could keep dispatch native and build or license booking validation if customers value it. That overlap is more direct evidence about ServiceTitan’s alternatives than Fleety’s single-shop savings claim is about its willingness to buy. Fleety also depends on platform access, and its reported zero churn comes without a cohort size or measurement period. The countercase supports Watch. The Pass gate would require evidence of a structural barrier or materially inadequate holder proceeds under the strongest supported sale economics. (*Defensibility*, *Market & Traction*, *Key Risks*)
 
 ### Dimension Scores
 
@@ -29,12 +23,12 @@ ServiceTitan already ranks technicians by sales potential and skills, and Fleety
 |-----------|-------|
 | Counterparty rationale or source of cash | 11/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 10/20 |
+| Milestones and capital needed | 9/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 36/100** (Pass)
+**Total Score: 35/100** (Pass)
 
 ### Decisive diligence question
 
-Can a paid rollout across multiple shops show incremental booking and dispatch gains over native tools that give a field-service platform an economic reason to buy Fleety at a price that clears the holder’s hurdle? Repeatable results and a buyer-backed estimate of the gains from ownership, after rollout costs and relative to building or licensing, would move the action to Reach out if they support at least $83.3 million in distributable equity at 3% ownership.
+Can Fleety demonstrate enough incremental value over Dispatch Pro to support a ServiceTitan acquisition near or above the modeled $88.3 million enterprise-value hurdle within eight years? Repeatable results across shops, measured against native dispatch and tied to a buyer-side estimate of the value of owning the workflow, would move the action to Reach out if they support that price range.

@@ -5,26 +5,28 @@
 
 ### Company case
 
-**Path B — New economies.** Audora could make full-cast audio viable for fanfiction readers whose stories would otherwise have no audio edition. It launched a workflow that identifies speakers, assigns distinct voices, and starts playback before the whole book is generated. Audora says professional narration costs hundreds of dollars per hour. The memo provides no like-for-like comparison of delivery labor at equivalent quality, including speaker corrections, retries, and rights handling. The founder-reported waitlist of 10,000 readers and authors signals interest. The memo records no verified paid or repeat use. (The Idea, Market & Traction, Key Risks, Key Facts)
+**Path B — New Economies.** Audora’s strongest case is that fanfiction readers could pay for full-cast audio of individual stories that previously stayed in text because professional narration was too expensive. Audora claims professional narration costs hundreds of dollars per hour and describes a workflow that identifies speakers, assigns voices, and starts playback while generation continues. The memo records a November public launch. Automating casting and narration plausibly lowers labor per completed book, but the memo leaves correction time, retries, and full-book quality unmeasured. (The Idea, Market & Traction, Key Risks)
 
-At this seed-stage launch, the founder’s prior Wattpad tools show relevant experience shipping to the same audience. The next execution test is delivering usable full books consistently. **Scenario assumption:** If the reported $7.99 single-book price holds, each additional book purchase must cover generation and compute, retries, human review, and any rights or fulfillment costs. The memo leaves those costs and repeat purchase frequency unknown. (Founders & Team, The Idea, Key Risks, Key Facts)
+Under model parity, Audora’s account-free preview from a story link could earn preference by reducing the work between finding a story and listening to it. That preference remains untested. The founder-reported waitlist shows interest, with paid conversion and repeat use unknown. The founder’s prior Wattpad tools and Audora’s launch support seed-stage execution. (The Idea, Market & Traction, Founders & Team)
+
+The expansion unit is one authorized, listenable full-cast book. If the reported $7.99 single-book price is accurate and buyers pay it, $7.99 is the gross ceiling for payment fees, model and cloud costs, failed generations, human review and corrections, rights checks, and support before contribution turns negative. The memo gives neither a verified selling price nor measured delivery costs. (The Idea, Key Facts, Key Risks)
 
 ### Countercase
 
-Cheap speech and casting models could open the market while leaving Audora with little pricing power. ElevenLabs already offers automated manuscript casting, and a public project demonstrates multi-voice conversion from EPUB using a commercial speech API. Audora’s account-free preview from a story link offers a specific convenience, but the memo shows no buyer preference under comparable quality and access. Its terms also require authorized access and compliance with source-platform rules. The evidence establishes overlap in core capabilities and leaves substitution for the complete reader workflow unresolved. That leaves Path B’s parity condition open and blocks Reach out. The memo identifies no scarce complement Audora controls for Path A. (The Idea, Defensibility, Key Risks)
+ElevenLabs already offers automated character casting, and a public EPUB project demonstrates multi-voice conversion using a commercial speech API. A rival could pair comparable audio with an equally convenient workflow. Audora also relies on third-party model providers, and its terms require authorized access to imported stories. These facts weaken the case for durable capture and could narrow the catalog Audora can serve. The decision gate stays open for a test because the memo establishes capability overlap while leaving buyer switching and full delivery costs untested. (Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 12/25 |
-| Durable value capture | 5/25 |
+| Path-specific thesis fit | 11/25 |
+| Durable value capture | 7/25 |
 | Customer demand | 6/20 |
 | Team and execution | 9/15 |
-| Scale economics | 4/15 |
+| Scale economics | 6/15 |
 
-**Total Score: 36/100** (Pass)
+**Total Score: 39/100** (Pass)
 
 ### Decisive diligence question
 
-In a costed trial with fanfiction readers whose authorized stories previously had no full-cast edition, will readers repeatedly pay Audora for additional books when offered a comparably priced alternative using equally capable models? Measure end-to-end human labor per successfully delivered book against conventional production at equivalent listening quality, and track repeat purchases when both options are available. Material labor savings and sustained paid preference would support Reach out if the resulting score clears 65 with at least medium confidence. Easy switching at parity or labor savings that disappear after corrections and retries would close Path B and move the action to Pass.
+Will readers whose stories previously lacked audio pay Audora for a second authorized full-cast book after trying an alternative with comparable narration quality? A paid comparison pilot that shows repeat preference for Audora, materially lower labor per successful book than professional production, and positive contribution after corrections and retries would move the action to **Reach out**. If readers readily switch or the measured delivery costs make the new use uneconomic, move to **Pass**.

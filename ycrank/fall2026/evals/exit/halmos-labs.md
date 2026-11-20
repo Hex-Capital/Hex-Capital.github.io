@@ -5,23 +5,15 @@
 
 ### Company case
 
-Strategic acquisition is the strongest path. An enterprise R&D procurement platform could buy Physical Validation to integrate external lab ordering into AI research workflows. Ownership could command a premium if Halmos builds a transferable supplier network and fulfillment dataset that consistently improve cost or turnaround and are difficult to reproduce through a partnership. The memo records the product launch and an adjacent acquisition of Science Exchange at an undisclosed price. Halmos’s reported 30% reduction in evaluations came from simulations for its earlier Halmos Bio product. Buyer savings from Physical Validation and the value of owning it remain unmeasured. (The Idea, Defensibility, Market & Traction, Key Risks)
+**Strategic acquisition is the strongest path.** Physical Validation connects AI research software with external labs. An R&D procurement platform could buy Halmos to bring that workflow and its curated lab catalogue into its own product. The memo records an acquisition of adjacent marketplace Science Exchange at an undisclosed price. For Halmos, the buyer benefit is still an inference. Ownership could make sense if the workflow generates repeat orders and saves enough time or cost to beat building or licensing it. (The Idea, Defensibility, Market & Traction)
 
-The December 10 readout that Halmos has scheduled could establish initial end-to-end delivery. Paid repeat orders with measured cost or turnaround gains are the operating milestone that would strengthen the buyout case. The reported $500,000 in initial YC funding and incubator support give Halmos some means to reach the first readout. Runway and the capital needed to demonstrate repeat usage remain unknown. Catalogue redistribution limits provide some protection, while transfer rights for supplier relationships and fulfillment data remain unverified. The adjacent sponsor acquisition gives no company-specific evidence of predictable cash flow or financing for a Halmos buyout. The memo supports no independent fallback that would pay this holder. (Market & Traction, Defensibility, Key Risks, Key Facts)
+Halmos reports two physical demonstrations with results scheduled for December 10. Its reported 30% reduction in evaluations came from simulations for the earlier Halmos Bio product. The launch, reported $500,000 in YC funding, and additional verification funding make a paid production pilot plausible. The memo leaves runway, pilot cost, and repeat demand unverified. Halmos publishes and maintains the catalogue. Transfer rights for supplier relationships and customer research data remain unverified. (Market & Traction, Defensibility, Key Risks)
 
-**Proceeds bridge.** The evaluated check’s terms are undisclosed, so the scenarios use the illustrative $500,000 check at a $10 million post-money valuation, with 5% initial ownership diluted to 3% and no follow-on checks. The eight-year objective is $2.5 million in gross cash. That requires about $83.3 million of distributable equity proceeds at 3% ownership, $125 million at 2%, or $62.5 million at 4%. The sale scenarios assume zero net debt, price adjustments, fees, and preference deductions, so enterprise value equals distributable equity value and the waterfall is pro rata. All consideration is cash at closing. Stock, escrow, earnouts, rollover, and compensation are each assumed to be $0. Prices and timing are illustrative.
-
-| Scenario | Timing | Holder cash and gross multiple |
-|---|---|---|
-| Modest sale at $40 million enterprise value | Year 5 | $1.2 million at 3%, or 2.4× |
-| Strong sale at $100 million enterprise value | Year 7 | $3.0 million at 3%, or 6.0×. At 2%, proceeds fall to $2.0 million, or 4.0×. |
-| Prolonged private ownership with growth plateauing, buyers staying away, public scale out of reach, and cash reinvested | Through year 8 | $0 realized, or 0×. The investor retains the shares. |
-
-The strong scenario clears the hurdle at 3%, but the memo supplies no transaction price or buyer economics that support that valuation. The prolonged-private scenario exposes the liquidity risk. The evidence leaves both the attainable sale price and the likelihood of a prolonged private hold unresolved. (Market & Traction, Key Facts)
+**Illustrative proceeds.** The shared scenario assumes a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-ons. The eight-year 5× target is $2.5 million in gross cash. That requires $83.3 million of distributable equity at 3% ownership, $125 million at 2%, or $62.5 million at 4%. With $5 million of assumed net debt, the 3% case requires about $88.3 million in enterprise value. At year eight, a $25 million sale yields $600,000 (1.2×), and a $100 million sale yields $2.85 million (5.7×), before any fees, senior claims, and investor taxes. If orders plateau, buyers stay away, public listing scale remains out of reach, and Halmos reinvests available cash, the holder realizes $0 and retains the shares. The memo provides neither a realizable sale-price range nor actual holder terms. It also leaves sponsor financing capacity, eligible secondary demand, listing readiness, and distributable cash unevidenced. (The Idea, Market & Traction, Key Facts)
 
 ### Countercase
 
-Science Exchange already bundles lab sourcing with procurement and supplier compliance and offers an AI assistant. A platform could extend those capabilities or contract with external labs directly. Halmos’s reliance on external labs makes repeatable delivery and control of fulfillment data harder to establish. If ordinary sourcing delivers comparable results, the buyer’s cost of using that substitute could cap the acquisition price below the hurdle. Comparable performance and a binding price cap remain unproven, so the current evidence supports Watch. (The Idea, Defensibility, Key Risks)
+An incumbent could add lab sourcing to an existing product or partner for it. Science Exchange already has supplier relationships, procurement and compliance tools, and an AI assistant. Halmos relies on external labs for execution, and its terms tell buyers to verify provider information directly. Catalogue restrictions give Halmos some control over redistribution, while the value of any fulfillment data remains unproven. This weakens the case for paying to own Halmos. The memo leaves open whether an incumbent could replicate the workflow economically and whether a sale could clear the holder’s cash target, so the Pass gate is untriggered. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
@@ -29,12 +21,12 @@ Science Exchange already bundles lab sourcing with procurement and supplier comp
 |-----------|-------|
 | Counterparty rationale or source of cash | 12/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 11/20 |
+| Milestones and capital needed | 10/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 38/100** (Pass)
+**Total Score: 37/100** (Pass)
 
 ### Decisive diligence question
 
-Can a customer’s paid repeat orders show that owning Physical Validation would deliver enough incremental savings or faster turnaround to support an acquisition near or above the modeled equity hurdle? A buyer’s build-versus-partner comparison grounded in those orders, with the advantage tied to transferable supplier access or fulfillment data, would move the action to Reach out. Evidence that ordinary sourcing delivers comparable results and caps the price below the hurdle would move it to Pass.
+Can a paid production pilot with an R&D procurement platform generate repeat lab orders and demonstrate enough savings or incremental margin to support an acquisition near the illustrative $88.3 million enterprise-value hurdle? Move to **Reach out** if documented order volumes, unit economics, and the platform’s build-or-license costs support a price range that clears the hurdle within eight years.

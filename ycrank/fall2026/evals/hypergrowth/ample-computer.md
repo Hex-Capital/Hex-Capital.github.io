@@ -1,30 +1,30 @@
 ﻿# Ample Computer -- Hypergrowth Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Low
+**Evidence confidence:** Medium
 
 ### Company case
 
-**Path A. Product-led adoption.** The initial buyer is a builder who uses coding agents to ship web apps and has to configure hosting, databases, storage, or email each time. Ample describes a workflow that reads the app’s code, provisions its dependencies, and returns a live URL in the builder’s existing chat. The verified Claude connector gives Ample a way to reach the next thousand builders through the tools they already use. The company reported more than 4,000 users in 13 days after launching to YC founders. That is an early signal of interest. The memo leaves acquisition by channel, unassisted deployment rates, and paid conversion unmeasured. (*The Idea*, *Market & Traction*)
+**Product-led adoption** is the strongest path. The likely first buyer is a builder who uses coding agents to ship and maintain customer-facing web apps. Ample’s verified Claude connector puts deployment inside the builder’s existing workflow. Ample says it reads the app’s code, provisions the required services, and returns a live URL. The recurring job of deploying apps with databases, storage, and email plausibly travels across markets. The Quibdó registration site is an early example, while the work required to serve a second market remains unmeasured. (The Idea, Market & Traction)
 
-A reported deployment for a Quibdó business fair handled about 30 submissions in 16 hours, giving some evidence that the same product can serve a workload in another market. Buyer location, willingness to pay, and any need for different hosting regions or local support remain open. Separately, SA Collection reported 55 order or checkout submissions in 18 hours, a concrete early signal that an Ample-hosted app can support a live commercial workflow. If builders keep those apps live and launch more, the published app limits create a reason to upgrade. That expansion remains a hypothesis because the memo gives no paid customer counts, renewals, or repeat deployment data. (*Market & Traction*, *The Idea*, *Key Facts*)
+Two launch testimonials show early production value. SA Collection reported 55 order or checkout submissions in 18 hours, and the Quibdó site reported about 30 registrations in 16 hours. Putting real workflows live supports early fit. Ample’s claim of more than 4,000 users in 13 days shows launch interest, while the testimonials leave discovery channel, onboarding effort, and payment unknown. The first unresolved link is whether builders who find Ample through the connector can reach production on their own and convert to paid hosting. The short observation window and reliance on launch reports limit confidence. (Market & Traction, Key Facts)
 
 ### Countercase
 
-The launch may have attracted builders with one-off projects whose usage drops once the project ends. A live deployment can create ongoing compute, database, storage, and support costs even on the free tier. At the published $20 monthly Pro price, a customer using all 10 app slots would generate $2 per live app per month before those costs. That scenario illustrates why workload mix matters. The memo gives no measured marginal costs or evidence that delivery effort rises in proportion to volume. The structural Pass gate remains unsubstantiated, and a paid cohort would be more informative than a conversation today. (*The Idea*, *Market & Traction*, *Key Facts*)
+Ample could attract builders who launch one app and stay on the free plan. The fair registration site illustrates a time-limited workload, and the storefront’s first 18 hours leave repeat use and paid expansion open. Under the listed pricing, if each additional app adds hosting or support costs, those costs can rise while subscription revenue stays flat within a tier. The published deployment recipes offer a plausible way to reuse setup work, while marginal cost and rollout effort remain unmeasured. That supports Watch and leaves the structural downside gate untriggered. (The Idea, Defensibility, Market & Traction, Key Facts)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 11/25 |
-| Repeatable acquisition and onboarding | 9/25 |
+| Global buyer demand | 16/25 |
+| Repeatable acquisition and onboarding | 11/25 |
 | Retention and customer expansion | 7/20 |
 | Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 5/10 |
+| Evidence of fit in the first buyer segment | 6/10 |
 
-**Total Score: 39/100** (Pass)
+**Total Score: 47/100** (Neutral)
 
 ### Decisive diligence question
 
-Can a cohort of independent builders in a second geography go from the Claude connector to a paid live app through the same self-service workflow and keep those apps live through the first renewal at positive incremental contribution? Channel, deployment, billing, and cost records showing that pattern after hosting, support, and attributable free-tier costs would move the action to **Reach out**. Until that cohort result is available, **Watch**.
+Can multiple independent builders who discover Ample through the Claude connector deploy a production app without bespoke help and then upgrade when they need paid email or exceed the free app limit? Account-level records showing that sequence would move the action to Reach out.

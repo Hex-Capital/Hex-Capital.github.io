@@ -5,25 +5,17 @@
 
 ### Company case
 
-The strongest path is a **strategic acquisition of Wingman’s workflow software by an established personal injury firm**. Wingman says its internal platform connects case files and communications to agents that prepare work for attorney approval. A buyer could value ownership if deploying that integrated workflow across its caseload saves more in attorney and staff time than licensing separate tools or building internally. The memo provides no measured savings or evidence of buyer willingness to pay. (The Idea, Defensibility, Key Risks)
+The strongest conditional path is a strategic acquisition of Wingman’s workflow software by a personal injury software vendor. Wingman describes an internal platform that connects calls, texts, emails, and case files to agent tasks and attorney approval. A buyer could pay to own that workflow if deploying it across its customer base saves enough attorney time to justify buying over building or licensing. The memo gives no measured savings or buyer interest. It also leaves open which entity owns the software and whether a sale would pay the entity in which the investor holds shares. (The Idea, Defensibility, Key Risks)
 
-The memo reports multiple six-figure cases in progress, giving Wingman a live setting to measure attorney review and rework, total handling cost, and time to resolution. It provides no collected fees, confirmed funding amount, or runway. The operating milestone is a completed case cohort showing lower total handling cost after attorney review, with results a buyer can reproduce under the applicable confidentiality rules. A software asset sale limited to transferable code is a plausible structure. IP ownership, the entity receiving the sale proceeds, and this investor’s rights to those proceeds remain unverified. (Market & Traction, Defensibility, Key Risks)
+The memo reports multiple six-figure cases in progress and lists openings for a litigation attorney and a legal operations engineer. The pending cases give Wingman a plausible way to test whether the platform reduces attorney time per resolved case after accounting for review and rework. The memo leaves collected fees, burn, and the funding needed to complete that test unquantified. Recovery-dependent fees make the time to resolution relevant to runway. (Market & Traction, Key Risks)
 
-**Illustrative proceeds bridge.** The memo supplies no terms for the check under review. Assume one $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-on checks. A 5× gross cash return within eight years requires $2.5 million to the holder, or $83.3 million in distributable equity proceeds at 3%. The hurdle is $125 million at 2% and $62.5 million at 4%.
+Under the shared scenario, a $500,000 check at a $10 million post-money valuation buys 5%, diluted to 3% with no follow-ons. The eight-year target of $2.5 million gross requires $83.3 million in distributable equity at 3% ownership, $125 million at 2%, or $62.5 million at 4%. At 3%, with $5 million of illustrative net debt, the hurdle is $88.3 million in enterprise value. A $25 million sale in year eight yields $600,000 gross before investor taxes, or 1.2×. A $100 million sale yields $2.85 million, or 5.7×. Both assume a pro rata distribution and leave fees, preferences, and deferred consideration unmodeled. The memo supplies no company-specific sale price range or shareholder terms. (Market & Traction, Key Facts)
 
-For both sale scenarios, assume the investor owns equity in the entity receiving the proceeds, with zero net debt, transaction costs, or senior claims. Enterprise value therefore equals distributable equity proceeds, allocated pro rata before investor taxes. All consideration is cash at closing. Stock, escrow, earnouts, rollover, and compensation are each assumed to be zero. The prices and timing below illustrate the hurdle. The memo supplies no valuation evidence to support them.
-
-| Scenario | Timing | Investor cash | Gross multiple |
-|----------|--------|---------------|----------------|
-| Modest sale at $30 million enterprise value | Year 5 | $900,000 | 1.8× |
-| Strong sale at $100 million enterprise value | Year 7 | $3 million | 6.0× |
-| Prolonged private ownership with growth plateauing, buyers staying away, public scale out of reach, and cash reinvested | Through year 8 | $0, with shares retained | 0.0× realized |
-
-The strong sale clears the hurdle at 3% ownership and falls short at 2%, where it pays $2 million, or 4.0×. The memo offers no independently supported fallback that could pay this holder. (Market & Traction, Key Facts)
+The memo leaves each backup route unsupported. A sponsor would need predictable cash generation after reinvestment. A secondary would need demand for eligible shares. An IPO would need operating scale and reporting readiness. A dividend or buyback would need sustained excess cash and terms that include this holder. If Wingman plateaus below public-market scale, attracts no buyer, and reinvests all available cash with no secondary or payout, the holder realizes $0 over eight years and retains the shares. In a wind-down, only the residual after obligations and preferences could reach the holder. The memo gives no basis to quantify it. (Market & Traction, Key Risks, Key Facts)
 
 ### Countercase
 
-A buyer could license overlapping tools from EvenUp or Eve, and Morgan & Morgan has already built an internal platform. Wingman’s case explorer also uses openly licensed data. If the integrated workflow offers only modest incremental savings, licensing or building could cap the acquisition price below the holder’s hurdle. If the advantage depends on reusing confidential case data, California’s AI confidentiality restrictions could also limit what a buyer can reproduce. The memo establishes credible substitutes and a portability risk, while leaving their effect on price unresolved. That gap supports Watch and does not trigger the structural Pass override. (Defensibility, Key Risks)
+EvenUp and Eve already sell overlapping tools, and Morgan & Morgan has built its own AI platform. Wingman’s public case explorer uses openly licensed data, and the memo identifies confidentiality limits on using client data in AI systems. Together, these facts weaken the case that a buyer needs to own Wingman’s software or could reproduce its benefits after a transfer. They establish neither a structural block to a software sale nor a supported price ceiling below the holder’s target. Watch follows from the missing evidence on buyer economics and holder proceeds. (Defensibility, Key Risks)
 
 ### Dimension Scores
 
@@ -31,12 +23,12 @@ A buyer could license overlapping tools from EvenUp or Eve, and Morgan & Morgan 
 |-----------|-------|
 | Counterparty rationale or source of cash | 11/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 8/20 |
+| Milestones and capital needed | 9/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 34/100** (Pass)
+**Total Score: 35/100** (Pass)
 
 ### Decisive diligence question
 
-Can a prospective acquirer reproduce enough savings with Wingman’s transferable software to justify the roughly $83.3 million distributable equity hurdle? A buyer-run pilot comparing total case-handling cost after attorney review against its existing tools, with documented IP rights and lawful data use, would answer it. Buyer-validated economics supporting that price and a documented route for the sale proceeds to reach this holder would move the action to Reach out. Evidence that licensing delivers comparable gains at substantially lower cost would move it to Pass.
+What would a personal injury software vendor pay for Wingman’s transferable workflow software after a completed-case cohort shows a repeatable reduction in attorney time, including review and rework? A buyer-supported range tied to those measured savings would move the action to Reach out if the transferable rights and shareholder terms support $2.5 million in gross holder cash within eight years.

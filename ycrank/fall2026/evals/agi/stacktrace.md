@@ -5,13 +5,13 @@
 
 ### Company case
 
-**Path A — Scarce complements** is the strongest fit. The potential bottleneck is engineering and security teams’ ability to authorize and audit unattended work across multiple coding agents. The memo documents the launch of Fleet and the availability of scheduled agent runs. If cheaper intelligence leads to more unattended work, security teams may face more approval and review work than they can handle manually. Stacktrace says Fleet applies a common policy across coding agents and Agent Gateway holds consequential actions for approval. The memo does not establish that either product lets a customer safely run work it previously blocked. (*The Idea, Market & Traction, Key Risks*)
+**Path A — Scarce complements.** If cheap, frontier-quality models lead engineering teams to run more agents unattended, security teams may become the bottleneck for approving those deployments. Stacktrace says Fleet can apply shared policies across coding agents and Agent Gateway can hold consequential actions for consent. The potential advantage is a common enforcement layer for teams that would otherwise have to approve and audit each agent separately. The memo gives no measure of how much work current restrictions block or how much Stacktrace can safely unblock. (The Idea, Key Risks)
 
-The founders’ prior security and infrastructure roles and the Fleet launch support a plausible seed-stage case. The company reports unnamed design partners, with no disclosed integration commitment or payment. One scenario for expansion is that a customer starts with a single team and adds governed session-hours under an annual contract. That works economically if the added contract revenue exceeds the added integration, support, and operating costs. The memo gives a pricing unit but no realized prices or deployment costs. (*Founders & Team, Market & Traction, The Idea, Key Facts*)
+Fleet’s public launch and the founders’ prior work in security and infrastructure support seed-stage execution. The founder-reported benchmark covered three rules across nine models, leaving production enforcement coverage and reviewer workload open. A founder reports unnamed design partners running local or unattended cloud agents. That is an early demand signal, with budget commitments and repeat use unverified. Fleet’s session-hour pricing identifies a unit for expansion, but the memo gives no realized pricing or delivery costs to assess whether deployments can scale profitably. (Market & Traction, Founders & Team, Key Risks, Key Facts)
 
 ### Countercase
 
-Anthropic’s native permissions and hooks already cover some of the same tasks, and Bay offers a route through existing security infrastructure. Even if oversight remains a bottleneck, buyers may be able to clear it through tools they already use. Shared policies and decision histories could make Stacktrace worth retaining across agents, but the memo has no comparative deployment, retention, or migration evidence. The overlap makes substitution credible without establishing parity for mixed-agent deployments, so it does not trigger the Path A override. Path B has no separate evidence of a newly viable transaction or a reason to pay under model parity. (*The Idea, Defensibility, Market & Traction, Key Risks*)
+Anthropic already offers managed permissions and hooks that cover some of Fleet’s controls, and Bay offers enforcement through existing security infrastructure. Stacktrace could benefit from agent adoption while buyers meet their requirements with controls they already have or can readily buy elsewhere. Centralized policies and histories could create switching costs, but that remains an inference without retention or migration evidence. The documented overlap makes substitution credible. Whether a substitute can meet the same production requirements across multiple agents remains open, so the path stays on Watch. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
@@ -20,11 +20,11 @@ Anthropic’s native permissions and hooks already cover some of the same tasks,
 | Path-specific thesis fit | 10/25 |
 | Durable value capture | 7/25 |
 | Customer demand | 6/20 |
-| Team and execution | 10/15 |
-| Scale economics | 5/15 |
+| Team and execution | 9/15 |
+| Scale economics | 4/15 |
 
-**Total Score: 38/100** (Pass)
+**Total Score: 36/100** (Pass)
 
 ### Decisive diligence question
 
-Can a design partner qualify Stacktrace for paid production use by showing that it can safely run a previously blocked workflow across multiple agents that the buyer’s best available controls cannot support at comparable cost? A side-by-side trial should measure missed violations, valid work interrupted, and human approval time under the same acceptance criteria. A clear advantage followed by a paid commitment at a price that covers incremental delivery costs would support Reach out if the updated case clears the score and confidence gates. Comparable results from the buyer’s existing controls would move the case to Pass. (*The Idea, Defensibility, Key Risks*)
+Will an independent buyer commit budget to a second production rollout after a side-by-side trial shows that Stacktrace can safely unlock a previously blocked multi-agent workflow that the buyer’s best available alternative cannot support at an acceptable review burden? A paid expansion on that evidence would move the action to **Reach out**. Comparable coverage and review effort from the alternative would close Path A and move the action to **Pass**.

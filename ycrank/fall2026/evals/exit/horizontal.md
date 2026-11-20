@@ -5,29 +5,25 @@
 
 ### Company case
 
-**Strategic acquisition** is the strongest path. A manufacturing software vendor could buy horizontal. to bundle validated workflows that coordinate scheduling, quality holds, and batch release across different plant systems. Ownership could give the buyer control over integration and release schedules across its installed base. That premium depends on horizontal. proving its workflows can be deployed repeatedly with limited plant-specific engineering and that owning them offers a material advantage over licensing. (The Idea, Defensibility, Key Risks)
+Strategic acquisition is the strongest path. An industrial software vendor could buy Horizontal to add a workflow that coordinates production planning, quality holds, and batch release across existing plant systems. Owning the product could shorten the buyer’s time to market and give it control over integrations and the roadmap if those workflows prove reusable across plants. The product description supports that rationale as an inference. Buyer interest, the cost of building or licensing an equivalent, and the transferability of software and customer rights remain unverified. (The Idea; Defensibility)
 
-The memo records an October 2026 launch and a $125,000 seed financing listing, with total funding unverified. Horizontal says it tests in operating plants and advertises shorter release times and less downtime. The memo provides no named customers, measurement baselines, or public revenue signal. Starting with one workflow gives the team a plausible route to paid deployments across plants with different systems. The cost of repeating those deployments and the runway to fund them remain open. The memo also leaves IP ownership and contract transfer rights unverified and supplies no usable evidence of an independent liquidity route. (Market & Traction, The Idea, Defensibility, Key Risks, Key Facts)
+The memo records an October 2026 launch and lists $125,000 in YC seed financing, with total funding unverified. Horizontal says it tests in operating plants and advertises 50% shorter release times without a customer baseline. A paid rollout of the same quality-to-release workflow at two plants, with customer-verified savings and measured deployment effort, would show whether the product can scale beyond a bespoke integration. Plant testing makes that milestone plausible, while the budget and runway to reach it remain unknown. (Market & Traction; Key Risks)
 
-**Proceeds bridge.** The evaluated check’s terms are unspecified, so use the illustrative $500,000 check at $10 million post-money, with 5% ownership diluted to 3% and no follow-on checks. A 5× gross cash return within eight years requires $2.5 million to the holder, or $83.3 million in distributable equity proceeds at 3%. The hurdle is $125 million at 2% ownership and $62.5 million at 4%. The memo supplies no usable acquisition price evidence. (Market & Traction, Key Facts)
+**Illustrative proceeds.** A $500,000 check at a $10 million post-money valuation buys 5%, diluted by 40% to 3%, with no follow-ons. The eight-year 5× cash target is $2.5 million. At 3%, it requires $83.3 million in distributable equity, or $88.3 million in enterprise value with $5 million of illustrative net debt. At 2% and 4% ownership, the equity hurdles are $125 million and $62.5 million, respectively. Assuming pro rata distribution, no additional fees or senior claims, and proceeds before investor taxes, a $25 million enterprise-value sale in year eight yields $600,000 (1.2×), and a $100 million sale yields $2.85 million (5.7×). The memo supplies no realizable sale-price range. (Market & Traction; Key Facts)
 
-These are scenarios measured from the check. Both sales assume zero net debt, fees, or preference adjustments, so enterprise value equals distributable equity consideration. All consideration is cash at close. Stock, escrow, earnouts, rollover, and compensation are each $0. Multiples are gross before investor taxes.
-
-- **Modest sale, year 4.** At $40 million enterprise value, the holder receives $1.2 million at 3%, or 2.4×.
-- **Strong sale, year 7.** At $100 million enterprise value, the holder receives $3 million at 3%, or 6×. At 2%, the same sale pays $2 million, or 4×.
-- **Prolonged private, through year 8.** Growth plateaus, buyers stay away, public scale remains out of reach, and cash is reinvested. The holder retains the shares and realizes $0, or 0×.
+If growth plateaus, buyers stay away, public scale remains out of reach, and available cash is reinvested for eight years, the holder realizes $0 and retains the shares. The memo gives no cash-flow evidence for a sponsor buyout or company-funded payout, no eligible secondary demand, and no operating-scale evidence for an IPO and resale. A wind-down recovery would depend on the residual after obligations and preferences, which the memo leaves unquantified. (Market & Traction; Key Facts)
 
 ### Countercase
 
-SAP’s announced shortage detection and rescheduling features already overlap with part of the product, and NVIDIA’s reference blueprint gives vendors a starting point for building factory agents. If the remaining cross-system work requires extensive customization at each plant, a buyer could build the overlapping features and license or integrate the rest. That would weaken the case for paying an acquisition premium. The memo leaves the adequacy and cost of those substitutes unresolved, so the structural Pass gate does not apply. (Defensibility, Key Risks)
+SAP’s announced shortage detection and rescheduling features give some customers an embedded substitute. NVIDIA’s reference blueprint gives other vendors a starting point for building overlapping capabilities. If each Horizontal deployment still requires substantial plant-specific engineering, a buyer could favor building or licensing over owning the product. That weakens the acquisition rationale. The Pass gate remains untriggered because the documented overlap is partial and leaves open the value of repeatable coordination across planning, quality, and release. (Defensibility; Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 11/30 |
+| Counterparty rationale or source of cash | 12/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 9/20 |
+| Milestones and capital needed | 8/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
@@ -35,4 +31,4 @@ SAP’s announced shortage detection and rescheduling features already overlap w
 
 ### Decisive diligence question
 
-What acquisition price could a manufacturing software vendor justify from owning horizontal.’s workflows? A buyer-side build-versus-buy analysis grounded in repeat paid deployments across different plant systems would answer it. Move to Reach out if measured customer savings and deployment costs support an ownership premium large enough to clear the modeled $83.3 million equity hurdle, with a credible path to close within eight years.
+Can a paid rollout of the same quality-to-release workflow at two plants demonstrate enough reusable value for an industrial software vendor to justify an acquisition near the modeled $88.3 million enterprise-value hurdle? Customer-verified release-time savings and deployment costs, coupled with a credible buyer-side estimate of the economic benefit of ownership at that price, would move the action to Reach out. (Market & Traction; Key Risks)

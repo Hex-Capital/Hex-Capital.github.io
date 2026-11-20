@@ -5,26 +5,26 @@
 
 ### Company case
 
-**Path B — Repeatable sales or partner distribution with account expansion.** The initial buyer is a repair-shop operator. Rodeo says technician shortages leave shops turning away work, and it plans to recruit early customers through a reservation waitlist for deployments starting in January 2027. The memo records no waitlist-to-paid conversion, live customer deployment, repeat usage, or buyer commitment. Rodeo reports 96% autonomous execution time on initial tasks, an early technical signal with shop throughput and technician time still unmeasured. (The Idea; Market & Traction; Key Facts)
+Repeatable direct sales is Rodeo’s strongest path. Repair shops could buy the same system to handle recurring inspections and routine services, starting with a narrow job such as oil changes. The job plausibly travels across markets, but Rodeo’s ability to support different vehicle configurations and shop setups remains untested in the memo. (The Idea, Key Risks)
 
-**Growth scenario.** If a standard installation frees enough technician time on recurring oil changes to justify the price, Rodeo could use the same sales and setup process at more shops and expand into paid inspection and diagnostic work at existing accounts. The memo records a competitor’s tire-robot installation in Canada, evidence that a narrower shop automation workflow has reached a second geography. Rodeo’s own portability would depend on how much its hardware and software must change for local vehicle mixes, service procedures, bay layouts, and safety requirements. (The Idea; Market & Traction; Key Risks)
+The memo records a public launch and a shop reservation channel. Rodeo reports 96% autonomous execution time on initial tasks and targets January 2027 for customer deployments. The memo documents no shop committing budget or changing its workflow, no progression from inquiry to paid go-live, and no repeat customer usage. The first link likely to break after initial fit is installation and handoff. If independent shops can get the same system running on the same job with comparable setup effort, Rodeo has a plausible route to repeatable sales. (The Idea, Defensibility, Market & Traction, Key Facts)
 
 ### Countercase
 
-Each new shop could require substantial sales effort, custom hardware, installation, training, and field support. If Rodeo finances the equipment, each placement would also tie up capital. At the workload level, technician supervision and interventions could absorb the labor savings shops would pay for. Rodeo plans supervised deployments and reports using custom hardware where existing components fall short. The memo gives no installed cost, intervention minutes per completed job, or evidence that setup and support effort fall across deployments. These are plausible limits on contribution. The Pass gate requires observed evidence that those costs scale proportionally or worse without a supported improvement path, so the action is Watch. (Defensibility; Key Risks; Key Facts)
+Each new bay could require custom hardware or vehicle-specific setup, while supervision and interventions could tie up the technician time Rodeo aims to free. The reported autonomy figure covers execution time on initial tasks. It leaves technician minutes per completed job, shop throughput, and deployment costs unmeasured. The structural downside gate remains open because the memo contains no rollout evidence showing that those costs must rise in proportion to sales. (Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 12/25 |
+| Global buyer demand | 14/25 |
 | Repeatable acquisition and onboarding | 9/25 |
 | Retention and customer expansion | 7/20 |
 | Contribution as volume grows | 7/20 |
 | Evidence of fit in the first buyer segment | 4/10 |
 
-**Total Score: 39/100** (Pass)
+**Total Score: 41/100** (Pass)
 
 ### Decisive diligence question
 
-Can the January 2027 rollout turn waitlist leads at multiple independent repair shops into paid, recurring use of the same routine service with a standard installation? Move to **Reach out** if deployment records show repeated paid use at the shops’ normal service cadence, net technician time saved after interventions, and measured installation and support costs that leave room for positive contribution at the price paid. (The Idea; Market & Traction; Key Risks)
+Can a second independent repair shop go live on a buyer-funded pilot for the same routine service using the first shop’s installation and training playbook? Move to Reach out if both pilots show comparable setup effort and repeated jobs at normal shop cadence with fewer technician minutes per completed job, including supervision and interventions. Stay at Watch if that handoff or labor saving remains unproven.

@@ -5,26 +5,26 @@
 
 ### Company case
 
-**Path A, product-led adoption.** The first buyer is a fanfiction reader who regularly finds stories they want to hear in full-cast audio. Audora describes a short path to first value. A reader can paste a Wattpad or AO3 link, preview the cast without an account, and start listening while the rest of the story generates. The memo records a public launch and 23,573 views of the founder’s launch post. The founder reports 10,000 waitlisted readers and authors. Those signals show launch attention and reported interest. Paid conversion, repeat listening, and realized revenue are unverified. (The Idea, Market & Traction, Key Facts)
+Product-led adoption is Audora’s strongest path. The initial buyer is a fanfiction reader who wants to listen to stories in distinct character voices. Audora describes a self-serve workflow in which readers paste a Wattpad or AO3 link, hear an account-free preview, and start listening while the rest of the story is generated. The same job could recur with each new story. The link and file inputs could carry that workflow across markets where readers can use authorized material, though source-site restrictions leave a material adoption barrier unresolved. (The Idea, Key Risks)
 
-**Scenario assumption.** Readers in another English-speaking market can use the same preview and checkout for stories they are authorized to convert. If readers share previews in fanfiction communities and pay again when they find another story, Audora could acquire and grow accounts through the same self-serve flow. That scenario depends on source-platform access, content rights, and workable payments in the second market. File upload offers another way to submit authorized text. Each additional book can add script and casting fees, speech-generation compute, and support or rework when attribution fails. The memo gives no per-book cost or evidence that repeat purchases cover those costs and acquisition. (The Idea, Key Risks)
+The memo records a November 6 public launch and 23,573 views of the founder’s launch post by November 16. The founder reported a waitlist of 10,000 readers and authors. These figures show launch attention and reported interest across two audiences. The memo gives no usable reader-level evidence of preview activation, paid conversion, or a second purchase, and the listed prices are unverified. Even assuming strong fit with fanfiction readers, the first unproven link is whether readers acquired beyond the founder’s launch audience will pay after a self-serve preview. At this stage, a small cohort could establish that link. (The Idea, Market & Traction, Key Facts)
 
 ### Countercase
 
-The preview may satisfy curiosity without creating a recurring paid habit. Source-platform restrictions could interrupt link-based activation, while speaker errors can undermine the full-cast experience and add rework. External model fees and cloud compute also rise with generation volume. These risks make the first paid cohort more informative than a conversation today. The memo establishes neither a structural ceiling on global demand nor proportional costs that would trigger Pass. (Market & Traction, Key Risks, Key Facts)
+The link import that makes Audora easy to try could also limit the catalog readers can use. Audora’s interim terms require authorized access, personal use, and compliance with source-site rules. Even where access is permitted, speaker attribution errors could make a full book less valuable, and previews and full-book generation add model and compute costs. The memo gives no measure of those costs per paying reader. These risks do not trigger the structural downside gate. The frequency of blocked imports, the effect of errors on purchases, and the contribution from additional readers remain open. (The Idea, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 9/25 |
+| Global buyer demand | 13/25 |
 | Repeatable acquisition and onboarding | 9/25 |
 | Retention and customer expansion | 7/20 |
 | Contribution as volume grows | 7/20 |
 | Evidence of fit in the first buyer segment | 4/10 |
 
-**Total Score: 36/100** (Pass)
+**Total Score: 40/100** (Pass)
 
 ### Decisive diligence question
 
-Can a cohort of fanfiction readers in a second English-speaking market discover Audora through an identifiable community channel, activate without founder help, and pay for a second authorized story at positive cohort contribution? Funnel and purchase records through the next buying occasion, paired with measured acquisition, generation, rework, and support costs, would answer it. A positive result would move the action to Reach out.
+Can a cohort of independent fanfiction readers from a repeatable channel beyond the founder’s launch posts convert from an account-free preview of an authorized story to a paid full book without founder help? A tracked cohort showing that sequence across multiple readers would move Audora to Reach out. Repeated preview use with little paid conversion after readers have had time to decide would keep it at Watch.

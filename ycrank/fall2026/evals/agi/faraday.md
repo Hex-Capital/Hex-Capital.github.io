@@ -5,26 +5,26 @@
 
 ### Company case
 
-**Path B, New economies, is the strongest path.** Faraday says it uses a shared runtime and customer-specific simulations to coordinate work across industrial software and machines. One plausible seed-stage use is resolving small order exceptions across an ERP and a legacy desktop system when the time required for manual reconciliation or bespoke automation makes those exceptions uneconomic to address. Faraday published a 249-task industrial benchmark and reported that its harness raised accuracy from 38% to 94% with the base model held fixed. That result suggests the workflow environment can improve performance. Live labor per successful resolution and demand for the newly affordable work remain unmeasured. (The Idea, Defensibility, Market & Traction, Key Risks)
+Path B, New Economies, is Faraday’s strongest path. Industrial operators reconcile orders and exceptions by hand across disconnected systems, and bespoke automation has historically required engineers on site. The investment case assumes Faraday can make low-volume, cross-system workflows economical to automate for operators that previously could only justify manual handling. The memo documents a public industrial benchmark. Faraday reports that its harness raised task accuracy from 38% to 94% with the same underlying model. That result supports testing whether the harness reduces rework, but leaves live labor savings and the cost per correctly resolved exception unmeasured. (The Idea, Defensibility, Market & Traction)
 
-Faraday reports one unnamed customer deployment. Payment, repeat use, and the buyer’s commitment are unknown. The founders bring experience building enterprise agent environments and factory software, plus prior work together deploying software at manufacturers. That experience is relevant to a production trial. The cost of adding the next site remains unclear. One legacy deployment required a third-party sandbox to clear an integration blocker, and write-enabled work requires separate authorization and agreed controls. (Market & Traction, Founders & Team, Key Risks, Key Facts)
+Under model parity, buyers might still pay for a runtime that coordinates work across their systems and improves through employee corrections. That advantage is inferred, and the memo gives no evidence that buyers prefer it to an equivalent alternative. The reported deployment for an unnamed customer is a limited demand signal, with payment and repeat use unknown. The founders previously deployed software together at manufacturers, and the reported switch to SuperServe cleared a legacy-system blocker. Repeat deployment economics depend on how much setup the shared runtime can absorb and how much integration, review, and exception handling each new workflow still requires. (The Idea, Defensibility, Market & Traction, Founders & Team, Key Risks, Key Facts)
 
 ### Countercase
 
-Faraday could improve productivity on work manufacturers already pay to do. If setup, human review, and exception handling absorb the savings, the product may open no new market. Infor already offers overlapping order, item, and invoice workflows through its ERP. Faraday’s customer-specific rules and correction histories could make its cross-system workflows harder to replace, but the memo leaves that advantage untested under model parity. The evidence establishes competitive overlap and leaves both Path B gates open. The memo identifies no scarce industrial input Faraday controls that would support Path A. (The Idea, Defensibility, Key Risks)
+Faraday may make existing workflows more efficient while leaving previously excluded workflows too expensive to automate. The remote-desktop blocker shows how a customer-specific integration can consume deployment effort, and write-enabled work requires separate approvals and controls. Infor already offers agents for overlapping order and inventory tasks, making it plausible that buyers could get enough of the same outcome from their ERP. The memo contains no representative cost test or observed switching that would close Path B. Neither the market-opening condition nor the model-parity condition is established, so the action is Watch. (Key Risks, Defensibility)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
 | Path-specific thesis fit | 11/25 |
-| Durable value capture | 7/25 |
-| Customer demand | 7/20 |
+| Durable value capture | 8/25 |
+| Customer demand | 6/20 |
 | Team and execution | 9/15 |
-| Scale economics | 4/15 |
+| Scale economics | 5/15 |
 
-**Total Score: 38/100** (Pass)
+**Total Score: 39/100** (Pass)
 
 ### Decisive diligence question
 
-Will a manufacturer repeatedly pay Faraday to resolve a class of cross-system order exceptions it previously left unaddressed because of cost, when it can choose an equivalent-quality alternative using the same model? A paid production trial should compare labor per successful resolution at matched quality, including setup, review, retries, and escalations, and document why the buyer continues paying Faraday. Verified savings and repeat paid preference would support **Reach out** if the updated score reaches 65 with at least medium confidence. If the full labor cost keeps the work uneconomic or the buyer readily switches to the equivalent alternative, **Pass**.
+Will an independent industrial operator pay to keep Faraday running a cross-system exception workflow it previously handled manually because automation was uneconomic? A live trial should compare Faraday with the manual baseline and a credible alternative using equivalent model capability, at the same standard for correct resolution. A paid renewal would move the action to Reach out if the trial shows that setup, approvals, review, retries, and escalations still leave the workflow economical and the buyer renews because Faraday handles work the alternative cannot match at comparable cost. If a representative trial shows that the full costs erase the savings or that the buyer can switch and retain the outcome on equivalent terms, close Path B and Pass.

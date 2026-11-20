@@ -5,28 +5,26 @@
 
 ### Company case
 
-**Path B. Repeatable sales or partner distribution with account expansion.** The initial buyer is a robot model team that needs to test policy updates against physical workflows. SE3 offers a one-policy, one-task evaluation and says it uses standardized workcells to run policies, capture human corrections, and deliver annotated training data. If that data helps buyers improve their next policy version, SE3 could sell repeat evaluations as policies change, then expand into more tasks or sites. The website and public benchmark give buyers a way to discover the service. (*The Idea*, *Defensibility*)
+The strongest path is repeatable direct sales to robot model teams that need to test updated policies on physical tasks. SE3 offers a one-policy, one-task evaluation through its launch and website, with project fees and deliverables set in customer orders. The memo records 500 released teleoperation episodes across 10 benchmark tasks and 1,596 dataset downloads in the preceding month. The episodes show that SE3 can collect physical task data. The downloads show interest in the dataset, with buyer identity and paid conversion still unknown. (The Idea, Market & Traction, Key Facts)
 
-The memo records 500 released episodes across 10 benchmark tasks and 1,596 dataset downloads in the preceding month. That establishes benchmark activity and attention. Paid activation, repeat workloads, and buyer-confirmed value remain unverified. SE3 reports access to three categories of U.S. sites and describes partner-site sandboxes as a next step. Those sites are potential test capacity. Demand from buyers in a second geography remains unverified. (*Market & Traction*, *Key Facts*)
-
-**Scenario assumption.** If an overseas model team can submit policies remotely and use the same U.S. workcell, SE3 could serve it through the existing workflow, subject to hardware compatibility and permission to record and transfer data. If the buyer needs local site conditions, SE3 would also need local access, hardware setup, scheduling, and recording permissions. Added project fees would have to cover the sales and setup effort for each new buyer and the trial time, resets, human intervention, and annotation for each new workload. Reusing the workcell and task setup could lower that burden. A paid repeat workload with measured costs would test that mechanism at this stage. (*The Idea*, *Defensibility*, *Key Risks*)
+If model teams find the evaluations valuable enough to buy, the growth case assumes SE3 can reuse workcells and test procedures across buyers and sell another evaluation when a buyer updates its policy. The same job could plausibly travel across markets through controlled workcells. Testing at partner sites adds unresolved requirements for hardware, site access, scheduling, and recording permissions. The first unproven link is whether independent buyers will pay for and complete the same scoped evaluation with reusable setup. The memo gives no usable evidence of customer activation, repeat purchases, marginal delivery cost, or concrete buyer commitment. (The Idea, Defensibility, Key Risks, Key Facts)
 
 ### Countercase
 
-SE3 could become a project-based testing service whose delivery effort grows with each workload. Its terms allow hardware, scope, fees, and deliverables to vary by order. Site access and recording permissions can limit reuse, and SE3 reported zero full-task completions in 100 zero-shot Dream-1 episodes. That result shows the difficulty of the benchmark and leaves open whether SE3’s corrections improve the next policy version enough to warrant another purchase. The memo provides no customer rollout costs that establish a structural scaling ceiling, so the Pass gate is unmet. (*The Idea*, *Key Risks*)
+Each new policy or task could require fresh hardware setup, success checks, resets, human interventions, and site permissions, leaving delivery effort proportional to project revenue. SE3 describes partner-site sandboxes as a next step and reports zero full-task completions in 100 zero-shot Dream-1 episodes. The benchmark demonstrates failure capture, while the value of the resulting corrections for a buyer’s next policy update remains unproven. The structural downside gate is untriggered because the memo contains no comparable paid deployments showing that delivery costs rise proportionally despite workcell reuse. (The Idea, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 9/25 |
+| Global buyer demand | 14/25 |
 | Repeatable acquisition and onboarding | 9/25 |
 | Retention and customer expansion | 7/20 |
 | Contribution as volume grows | 7/20 |
 | Evidence of fit in the first buyer segment | 4/10 |
 
-**Total Score: 36/100** (Pass)
+**Total Score: 41/100** (Pass)
 
 ### Decisive diligence question
 
-Can an independent robot model team outside the U.S. come in through the public benchmark or website, pay for the standard evaluation, and buy a second run after updating its policy? Move to **Reach out** if paid orders and run logs show the buyer used the first run’s output, reused the same setup for the second run, and generated positive incremental contribution after operator, reset, annotation, and workcell costs.
+Can two independent robot model teams buy and complete the same one-task evaluation through SE3’s direct sales process with comparable, bounded setup effort? Paid orders and delivery logs showing reuse of the workcell and test procedure, with hardware and operator costs covered by the project fees, would move the action to Reach out. Evidence that each rollout requires a fresh build and delivery costs grow in proportion to fees, with no demonstrated way to reuse the work, would move it to Pass.

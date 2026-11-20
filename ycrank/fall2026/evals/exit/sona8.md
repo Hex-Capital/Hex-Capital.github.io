@@ -1,31 +1,25 @@
 ﻿# Sona8 -- Exit Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Medium
+**Evidence confidence:** Low
 
 ### Company case
 
-**Strategic acquisition** is Sona8’s strongest path. An enterprise workflow or process-mining vendor could buy Sona8’s software to capture workarounds that system logs miss and refresh workflow maps after an automation rollout. The ownership case is that controlling how those maps are generated, updated, and integrated across the buyer’s customer base could be worth more than licensing the capability. That advantage remains an inference. (The Idea, Defensibility)
+Strategic acquisition is Sona8’s strongest route. A process-mining vendor such as Celonis could buy Sona8’s interview and workflow-mapping software to capture site-specific workarounds that system logs may miss and make those maps available to automation tools. The s.Oliver testimonial describes using Sona8 to surface differences in planning requirements across teams. Sona8 reports more than 10,000 interviews and a signed engagement with an unnamed top-three consultancy. Salesforce’s signed agreement to acquire Listen Labs shows acquisition activity in adjacent interview software. Buyer savings, willingness to own the capability, and a realizable price for Sona8 remain unverified. (The Idea, Market & Traction)
 
-**Observed evidence.** A named customer testimonial describes s.Oliver using Sona8 to map processes and surface differences in planning requirements. The memo also records a signed agreement to acquire Listen Labs, an adjacent interview-software business. That agreement supports the buyer-category thesis and provides no usable price benchmark for Sona8. (Market & Traction)
+The seed-stage milestone is a paid expansion across multiple sites that measures the time and cost of producing and refreshing validated workflow maps against manual discovery. Early deployments and more than $500,000 in reported financing make a test plausible. Its cost and Sona8’s runway remain unknown. Transferability of the software and customer contracts also remains unverified. A sponsor buyout lacks evidence of predictable cash generation and financing capacity. A secondary lacks eligible buyer demand, an IPO lacks evidence of operating scale and readiness, and a company-funded payout lacks evidence of sustained excess cash. (Market & Traction, The Idea, Defensibility)
 
-**Company claims and execution.** Sona8 reports more than 10,000 interviews and a signed top-three consultancy using its product to map client processes. Those are starting points for a paid, multi-site deployment that measures whether refreshed maps reduce repeat discovery work and improve automation rollout. Reported funding exceeds $500,000. The capital and runway needed for that test are unknown, and employee participation and security procurement could slow it. (Market & Traction, Key Risks)
+Under the illustrative seed terms, a $500,000 check at a $10 million post-money valuation buys 5%, diluted by 40% to 3%, with no follow-ons. The eight-year target is $2.5 million in gross cash, or 5×. A simple pro rata allocation before investor taxes requires $83.3 million in distributable equity at 3%, $125 million at 2%, or $62.5 million at 4%. With $5 million of assumed net debt, the 3% case requires about $88.3 million in enterprise value. Actual shareholder terms, debt, fees, and senior claims remain unknown. The memo gives no basis for a realizable sale-price range, so proceeds receive the absent-evidence default.
 
-**Proceeds bridge.** With investment terms undisclosed, assume the thesis’s illustrative $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-on checks. The eight-year 5× objective requires $2.5 million in cash to the investor, or $83.3 million in distributable equity proceeds at 3% ownership. The equity hurdle is $125 million at 2% and $62.5 million at 4%.
-
-The sale scenarios below are sensitivity tests. They assume zero net debt, fees, and other enterprise-to-equity adjustments, so enterprise value equals distributable equity consideration. The waterfall assumes as-converted pro rata allocation with no preference deductions. All consideration is cash at close, with zero stock, escrow, earnouts, rollover, or separate compensation.
-
-| Scenario | Timing | Enterprise value → distributable equity | Investor cash | Gross multiple |
-|---|---|---|---:|---:|
-| Modest sale | Year 5 | $40M → $40M | $1.2M | 2.4× |
-| Strong sale | Year 7 | $100M → $100M | $3.0M | 6.0× |
-| Prolonged private | Through year 8 | Growth plateaus, buyers stay away, public scale remains out of reach, and cash is reinvested | $0 | 0× |
-
-The holder retains the shares in the prolonged-private case. At 2% ownership, the strong sale yields $2 million, or 4×. The memo gives no Sona8 valuation or quantified buyer economics to support either sale price, and no independently supported fallback would deliver cash to this holder. (Market & Traction, Key Facts)
+| Eight-year scenario | Gross cash to the holder |
+|---|---:|
+| $25 million enterprise-value sale, less $5 million in assumed net debt | $600,000 (1.2×) |
+| $100 million enterprise-value sale, less $5 million in assumed net debt | $2.85 million (5.7×) |
+| Paid deployments plateau, buyers stay away, IPO scale stays out of reach, and Sona8 reinvests all available cash without a secondary | $0, with the shares retained |
 
 ### Countercase
 
-A workflow vendor could license Sona8 or build a similar feature using commercially available voice infrastructure. Kawaru.ai already offers interview-generated maps and MCP access. Sona8’s data policy limits interview content to serving the relevant customer and excludes it from model training, weakening the case for buying a reusable data asset. The memo leaves IP ownership and the treatment of customer contracts and data in a sale unverified. These facts make a buyout premium uncertain. The evidence establishes neither a binding transfer barrier nor a price ceiling below the proceeds hurdle, so the Pass override does not apply. (The Idea, Defensibility)
+A process-mining vendor could license Sona8 or assemble a similar capability. Commercial voice infrastructure is available, and kawaru.ai already offers interview-generated workflow maps and MCP access. Sona8’s customer-use policy also limits interview content to serving the originating customer, weakening the case for buying a reusable cross-customer dataset. This makes an acquisition premium speculative. The memo leaves open a sale of the software and provides no supported price ceiling that would trigger the Pass gate. (The Idea, Defensibility)
 
 ### Dimension Scores
 
@@ -41,4 +35,4 @@ A workflow vendor could license Sona8 or build a similar feature using commercia
 
 ### Decisive diligence question
 
-Would a paid, multi-site deployment show a workflow-platform buyer enough incremental value from owning Sona8 over licensing or building it to support the proceeds hurdle? Buyer-validated deployment results and a quantified buy-versus-license-or-build case supporting at least $83.3 million in distributable equity under the 3% scenario would move the action to Reach out. Evidence that licensing preserves the same economics and caps any credible sale materially below the hurdle would move it to Pass.
+What price could a process-mining vendor justify paying to own Sona8 based on the results of a paid multi-site rollout? Move to Reach out if measured rollout savings support a buyer-side case for ownership over building or licensing and a price range that clears the illustrative $88.3 million enterprise-value hurdle at 3% ownership and $5 million of net debt. Otherwise, keep watching.

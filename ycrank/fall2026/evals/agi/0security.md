@@ -5,28 +5,28 @@
 
 ### Company case
 
-**Path B — New economies** is the strongest fit. 0.security could make continuous, per-pull-request remediation affordable for enterprise teams that can only justify periodic audits or that leave scanner findings for engineers to resolve. The memo describes 0cloud testing changes in isolation and proposing patches for human approval. The seed-stage hypothesis is that this workflow cuts total human time per verified fix enough to make routine remediation viable for teams that scope it out today. The memo leaves that labor comparison unmeasured, including review, retries, and exceptions at equivalent quality. (The Idea, Key Risks)
+**Path B — New Economies.** The strongest case is that 0.security could make continuous security remediation economical for restricted-infrastructure teams that can afford periodic audits but lack the engineering time to investigate, patch, and verify findings on each code change. The memo documents a self-serve 0cloud launch and published examples of upstream fixes. The company says it offers air-gapped deployment with customer-selected models and proposes tested patches for human approval. The launch shows execution progress, and the patch examples support technical feasibility. The memo leaves the labor savings and the adoption of a new remediation cadence unmeasured. (The Idea, Defensibility, Market & Traction, Key Risks)
 
-The enterprise offering gives buyers a plausible reason to pay under model parity. Teams with data residency constraints can run the product on premises or air-gapped with models they choose. They might pay 0.security to deploy and manage that workflow if managing the free software themselves takes more work. The memo leaves that preference and any switching costs untested. A Spotify engineer’s reported scan of nearly 30,000 files in under a minute shows early use. The founders report EY and Swiss defense engagements, with payment and repeat use unverified. (The Idea, Defensibility, Market & Traction, Key Risks)
+A Spotify engineer reports scanning almost 30,000 files in under a minute, a concrete signal of product use. The founders report an EY partnership and work with the Swiss Federal Department of Defence, with budget, deployment scope, and repeat use unspecified. Under the thesis scenario of cheap, equivalent models, a restricted buyer might still pay 0.security to deploy and manage remediation inside its own environment. The memo contains no buyer comparison that establishes that preference. (Market & Traction, The Idea, Key Facts)
 
-The November 0cloud launch and the founders’ backgrounds in cyber defense and institutional business development support early execution. For scale, the expansion unit is the next paid pull-request test or managed enterprise deployment. **Scenario assumption:** If customers pay the reported $5 per test after launch credits, hosted contribution depends on what remains after inference, test compute, retries, and provider-side support. Managed deployments also need to cover setup and ongoing support. Realized pricing, paid test frequency, and per-unit costs remain unknown. (Founders & Team, Market & Traction, Key Facts)
+The full-cost comparison is periodic audits plus internal investigation, patching, and verification versus continuous testing plus human review, retries, exceptions, regression checks, and deployment overhead. The reported $5 hosted price is per pull-request test. Expansion economics depend on how many tests produce a verified, merged fix and how much compute and support 0.security incurs to deliver it. The memo provides neither measured inputs for that calculation nor realized enterprise pricing. (The Idea, Key Risks, Key Facts)
 
 ### Countercase
 
-0.security may make an existing security workflow faster while GitHub Autofix and Semgrep already cover enough remediation for many buyers. For buyers who need air-gapped deployment, 0.security’s own free software could also satisfy the requirement if they can operate it themselves. If review and rework absorb the labor savings, the new transaction fails to emerge. If buyers get equivalent results and deployment controls elsewhere, the reason to pay 0.security disappears. The memo shows functional overlap, while equivalent quality, delivery cost, and deployment controls remain untested. Path B stays open for a concrete test. The memo identifies no separately controlled bottleneck for Path A. (The Idea, Defensibility, Key Risks)
+0.security could improve an existing application-security workflow while leaving its buyers and cadence largely unchanged. GitHub already offers native pull-request fixes, Semgrep offers AI-assisted remediation, and customers can run 0.security’s open-source software themselves. If human review and failed patches consume most of the labor savings, continuous remediation may still be uneconomical for the target buyer. If an equivalent substitute meets the same isolation and operating requirements, the buyer may have little reason to pay 0.security. The memo shows competitive overlap, while buyer switching and full remediation costs remain untested. Both Path B gates remain open, which supports Watch with Low confidence. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
 | Path-specific thesis fit | 11/25 |
-| Durable value capture | 7/25 |
-| Customer demand | 7/20 |
-| Team and execution | 9/15 |
+| Durable value capture | 8/25 |
+| Customer demand | 8/20 |
+| Team and execution | 10/15 |
 | Scale economics | 5/15 |
 
-**Total Score: 39/100** (Pass)
+**Total Score: 42/100** (Pass)
 
 ### Decisive diligence question
 
-Will independent, residency-constrained teams that previously skipped routine pull-request remediation pay for a repeat deployment after a trial against their current workflow and a same-model, self-managed alternative? A trial that verifies equivalent fix quality, counts all human time through approval and rework, and shows buyers paying again for 0.security’s managed delivery would support **Reach out** if the updated score clears 65 with at least medium confidence. If labor savings fail to enable routine use or buyers choose equivalent self-managed delivery, **Pass**.
+Will an independent restricted-infrastructure buyer that previously relied on periodic audits pay to renew continuous remediation after comparing 0.security with its prior workflow and an equivalent-model alternative that meets the same isolation requirements? A paid renewal backed by lower full cost per verified, merged fix, sustained per-change coverage, and a documented preference for 0.security’s managed deployment would move the action to Reach out. A representative trial showing that review and exceptions erase the savings or that the buyer switches to an equivalent substitute would close this path and move the action to Pass.

@@ -5,36 +5,30 @@
 
 ### Company case
 
-Strategic acquisition is the strongest candidate. An agent-platform or workflow-automation vendor could buy the shared workspace to add persistent agent roles, permissions, and a ticket-to-pull-request workflow. Owning that software could shorten the buyer’s time to deploy those capabilities if paid customers show that the combined workflow delivers repeatable gains over the buyer’s existing tools. The memo describes the asset and overlapping products, with buyer willingness to pay still unverified. (The Idea; Defensibility)
+Strategic acquisition is the strongest conditional path. A workflow automation platform such as Gumloop could buy the shared workspace, persistent agent roles, and ticket-to-pull-request workflow to bring engineering into its cross-functional product. Ownership could let the buyer integrate those workflows into its own product and distribute them to existing customers. The public beta and one customer’s account of using it for months to coordinate several agents establish early use. The founder’s reported 20,000-plus pull requests and 1.5 trillion tokens describe internal activity. Buyer interest and the economic benefit of ownership remain unverified. (The Idea, Defensibility, Market & Traction)
 
-The public beta is live, and one named customer reported months of use coordinating several agents. The founder’s reported 20,000-plus internal pull requests are a separate company claim. A plausible next milestone is repeatable production use across paying teams, with measured cycle-time savings and approval controls that customers accept. YC backing is confirmed, but financing estimates conflict and runway is unknown for the solo founder. IP ownership, customer contract assignment, and rights to transfer workspace data remain unverified. The memo offers no independently supported fallback that could pay this holder. (Market & Traction; Founders & Team; Key Risks)
+The operating milestone is renewal by several independent paying teams that use shared agents in engineering and at least one other department, with measured reductions in handoff time. The beta and existing customer use make that test plausible at this stage. YC backing is confirmed, while reported financing ranges from $125,000 to $500,000. That $375,000 difference matters for a one-person team’s ability to fund rollout and customer support, and the memo leaves burn and runway unknown. (Market & Traction, Founders & Team)
 
-**Illustrative seed proceeds.** With no disclosed investor terms, assume a $500,000 check at a $10 million post-money valuation, no follow-on checks, and 5% ownership diluted to 3%. The eight-year 5× objective requires $2.5 million in cash, or about $83.3 million in distributable equity proceeds at 3%. The hurdle is $125 million at 2% and $62.5 million at 4%. In the sale scenarios below, enterprise value equals distributable equity consideration under assumptions of zero net debt and zero closing adjustments. The waterfall is pro rata with no preference deductions. All consideration is cash at closing, with $0 each in stock, escrow, earnouts, rollover, and compensation. The sale prices are scenario assumptions. The memo supplies no buyer economics or transaction prices to underwrite them.
+Investor terms are unknown. The illustrative bridge assumes a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted by 40% to 3%, and no follow-ons. A 5× gross cash return within eight years requires $2.5 million to the holder, or $83.3 million in distributable equity at 3% ownership. The equity hurdle rises to $125 million at 2% and falls to $62.5 million at 4%. With illustrative net debt of $5 million, the 3% case requires about $88.3 million in enterprise value. Assuming full cash payment within eight years, no fees or senior claims, and pro rata distribution before investor taxes, a $25 million sale yields $600,000 (1.2×) and a $100 million sale yields $2.85 million (5.7×). The memo supplies no buyer economics or comparable sales to support either price. Rights to transfer the core IP and any customer-data permissions a deal would require also remain unverified. (Market & Traction, Key Risks, Key Facts)
 
-| Scenario | Timing from investment | Holder cash | Gross multiple on $500,000 |
-|---|---|---:|---:|
-| Modest sale at $30 million | Year 5 | $900,000 | 1.8× |
-| Strong sale at $100 million | Year 7 | $3 million | 6.0× |
-| Prolonged private ownership. Growth plateaus, buyers stay away, public scale remains out of reach, and cash is reinvested. | Through year 8 | $0, with shares still held | 0× realized |
-
-The strong sale falls to $2 million and 4.0× at 2% ownership, so the investor’s diluted stake can determine whether even that scenario clears the hurdle.
+If adoption plateaus, strategic buyers stay away, public-market scale remains out of reach, and all available cash is reinvested, eight years without an eligible secondary or payout yield $0 in realized cash, with the shares still held. A sponsor buyout lacks evidence of sustainable cash generation. A secondary lacks evidence of share demand and holder eligibility, an IPO lacks evidence of operating scale, and a company-funded payout lacks evidence of excess cash. Wind-down proceeds would depend on the residual after obligations and preferences, which the memo gives no basis to estimate. (Market & Traction, Key Facts)
 
 ### Countercase
 
-OpenAI Frontier and Gumloop already cover parts of shared context and agent execution, and managed agent runtimes give a potential buyer another way to build overlapping workflows. If a buyer can match the production gains through its own roadmap or a commercial integration, ownership may be worth too little to clear the proceeds hurdle. The memo establishes overlap, while equivalent production performance and a binding price ceiling remain unverified. The structural Pass override is untriggered. (Defensibility; Market & Traction)
+Gumloop already offers agents and a shared knowledge layer, and OpenAI Frontier already offers shared business context and agent execution. A buyer could build around those capabilities or partner for the engineering workflow. The customer testimonial leaves paid retention and switching costs unverified, so the advantage of buying the whole company remains speculative. The overlap weakens the case for outreach. The Pass gate remains open because the memo establishes neither a structural barrier nor a supported sale price that leaves the holder materially short. (The Idea, Defensibility, Market & Traction)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 8/30 |
+| Counterparty rationale or source of cash | 12/30 |
 | Plausible investor proceeds | 8/30 |
 | Milestones and capital needed | 9/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 32/100** (Pass)
+**Total Score: 36/100** (Pass)
 
 ### Decisive diligence question
 
-Can a potential platform buyer validate, using measured results from paying teams, that owning the workflow creates enough incremental value over building or partnering to support at least $83.3 million in distributable equity proceeds? A buyer-backed analysis at that level would move the action to **Reach out** to verify diluted ownership and closing terms. Evidence that practical substitutes cap the price materially below the applicable hurdle would move it to **Pass**.
+After several paying teams renew with measured workflow gains, can a strategic buyer quantify an advantage to ownership over building or partnering that supports a sale near or above the illustrative $88.3 million enterprise-value hurdle? Buyer-backed economics at that level would move the action to Reach out. Until then, the action is Watch.

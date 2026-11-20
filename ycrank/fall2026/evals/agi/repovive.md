@@ -5,26 +5,26 @@
 
 ### Company case
 
-**Path A — Scarce complements.** Repovive’s strongest case is that AI labs will keep paying for fresh, private Lean tasks with machine-checked reference proofs. As proof generation gets cheaper, labs could run more training and evaluation cycles and need more held-out tasks to test whether models generalize. The memo documents a research-scale Lean formalization that supports the capability shift. Repovive describes a product built for that shift, but the memo provides no lab benchmark showing that its environments improve training or evaluation over available alternatives. (The Idea, Market & Traction)
+**Path A — Scarce complements.** Repovive’s strongest case is that fresh, private Lean tasks with machine-checked reference proofs could become a scarce input for AI lab post-training. Repovive says it packages these tasks into training and evaluation environments. If cheaper models lead labs to run more proof-training experiments, sourcing suitable tasks and checking reference proofs could become a bottleneck for those teams. The memo gives no buyer-side measure of that constraint. (*The Idea*)
 
-Repovive reports $100K in signed contracts across two formalization environments. That is an early commitment signal under a seed standard. Buyer independence, contract terms, cash collection, and repeat orders remain unknown. The separate $200K letter of intent covers broader coding data. The team has relevant Lean dataset and model post-training experience, and the memo documents a live contest platform. Whether that platform can replenish private tasks at a sustainable cost remains untested. The broader verification market estimate leaves the addressable lab market and the economics of producing the next environment unknown. (Market & Traction, Founders & Team, Defensibility, Key Facts)
+Repovive reports $100K in signed contracts across two formalization environments. That supports early demand at seed, with buyer independence, payment and repeat purchases unverified. The separate $200K coding-data letter of intent covers a broader product. The memo documents that the team ran public programming contests and describes relevant founder experience in Lean datasets and model post-training. Whether the contest community can reliably replenish the private task supply remains an inference. The memo provides no cost or throughput figures for producing and refreshing an environment. (*Market & Traction*, *Founders & Team*, *Defensibility*)
 
 ### Countercase
 
-Labs can already use open Lean training environments, buy checked proof data, or build verification infrastructure in-house. With comparable models and ample capital, a lab might generate and check its own fresh tasks. Repovive reports that its tasks are private, but the memo establishes neither exclusive contributor rights nor a demonstrated advantage in producing fresh tasks at the quality and cadence labs need. Those alternatives make substitution credible without establishing equivalence, so Path A remains open and the outreach gate stays unmet. Path B also remains unproven. The memo gives no comparable delivery-cost evidence showing that chip or critical-software verification becomes viable for a newly served buyer, and specification work could absorb the proof-writing savings. (Defensibility, Key Risks, The Idea)
+Labs may be able to reproduce the training outcome with LeanDojo’s open environment, Reinforce Labs’ checked proof data, or internal infrastructure. Repovive describes its tasks as private, while contributor exclusivity and the effort required to reproduce comparable tasks remain unknown. The memo establishes that alternatives exist and leaves their performance on the buyer’s workload untested. Scarcity and durable control therefore remain unresolved, supporting Watch. (*Defensibility*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 12/25 |
-| Durable value capture | 7/25 |
-| Customer demand | 11/20 |
-| Team and execution | 10/15 |
+| Path-specific thesis fit | 11/25 |
+| Durable value capture | 8/25 |
+| Customer demand | 12/20 |
+| Team and execution | 9/15 |
 | Scale economics | 4/15 |
 
 **Total Score: 44/100** (Pass)
 
 ### Decisive diligence question
 
-Will an independent lab place a paid repeat order for a fresh Repovive environment after a same-model comparison with its best open or in-house alternative? A repeat order backed by materially better held-out evaluation and delivery records showing that Repovive can replenish tasks it has rights to supply at a positive contribution margin would support moving to Reach out if the reassessment clears the score and confidence gates. Equivalent results at comparable or lower all-in cost from the alternative would move the case to Pass.
+Will an independent AI lab pay for a second batch of private tasks that Repovive has the rights to keep supplying after a head-to-head trial shows a material improvement in held-out proof success over the lab’s best available alternative at comparable training cost? A paid repeat order backed by that result would move the action to Reach out. If the alternative matches the result and the lab can source it on comparable terms, the scarcity case closes and the action moves to Pass.

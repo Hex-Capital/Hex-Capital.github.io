@@ -5,38 +5,30 @@
 
 ### Company case
 
-Strategic acquisition by an enterprise application-security vendor is the strongest path. The potential asset is a managed remediation product that can run inside restricted customer environments. 0.security says it offers air-gapped deployment with customer-selected models. A buyer could pay to own the deployment and management capabilities and retain the associated enterprise revenue if ownership would get it into those accounts faster or more profitably than building, licensing, or partnering. The memo establishes a reason for that buyer class to care, while the ownership advantage remains an inference. (*The Idea*, *Key Risks*)
+Strategic acquisition is the strongest path. An application-security vendor could buy 0.security to sell pull-request remediation to customers that require air-gapped deployment and control over which models they run. The memo records the 0cloud launch and published upstream fixes. The founders report an EY partnership and work with the Swiss Federal Department of Defence, while a Spotify engineer reported scanning nearly 30,000 files in under a minute. These signals support technical capability and access to prospective customers. Paid production adoption, renewals, and buyer willingness to pay remain unverified. Ownership could make sense if it gave the buyer transferable customer relationships and deployment tooling that would take materially longer to build or commercialize through a partnership. (The Idea, Defensibility, Market & Traction, Key Facts)
 
-The memo records the 0cloud launch and published upstream fixes. A Spotify engineer reported scanning nearly 30,000 files in under a minute, and the founders reported an EY partnership and work with the Swiss Federal Department of Defence. These are early operating signals. The milestone is repeat paid production deployment in restricted environments, with measured patch acceptance and engineering time saved. The memo gives no realized revenue, deployment costs, or runway with which to underwrite the time and capital needed. It also leaves ownership and transfer rights for the managed product and any customer contracts unverified. (*Market & Traction*, *Defensibility*, *Key Facts*)
+A proposed milestone is two paid air-gapped production customers renewing after documenting a reduction in engineer time per approved fix. The launch and reported engagements make that test plausible at seed. The memo leaves the funding and time needed to reach it, as well as the transferability of core rights and customer contracts, unverified. The other routes lack independent support. The memo supplies no predictable cash generation for a sponsor buyout, eligible share demand for a secondary, evidence of public-market scale or readiness, or surplus cash for dividends or buybacks. (The Idea, Market & Traction, Key Facts)
 
-The memo supplies no investment terms or usable acquisition-price evidence. The illustrative seed case assumes a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-on checks. A 5× gross cash return within eight years requires $2.5 million to the holder, or about $83.3 million in distributable equity proceeds at 3%. The threshold is $125 million at 2% and $62.5 million at 4%.
+The illustrative bridge assumes a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted by 40% to 3%, and no follow-ons. The 5× target is $2.5 million in gross cash within eight years. At 3%, that requires $83.3 million of distributable equity, compared with $125 million at 2% and $62.5 million at 4%. Using the scenario’s $5 million of net debt, the 3% hurdle is $88.3 million in enterprise value. A $25 million sale at year eight yields $600,000 gross, or 1.2×. A $100 million sale yields $2.85 million, or 5.7×, at 3% ownership and $1.9 million, or 3.8×, at 2%. These are scenarios, with simple pro rata cash allocation before taxes and no assumed fees, preferences, or deferred consideration. The memo supplies no actual holder terms, debt, or supported sale-price range. (Key Facts)
 
-The sale scenarios assume zero net debt, zero other purchase-price adjustments, and a simple pro rata waterfall with no preference effects. Enterprise value therefore equals distributable equity consideration. All consideration is cash at closing. Stock, escrow, earnouts, rollover, and compensation are each assumed to be zero. The prices and timing are scenario assumptions.
-
-| Scenario | Timing | Distributable equity proceeds | Holder cash at 3% | Gross multiple |
-|---|---|---:|---:|---:|
-| Modest sale | Year 5 | $40 million | $1.2 million | 2.4× |
-| Strong sale | Year 7 | $100 million | $3.0 million | 6.0× |
-| Prolonged private | Through year 8 | No sale or distribution | $0 | 0× |
-
-The strong sale clears the hurdle at 3% but returns only $2 million, or 4×, at 2%. In the prolonged-private scenario, growth plateaus, buyers stay away, public scale remains out of reach, and available cash is reinvested. The investor still holds the shares. The memo supplies no independent fallback with evidence of cash reaching this holder. (*Market & Traction*, *Key Facts*)
+If adoption plateaus, strategic buyers stay away, public-market scale remains out of reach, and available cash is reinvested, the holder realizes $0 over eight years and retains the shares. A funded payout or eligible secondary could change that result. In a wind-down, holder cash would depend on the residual after obligations and senior preferences, which the memo gives no basis to estimate. (Market & Traction, Key Facts)
 
 ### Countercase
 
-A buyer may get enough of the benefit from the free code, a commercial agreement, or remediation already offered by GitHub or Semgrep. If the air-gapped offering wins customers but a partner can deliver it on comparable terms, the buyer has little reason to pay an ownership premium. The memo supports substitution risk for some workflows. It leaves open whether those substitutes meet restricted customers’ requirements or cap acquisition value below the proceeds hurdle. That gap keeps the action at Watch. Neither Pass override is established. (*The Idea*, *Defensibility*, *Key Risks*)
+GitHub already offers native pull-request remediation, Semgrep offers AI-assisted remediation, and 0.security’s free open-source software gives prospective buyers a route to use the capability without acquiring the company. The strongest countercase is that even the air-gapped offering can be replicated or delivered through a partnership before 0.security establishes a customer base worth owning. That weakens the reason to pay. The memo leaves open whether a substitute meets the same restricted-deployment requirements and supplies neither a structural closing barrier nor a supported sale price that leaves the holder short. The Pass gate is unmet. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 12/30 |
+| Counterparty rationale or source of cash | 11/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 9/20 |
+| Milestones and capital needed | 8/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 36/100** (Pass)
+**Total Score: 34/100** (Pass)
 
 ### Decisive diligence question
 
-Can an enterprise security vendor justify paying enough for ownership to deliver roughly $83.3 million in distributable equity proceeds under the illustrative 3% case? A buyer-side comparison of building, licensing, and acquiring, grounded in repeat paid air-gapped deployments with measured remediation results, would answer it. Evidence that the value of ownership clears the hurdle would move the action to Reach out. An unresolved comparison keeps it at Watch.
+Would a strategic buyer pay enough to clear the modeled $88.3 million enterprise-value hurdle to own 0.security’s air-gapped enterprise business? Evidence of paid production renewals with measured remediation savings, paired with buyer-specific economics showing that ownership beats building or partnering at that price, would move the action to Reach out. (The Idea, Market & Traction, Key Facts)

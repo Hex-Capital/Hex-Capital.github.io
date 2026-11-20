@@ -5,28 +5,26 @@
 
 ### Company case
 
-**Path B — New economies.** ChampionEffect says its Slack and Teams coach guides employees through live tasks and reuses coworkers’ walkthroughs. The founders describe internal AI champions fitting peer coaching around their regular jobs. The seed-stage hypothesis is that automation could make on-demand, task-specific coaching viable for employees whose requests are currently deferred or go unserved. The memo documents a Fall 2026 launch and investor interest. Paid use, repeat demand, and delivery costs remain unknown. (The Idea; Market & Traction; Key Facts)
+**Path B — New Economies.** The memo describes internal AI champions fitting peer coaching around their regular jobs. ChampionEffect says its coach joins live calls and guides employees through their own tasks in Slack and Teams. The investment scenario is that teams currently rationing one-to-one help could afford to offer it routinely. At seed, a representative deployment could test that scenario by comparing the full cost per correctly completed task under peer coaching and under ChampionEffect, including inference, setup, human review, retries, exceptions, and workflow maintenance. The memo provides no measured comparison or evidence that an employer paid to extend coaching to a previously unserved team. (The Idea; Market & Traction; Key Facts)
 
-**Scenario assumption.** If permissioned walkthroughs help coworkers complete more tasks correctly with less human intervention, each additional contributor could make the coach more useful within that employer. To test market opening, compare human minutes per correctly completed task against champion-led support at equivalent quality, including workflow upkeep, review, retries, and escalations. To test scale, measure contribution on additional successfully coached tasks after inference and variable support costs, using observed repeat volume and actual pricing. The memo supplies neither input. (Defensibility; Key Risks; Key Facts)
+Under model parity, the company’s best case is that each validated walkthrough makes coaching more useful for coworkers. ChampionEffect describes reusing walkthrough knowledge within an employer, but the memo provides no measured reuse or buyer preference against an equivalent coach. The expansion unit would be one additional team at the same employer. That rollout could spread integration costs if permissions and maintenance remain manageable, though the memo gives no realized price or delivery cost. Kevin Law’s engineering leadership and Emre Simdi’s go-to-market work at Cambly establish relevant prior execution. The current deployment economics remain untested. (Defensibility; The Idea; Key Risks; Founders & Team)
 
 ### Countercase
 
-ChampionEffect could make existing AI rollouts more efficient while serving the same buyers and tasks. With cheap, equally capable models and access to the same approved workflows, an employer could get comparable guidance from another tool. Section and WalkMe already cover parts of that workflow, and Slack and Teams administrators control app approval. The memo leaves both Path B conditions unproven: a representative trial could still establish market opening and preference under parity. Path A has no separate supported case because the scarce input is internal champion time, and the employer controls it. (The Idea; Defensibility; Key Risks)
+ChampionEffect could save internal champions time while serving employees who already get help. Admin approvals, access checks, and stale guidance could also absorb enough labor to keep broader coverage uneconomic. Section’s role-specific coaching and WalkMe’s in-app guidance show that buyers already have options for parts of the workflow. The memo reports no head-to-head result or buyer switching, so the alternatives raise a credible substitution risk without closing the path. Both Path B conditions remain open, supporting Watch. (The Idea; Defensibility; Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
 | Path-specific thesis fit | 9/25 |
-| Durable value capture | 6/25 |
+| Durable value capture | 7/25 |
 | Customer demand | 5/20 |
-| Team and execution | 9/15 |
-| Scale economics | 4/15 |
+| Team and execution | 7/15 |
+| Scale economics | 5/15 |
 
 **Total Score: 33/100** (Pass)
 
-The live-coaching design offers a specific way to extend access. Workflow reuse remains a company claim, with switching behavior and gains from additional contributors unmeasured. Customer demand and scale economics use the absent-evidence defaults. Law and Simdi’s engineering and go-to-market work together at Cambly supports execution credit, while delivery quality and iteration at ChampionEffect remain unverified. (The Idea; Defensibility; Market & Traction; Founders & Team; Key Risks; Key Facts)
-
 ### Decisive diligence question
 
-Can a paid pilot with independent employers repeatedly serve coaching requests that previously went unserved, using materially less human time per successful task at equivalent quality, while employers keep paying a contribution-positive price when offered an equally capable alternative with the same permitted workflow access? A representative result clearing both tests would support Reach out if the updated score reaches 65 and confidence rises to at least medium. A representative result showing routine exceptions erase the labor savings or buyers readily switch at parity would change the action to Pass.
+Will an independent employer pay to roll ChampionEffect out to a team that previously went without task-specific coaching? A paid expansion would move the action to Reach out if a representative pilot shows that ChampionEffect lowers full cost per correctly completed task enough to fund routine coaching for that team, earns positive delivery contribution at the paid price, and wins the buyer’s choice over a functionally equivalent coach with comparable model quality and approved workflow access. A representative trial that shows either uneconomic coverage or easy substitution would close this path.

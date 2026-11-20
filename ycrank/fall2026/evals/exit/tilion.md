@@ -5,25 +5,17 @@
 
 ### Company case
 
-**Strategic acquisition** is the strongest private-company path. A browser infrastructure or agent-runtime provider could pay for control of Fortress and Tilion’s session recovery technology if integrating them materially improved customers’ workflow completion rates and lowered costs beyond what the buyer could achieve by building or licensing. That ownership advantage is an inference. The observed benchmark measured a 0.11-second median browser session lifecycle for pre-release Tilion versus 0.15 seconds for Kernel. The memo supplies no production completion or cost comparison. Tilion reports use by engineers at more than 170 companies and millions of daily operations. Those claims indicate potential test environments, while paid usage remains unverified. (The Idea, Market & Traction, Defensibility)
+Strategic acquisition is Tilion’s strongest path. A hosted browser provider such as Kernel could pay for the maintained Fortress Chromium fork and Tilion Cloud’s session recovery capability if owning them lowered the cost per completed customer workflow and gave the buyer more value than licensing Fortress or building comparable capabilities. ComputeSDK measured a 0.11-second median session lifecycle for pre-release Tilion versus 0.15 seconds for Kernel. That establishes a speed advantage in one benchmark. The buyer economics depend on how often that advantage translates into completed workflows and what those workflows cost to serve. The memo supplies no buyer interest or acquisition pricing. (The Idea, Market & Traction)
 
-The operating milestone is a repeatable result in paid production showing fewer failed runs and lower cost per completed workflow. The existing product, developer adoption, and reported $500,000 in YC funding make a test plausible at seed. The current waitlist and pre-release status leave deployment timing uncertain, and the memo gives no test budget or runway. It also leaves ownership and transferability of the assets a buyer would need unverified. No independent fallback has evidence of cash reaching this holder. (The Idea, Market & Traction, Key Risks, Defensibility)
+The seed-stage milestone is repeat paid production usage with measured completion rates and cost per completed workflow against an incumbent service. The reported $500,000 in YC funding and 100,000 Fortress installs give Tilion a plausible starting point for that test. Tilion’s claims of use by engineers at more than 170 companies and millions of daily operations leave paid usage and retention unresolved. The current waitlist and November pre-release designation are more direct evidence of present availability than the August public-access announcement. Burn, runway, and the capital needed for the milestone are unknown. Tilion’s operation of Cloud and distribution of Fortress support practical control of the assets. Transferable IP rights and customer terms remain unverified. (The Idea, Defensibility, Market & Traction, Key Risks)
 
-The proposed check has no disclosed terms, so the proceeds bridge uses the illustrative $500,000 check at a $10 million post-money valuation, diluted from 5% to 3% with no follow-on checks. A 5× gross return requires $2.5 million in cash within eight years, or $83.3 million in distributable equity proceeds at 3% ownership. The hurdle rises to $125 million at 2% and falls to $62.5 million at 4%. The memo offers product pricing but no buyer economics or transaction prices that support an acquisition value. (Key Facts, Market & Traction)
+**Proceeds bridge.** With actual holder terms unavailable, assume a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-ons. A 5× gross cash return within eight years requires $2.5 million to the holder, or $83.3 million in distributable equity at 3%. The hurdle rises to $125 million at 2% ownership and falls to $62.5 million at 4%. With $5 million in illustrative net debt, the 3% case requires $88.3 million in enterprise value. At year eight, a $25 million sale would return $600,000 gross (1.2×), while a $100 million sale would return $2.85 million gross (5.7×), using the same debt assumption and a pro rata allocation before investor taxes. Company-specific debt, fees, and senior claims are unknown. The memo’s advertised prices provide no basis to underwrite either sale value. (Key Facts)
 
-The sale prices and timings below are scenario assumptions. Both sales assume zero applicable net debt and transaction fees, so enterprise value equals equity consideration. The assumed waterfall is simple pro rata with no preference deductions. All consideration is cash at closing, with $0 each for stock, escrow, earnouts, rollover, and compensation. Multiples are before investor taxes.
-
-| Scenario | Timing and enterprise value | Investor cash | Gross multiple |
-|---|---|---:|---:|
-| Modest sale | Year 5 at $50 million | $1.5 million | 3× |
-| Strong sale | Year 7 at $100 million | $3.0 million | 6× |
-| Prolonged private | Growth plateaus, buyers stay away, public scale remains out of reach, and cash is reinvested through year 8 | $0, with shares retained | 0× realized |
-
-At 2% ownership, even the modeled strong sale would yield $2 million, or 4×.
+A sponsor buyout lacks evidence of predictable cash generation, and a dividend or buyback lacks evidence of distributable cash. The reported YC funding establishes no eligible secondary sale, and the memo gives no basis to underwrite public-market scale or resale. If growth plateaus, buyers stay away, public scale remains out of reach, and Tilion reinvests all available cash without an eligible secondary or payout, the holder realizes $0 over eight years and retains the shares. (Market & Traction, Key Facts)
 
 ### Countercase
 
-A buyer could license Fortress’s advertised self-hosted Enterprise tier, switch among providers that support standard interfaces, or use Steel’s self-hosted or managed offering. The lifecycle speed lead has yet to establish a production advantage large enough to justify ownership, and an observed launch failure shows why that distinction matters. These substitutes weaken the acquisition case, but the memo establishes neither equivalent production performance nor a price ceiling below the holder’s hurdle. The structural Pass override therefore remains untriggered. (The Idea, Defensibility, Key Risks)
+An incumbent can already offer hosted browsers, and Steel offers both self-hosted and managed options. Standard automation interfaces make switching easier. Browser Arena observed a failed Tilion launch, and site-owner blocking can limit which workflows a buyer can reliably serve. The strongest countercase is that Tilion’s measured speed advantage leaves too little incremental value to justify owning the business. A failed launch and available substitutes weaken the case for an ownership premium. The Pass gate requires a supported structural blocker or materially inadequate proceeds, and the memo leaves both unresolved. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
@@ -31,12 +23,12 @@ A buyer could license Fortress’s advertised self-hosted Enterprise tier, switc
 |-----------|-------|
 | Counterparty rationale or source of cash | 13/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 9/20 |
-| Transaction feasibility | 5/10 |
+| Milestones and capital needed | 10/20 |
+| Transaction feasibility | 6/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 37/100** (Pass)
+**Total Score: 39/100** (Pass)
 
 ### Decisive diligence question
 
-Can a paid production deployment show that owning Tilion’s technology would create enough incremental value for a likely acquirer to justify the roughly $83.3 million equity hurdle? A repeatable comparison against licensed and internally built alternatives, using completion rates, cost per completed workflow, and the buyer’s deployment volumes, would answer it. Evidence that the ownership advantage could support that price would move the action to Reach out. Evidence that a license delivers the same economics and caps the buyer’s willingness to pay materially below the hurdle would move it to Pass.
+Can a paid production pilot with a hosted browser provider demonstrate enough value from owning Tilion to support a sale above the holder’s hurdle? Repeat paid volume, completion rates, and cost per completed workflow against the provider’s existing service would quantify the benefit. A buyer-supported price range grounded in that benefit and capable of clearing the applicable hurdle, about $88.3 million in enterprise value under the illustrative 3% ownership and debt assumptions, would move the action to Reach out.

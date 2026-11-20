@@ -5,26 +5,28 @@
 
 ### Company case
 
-**Path A — Scarce complements.** The bottleneck is a buyer-approved factory slot that can produce made-to-spec electrical equipment in time for site energization. Cheaper intelligence could reduce the work of checking specifications and scheduling across plants. Developers would still need qualified production, testing, and delivery. Applied Kinetics quoted a seven-week build-and-test window for pad-mounted transformers. That offer gives the seed-stage case a concrete test, with site-delivery performance and the time saved against a comparable quote still unverified. (The Idea, Market & Traction, Key Risks)
+**Path A — Scarce complements.** A late transformer can delay site energization, so a factory slot at a buyer-approved plant can be valuable to a developer facing a firm deadline. Applied Kinetics advertised a seven-week build-and-test window for pad-mounted transformers. That window is a company quote. Actual time to site depends on specifications, approvals, quantity, and delivery scope. In a scenario where frontier AI is cheap and widely available, the investment case rests on Applied Kinetics securing qualified capacity and delivering it on schedule. (The Idea, Market & Traction, Key Risks)
 
-The memo records developers preordering selected equipment up to 24 months ahead, evidence of purchasing pressure in the category. Applied Kinetics’ own buyer commitments remain unknown. The founders’ GPU telemetry and agent development experience supports the software work, while their ability to deliver a qualified equipment order remains unproven. The U.S. seed-stage opportunity fits the mandate. For scale, the next project’s quote must cover factory costs, testing, freight, and exception handling. The memo gives no inputs for estimating that contribution. (Market & Traction, Founders & Team, The Idea)
+Applied Kinetics reports access to more than 40 partner plants. The memo leaves priority rights and the number of plants eligible for a given order unverified. Developers reportedly preordered selected equipment up to 24 months ahead, an indirect demand signal. Paid orders and buyer qualification commitments for Applied Kinetics remain unverified. The founders’ experience in GPU telemetry and AI agents supports the coordination software, while factory acceptance and site delivery remain execution milestones. (Defensibility, Market & Traction, Key Risks, Founders & Team)
+
+The unit of expansion is a delivered equipment order. For the economics to work, the project price must cover factory costs, testing, customs, freight, and the cost of rework or delays. Repeatability depends on eligible factory slots and the working capital needed to fund orders. The memo describes project quoting and fulfillment responsibilities. Realized margins and cash requirements remain unknown. (The Idea, Key Risks)
 
 ### Countercase
 
-With cheap models and abundant competing capital, Fluxco can already offer overlapping sourcing and logistics, and Mission Critical Group can supply and integrate overlapping equipment. Applied Kinetics reports access to 40+ partner plants and attributes the 10+ GW track record to its manufacturing base. Buyer approval lists can narrow that pool, and shared component shortages could constrain multiple plants at once. Factories could retain allocation power and capture the premium. The memo leaves priority access and equivalent buyer-approved alternatives unresolved, so the Path A control gate remains open and outreach is premature. Path B lacks evidence of a newly viable purchase at lower delivery labor. (Defensibility, Market & Traction, Key Risks, The Idea)
+Applied Kinetics could be coordinating factory capacity that buyers can source elsewhere. Fluxco already offers AI-assisted sourcing and logistics, and Mission Critical Group manufactures and integrates overlapping equipment. Buyer-approved supplier lists can shrink the usable partner pool, and shared component shortages could tie up several plants at once. Comparable offers for the same specification and delivery deadline would undercut the case for scarce access. The memo establishes competitive overlap and a plausible bypass risk. It leaves equivalent capacity unproven, so the path stays open on Watch. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 13/25 |
-| Durable value capture | 7/25 |
-| Customer demand | 7/20 |
-| Team and execution | 7/15 |
-| Scale economics | 4/15 |
+| Path-specific thesis fit | 12/25 |
+| Durable value capture | 8/25 |
+| Customer demand | 6/20 |
+| Team and execution | 5/15 |
+| Scale economics | 5/15 |
 
-**Total Score: 38/100** (Pass)
+**Total Score: 36/100** (Pass)
 
 ### Decisive diligence question
 
-Can Applied Kinetics complete one paid, buyer-accepted transformer order materially faster than a comparable approved alternative using factory priority it can enforce on subsequent orders? A buyer-confirmed quote and site acceptance date, compared at the same specification and delivery scope, plus verifiable allocation terms would answer it. A demonstrated lead-time advantage with repeatable priority would support Reach out if rescoring clears 65 with at least Medium confidence. Equivalent access on comparable terms would move the case to Pass.
+Can Applied Kinetics use an enforceable, buyer-approved factory slot to deliver a paid transformer order by an independent buyer’s required date when competing offers for the same specification miss it? A slot agreement, comparable written quotes, and buyer acceptance of the on-time delivery at a price that covers fulfillment costs would move the action to Reach out. Evidence that the buyer can secure equivalent capacity directly on comparable terms would close the current path and move the action to Pass.

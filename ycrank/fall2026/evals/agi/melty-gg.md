@@ -5,13 +5,13 @@
 
 ### Company case
 
-**Path B — New economies** is Melty Gym’s strongest path. The seed-stage case is that reusing game integrations could cut the engineering time required to build a custom evaluation. That could let research teams run narrow spatial-reasoning or coordination tests they would otherwise skip, or rerun them more often. This scenario assumes the savings hold after debugging, retries, and validation at equivalent task quality. The launch demo showed a G1 robot driving in GTA V and interacting with server racks in simulation. That establishes a prototype use case. Melty reports custom task work with unnamed teams, but their budgets, repeat use, and willingness to pay remain unknown. (The Idea, Market & Traction, Key Facts)
+**Path A — Scarce complements.** Melty Gym could supply a constrained input for AI research: configurable game environments for testing spatial reasoning and coordination. The launch demo shows a G1 robot driving in GTA V and interacting with server racks in simulation. That establishes prototype capability. Melty also reports building custom tasks with unnamed teams, an early demand signal with buyer commitments still unverified. (*The Idea*, *Market & Traction*)
 
-Gym’s ability to change mechanics, objectives, and team roles gives researchers a concrete reason to try it. The commercial question is whether they would keep paying Melty for validated tasks if they could build equivalent ones with equally capable models. Miller’s launch of the consumer Mashups product shows relevant shipping experience. Gym’s economics depend on how much integration work carries over to the next paid task and how often labs order new tasks. The memo gives no measured reuse, delivery cost, or pricing. (The Idea, Defensibility, Founders & Team, Key Facts)
+If cheaper frontier models lead research teams to run more varied evaluations, adapting environments in-house could become a bottleneck. Melty could capture value if its game integrations give it durable access to environments that buyers would take meaningfully longer to reproduce. The unit of expansion would be a new task on an integrated game. Reusing the integration could spread setup costs across tasks, with contribution still dependent on customization, compatibility maintenance, and buyer support. The memo provides no measured setup times, reuse rates, or Gym pricing. (*The Idea*, *Defensibility*, *Key Facts*)
 
 ### Countercase
 
-Research teams may be able to get the same useful evaluation from curated game tasks or their existing simulator workflow. Good Start Labs already supplies game environments with verifiable rewards, so a substitute could meet a buyer’s needs without replicating Gym’s engine. Melty’s exclusive marketplace rights cover creator-published consumer mashups. The memo identifies no comparable Gym rights or independently supported scarce input for Path A. It also leaves physical-robot transfer unverified, which matters for buyers using Gym to train policies for hardware. The evidence leaves both Path B conditions open, with a feasible seed-stage test. That supports Watch. (The Idea, Defensibility, Market & Traction, Key Risks)
+Researchers may need individual tasks that narrower tools can deliver. Good Start Labs already builds curated game tasks with verifiable rewards, and Isaac Lab offers a route for teams that need robot-learning simulation. Melty’s documented exclusivity covers creator-published consumer mashups, while durable access to the underlying games for Gym remains unverified. The alternatives make substitution credible. The memo contains no buyer comparison showing that they meet the same task requirements on comparable terms, so the scarce-complement path remains open. (*The Idea*, *Defensibility*, *Key Risks*)
 
 ### Dimension Scores
 
@@ -21,10 +21,10 @@ Research teams may be able to get the same useful evaluation from curated game t
 | Durable value capture | 7/25 |
 | Customer demand | 6/20 |
 | Team and execution | 8/15 |
-| Scale economics | 4/15 |
+| Scale economics | 5/15 |
 
-**Total Score: 34/100** (Pass)
+**Total Score: 35/100** (Pass)
 
 ### Decisive diligence question
 
-Will an independent research team pay for a second Gym task it previously would have skipped after comparing Melty with its best alternative at equivalent task quality and with access to equally capable models? A costed trial should record setup, review, retries, and support. A paid repeat order backed by a material reduction in total labor and a buyer preference that survives the comparison would justify rescoring for Reach out if the total clears 65. If equivalent-quality delivery erases the savings or the buyer readily switches, move to Pass.
+Will an independent research team place a paid follow-on order after testing Gym against its best available alternative on a task it could not previously run within its time or budget? A documented comparison showing that Gym meets the task requirements materially faster, with durable rights to deliver it again, would move the action to Reach out. A credible substitute meeting the same requirements on comparable terms would close the path and move the action to Pass.

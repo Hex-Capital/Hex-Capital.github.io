@@ -5,38 +5,30 @@
 
 ### Company case
 
-A strategic acquisition by a multi-brand consumer operator is the strongest path. A buyer could pay to own Light Anchor’s cross-brand operating system if its accumulated test data and workflows reliably improve contribution profit across the buyer’s portfolio. The memo documents a managed-growth engagement with Anuko on client-owned accounts and lists ten agent-run brands. Anuko’s testimonial reports daily Amazon sales reaching 54× the June baseline and sales of 3.07× ad spend over one week. Light Anchor says its agents reuse operating records across brands. Those signals support testing the acquisition thesis. The size of the baseline, incremental profit, and cross-brand lift remain unverified. (The Idea, Market & Traction, Defensibility)
+Strategic acquisition is the strongest path. A consumer-brand operator expanding in the US could pay to deploy Light Anchor’s workflow across its portfolio. The potential asset is the combination of creative testing, live campaign feedback, and reusable operating records that Light Anchor says its agents share across brands. Anuko reported that daily Amazon sales reached 54× its June baseline in the week ending October 6 and that sales were 3.07× ad spend on October 1–7. Those figures suggest a buyer benefit worth testing. The case study leaves incremental contribution profit, repeatability across brands, and the value of owning the workflow unresolved. (The Idea, Defensibility, Market & Traction)
 
-The operating milestone is sustained incremental contribution profit across several brands using workflows and data a buyer could acquire. Existing deployments give Light Anchor a way to run that test, and clients pay their own ad spend. Funding amounts and runway are undisclosed, and manual fulfillment adds work as the owned portfolio scales. The memo establishes that client accounts are client-owned. Ownership of the reusable IP, rights to transfer client-derived data, and contract assignment terms remain open. The memo supplies no usable evidence of acquisition pricing or an independent route to cash for this holder. (The Idea, Market & Traction, Defensibility, Key Risks, Key Facts)
+The memo lists 10 agent-run brands and seven named agency case studies, giving Light Anchor a base for measuring incremental contribution profit across several brands against their existing tools and staffing. Early funding is reported, with amounts undisclosed. Runway and the cost of expanding delivery are unclear, and the founders’ reported hands-on fulfillment adds uncertainty about the labor needed to scale the owned brands. A sale of the workflow is conceivable, but continued access to client-owned accounts and rights to reuse client data after a sale are unverified. (The Idea, Market & Traction, Key Risks)
 
-With no check terms supplied, the illustrative seed case uses a $500,000 check at a $10 million post-money valuation, diluted from 5% to 3%, with no follow-on checks. The 5× objective requires $2.5 million in cash within eight years, or $83.3 million in distributable equity proceeds at 3% ownership. The equity hurdle is $125 million at 2% and $62.5 million at 4%.
+**Illustrative proceeds.** With a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-ons, the eight-year 5× target is $2.5 million in gross cash. A simple pro rata allocation before taxes requires $83.3 million in distributable equity at 3%, $125 million at 2%, or $62.5 million at 4%. Assuming $5 million of net debt and no further deductions, the 3% case requires $88.3 million in enterprise value. A $25 million sale at year eight yields $600,000 (1.2×), while a $100 million sale yields $2.85 million (5.7×). The memo gives no transaction price, investor terms, or buyer economics that support a realizable sale range. Actual debt, fees, and senior claims are unknown. (Market & Traction, Key Facts)
 
-The scenarios below are illustrative. They assume zero net debt, fees, or other enterprise-to-equity adjustments, so enterprise value equals equity consideration. They use a simple pro rata waterfall with no senior preference impact. All sale consideration is cash at close, with $0 each in stock, escrow, earnouts, rollover, and compensation. Actual terms could change the bridge. Multiples are gross, before investor taxes.
-
-| Scenario | Timing and assumed outcome | Holder cash at 3% |
-|---|---|---:|
-| Modest sale | Year 5 at $40 million enterprise value | $1.2 million (2.4×) |
-| Strong sale | Year 7 at $100 million enterprise value | $3 million (6×) |
-| Prolonged private | Through year 8, growth plateaus, buyers stay away, public scale remains out of reach, and cash is reinvested | $0 (0×), shares retained |
-
-Even the strong scenario falls to $2 million (4×) at 2% ownership. The memo leaves open whether the incremental profit a buyer could capture through ownership would justify a price above the applicable hurdle. (Market & Traction, Key Facts)
+If growth plateaus, buyers stay absent, public scale remains out of reach, and available cash is reinvested for eight years, the holder realizes $0 and retains the shares. The memo supplies no predictable cash generation for a sponsor buyout, eligible secondary demand, evidence of public-market scale, or funded dividend or buyback. A wind-down would pay the holder only from any residual after obligations and preferences, which the memo leaves unquantifiable. (Market & Traction, Key Facts)
 
 ### Countercase
 
-A buyer can hire Light Anchor on a performance fee while keeping its own accounts, and Amazon and Meta already automate parts of campaign execution. If that combination delivers comparable profit, the buyer has little reason to pay an acquisition premium. Anuko’s relative sales lift and one week of sales-to-ad-spend data leave that comparison unresolved. The memo neither establishes that the substitute delivers equivalent economics nor supports a conclusion that all credible routes fall short. Neither Pass override is triggered. (The Idea, Defensibility, Market & Traction, Key Risks)
+A buyer could retain Light Anchor on its quoted 5–15% attributed-sales fee or combine its own staff with Amazon and Meta’s existing automation. The memo documents substitutes for parts of the workflow, and the short Anuko measurement window leaves open whether owning Light Anchor would add enough profit over those alternatives to justify a purchase. That gap supports Watch. The memo establishes neither a structural closing barrier nor a credible sale price that would leave the holder materially short, so the Pass gate does not apply. (The Idea, Defensibility, Market & Traction)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 14/30 |
+| Counterparty rationale or source of cash | 15/30 |
 | Plausible investor proceeds | 8/30 |
 | Milestones and capital needed | 10/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 39/100** (Pass)
+**Total Score: 40/100** (Pass)
 
 ### Decisive diligence question
 
-Can Light Anchor demonstrate durable incremental contribution profit across several brands from workflows and data a buyer can acquire, at a scale that supports the investor’s cash hurdle? A multi-brand comparison against native tools plus managed service, with verified transfer rights and buyer economics that support 5× cash within eight years under plausible dilution and waterfall terms, would move the action to Reach out.
+What incremental contribution profit could a strategic buyer capture by owning Light Anchor’s workflow instead of hiring it? Repeatable results across several brands, net of ad spend and delivery costs, would support Reach out if the workflow and data rights were transferable and the buyer economics supported a price range that could clear the roughly $88 million illustrative enterprise-value hurdle.

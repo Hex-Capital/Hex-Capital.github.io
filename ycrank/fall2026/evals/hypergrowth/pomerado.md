@@ -5,26 +5,26 @@
 
 ### Company case
 
-**Path A, product-led adoption.** The strongest initial buyer candidate is a team building dealership agents that repeatedly need to perform tasks in dealer portals. The founders report dealerships connecting agents to dealer systems. Pomerado offers an open-source core and self-serve signup, and the memo records 35,000 weekly npm downloads in one snapshot. That shows developer discovery. The dealership reports suggest a concrete use case, while the route from discovery to live deployment and payment remains unverified. Buyer urgency, recurring use, and paid expansion are also unverified. (The Idea, Market & Traction, Key Facts)
+**Product-led adoption** is the strongest path. The clearest initial buyer candidate is a team connecting agents to dealer systems. If those teams get strong fit, developers could discover Pomerado through its open-source core, publish a tool for a recurring portal task through MCP or REST, and upgrade when the free tier’s limits constrain production use. The memo documents self-serve signup, a $50 monthly Premium tier, and a public catalog that grew from 23 to 447 sites. The shared interface and catalog make the workflow plausibly portable, although portal authorization and sensitive-data handling could limit which buyers can deploy it. (The Idea, Market & Traction, Key Risks)
 
-**Scenario assumption.** If a team can turn its first authorized portal task into a reusable MCP tool without founder help, it could pay for hosted usage as call volume rises or it adds workflows. The same product could serve dealership-agent teams in another country if local portals can be configured through the same workflow and their authentication, access permissions, and data-handling requirements can be supported. The memo provides no second-market buyer test. (The Idea, Market & Traction, Key Risks)
+The first unproven link is whether developers can reach paid production use through self-serve onboarding. Package downloads show discovery. Founders report dealerships connecting agents to dealer systems, but the memo gives no account-level evidence of how those users activated, whether they paid, or whether they returned or expanded. It also gives no usable measure of the cost to onboard or maintain the next account. (The Idea, Market & Traction, Key Risks)
 
 ### Countercase
 
-The strongest countercase is that self-serve discovery leads to a portal-by-portal integration service. Each new buyer could add setup, sign-in, and support work. Each additional workload adds execution costs and exposure to repairs when a portal changes. The founders report a 2.2% run error rate and automatic resolution of 82% of errors, with automotive marketplaces among the categories with the highest failure rates. The company benchmark used prebuilt integrations, leaving first-time setup effort unmeasured. Automatic repair offers a plausible way to reduce maintenance, and the memo gives no cost breakdown to show how far it does so. The Pass gate would require observed proportional delivery costs without a supported path to improvement, or a demonstrated structural limit on cross-market demand. (The Idea, Key Risks)
+Each new portal could require custom setup and ongoing maintenance as its interface, authentication, or access rules change. The founders report that automated repair resolved 82% of run errors and that travel and automotive marketplaces had the highest failure rates. The benchmark used prebuilt integrations, so it leaves initial setup effort and the cost of unresolved failures open. This could undermine self-serve growth, but the memo supplies too little evidence to establish a structural constraint, so the downside gate does not apply. (Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 9/25 |
+| Global buyer demand | 16/25 |
 | Repeatable acquisition and onboarding | 9/25 |
 | Retention and customer expansion | 7/20 |
 | Contribution as volume grows | 7/20 |
 | Evidence of fit in the first buyer segment | 4/10 |
 
-**Total Score: 36/100** (Pass)
+**Total Score: 43/100** (Pass)
 
 ### Decisive diligence question
 
-Can independent dealership-agent teams in the initial market and a second country use the same self-serve process to launch an authorized portal workflow, pay for it, and keep running it at their normal operating cadence? A small paid cohort with setup time, founder involvement, repeat usage, and execution and repair costs recorded would answer it. Successful activation and recurring use in both markets with manageable delivery effort would move the action to **Reach out**.
+Can independent dealership teams use the same self-serve workflow to put a recurring task into paid production across different dealer portals? Move to Reach out when multiple teams do so, repeat the task at their normal cadence, and show bounded setup and repair effort without founder intervention.

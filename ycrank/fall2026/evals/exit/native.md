@@ -5,36 +5,30 @@
 
 ### Company case
 
-**Strategic acquisition** is the strongest path. A marketing software vendor serving small businesses could buy Norn and its publishing workflow to improve which ideas it recommends and to control the feedback loop that improves those recommendations. Ownership could be worth more than an API license if access to the underlying feedback creates a durable performance advantage. That advantage is an inference. The memo documents a live publishing workflow and a policy describing the use of anonymized approvals, edits, rejections, and performance signals for training, subject to customer opt-out. It gives no buyer-side evidence that ownership would outperform a license and leaves IP ownership and data transfer rights unverified. (The Idea, Defensibility)
+Strategic acquisition is Native’s strongest path. A small-business marketing software vendor could acquire Norn’s ranking and publishing workflow to improve campaign results for its existing customers. Native’s published product materials describe a workflow that uses brand context, approvals, and post performance to rank ideas, then generates and publishes content. The potential reason to buy is control of the feedback loop that improves those rankings. Its value to an acquirer depends on repeatable conversion lift and the ability to keep using the underlying signals after closing. (The Idea; Defensibility)
 
-Native’s CEO reports more than $2 million in ARR and about 2,200 customers. A company-published customer story reports 9,495 impressions after adoption versus 2,322 in the preceding period. Those signals support the feasibility of running a controlled test across existing accounts. The impression comparison leaves causality and conversion lift open, and the memo gives no runway or test budget. A repeatable conversion gain against a buyer’s existing tools would make the acquisition case more concrete. The memo provides no usable evidence of an independent route to cash for this holder. (Market & Traction, Key Risks, Key Facts)
+Native reports more than $2 million ARR and roughly 2,200 paying customers. That reported adoption gives Native a plausible path to a controlled production test comparing Norn with a buyer’s existing workflow across multiple customer accounts. Native’s published research measures reach and engagement, leaving conversion lift unmeasured. The memo gives no test budget or runway. Native’s terms describe opt-out training use, while post-acquisition data rights and customer contract assignment remain unverified. (Market & Traction; Key Risks; Defensibility)
 
-**Proceeds bridge.** The illustrative check is $500,000 at a $10 million post-money valuation. A 40% relative dilution takes ownership from 5% to 3%, with no follow-on checks. The $2.5 million gross cash target within eight years requires about $83.3 million in distributable equity proceeds at 3%, or $125 million at 2% and $62.5 million at 4%. The memo gives no usable acquisition-price evidence. The scenarios below are hurdle tests. Both sales assume zero net debt and other enterprise-to-equity adjustments, so enterprise value equals equity consideration. They assume a simple pro rata waterfall with no preference deductions. All consideration is cash at close. Stock, escrow, earnouts, rollover, and compensation are each zero. (Market & Traction, Key Facts)
+Under the illustrative seed terms, a $500,000 check at a $10 million post-money valuation starts at 5% ownership and falls to 3% after 40% relative dilution, with no follow-ons. The eight-year 5× gross cash target is $2.5 million. A simple pro rata distribution requires $83.3 million of distributable equity at 3% ownership, $125 million at 2%, or $62.5 million at 4%. With $5 million of assumed net debt, the 3% case requires about $88.3 million of enterprise value. At year eight, a $25 million sale yields $600,000 gross (1.2×), while a $100 million sale yields $2.85 million gross (5.7×). Both assume the same net debt and exclude investor taxes. The memo gives no company-specific debt, fees, preference terms, or supported sale price. The reported January valuation supplies no acquisition price evidence. (Market & Traction)
 
-| Scenario | Timing | Cash to holder | Gross multiple |
-|---|---|---:|---:|
-| Modest sale at $40 million | Year 5 | $1.20 million | 2.4× |
-| Strong sale at $100 million | Year 7 | $3.00 million | 6.0× |
-| Prolonged private ownership | Through year 8 | $0 | 0.0× |
-
-In the prolonged-private case, growth plateaus, buyers stay away, public-market scale remains out of reach, and available cash is reinvested. The investor retains the shares. The strong sale clears the hurdle at 3% ownership but yields only $2 million at 2%, making dilution material even at the higher hypothetical price.
+If customer growth plateaus, buyers stay away, public-market scale remains out of reach, and Native keeps reinvesting available cash, the holder realizes $0 over eight years and retains the shares. The memo provides no evidence of cash generation sufficient for a sponsor buyout or company-funded payout, demand for an eligible secondary, or operating scale and reporting readiness for a listing with shareholder resale. (Market & Traction; Key Facts)
 
 ### Countercase
 
-Google already derives brand profiles and campaign assets from websites, and Meta offers overlapping AI creative tools while Native’s paid automation depends on Meta. A buyer could build a competing workflow or use Native’s planned API if licensing delivers comparable results. Native’s observational research measures reach and engagement and leaves conversion lift unmeasured. This is a decisive gap for outreach. The memo leaves open whether substitutes can match Norn’s ranking performance or cap an acquisition price below the hurdle, so the structural Pass override is unproven. (The Idea, Defensibility, Key Risks)
+Google already derives brand profiles and campaign assets from a website, and Meta offers its own AI creative tools while supplying Native’s current paid automation channel. A buyer could build overlapping functionality or license Norn if the planned API becomes available. Native’s HAVN case reports 9,495 impressions versus 2,322 in the preceding period. That comparison leaves the buyer’s incremental conversion economics unresolved. The substitutes weaken the ownership case, but the memo does not establish that they replicate Norn’s ranking loop or that the strongest credible sale price would leave the holder materially short. The Pass gate is therefore untriggered. (Defensibility; Key Risks; The Idea; Market & Traction)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 14/30 |
+| Counterparty rationale or source of cash | 12/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 10/20 |
+| Milestones and capital needed | 11/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 39/100** (Pass)
+**Total Score: 38/100** (Pass)
 
 ### Decisive diligence question
 
-Can a prospective acquirer show that owning Norn and its feedback loop would generate enough incremental profit over its best build or licensing option to support a price that clears the holder’s proceeds hurdle? A controlled test across customer accounts that measures repeatable conversion lift, paired with buyer-side economics that support roughly $83.3 million in distributable equity proceeds under the illustrative terms, would move the action to Reach out.
+Can a controlled production test show repeatable conversion lift that supports a specific buyer paying enough to leave at least $83.3 million of distributable equity within eight years? Move to Reach out when measured lift across multiple customer accounts supports a buyer-specific price range that clears the hurdle after comparing acquisition with building or licensing. Stay on Watch while that price range remains unsupported.

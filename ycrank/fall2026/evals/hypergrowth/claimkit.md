@@ -5,28 +5,26 @@
 
 ### Company case
 
-**Path B — Repeatable sales with account expansion.** Finance leads at technology companies need to substantiate R&D tax claims using engineering records and payroll. Edexia reports switching from its accountants mid-project and completing the claim faster at lower cost. Fluer reports that its team could supply raw data and skip writing the claim report. These accounts show a concrete benefit in the initial workflow. (*The Idea*, *Market & Traction*)
+**Channel-led or repeatable sales** is ClaimKit’s strongest path. Finance and engineering teams need to turn project, code, and payroll records into evidence for R&D tax claims. ClaimKit’s direct sales motion could reuse the same evidence collection and matching workflow across buyers, with specialists handling local filing requirements. The memo documents workflows for the US, UK, and Australia. ClaimKit reports 80+ clients across three countries in seven months. Paid adoption by country remains unverified. (The Idea, Market & Traction, Key Risks)
 
-ClaimKit reports 80+ clients across the US, UK, and Australia within seven months of launch. Its Australian terms specify an upfront software fee and a tax-agent fee invoiced on lodgement. Paid conversion by channel, realized fees, and repeat filings remain unverified. (*The Idea*, *Market & Traction*, *Key Risks*)
-
-If direct sign-ups and demos repeatedly convert similar finance teams, ClaimKit could reuse its evidence collection and cost-matching workflow across accounts. Retained customers could bring the next filing cycle onto the same integrations. That is a scenario assumption. In the US, the shared workflow still has to produce a package that meets local filing requirements and passes specialist review. The early customer accounts justify tracking a paid rollout that measures how much work carries over. (*The Idea*, *Defensibility*, *Key Risks*)
+Edexia’s COO reports switching from its accountants mid-claim and getting a faster, cheaper result. Fluer’s COO reports that its team supplied raw records and avoided writing the claim report. These are concrete signs of workflow change. The memo leaves open whether those buyers match the launch target of teams with 50+ engineers. Direct signup and demos give buyers a route in, while lead-to-paid conversion and onboarding effort remain unmeasured. Continuous evidence collection gives buyers a reason to return at the next filing cycle. Repeat filings and paid expansion are unverified. (The Idea, Market & Traction, Defensibility)
 
 ### Countercase
 
-ClaimKit could scale like a tax practice. Every claim requires specialist review, incomplete records can add work, and each jurisdiction has a distinct filing workflow. The next claim can add record cleanup, review, and support time. The next geography adds local filing setup and specialist capacity. Customer time savings leave ClaimKit’s own delivery costs unresolved. The Pass gate would apply if rollout data showed costs rising in proportion to volume without a supported way to reduce that effort. The memo leaves that relationship unresolved. (*Market & Traction*, *Key Risks*)
+Specialist review is the first link most likely to break if demand grows. Every claim requires review, filing workflows differ by country, and incomplete records can create rework. The customer time savings could coexist with specialist labor rising in proportion to filing volume. Australian fee terms show how ClaimKit charges, while realized fees and marginal delivery costs remain unmeasured. The structural downside gate stays open because the memo establishes a required review step and leaves its cost at higher volume unresolved. (The Idea, Key Risks, Market & Traction)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 16/25 |
+| Global buyer demand | 17/25 |
 | Repeatable acquisition and onboarding | 9/25 |
 | Retention and customer expansion | 7/20 |
 | Contribution as volume grows | 7/20 |
 | Evidence of fit in the first buyer segment | 7/10 |
 
-**Total Score: 46/100** (Neutral)
+**Total Score: 47/100** (Neutral)
 
 ### Decisive diligence question
 
-Can a paid US cohort of technology companies reach lodgement through a standard, non-founder-led sales and onboarding process while reusing the Australian evidence workflow? Move to **Reach out** if cohort records show repeated activation through that process and improving contribution as comparable claims accumulate, after sales, onboarding, record cleanup, specialist review, and support costs, with US setup costs shown separately. Stay at **Watch** while that result is pending. Move to **Pass** if the rollout demonstrates proportional specialist effort with no credible way to reduce it.
+Can a non-founder take successive cohorts of independently sourced buyers from the same direct channel through paid filing with improving contribution per claim? Compare similar claims within one jurisdiction using realized fees and the cost of selling, onboarding, specialist review, rework, and software delivery. A repeatable handoff with positive and improving contribution would move ClaimKit to **Reach out**. Proportional labor costs across comparable cohorts with no evidenced way to reduce them would move it to **Pass**.

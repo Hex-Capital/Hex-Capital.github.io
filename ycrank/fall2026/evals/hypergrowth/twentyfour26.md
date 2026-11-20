@@ -5,26 +5,26 @@
 
 ### Company case
 
-**Path B, repeatable direct sales with account expansion.** The first buyer is a hardware engineering team ordering low-volume CNC prototypes as designs change. The published workflow takes a STEP file through an eligibility check, a job-specific quote, and in-house machining and inspection. The company reports making parts for Bay Area hardware teams, with its fastest jobs taking about 48 hours. That is an early fit signal. The memo gives no buyer-confirmed outcomes, collected payments, or repeat-order records, and it does not establish that the website or YC launch converted buyers through the same process. (The Idea, Market & Traction, Key Facts)
+The strongest path is **channel-led or repeatable sales** through direct online quoting. The initial buyer is a hardware team that needs low-volume CNC parts as designs change. The documented workflow takes a STEP file, checks geometry and workholding against a standardized cell, and quotes eligible jobs for in-house production and inspection. The same intake could serve teams outside the Bay Area if their parts fit the cell and shipping preserves the turnaround they need. That portability remains an inference. (The Idea, Key Risks)
 
-The growth scenario assumes that hardware teams in a second country order revisions through the same upload and quoting workflow. The San Francisco cell could serve them while it has spare capacity, provided shipping and customs preserve a competitive delivered price and lead time. Each order adds machine time, material, and inspection, plus any manual quoting, setup, or rework. Once the cell fills, growth requires more equipment and shop capacity. The assumption that most limits conviction is whether standardized jobs can recur at paid prices while requiring less staff time per order. The memo supplies no measured costs to test that assumption. (The Idea, Defensibility, Key Risks)
+The company reports making parts for Bay Area hardware teams, with its fastest turnaround around 48 hours. That establishes a reported production signal, while the memo leaves buyer urgency, budget commitments, and workflow changes unverified. The YC launch and website identify a route to quote requests, but the memo does not trace independent buyers from either source to paid delivery or show repeat orders across design revisions. Even assuming strong buyer fit, the first link likely to break is fulfilling more eligible jobs at the promised speed without adding operator effort in proportion to orders. (The Idea, Market & Traction, Key Facts)
 
 ### Countercase
 
-The eligibility rules may screen out enough follow-on parts that buyers consolidate their work with broader suppliers. Tighter tolerances can require drawing review, and quoted turnaround depends on available capacity. Even eligible work could add operator time and equipment costs roughly in step with volume while automated loading, cutting, and checking are still in development. These constraints support Watch. The memo has no rollout or cost data establishing a structural ceiling, so the Pass gate does not trigger. (Key Risks, Defensibility)
+The standardized cell could deliver fast results on a narrow set of parts while leaving substantial work in setup, inspection, and exception handling. Geometry, material, and workholding already limit eligibility, tighter tolerances can require drawing review, and turnaround depends on available capacity. If each increase in volume requires proportionate labor and machine investment, fast delivery could win orders without improving contribution. The memo provides no comparable job costs or capacity economics to establish that pattern, so the structural downside gate does not apply. (Key Risks, Key Facts)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 9/25 |
+| Global buyer demand | 16/25 |
 | Repeatable acquisition and onboarding | 9/25 |
 | Retention and customer expansion | 7/20 |
 | Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 5/10 |
+| Evidence of fit in the first buyer segment | 4/10 |
 
-**Total Score: 37/100** (Pass)
+**Total Score: 43/100** (Pass)
 
 ### Decisive diligence question
 
-Can independent hardware teams in a second country place and repeat paid orders through the standard website workflow at positive contribution? Order and payment records showing repeat orders on normal design cycles, competitive delivered lead times, and positive contribution after acquisition, fulfillment, and equipment usage would move the action to Reach out.
+Can independent hardware teams use the same online quote process to place paid first and repeat orders for successive design revisions, while the cell maintains delivery and inspection performance at higher load? A small set of comparable job records would move the action to **Reach out** if it showed repeat paid orders and improving contribution per job after setup, inspection, rework, and incremental capacity costs. If those records instead showed that comparable orders consistently required proportionate labor or capital with no demonstrated way to reduce it, the action would move to **Pass**.

@@ -5,28 +5,26 @@
 
 ### Company case
 
-**Path B — New economies** is the stronger seed-stage case. OpenCrawl ships searchable transcripts and a shared board across coding agents. The plausible new use is routine coordination on small, parallel coding jobs that teams would otherwise run serially because handoffs and duplicate investigations take too much engineer time. The shipped workflow makes that mechanism testable. Delivered labor savings at equivalent quality and the frequency of previously uneconomic jobs remain unmeasured. (The Idea, Key Risks)
+**Path B — New Economies.** OpenCrawl’s strongest case is that small engineering teams could coordinate parallel coding agents across tools on routine tasks where manual handoffs made that cadence too costly. The memo documents a shipped product with searchable session history and a shared board. The CTO reported onboarding a user and seeing agents exchange messages. That report supports basic workflow feasibility. The drop in labor per completed task, the opening of a new use, and willingness to pay remain unmeasured. (*The Idea*, *Market & Traction*)
 
-The CTO reports one onboarding in which agents exchanged messages. Launch votes and repository stars show attention, while repeat use and willingness to pay remain unknown. The founders shipped the product and bring relevant data infrastructure, query compiler, and agent experience. The next execution test is reliable delivery across mixed clients, where live mentions currently depend on a supported listener. (Market & Traction, Founders & Team, Key Risks)
-
-**Scale scenario.** Assuming the reported overage rate applies, a standard hosted team ingesting 200 million tokens a month would generate $50 in monthly revenue after its 100 million free allowance. Positive contribution would require variable costs for the entire team workload, including ingestion, storage, retrieval, and support, to stay below $50. Actual usage, costs, and the number of teams likely to exceed the allowance remain unknown. (The Idea, Key Facts)
+The seed-stage cost test is engineer time and total delivery cost per accepted task at comparable quality. The manual baseline includes relaying context, repeating investigations, and resolving conflicting edits. The OpenCrawl workflow adds transcript review, masking and access administration, and missed handoffs where clients lack push support. The expansion unit is a hosted team. **Illustrative pricing assumption:** At the reported overage rate, a standard team ingesting 150M tokens a month would pay $25. Contribution depends on whether paid overages cover ingestion, storage, search, and support across both free and paying teams. The founders’ data infrastructure and agent experience and the shipped release support their ability to run this test. (*The Idea*, *Key Risks*, *Key Facts*, *Founders & Team*)
 
 ### Countercase
 
-OpenCrawl may save time on work teams already do while giving them little reason to pay for its hosted product. Agent Relay already combines cross-tool messaging with searchable sessions, Claude Code offers native coordination, and OpenCrawl itself can be self-hosted. Accumulated decision history could give teams a reason to stay, but that advantage is inferred. These alternatives weaken durable value capture and leave Path A without a separately supported bottleneck OpenCrawl controls. The evidence leaves both Path B gates open for testing, with neither established well enough for outreach. (The Idea, Defensibility, Market & Traction, Key Risks)
+Agent Relay already offers cross-tool messaging and searchable sessions, and Claude Code offers native coordination for teams using that client alone. OpenCrawl’s accumulated decision history could give teams a reason to stay when model quality is equal, but the memo contains no retention, migration, or buyer-choice evidence. The feature overlap makes easy substitution credible. Without a representative comparison showing equivalent outcomes, it leaves the model-parity gate unresolved. The market-opening gate also remains unproven. (*Defensibility*, *Market & Traction*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 10/25 |
-| Durable value capture | 5/25 |
+| Path-specific thesis fit | 9/25 |
+| Durable value capture | 7/25 |
 | Customer demand | 6/20 |
 | Team and execution | 9/15 |
 | Scale economics | 5/15 |
 
-**Total Score: 35/100** (Pass)
+**Total Score: 36/100** (Pass)
 
 ### Decisive diligence question
 
-Will independent mixed-tool teams repeatedly pay for OpenCrawl to coordinate jobs they previously ran serially, when they can use an equivalent alternative with the same models? A paid cohort trial should compare engineer time per successful job at matched quality, including review, retries, conflicts, and privacy exceptions. Repeat payment by multiple teams after testing the alternative, with measured labor savings that make those jobs viable and positive contribution at the paid price, would support Reach out if the updated score clears 65. A clear failure on either Path B condition would move the action to Pass.
+Will an independent mixed-tool engineering team that previously skipped routine parallel-agent work pay to repeat it with OpenCrawl after a head-to-head trial against Agent Relay using the same models? Move to **Reach out** if the trial shows that lower all-in cost per accepted task makes the previously skipped work economical and the buyer pays to repeat it for a specific OpenCrawl advantage. Move to **Pass** if a representative trial shows that the work remains uneconomic or buyers can retain the same outcome with an equivalent substitute and have no reason to pay OpenCrawl.

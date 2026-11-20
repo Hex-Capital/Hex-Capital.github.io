@@ -5,28 +5,26 @@
 
 ### Company case
 
-Path B, New economies, is the strongest fit. Mirrors delivers account- or workflow-specific rules during live agent runs and lets developers preview and compare their effects. The company describes a design partner whose agent made 75 errors while editing a travel guide despite four reminders in its prompt. That example shows recurring failure under the existing workflow. If scoped guidance reduces total human intervention at equivalent quality, teams could automate low-volume workflows that are currently too costly to supervise. The memo provides no comparative result on successful runs or operator time. (The Idea, Market & Traction)
+**Path B — New Economies.** Mirrors could make frequent travel-guide updates economical for teams that currently skip them because agent retries and human review cost too much. That buyer segment and cost barrier are scenario assumptions. Mirrors reports that a design partner’s agent hit 75 errors while editing a guide despite a stop rule appearing four times in its prompt. This supports a specific failure mode. Whether scoped guidance delivered during the turn reduces labor per successful edit remains unmeasured. *(The Idea, Market & Traction)*
 
-The Python SDK release is observable execution evidence, and the founders previously shipped a developer tool together. Mirrors reports 63,052 agent turns over an unspecified period. The memo establishes neither payment nor repeat use for runtime guidance. The San Francisco team and recent launch are consistent with a seed-stage evaluation. (Founders & Team, Market & Traction, Key Facts)
-
-As a scale scenario, assume one Growth account processes 100,000 billable turns in a month. Listed pricing implies $799 in monthly revenue before incremental serving and support costs. The buyer would need savings that cover that bill plus time spent authoring rules, reviewing outcomes, and handling exceptions. The memo gives no cost or repeat-usage data to test either side of that equation. (The Idea, Key Risks, Key Facts)
+The Python SDK release shows the team shipped the runtime integration. Mirrors reports 63,052 turns over an unspecified period. The memo gives no paid repeat usage or buyer breakdown. At 10,000 monthly turns, Growth would cost $349 assuming the published per-turn rate applies to every turn. The buyer’s cost comparison should include that fee, model usage, retries, review, and manual corrections per accepted edit under both workflows. Mirrors’ own delivery and support costs remain unknown. Under model parity, account-specific rule histories, previews, and outcome comparisons could give buyers a reason to stay. That advantage remains an inference. *(The Idea, Market & Traction, Key Facts, Defensibility)*
 
 ### Countercase
 
-With access to equally capable models, buyers could use framework-native steering and build their own preview and measurement tools. Mirrors may save that engineering work, but the memo gives no evidence that buyers would keep paying once a comparable option exists. It also reports that models can disregard rules and that Mirrors fails open on timeout, leaving some of the supervision burden in place. These risks leave both Path B gates open for testing. Path A has no separately evidenced bottleneck that Mirrors controls. (Defensibility, Key Risks)
+Mirrors may improve an existing workflow while leaving previously excluded work uneconomic. Models can ignore delivered rules, and the service lets the agent proceed without guidance after 750 ms. Strands steering hooks and LangChain middleware give buyers a plausible way to replicate runtime guidance in their existing stack. The memo contains no matched cost or substitution test, so both required conditions remain open and Watch applies. *(Key Risks, Defensibility)*
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 8/25 |
-| Durable value capture | 5/25 |
+| Path-specific thesis fit | 9/25 |
+| Durable value capture | 7/25 |
 | Customer demand | 7/20 |
 | Team and execution | 9/15 |
 | Scale economics | 5/15 |
 
-**Total Score: 34/100** (Pass)
+**Total Score: 37/100** (Pass)
 
 ### Decisive diligence question
 
-Can Mirrors win paid renewals from teams running workflows that were previously too expensive to supervise, when those teams can choose framework-native guidance using the same model? A production trial should compare operator time per successful job at equivalent quality, including rule maintenance, retries, and exceptions, then observe whether buyers renew at a price that covers delivery costs. Verified labor savings that make those workflows viable, coupled with paid preference for Mirrors under parity, would warrant rescoring for Reach out. A trial that shows no newly viable workflow or no paid preference under parity would move the action to Pass.
+Will an independent buyer pay to repeat a guide-editing workflow it previously skipped after a same-model trial against framework-native steering? Reach out if the trial shows that Mirrors lowers labor and full cost per accepted edit enough to sustain the new cadence, and the buyer renews at a price that covers delivery and support. Pass if the trial shows the workflow remains uneconomic or native steering delivers the same outcome and the buyer switches.

@@ -5,36 +5,30 @@
 
 ### Company case
 
-A strategic acquisition by a financial decisioning platform is Lyon’s strongest path to private-company liquidity. A buyer could acquire Lyon’s reusable training and deployment software to add customer-cloud transaction modeling across its clients and control how that capability evolves. That ownership advantage is an inference. The memo records that Prior Labs joined SAP, an adjacent transaction with no disclosed price or terms. (The Idea, Market & Traction)
+Strategic acquisition is Lyon’s strongest path. A financial decisioning platform such as Taktile could buy Lyon’s reusable training and deployment software to add customer-cloud sequence modeling to its underwriting and fraud workflows. Owning that software could shorten integration and rollout across customers if Lyon can deploy it repeatedly with limited custom work. That buyer benefit is an inference. The memo documents that the adjacent tabular-model company Prior Labs joined SAP, with no disclosed price or shareholder proceeds. Lyon reports a 112% relative lift in default-prediction PR-AUC at one unnamed fintech. The benchmark shows a potential performance benefit, while the buyer’s dollar benefit and reason to own the software remain unquantified. (The Idea; Market & Traction)
 
-Lyon reports a 112% relative improvement in default-prediction PR-AUC against one fintech’s tree-based model. The result supports testing whether the approach works at a second institution. Production validation and monitoring remain execution steps, and the memo gives no funded deployment plan or runway. Lyon describes the trained models as customer-owned. The sale case therefore depends on Lyon’s reusable software and deployment know-how, whose ownership and transfer terms are unverified. The memo gives no Lyon-specific evidence of a secondary, sponsor buyout, public resale, or company-funded payout that could independently pay this holder. (Market & Traction, Defensibility, Key Risks, Key Facts)
+The operating milestone is a paid production deployment at a second independent financial institution that validates the lift against its incumbent model and measures the cost of deployment and ongoing operation. The scale of Lyon’s reported training run supports the technical path. The memo gives no budget, runway, or paid deployment economics to establish what it would cost to reach that milestone. A sale would depend on Lyon controlling and being able to transfer its reusable software. Customers own their trained models, and the memo leaves rights to the reusable software and any required consents unverified. It also supplies no evidence of sponsor financing supported by cash flow, an eligible secondary, a path to public resale, or cash available for dividends or buybacks. (Defensibility; Market & Traction; Key Risks; Key Facts)
 
-**Illustrative proceeds bridge.** Assume a $500,000 check at a $10 million post-money valuation, 5% initially and 3% after 40% relative dilution, with no follow-on checks. The eight-year 5× objective requires $2.5 million in holder cash, or $83.3 million in distributable equity proceeds at 3% ownership. The hurdle is $125 million at 2% and $62.5 million at 4%. In the sale scenarios, assume zero net debt, fees, or other price adjustments, so enterprise value equals equity consideration. Assume a simple pro rata waterfall with no preference deductions, all cash at closing before investor taxes, and zero stock, escrow, earnout, rollover, or separate compensation. The memo supplies no usable price or buyer-economics evidence to underwrite either sale value. (Market & Traction, Key Facts)
+With Lyon’s investor terms undisclosed, assume a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted by 40% to 3%, and no follow-ons. The eight-year 5× gross cash target is $2.5 million. It requires $83.3 million of distributable equity at 3% ownership, $125 million at 2%, or $62.5 million at 4%. Using illustrative net debt of $5 million, the 3% case requires $88.3 million of enterprise value. A $25 million sale in year eight returns $600,000 gross, or 1.2×. A $100 million sale returns $2.85 million gross, or 5.7×. Both cases use simple pro rata allocation before investor taxes, with no modeled fees or senior preferences. The memo provides no Lyon-specific basis for a realizable sale price. (Market & Traction; Key Facts)
 
-| Scenario assumption | Holder cash at 3% | Gross multiple |
-|---|---:|---:|
-| Modest sale at $40 million in year 5 | $1.2 million | 2.4× |
-| Strong sale at $100 million in year 7 | $3.0 million | 6.0× |
-| Prolonged private through year 8, with growth plateauing, buyers staying away, public scale out of reach, and cash reinvested | $0, with shares retained | 0× realized |
-
-At 2% ownership, even the illustrative strong sale yields $2.0 million, or 4.0×.
+If growth plateaus, buyers stay away, public scale remains out of reach, and Lyon reinvests all available cash for eight years, the holder realizes $0 and retains the shares. A funded payout or eligible share purchase could change that outcome. Any wind-down proceeds would be limited to the residual after obligations and senior preferences, which the memo leaves unquantified. (Key Facts)
 
 ### Countercase
 
-Revolut built a comparable system with NVIDIA, and NVIDIA’s public training reference gives technically capable institutions a starting point. A platform could also license Lyon’s deployment capability. Either option could preserve much of the benefit and cap what a buyer would pay for ownership. The memo gives no comparative cost or performance evidence that establishes such a cap, so the structural Pass gate remains untriggered. (The Idea, Defensibility, Key Risks)
+A buyer could license Lyon’s software or build a substitute. Revolut’s internal rollout with NVIDIA and NVIDIA’s public training reference make the build option concrete. The customer-owned models also limit what an acquirer could obtain, and one company-reported benchmark leaves portability across institutions unresolved. These facts weaken the case for paying to own Lyon. The Pass gate remains untriggered because a sale of the reusable software is still plausible and the memo establishes neither a structural barrier to that sale nor a supported price ceiling below the holder’s hurdle. (Defensibility; Market & Traction; Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 13/30 |
+| Counterparty rationale or source of cash | 14/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 9/20 |
+| Milestones and capital needed | 11/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 37/100** (Pass)
+**Total Score: 40/100** (Pass)
 
 ### Decisive diligence question
 
-Can a second institution validate material dollar gains in a paid production deployment against its best available build or license option? Customer-verified gains and deployment costs would move Lyon to Reach out if they show that owning Lyon’s software could give a platform enough incremental value across its customers to support a price near or above the proceeds hurdle.
+What would a decisioning platform pay to own Lyon’s reusable software after a second paid production deployment? Buyer-side economics that quantify the value of owning it over building or licensing, and support a price range reaching the illustrative $88.3 million enterprise-value hurdle, would move the action to Reach out.

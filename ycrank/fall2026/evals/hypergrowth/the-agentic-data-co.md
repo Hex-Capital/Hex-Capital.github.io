@@ -5,26 +5,26 @@
 
 ### Company case
 
-Path B, repeatable sales with account expansion, is the strongest candidate. The first buyer is an AI lab’s speech-model team. The inferred recurring job is to improve turn-taking and interruption handling as models are updated. Open Yap 1K recorded 8,204 downloads in a month, and OpenYap Turn ranked second on an end-of-turn benchmark. These observations establish reach for the free dataset and performance on a relevant technical task. The company says unnamed AI labs buy its data, with buyer commitments, paid conversion, and repeat orders unverified. (*The Idea; Market & Traction; Key Facts*)
+Product-led adoption is the strongest path. Speech-model teams can discover Open Yap 1K, use the free English corpus to evaluate conversational timing, and contact the founders to license the full corpus. The memo records 8,204 monthly downloads and a second-place result for end-of-turn detection on TurnBench. Those observations establish distribution and a technical signal. The company says unnamed AI labs buy its data, but the memo leaves their route to purchase, spending, and workflow changes unverified. (*The Idea*, *Market & Traction*, *Key Facts*)
 
-The growth scenario assumes teams discover Open Yap, test it, license a standard corpus through the founders, and buy additional datasets for later training runs. If licensing rights permit reuse and a lab in a second market can use the same recordings, each additional license could spread collection and review costs across more buyers. If the second market needs different languages or recording rights, the company would need to recruit speakers, adapt consent and usage terms, and repeat screening and linguistic review. The English benchmark leaves multilingual performance untested, and the memo gives no buyer evidence from a second market. (*The Idea; Defensibility; Key Risks; Key Facts*)
+Assuming the existing consent and licensing terms cover a second market, the same corpus could serve teams there that train and evaluate English speech models. Multilingual use may require fresh collection and review. Even with strong fit, the first unproven link is whether labs that find and evaluate the free corpus can convert to a standard paid license with limited founder effort. The next model iteration offers a plausible reason to buy more data, though the memo gives no account-level evidence of repeat use or paid expansion. At this stage, a documented conversion from free evaluation to paid training use would be meaningful. (*The Idea*, *Defensibility*, *Key Risks*, *Key Facts*)
 
 ### Countercase
 
-The free corpus could draw substantial interest while paid demand consists of one-off, custom orders. The memo names another supplier of consented full-duplex audio and gives no evidence of paid renewals or expansion. For each new usable two-speaker hour, the posted payout implies $20 in participant costs before screening and human review. If each buyer needs fresh recordings, those costs recur with volume, alongside any founder sales and licensing work. The memo leaves realized contribution and the extent of corpus reuse unresolved. That supports Watch. The structural Pass gate would require evidence that scaling actually demands proportional or worse effort or cost without a supported path to improvement. (*The Idea; Defensibility; Key Risks; Key Facts*)
+Labs may find the free corpus useful for experiments while reserving budget for one-off datasets tailored to a language or task. The memo estimates speaker payouts at $20 per usable two-person hour before human review, so fresh collection for each buyer could make delivery costs rise with sales. Licensing the same consented corpus to multiple buyers could spread those costs, assuming buyers accept the existing data and the rights permit reuse. Buyer-level pricing and delivery costs are unknown. The structural downside gate does not apply because the memo does not establish that paid sales consistently require bespoke collection. (*The Idea*, *Defensibility*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 9/25 |
+| Global buyer demand | 15/25 |
 | Repeatable acquisition and onboarding | 9/25 |
 | Retention and customer expansion | 7/20 |
-| Contribution as volume grows | 7/20 |
+| Contribution as volume grows | 9/20 |
 | Evidence of fit in the first buyer segment | 4/10 |
 
-**Total Score: 36/100** (Pass)
+**Total Score: 44/100** (Pass)
 
 ### Decisive diligence question
 
-Can an independent speech-model lab in a second geography go from Open Yap to a paid standard license and then place a second paid order for a later training run? A buyer-confirmed purchase history and an itemized breakdown showing positive contribution on the second order after sales, support, and any new collection and review costs would move the action to Reach out. Until then, Watch.
+Can two independent speech-model teams discover Open Yap through its public release, evaluate it on a model run, and buy the same full-corpus license with limited founder time and no fresh collection? Buyer evaluation records, signed licenses, and a record of the work required for both accounts would answer it. Two such conversions would move the action to **Reach out**.

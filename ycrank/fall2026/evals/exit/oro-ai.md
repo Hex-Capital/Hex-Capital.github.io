@@ -5,38 +5,30 @@
 
 ### Company case
 
-A strategic acquisition by an AI lab or an agent-training platform is ORO’s strongest path to shareholder cash. SMB Bench tests whether purchasing agents account for delayed effects such as customers cutting orders after repeated shortages. The memo documents a public dataset with 670 monthly downloads and a gated grader. ORO reports that wholesalers helped calibrate the simulation and that its best model averaged $7,749 in simulated profit versus $10,795 for the scripted expert. These results show what the benchmark can measure. A buyer could have a reason to own the grader and calibration process if they reliably reveal costly errors in live workflows and ownership secures access that a license cannot. The memo provides no buyer validation or quantified savings. (The Idea, Defensibility, Market & Traction, Key Risks)
+Strategic acquisition is the strongest path. An AI training platform or enterprise simulation vendor could pay for SMB Bench’s wholesaler-calibrated buying environment and scripted expert policy. The benchmark measures how decisions affect profit when customer and supplier effects emerge weeks later. ORO reports that the best model averaged $7,749 in simulated profit versus $10,795 for the scripted expert. That gap gives a buyer a concrete evaluation target. The acquisition rationale is that owning the environment could make it faster and cheaper to develop and maintain similar tests across workflows. The memo leaves that benefit unmeasured. (The Idea, Defensibility, Key Risks)
 
-A paid production pilot is a plausible seed-stage milestone. The working benchmark and wholesaler participation support testing it. The financing entries leave available cash, burn, and runway unclear, and the memo provides no funded pilot plan. Gated access establishes control over access today. Transfer rights for the grader and calibration inputs remain unverified. The memo provides no usable price evidence or independently supported fallback that could pay this holder. (Defensibility, Market & Traction, Key Facts)
+ORO launched SMB Bench shortly after its November pivot and reports 859 runs across 16 models in the first week. The memo records 670 dataset downloads in the preceding month. Those signals support the ability to ship and attract research use. A paid deployment in a second workflow could test whether ORO can repeat the operator calibration at a cost that makes ownership attractive. The two reported financing entries leave available cash, runway, and the capital required for that test unclear. ORO controls hosted access to the grader, which gives a buyer an identifiable asset to diligence. Transfer rights for the underlying materials and operator contributions remain unverified. (The Idea, Defensibility, Market & Traction, Key Facts)
 
-The illustrative seed case assumes a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted by 40% to 3%, and no follow-on checks. A 5× gross cash return within eight years requires $2.5 million to the holder, or $83.3 million in distributable equity proceeds under simple pro rata allocation. The hurdle is $125 million at 2% ownership and $62.5 million at 4%.
+The proceeds bridge uses the shared assumptions because the memo leaves holder terms and net debt unknown. A $500,000 check at a $10 million post-money valuation buys 5%, diluted to 3% after 40% relative dilution with no follow-ons. A 5× gross cash return within eight years requires $2.5 million to the holder, or $83.3 million in distributable equity at 3% ownership. The equity hurdle rises to $125 million at 2% and falls to $62.5 million at 4%. With illustrative net debt of $5 million, the 3% case requires about $88.3 million in enterprise value. At year eight, a $25 million sale yields $600,000 gross (1.2×), and a $100 million sale yields $2.85 million gross (5.7×), both before investor taxes and any unverified fees or senior claims. These are scenario prices. The memo provides no evidence for a realizable sale range. If growth plateaus, buyers stay away, public scale remains out of reach, and ORO reinvests all available cash, the holder realizes $0 over eight years absent an eligible secondary or payout and retains the shares. (Market & Traction, Key Facts)
 
-For the sale scenarios below, assume zero net debt and zero other enterprise-to-equity adjustments. The scenarios assume an all-cash sale at closing, with no fees, senior preference deductions, stock, escrow, earnouts, rollover, or compensation. The prices and timing are illustrative assumptions. The applicable investment terms and waterfall remain unverified. (Market & Traction, Key Facts)
-
-| Scenario | Timing | Enterprise value → distributable equity | Holder cash at 3% | Gross multiple |
-|---|---|---:|---:|---:|
-| Modest sale | Year 5 | $50M → $50M | $1.5M | 3× |
-| Strong sale | Year 7 | $100M → $100M | $3.0M | 6× |
-| Prolonged private | Through year 8 | No sale or distribution | $0, shares retained | 0× realized |
-
-The strong sale clears the hurdle at 3% ownership and falls short at 2%, where it pays $2 million. In the prolonged-private scenario, growth plateaus, buyers stay away, public-listing scale remains out of reach, and ORO reinvests available cash.
+The sponsor route lacks evidence of predictable cash flow and buyout financing. A secondary lacks evidence of eligible share demand or sale terms. An IPO lacks evidence of operating scale and resale readiness. Dividends or buybacks lack evidence of sustained distributable cash or a funded payout. (Market & Traction, Key Facts)
 
 ### Countercase
 
-A buyer could obtain the evaluation benefit through hosted access or commission a comparable simulation. ORO publishes its methods and dataset, Veris offers customer-specific environments, and the memo establishes no exclusive rights to wholesaler data. SMB Bench also covers a single purchasing workflow in simulation, leaving the value of owning it for live operations unproven. These facts make ownership demand too uncertain for outreach today. The Pass override remains untriggered because the memo establishes neither a binding price ceiling nor a probable eight-year outcome with no credible route to shareholder cash. (The Idea, Defensibility, Key Risks)
+A buyer could license access, use public benchmark methods to build a comparable test, or use a vendor such as Veris to recreate its own workflows. SMB Bench covers one buying workflow, and the memo establishes no exclusive rights to operator data. That makes the case for paying an acquisition premium weak. The evidence leaves open whether ORO can build a transferable asset that buyers would value above the proceeds hurdle, so the Pass gate is untriggered. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 11/30 |
+| Counterparty rationale or source of cash | 13/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 10/20 |
-| Transaction feasibility | 5/10 |
+| Milestones and capital needed | 9/20 |
+| Transaction feasibility | 6/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 36/100** (Pass)
+**Total Score: 38/100** (Pass)
 
 ### Decisive diligence question
 
-Can a paid production pilot with a prospective acquirer show that owning ORO’s transferable grader and calibration assets would deliver enough incremental value over a license or internal build to support roughly $83.3 million in distributable equity proceeds? Move to Reach out if the buyer validates the workflow benefit and its economics support that price under the applicable holder terms. A pilot that validates demand for hosted access alone keeps the action at Watch.
+Can a paid pilot with a plausible acquirer in a second workflow show that owning ORO’s transferable simulation assets creates enough incremental value over building or licensing to support an acquisition near or above the proceeds hurdle? Pilot results that quantify that advantage and support a price clearing the hurdle would move the action to Reach out. A paid pilot that establishes demand for access alone would keep it at Watch.

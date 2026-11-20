@@ -5,26 +5,28 @@
 
 ### Company case
 
-**Path B — New economies.** HillStar combines procurement specialists with software that checks bids against buyer criteria, normalizes prices, and links findings to source passages. The seed-stage hypothesis is that this reduces the labor needed for a defensible competitive award enough for utilities to run smaller or more frequent solicitations they previously skipped. HillStar reports evaluating 22 bids covering about 19,800 pages in nine minutes and flagging a missing signed price certification in the lowest bid in a separate municipal solicitation. Those reports support the mechanism. The reported seven-day equipment evaluation covers a narrower scope than the prior six-month sourcing and evaluation cycle. Total specialist and committee hours at equivalent award quality remain unknown. (The Idea, Market & Traction)
+**Path B — New Economies.** Utility teams manually read technical proposals and reconcile pricing sheets. HillStar reports evaluating 22 engineering-services bids covering about 19,800 pages in nine minutes. It also reports a seven-day grid-equipment evaluation against a prior sourcing and evaluation cycle of about six months. The first figure measures a processing step, and the second compares different scopes of work. A plausible market-opening scenario is that utilities can competitively source smaller equipment purchases they previously handled without an RFP because evaluation took too much staff time. The memo establishes neither the cost threshold for that use nor a buyer crossing it. (The Idea, Market & Traction)
 
-The reported deployments provide early evidence that utilities will put real solicitations through the workflow. Buyer payment, repeat use, and demand for previously uneconomic solicitations remain unverified. Behroyan’s utility infrastructure experience and Stone’s delivery record at PlanGrid support seed-stage execution. Scaling would require the price per additional solicitation to cover specialist time, review, exceptions, inference, and customer support. The memo supplies no pricing or delivery-cost inputs for that calculation. (Market & Traction, Founders & Team, Key Facts, The Idea)
+The unit to measure is a compliant award. The former cost includes staff time to read bids and reconcile prices. HillStar’s delivered cost includes software and inference, procurement specialists, committee review, compliance checks, and rework. Repeat awards could support viable contribution if HillStar can reuse the workflow while keeping specialist and exception hours low. The memo supplies no realized pricing, labor hours, or cost per award to test that bridge. (The Idea, Key Risks, Key Facts)
+
+HillStar reports that a municipal utility used the workflow before shortlisting, when it surfaced a missing certification in the lowest bid. That signals live buyer use, with payment and repeat demand unverified. The founders’ prior utility infrastructure and software delivery experience, alongside HillStar’s reported deployment in a solicitation involving more than 1,500 developers, supports seed-stage execution. HillStar says it retains evaluator judgments and award rationale across events. Those records could help it retain repeat buyers under model parity if they measurably reduce review work. Buyer preference and switching costs remain untested. (Market & Traction, Founders & Team, Defensibility)
 
 ### Countercase
 
-HillStar may speed up procurements that utilities would run anyway. Enverus already offers overlapping bid analysis inside its sourcing suite. HillStar says it retains buyer-specific judgments and award rationale. That history could make repeat evaluations easier, but the memo leaves buyer preference, migration costs, and retention under model parity untested. With abundant competing capital, HillStar has no evidenced control of equipment allocations, power supply, or a scarce qualification capability that would support a separate Path A case. The overlap makes substitution credible, while both Path B conditions remain open to a field test. That supports Watch at seed. (Defensibility, The Idea, Market & Traction, Key Risks)
+HillStar may speed up RFPs utilities already run while leaving the cost of a compliant award too high for smaller purchases. Enverus already embeds overlapping AI bid analysis in its sourcing suite. If an equivalent workflow preserves the compliance and review outcome, buyers could stay with their incumbent. The memo shows feature overlap and live use, with no observed head-to-head substitution or evidence that a newly viable RFP failed on cost. Both Path B gates remain open and unproven. The memo also leaves control of scarce power, equipment, or procurement capacity unestablished, so Path A offers no independent basis for outreach. (The Idea, Market & Traction, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 10/25 |
-| Durable value capture | 7/25 |
+| Path-specific thesis fit | 12/25 |
+| Durable value capture | 8/25 |
 | Customer demand | 8/20 |
-| Team and execution | 10/15 |
-| Scale economics | 4/15 |
+| Team and execution | 9/15 |
+| Scale economics | 5/15 |
 
-**Total Score: 39/100** (Pass)
+**Total Score: 42/100** (Pass)
 
 ### Decisive diligence question
 
-Will a utility pay HillStar to run a second solicitation in a category it previously skipped on cost grounds after testing a credible alternative with comparable model capability? A paired trial should match award quality and count all specialist, committee, and exception-handling hours. A repeat purchase at a price that covers delivery costs, with the buyer identifying a HillStar-specific reason for choosing it, would support rescoring for Reach out if the score and confidence gates clear. If the labor savings disappear at equivalent quality or the buyer readily switches, move to Pass.
+Will an independent utility pay HillStar to repeat a smaller equipment RFP it previously skipped on cost, after comparing HillStar with a functionally equivalent alternative? Move to **Reach out** if the buyer’s records show that full cost per compliant award fell below its threshold, the repeat price covers HillStar’s delivery costs, and the buyer chose HillStar because its retained award history or specialist execution produced a measurable benefit under parity. Stay on **Watch** if the comparison is inconclusive. Move to **Pass** if a representative test shows the RFP remains uneconomic or the buyer switches and preserves the outcome.

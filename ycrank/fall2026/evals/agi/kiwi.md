@@ -5,28 +5,26 @@
 
 ### Company case
 
-**Path B — New economies** is Kiwi’s strongest path. Kiwi describes syncing GTM data into versioned records, exposing the SQL and data snapshot behind each agent step, and turning reviewer corrections into regression tests. Chen reports spending 20 hours in one week reviewing and fixing agent work at a prior employer. That account identifies a costly workaround. Kiwi’s effect on review time and error rates remains unmeasured in the memo. (The Idea)
+**Path B — New Economies.** Kiwi could make frequent, cross-tool account reviews economical for post-sales teams that currently skip them because verification takes too much staff time. The memo records a public product launch. Kiwi describes showing reviewers the SQL and data snapshot behind each agent step, which could shorten error diagnosis and retesting when source data or workflow rules change. Chen reports spending 20 hours in one week reviewing and fixing agent work at a prior employer. That is an indirect demand signal from a costly workaround. The memo offers no buyer commitment to the proposed use. (*The Idea*, *Market & Traction*)
 
-One plausible scenario is that small post-sales teams could afford daily account reviews they previously did only occasionally. That depends on Kiwi cutting labor per correct, usable review after accounting for approvals, retries, stale data, and query errors. Under cheap model access, teams might still pay if they rely on Kiwi’s accumulated review history to validate changes. The memo describes the replay feature but provides no evidence that buyers would pay to keep it under functional parity. (The Idea, Defensibility, Key Risks)
-
-The memo records an October launch. Chen reports discovery conversations with more than 100 companies, and Kiwi documents terms for paid use and pilots. Buyer commitments, repeat use, and contribution per additional customer remain unknown. The San Francisco team is a plausible seed fit. Chen’s post-sales and data infrastructure experience and Qin’s delivery of a federated SQL engine support their ability to run the next test. (Market & Traction, Key Facts, Founders & Team)
+The scenario assumes a team currently skips recurring account reviews and that frontier-quality models become cheap and widely available. At a fixed accuracy and freshness standard, compare staff time and full cost per successful review under the prior workflow and Kiwi, including setup, workflow maintenance, approvals, retries, and stale-data exceptions. Kiwi’s customer-specific approval and correction history could give buyers a reason to keep paying if they rely on it to validate changes and would have to rebuild that history with a substitute. Buyer preference under model parity and per-team rollout economics remain unmeasured. Chen’s post-sales and data infrastructure experience, Qin’s delivery of a federated SQL engine, and Kiwi’s launch support seed-stage execution. (*The Idea*, *Defensibility*, *Key Risks*, *Founders & Team*, *Market & Traction*)
 
 ### Countercase
 
-Kiwi may reduce the cost of work existing RevOps teams already do while leaving new buyers and transaction frequencies uneconomic. A replayable query can still use the wrong business definition, and a stale source can stop a run. Either can keep human review costs high. HubSpot’s cross-tool account summaries show concrete overlap and give CRM-centered teams an alternative worth testing. The memo does not establish equivalent replay and testing or show that buyers readily switch. Both Path B conditions remain unproven, so the outreach gate stays closed and the thesis override has yet to trigger. Path A has no separate evidence that Kiwi controls a scarce GTM input that well-funded competitors would still need. (Defensibility, Key Risks)
+Kiwi may improve supervision for teams already running GTM agents without making any previously skipped work economical. Replay can reproduce a wrong join or business definition, and stale data can still block a run. HubSpot already supports cross-tool account summaries, giving CRM-centered buyers an alternative for part of the workflow. The memo contains no comparison that establishes equivalent review quality or shows that human oversight erases Kiwi’s savings. Both Path B gates remain open and unproven. (*Defensibility*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
 | Path-specific thesis fit | 9/25 |
-| Durable value capture | 7/25 |
+| Durable value capture | 8/25 |
 | Customer demand | 6/20 |
-| Team and execution | 10/15 |
+| Team and execution | 8/15 |
 | Scale economics | 4/15 |
 
-**Total Score: 36/100** (Pass)
+**Total Score: 35/100** (Pass)
 
 ### Decisive diligence question
 
-Will post-sales teams that previously found daily account reviews too costly repeatedly pay a price that covers Kiwi’s delivery costs when a cheap-model alternative can meet the same quality standard? A paid trial should compare Kiwi with the prior manual workflow and a functionally comparable alternative, counting review, retries, and exceptions per usable review. Repeat paid use at the newly viable frequency, alongside a demonstrated preference for Kiwi under parity, would justify rescoring for Reach out. If the trial shows that review costs still prevent daily use or that buyers readily switch under parity, move to Pass.
+Will an independent post-sales team that previously skipped weekly account reviews renew a paid Kiwi pilot after comparing it with a credible alternative using equivalent models? Move to **Reach out** if the pilot shows that Kiwi cuts fully loaded labor and delivery cost enough to sustain weekly reviews at the required quality, and the buyer renews at a viable price because Kiwi’s accumulated review history makes validation measurably easier. Move to **Pass** if a representative trial shows that the cadence remains uneconomic or that the buyer can switch and preserve the same outcome.

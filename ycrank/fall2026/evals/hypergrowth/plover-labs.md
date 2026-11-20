@@ -5,26 +5,26 @@
 
 ### Company case
 
-**Path B applies through direct enterprise sales with potential account expansion.** The initial buyer is an enterprise engineering team that repeatedly verifies agent-written changes against repository rules and past failures. Fieldguide co-built Forge with Plover and used its checks on agent-written patches in production over a quarter. Fieldguide reported 40% higher total merged PR throughput in that quarter, with flat rollback rates and defect severity. Plover reports five-figure monthly contracts with Fieldguide and Envoy. Fieldguide shows recurring use and a concrete workflow benefit. Envoy adds a reported budget commitment, with its deployment and usage still unknown. Paid expansion and renewal remain unverified. (The Idea, Defensibility, Market & Traction, Key Facts)
+The strongest path is **channel-led or repeatable sales**, through inferred direct sales to enterprise engineering teams. The recurring job is verifying agent-written changes before merge. Fieldguide’s production deployment shows how Plover can turn repository history and past failures into checks that run on subsequent changes. That workflow could serve engineering teams in other markets if Plover can reuse the implementation while adapting the checks to each repository. The memo gives no buyer geography or cross-market rollout evidence. (The Idea, Defensibility, Market & Traction)
 
-The growth scenario assumes Plover can sell the same verification workflow to other engineering teams, reuse the implementation, and expand into more repositories within each account. In a second geography, the same buyer and job are plausible. Portability would depend on whether the core integration can be reused and what changes local security, data-handling, or support requirements impose. Contribution on the next account depends on contract revenue after sales effort, integration, and support. Each added repository may also add check authoring, maintenance, and compute costs. The memo gives a contract price signal and leaves those incremental costs unmeasured. A measured rollout would be more informative than a conversation today. (The Idea, Key Risks, Key Facts)
+Plover reports five-figure monthly contracts with Fieldguide and Envoy. Fieldguide describes recurring production use in Forge’s first quarter, with 40% higher total merged PR throughput, 1.3–1.6× faster merges for Forge-authored PRs, and flat rollback rates and defect severity. Those outcomes describe the joint Forge deployment, so Plover’s individual contribution is uncertain. The quarter establishes repeat use at the cadence of pull requests. Paid expansion and Envoy’s path from sale to production remain unverified. The first link likely to break at scale is onboarding. Fieldguide reached production through a joint implementation, and the effort required to repeat that rollout is unmeasured. (The Idea, Market & Traction, Key Risks)
 
 ### Countercase
 
-Fieldguide’s co-build is the only rollout described in detail. One patch passed component tests while missing a required integration, so Fieldguide added a regression case and kept engineer approval at merge. If each repository requires a similar cycle of manual discovery, check creation, and maintenance, expanding an account could add delivery labor in proportion to revenue while customers keep paying the cost of human review. This is a concrete risk to repeatable onboarding. The memo leaves open whether that effort persists across rollouts and therefore falls short of the Pass gate. (Defensibility, Key Risks)
+Plover may sell a valuable but labor-intensive implementation for each repository. Fieldguide co-built its deployment and added a regression case after a patch passed component tests while missing a required integration. Engineers still approve merges. If each rollout requires comparable custom engineering and ongoing support, new contracts could add delivery work in proportion to revenue. One joint deployment with unmeasured rollout costs leaves the structural downside gate untriggered. (Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 9/25 |
-| Repeatable acquisition and onboarding | 8/25 |
-| Retention and customer expansion | 8/20 |
+| Global buyer demand | 15/25 |
+| Repeatable acquisition and onboarding | 10/25 |
+| Retention and customer expansion | 9/20 |
 | Contribution as volume grows | 7/20 |
 | Evidence of fit in the first buyer segment | 7/10 |
 
-**Total Score: 39/100** (Pass)
+**Total Score: 48/100** (Neutral)
 
 ### Decisive diligence question
 
-Can an independent enterprise buyer in a second geography reach paid, recurring production use through the same rollout process? A deployment record showing reuse of the core integration and measuring sales, setup, and ongoing check-maintenance effort through an added repository would answer it. Reuse with incremental costs that leave room for contribution to improve would move the action to **Reach out**. Evidence that bespoke work grows in proportion to revenue, with no supported way to reduce it, would move it to **Pass**.
+Can a second enterprise buyer, such as Envoy, reach recurring paid production use through a documented rollout that reuses the Fieldguide implementation? A rollout record showing what carried over, who handled the handoff, and how much custom engineering and support the contract added would answer it. A successful handoff with bounded delivery effort relative to contract revenue would move the action to **Reach out**. Evidence that comparable rollouts require custom work in proportion to revenue, with no supported route to reuse, would move it to **Pass**.

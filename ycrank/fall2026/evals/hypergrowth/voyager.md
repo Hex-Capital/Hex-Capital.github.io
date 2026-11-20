@@ -5,28 +5,28 @@
 
 ### Company case
 
-**Path A — Product-led adoption.** The initial buyer is a video editor at a small studio that repeatedly assembles finished videos across generation, sound, and editing tools. Voyager says its desktop agent can generate media and edit project files in installed apps. If the workflow saves enough time, creator demos could bring the next thousand editors to the free download, where they could complete a first project on their own, return for later productions, and eventually pay for a subscription or credit top-ups. The memo records 2.1 million launch-post views and gives no download-to-activation or paid conversion figures. (The Idea; Market & Traction; Key Facts)
+**Product-led adoption** is Voyager’s strongest path. The likely first buyers are independent video editors and small production studios that repeatedly turn briefs into finished videos. Voyager offers a free desktop download and says its agent can generate media and edit project files in tools such as Blender and DaVinci Resolve. The same workflow could travel across markets where editors use supported app versions and can share selected assets with model providers. How often those conditions hold across markets remains unverified. (The Idea, Key Risks)
 
-The strongest fit signal is Evan Schindler’s account of completing *Nightcap* with Voyager, Meshy, and ElevenLabs. He reported 78 generations and $128.99 in generation spend across the workflow. One finished project shows that a user put meaningful effort into testing the workflow. Voyager’s share of that spend, the time it saved, and whether the user returned for a second project are unknown. (Market & Traction; Key Facts)
+The memo records 2.1 million launch-post views and one concrete production example. Evan Schindler reported making *Nightcap* with Voyager and two other tools, using 78 generations and spending $128.99 across the workflow. That shows a creator committed meaningful effort to a finished project. The memo leaves his discovery route, setup effort, payment to Voyager, and use on a subsequent production open. For a recent launch, the first link to test is whether independent editors can get from download to a finished project and pay through the same self-serve flow. (Market & Traction, Key Facts)
 
-**Scenario assumption.** Editors in a second geography use the same creative apps and can follow the same onboarding flow. That would make the core product portable, subject to language, billing, and rules for sending footage to model providers. Each additional workload could add provider charges where Voyager pays for generation, and each new app configuration could add compatibility support. Customer-supplied keys could shift some generation costs to users. The memo provides no cross-market usage or measured cost per activated customer. (The Idea; Key Risks; Key Facts)
+If editors return for their next production, subscriptions and credit top-ups could monetize that repeat use. Bringing their own provider keys could limit some inference costs. The memo provides no repeat-project records or per-account measurements of inference, setup, or support costs. (The Idea, Defensibility, Key Facts)
 
 ### Countercase
 
-Voyager may attract editors for an initial project and lose them to tools already embedded in their workflow. Adobe’s overlapping agent gives Creative Cloud users an in-suite option, and Voyager documents that app versions and permissions affect which controls work. If those differences require hands-on troubleshooting for each studio, the self-serve growth mechanism weakens as volume rises. The memo establishes the compatibility risk, but provides no measured support burden or observed churn that would trigger the structural Pass gate. (Key Risks; Market & Traction)
+The integrations that make Voyager useful could also make self-serve onboarding unreliable. App versions and permissions affect which controls work, and confidential footage can constrain provider use. Adobe’s overlapping agent gives Creative Cloud users an option inside their existing suite. If editors regularly need hands-on setup to finish a project, launch attention may yield few paying customers and each new account may add support work. The memo documents the compatibility constraints and leaves their frequency and cost open, so the structural downside gate does not apply. (Key Risks, Market & Traction)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 9/25 |
+| Global buyer demand | 16/25 |
 | Repeatable acquisition and onboarding | 9/25 |
 | Retention and customer expansion | 7/20 |
 | Contribution as volume grows | 7/20 |
 | Evidence of fit in the first buyer segment | 5/10 |
 
-**Total Score: 37/100** (Pass)
+**Total Score: 44/100** (Pass)
 
 ### Decisive diligence question
 
-Can a cohort of small-studio editors outside the U.S. come through the same creator channel and desktop onboarding as a U.S. cohort, pay Voyager, and complete a second production at positive contribution? Cohort records showing acquisition source, paid invoices, completed projects, onboarding assistance, and acquisition, model, and support costs would answer it. Repeating that pattern across both cohorts would move the action to Reach out. Evidence that each studio requires proportional hands-on work with no credible way to reduce it would move the action to Pass.
+Can several independent editors or small studios from the same launch channel install Voyager, finish a real project, and pay through the same onboarding flow without hands-on setup? Account-level records showing that sequence would move the action to Reach out. If those accounts still need individual setup to reach first value, keep Voyager on Watch.

@@ -5,26 +5,26 @@
 
 ### Company case
 
-**Path B — repeatable sales or partner distribution with account expansion** is the strongest fit. The initial buyer is an infrastructure developer that hires an environmental consultancy to prepare permit applications and handle ongoing compliance. Contour says it plans to acquire consultancies and install Cortex to research rules, calculate emissions, and draft filings while staff retain technical judgment and client work. The growth hypothesis is that each acquired practice brings client relationships, a reusable workflow gets the first paid engagement live, and subsequent compliance work expands the account. The memo records a public launch and provides no evidence of a completed acquisition, paid activation, or customer expansion. (*The Idea*, *Market & Traction*, *Key Facts*)
+The strongest path is channel-led sales through acquired environmental consultancies. Contour says it would install Cortex with on-site engineering support. The software would research rules, calculate emissions, and draft filings while consultants handle technical judgment and client work. The investment case assumes Contour earns service fees and that acquired practices can use their client relationships and a shared workflow to deliver paid engagements. (The Idea)
 
-In a second-country scenario, the same developer job could recur. Cortex would need local rules, calculation methods, filing templates, and qualified reviewers. The economic test is whether fees from the next engagement cover the incremental sales effort, compute, specialist review, and rework, with enough contribution to justify any engineering, integration, and acquisition capital required to enter that market. Reuse across firms could improve those economics, but the memo provides no rollout or cost measurements. (*The Idea*, *Defensibility*, *Key Risks*)
+Power plant developers are a plausible first buyer segment. Air permitting and ongoing compliance give them a recurring job, and emissions calculations and drafting could carry across U.S. states. State-specific rules and review requirements leave the extent of reuse uncertain. The observed milestone is a public launch, and the memo records no buyer commitment, lead-to-paid rollout, or repeat paid work. At launch stage, a buyer-funded engagement would be relevant evidence of fit. For hypergrowth, the first unresolved link is whether a second practice can deliver the same paid service through a repeatable rollout. (The Idea, Market & Traction, Key Facts)
 
 ### Countercase
 
-Contour could buy a book of business with each practice and still have to add specialist capacity in proportion to each new workload. The company’s stated plan includes on-site engineering and ongoing staff review. The memo’s federal air-permit example shows why errors in emissions calculations can create rework before certification. If those costs rise with volume and each geography requires another acquisition, automation may save drafting time without producing operating leverage. The memo establishes the exposure. The Pass gate requires observed evidence of a structural ceiling or proportional costs, which remains unresolved. (*The Idea*, *Key Risks*)
+Contour may have to buy access to each new client base and supply on-site engineers for each rollout. Consultants still need to review technical work, and errors in emissions calculations could add rework before a filing can be certified. If those costs recur with each practice, draft automation may do little to improve contribution. The memo provides no measured rollout effort or marginal costs. The structural downside gate remains open because the cost pattern is a risk inferred from the proposed model. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 9/25 |
+| Global buyer demand | 12/25 |
 | Repeatable acquisition and onboarding | 9/25 |
 | Retention and customer expansion | 7/20 |
 | Contribution as volume grows | 7/20 |
 | Evidence of fit in the first buyer segment | 4/10 |
 
-**Total Score: 36/100** (Pass)
+**Total Score: 39/100** (Pass)
 
 ### Decisive diligence question
 
-Can Contour take an independently won, paying infrastructure developer outside the U.S. from intake through a staff-approved filing using the same core Cortex workflow as a U.S. engagement? Move to **Reach out** if that rollout demonstrates bounded localization and a credible contribution gain after accounting for measured sales, engineering, compute, review, and rework costs, including any acquisition capital needed to serve the buyer.
+Can a second acquired practice in another state use the first practice’s rollout playbook to take a power plant developer from intake to a paid, technically reviewed air-permitting engagement? Move to Reach out if records from both practices show that local staff can run the second rollout with bounded rule changes and that service fees leave a positive contribution after delivery and review, with the capital required to add the practice accounted for. (The Idea, Key Risks)

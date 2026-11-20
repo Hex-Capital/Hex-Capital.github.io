@@ -5,28 +5,28 @@
 
 ### Company case
 
-**Path B — New economies** is the strongest path. Dualizer could make plant bottleneck studies affordable for process teams that currently defer them because engineers must reconcile drawings, operating data, and specialist simulators by hand. Dualizer says Vantage proposes model edits for engineer approval, then KinetIQ solves the physical balances and calibrates the model to plant data. The public calibration demo used synthetic histories with 48 operating points each. It demonstrates the workflow on synthetic data, while the labor required to deliver an equally reliable study on a real plant remains unmeasured. (The Idea, Key Risks)
+**Path B — New Economies.** Process engineers manually reconcile drawings, operating data, and simulator models to assess plant changes. Dualizer says Vantage proposes model edits for engineer approval and KinetIQ calibrates the simulation against plant data. The market-opening hypothesis is that plants could routinely evaluate smaller throughput improvements they previously skipped because the engineering time was too costly. At seed, the comparison is the full cost of an engineer-approved, plant-validated analysis under each workflow, including data preparation, review, retries, exceptions, and software and compute costs. The memo has no measured comparison or documented instance of a plant taking up that previously skipped work. (The Idea, Key Risks)
 
-**Scenario assumption.** A plant starts commissioning smaller, recurring what-if studies that it previously deferred. The transaction becomes viable if a price the plant will pay covers Dualizer’s inference, engineering review, retries, and site-specific model work, and the plant also saves enough staff time to justify the purchase. The expansion unit is the next plant. Reusing a calibrated model could improve margins on follow-on studies at one site, while custom unit models could make each new site expensive to onboard. The memo reports several active pilots with undisclosed payment terms and gives no evidence of paid repeat use or per-site delivery costs. (The Idea, Market & Traction, Key Risks, Key Facts)
+Under model parity, a plant might still pay Dualizer for a calibrated model and operating history it can reuse across decisions. That switching cost is an inference. Dualizer reports an in-house deterministic solver, and the memo records several active industry pilots with undisclosed partners and payment terms. The founders’ process-modeling experience, public demo, and decision to narrow the scope after earlier generalization failures support seed-stage execution. The calibration demo used synthetic plant histories, so field performance remains uncertain. (Defensibility, Market & Traction, Founders & Team, Key Risks)
 
-Dualizer reports an in-house deterministic solver and a workflow that connects calibration to equipment costing and layout. Reusable calibration history could give buyers a reason to stay if they rely on it for recurring decisions. That preference is untested. The founders’ process modeling and control experience, public demo, and decision to narrow the product scope after failed generalization tests support seed-stage execution. Path A has weaker support because plant operators control the physical capacity and Dualizer has yet to demonstrate control of a scarce qualification or simulation capability. (The Idea, Defensibility, Founders & Team, Market & Traction, Key Risks)
+The plausible expansion unit is a plant-site subscription. Contribution depends on whether subscription revenue covers site-specific data integration, custom unit modeling, and ongoing engineering support. The forward-deployed engineering hire signals that site adaptation matters. The memo gives no deployment hours or pricing to judge whether the economics improve across sites. (The Idea, Key Risks)
 
 ### Countercase
 
-Dualizer could make simulation easier for existing users while opening few new transactions. Engineer approval, calibration, and custom modeling could absorb the labor savings. Even if labor falls, ProcAgent can automate existing HYSYS models without requiring migration, and MaximaLabs already offers a deterministic solver with plant calibration. Those alternatives make substitution credible when competitors have access to comparable models. The memo contains no like-for-like field comparison that establishes equivalent outcomes or buyer switching. Both Path B conditions remain open, so the case misses the Reach out gate and warrants Watch while a field test is feasible. (Defensibility, Market & Traction, Key Risks)
+Dualizer could save time on work plants already commission while leaving smaller analyses uneconomic once calibration and review are included. ProcAgent demonstrates conversational automation on existing HYSYS models, which could let plants keep those models, and MaximaLabs offers a deterministic solver with plant calibration. These alternatives leave the model-parity gate open. The memo contains no plant-level comparison establishing equivalent outcomes or showing that buyers switch. Both required conditions remain testable, supporting Watch. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
 | Path-specific thesis fit | 10/25 |
-| Durable value capture | 7/25 |
+| Durable value capture | 8/25 |
 | Customer demand | 8/20 |
 | Team and execution | 9/15 |
 | Scale economics | 5/15 |
 
-**Total Score: 39/100** (Pass)
+**Total Score: 40/100** (Pass)
 
 ### Decisive diligence question
 
-Will a pilot plant pay for a second bottleneck study of a kind it previously deferred after comparing Dualizer with its best available workflow under comparable model access? The milestone is a paid repeat study at a price that covers delivery costs, with equivalent engineering quality and materially fewer total human hours after onboarding, review, retries, and exceptions. The buyer should identify what it values enough to choose Dualizer when the alternative can produce an equivalent result. A successful trial would justify rescoring for Reach out if the total reaches 65 with at least medium confidence. If realistic delivery labor erases the savings or the buyer readily switches at parity, move to Pass.
+Will an independent pilot plant pay to repeat a throughput analysis it previously skipped on cost grounds after trying Dualizer and an incumbent workflow with equivalent model capability? A plant trial that records full delivery costs, validates both outputs against plant data, and leads to a paid repeat order at a price that covers Dualizer’s delivery costs would move the action to Reach out if the buyer can identify what it still values in Dualizer under parity. If the analysis remains uneconomic or the incumbent delivers the same outcome and the buyer switches, close Path B and Pass.

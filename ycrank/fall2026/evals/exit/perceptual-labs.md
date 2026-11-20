@@ -5,36 +5,26 @@
 
 ### Company case
 
-Strategic acquisition is the strongest path. An AI lab or enterprise with editable model weights could pay to own a validated library of model edits, regression tests, and audit tooling if that asset materially reduces the cost of correcting model behavior and is hard to reproduce internally or obtain under a license. The company describes this workflow, and the memo documents a November 17 launch and early-access waitlist. The proposed ownership advantage is an inference. The memo provides no production results for the weight-editing product or evidence of acquisition interest. *(The Idea, Defensibility, Market & Traction)*
+Strategic acquisition is the strongest path. An AI lab with access to its model weights could buy Perceptual’s proposed editing and audit workflow to integrate it into post-training and control how it evolves across model releases. That rationale depends on repeatable savings over retraining and a concrete benefit from owning the workflow. The memo documents an early-access waitlist for the current product. The founders report prior model-training work for Apple and Framer through Bryel Foundry. Those engagements give the team a plausible starting point for a production pilot, while buyer interest, pilot funding, and ownership of the core IP remain unverified. The memo provides no cash-flow evidence for a buyout or payout, no eligible secondary demand, and no evidence of IPO readiness. (The Idea, Market & Traction, Founders & Team, Key Risks)
 
-The founders’ model training and interpretability experience supports a production test. Their reported Bryel Foundry engagements suggest potential pilot access, with conversion to the new workflow still unverified. The relevant milestone is repeatable, auditable edits on production models that preserve unrelated capabilities and reduce cost or time against the customer’s existing workflow. Pilot funding, runway, and timing are undisclosed. Company IP ownership and rights to transfer any customer-derived edit library are also unverified. The memo supplies no independent route to holder cash. *(Founders & Team, Market & Traction, Key Risks, Key Facts)*
-
-**Illustrative proceeds bridge.** With actual investment terms undisclosed, assume a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-on checks. The eight-year objective is $2.5 million in gross holder cash, or 5×. That requires $83.3 million in distributable equity proceeds at 3% ownership, $125 million at 2%, or $62.5 million at 4%. *(Key Facts)*
-
-| Illustrative outcome | Timing | Enterprise value to distributable equity | Holder cash at 3% | Gross multiple |
-|---|---|---|---:|---:|
-| Modest sale | Year 5 | $40M to $40M | $1.2M | 2.4× |
-| Strong sale | Year 7 | $100M to $100M | $3.0M | 6.0× |
-| Prolonged private | Through year 8 | Growth plateaus, buyers stay away, public scale remains out of reach, and available cash is reinvested | $0, with all shares retained | 0× realized |
-
-Both sale scenarios assume cash at close, zero applicable net debt or other price adjustments, and simple pro rata distribution before investor taxes, with no preference or fee deductions. Stock, escrow, earnouts, rollover, and compensation are each assumed to be $0. The prices and timing are scenario assumptions. The $100 million case clears the hurdle at 3% ownership and falls short at 2%, where it returns $2 million, or 4×. The memo supplies no usable price or buyer economics, so the path to a qualifying acquisition remains conditional. *(Defensibility, Market & Traction, Key Facts)*
+The illustrative bridge assumes a $500,000 check at a $10 million post-money valuation, with 5% initial ownership diluted to 3% and no follow-ons. The eight-year 5× target requires $2.5 million gross before investor taxes, or $83.3 million in distributable equity at 3% ownership. That hurdle rises to $125 million at 2% and falls to $62.5 million at 4%. With $5 million of assumed net debt and a pro rata distribution before any incremental fees or senior claims, a $25 million sale at year eight yields $600,000 (1.2×), and a $100 million sale yields $2.85 million (5.7×). The memo provides no basis for pricing either sale or estimating actual deductions. If growth plateaus, buyers stay away, public scale remains out of reach, and available cash is reinvested without an eligible share sale or payout, eight years of private operation yield $0 in realized cash. (Market & Traction, Key Facts)
 
 ### Countercase
 
-A buyer with weight access could build from public methods or license enough overlapping capability to make ownership uneconomic. The memo records public work on mapping and editing model representations, and WeightBench reported that frontier agents failed its model-patching tasks under its test constraints. If Perceptual Labs also struggles to preserve unrelated capabilities, the proposed asset may never offer enough incremental value to justify an acquisition at the required price. The memo leaves both the adequacy of substitutes in production and the likely acquisition price unresolved. Neither Pass override is established. *(Defensibility, Key Risks)*
+A prospective buyer could build from published methods or license overlapping tooling. WeightBench’s reported patching failures under its test constraints also raise the possibility that regression testing erases the expected savings. The founders’ reported results from custom training give limited evidence about the reliability of the current editing product. These risks leave acquisition economics unproven. The memo establishes neither a structural block nor a supported sale price that would trigger the inadequate-proceeds gate. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 10/30 |
+| Counterparty rationale or source of cash | 12/30 |
 | Plausible investor proceeds | 8/30 |
 | Milestones and capital needed | 8/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 33/100** (Pass)
+**Total Score: 35/100** (Pass)
 
 ### Decisive diligence question
 
-Can a prospective acquirer’s production pilot show that owning Perceptual Labs’ technology creates enough incremental value over building or licensing to support the illustrated $83.3 million distributable-equity hurdle? A documented pilot with repeatable, auditable edits, preserved unrelated capabilities, and buyer-validated economics that make that hurdle credible would move the action to Reach out.
+Can a paid production pilot with a lab that controls its model weights demonstrate repeatable savings over its current post-training workflow, with no material regressions, and quantify what ownership would add over a license? Customer-validated results that support a plausible acquisition value above the roughly $88.3 million illustrative enterprise-value hurdle would move the action to Reach out. (The Idea, Market & Traction, Key Risks)

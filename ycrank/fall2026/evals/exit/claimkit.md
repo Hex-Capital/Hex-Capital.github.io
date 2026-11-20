@@ -5,25 +5,17 @@
 
 ### Company case
 
-**Strategic acquisition is the strongest path.** An R&D tax advisory firm could buy ClaimKit to bring continuous evidence collection and specialist-reviewed claim preparation into its own filing operation. Ownership could let the buyer standardize that workflow across its client base and capture the savings directly. That advantage is an inference. Edexia reports lower costs and faster completion, and Fluer reports less report-writing work. ClaimKit reports 80+ clients across three countries within seven months of launch. The Australian terms document software and tax-agent fees. The memo provides no measured buyer savings, repeat-filing economics, or acquisition pricing. (The Idea, Market & Traction, Key Facts)
+Strategic acquisition is the strongest path. A tax advisory firm could buy ClaimKit’s evidence-collection workflow and client relationships to handle more R&D credit filings across the US, UK, and Australia. Edexia reports lower cost and faster completion, and Fluer reports less report-writing work. Those testimonials support a customer benefit. The buyer benefit is an inference that still needs testing through measured reductions in specialist hours. Ownership could justify a premium if the buyer can retain clients and capture savings it could only partly achieve with licensed software. (The Idea, Market & Traction)
 
-The operating milestone is a repeat cohort of paid filings that shows fewer specialist hours per completed claim while maintaining filing quality. Early adoption and the team’s tax and automation experience make that test plausible. The memo leaves its funding and runway open. A buyer would also need to verify that the software, client contracts, and necessary data rights could transfer, given the sensitive records involved. The memo gives no usable evidence on those transaction mechanics or on an independent route to holder cash. (Market & Traction, Founders & Team, Key Risks)
+ClaimKit reports 80+ clients in seven months. Its Australian terms document software and tax-agent fees. That early adoption supports a seed-stage milestone of repeat paid filings with fewer specialist hours per claim while maintaining review quality. Retention, unit economics, and the capital needed to reach that milestone remain unverified. The rights needed to transfer the core software and customer relationships also remain unverified. (Market & Traction, The Idea, Defensibility, Key Risks)
 
-**Proceeds bridge.** The illustrative seed case assumes one $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-on checks. The 5× objective requires $2.5 million in gross cash within eight years. That takes $83.3 million of distributable equity proceeds at 3% ownership, $125 million at 2%, or $62.5 million at 4%.
+Under the shared scenario, a $500,000 check at a $10 million post-money valuation starts at 5% ownership and dilutes to 3%, with no follow-ons. The eight-year 5× target requires $2.5 million in gross cash, or $83.3 million in distributable equity. With illustrative net debt of $5 million, the enterprise value hurdle is $88.3 million. A $25 million sale in year eight yields $600,000 (1.2×), and a $100 million sale yields $2.85 million (5.7×), before taxes and any additional fees or senior claims. At 2% or 4% ownership, the equity hurdle is $125 million or $62.5 million, respectively. ClaimKit’s actual capital structure and a realizable sale price remain unverified.
 
-The sale prices and timing below are scenario assumptions. Both sales assume zero net debt and no other enterprise-to-equity adjustments, so enterprise value equals equity consideration. The assumed waterfall distributes all consideration in cash, pro rata, with no preference or fee deductions. Stock, escrow, earnouts, rollover, and compensation are each assumed to be zero.
-
-| Scenario | Timing | Holder cash at 3% | Gross multiple |
-|---|---|---:|---:|
-| Modest sale at $40 million | Year 5 | $1.2 million | 2.4× |
-| Strong sale at $100 million | Year 7 | $3.0 million | 6.0× |
-| Prolonged private ownership with growth plateauing, buyers staying away, public scale out of reach, and cash reinvested | Through year 8 | $0, with shares retained | 0× realized |
-
-The strong scenario clears the hurdle at 3% and falls short at 2%, where it returns $2 million, or 4×. The memo gives no basis for underwriting either sale price.
+If growth plateaus, buyer interest fails to materialize, public scale stays out of reach, and ClaimKit reinvests all available cash for eight years without a secondary or payout, the holder realizes $0 and retains the shares. Any wind-down recovery would depend on the residual after obligations and preferences, which the memo leaves unquantified. Sponsor financing lacks evidence of predictable cash flow, a secondary lacks evidence of eligible share demand, an IPO lacks evidence of operating scale and readiness, and a dividend or buyback lacks evidence of distributable cash. (Market & Traction, Key Facts)
 
 ### Countercase
 
-An advisory firm could license comparable tools and keep claim review in-house. Neo.Tax already automates credit work from source records, RAD collects evidence continuously, and WhisperClaims sells claim-preparation software to advisers. ClaimKit says its evidence files are exportable, and the memo provides no measured switching costs. With a specialist reviewing every claim, labor savings could also be too small to justify an acquisition premium. This is enough to hold outreach. The memo does not establish that a substitute can match the full workflow at a cost that caps the acquisition price below the hurdle, so the structural Pass override does not apply. (Defensibility, Market & Traction, Key Risks)
+A tax firm can already buy adviser-facing software from WhisperClaims, while Neo.Tax and RAD cover parts of ClaimKit’s automation. Specialist review on every claim may also limit the labor savings a buyer could capture. These are concrete reasons a buyer might choose software over an acquisition. The memo leaves both transferability and the upper end of a realizable sale price unresolved, so the Pass gate remains untriggered. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
@@ -31,12 +23,12 @@ An advisory firm could license comparable tools and keep claim review in-house. 
 |-----------|-------|
 | Counterparty rationale or source of cash | 13/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 10/20 |
+| Milestones and capital needed | 9/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 38/100** (Pass)
+**Total Score: 37/100** (Pass)
 
 ### Decisive diligence question
 
-What acquisition price could an R&D tax advisory firm justify for owning ClaimKit’s workflow after repeat filings establish the savings in specialist time? A buyer-validated comparison of ownership, building, and licensing, grounded in measured repeat-filing results, would move the case to Reach out if it supports a price that could yield about $83.3 million in distributable equity proceeds under the 3% scenario.
+What price range would a strategic tax-services buyer support after seeing repeat paid filings with measured reductions in specialist hours and stable review quality? Buyer-side pricing grounded in those results would move the action to Reach out if the range could clear the cash target under credible ownership and transaction terms. A supported price ceiling that leaves the holder materially short would trigger Pass.

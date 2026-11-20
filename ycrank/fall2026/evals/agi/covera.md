@@ -1,32 +1,32 @@
 ﻿# Covera -- AGI Evaluation
 
-**Action:** Watch  
+**Action:** Watch
 **Evidence confidence:** Low
 
 ### Company case
 
-**Path B — New economies.** Covera’s strongest seed case is that automating intake and carrier-portal entry could let independent property and casualty brokers quote small submissions they currently decline because staff time exceeds the expected commission. That is a scenario assumption. The memo documents a workflow that assembles risk files, prefills carrier portals, and sends results through agency review. Hello Risk estimates it saved about 10 hours a week, which supports the labor-saving mechanism. The estimate leaves open how much labor a completed, accurate quote requires and whether the savings bring previously declined submissions into the market. (The Idea; Market & Traction; Key Risks)
+**Path B — New Economies.** Independent brokers manually chase documents and re-enter risk data across agency systems and carrier portals. Covera automates intake and prefilling, with brokers reviewing the result. Covera reports that Concorde Assurance cut preparation time per client response by 80%. That suggests a potential labor saving on one step. The market-opening scenario is that independent agencies could profitably quote low-commission commercial submissions they currently decline. That scenario depends on savings across the full job, including approval, corrections, retries, and manual entry, per usable quote. (The Idea, Market & Traction, Key Risks)
 
-Hello Risk also reports 155 tasks in two weeks, evidence of repeated workflow use at one agency. The memo records a free tier and a team-assisted trial. Paid conversion, renewals, and demand from brokers serving previously uneconomic submissions remain unknown. The founders previously worked in brokerage and built Simio together through its acquisition. That experience supports their ability to ship the workflow, while reliable operation across carrier portals remains the next execution test. (Market & Traction; Key Facts; Founders & Team; Key Risks)
+Hello Risk reported using Covera for 155 tasks in two weeks, evidence of repeated workflow use at one agency. Paid pricing, repeat purchases, and demand from agencies taking on previously declined submissions remain unverified. The founders previously worked together in brokerage and shipped Simio, and Covera has released its carrier-portal extension. That supports seed-stage execution credit. (Market & Traction, Key Facts, Founders & Team)
 
-For a broker, the proposed new transaction works if expected commission per submission exceeds the cost of intake, review, corrections, and follow-up at equivalent quote quality. For Covera, the expansion unit is the next agency. Its subscription revenue would need to cover inference, onboarding, support, and its share of portal maintenance. Reusing carrier mappings could lower the cost of adding an agency. The team-assisted trial and portal coverage gaps identify costs the memo leaves unmeasured, and paid pricing is unknown. (The Idea; Defensibility; Key Risks; Key Facts)
+With equivalent models widely available, Covera’s best candidate for durable value is its library of carrier mappings and agency-specific workflows. Covera reports connections to more than 100 portals. Reusing mappings could lower the cost of adding each agency, but the economics also depend on maintenance across portals and lines of business, exception handling, and support. The memo leaves onboarding costs, contribution per agency, and buyer preference under parity unmeasured. (Defensibility, Key Risks)
 
 ### Countercase
 
-Covera could make existing brokerage work faster while leaving the same submissions uneconomic once brokers account for manual entry, corrections, and approval. Under model parity, its reported 100-plus carrier connections and documented agency-management integrations could save customers setup work. Agencies use their existing carrier logins, and Broker Buddha already combines agency workflows with embedded commercial rating. With ample capital and the same model capabilities, a rival could fund overlapping integrations. The memo shows neither a scarce access right that supports Path A nor measured retention or willingness to pay under parity. The overlap makes substitution credible, while equivalent coverage and actual switching remain untested. Both Path B conditions are therefore still open, supporting Watch at seed. (Defensibility; Key Risks; Market & Traction)
+Covera may help agencies quote faster on business they already serve. A preparation-time saving can shrink once broker review, corrections, and unmapped fields are included. Broker Buddha with CoverForce already combines application intake and commercial rating, and Covera operates through agencies’ existing carrier logins. That gives buyers a credible alternative for overlapping placements. Full-cost savings on previously declined work and paid preference under functional parity both remain open. The memo establishes neither failed placement economics nor switching under parity, so the path stays open on Watch. (Market & Traction, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 12/25 |
+| Path-specific thesis fit | 11/25 |
 | Durable value capture | 8/25 |
-| Customer demand | 8/20 |
-| Team and execution | 10/15 |
-| Scale economics | 5/15 |
+| Customer demand | 10/20 |
+| Team and execution | 9/15 |
+| Scale economics | 6/15 |
 
-**Total Score: 43/100** (Pass)
+**Total Score: 44/100** (Pass)
 
 ### Decisive diligence question
 
-Can a paid cohort of independent brokers repeatedly quote a class of small submissions they previously declined, at equivalent quote accuracy and with low enough labor cost after review, corrections, and exceptions to earn a contribution, and then choose to keep paying for Covera when offered a comparably capable alternative with equivalent carrier coverage? A positive result would support Reach out if it brought the score to at least 65 with medium or high confidence. A representative trial showing that the submissions still lose money or that brokers readily switch at parity would close Path B and move the action to Pass on the current record.
+Will an independent agency pay to keep using Covera for previously declined low-commission commercial submissions when it can also use a functionally equivalent alternative? A representative paid pilot that leads to repeat use would move the action to Reach out if it shows that expected commission covers the full quoting cost, including Covera’s fee, and the agency chooses Covera for a measurable workflow advantage at comparable quote quality. If the submissions remain uneconomic or the agency switches while preserving the outcome, move to Pass.

@@ -5,36 +5,30 @@
 
 ### Company case
 
-A strategic acquisition is the strongest path. A robot OEM or automation platform could buy Runtime’s simulation-based planner to reduce the time and cost of adapting deployed robots to new manipulation tasks. Owning the planner could be worth more than licensing it if control over the planning stack and exclusive access to feedback from physical deployments produce savings the buyer could not capture under a license. That advantage is an inference. The memo documents a November policy launch and reusable manipulation components with physical verification records. Runtime claims its policy matched or exceeded unnamed models on tasks including rope threading and egg grasping, with trial counts and success rates undisclosed. The memo identifies no deployed fleet generating feedback data. (The Idea, Defensibility, Market & Traction)
+Strategic acquisition is Runtime.si’s strongest path. A robot OEM or deployment-platform vendor could buy Runtime’s simulation-based manipulation planner to reduce the time and cost of adapting robots to new tasks. The memo documents a November policy launch and a RoboSkillHub catalog that identifies skills verified on physical hardware. Runtime reports matching or exceeding unnamed foundation models on tasks including rope threading and egg grasping, with trial counts and success rates undisclosed. The acquisition rationale is inferred. If the planner showed repeatable savings in production, ownership could give a buyer control over its integration and roadmap. The memo leaves that economic benefit and the transferability of the core software and any deployment data unverified. (*The Idea*, *Defensibility*, *Market & Traction*)
 
-The seed milestone is a paid production deployment that measures task-change labor, live planning latency, and reliability against the buyer’s current approach. The launched prototype and the team’s manipulation and controls experience make the test plausible. Runtime says it is still accelerating the live control loop, and the memo leaves financing and runway unresolved. It also provides no usable acquisition price, asset-transfer terms, or independent route to shareholder cash. (Market & Traction, Founders & Team, Key Risks, Key Facts)
+The operating milestone is a paid production trial across changing tasks on a buyer’s hardware. It would measure task-changeover labor and cost against the buyer’s current stack while tracking task success and control latency. Runtime’s launch and reported hardware experiments make a trial plausible. Its early-access plan, unresolved financing, and unquantified integration burden leave the capital and time needed to reach production uncertain. (*The Idea*, *Market & Traction*, *Key Risks*)
 
-**Illustrative proceeds.** A $500,000 check at a $10 million post-money valuation buys 5%, diluted by 40% relative to 3%, with no follow-on checks. The eight-year 5× objective requires $2.5 million in gross cash to the investor, or $83.3 million in distributable equity proceeds at 3% ownership. The hurdle is $125 million at 2% and $62.5 million at 4%. The sale scenarios assume zero net debt, fees, and other price adjustments, so enterprise value equals equity consideration. They assume a pro rata waterfall with no preference adjustments and full cash at close. Stock, escrow, earnouts, rollover, and compensation are each assumed to be $0. The prices and timing are scenario inputs. The memo supplies no buyer economics to support them. (Market & Traction, Key Facts)
+Actual shareholder terms are unavailable. The illustrative case assumes a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-ons. The eight-year 5× target requires $2.5 million in gross cash, or $83.3 million of distributable equity at 3% ownership. The hurdle is $125 million at 2% and $62.5 million at 4%. Assuming $5 million of net debt for both sale scenarios and simple pro rata allocation before investor taxes, a $25 million enterprise-value sale in year eight delivers $600,000 (1.2×), while a $100 million sale delivers $2.85 million (5.7×). The 3% case needs about $88.3 million in enterprise value under that debt assumption. These prices are sensitivities. The memo provides no usable buyer valuation or confirmed debt, fees, or senior claims to model. (*Market & Traction*, *Key Facts*)
 
-| Scenario | Timing | Gross cash to investor | Gross multiple |
-|-----------|--------|------------------------|----------------|
-| Modest sale at $40 million enterprise value | Year 5 | $1.2 million | 2.4× |
-| Strong sale at $100 million enterprise value | Year 7 | $3.0 million | 6.0× |
-| Prolonged private ownership with growth plateauing, buyers staying away, public scale out of reach, and cash reinvested | Through year 8 | $0, with shares retained | 0× |
-
-The strong sale clears at 3% ownership and falls short at 2%, where it returns $2 million, or 4×.
+A growth plateau with absent buyer interest, public-market scale out of reach, and continued reinvestment would leave the holder with $0 realized after eight years and the shares still held. Any wind-down recovery would depend on residual assets after obligations and preferences, which the memo does not quantify. A sponsor buyout lacks evidence of predictable cash generation. A secondary lacks evidence of eligible share demand. An IPO lacks evidence of operating scale and a resale path. A dividend or buyback lacks evidence of distributable cash. (*Market & Traction*, *Key Facts*)
 
 ### Countercase
 
-A buyer could license the planner or build a sufficient substitute using open GPU physics tools. The memo cites a research demonstration of parallel simulation search for physical rearrangement, while Runtime still faces live latency, physical generalization, and integration risks. A substitute that delivers comparable production results could cap what a buyer would pay below the proceeds hurdle. The memo establishes neither production equivalence nor a price ceiling, so the structural Pass override does not apply. (The Idea, Defensibility, Key Risks)
+An OEM could license a manipulation policy or build around open GPU physics tools. Simify’s reported demonstration of parallel simulation search on physical object rearrangement supports the build alternative. Runtime’s planning latency and the risk that simulated actions fail on hardware could erase the savings from less per-task tuning. If a buyer can achieve comparable production economics through licensing or internal development, it has little reason to pay for ownership. The memo establishes neither an equivalent production substitute nor a supported sale price that leaves the holder materially short, so the Pass gate remains open. (*The Idea*, *Defensibility*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 12/30 |
+| Counterparty rationale or source of cash | 11/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 9/20 |
+| Milestones and capital needed | 8/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 36/100** (Pass)
+**Total Score: 34/100** (Pass)
 
 ### Decisive diligence question
 
-Would a robot OEM’s paid production pilot show enough incremental value from owning Runtime’s planner to support an acquisition above the proceeds hurdle? A buyer-validated pilot that quantifies savings and reliability through repeated task changes, with an ownership-versus-license or build analysis supporting at least $83.3 million in distributable equity proceeds at 3% ownership, would move the action to Reach out.
+Can a paid production trial show enough buyer-verified savings to justify acquiring Runtime’s planner? A trial that shows repeatable changeover savings at acceptable success rates and latency, plus a buyer-backed valuation range that could clear the holder’s eight-year cash hurdle on plausible terms, would move the action to Reach out. A technical trial without evidence of acquisition economics would keep it at Watch.

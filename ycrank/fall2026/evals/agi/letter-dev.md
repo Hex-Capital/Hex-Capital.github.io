@@ -5,28 +5,26 @@
 
 ### Company case
 
-**Path B — New economies.** Letter’s strongest seed-stage case is making small, recurring updates economical for teams with Git-based marketing sites that currently defer them. Letterpress-1 turns signals such as search-ranking changes into sandboxed pull requests with live previews. The hypothesis is that this workflow cuts enough engineering and review time to make routine sitemap fixes or landing-page updates worth doing at a higher cadence. The memo describes the workflow and its review controls. It supplies no like-for-like measure of labor per safe, merged update after review, retries, and regression fixes. (The Idea, Key Risks)
+Path B — New Economies. Letterpress-1 turns search and site signals into Git pull requests with live previews. The former workflow requires someone to interpret those signals, implement changes, and review them before deployment. If automating the first two steps saves enough labor per successfully deployed change, small teams with Git-based sites could afford to fix sitemap issues or refresh customer evidence pages they previously deferred. The memo documents a beta launch and describes sandboxing, previews, and merge checks. It provides no measured comparison that includes review, retries, exceptions, and deployment. (The Idea; Market & Traction; Key Risks)
 
-Letter reports more than 100 customers and thousands of pull requests. The memo leaves paid conversion, repeat use, and how many teams gained a previously uneconomic update cadence unknown. The founder’s technical writing agency experience and the shipped beta support seed-stage execution. (Market & Traction, Key Facts, Founders & Team)
-
-The expansion unit is an additional paying team. If a team subscribes at the listed $250 monthly Starter price, its contribution depends on actual inference, sandbox, onboarding, and support costs. Letter’s model-cost-plus-20% pricing for agent runs leaves overall contribution margin unknown. The memo supplies neither realized costs per team nor evidence of how often customers upgrade as usage grows. (The Idea, Key Risks, Key Facts)
+Letter reports more than 100 customers and thousands of pull requests. Those figures support early interest, while paid repeat use by teams that previously deferred this work remains unverified. Founder Mathew Pregasen’s technical writing agency experience and the shipped beta support the team’s ability to build for this workflow. The posted $250 monthly entry plan gives a price to test. Disclosed model-cost-plus-20% pricing and spend caps describe how customers are charged, while contribution per site remains unknown after model and support costs. (Market & Traction; Founders & Team; The Idea; Key Risks; Key Facts)
 
 ### Countercase
 
-Letter may make an existing growth-engineering workflow more convenient while leaving the same buyers and update cadence in place. With cheap, comparable models, teams could use a general-purpose coding agent with their own Git review and preview workflow. The memo identifies partial overlap with general-purpose agents and AirOps. It describes site-specific brand evaluations and automation history as potential switching costs, with no measured switching behavior, retention under parity, or network effects. That leaves both Path B gates open for testing. The memo identifies no scarce capability Letter controls that would support Path A independently. (The Idea, Defensibility)
+Letter may speed up site maintenance that existing teams already fund. Review and regression fixes could absorb enough of the savings to leave previously deferred work uneconomic. Under cheap, widely available frontier models, a rival could combine search signals with a coding agent and Git previews. Letter’s site-specific brand evaluations and automation history offer a plausible reason to stay if recreating them takes meaningful work. The memo identifies overlap with general-purpose coding agents and AirOps, with no observed switching, retention, or buyer preference under functional parity. Both Path B gates remain open for a test. The memo establishes neither market opening nor easy substitution. (The Idea; Defensibility; Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 9/25 |
-| Durable value capture | 7/25 |
-| Customer demand | 7/20 |
-| Team and execution | 8/15 |
-| Scale economics | 5/15 |
+| Path-specific thesis fit | 11/25 |
+| Durable value capture | 8/25 |
+| Customer demand | 8/20 |
+| Team and execution | 9/15 |
+| Scale economics | 6/15 |
 
-**Total Score: 36/100** (Pass)
+**Total Score: 42/100** (Pass)
 
 ### Decisive diligence question
 
-Will teams that previously deferred routine site updates repeatedly pay for Letter when a comparably capable coding agent can deliver updates at the same quality? Run a paid, side-by-side trial with those teams using comparable models. Measure total human time per safe, merged update, including review, retries, and fixes. Check whether teams sustain a higher update cadence and renew at the offered price after trying both workflows. A positive result would support Reach out if the revised score reaches 65 with at least medium confidence. A representative trial showing no newly viable cadence or no willingness to keep paying under parity would close Path B and change the action to Pass.
+Will independent small teams repeatedly pay Letter a viable price for site updates they previously deferred when a functionally equivalent alternative using the same model is available? A paid field trial should compare full delivery cost per successfully deployed update against the teams’ former workflow and observe which product they choose at renewal. Move to Reach out if lower costs unlock repeat work and teams choose Letter under parity at a price that covers delivery. Pass if the comparison shows the work remains uneconomic or teams readily switch while preserving the outcome.

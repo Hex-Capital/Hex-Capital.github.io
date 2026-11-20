@@ -5,25 +5,15 @@
 
 ### Company case
 
-**Strategic acquisition** is the strongest private-company path. A robotics developer could buy Preload to secure exclusive access to a library of synchronized video, touch, and muscle-activation data and control how new demonstrations are collected. Ownership could justify a premium over a license if those data materially improve robot performance and give the buyer a durable lead over teams using available alternatives. The memo describes the missing contact and effort signals in video-only demonstrations. Preload reports preliminary EMG separation of light and heavy handling effort. The benefit to robot task success and the economic value of exclusivity remain inferred. (The Idea, Defensibility, Key Risks)
+Strategic acquisition is Preload’s strongest path. A robotics developer training dexterous manipulation policies could buy its synchronized EMG, tactile, and video capture system and any transferable recordings. The memo documents a working capture rig and an EMG-controlled ProHand demo. Preload reports that EMG distinguished light from heavy handling. A buyer could benefit if those signals improve robot task success, and ownership could make sense if exclusive access to the recordings or control of ongoing collection is worth more than licensing or building a comparable system. The memo leaves that economic benefit unmeasured. (The Idea, Defensibility, Market & Traction)
 
-The memo documents a synchronized capture rig and a ProHand demonstration featuring Preload. Its policy-learning job points to a concrete next milestone on physical robots. A controlled comparison across operators would test whether adding EMG improves task success over video and touch at a collection cost a buyer can justify. The memo supplies no funded test, cost estimate, or runway, and flags wearable fit as a risk to repeatability. It also provides no evidence on IP ownership or whether operator data rights would transfer in a sale. The memo supports no independent route to cash for this holder. (Defensibility, Market & Traction, Key Risks, Key Facts)
+The operating milestone is a controlled test on physical robots showing a repeatable gain in task success from adding EMG to video and tactile data across operators. The working rig and the founders’ EMG experience make the test plausible. Its funding, cost, and timing remain open, as do the rights to transfer recordings and software. The memo also leaves the other routes unevidenced. It supplies no predictable cash generation for a sponsor buyout, eligible share demand for a secondary, operating scale and a resale path for an IPO, or distributable cash for dividends or buybacks. (Defensibility, Founders & Team, Key Risks, Market & Traction, Key Facts)
 
-**Proceeds bridge.** The memo supplies no check terms or usable acquisition pricing evidence. The illustrative seed case assumes a $500,000 total check, 5% initial ownership at a $10 million post-money valuation, 40% relative dilution to 3%, and no follow-on checks. A 5× gross cash return within eight years requires $2.5 million to the holder and about $83.3 million in distributable equity proceeds at 3% ownership. The hurdle is $125 million at 2% and $62.5 million at 4%. (Key Facts)
-
-The sale scenarios assume all consideration is cash paid at closing, zero net debt, and zero other price adjustments or transaction fees, so enterprise value equals distributable equity proceeds. They assume a pro rata waterfall with no preference impact. Stock, escrow, earnouts, rollover, and compensation are each assumed to be $0. Prices and timing are scenario assumptions.
-
-| Scenario | Timing | Gross cash to investor at 3% | Gross multiple |
-|---|---|---:|---:|
-| Modest sale at $40M enterprise value | Year 4 | $1.2M | 2.4× |
-| Strong sale at $100M enterprise value | Year 7 | $3.0M | 6.0× |
-| Prolonged private ownership with growth plateauing, buyers staying away, public scale out of reach, and cash reinvested | Through year 8 | $0, with shares retained | 0.0× |
-
-Even the strong sale falls to $2.0 million, or 4.0×, at 2% ownership. The bridge shows the price a buyer would have to justify. The memo gives no basis for estimating whether Preload’s data could command it. (Defensibility, Key Facts)
+**Proceeds bridge.** With actual terms unavailable, assume a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-ons. The eight-year target of $2.5 million gross cash requires $83.3 million of distributable equity at 3%, $125 million at 2%, or $62.5 million at 4%. Assuming $5 million of net debt, simple pro rata allocation, and no additional deductions, a $25 million enterprise-value sale in year eight returns $600,000 gross (1.2×), and a $100 million sale returns $2.85 million gross (5.7×). The 3% hurdle is about $88.3 million in enterprise value on those assumptions. The memo gives no basis for underwriting a sale price. If growth plateaus, buyers stay absent, public scale remains out of reach, and Preload reinvests all available cash, the holder realizes $0 over eight years and retains the shares. Wind-down proceeds would depend on any residual after obligations and preferences, which the memo gives no basis to estimate. (Defensibility, Market & Traction, Key Facts)
 
 ### Countercase
 
-A buyer could license custom data or build its own collection stack. Preload offers collection and integration, Mecka already synchronizes its own hardware, and other stacks capture touch, depth, or motion. If those options deliver comparable robot performance, a buyer can obtain the benefit without paying for ownership. That is the strongest case for a structural Pass. The memo leaves comparative performance and the value of exclusivity unresolved, so the Pass override does not apply. The modeled $0 prolonged-private outcome is a downside scenario whose likelihood the memo does not establish. (The Idea, Defensibility, Market & Traction, Key Risks)
+A buyer could license custom collection or use an existing capture stack. Mecka builds and synchronizes its own multisensor hardware, and Human Archive already publishes aligned video, depth, touch, and motion data. Preload’s reported effort separation leaves open whether EMG improves physical robot performance enough to justify ownership. That makes a sale price that clears the holder’s hurdle speculative. The evidence establishes neither a structural block nor inadequate proceeds under a supported sale price, so the Pass gate does not apply. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
@@ -31,12 +21,12 @@ A buyer could license custom data or build its own collection stack. Preload off
 |-----------|-------|
 | Counterparty rationale or source of cash | 12/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 10/20 |
+| Milestones and capital needed | 9/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 37/100** (Pass)
+**Total Score: 36/100** (Pass)
 
 ### Decisive diligence question
 
-Can a buyer-funded trial show that Preload’s EMG data improves physical-robot task success across operators enough to make owning the dataset and collection pipeline economically preferable to licensing data or building in-house? A controlled comparison against the buyer’s best alternative, paired with buyer economics that could plausibly support roughly $83.3 million in distributable equity proceeds at 3% ownership, would move the action to **Reach out**. Comparable performance from a readily available substitute would move it to **Pass**.
+Can a buyer-funded pilot show a repeatable improvement in physical robot task success from adding EMG to video and tactile data that makes ownership more valuable to the buyer than licensing? Move to Reach out if the buyer uses that measured gain to substantiate an acquisition price range that clears the holder’s hurdle on plausible ownership terms. (The Idea, Defensibility, Key Risks)

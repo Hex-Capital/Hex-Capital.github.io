@@ -5,26 +5,26 @@
 
 ### Company case
 
-**Path B — Repeatable sales or partner distribution with account expansion.** The first buyer is an independent solar asset manager whose operations team repeatedly investigates faults and coordinates repairs across monitoring portals, spreadsheets, and email. Altenia’s CEO reports that some work went from days to minutes, and TotalEnergies’ solar teams began testing Invertix after its accelerator selection. Those are concrete pre-seed signals of workflow value and buyer engagement. Invertix reports roughly 2 GW of agent coverage. The memo does not establish how much is paid or whether any buyer has expanded after the first deployment. (The Idea, Market & Traction, Key Facts)
+Invertix’s strongest path is **repeatable direct sales** to independent solar portfolio operators. Their recurring job is to investigate alarms, coordinate repairs, and verify that production recovers. The memo records TotalEnergies’ accelerator selection and subsequent testing with its solar teams. Altenia’s CEO reported that some work went from days to minutes, a concrete buyer-reported benefit. Invertix reports roughly 2 GW of assets covered by its agents. The memo gives no account-level payment or repeat-use records for that capacity. (The Idea; Market & Traction; Key Facts)
 
-**Growth scenario.** If referrals from Italian anchor customers repeatedly bring in similar buyers, Invertix could sell fault triage first and expand into technician coordination and post-repair verification across more sites. A U.S. rollout would test whether the same operating model can handle different monitoring systems, data permissions, and approval rules through reusable integrations and configuration. Contribution would improve if portfolio and workflow fees grow faster than the sales effort, integration engineering, support, and model usage required to serve each account. The memo gives no realized fees or rollout costs to verify that assumption. (The Idea, Key Risks, Key Facts)
+If fit strengthens, referrals from anchor customers could bring similar buyers into demos, with one live workflow as the entry point for a wider portfolio rollout. That scenario assumes Invertix can reuse its operational model across buyers while adapting integrations and approval rules. The recurring job plausibly travels across markets. The first link likely to break is onboarding, where Invertix’s engineers currently stage deployments one workflow at a time. At pre-seed, a measured handoff on a paid deployment would help establish repeatability. (The Idea; Key Risks)
 
 ### Countercase
 
-Invertix could deliver substantial time savings and still scale like an integration consultancy. Anchor customers generate referrals, but the memo gives no example of a referral converting through a repeatable sales process. Invertix’s engineers deploy one workflow at a time, and mapping legacy systems and customer procedures could recur with every account. The TotalEnergies test leaves paid cross-market adoption unproven. This evidence supports Watch. The structural Pass gate would require evidence that comparable rollouts keep consuming proportional or greater effort without a credible way to reduce it. (The Idea, Market & Traction, Key Risks)
+Each new portfolio could require substantial engineering to map legacy systems and operating procedures, with customer approval required for plant-control changes. If that work recurs at similar intensity for every buyer, referrals could generate demand while delivery capacity limits growth. The memo gives no implementation hours, handoff results, or marginal delivery costs. The structural downside gate stays open because the evidence leaves reuse and improved contribution testable. (The Idea; Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 12/25 |
-| Repeatable acquisition and onboarding | 8/25 |
+| Global buyer demand | 14/25 |
+| Repeatable acquisition and onboarding | 10/25 |
 | Retention and customer expansion | 7/20 |
 | Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 7/10 |
+| Evidence of fit in the first buyer segment | 6/10 |
 
-**Total Score: 41/100** (Pass)
+**Total Score: 44/100** (Pass)
 
 ### Decisive diligence question
 
-Can an independent U.S. solar asset manager go live on a paid fault-triage workflow using the same deployment process as a comparable Italian account, with less integration effort and positive contribution? A paid rollout with recurring use, documented reuse of integrations, and realized fees above incremental sales, engineering, support, and model costs would move the action to **Reach out**. A pilot without those measurements would keep it at **Watch**.
+Can a non-founder take the next independent solar portfolio operator from demo to paid live use with the same fault-triage workflow and limited customer-specific engineering? A paid go-live with a documented handoff and implementation hours showing that the team reused the core workflow would move Invertix to **Reach out**.

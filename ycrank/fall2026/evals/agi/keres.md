@@ -5,15 +5,13 @@
 
 ### Company case
 
-**Path A — Scarce complements** is the stronger path. The potential bottleneck is affordable, repeatable air-defense capacity for military buyers defending personnel and installations. The memo identifies a cost tradeoff when those buyers use expendable interceptors or crewed aircraft against lower-cost drones. Keres claims Garmur can intercept a threat, return, and fly again. If that claim holds in representative use, one aircraft could deliver multiple successful intercepts and spread its acquisition cost across them. The memo documents no completed intercept and recovery or measured contribution from cheaper intelligence. Path B has weaker support because the memo identifies neither a newly viable transaction enabled by lower delivery labor nor a reason buyers would keep paying Keres under model parity. (*The Idea*, *Key Risks*)
+**Path A — Scarce complements** is the strongest candidate. If cheap frontier intelligence increases the volume of drone threats, military buyers could face a shortage of affordable, repeat-use interception capacity. The memo identifies the cost tradeoff buyers already face when using expendable interceptors or crewed aircraft against lower-cost drones. Keres claims Garmur can return to service after a successful intercept. If repeat use is reliable, Keres could sell qualified capacity that buyers would take time to replace. The memo provides no buyer evidence that AI is increasing demand for that capacity and no verified demonstration of Garmur’s core reuse claim. (The Idea, Defensibility, Key Risks)
 
-The accelerator award shows government interest at a plausible U.S. seed-stage entry. The memo reports no Keres purchase, buyer-funded qualification, or revenue. The founders bring military aviation and jet flight-test and manufacturing experience. That experience supports their ability to attempt the next milestone, while Garmur’s own performance remains unverified. (*Market & Traction*, *Founders & Team*, *Key Risks*, *Key Facts*)
-
-For scale, assume the next site uses the same aircraft and support model. Compare acquisition and site-support costs, turnaround and maintenance, and expected replacement costs per successful intercept at equivalent performance. The cost advantage depends on how many successful intercepts each aircraft delivers, how quickly it returns to service, and how heavily the site uses it. The memo supplies no measured inputs for that comparison or estimate of how many sites could support the economics. (*The Idea*, *Key Risks*, *Key Facts*)
+The accelerator award shows government interest, with the award amount and any procurement commitment unverified. The founders bring relevant military aviation, jet flight-test, and manufacturing experience. The unit of expansion would be an additional qualified aircraft with the support needed to keep it in service. The cost case depends on spreading aircraft acquisition costs across enough successful intercepts after accounting for turnaround, maintenance, and aircraft losses. The memo gives no measured reuse rate, sustainment cost, or realized price to validate that bridge. (Market & Traction, Founders & Team, Key Risks)
 
 ### Countercase
 
-Military buyers already have alternatives. Roadrunner-M can be recovered when unused, and buyers have selected Fortem’s net-capture system and Cambridge Aerospace’s interceptor missile. Those selections show that buyers can commit to other approaches. The memo gives no like-for-like evidence that those systems match Garmur’s claimed post-intercept reuse or that Keres can turn that feature into a durable advantage. With abundant capital and comparable intelligence, competitors could improve hardware and operating support. Keres would still need to show that it controls a capability buyers value and competitors would struggle to reproduce. The alternatives and lack of validated performance keep the Reach out gate closed. A buyer-led comparison could resolve the central uncertainty, supporting Watch. (*Defensibility*, *Market & Traction*, *Key Risks*)
+Existing systems may already cover the missions buyers need at acceptable cost. The memo reports purchases of Fortem’s net-capture system and Cambridge Aerospace’s interceptor missile, while Anduril offers recovery for unused Roadrunner-M aircraft. Those alternatives establish that buyers have other ways to address the problem. Their performance against the same buyer requirements remains unresolved, as does Keres’s ability to secure any durable qualification advantage. This keeps the Path A gate open for a seed-stage test. The memo offers no independent Path B case for a previously uneconomic use opened by lower labor cost. (The Idea, Defensibility, Market & Traction)
 
 ### Dimension Scores
 
@@ -22,11 +20,11 @@ Military buyers already have alternatives. Roadrunner-M can be recovered when un
 | Path-specific thesis fit | 8/25 |
 | Durable value capture | 6/25 |
 | Customer demand | 7/20 |
-| Team and execution | 10/15 |
+| Team and execution | 8/15 |
 | Scale economics | 5/15 |
 
-**Total Score: 36/100** (Pass)
+**Total Score: 34/100** (Pass)
 
 ### Decisive diligence question
 
-Can Garmur clear a defense buyer’s comparative qualification trial by demonstrating repeat post-intercept reuse at a materially lower all-in cost per successful intercept than the buyer’s best available alternative? Buyer-verified performance, measured turnaround and maintenance costs, and a meaningful commitment to further qualification would justify rescoring. Reach out would require credible evidence that Keres can retain the advantage and a score that clears the outreach threshold. If an available alternative meets the same requirement at equal or lower cost and Keres has no credible route to improve, move to Pass. (*Defensibility*, *Key Risks*)
+Will an independent defense buyer commit budget or qualification resources after a representative evaluation shows that Garmur can return to service repeatedly at a viable cost and fill a capacity gap the buyer expects AI-driven drone demand to widen? A documented evaluation against the buyer’s current options, followed by that commitment, would move the action to Reach out. A comparison showing that available alternatives meet the same requirement at viable cost would close Path A and move the action to Pass.

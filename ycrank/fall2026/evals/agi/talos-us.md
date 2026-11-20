@@ -5,28 +5,28 @@
 
 ### Company case
 
-**Path A — Scarce complements.** Talos could preserve usable transformer capacity by giving utilities and plant operators enough warning to intervene before a fault causes an outage. The memo records that transformer unavailability in 2025 was the highest in the five years assessed, that supply constraints prolonged some outages, and that replacement lead times for large transformers can reach four years. Cheaper intelligence could make continuous diagnosis across a fleet more economical. Talos’s ability to turn that diagnosis into actionable warnings remains unverified. (The Idea, Market & Traction, Key Risks)
+**Path A — Scarce complements.** Talos could preserve usable capacity in transformers that are slow to replace. The memo records that transformer unavailability in 2025 was the highest of the five years studied and that supply constraints prolonged some outages. If AI buildout increases load on equipment with limited spare capacity, an early warning could let an operator intervene before a failure and avoid an extended outage. Talos says its retrofit sensors learn each machine’s baseline and flag abnormal behavior. The memo gives no field measurements of confirmed fault detection, warning lead time, or false alarms. The capacity constraint is documented, while Talos’s ability to relieve it remains unproven. (*The Idea*, *Market & Traction*, *Key Risks*)
 
-Talos reports deployment across more than 40 assets and partnerships with utilities, plant owners, and national labs. Those reports support early field access. Buyer commitments, payment, and fleet expansion remain unverified. At seed, the Baltimore team’s experience in utility predictive maintenance and applied machine learning supports a field qualification effort. The memo leaves utility qualification execution unverified. (Market & Traction, Founders & Team, Key Risks)
+Talos reports deployments on more than 40 assets. That indicates progress installing hardware in the field, supported by Kohli’s prior work in utility predictive maintenance and Hwang’s experience with machine learning for sensor signals. The reported partnerships with utilities, plant owners, and national labs provide an early demand signal, with buyer budgets and repeat orders unknown. Machine-specific baselines could give Talos an operating advantage if they improve detection over time, but the memo leaves fault labels and data reuse rights unresolved. (*Market & Traction*, *Founders & Team*, *Defensibility*)
 
-**Scale scenario.** If operators buy monitoring per asset, fleet expansion could build recurring revenue. The economics depend on whether avoided downtime justifies the price and whether each additional installation covers hardware, installation, support, and alert review. The memo supplies no pricing, deployment costs, or rollout throughput to establish that bridge. Path B lacks evidence that automation makes monitoring viable for a previously uneconomic buyer or use. (The Idea, Key Facts)
+Under an assumed per-asset hardware and monitoring contract, fleet expansion would require revenue per asset to cover hardware, installation, and ongoing support. Buyers would need expected outage savings to exceed the contract cost and the labor spent investigating alerts. The memo provides neither realized pricing nor measured delivery costs, leaving the economics of repeat deployments untested. (*The Idea*, *Key Risks*, *Key Facts*)
 
 ### Countercase
 
-Well-funded incumbents already sell continuous transformer monitoring and could add external sensors to products they sell through existing channels. With cheap models available to everyone, Talos would need a field advantage that survives that response. Equipment-specific baselines could help, and confirmed fault labels could make diagnosis improve across deployments. The memo leaves fault-label coverage, reuse rights, and comparative field performance unknown. Current evidence falls short of the Reach out gate. Incumbent products make substitution credible, while equivalent performance on Talos’s target assets remains unproven. (Defensibility, Market & Traction, Key Risks)
+Transformer scarcity may increase the value of monitoring that utilities can already buy. GE Vernova and Camlin offer continuous transformer monitoring, and Camlin could reach the same buyers through Siemens Energy’s transformer business. If those systems provide equally actionable warning, or if Talos’s external sensors trigger too many unnecessary inspections, Talos has little basis for durable value capture. The memo establishes credible substitutes but contains no head-to-head field evidence of equivalence, so the path remains open. (*Market & Traction*, *Defensibility*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 13/25 |
+| Path-specific thesis fit | 12/25 |
 | Durable value capture | 8/25 |
-| Customer demand | 8/20 |
+| Customer demand | 7/20 |
 | Team and execution | 9/15 |
-| Scale economics | 4/15 |
+| Scale economics | 5/15 |
 
-**Total Score: 42/100** (Pass)
+**Total Score: 41/100** (Pass)
 
 ### Decisive diligence question
 
-Can Talos earn a paid fleet expansion by outperforming the utility’s current monitoring in a representative head-to-head qualification? The utility should confirm actionable warning lead time on verified faults at an acceptable false-alarm rate. A paid expansion with rights to reuse confirmed fault data would support Reach out if the results also show a defensible advantage and lift the score to the required threshold. Comparable incumbent performance at comparable installed cost, with no credible remaining advantage for Talos, would move the action to Pass. (Defensibility, Key Risks)
+Will an independent utility place a paid fleet expansion order after a representative side-by-side trial shows that Talos provides materially earlier actionable warnings on confirmed faults at a false-alarm workload the utility can sustain? A qualifying trial and paid expansion would move the action to **Reach out**. Comparable warnings from the incumbent, or investigation costs that erase the benefit, would move it to **Pass** on the case presented. An inconclusive trial would leave it at **Watch**.

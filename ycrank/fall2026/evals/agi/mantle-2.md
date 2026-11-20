@@ -5,28 +5,28 @@
 
 ### Company case
 
-**Path B — New economies** is Mantle’s strongest fit. Mantle says it uses machine records and AI to resolve faults remotely, then sends a trained technician with the right parts and live expert support when a visit is needed. One plausible scenario is a small, dispersed U.S. fleet operated by an overseas machine builder. If Mantle reduces engineer travel and total labor per successful repair while matching the builder’s service quality, that fleet could afford ongoing coverage at a flat monthly fee. The memo provides no like-for-like labor comparison or evidence that a live customer previously went without comparable coverage. (The Idea, Key Risks)
+**Path B — New Economies.** A plausible first market is machine builders with fleets too dispersed to justify local service staff. Mantle says these builders fly engineers to breakdowns, retain local staff, or hire shops unfamiliar with their equipment. It proposes using machine records and AI to resolve faults remotely, then sending trained technicians with the right parts and live expert support when needed. The scenario assumes that remote fixes and less specialist travel make recurring coverage affordable for fleets that previously went without it. The memo gives a concrete workflow but provides no measured labor savings or example of a buyer gaining coverage for the first time. (The Idea)
 
-**Company claims** include multiple live customers, more than 250 field technicians, and regional parts hubs. These support an early service operation, with payment, repeat demand, and technician availability by machine and region still unverified. **Observed in the memo:** Mantle launched in November 2026. White’s prior service-network work and Smith’s experience developing and servicing automated equipment support a seed-stage assessment of execution. (Market & Traction, Defensibility, Founders & Team)
+With equally capable diagnostic models available to rivals, a buyer could still pay Mantle to get the right technician and part on site and restore the machine within an agreed response time. Mantle reports regional parts hubs and says it updates machine-specific procedures after service visits. Those are credible ways to improve field execution, but the memo provides no measured improvement in repair times or first-visit fix rates. Mantle also reports multiple live customers, with payment, repeat use, and prior access to coverage unverified. White helped set up Tesla’s European Model 3 service network, and Smith developed automated farming systems at Babylon Micro-Farms. Both backgrounds are relevant to delivering a seed-stage field test. (Defensibility, Market & Traction, Founders & Team)
 
-With cheap, comparable AI, an OEM could reproduce the diagnostic layer and would still need a qualified technician, the right part, and a timely repair. Mantle could retain the account if its field operation delivers those reliably enough that switching carries a cost. The next unit of scale is a covered machine within a service region. Its monthly fee must cover remote and expert labor, dispatch and repeat visits, parts, and a share of onboarding, training, and depot costs. More covered machines in a region could spread those costs. The memo provides no regional utilization or per-machine contribution figures to test that assumption. (The Idea, Defensibility, Key Risks)
+The expansion unit is a covered machine in a service region. At comparable uptime and fault mix, the cost comparison should include technician and expert hours, travel, diagnostic review, repeat visits, parts, onboarding, and depot overhead per successful repair. Mantle’s quoted monthly fee per machine gives it a way to sell recurring coverage. Viable contribution at that fee depends on local fleet density and how often repairs require extra visits or expensive parts. The memo gives no realized cost or utilization data. (The Idea, Key Risks)
 
 ### Countercase
 
-Mantle could be improving an existing maintenance service without making coverage viable for a new segment. Expert escalations, repeat visits, and parts usage could erase the labor savings and squeeze fixed-fee margins. Roboworx already combines nationwide robot field service with predictive analytics, making it plausible that well-funded rivals with the same AI could assemble comparable coverage. Path A has no independent showing that Mantle controls scarce repair capacity. The memo leaves both Path B conditions open, so the override does not close the path. The missing evidence keeps Mantle below the outreach gate even at seed. (The Idea, Defensibility, Market & Traction, Key Risks)
+Mantle could be selling a more convenient version of existing maintenance, with AI savings absorbed by expert escalation, repeat dispatches, and parts. The memo documents that Roboworx already offers nationwide robot field service and predictive analytics. That overlap makes substitution credible, especially for robot fleets, while leaving open whether a rival can match Mantle on mixed equipment at comparable cost and response times. Neither market opening nor durable capture clears the Reach out gate. The memo contains no direct field comparison that closes Path B, and it establishes no independently supported scarce complement for Path A. (Market & Traction, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 12/25 |
-| Durable value capture | 9/25 |
+| Path-specific thesis fit | 10/25 |
+| Durable value capture | 8/25 |
 | Customer demand | 7/20 |
-| Team and execution | 10/15 |
-| Scale economics | 7/15 |
+| Team and execution | 8/15 |
+| Scale economics | 6/15 |
 
-**Total Score: 45/100** (Neutral)
+**Total Score: 39/100** (Pass)
 
 ### Decisive diligence question
 
-Can Mantle win and retain paid coverage for small, dispersed OEM fleets that previously could not justify comparable service? A paid field trial should compare total human labor and cost per successful repair at equivalent service quality, including escalations, parts, and repeat visits. It should also show that buyers renew or expand at a contribution-positive price when offered a credible service alternative with comparable AI, and that they choose Mantle for its field execution. A result that establishes both conditions and raises the score to the outreach threshold would change the action to Reach out. A representative trial that shows either condition fails would close Path B and change the action to Pass on the current evidence.
+Will an independent machine builder renew paid coverage for a dispersed fleet that previously could not afford it, after comparing Mantle with a provider using equally capable diagnostics? A representative field trial should pair that renewal with service logs showing lower labor and full cost per successful repair than the builder’s prior breakdown response, positive contribution at the renewal price, and a measured response-time or repair advantage tied to Mantle’s technician and parts operations. That result would move the action to Reach out. A representative trial showing that coverage remains uneconomic or that an equivalent provider can deliver the same service on comparable terms would move it to Pass.

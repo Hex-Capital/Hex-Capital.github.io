@@ -5,28 +5,26 @@
 
 ### Company case
 
-**Path A — Scarce complements.** Liquid Energy could sell inference capacity to platforms that need GPUs serving traffic before grid-connected capacity becomes available. The NanoDC combines GPUs, fold-out solar, batteries, cooling, and a satellite link. The memo documents the November launch. The months-long waits, four-week deployment, and 30-minute activation are company claims, and the memo records no confirmed customer go-live. The seed-stage test is whether a module can deliver usable inference sooner than a buyer’s best feasible alternative. The memo provides no evidence of an automation-led market opening under Path B. (The Idea, Market & Traction, Key Risks)
+**Path A — Scarce complements.** Liquid Energy’s NanoDC combines GPUs, fold-out solar panels, batteries, air cooling, and a satellite link in a factory-built module. The investment case is that if cheap frontier models drive more inference demand, buyers facing months-long capacity waits may pay for usable compute sooner. A self-powered module could bypass the grid connection delay, and Liquid Energy’s stated model is to own and deploy the hardware and sell the resulting capacity. The memo documents the November launch. Four-week deployment, 30-minute activation, and agreements with unnamed inference platforms are company claims. Buyer commitments, live deployment, and sustained token throughput remain unverified. (The Idea; Market & Traction; Key Risks)
 
-Liquid Energy’s ownership and operation of the modules gives it direct control over the capacity it supplies. The company-reported patent-pending cooling offers a possible advantage whose performance and protection remain unverified. Reported agreements with unnamed inference platforms offer an early demand signal, with buyer commitments and payment terms undisclosed. The founders bring relevant software, supply-chain, and contracting experience, and the company reports 20 completed units on hand. Field deployment remains unverified. Pre-seed backing makes the stage plausible, while the Canadian base leaves geographic fit open under the primarily U.S. strategy. (The Idea, Defensibility, Market & Traction, Founders & Team)
-
-**Scale scenario.** If the company’s modeled $1,500 in annual compute revenue per NanoDC is realized at commodity token prices, annualized hardware and deployment costs, connectivity, maintenance, and any distribution fees must total less than $1,500 per unit for positive contribution before corporate overhead. Realized pricing, billable utilization, and per-unit costs remain unknown. The target of increasing factory output from 2 to 20 MW per month describes a manufacturing ramp. Profitable expansion depends on how much of that capacity becomes billable. (Key Facts, Market & Traction, Key Risks)
+The NanoDC is the unit of expansion. At the company’s assumed commodity token pricing, modeled gross compute revenue is about $1,500 per unit-year, or $125 per month. That revenue would need to cover site, connectivity, and maintenance costs and recover the cost of the GPUs, batteries, and other hardware over their useful lives. The memo gives no realized price, utilization, or unit cost to show that this works. The targeted increase from 2 to 20 MW of monthly production would matter economically only if deployed units earn enough to fund repeat builds. (Key Facts; Key Risks)
 
 ### Countercase
 
-With abundant capital, competitors could supply the same usable inference through site-scale solar and storage or other modular GPU deployments. Greenference and Armada already market relevant alternatives. Cheap frontier models would still need powered hardware to serve traffic, but buyers could switch if another supplier matches NanoDC’s time to service, uptime, and delivered cost. Unmeasured battery autonomy and dependence on Starlink could erode the claimed deployment advantage. The memo establishes credible alternatives and operating risks, while leaving buyer-level equivalence unresolved. That keeps the Path A override open and the outreach gate unmet. (Defensibility, Market & Traction, Key Risks)
+Buyers could obtain comparable capacity from Greenference’s solar-and-storage containers or another modular provider such as Armada. Liquid Energy’s integrated solar array could shorten setup, but battery autonomy or satellite interruptions could erode that advantage once the buyer measures delivered tokens against its service requirements. The reported patent-pending cooling design offers limited evidence of protection. The alternatives are credible, and the memo leaves their equivalence untested. At pre-seed, that supports Watch pending a representative buyer trial. (The Idea; Defensibility; Market & Traction; Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 10/25 |
-| Durable value capture | 7/25 |
+| Path-specific thesis fit | 11/25 |
+| Durable value capture | 8/25 |
 | Customer demand | 6/20 |
-| Team and execution | 7/15 |
+| Team and execution | 8/15 |
 | Scale economics | 5/15 |
 
-**Total Score: 35/100** (Pass)
+**Total Score: 38/100** (Pass)
 
 ### Decisive diligence question
 
-Can an independent inference platform qualify and commit to paying for NanoDC capacity at a site where its best feasible alternative would arrive materially later? A representative deployment should measure sustained billable token throughput and uptime through overnight and low-solar periods, document the buyer’s alternative, and show positive unit contribution at the contracted price. A paid commitment supported by those results and evidence Liquid Energy can retain the advantage would move the case toward Reach out, subject to the score, confidence, and mandate gates. A representative result showing equivalent supply on comparable terms would move the case to Pass if it eliminates the off-grid advantage.
+Will an independent inference buyer commit to paid follow-on capacity after a field trial shows that NanoDC can start serving its workload sooner than the buyer’s best available alternative, meet its throughput and uptime requirements through day-night cycles, and do so at a price that covers operating costs and supports hardware payback? A trial that meets those conditions and earns the commitment would move the action to Reach out. A trial showing that the buyer can get equivalent service just as soon on comparable terms would close Path A and move the action to Pass. (The Idea; Market & Traction; Key Facts; Key Risks)

@@ -5,26 +5,28 @@
 
 ### Company case
 
-**Path B — New economies** is Fire Wallet’s strongest case. As AI agents make more API calls, developers could buy individual responses that are too cheap to bill through their current payment workflow. Fire’s proposed workflow gives agents funded accounts with spending limits and revocation, then settles each request privately in eUSD. Fire reports a mainnet test that returned a paid response in under two seconds and lists a $0.00256 network fee. Assuming one network fee per successful call, that fee alone would consume 25.6% of a one-cent payment. The test supports technical feasibility. Whether automation opens a market depends on how much human work remains after integration, funding, compliance, and failed payments are counted. (*The Idea*, *Defensibility*, *Key Risks*)
+**Path B — New Economies.** Fire’s strongest case is that agents could buy individual API responses that developers previously left unmetered or unavailable for small purchases. Fire says card fees make small charges impractical and that its funded, revocable agent accounts can enforce spending limits while e402 settles requests privately. Fire reports one mainnet test that returned a paid response in under two seconds. That supports technical feasibility at seed. Whether the workflow lowers labor enough to open a market remains unmeasured. (The Idea, Defensibility)
 
-Fire reports a signed Trustboop LOI and a separate enterprise customer onboarding. The roughly $1.5M per month is that customer’s existing volume, and the estimated $100M per year represents potential volume from introductions. Repeat paid API use by newly served buyers remains unverified. Fire advertises zero Fire fees on e402, leaving willingness to pay Fire and contribution per transaction unresolved. The founders’ prior work on MobileCoin, which Signal integrated, supports seed-stage execution credit. Running a live merchant integration through payment exceptions remains the next operating test. (*Market & Traction*, *The Idea*, *Founders & Team*, *Key Risks*)
+**Scenario assumption.** If an API provider charges 1¢ per response and each successful response requires one settlement, Fire’s advertised $0.00256 network fee consumes 25.6% of the price. Relative to card checkout with manual spending approvals, the potential labor savings would come from automating approvals and reconciliation. The full cost per successful response also includes retries, exceptions, conversion, compliance, and API fulfillment. Fire advertises zero e402 fees, so even if the buyer’s cost falls enough to support repeat purchases, Fire’s own contribution economics remain unresolved. (The Idea, Key Risks)
+
+Fire reports a signed Trustboop LOI and an enterprise merchant onboarding. The merchant’s roughly $1.5 million in monthly volume describes its existing business. Recurring paid agent API use remains unverified. The memo records that two founders worked on MobileCoin, which Signal integrated, and that Fire offers a WordPress beta. The listed iPhone wallet is Ethereum-only. The team has relevant payments experience, with live merchant integration still a milestone. (Market & Traction, Founders & Team, Key Risks)
 
 ### Countercase
 
-Crossmint already offers programmable wallets and per-request payments, Hinkal offers confidential settlement, and Fire documents how merchants can accept e402 alongside x402. With ample capital and equally capable models, competitors could offer similar payment features while merchants keep multiple options open. Fire’s spending policies and integrations could become reasons to stay, but buyer preference under functional parity remains untested. The memo establishes Fire’s use of MobileCoin and leaves control of any scarce payment capability unproven, so Path A has no separate supported case. The alternatives make substitution credible without establishing that buyers would switch. Path B remains open, with both decisive conditions unproven. (*Market & Traction*, *Defensibility*, *Key Risks*)
+With the same frontier model, an agent could use another payment stack. Crossmint already offers programmable agent wallets and per-request payments, Hinkal offers confidential merchant settlement, and Fire documents how merchants can accept e402 alongside x402. Fire could still earn preference if merchants value the combination of private settlement and delegated spending controls enough to pay for it. The memo offers no buyer comparison or evidence of switching costs, and it identifies no control over scarce payment capacity that would independently support Path A. The cost and model-parity gates remain open. A seed-stage pilot can test both, which supports Watch. (The Idea, Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 11/25 |
-| Durable value capture | 6/25 |
+| Path-specific thesis fit | 10/25 |
+| Durable value capture | 7/25 |
 | Customer demand | 7/20 |
-| Team and execution | 9/15 |
-| Scale economics | 4/15 |
+| Team and execution | 8/15 |
+| Scale economics | 5/15 |
 
 **Total Score: 37/100** (Pass)
 
 ### Decisive diligence question
 
-Will independent API buyers who previously could not justify per-request billing repeatedly pay Fire for live transactions when they can choose a functionally equivalent setup using equally capable models? A paid comparison trial would need to show lower human labor per successful request at equivalent quality, repeat purchases from those buyers, and a price that leaves Fire positive contribution after delivery and exception costs. A result that establishes both Path B conditions and raises the score to at least 65 at medium or high confidence would move the action to **Reach out**. If the labor savings disappear or buyers switch freely at parity, move to **Pass**.
+Will an independent API provider and an agent customer that previously went without per-request access sustain paid usage in a pilot that compares Fire with the previous workflow and the best available payment substitute using the same agent model? Move to Reach out if measured labor and full delivery costs make the new use viable and the buyer chooses Fire at a price that supports positive contribution. Move to Pass if a representative pilot shows that the use remains uneconomic or that the buyer can switch and retain the outcome without a reason to pay Fire. (The Idea, Market & Traction, Key Risks)

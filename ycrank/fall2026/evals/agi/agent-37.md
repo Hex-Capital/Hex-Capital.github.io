@@ -5,28 +5,28 @@
 
 ### Company case
 
-**Path B, New economies, is the strongest path.** Cheap intelligence makes a dedicated agent useful to more clients. Agent 37 could make it economical for an agency to sell each small client a persistent agent by automating environment setup and maintenance. The product provisions isolated environments, boots preconfigured agent software, and preserves state across sessions. Boon reported that its monthly cost per agent fell from $85 to $4.94. That supports the hosting-cost mechanism. The memo leaves open whether the comparison held service quality constant and how much labor remained for review, retries, and exceptions. (The Idea; Market & Traction)
+**Path B — New Economies.** Agent 37 could make dedicated agents economical for agencies and software vendors whose smaller accounts cannot justify manually provisioning and maintaining a separate environment. The documented product automates provisioning through an API and preserves customer state across sleep cycles. Boon reported that monthly cost per agent fell from $85 to $4.94. That comparison supports a lower cost per deployed agent, with the scope of the reported costs unclear. The market-opening test is whether the savings hold per successful customer outcome after accounting for provisioning, maintenance, review, retries, and exceptions, and whether they let buyers serve accounts they previously declined. (The Idea, Market & Traction)
 
-ETEC+ reported moving more than 30 existing clients onto its branded agent service, and Vision reported switching infrastructure providers. Those deployments show early demand. Payment and repeat use among previously uneconomic buyers remain unverified. Boon’s integration of provisioning and scheduled runs into its own app provides early evidence of switching friction. Whether buyers would keep paying Agent 37 when competing hosts offer the same models, workflows, and service quality remains open. (Market & Traction; Defensibility)
+ETEC+ reportedly migrated more than 30 existing clients to its branded agent service, a meaningful seed-stage deployment commitment. Repeat paid use for newly economical accounts remains unverified. Agent 37 shipped multi-harness Cloud after its OpenClaw-only product, demonstrating progress on runtime breadth. Production reliability across repeat deployments remains unverified. (Market & Traction, Key Risks)
 
-The founder released Minions and expanded the hosting product from OpenClaw to multiple agent harnesses, demonstrating relevant delivery at seed. **Scale scenario.** If 1,000 additional sandboxes generated the founder-reported average of $0.37 each per month, they would bring in $370 monthly. Positive contribution would require the incremental cost of rented capacity, storage, and support to come in below that amount. Host utilization and the share of workloads requiring a higher-priced full VM are unmeasured. (Founders & Team; Market & Traction; Key Facts; Defensibility; Key Risks)
+The expansion unit is a persistent sandbox billed for running minutes and disk. The founder-reported average of $0.37 per Cloud sandbox per month makes contribution sensitive to host utilization, storage, and support costs. The memo gives the billing model and a usage-based revenue signal, while leaving those delivery costs unquantified. (The Idea, Key Facts)
 
 ### Countercase
 
-Agent 37 could be a low-cost way to host work customers already do. ETEC+ brought existing clients, and Boon already had a provisioning pipeline. With capital and capable models widely available, rivals could rent comparable servers and package similar workflows. AWS already offers isolated agent sessions, and Agent 37 attributes its cost advantage to commercial server rentals, shared resources, and workload optimization. The memo identifies no controlled scarce input that would support Path A. For Path B, the evidence leaves both market opening and paid preference under parity unresolved. The overlap warrants Watch because it has yet to establish equivalent delivery or easy switching. (The Idea; Market & Traction; Defensibility; Key Risks)
+The reported savings could improve margins on work customers already serve. Under the scenario assumption that rivals have the same frontier models and can match the required runtime functions, buyers might still pay Agent 37 to avoid rebuilding provisioning workflows and migrating customer state. Boon’s integration makes that friction plausible, while retention and willingness to pay under parity remain untested. Overlapping runtimes and commercially rented servers also leave Path A without evidence that Agent 37 controls scarce capacity. For Path B, the evidence leaves both required conditions open and supports Watch. Confidence is low because the decisive economics and buyer behavior rest mainly on testimonials and inference. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 12/25 |
-| Durable value capture | 8/25 |
-| Customer demand | 10/20 |
-| Team and execution | 9/15 |
+| Path-specific thesis fit | 13/25 |
+| Durable value capture | 9/25 |
+| Customer demand | 11/20 |
+| Team and execution | 10/15 |
 | Scale economics | 6/15 |
 
-**Total Score: 45/100** (Neutral)
+**Total Score: 49/100** (Neutral)
 
 ### Decisive diligence question
 
-Can a matched paid trial show that agencies can profitably serve small clients they previously could not, and that those agencies renew with Agent 37 when an alternative offers the same model and workflow at comparable quality and price? Measure labor per successful delivery, including review, retries, and exceptions, alongside hosting costs and renewals at sustainable pricing. Positive contribution and repeat paid preference would support Reach out if the updated score and confidence clear the outreach gates. If fully loaded costs erase the market opening or buyers readily switch under parity, move to Pass.
+Will an agency place a paid repeat order at a price that leaves Agent 37 positive contribution for accounts the agency previously declined on cost, after comparing the full cost per successful outcome with manual delivery and trialing a functionally equivalent runtime using the same model? A repeat order backed by measured labor savings and a specific reason to stay would move the action to Reach out. A representative trial showing that full delivery costs still exclude those accounts, or that the agency switches while preserving the outcome, would move it to Pass.

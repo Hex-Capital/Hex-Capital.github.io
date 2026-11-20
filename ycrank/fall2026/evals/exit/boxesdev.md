@@ -5,36 +5,36 @@
 
 ### Company case
 
-Strategic acquisition is the strongest private-company path. A coding-agent platform could buy Boxes.dev to own the infrastructure that snapshots working development environments and runs parallel agents on isolated machines. Ownership could shorten the time to ship integrated workspaces and give the buyer control over how teams configure and run them. The memo documents OpenAI’s acquisition of Ona as evidence that a platform has bought an adjacent capability. Boxes.dev’s founders report that one customer ran over 200 agents on more than 100 machines for a software build. That claim suggests the product can handle a large workload, while the economics of owning Boxes.dev remain unmeasured. (The Idea, Market & Traction, Key Risks)
+Strategic acquisition is the strongest path. A developer-tool platform could buy Boxes.dev’s snapshot-based environment cloning and versioned team templates to shorten setup for parallel coding agents and bring recurring team workloads onto its platform. Ownership could beat licensing if integrating the cloning technology and team workflows gives the buyer a measurable onboarding advantage over building its own. The memo records OpenAI’s purchase of Ona, which establishes buyer interest in the capability. Boxes.dev-specific buyer economics and a realizable sale range remain unverified. (*The Idea*, *Defensibility*, *Key Risks*)
 
-The operating milestone is repeat paid team use with measured setup-time savings and sustainable hosting costs. The memo records 10,611 standalone CLI downloads in one week and lists paid tiers. Paying-team retention, workload margins, and the capital and runway needed to reach the milestone remain unknown. Anthropic’s hosting and subscription rules could affect whether the product continues to work as sold after a transaction. Customer API keys and Codex offer operating options, while IP ownership, contract assignability, and required consents remain unverified. The memo gives no usable evidence of an independent fallback that could pay this holder. (Market & Traction, Key Facts, Key Risks)
+The memo records 10,611 standalone CLI downloads in one week. Separately, the founders report that one customer ran more than 200 agents on more than 100 machines for a build. That reported run supports testing the product at scale. An illustrative seed milestone is five paying teams using Boxes.dev weekly for 90 days on provider-compliant credentials, with measured setup-time savings against a competing workflow. Paid retention, compute costs, and the capital needed to reach that milestone remain unverified. (*Market & Traction*, *Key Facts*, *Key Risks*)
 
-The memo supplies neither investment terms nor usable acquisition pricing. Using the illustrative $500,000 check with no follow-ons, ownership falls from 5% to 3% after dilution. The eight-year 5× cash target is $2.5 million, requiring $83.3 million in distributable equity proceeds at 3% ownership, $125 million at 2%, or $62.5 million at 4%. The sale scenarios assume zero net debt and other purchase-price adjustments, so enterprise value equals equity consideration. All consideration is cash paid at closing and allocated pro rata before investor taxes, with no senior claims reducing the holder’s share. Stock, escrow, earnouts, rollover, and separate compensation are each assumed to be zero.
+Under the shared scenario, a $500,000 check at a $10 million post-money valuation buys 5%, diluted to 3% with no follow-ons. The eight-year 5× target is $2.5 million in gross cash. At 3%, that requires $83.3 million in distributable equity, or $88.3 million in enterprise value with $5 million of assumed net debt. The equity hurdle is $125 million at 2% ownership and $62.5 million at 4%. The memo supplies no transaction price or shareholder terms to underwrite those hurdles. (*Key Facts*, *Key Risks*)
 
-| Illustrative outcome | Timing | Cash to holder at 3% | Gross multiple |
-|---|---|---|---|
-| Modest sale at $30 million enterprise value | Year 5 | $900,000 | 1.8× |
-| Strong sale at $100 million enterprise value | Year 7 | $3 million | 6.0× |
-| Prolonged private ownership with growth plateauing, buyers staying away, public scale out of reach, and cash reinvested | Through year 8 | $0, with shares retained | 0× realized |
+| Eight-year scenario | Gross cash to the holder |
+|---|---:|
+| $25 million sale, less $5 million of assumed net debt | $600,000 (1.2×) |
+| $100 million sale, less $5 million of assumed net debt | $2.85 million (5.7×) |
+| Growth plateaus, buyers stay absent, public scale remains out of reach, and available cash is reinvested with no secondary or payout | $0, with shares retained |
 
-The strong scenario clears the target at 3% ownership and yields only 4× at 2%. The memo leaves buyer willingness to pay at either modeled price unverified. (Key Facts, Key Risks)
+The sale scenarios assume cash at closing and pro rata distribution before investor taxes. Actual debt, fees, and senior claims are unknown. A wind-down would pay the holder only from any residual after obligations and preferences. Sponsor financing, eligible secondary demand, IPO readiness, and cash available for distributions are all unevidenced. (*Market & Traction*, *Key Facts*)
 
 ### Countercase
 
-A platform could build or license comparable workspaces. Replicas already runs native agents in isolated VMs, Coder offers customer-hosted workspaces, and OpenAI can integrate Ona into Codex. Boxes.dev’s snapshot workflow could still save teams meaningful setup time, but the memo gives no basis for estimating what a buyer would pay to own that advantage. The substitutes make the acquisition premium uncertain. The evidence establishes neither a price ceiling below the hurdle nor that prolonged private ownership is the probable outcome, so neither Pass override applies. (The Idea, Defensibility, Key Risks)
+OpenAI already has an in-house alternative through Ona, and Replicas already runs native agents in isolated cloud VMs. Buyers could build or partner around those capabilities unless Boxes.dev demonstrates that snapshot cloning saves enough setup time to win and retain paying teams. Anthropic’s third-party authentication restrictions also put part of the acquired workflow at risk. Customer API keys and Codex provide other ways to run agents, while post-close access and transferability remain unverified. These constraints weaken the ownership case. The memo establishes neither a structural block across credible buyers nor a supported price ceiling below the holder’s hurdle, so the Pass gate does not apply. (*Defensibility*, *Market & Traction*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 14/30 |
+| Counterparty rationale or source of cash | 11/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 11/20 |
-| Transaction feasibility | 5/10 |
+| Milestones and capital needed | 9/20 |
+| Transaction feasibility | 4/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 40/100** (Pass)
+**Total Score: 34/100** (Pass)
 
 ### Decisive diligence question
 
-Can a prospective platform buyer quantify enough incremental value from owning Boxes.dev to support at least $83.3 million in distributable equity proceeds? A paid production rollout that measures deployment time and operating costs against the buyer’s best build or license option, paired with a buyer-side valuation of that advantage, would move the action from Watch to Reach out if it supports the hurdle.
+Would a developer-tool platform’s build-versus-buy analysis support paying at least about $88 million in cash enterprise value once Boxes.dev demonstrates repeat paid use and measurable setup savings? Buyer-side economics that support that price and show the workflow can operate after closing would move the action to **Reach out**, subject to the modeled ownership and debt assumptions.

@@ -5,26 +5,28 @@
 
 ### Company case
 
-**Path A — Product-led adoption.** The first buyer is a startup team without a data analyst that repeatedly needs to diagnose conversion drops or attribute revenue. The memo records 23,172 weekly SDK downloads and one named switch from Framer Analytics at Autumn. The November snapshot shows 38 active subscriptions, $3,345 in MRR, and $1,701 in trailing 30-day revenue. The figures are company-wide, and Databunny’s share is unknown. The company-reported 3,000-plus businesses served has no defined usage or payment threshold in the memo. (The Idea, Market & Traction, Key Facts)
+Product-led adoption is Databuddy’s strongest path. Startup teams without a data analyst have a recurring job that plausibly travels across markets: diagnosing conversion drops and connecting product activity to revenue. Self-serve signup and the cookieless tracker provide a plausible route to first value. Connecting revenue data and configuring privacy controls are identifiable setup steps. The memo gives no paid adoption by market, and local privacy requirements remain untested. (The Idea, Key Risks)
 
-**Growth scenario.** The next thousand buyers could discover the SDK, install the tracker, connect revenue data, and get a useful first investigation through self-serve signup. Recurring Slack investigations could bring teammates into the workflow, while higher event volumes or scheduled investigations could drive upgrades. This assumes buyers in a second geography use a compatible stack and can use the same setup with manageable privacy configuration and support. The memo leaves that portability untested. It also leaves open how much migration and support time each new account needs, and how event processing and AI query costs grow with usage. (The Idea, Key Risks)
+The memo records 38 active subscriptions across Databuddy. Autumn’s co-founder reports switching from Framer Analytics, a concrete workflow commitment, though the memo leaves Autumn’s plan, use of Databunny, and reason for switching open. The founder also reported roughly 500 tracked websites for the original analytics product. That history shows some teams got tracking live, while the current memo leaves discovery, activation, and payment unlinked at the account level. The first link at risk is whether teams can reach a useful investigation and pay through self-serve onboarding. (Market & Traction)
+
+If teams return to investigate conversion changes, higher event volumes or scheduled investigations could drive upgrades. That is a scenario assumption based on the pricing model. The memo has no cohort evidence of repeat investigations or paid expansion and no measurements of incremental onboarding, support, or inference costs. (The Idea, Defensibility, Key Facts)
 
 ### Countercase
 
-The strongest countercase is that Databuddy attracts interest as a web tracker while the AI workflow gives teams too little reason to switch from an incumbent. Autumn’s reported switch establishes adoption of Databuddy, with recurring investigation use still unknown. Mixpanel already offers proactive monitoring, and Nassar offers hands-on migration help. If that help proves necessary for most buyers, founder time could scale with each account. The memo establishes neither that dependency nor a structural ceiling on global demand, so the Pass gate remains unmet. (The Idea, Market & Traction, Defensibility, Key Risks)
+The paid base could primarily reflect demand for basic analytics. Mixpanel already offers proactive monitoring on data its customers have in place, and Databuddy’s founder offers direct migration help. If each new team needs hands-on migration to get a useful answer, onboarding effort could rise with account volume. The offer of help leaves that dependence unresolved, so the structural downside gate does not apply. (The Idea, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 9/25 |
+| Global buyer demand | 17/25 |
 | Repeatable acquisition and onboarding | 9/25 |
 | Retention and customer expansion | 7/20 |
 | Contribution as volume grows | 7/20 |
 | Evidence of fit in the first buyer segment | 5/10 |
 
-**Total Score: 37/100** (Pass)
+**Total Score: 45/100** (Neutral)
 
 ### Decisive diligence question
 
-Can a paid cohort of independent startup teams in a second geography discover Databuddy through the SDK, connect revenue data without founder-led migration, and keep using investigations at its normal reporting cadence? Signup, activation, billing, and usage records, alongside onboarding time and processing costs, would answer it. A cohort that repeats this pattern with manageable costs would move the action to Reach out.
+Can several independent startup teams without a data analyst arrive through the same self-serve channel, instrument their sites, get a useful Databunny investigation, and convert to paid without founder help? Account-level records showing that sequence and repeat investigations through the first paid billing cycle would move Databuddy to Reach out. A cohort that still needs founder intervention or stops using investigations after the first result would keep it at Watch.

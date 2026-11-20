@@ -5,30 +5,28 @@
 
 ### Company case
 
-**Path B — New economies.** Yam generates romance stories around a player’s premise, with a cast whose memories and relationships carry forward. The seed-stage mechanism is plausible. A player could get a personalized story in a niche fandom without a creator hand-authoring every branch, as in the authored model described for Dorian. If generation preserves story quality with little human review or rework, those one-off stories could become economical to deliver. The memo describes a shipped experience and leaves both the labor savings at equivalent quality and paid demand for previously unserved stories unmeasured. (The Idea, Market & Traction)
+**Path B — New Economies.** Yam could make personalized, replayable romance stories economical for players whose preferred worlds, roles, or plot turns are unavailable in authored games. In the former delivery model, creators write branches in advance and spread that labor across players. Yam says it generates a cast with persistent memories and relationships, then advances the story in response to each player’s choices. The seed-stage launch and the CTO’s prior work on TikTok Effect House show progress on delivering the experience and its creator tools. The memo has no measured comparison of authoring labor or full delivery cost per coherent, completed episode, including continuity fixes, retries, moderation, and model usage. (*The Idea*, *Market & Traction*, *Founders & Team*, *Key Risks*)
 
-Yam’s public catalog spans 112 fandoms. Under model parity, a player might still pay for easy discovery of creator-made scenarios or to continue an ongoing story with its established relationships. Those are hypotheses. The memo provides no evidence that adding creators improves discovery, that players would pay to preserve continuity, or that either advantage survives a comparable alternative. (The Idea, Defensibility)
+Yam reported one million beta play hours and more than three hours per daily active user. Its public catalog displayed 2.4 million plays for its top listing. Those signals support interest in the experience, while paid repeat use by players whose preferences were previously unserved remains unverified. The 100 daily free moves for new accounts and the listed subscription and currency prices give Yam a way to monetize repeat play. Contribution depends on conversion and on the cost of serving turns across free and paid users, which the memo does not quantify. (*The Idea*, *Market & Traction*, *Key Facts*, *Key Risks*)
 
-The top listing displays 2.4 million plays. Yam reports 1 million cumulative beta play hours and more than three hours of daily play per active user at launch. These are early engagement signals. The memo leaves unique-player counts for the listing, cohort retention, and realized revenue unknown. The founders’ experience in creator tooling and product design, together with the public launch after an earlier coding-tool effort, supports seed-stage execution credit. (Market & Traction, Founders & Team, Key Facts)
-
-A scale scenario would subtract inference, retries, moderation, and support for free and paid play from net subscription and currency-pack receipts. The memo gives posted prices and a free allowance, while conversion, paid retention, and delivery costs remain unknown. Scale economics stays at its default. (The Idea, Key Risks, Key Facts)
+**Model-parity scenario.** Assume a rival can match Yam’s cast, memory, and story quality at comparable prices. Yam’s catalog across 112 fandoms and its creator publishing rewards could still give players a reason to stay if new creators reliably add games existing players want. The memo documents the catalog and incentives. It leaves that participant benefit and paid preference under parity untested. (*The Idea*, *Defensibility*)
 
 ### Countercase
 
-With cheap frontier models and ample capital, a rival could reproduce the experience closely enough that players switch. The memo describes adjacent products with user-created characters or persistent worlds, Yam’s reliance on external model providers, and a takedown process that can remove fan games from its catalog. If players follow the fandom or the story premise, Yam’s catalog may offer little protection once a rival reaches functional parity. The memo contains no parity test that establishes easy substitution, so the override stays open and the outreach gate remains unmet. Path A has no separately evidenced bottleneck Yam controls. (Defensibility, Market & Traction, Key Risks)
+Yam may be capturing existing demand for romance games and AI roleplay without creating a newly economical use. Dorian already monetizes authored branching romance, and Latitude offers open-ended AI roleplay. Yam’s most-played listing is a fan game, so its popularity could reflect demand for the underlying fandom, and rights-holder takedowns can remove such games. These facts leave both required gates open. The memo contains neither a delivery-cost comparison showing that savings disappear nor a parity test showing that players switch. (*Market & Traction*, *Defensibility*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 12/25 |
+| Path-specific thesis fit | 13/25 |
 | Durable value capture | 8/25 |
-| Customer demand | 10/20 |
+| Customer demand | 9/20 |
 | Team and execution | 10/15 |
-| Scale economics | 4/15 |
+| Scale economics | 5/15 |
 
-**Total Score: 44/100** (Pass)
+**Total Score: 45/100** (Neutral)
 
 ### Decisive diligence question
 
-Can Yam get players whose desired niche stories were unavailable in authored games to pay repeatedly at its posted prices when they can also try a model-powered alternative with comparable story quality? A single paid cohort trial could test this while logging human authoring, review, and exception-handling time against an equivalent-quality authored workflow. Repeat payment driven by something players demonstrably value about Yam, combined with materially lower delivery labor, would justify rescoring for Reach out if the score clears 65 with at least medium confidence. A representative trial showing that either condition fails would change the action to Pass. (The Idea, Defensibility, Key Facts)
+Will players who previously went without their preferred romance scenarios repeatedly pay for Yam at a price that covers delivery, even when offered an equally capable alternative at the same price? A seed-stage paid cohort test would compare labor and full cost per completed episode with creator-authored delivery, then measure repeat paid choice against a substitute matched on story quality, memory, and price. Material labor savings, positive contribution, and repeat paid preference for Yam would move the action to Reach out. A representative result showing that delivery costs erase the savings or that players readily switch under parity would close Path B and move the action to Pass.

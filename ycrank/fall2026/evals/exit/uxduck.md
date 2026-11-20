@@ -5,21 +5,23 @@
 
 ### Company case
 
-Strategic acquisition is UXDuck’s strongest path. A drone manufacturer or fleet software vendor could pay to own a validated workflow that cuts the time and cost of integrating custom aircraft and testing software changes across vehicles. The memo records that UXDuck combines browser simulation, desktop vehicle connectivity, and flight replay. UXDuck reports more than 500 simulated flight hours, and one customer reports flying a custom-imported aircraft within five minutes of download and using the tool for demos and flying. Those signals support early utility. The case for ownership depends on whether validated integrations and vehicle histories become costly to recreate and valuable enough to control directly. Buyer willingness remains unverified. (The Idea; Market & Traction; Defensibility)
+Strategic acquisition is UXDuck’s strongest path. A commercial drone manufacturer or ground-control vendor could buy the integrated simulation, custom-aircraft setup, and flight-review workflow to shorten customer onboarding and reduce integration and support costs. The memo documents an available browser simulator and desktop ground station. UXDuck reports more than 500 simulated flight hours outside testing and development, and a customer testimonial reports flying a custom-imported aircraft within five minutes and using UXDuck for demos and flying. These are early usability signals. The economic benefit to a buyer and the value of owning the workflow remain unmeasured. (The Idea, Market & Traction)
 
-The operating milestone is repeat paid production use across multiple vehicle programs, with measured integration and regression-testing savings. The founder’s relevant experience and the reported $500,000 financing make a test plausible. The capital and time needed to reach repeatable deployment remain uncertain because the memo gives no burn, runway, or deployment-cost figures. Ownership and transfer rights for any assets beyond the open-source core are unverified. The memo supplies no usable evidence of an independent route to holder cash. (Founders & Team; Market & Traction; Defensibility; Key Facts)
+The seed-stage milestone is repeat paid production use by commercial drone teams, with measured reductions in integration time or support work across multiple vehicle configurations. The working product, reported seed financing, and founder’s relevant integration experience make that test plausible. Runway and the cost of reaching repeat deployments are unknown. The memo also leaves ownership and transfer rights for the differentiated workflow unverified. (The Idea, Market & Traction, Founders & Team, Defensibility)
 
-The reported financing gives no usable terms for the check being evaluated, so the bridge uses the illustrative $500,000 check at a $10 million post-money valuation. Initial ownership of 5% falls to 3% after 40% relative dilution, with no follow-on checks. A 5× gross return within eight years requires $2.5 million in holder cash, or about $83.3 million in distributable equity proceeds. The hurdle is $125 million at 2% ownership and $62.5 million at 4%. (Market & Traction)
+**Illustrative holder proceeds.** The reported financing supplies no usable ownership or payout terms, so the bridge assumes a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted by 40% to 3%, and no follow-ons. The eight-year 5× gross cash target is $2.5 million. It requires $83.3 million in distributable equity at 3% ownership, $125 million at 2%, or $62.5 million at 4%. At 3%, $5 million of illustrative net debt raises the enterprise-value hurdle to $88.3 million. The calculations assume pro rata distribution before taxes. Company-specific debt, fees, and senior claims are unknown. (Market & Traction)
 
-The sale scenarios assume zero net debt and other price adjustments, so enterprise value equals equity consideration. They assume a simple pro rata waterfall with no senior claims and all cash paid at closing. Stock, escrow, earnouts, rollover, and compensation are each assumed to be zero. Prices and timing are illustrative because the memo supplies no buyer valuation evidence.
+| Eight-year scenario | Illustrative holder outcome |
+|---|---|
+| Modest strategic sale at $25 million enterprise value | $20 million of equity value after illustrative net debt, yielding $600,000 gross, or 1.2× |
+| Strong strategic sale at $100 million enterprise value | $95 million of equity value after illustrative net debt, yielding $2.85 million gross, or 5.7× |
+| Growth plateaus, strategic interest stays absent, public scale remains out of reach, and available cash is reinvested | $0 realized, with shares still held |
 
-- **Modest sale in year 5.** $30 million in enterprise value yields $900,000 to the holder, or 1.8× gross.
-- **Strong sale in year 7.** $100 million in enterprise value yields $3 million at 3% ownership, or 6.0× gross. At 2% ownership it yields $2 million, or 4.0× gross.
-- **Prolonged private through year 8.** Growth plateaus, buyers stay away, public scale remains out of reach, and available cash is reinvested. The investor retains the shares and realizes $0, or 0× gross.
+Both sale prices are scenario assumptions. The memo supplies no usable acquisition pricing or buyer economics to support a realizable range. It also supplies no evidence of sponsor-financeable cash flow, an eligible secondary, public-market readiness, or funded distributions. Any wind-down recovery would be limited to the residual after obligations and preferences, which the memo does not quantify. (Market & Traction, Key Facts)
 
 ### Countercase
 
-A buyer could reuse the Apache-licensed core, keep Mission Planner or QGroundControl alongside it, and obtain UXDuck’s remaining benefits through a commercial license if available. Parallel use is already supported, and the memo has no evidence of retention or migration costs. The documented flight-control regression also makes production reliability part of what UXDuck must prove. This substitute could cap the acquisition price below the hurdle, but the memo does not establish that it would reproduce the value of a validated production workflow. The structural Pass override does not apply. (The Idea; Defensibility; Key Risks)
+A buyer could keep Mission Planner or QGroundControl for baseline tasks and use UXDuck alongside them, license the commercial workflow, or reuse the Apache-licensed core. Parallel use is already supported, and the memo supplies no retention or migration-cost evidence. The documented PX4 regression and fix also leave production reliability to be demonstrated across configurations. These facts weaken the case for an ownership premium. They do not establish that substitutes cover the differentiated workflow, that a sale is structurally blocked, or that the strongest achievable price would leave the holder materially short. The Pass gate is untriggered. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
@@ -27,12 +29,12 @@ A buyer could reuse the Apache-licensed core, keep Mission Planner or QGroundCon
 |-----------|-------|
 | Counterparty rationale or source of cash | 12/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 10/20 |
+| Milestones and capital needed | 9/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 37/100** (Pass)
+**Total Score: 36/100** (Pass)
 
 ### Decisive diligence question
 
-Would a plausible strategic buyer’s build-versus-license analysis, grounded in measured savings from repeat paid deployments, support paying roughly $83 million in distributable equity value to own UXDuck’s workflow under the base ownership scenario? Buyer-validated economics at that scale would move the action to Reach out. Evidence that licensing delivers equivalent value and caps the price below the hurdle would move it to Pass.
+Can repeat paid production deployments show that owning UXDuck’s commercial workflow creates enough incremental value for a strategic buyer to support a price near or above the modeled $88.3 million enterprise-value hurdle? Measured integration or support savings and a credible buyer-side valuation range that clears the applicable holder hurdle would change the action to Reach out.

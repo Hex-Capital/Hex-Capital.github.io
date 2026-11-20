@@ -5,36 +5,30 @@
 
 ### Company case
 
-**Strategic acquisition by an industrial automation integrator** is the strongest path. An integrator could pay cash to own a deployment system that lets it commission similar robot stations faster across factories while maintaining throughput and uptime. Ownership could be worth a premium if Kailash can transfer the software and reusable deployment data, and the buyer can capture more value by owning them than by building or licensing an equivalent capability. That advantage remains an inference. (The Idea, Defensibility)
+Strategic acquisition is the strongest path. An industrial automation integrator could pay for a repeatable way to commission and support robot stations on existing factory lines. Ownership could be valuable if Kailash can reuse deployment data and tooling across factories to reduce installation and support costs. The memo records a public station demo and open pilot bookings. Installation in days and a seven-day keep-or-return trial are company claims. Cross-site savings and buyer willingness to pay remain unverified. (The Idea, Defensibility, Market & Traction)
 
-**Observed evidence.** Kailash has a public station demo and has opened pilot bookings. The founder’s robot-learning experience supports running a production test. The memo provides no paid conversion, cross-site performance, commissioning cost, or verified funding for a multi-site rollout. Marlin’s benchmarks cover video captioning and temporal grounding, leaving station performance unverified. **Company claims.** Kailash advertises installation in days and a seven-day keep-or-return pilot with no upfront customer capital expenditure. (Market & Traction, Founders & Team, The Idea, Key Risks)
+The operating milestone is repeatable paid deployment across multiple factories, with measured commissioning time, cycle time, uptime, and service cost. The demo makes that test plausible. The no-customer-capex offer creates a need to fund equipment, installation, and potential removals. The memo gives conflicting YC financing figures of $125,000 and $500,000 and leaves the cash available for pilots unverified. Control of the station software and rights to reuse customer data would also need verification for an acquisition. (The Idea, Defensibility, Market & Traction, Key Risks)
 
-**Proceeds bridge.** Company-specific investment terms are unverified, so the scenarios use the illustrative $500,000 check at a $10 million post-money valuation, with 5% initial ownership diluted to 3% and no follow-on checks. The eight-year objective is $2.5 million in gross cash. At 3%, that requires $83.3 million in distributable equity proceeds, versus $125 million at 2% or $62.5 million at 4%. The memo supplies no usable acquisition pricing or buyer economics to support those values. (Market & Traction, Key Facts)
+Under the illustrative terms, a $500,000 check at a $10 million post-money valuation buys 5%, diluted to 3% with no follow-ons. The eight-year 5× target is $2.5 million in gross cash before investor taxes. A pro rata sale requires $83.3 million of distributable equity at 3% ownership, $125 million at 2%, or $62.5 million at 4%. With $5 million of illustrative net debt and before any deal fees or senior claims, the 3% case requires $88.3 million of enterprise value. A $25 million sale yields $600,000 (1.2×), while a $100 million sale yields $2.85 million (5.7×). The memo supplies no buyer economics or transaction pricing that would support either sale value. (Market & Traction, Key Facts)
 
-| Illustrative outcome | Timing and proceeds to the holder | Gross multiple |
-|---|---|---|
-| Modest sale | Year 5. $50M enterprise value yields $50M of distributable equity cash. The holder receives $1.5M. | 3.0× |
-| Strong sale | Year 7. $100M enterprise value yields $100M of distributable equity cash. The holder receives $3.0M. At 2% ownership, the same sale pays $2.0M. | 6.0× at 3% |
-| Prolonged private | Through year 8, growth plateaus, buyers stay away, public scale remains out of reach, and cash is reinvested. The holder retains the shares and realizes $0. | 0.0× |
-
-Both sale scenarios assume zero net debt, fees, and other price adjustments, a simple pro rata waterfall with no senior preference, and full cash payment at closing before investor taxes. Stock, escrow, earnouts, rollover, and separate compensation are each assumed to be zero. IP and data transfer rights remain unverified, and the registry name collision leaves the issuer’s identity to confirm. The memo provides no evidence of an independent fallback that could pay this holder. (Key Risks, Defensibility, Market & Traction)
+If deployments plateau, buyers stay away, public scale remains out of reach, and all available cash is reinvested, the holder realizes $0 over eight years and still holds the shares. The memo leaves cash generation for a sponsor buyout or company-funded payout, eligible secondary demand, and a path to public resale unevidenced. Wind-down proceeds are indeterminate without evidence on recoverable assets, obligations, and preferences. (Market & Traction, Key Facts)
 
 ### Countercase
 
-Formic and Corelyn already offer managed robot deployments, and Kailash describes learning at individual stations. If each installation still requires substantial custom engineering, an integrator could deliver the same customer benefit through its own service or a commercial agreement, limiting what it would pay to own Kailash. Existing substitutes make the acquisition premium uncertain. The memo does not establish that they can match a reusable deployment system or that every credible sale would leave the holder short, so the Pass override does not apply. (The Idea, Defensibility, Market & Traction)
+Formic and Corelyn already offer managed robot deployments. An integrator could build a comparable service or partner for installations, particularly if Kailash still has to commission each station from scratch. Marlin’s video benchmarks supply no evidence of production uptime or cycle time. That makes the ownership premium speculative today. The Pass gate remains untriggered because the memo establishes neither a structural barrier to a sale nor a supported price ceiling below the holder’s hurdle. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 9/30 |
+| Counterparty rationale or source of cash | 10/30 |
 | Plausible investor proceeds | 8/30 |
 | Milestones and capital needed | 8/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 32/100** (Pass)
+**Total Score: 33/100** (Pass)
 
 ### Decisive diligence question
 
-Can Kailash use deployment data it has the right to transfer to commission a second paid factory site at materially lower cost while meeting the customer’s throughput and uptime requirements? Customer-verified results from both sites would move the action to **Reach out** if the savings, at a credible integrator deployment volume, support an ownership premium consistent with the roughly $83.3 million equity hurdle. (Defensibility, Market & Traction, Key Risks)
+Would verified savings from repeat paid factory deployments justify an acquisition price that clears the holder’s cash hurdle? Paid deployment records showing repeatable commissioning savings at customer-required uptime and cycle time, paired with an integrator’s build-versus-buy analysis supporting a sale range that clears the modeled $88.3 million enterprise-value hurdle within eight years, would move the action to Reach out.

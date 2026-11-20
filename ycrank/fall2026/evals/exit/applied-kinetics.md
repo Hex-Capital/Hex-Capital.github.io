@@ -5,38 +5,36 @@
 
 ### Company case
 
-**Strategic acquisition** is the strongest path. An electrical-equipment integrator could buy Applied Kinetics to secure access to qualified factory capacity and control the workflow from project specifications through site delivery. Ownership could be worth paying for if it gives the buyer reliable capacity and reduces costly energization delays more than licensing the software or sourcing directly. The memo documents separate software licensing and written equipment quotes. The company reports access to 40+ partner plants and attributes 10+ GW of past projects to its manufacturing base. Its seven-week transformer quote covers build and test. The memo provides no completed site deliveries or measured customer savings for Applied Kinetics. (*The Idea, Defensibility, Market & Traction, Key Risks*)
+**Strategic acquisition** is the strongest route. An electrical systems integrator such as Mission Critical Group could buy Applied Kinetics to bring multi-factory sourcing, production coordination, and delivery of made-to-spec power and cooling packages in-house. The potential buyer benefit is fewer equipment delays that hold up site energization. Applied Kinetics reports access to 40+ partner plants and attributes the 10+ GW figure to its manufacturing base. The memo establishes product overlap with Mission Critical Group. The benefit of ownership and any buyer interest remain inferred. (*The Idea*, *Defensibility*, *Market & Traction*)
 
-The operating milestone is repeat paid delivery of approved equipment from multiple plants, with measured schedule gains and positive margins after testing, freight, and other fulfillment costs. The launch offer gives the company a concrete test. The reported funding figures differ, and the memo gives no runway or working-capital budget for repeat orders. It also gives no evidence that factory access, software rights, or customer contracts would transfer to an acquirer. There is no separately supported route to cash for this investor. (*Market & Traction, The Idea, Key Risks, Key Facts*)
+The operating milestone is repeat paid deliveries of made-to-spec packages through multiple customer-approved factories, with documented order-to-site lead times and positive margins after testing, freight, and rework. The launch offers a seven-week **build-and-test** window for pad-mounted transformers. Completed delivery performance remains unverified. YC backing provides some funding evidence, while the memo’s $125,000 and $500,000 funding entries leave available capital unclear. Runway, working capital needs, and transferability of factory access remain unverified. (*Market & Traction*, *Key Risks*)
 
-**Proceeds bridge.** With no actual check terms supplied, use the illustrative $500,000 check at a $10 million post-money valuation. Assume 5% initial ownership dilutes to 3%, with no follow-on checks. The eight-year 5× objective requires $2.5 million in holder cash, or about $83.3 million in distributable equity proceeds at 3% ownership. The hurdle rises to $125 million at 2% and falls to $62.5 million at 4%.
+**Proceeds bridge.** With shareholder terms undisclosed, assume a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted by 40% to 3%, and no follow-ons. The 5× target is $2.5 million in gross cash within eight years. It requires about $83.3 million of distributable equity at 3% ownership, $125 million at 2%, or $62.5 million at 4%. In the illustrative sales below, assume $5 million of net debt, cash paid at closing, and simple pro rata allocation before investor taxes. Company-specific debt, fees, and senior claims are unknown. (*Market & Traction*, *Key Facts*)
 
-The sale prices and dates below are scenario assumptions. Both sales assume zero net debt and transaction fees, so enterprise value equals equity consideration. The assumed waterfall is pro rata with no senior preference deductions. All consideration is cash at closing. Stock, escrow, earnouts, rollover, and compensation are each zero. The memo supplies no usable evidence to underwrite either sale price. (*Market & Traction, Key Facts*)
+| Scenario | Gross cash to the holder at 3% |
+|---|---:|
+| $25 million enterprise-value sale in year eight, leaving $20 million of equity after illustrative debt | $600,000 (1.2×) |
+| $100 million enterprise-value sale in year eight, leaving $95 million of equity after illustrative debt | $2.85 million (5.7×) |
+| Growth plateaus, buyers stay absent, public scale remains out of reach, and available cash is reinvested for eight years | $0 realized, shares retained |
 
-| Scenario | Timing | Cash to investor | Gross multiple |
-|---|---|---:|---:|
-| Modest sale at $50 million enterprise value | Year 5 | $1.5 million | 3× |
-| Strong sale at $100 million enterprise value | Year 7 | $3.0 million | 6× |
-| Prolonged private ownership with growth plateauing, buyers staying away, public scale out of reach, and cash reinvested | Through year 8 | $0, with shares retained | 0× realized |
-
-The strong sale clears the hurdle at 3% ownership. At 2%, it pays $2 million, or 4×.
+At 2% ownership, even the strong sale yields only $1.9 million. The memo supplies no measured buyer economics or acquisition pricing to underwrite either sale value. Wind-down proceeds are unquantifiable and would depend on the residual after obligations and preferences. A sponsor buyout lacks demonstrated cash generation and financing support. A secondary lacks eligible shareholder demand and pricing. An IPO lacks evidence of operating scale and resale readiness. Dividends or buybacks lack demonstrated distributable cash and a commitment to pay. (*The Idea*, *Market & Traction*, *Key Facts*)
 
 ### Countercase
 
-An integrator could license the agents, source through Fluxco, or use its own production and integration capacity. Mission Critical Group already offers overlapping capabilities. Customer-approved manufacturer lists and shared component shortages could also limit the scheduling advantage of a broad factory network. These alternatives weaken the case for paying an acquisition premium. The memo leaves open whether they can match repeat delivery of made-to-spec packages, so it establishes neither a structural price cap nor a probable prolonged-private outcome that triggers the Pass override. The missing delivery and buyer-economics evidence supports Watch. (*The Idea, Defensibility, Market & Traction, Key Risks*)
+Mission Critical Group already manufactures and integrates overlapping equipment. Applied Kinetics licenses its procurement agents separately, and Fluxco offers overlapping sourcing and logistics. An integrator could therefore license the software or contract for sourcing while keeping control of its own manufacturing. Customer-approved manufacturer lists also limit which plants can serve a given order, reducing the potential value of the reported network. These facts weaken the case for ownership. They leave acquisition economics unresolved, so the Pass gate is untriggered and the action is Watch. (*The Idea*, *Defensibility*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 12/30 |
+| Counterparty rationale or source of cash | 14/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 9/20 |
+| Milestones and capital needed | 8/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 36/100** (Pass)
+**Total Score: 37/100** (Pass)
 
 ### Decisive diligence question
 
-Can a repeat, paid integrator program show that owning transferable factory access and the delivery workflow creates enough incremental value to support a sale at the investor’s hurdle? Accepted site deliveries and a buyer-side comparison with licensing and direct sourcing would move the action to Reach out if the measured economics support roughly $83.3 million in distributable equity proceeds at 3% ownership. Evidence that those substitutes deliver comparable results and cap the price below the hurdle would move the action to Pass.
+What acquisition price could an electrical systems integrator justify for owning Applied Kinetics after repeat paid deliveries through customer-approved factories? Documented delivery performance and margins would let a buyer quantify the incremental value of ownership over licensing or contracting. A buyer-supported range that could leave at least $83.3 million of distributable equity at 3% ownership within eight years would move the action to Reach out.

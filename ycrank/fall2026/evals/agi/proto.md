@@ -5,26 +5,28 @@
 
 ### Company case
 
-**Path B — New economies.** Proto’s strongest case is that product designers could test interactive variants they currently skip because building and reviewing them takes too much engineering time. Proto says designers already use developer IDEs for interactive prototyping. The memo describes a workflow that turns tickets or requirements into working prototypes, lets designers compare variants, and links them into shareable flows. The scenario assumes this workflow reduces total human time at equivalent quality, including retries, code review, and handoff. The memo gives no measured comparison or evidence that teams are testing flows they previously skipped. (The Idea, Key Risks)
+**Path B — New Economies.** Proto says product designers have moved into developer IDEs to build interactive prototypes. Its early-access workflow turns tickets or requirements into working prototypes that designers can compare, link into flows, and share. The market-opening hypothesis is that product teams that previously skipped testing extra variants because they required too much engineering time could now test them routinely. The relevant comparison is full cost per usable, reviewed prototype across the old designer-and-engineer workflow and Proto, including generation, retries, review, and any production handoff the team needs. The memo gives no measured cost comparison or evidence that teams have crossed that threshold. (The Idea, Market & Traction, Key Risks)
 
-Proto’s San Francisco location and November early-access launch make it a plausible seed-stage fit. Albert’s prior work co-creating Stamper, a visual coding environment, supports the team’s ability to build this kind of tool. Launch attention leaves buyer commitment unknown. Pricing, delivery costs, and the number of reachable teams are also unknown, so the broader prototyping software estimate provides little basis for judging Proto’s scale economics. (Key Facts, Market & Traction, Founders & Team, The Idea)
+Under model parity, teams might still pay Proto for the shared variants, flow maps, and review history they reuse across projects. That advantage depends on repeat use and buyer preference, both untested in the memo. The early-access announcement and launch attention establish visibility. Buyer commitments and paid use in the proposed newly served segment are undocumented. Pricing and delivery costs are also unknown, leaving contribution per paying team unresolved. (Defensibility, Market & Traction, The Idea, Key Facts)
+
+Albert’s prior work on Stamper, a visual coding environment, and Proto’s early-access launch support seed-stage execution. A representative buyer test remains the next milestone. The market-opening and model-parity conditions both remain unproven, which supports Watch with Low confidence. (Founders & Team, Market & Traction)
 
 ### Countercase
 
-Figma already offers code-backed prototype comparison where design teams work, and Onlook offers open-source visual editing that writes back to code. With cheap, comparably capable models and well-funded competition, teams may get the same outcome in their existing tools. Shared flow maps and review history could give teams a reason to keep paying for Proto if they reuse those artifacts across projects. That behavior is unverified. The overlap weakens value capture, but the memo establishes neither buyer switching under parity nor a scarce capability Proto controls that would support Path A. Path B’s two conditions remain open, which supports Watch at early access. (Defensibility, Market & Traction, Key Risks)
+Proto may speed up prototyping for teams already doing it, while Figma gives those teams code-backed comparison and review in their existing canvas. Onlook also offers visual edits that write back to code. If generated changes still require substantial engineering review, the extra variants could remain uneconomic. The competitor features establish credible overlap, but the memo has no direct evidence of buyers switching at functional parity or of review costs erasing savings. Neither condition is settled adversely enough to close Path B. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 10/25 |
-| Durable value capture | 5/25 |
+| Path-specific thesis fit | 9/25 |
+| Durable value capture | 7/25 |
 | Customer demand | 5/20 |
-| Team and execution | 8/15 |
+| Team and execution | 9/15 |
 | Scale economics | 4/15 |
 
-**Total Score: 32/100** (Pass)
+**Total Score: 34/100** (Pass)
 
 ### Decisive diligence question
 
-Will independent design teams repeatedly pay Proto to test flows they previously skipped when they can get equivalent-quality prototypes from their existing workflow using comparably capable models? A matched trial should track total designer and engineer time through retries, review, and handoff, then record which workflow teams pay to use on their next project. Material labor savings and repeat paid choice would clear the missing Path B gates and support Reach out if the updated score reaches 65. Savings erased by review or teams switching at parity would move the action to Pass.
+Will independent product teams that previously skipped testing extra variants pay to repeat that work in Proto after trying a functionally comparable workflow with equivalent models? A seed-stage trial would move the action to Reach out if it showed that Proto lowered the full cost per usable prototype enough for those teams to run tests they previously skipped, and that they paid to repeat the work because they valued Proto’s shared workflow. A representative trial showing that the extra tests remain uneconomic or that buyers readily switch at parity would close Path B and move the action to Pass.

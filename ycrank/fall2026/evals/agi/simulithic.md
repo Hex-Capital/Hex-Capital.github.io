@@ -5,28 +5,28 @@
 
 ### Company case
 
-**Path B — New economies.** Simulithic could make cross-device regression testing viable on every pull request for small engineering teams that currently test only selected releases or environments. Its documented workflow maps user journeys, uses captured visitor behavior to select test environments, and compares previews with baselines. The company says coding agents are producing changes faster than teams can verify them. The new transaction would be a reliable regression check on a change the team would otherwise leave untested. The memo gives no like-for-like comparison of coverage, missed regressions, or human time spent on review, retries, and exceptions. (*The Idea*, *Market & Traction*, *Key Risks*)
+**Path B — New Economies.** Simulithic could make cross-device regression testing economical on every pull request for teams that currently check only a few flows by hand or maintain a limited set of Playwright scripts. The company documents agents that discover journeys and compare a pull-request preview with a baseline. That workflow could reduce test authoring and maintenance enough to make broader, more frequent coverage affordable. The memo provides no field comparison of human time or full cost per reliably verified change, including review, retries, failure triage, and missed regressions. (The Idea; Key Risks)
 
-One named user said he canceled Claude Max to try Simulithic, which shows trial intent. The founders report several unnamed live deployments and more than 2× weekly growth on an unspecified metric. Realized revenue and repeat paid use remain unknown. The documented QA launch and the founders’ relevant engineering and agent research experience support a seed-stage evaluation. Reliable delivery across a representative device matrix remains unproven. (*Market & Traction*, *Key Facts*, *Founders & Team*)
+If rivals have equivalent models, a buyer might still pay for visitor-informed journey coverage that improves as the workspace accumulates history. The SDK and journey maps are documented. Better coverage over time and a resulting reason to stay are inferences. The founders report several unnamed live deployments, and a named user said he canceled Claude Max to try Simulithic. That signals interest in a trial, with paid repeat use by a previously underserved team still unverified. The founders have relevant engineering experience and shipped the QA product after launching production monitoring. (Defensibility; Market & Traction; Founders & Team)
 
-**Illustrative scale scenario.** Five journeys across four environments on 20 pull requests produce 400 journey-environment combinations. Assuming one credit-priced run per combination, the published rate implies $400 before retries, or $800 if preview and baseline runs are billed separately. These are scenario assumptions. Subscription prices are quoted, and the memo leaves device, inference, and support costs unknown. The credit cap can pause checks, so the buyer’s budget matters most as coverage expands. (*The Idea*, *Key Facts*, *Key Risks*)
+**Cost scenario.** Five journeys across three environments would cost $30 per pull request at the published $1 credit rate if each preview and baseline run were billed separately, with one agent and one attempt per run. This is an illustrative assumption. Actual subscription pricing and delivery costs are unknown. The added cadence works only if the run charges and remaining human work fit the buyer’s budget at comparable coverage and reliability. Simulithic’s own contribution per run is also unknown. (The Idea; Key Risks; Key Facts)
 
 ### Countercase
 
-The strongest countercase is that Simulithic makes existing QA easier while competitors offer equivalent coverage with the same models. BrowserStack already combines a device cloud with testing agents, and TestSprite already discovers application flows. Simulithic’s workspace journey histories could make it worth staying if they improve coverage over time, but the memo documents no such improvement and no buyer preference under functional parity. Simulator and Android coverage limits also leave some checks outside the automated workflow, reducing potential labor savings. With abundant capital, the memo identifies no scarce testing input Simulithic controls, leaving Path A unsupported. The competitive overlap leaves both Path B conditions unproven and keeps the case at Watch. The memo contains no like-for-like buyer test that defeats either condition. (*Defensibility*, *Market & Traction*, *Key Risks*)
+Simulithic may make existing QA work faster while leaving broad per-change coverage too expensive. The documented native-device limits can leave gaps that still require manual checks. BrowserStack already combines a device cloud with testing agents, and TestSprite already discovers application flows. A buyer could get equivalent coverage from either kind of alternative if Simulithic’s journey history adds little. Those facts leave both Path B conditions unresolved, so the action is Watch. The memo establishes no controlled device capacity or other scarce complement that would support Path A. (Key Risks; Defensibility; Market & Traction)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 11/25 |
-| Durable value capture | 7/25 |
-| Customer demand | 7/20 |
+| Path-specific thesis fit | 9/25 |
+| Durable value capture | 8/25 |
+| Customer demand | 6/20 |
 | Team and execution | 9/15 |
 | Scale economics | 6/15 |
 
-**Total Score: 40/100** (Pass)
+**Total Score: 38/100** (Pass)
 
 ### Decisive diligence question
 
-Will independent engineering teams that previously skipped cross-device checks on most pull requests repeatedly pay for Simulithic after trying an equally capable alternative? A paid trial should compare both products on representative pull requests with the same device access and comparable model capability. It should show newly routine checks at equivalent regression-detection quality, lower total human time after review and exceptions, and renewals with a documented reason buyers prefer Simulithic at comparable pricing. Move to Reach out if those results establish both Path B conditions and raise the score to at least 65 with medium or high confidence. Pass if the trial shows that full delivery costs erase the savings or buyers readily switch to the equivalent alternative.
+Will an independent engineering team that previously skipped broad cross-device checks buy a second testing cycle after comparing Simulithic with its manual or Playwright workflow and a credible alternative using equivalent models? Move to Reach out if the trial shows that Simulithic reduces human time and full cost per reliably verified change enough to sustain the new cadence at the price paid, and the buyer renews because its accumulated journey coverage delivers a measurable benefit over the alternative. Move to Pass if the trial shows the cadence remains uneconomic or the buyer can switch to equivalent coverage without a meaningful loss.

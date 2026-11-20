@@ -1,32 +1,32 @@
 ﻿# Trepo -- AGI Evaluation
 
-**Action:** Watch
+**Action:** Watch  
 **Evidence confidence:** Low
 
 ### Company case
 
-**Path B — New economies.** Trepo could make weekly, inventory-aware reordering practical for households that currently rely on memory, receipts, and cupboard checks. Its fridge-mounted device and app turn shared scans, photos, and voice updates into draft carts. Trepo reports that San Francisco beta households could order those carts. The seed-stage mechanism is plausible. The untested assumption is that Trepo saves enough time per correctly fulfilled order, after stock corrections, cart review, and substitutions, to make this a repeat transaction for households that previously found manual inventory tracking too burdensome. (The Idea, Market & Traction, Key Risks)
+**Path B — New Economies** is Trepo’s strongest path. Households currently track stock through memory, receipts, and cupboard checks. The seed-stage hypothesis is that receipt scans, photos, and voice updates can make a continuously maintained shared inventory and recurring grocery orders economical for households that previously went without that service. Trepo’s founder reported that San Francisco beta households could order carts generated from their consumption. That supports feasibility. The memo contains no measurement of household labor saved, order accuracy, or repeat fulfilled orders. (The Idea, Market & Traction)
 
-The memo records 59 U.S. iOS ratings averaging 4.9/5 and one reported preorder that can be canceled before shipment. That supports early interest. Repeat ordering and willingness to pay for Food Club remain unknown. Taylor’s electronics experience and Slaughter’s brand and pilot responsibilities fit the next stage. The released app shows execution progress, and March 2027 remains the hardware ship target. The U.S. seed-stage opportunity plausibly fits the mandate. (Market & Traction, Founders & Team, Key Risks)
+Under the scenario assumption that frontier-quality models are cheap and widely available, Trepo’s fridge-mounted device could still earn payment if placing it where food is used makes inventory easier to maintain and consistently yields better orders. The relevant comparison is the full cost per accurate, fulfilled replenishment order, including household capture and review time, corrections, retries, product matching, and checkout and fulfillment exceptions. Trepo lists a $99 preorder price, a $129 regular price, and an optional $9.99 monthly subscription after three included months. Those prices give a trial concrete payment thresholds. Repeat economics depend on hardware production, returns and warranty costs, retailer coverage, and the labor required to handle exceptions. (The Idea, Defensibility, Key Risks)
 
-The expansion unit is an activated household. In a scenario using listed prices, hardware contribution starts at $99 per preorder or $129 at the listed regular price, less device, shipping, returns, warranty, acquisition, and free-tier servicing costs. Food Club adds $9.99 per paid month after the three included months, less incremental inference, support, and any fulfillment costs Trepo bears. Costs, paid conversion, and retention remain unknown. (The Idea, Key Risks)
+The memo records one publicly reported cancellable preorder and 59 U.S. iOS ratings averaging 4.9/5. These are early demand signals, with paid repeat use by the newly served households still unproven. The released app and Taylor’s electronics experience support seed-stage execution. The hardware has a March 2027 ship target. Confidence is Low because the decisive labor savings and buyer preference remain unmeasured. (Market & Traction, Founders & Team, Key Risks)
 
 ### Countercase
 
-With cheap, comparable models, an app or retailer could deliver much of the same outcome. Grocery AI already offers receipt-based inventory and ordering, and Samsung and Instacart announced a fridge recognition-to-order integration. Trepo’s retrofit device gives households a shared capture point on an existing fridge, but missed updates can leave inventory stale. The memo offers neither a parity test showing households would pay for that capture workflow nor evidence that Trepo controls scarce retailer access or fulfillment capacity for a separate Path A case. The alternatives make substitution credible, while actual switching remains untested. Path B’s two conditions remain open, which supports Watch. (The Idea, Defensibility, Market & Traction, Key Risks)
+Trepo may shift inventory work into scanning, photographing, and correcting stale records. Grocery AI already offers receipt-based inventory and ordering, and Samsung and Instacart have announced a refrigerator recognition-to-order integration. If a comparable product delivers similarly accurate orders with similar household effort, Trepo’s device and accumulated history may provide little reason to pay. The memo establishes credible substitutes but contains no direct comparison of effort, order quality, or switching. Both Path B gates remain open, supporting Watch. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 9/25 |
+| Path-specific thesis fit | 10/25 |
 | Durable value capture | 7/25 |
 | Customer demand | 8/20 |
 | Team and execution | 9/15 |
 | Scale economics | 5/15 |
 
-**Total Score: 38/100** (Pass)
+**Total Score: 39/100** (Pass)
 
 ### Decisive diligence question
 
-After hardware ships, can households that previously skipped inventory-aware ordering save meaningful time per correctly fulfilled order and repeatedly choose paid Food Club over an app with comparable model capability and retailer coverage? A cohort trial against both the prior manual routine and the comparable app should count capture, corrections, review, and substitutions, then observe paid repeat ordering after the included period. Evidence of both savings and paid preference would warrant rescoring and Reach out if the score clears 65 with at least medium confidence. If exception handling erases the savings or households readily switch at parity, move to Pass. (The Idea, Market & Traction, Key Risks)
+Will households that previously went without ongoing inventory-based replenishment keep paying for Trepo when a comparable alternative has equivalent models and retailer access? A representative trial should measure the manual baseline, compare all-in effort and cost per accurate, fulfilled order against the alternative, and track paid repeat use after the included Food Club period. Move to Reach out if the trial shows materially lower labor than the manual baseline, viable delivery costs, and sustained paid preference for Trepo. Move to Pass if a representative trial shows that corrections erase the labor savings or buyers retain the outcome with the substitute and stop paying Trepo.

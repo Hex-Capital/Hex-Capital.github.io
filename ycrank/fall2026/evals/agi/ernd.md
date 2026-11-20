@@ -5,28 +5,28 @@
 
 ### Company case
 
-**Path A — Scarce complements.** ernd could pool startup spending to secure GPU or inference capacity that small buyers struggle to obtain directly. The founders report receiving unfavorable quotes or finding capacity unavailable when buying as a small startup. The memo documents a live Firecrawl offer that doubles usage limits, showing ernd can negotiate a higher usage ceiling. Priority GPU and inference access was still planned at launch. The investment case assumes that rising AI usage keeps capacity scarce for small buyers and that pooled demand gives ernd enough leverage to reserve a meaningful allocation. Both assumptions remain untested. (The Idea, Defensibility, Key Risks)
+**Path A — Scarce complements.** The strongest case is that ernd could pool startup spending to secure GPU or inference capacity that small buyers struggle to obtain directly. The founders report receiving unfavorable GPU quotes or finding capacity unavailable because suppliers prioritized larger buyers. ernd’s published offers show that it has negotiated a higher Firecrawl usage limit and Wafer cash back. Priority GPU and inference access remains a plan. If cheap, widely available frontier intelligence increases demand faster than qualified capacity expands, ernd could capture value by controlling an allocation that small buyers can reliably access. The memo leaves both the persistence of the shortage and ernd’s ability to control an allocation unproven. (The Idea, Defensibility, Key Risks)
 
-ernd reports 30+ first-week card requests, an early demand signal with conversion and repeat spend still unknown. The public card launch shows the team can ship, and the founders bring relevant payments, infrastructure, and finance experience. Procuring and reliably delivering reserved capacity is the next execution test. (Market & Traction, Founders & Team)
+The reported 30-plus first-week card requests show early interest in the card. They leave paid demand for priority capacity untested. The team launched an issuer-backed card and brought relevant payments and infrastructure experience to the work. Delivering scarce capacity is its next operating test. (Market & Traction, Founders & Team, Key Risks)
 
-The expansion unit is an active startup account. The card has no annual fee and offers 4% back on qualifying AI spend. The memo reports paid vendor listings at undisclosed rates and lists standalone key protection at $39 per month. In a scale scenario, retained card revenue and any supplier payments attributable to incremental spend would need to cover rewards, servicing, and any losses ernd bears. Standalone subscriptions could contribute separately. The memo gives no spend per active account or net card economics to test that bridge. (The Idea, Key Facts)
+The plausible expansion unit is an active cardholder whose recurring spending adds negotiating volume. The memo reports paid provider listings and advertised rewards. For the model to scale, the revenue associated with serving additional cardholders would need to cover rewards and servicing. Purchasing volume, listing rates, and realized contribution are undisclosed. (The Idea, Defensibility, Key Facts)
 
 ### Countercase
 
-ernd could end up competing on rewards and spend tracking while suppliers retain control of capacity. Providers can withdraw perks, the issuing bank controls approvals and cardholder terms, and Dash.fi and Ramp already offer overlapping rewards or monitoring. A well-funded rival could bid for similar deals. That evidence defeats a durable-access case based on today’s perks and leaves the Path A outreach gate unmet. A reserved allocation remains a credible seed-stage test. Path B lacks evidence that automation lowers delivery labor enough to open a new market or that buyers would choose ernd under model parity. (Defensibility, Key Risks, Market & Traction, The Idea)
+ernd may be a rewards and spend-management card whose economics depend on terms set by its issuer and vendors. Coastal Community Bank controls approvals and cardholder terms, and providers can withdraw perks. Dash.fi already offers AI-specific rewards, and Ramp offers provider-level cost tracking. That overlap makes the current product vulnerable to substitution and the revocable terms weaken its claim to durable control. The evidence falls short of the Reach out gate. Priority capacity still has a concrete test because the memo leaves open whether direct suppliers or rival aggregators can match a future allocation. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 11/25 |
+| Path-specific thesis fit | 10/25 |
 | Durable value capture | 4/25 |
-| Customer demand | 8/20 |
+| Customer demand | 7/20 |
 | Team and execution | 8/15 |
 | Scale economics | 5/15 |
 
-**Total Score: 36/100** (Pass)
+**Total Score: 34/100** (Pass)
 
 ### Decisive diligence question
 
-Can ernd use an enforceable supplier allocation to repeatedly deliver GPU or inference capacity that small startups are willing to pay for and cannot obtain on comparable terms elsewhere? A paid cohort trial would need to show repeat fulfillment, a meaningful availability or lead-time advantage against direct and competing offers, and positive contribution after rewards and servicing. That result could move ernd to **Reach out** if the updated score reaches 65 with at least medium confidence. A trial showing buyers can readily obtain equivalent capacity elsewhere would move it to **Pass**.
+Can ernd use an enforceable supplier allocation to fulfill a paid GPU or inference order for an independent startup that could not obtain equivalent capacity on comparable terms directly or through a rival? A supplier agreement and a completed order at a price that covers delivery would move the action to Reach out. A credible substitute that matches the capacity and terms for the target buyer would close this case and move the action to Pass.

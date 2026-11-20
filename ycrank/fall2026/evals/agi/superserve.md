@@ -5,30 +5,28 @@
 
 ### Company case
 
-**Path A — Scarce complements.** The candidate bottleneck is isolated execution that preserves a long-running agent’s memory and disk state across idle periods. As cheaper intelligence drives more code-executing workloads, teams could need more of that capacity. Superserve says its microVMs can pause, resume, and fork with state intact. An external benchmark measured a median snapshot start of 0.56 seconds versus 0.75 for E2B, 0.98 for Modal, and 2.6 for Daytona. That supports a specific performance advantage at seed. How often buyers face a binding constraint on persistent execution remains unproven. (The Idea, Market & Traction)
+**Path A — Scarce complements.** If cheaper frontier models drive more long-running agents, the potential bottleneck is isolated execution that preserves live state through idle periods without tying up compute. Superserve offers full-state pause, resume, and fork, and says it supports indefinite paused-state retention. A benchmark measured median snapshot starts of 0.56 seconds for Superserve versus 0.75 seconds for E2B. That establishes a speed advantage on the tested operation. Whether that advantage matters over the life of a customer workload remains open. (*The Idea*, *Defensibility*, *Key Risks*)
 
-Lindy and Phaser describe launching agent products in under a month with Superserve. The company reports more than 100,000 machines per week and 48 million sandbox-minutes over 12 weeks. The testimonials support early use, while the reported volumes leave paid conversion and repeat demand unclear. The team has relevant agent, Kubernetes, and Firecracker experience and shipped the sandbox product after starting with RayAI. That supports seed-stage execution. The San Francisco location and early commercial evidence make a seed-led mandate fit plausible. (Market & Traction, Key Facts, Founders & Team)
+Lindy and Phaser describe launching agent products in under a month with Superserve. The company reports more than 100,000 machines per week and 48 million customer sandbox-minutes over 12 weeks. The testimonials establish deployment use, while the reported volumes leave paid repeat demand and willingness to pay for long-lived state unresolved. The team shipped the Firecracker-based product and brings prior experience in agent provisioning, Kubernetes platforms, and Firecracker storage. (*Market & Traction*, *Founders & Team*, *Key Facts*)
 
-**Scale scenario.** Assume sessions are bursty and pausing lets Superserve reclaim host capacity. For each added customer, contribution would be subscription and usage revenue after credits, less active compute and memory, retained storage, snapshot operations, and support. Shared base templates could reduce incremental storage costs. The memo establishes that paused compute billing stops and storage charges continue. Actual host savings, utilization, and contribution remain unmeasured. (The Idea, Defensibility, Key Facts)
+The expansion unit is a successfully completed agent session across active and paused periods. **Scenario assumption:** Sessions have long idle gaps and resume reliably. In that scenario, pausing can replace idle compute charges with retained-storage charges, and copy-on-write can reduce duplicated storage. Buyer cost per successful session still depends on active compute and memory, retained storage, and engineering time for failed resumes or state recovery. Superserve’s contribution depends on realized usage revenue covering its own compute, storage, and support costs. The memo provides billing mechanics and posted prices. Realized unit costs, paid utilization, and contribution remain unknown. (*The Idea*, *Defensibility*, *Key Facts*)
 
 ### Countercase
 
-With abundant capital, competitors could supply more suspendable capacity and narrow Superserve’s performance lead. AWS already offers suspendable Firecracker microVMs, and Claude Managed Agents supports multiple interchangeable sandbox providers. Modal also led the separate create-to-first-command benchmark, at 0.38 seconds versus Superserve’s 0.53. Saved state and policies could raise switching costs, but observed retention or migration evidence is absent. These substitutes weigh against durable capture. The Path A override remains unresolved because the memo lacks a like-for-like comparison for workloads that depend on indefinite state retention. (Defensibility, Key Risks)
-
-Path B has weaker support. Phaser’s account suggests less infrastructure work, but the memo establishes neither which previously uneconomic transactions became viable nor why those buyers would keep paying Superserve under functional parity. (Market & Traction, Defensibility)
+Superserve may offer a faster snapshot operation in a readily substitutable market. AWS offers suspendable Firecracker microVMs, Anthropic lists several interchangeable sandbox providers, and Modal beat Superserve on measured create-to-first-command latency, 0.38 seconds versus 0.53 seconds. Saved state and customer-specific policies could increase migration effort, but the memo has no migration or retention evidence. The substitutes close the generic sandbox scarcity case. The narrower case remains testable because the comparisons leave open whether rivals can match the reliability and full cost of repeated resumes after long pauses. That unresolved condition supports Watch. (*Defensibility*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 12/25 |
-| Durable value capture | 4/25 |
-| Customer demand | 11/20 |
+| Path-specific thesis fit | 11/25 |
+| Durable value capture | 7/25 |
+| Customer demand | 10/20 |
 | Team and execution | 10/15 |
-| Scale economics | 6/15 |
+| Scale economics | 7/15 |
 
-**Total Score: 43/100** (Pass)
+**Total Score: 45/100** (Neutral)
 
 ### Decisive diligence question
 
-Will independent paying customers repeatedly choose Superserve for workloads that require indefinite state retention when the best substitute runs the same workload under the same isolation and reliability requirements? A paid production comparison would need to show repeat purchases at positive contribution and identify a Superserve-controlled capability that keeps the substitute from matching cost per successful session. That would support **Reach out** if the updated score clears 65. Equivalent delivery economics and ready switching would defeat Path A and move the action to **Pass** on this record.
+Will an independent customer renew at a price that yields positive contribution for Superserve after testing the best credible substitute on the same production workload with long idle gaps? Compare successful stateful completions, recovery labor, and all-in cost. A paid renewal backed by a material gap the substitute would take meaningful time or effort to close would move the action to Reach out. Equivalent results and switching at low cost would close the remaining Path A case and move it to Pass. (*Defensibility*, *Market & Traction*, *Key Risks*)

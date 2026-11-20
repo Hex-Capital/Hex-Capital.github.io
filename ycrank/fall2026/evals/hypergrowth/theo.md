@@ -5,28 +5,26 @@
 
 ### Company case
 
-**Path A, product-led adoption.** The initial buyer is a small business owner with an existing website and a recurring need to attract customers through search. Theo’s free audit and site preview give the next thousand prospects a way to try the product. The proposed path to revenue is for those prospects to move their sites to Theo, connect Google Analytics and Search Console, and pay for weekly SEO work. If that workflow keeps producing value, Starter customers could stay subscribed or upgrade to Pro for more publishing. The memo establishes the product workflow and pricing. Paid conversion through the audit funnel and upgrades remain unmeasured. (The Idea, Key Risks)
+**Product-led adoption** is Theo’s strongest path. The initial buyer is a small business with an existing website and a recurring need to attract customers through search. Theo’s free audit surfaces problems, the free preview lets an owner evaluate a replacement site, and the $69.99 monthly Starter plan adds weekly SEO work after the owner moves hosting and connects Google Analytics and Search Console. The same workflow could travel across markets if Theo can adapt keyword targeting and content to local conditions. The memo gives no paid adoption by geography. (The Idea, Key Risks)
 
-Theo reports 10,470 distinct external domains audited and more than 10,000 sites built, a figure that can include free drafts. Buy My Lunch’s testimonial reports clicks rising from 131 to 929 over 90 days, and a reviewer reported paying roughly $69 per month. The testimonial shows a concrete outcome for one customer, and the review gives an early willingness-to-pay signal near Starter’s list price. Neither establishes how customers arrived, how much help they needed, or whether they renewed. Confidence in repeatable paid activation is low. (Market & Traction, Key Facts)
-
-**Cross-market scenario.** Assume a second English-speaking market has small businesses with the same search problem and Google setup. Theo could plausibly reuse its hosting, preview, and publishing workflow, while adapting keyword and competitor research to local search behavior and checking billing and support requirements. The memo gives no geographically identified paid cohort to test that assumption. At $69.99 per Starter month, contribution depends on acquisition spend and migration labor per new customer, plus hosting, content generation, quality control, and support per active site. The memo gives no figures for those costs. (The Idea, Key Risks, Key Facts)
+Theo reports 10,470 distinct domains in its audit dataset and more than 10,000 site builds, which can include free drafts. A reviewer reported paying roughly $69 per month. Two named testimonials report organic search gains, with Buy My Lunch reporting Google clicks rising from 131 to 929. These are concrete but narrow signs of initial fit. The memo leaves open whether those customers came through the audit, how much help they needed, and whether they renewed or upgraded. The testimonials measure search performance, while retention requires evidence of continued customer use or payment. (Market & Traction, Key Facts)
 
 ### Countercase
 
-The free audit may attract owners who want a diagnosis but hesitate to move a live site. Paid activation requires a hosting cutover, redirects, and Google authorization. If customers routinely need Theo’s help with those steps or with reviewing weekly content, the resulting labor could absorb much of a Starter subscription. The reported traffic gains also leave open whether typical customers see enough value to renew. These are plausible failure modes. The memo supplies no observed structural ceiling or evidence of proportional delivery costs, so the Pass gate does not apply. (The Idea, Market & Traction, Key Risks)
+Even if Theo delivers valuable SEO, the first link likely to break is conversion from a free preview to a live, paid site. Owners must migrate hosting and authorize Google tools before the growth engine starts. Theo describes previews and redirects that could ease cutover, but the memo gives no comparable measurements of migration labor, ongoing support, or per-site delivery costs. Free activity could therefore grow alongside a paid funnel that requires hands-on work at each cutover. That possibility supports Watch. The structural downside gate requires affirmative evidence that the constraint persists without a credible way to improve. (The Idea, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 9/25 |
+| Global buyer demand | 16/25 |
 | Repeatable acquisition and onboarding | 9/25 |
 | Retention and customer expansion | 7/20 |
 | Contribution as volume grows | 7/20 |
 | Evidence of fit in the first buyer segment | 6/10 |
 
-**Total Score: 38/100** (Pass)
+**Total Score: 45/100** (Neutral)
 
 ### Decisive diligence question
 
-Can a tracked cohort of existing-site small businesses in a second English-speaking market go from free audit to paid Starter, complete migration and Google setup through the standard workflow, and renew after using weekly publishing? Cohort records showing those steps, acquisition spend, staff time, and ongoing delivery cost would answer it. Move to Reach out if independent buyers repeat that path with limited manual help and a credible margin after those costs.
+Can independent small businesses that discover Theo through the free audit repeatedly reach paid Starter activation through the same onboarding steps with limited hands-on help? Cohort records linking audit, preview, site cutover, Google authorization, first paid SEO publish, and staff time would answer it. Several independent customers completing that sequence with comparable, bounded assistance would move Theo to Reach out.

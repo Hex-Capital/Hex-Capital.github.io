@@ -5,34 +5,36 @@
 
 ### Company case
 
-**Strategic acquisition** is the strongest private-company path. A real-estate lead-management platform could buy Rezora to add outbound voice follow-up and booking to its existing workflows. Luxury Presence already qualifies brokerage leads by SMS, and Yelp’s acquisition of Hatch shows that a platform has bought an adjacent lead-management product. Rezora’s founder reports that one customer closed $65,000 after using its CRM follow-up. The benefit of owning Rezora would be control of specialized call workflows and integrations, conditional on those workflows producing repeatable gains that a buyer could capture more economically through ownership. The memo leaves that advantage unproven. (The Idea, Defensibility, Market & Traction)
+Strategic acquisition is the strongest path. A home-services marketplace or field-service software platform could buy Rezora’s inbound voice booking and lead follow-up workflows to capture more jobs from inquiries it already generates. Yelp’s acquisition of Hatch establishes that a buyer has paid to own an adjacent workflow. Hatch had $25 million in reported ARR, and the memo gives no purchase price. For Rezora, ownership would make economic sense if its workflows or retained customer base generated more incremental gross profit than the buyer could capture by building or licensing the feature. The memo has no buyer-side measurement of that benefit. (*The Idea*, *Market & Traction*)
 
-The current platform has launched, the memo describes brokerage pilots, and Rezora reports 1,000 meetings booked. Those signals support testing for sustained conversion gains and paid retention across brokerages. Current-platform revenue, burn, and runway are undisclosed, so the capital and time needed to get there are uncertain. The memo also leaves IP ownership and contract assignability unverified. It supplies no usable evidence of an independent fallback that could pay this holder. (The Idea, Market & Traction, Key Facts)
+The operating milestone is a retained, paying cohort of home-service businesses that shows a repeatable lift in completed bookings through a live field-service integration. The memo documents the platform launch, and Rezora reports 1,000 meetings booked. That figure gives no breakdown for home services, paid retention, or incremental completed jobs. The estimated $125,000 seed entry leaves runway and integration costs open. The memo also leaves core IP ownership, vendor rights, and customer contract transfer terms unverified. (*Market & Traction*, *Key Facts*, *Key Risks*)
 
-**Proceeds bridge.** Using the illustrative seed terms, a $500,000 check at a $10 million post-money valuation buys 5%, diluted to 3% with no follow-on checks. A 5× gross cash return within eight years requires $2.5 million to the holder, or $83.3 million in distributable equity proceeds. The hurdle is $125 million at 2% ownership and $62.5 million at 4%. The memo gives no usable acquisition price or buyer economics for Rezora, so the figures below are sensitivities. Both sale scenarios assume zero net debt and zero other adjustments, so enterprise value equals equity consideration. Both assume a pro rata waterfall with no senior claims and all cash at closing. Stock, escrow, earnouts, rollover, and compensation are each $0. (Market & Traction, Key Facts)
+Under the shared scenario, a $500,000 check at a $10 million post-money valuation buys 5%, diluted to 3% with no follow-ons. The eight-year target is $2.5 million in gross cash before investor taxes. That requires $83.3 million of distributable equity at 3% ownership, $125 million at 2%, or $62.5 million at 4%. At 3%, the hurdle is $88.3 million in enterprise value with $5 million of illustrative net debt. Actual debt, fees, preferences, and investor terms are unverified.
 
-| Scenario | Timing | Investor cash before taxes | Gross multiple |
-|---|---|---:|---:|
-| Modest sale at $40 million enterprise value | Year 5 | $1.2 million | 2.4× |
-| Strong sale at $100 million enterprise value | Year 7 | $3.0 million | 6.0× |
-| Prolonged private ownership with growth plateauing, buyers staying away, public scale out of reach, and cash reinvested | Through year 8 | $0, with shares retained | 0× |
+| Eight-year scenario | Gross cash to the holder |
+|---|---:|
+| $25 million enterprise value, less $5 million illustrative net debt | $600,000 (1.2×) |
+| $100 million enterprise value, less $5 million illustrative net debt | $2.85 million (5.7×) |
+| Growth plateaus, buyers stay absent, public scale stays out of reach, and available cash is reinvested | $0, with shares still held |
+
+The strong sale clears the hurdle as a sensitivity. The Hatch transaction and Rezora’s operating evidence supply no realizable price range for Rezora. A sponsor buyout lacks evidence of predictable cash generation and financing capacity. A secondary lacks demand for eligible shares. An IPO lacks evidence of operating scale and resale readiness. Dividends or buybacks lack evidence of distributable cash or an eligible payout. (*Market & Traction*, *Key Facts*)
 
 ### Countercase
 
-A buyer could build or license the core workflow. Rezora’s founder says the paid pilot used commercial tools for basic calling and booking. Jobber already bundles inbound booking, and Avoca books directly in ServiceTitan while Rezora lists that integration as forthcoming. Outbound consent requirements also limit which leads Rezora can serve. This evidence weakens the ownership rationale, but it leaves open whether specialized real-estate workflows could deliver a durable enough advantage to support the required price. The structural Pass override does not apply on the memo evidence. (Defensibility, Market & Traction, Key Risks)
+A strategic buyer can already build, integrate, or license much of the workflow. Jobber bundles inbound booking, Avoca books directly into ServiceTitan, and Rezora’s founder says the initial outbound pilot used commercial tools and a calendar connection. Rezora lists major field-service integrations as forthcoming, and its outbound consent requirements limit which leads it can serve. These facts weaken the case for paying to own Rezora. They establish neither a structural closing barrier nor a supported sale-price ceiling below the holder’s target, so the Pass gate does not apply. (*Defensibility*, *Market & Traction*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 13/30 |
+| Counterparty rationale or source of cash | 14/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 9/20 |
+| Milestones and capital needed | 10/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 37/100** (Pass)
+**Total Score: 39/100** (Pass)
 
 ### Decisive diligence question
 
-Can a paid rollout across multiple brokerages demonstrate sustained conversion gains that make acquiring Rezora economically preferable to building or licensing the workflow at a price that could yield at least $83.3 million in distributable equity proceeds? Measured conversion gains and a prospective buyer’s documented economics supporting that hurdle would move the action to Reach out.
+What acquisition value could a field-service platform justify from Rezora’s measured lift in completed jobs across a retained, paying home-services cohort? A live integration with cohort-level results and a buyer-side valuation range that accounts for build and licensing alternatives would answer it. A supported range that clears the holder’s cash hurdle would move the action to Reach out.

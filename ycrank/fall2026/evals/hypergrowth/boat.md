@@ -1,32 +1,30 @@
 ﻿# Boat -- Hypergrowth Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Low
+**Evidence confidence:** Medium
 
 ### Company case
 
-**Path A — Product-led adoption.** Developers building long-running agents have a recurring need for isolated computers that preserve state. Boat documents a self-service trial and a CLI and SDK for starting, resuming, and forking Ubuntu VMs. The founder reports that X and Product Hunt each brought in comparable trial volumes. If developers can get a first workload running on their own, the same onboarding could serve the next thousand buyers, with paid VM-hours growing as customers put more agents into production. Paid conversion by channel and onboarding effort remain unknown. (The Idea, Market & Traction)
+**Usage-based expansion** is Boat’s strongest path. Teams building long-running agents can provision a persistent Ubuntu VM through a CLI, API, or SDK, resume it for recurring jobs, and fork it for additional work. Boat bills running time by the second. If customers put more recurring jobs on Boat, their billable VM time could grow within the same account. The documented workflow is portable for teams that can use Boat’s European hosting. Buyer geography is unreported, and snapshot residency and pending SOC 2 limit which buyers can adopt. (The Idea, Key Risks)
 
-One named user said he worked through his Claude allowance four times as fast after adopting Boat. The founder separately reported 350+ paying users in September and ARR rising from $200K to $1M over a month. These are early signals of buyer commitment. The memo gives no account-level evidence of retained or expanding paid workloads and does not define how usage was annualized. (Market & Traction, Key Facts)
-
-**Scenario assumption.** A US team that can use EU-hosted VMs could adopt through the same SDK. A buyer requiring local processing would need Boat to add regional host capacity and control snapshot placement. At the listed $0.036 per billed hour for the default VM, contribution depends on host utilization, burst headroom, snapshot storage and transfer, and support. The cost of acquiring each paid cohort also includes trial compute. Auto-stop can reduce idle runtime, but the memo gives no measured contribution per workload. (The Idea, Key Risks)
+Boat documents self-service trial provisioning, and the founder reports that X and Product Hunt each brought in trial users. The founder also reports 350+ paying users in September and $1 million in ARR in November, up from $200,000 one month earlier. Those figures support early willingness to pay, while the conversion path from either launch channel to paid use remains open. A named customer reported using his Claude allowance four times as fast after adopting Boat. That is evidence of a specific workflow benefit, with paid VM usage over time still unmeasured in the memo. (The Idea, Market & Traction, Key Facts)
 
 ### Countercase
 
-Founder-led launches may generate trials and short bursts of paid usage while production buyers choose an existing cloud vendor with overlapping capabilities. Even if workloads recur, burst demand can require spare host capacity. Boat already charges for excess starts and can reject higher bursts. The memo establishes neither a structural ceiling on global demand nor proportional delivery costs without a path to improvement, so the Pass gate does not apply. (The Idea, Market & Traction, Key Risks)
+The first unproven link is whether customers turn an initial workload into recurring, expanding paid runtime. Founder-reported VM starts count activations, while Boat earns usage revenue on running time. Aggregate ARR growth could come from new buyers, and bursts could lift starts while adding little billable runtime. At the listed $0.036 per running hour for a standard VM, incremental contribution depends on the host capacity, snapshot storage, and support that additional usage requires. Auto-stop could reduce idle capacity costs as well as billable time. The memo provides no cohort-level billing or marginal-cost measurements. The structural downside gate stays open because proportional delivery costs have yet to be established. (The Idea, Market & Traction, Key Facts, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 12/25 |
-| Repeatable acquisition and onboarding | 13/25 |
+| Global buyer demand | 16/25 |
+| Repeatable acquisition and onboarding | 12/25 |
 | Retention and customer expansion | 7/20 |
 | Contribution as volume grows | 7/20 |
 | Evidence of fit in the first buyer segment | 7/10 |
 
-**Total Score: 46/100** (Neutral)
+**Total Score: 49/100** (Neutral)
 
 ### Decisive diligence question
 
-Can a self-serve cohort in a second buyer market sustain paid production VM-hours at positive contribution after the trial? Cohort billing and usage across successive billing periods, matched to acquisition, host capacity, snapshot, and support costs, would answer it. A positive result would move Boat to Reach out.
+Across consecutive monthly billing periods, do independently acquired agent-building teams add billable VM hours for recurring workloads at positive, improving incremental contribution after host capacity, snapshot storage, and support costs? Account-level billing matched to workload and cost records would move Boat to **Reach out** if several teams show that pattern. **Watch** holds while the pattern remains unresolved. If the records show that added workloads consistently require proportional costs that consume the incremental revenue, with no supported way to improve, move to **Pass**.

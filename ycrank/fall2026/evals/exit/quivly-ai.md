@@ -1,27 +1,25 @@
 ﻿# Quivly AI -- Exit Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Medium
+**Evidence confidence:** Low
 
 ### Company case
 
-Strategic acquisition is Quivly’s strongest private-company exit path in Fall 2026. A customer-success platform could buy Quivly to add onboarding automation for usage-priced software vendors. Mycroft uses Quivly to track implementation milestones and billable hours. That workflow use supports the inference that ownership could give a buyer a faster way to deploy the capability across its installed base. Quivly reports that time to go live fell from 30 to 7 days. The memo leaves open how broadly that result repeats and how much it would be worth to a buyer. (The Idea, Defensibility, Market & Traction)
+Strategic acquisition is Quivly’s strongest path. A customer-success platform could buy Quivly’s onboarding workflows to add kickoff-to-launch automation for usage-priced software vendors. Mycroft uses Quivly to track implementation milestones and billable hours and reports that each field engineer could manage 3–4× as many accounts. Separately, Quivly reports a reduction in time to go live from 30 to 7 days and 4.3× average revenue expansion. These outcomes suggest customer value. The acquisition case depends on whether an incumbent could win or retain enough business by owning the workflow to justify the price over building or licensing it. The memo leaves that buyer benefit unquantified. (The Idea; Defensibility; Market & Traction)
 
-A paid rollout across several customers could test whether the onboarding gains repeat. Octolane reports onboarding more than 100 customers without a dedicated customer engineering hire, and Quivly offers a paid enterprise pilot. The memo records an undisclosed pre-seed round and leaves runway and rollout costs unknown. A sale would also require diligence on IP ownership, contract assignability, continued connector access, and customer data permissions. A sponsor buyout has weaker support because Quivly’s realized revenue and cash generation are unknown. The memo supports no independent fallback that would pay this holder. (The Idea, Market & Traction, Key Risks, Key Facts)
+A proposed milestone is three paid production deployments that measure implementation time or engineer capacity against the customer’s incumbent workflow. Octolane’s testimonial that it onboarded more than 100 customers without a dedicated customer engineering hire, together with Quivly’s paid enterprise pilot offering, makes that test plausible at this stage. Pilot conversion, realized revenue, burn, and the capital needed to reach the milestone remain unknown. Closing would also require diligence on IP assignment, customer and connector rights, and any required consents. The memo documents connector dependency and customer data opt-outs, while leaving their treatment in a sale unverified. (The Idea; Market & Traction; Key Facts; Key Risks)
 
-**Illustrative proceeds bridge.** With investment terms undisclosed, assume a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-on checks. The eight-year target is $2.5 million in gross cash. For both sale scenarios, assume enterprise value equals distributable equity consideration, with zero net debt or other adjustments and a simple pro rata waterfall with no preference impact. All consideration is cash at closing. Stock, escrow, earnouts, rollover, and compensation are each zero. These are scenario assumptions, and the memo supplies no acquisition price evidence.
+**Illustrative proceeds.** A $500,000 check at a $10 million post-money valuation starts at 5% ownership. With 40% relative dilution and no follow-ons, the holder owns 3%. A 5× gross cash return within eight years requires $2.5 million, or $83.3 million of distributable equity at 3% ownership. The hurdle rises to $125 million at 2% and falls to $62.5 million at 4%. The sale scenarios assume $5 million of net debt, simple pro rata distribution before investor taxes, and no fees or senior claims beyond that debt. Quivly’s actual terms and a realizable sale range remain unverified. (Key Facts)
 
-| Scenario | Timing from check | Gross cash to investor | Gross multiple |
-|---|---|---:|---:|
-| Modest sale at $40M enterprise value | Year 4 | $1.2M | 2.4× |
-| Strong sale at $100M enterprise value | Year 7 | $3.0M | 6.0× |
-| Prolonged private ownership with growth plateauing, buyers staying away, public scale out of reach, and cash reinvested | Through year 8 | $0, shares retained | 0× realized |
+- **Modest sale.** At $25 million enterprise value, $20 million of distributable equity returns $600,000 gross, or 1.2×.
+- **Strong sale.** At $100 million enterprise value, $95 million of distributable equity returns $2.85 million gross, or 5.7×. At 3%, the target clears at about $88.3 million of enterprise value under these assumptions.
+- **Prolonged private operation.** If growth plateaus, buyer interest fails to emerge, public scale stays out of reach, and available cash is reinvested, the holder realizes $0 over eight years and retains the shares. A wind-down recovery is indeterminate without balances, obligations, and preferences.
 
-The hurdle is $83.3 million in distributable equity at 3% ownership, $125 million at 2%, and $62.5 million at 4%. The modeled strong sale clears at 3% and falls short at 2%.
+The memo leaves cash generation for a sponsor buyout or company-funded payout, demand for an eligible secondary, and operating scale for a public listing unevidenced. Vista’s majority investment in Gainsight establishes a transaction in the category, with no basis in the memo for pricing or financing a Quivly buyout. (Market & Traction; Key Facts)
 
 ### Countercase
 
-Incumbents can automate from account data they already hold. ChurnZero runs agents inside existing Plays, Vitally can write tasks and notes through MCP, and Gainsight already overlaps with Quivly in renewals. A buyer could build the missing onboarding features or license Quivly and capture enough of the benefit to make an acquisition uneconomic. That risk warrants Watch. The memo does not establish that either substitute delivers comparable end-to-end onboarding gains or caps a credible bid below the hurdle, so the Pass override does not apply. (Defensibility, Key Risks)
+Incumbents already have much of the account data and workflow access needed to build overlapping automation. ChurnZero runs agents inside existing Plays, Gainsight offers managed renewals, and Vitally can write tasks and notes from its workspace. These shipped capabilities are more direct evidence of a buyer’s build alternative than Quivly’s reported customer gains are of a buyer’s willingness to pay. The overlap weakens the case for a price that clears the holder’s hurdle. The Pass gate remains open because the memo establishes neither a structural barrier to a sale nor a supported price range that leaves the holder materially short. (Defensibility; Market & Traction; Key Risks)
 
 ### Dimension Scores
 
@@ -29,12 +27,12 @@ Incumbents can automate from account data they already hold. ChurnZero runs agen
 |-----------|-------|
 | Counterparty rationale or source of cash | 14/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 11/20 |
+| Milestones and capital needed | 10/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 40/100** (Pass)
+**Total Score: 39/100** (Pass)
 
 ### Decisive diligence question
 
-Can a prospective platform buyer use a paid production rollout across several customers to show that owning Quivly creates enough incremental value over building or licensing it to support a price that clears the holder’s cash hurdle? A buyer-validated comparison using measured onboarding gains and integration costs would move the action to Reach out if it supports that price. Until then, Watch.
+Can paid production deployments show enough incremental value over an incumbent’s native workflow to support an acquisition near or above the holder’s proceeds hurdle? Move to Reach out if repeatable customer results and a credible buyer-side build-versus-buy analysis support that price after dilution and senior claims. Otherwise, keep Watch unless evidence establishes a structural blocker or a supported price range that leaves the holder materially short.

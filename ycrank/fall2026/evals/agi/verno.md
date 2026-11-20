@@ -5,28 +5,28 @@
 
 ### Company case
 
-**Path B — New economies** is Verno’s strongest path. Verno documents a workflow that turns a redline into proposed native CAD edits, coordinates changes across related files, and requires engineer approval before write-back. Verno reports finding three conflicting design pressures for one tank in documents already issued for construction. That claim illustrates the cost of missed reconciliation, while the memo supplies no like-for-like measurement of labor or error rates. The San Francisco seed-stage company fits the thesis’s stated sourcing focus. (The Idea; Market & Traction; Key Risks; Key Facts)
+**Path B — New Economies.** EPC teams currently send redlined piping and instrumentation diagrams to drafters and manually reconcile the downstream documents. Verno proposes to prepare coordinated edits and rule checks for engineer approval. In a plausible scenario, this makes full reconciliation economical for routine revisions that teams currently defer or spot-check because of labor cost. Verno reports finding three conflicting design pressures for one tank in documents already issued for construction. That finding illustrates the value of checking across files. The decisive cost comparison is per correctly reconciled, engineer-approved revision, including drafting, review, retries, exception handling, and software costs. The memo gives no measured comparison. (The Idea, Market & Traction, Key Risks)
 
-**Scenario assumption:** If Verno reduces total drafting, reconciliation, review, and correction time at equivalent engineering quality, an EPC could afford to check minor revisions across an entire document set at a frequency it previously found uneconomic. With equally capable models available to competitors, Verno’s customer-specific Excel templates and approval histories could give buyers a reason to stay if switching disrupts a workflow they rely on. The memo documents those features. Buyer preference under functional parity remains untested. (The Idea; Defensibility; Key Risks)
+The memo documents native CAD write-back, customer Excel templates, and revision histories tied to approvals. Under model parity, an EPC might still pay Verno to preserve its established approval workflow and revision history. That preference remains untested. The reported active pilot and live customer sites indicate early use, with payment and repeat use undisclosed. The founders bring relevant engineering-documentation and extraction experience, and the team includes a process engineer. (Defensibility, Market & Traction, Key Facts, Founders & Team)
 
-Verno reports an active pilot, and the memo separately records a report of live customer sites. Payment and repeat use are unknown. The founders’ prior work in engineering documentation and document extraction, plus the founding team’s process engineering experience, support execution at seed. At scale, an EPC account could support recurring paid revisions, with contribution depending on price and frequency relative to inference, customer-specific setup, and support costs. The memo gives no pricing or cost measurements to validate that bridge. (Market & Traction; Founders & Team; The Idea; Key Facts)
+The expansion unit is an EPC deployment across successive projects. Assuming an enterprise license, repeat use would need to spread single-tenant setup and CAD validation costs across enough projects for revenue to cover those costs plus ongoing inference and support. The memo provides no realized pricing or delivery costs. (The Idea, Key Risks, Key Facts)
 
 ### Countercase
 
-Verno may only speed up work EPCs already budget for. Engineer review, correction of cross-file errors, and setup-specific CAD validation could absorb the drafting savings. Autodesk already validates P&IDs against project models. With ample capital and comparable models, it could add downstream connectors and write-back. The memo establishes neither buyer preference under parity nor control of a scarce engineering input that would independently support Path A. These risks leave both Path B conditions unproven. The override would close that path if a representative trial showed that no new work became viable or that buyers readily substituted an equivalent product. (Defensibility; Market & Traction; Key Risks)
+Verno may speed up reconciliation on projects that already pay for it. Engineer review and setup-specific CAD validation could absorb enough of the drafting savings to keep routine, previously skipped checks uneconomic. Autodesk already validates P&IDs against project models and could extend that workflow to downstream files, weakening the reason to pay Verno under model parity. Both gates remain open for a customer test. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 10/25 |
-| Durable value capture | 7/25 |
-| Customer demand | 7/20 |
-| Team and execution | 9/15 |
-| Scale economics | 5/15 |
+| Path-specific thesis fit | 11/25 |
+| Durable value capture | 8/25 |
+| Customer demand | 8/20 |
+| Team and execution | 7/15 |
+| Scale economics | 6/15 |
 
-**Total Score: 38/100** (Pass)
+**Total Score: 40/100** (Pass)
 
 ### Decisive diligence question
 
-Will an independent process EPC repeatedly pay Verno to reconcile minor P&ID revisions it previously left unchecked, when it can choose an alternative with comparable model and workflow capabilities? A paid production trial should compare the prior workflow and both products at equivalent engineering quality, counting all drafting, review, retries, and exception handling. Repeat paid use on previously skipped work, with measured labor savings and a demonstrated preference for Verno under parity, would resolve the thesis gates and support Reach out if the reassessment clears the score and confidence thresholds. If the trial shows that review absorbs the savings or that the buyer readily switches under parity, move to Pass. (The Idea; Defensibility; Market & Traction; Key Risks)
+Will an independent pilot EPC pay a viable price to repeat full reconciliation on revisions it previously skipped, after trying a functionally equivalent alternative? Move to Reach out if a representative trial measures lower full cost per correctly approved revision against the old workflow and the EPC chooses Verno for a paid repeat at a price that covers delivery. Move to Pass if the trial shows the previously skipped work remains uneconomic or the EPC readily switches under functional parity.

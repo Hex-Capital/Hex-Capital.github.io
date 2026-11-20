@@ -1,29 +1,25 @@
 ﻿# Central Blue -- Exit Evaluation
 
-**Action:** Watch  
+**Action:** Watch
 **Evidence confidence:** Low
 
 ### Company case
 
-Strategic acquisition is the strongest path. A spacecraft prime or fleet operator could pay cash for HELION and CORE if owning the power-delivery system let it operate valuable payloads longer through eclipse and gave it control over power availability or integration that a service contract could not provide. That ownership advantage is an inference. The memo records Central Blue’s Fall 2026 YC acceptance and a mission intake process. The company reports a nearly complete prototype and a December 2026 ground propulsion demonstration with Wave Motion. Its target of 10 kW at the customer power bus for four to five hours remains a company claim. The memo establishes neither repeatable orbital delivery nor a funded path to prove it. (*The Idea*, *Market & Traction*, *Key Risks*)
+Strategic acquisition is the strongest path. A spacecraft manufacturer or fleet operator could buy HELION’s power-delivery hardware, receiver design, and CORE controls if owning the system lets it recover enough imaging or propulsion time in eclipse across a fleet to justify the purchase. Ownership could give the buyer control over spacecraft integration and power delivery. The memo establishes a potential use for the system, while the value of ownership over a service contract remains an inference. (The Idea, Defensibility)
 
-The milestone is repeatable power delivery to a customer spacecraft through eclipse, with measured gains in usable payload time. The announced ground test is a step toward that milestone. Flight-test cost, financing, and runway are unverified, and the memo gives conflicting indications of Satlyt’s CORE test status. IP ownership, transfer rights, and required approvals are also unverified. The planned CORE tests supply no separate evidence of a payer or a route to cash for this holder if the HELION acquisition case fails. (*Market & Traction*, *Defensibility*, *Key Risks*)
+The memo records Central Blue’s Fall 2026 YC admission. The company reports a nearly complete prototype and a planned ground propulsion demonstration with Wave Motion. That gives the team a concrete first test. The acquisition-relevant milestone is sustained delivery at a partner spacecraft’s power bus in orbit at a level that improves a real mission. The company targets 10 kW for four to five hours per full discharge. The orbital test budget and funding remain unknown. The November update still describes the Satlyt CORE flight test as in preparation, leaving the earlier flight-validation listing unresolved. Asset ownership and transfer terms also remain unverified. (Market & Traction, Key Risks, Defensibility)
 
-The memo supplies no usable acquisition-price evidence or terms for this investor’s check. The illustrative seed case uses a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-on checks. The eight-year 5× target is $2.5 million in gross cash, requiring about $83.3 million in distributable equity proceeds at 3% ownership. The threshold is $125 million at 2% and $62.5 million at 4%. (*Key Facts*)
+The memo gives no basis to underwrite a sponsor buyout from recurring cash flow, a secondary from eligible share demand, an IPO and resale from operating scale or reporting readiness, or a dividend or buyback from distributable cash. (Market & Traction, Key Facts)
 
-For the sale scenarios below, enterprise value equals distributable equity consideration under the assumed zero net debt, zero transaction fees, and no other price adjustments. The assumed waterfall is pro rata with no preference deductions. All consideration is cash at closing. Stock, escrow, earnouts, rollover, and compensation are each $0. These are scenario inputs, with no memo evidence supporting the modeled prices or terms.
+With holder terms absent, assume a $500,000 investment at a $10 million post-money valuation, with 5% initial ownership diluted by 40% to 3% and no follow-ons. The eight-year 5× target is $2.5 million in gross cash. A pro rata sale requires about $83.3 million in distributable equity at 3% ownership, $125 million at 2%, or $62.5 million at 4%. At 3% with illustrative net debt of $5 million, the enterprise-value hurdle is about $88.3 million before any fees or senior claims. The memo supplies no company-specific amounts for those deductions or evidence of a realizable sale price. (Key Facts, Market & Traction)
 
-| Scenario | Timing from check | Holder cash | Gross multiple |
-|---|---|---:|---:|
-| Modest sale at $40 million enterprise value | Year 5 | $1.2 million | 2.4× |
-| Strong sale at $100 million enterprise value | Year 7 | $3.0 million | 6.0× |
-| Prolonged private, with growth plateauing, buyers staying away, public scale out of reach, and cash reinvested | Through year 8 | $0, shares retained | 0× realized |
-
-The strong scenario clears the hurdle at 3% ownership and falls to 4× at 2%. Buyer economics and the eventual waterfall remain decisive.
+- **Modest sale in year eight.** At $25 million enterprise value and $5 million of illustrative net debt, the holder receives $600,000 gross, or 1.2×.
+- **Strong sale in year eight.** At $100 million enterprise value on the same terms, the holder receives $2.85 million gross, or 5.7×. These sale prices are scenario assumptions.
+- **Prolonged private operation.** If growth plateaus, buyers stay away, public-market scale remains out of reach, and available cash goes back into development and deployment, the holder realizes $0 over eight years and retains the shares. In a wind-down, only a residual after obligations and preferences could reach the holder. The memo gives no basis to estimate it. (The Idea, Market & Traction, Key Facts)
 
 ### Countercase
 
-Central Blue’s dedicated receiver adds an integration step. Star Catcher’s prototype architecture uses standard solar panels, and the memo reports an orbital tracking demonstration and ten announced power purchase agreements. A buyer able to procure comparable power on contract could capture the operating benefit without buying Central Blue, capping what it would pay for ownership. The memo has no comparable delivered-power results or buyer economics that establish such a cap. The evidence supports Watch. Neither a structural price ceiling nor a probable eight-year outcome without shareholder liquidity is established. (*Defensibility*, *Market & Traction*, *Key Risks*)
+A buyer could contract for power or choose an architecture that works with its existing solar panels. Star Catcher reported an orbital acquisition and tracking demonstration and announced ten power purchase agreements. Central Blue’s dedicated receiver adds an integration step, making the benefit of owning its system harder to establish. The memo leaves open whether the competing architecture can meet the same mission requirements. There is no established structural block or supported sale price that puts the holder materially short, so the Pass gate does not apply. (Defensibility, Key Risks)
 
 ### Dimension Scores
 
@@ -31,12 +27,12 @@ Central Blue’s dedicated receiver adds an integration step. Star Catcher’s p
 |-----------|-------|
 | Counterparty rationale or source of cash | 12/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 10/20 |
+| Milestones and capital needed | 9/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 37/100** (Pass)
+**Total Score: 36/100** (Pass)
 
 ### Decisive diligence question
 
-After a repeatable in-orbit eclipse trial, can a prospective buyer show that owning HELION and CORE instead of contracting for comparable power would justify a price that clears the holder’s cash hurdle? A buyer’s costed comparison grounded in measured power at the customer bus and usable payload time would move the action to Reach out if it supports about $83.3 million in distributable equity at the assumed 3% stake. Evidence that comparable contracted power caps the price materially below the hurdle would move the action to Pass.
+Would demonstrated orbital power delivery make ownership of HELION and CORE worth roughly $88 million in enterprise value to a specific spacecraft builder or fleet operator under the modeled terms? A partner-backed orbital test that measures sustained power at the customer bus, paired with that buyer’s quantified fleet economics for ownership versus contracting, would answer it. Move to Reach out if those economics support a sale range that clears the holder’s hurdle. Remain on Watch if the test establishes performance alone.

@@ -1,32 +1,30 @@
 ﻿# Kairos Health -- Hypergrowth Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Low
+**Evidence confidence:** Medium
 
 ### Company case
 
-**Path B: Repeatable sales or partner distribution with account expansion.** The first buyer is a dental practice that regularly misses inbound calls or falls behind on patient recalls. Kairos documents direct booking into Dentrix, Open Dental, and Eaglesoft using each practice’s scheduling rules. If those integrations make setup reusable, direct sales could win individual practices and a dental service organization could roll the same product out across locations, adding subscription revenue at each site. Kairos solicits demos and referrals from practices and dental service organizations. The memo gives no channel-level conversion or rollout data. (The Idea, Defensibility)
+**Repeatable direct sales** is the strongest path. Dental practices have a recurring job in reaching overdue patients and booking them into available slots. Kairos documents direct booking into Dentrix, Open Dental, and Eaglesoft, with configurable provider and appointment rules. That gives the company a plausible way to reuse the same deployment across practices. In a second market, recall and booking could carry over if buyers use a supported scheduling system and Kairos can meet local patient-data requirements. Both conditions remain untested in the memo. (The Idea, Defensibility, Key Risks)
 
-**Early fit.** Kairos reported 16 live U.S. locations at launch. A founder separately reported 13 paying practices and $4K+ in MRR. Those figures establish an early commercial signal, with realized pricing and paid conversion still unclear. Pecan Dental’s testimonial describes 1,200+ calls handled and $21K+ in average monthly dental production, supporting recurring use at one practice. Incremental production attributable to Kairos, renewals, and paid expansion remain unverified. (Market & Traction, Key Facts)
-
-**Second-market scenario.** Assume practices in a second country have the same recall and booking problem. Reusing the core product would depend on compatibility with local scheduling systems, phone and messaging workflows, and patient-data requirements. Insurance verification could require separate local work if buyers expect it at launch. The memo shows U.S. deployments only, so buyer willingness to pay and implementation effort in a second market remain untested. (The Idea, Defensibility, Market & Traction, Key Risks)
+The memo records 16 live U.S. locations at launch, and a founder reports 13 paying practices. Pecan Dental’s testimonial reports more than 1,200 calls handled and over $21,000 in average monthly dental production. That provides a concrete example of recurring use, while the measurement window, incremental production attributable to Kairos, and paid renewal or expansion remain unclear. The evidence supports early buyer commitment, with the realized price and benefit across practices still uncertain. (Market & Traction, Key Facts)
 
 ### Countercase
 
-The strongest countercase is that each new site requires another hands-on sale and implementation. Kairos already configures provider and appointment rules per practice, and booking or eligibility errors can create staff rework. Each added site can bring sales and setup costs, while call volume adds telephony and AI costs and exceptions add support time. The reported 85% gross margin leaves those incremental costs unclear, especially at the October offer’s 50% lifetime discount. The memo does not establish that these costs grow proportionally or that the product cannot travel, so the Pass gate remains unmet. (The Idea, Defensibility, Key Risks, Key Facts)
+The first link likely to break is the handoff from sale to go-live. Kairos uses referrals, conferences, and personalized direct mail, but the memo leaves open which channel produced paying customers and how much work each deployment took. Practice-specific booking rules and staff rework after errors could make each location costly to serve. The reported 85% gross margin leaves setup and support costs at the next location unclear, especially at the launch offer of $600 per month, half the stated price. Existing integrations give Kairos a plausible way to reuse deployment work. The memo leaves proportional costs and founder dependence unresolved, so the structural downside gate does not apply. (The Idea, Defensibility, Key Risks, Key Facts)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 9/25 |
+| Global buyer demand | 14/25 |
 | Repeatable acquisition and onboarding | 9/25 |
 | Retention and customer expansion | 8/20 |
 | Contribution as volume grows | 7/20 |
 | Evidence of fit in the first buyer segment | 7/10 |
 
-**Total Score: 40/100** (Pass)
+**Total Score: 45/100** (Neutral)
 
 ### Decisive diligence question
 
-Can Kairos win and activate a small paid cohort in a second country through one repeatable sales or partner channel? A rollout using the same core recall and booking product, with recurring use through a normal recall cycle and positive per-location contribution after measured sales, setup, call, and support costs, would move the action to **Reach out**.
+Can a non-founder take two independent dental practices from the same lead channel through paid go-live using the same onboarding process? Move to **Reach out** if both practices pay, run recurring recalls through their first month, and show positive contribution at the realized price after accounting for sales, setup, support, and voice costs.

@@ -5,38 +5,30 @@
 
 ### Company case
 
-**Strategic acquisition** is the strongest path. Moody’s acquisition of CAPE Analytics shows that an insurance analytics platform has bought an adjacent property-data asset. Ageospatial says its engineers integrate dated property records and inspection triage into carrier workflows, and its founder reports signing its largest insurance customer. The memo gives no contract value or measured production results. A platform buyer could pay for ownership if Ageospatial proves that its workflow can be deployed across carriers and generates underwriting or inspection gains that the buyer could capture more economically by owning it. (The Idea; Defensibility; Market & Traction)
+Strategic acquisition is the strongest path. A property-risk analytics vendor could buy Ageospatial’s address-to-building matching, dated property records, and carrier integrations to add commercial underwriting capabilities to its existing products. The memo records Moody’s acquisition of CAPE Analytics, which establishes precedent for buying a related capability. Ageospatial says its engineers deploy inside carrier systems and that refreshed records improve risk detection. The ownership case is an inference. A buyer could value the ability to deploy the workflow across its customers if it demonstrably reduces inspection costs or premium leakage and the buyer can retain the necessary data access. The memo provides no measured buyer benefit or valuation evidence. (The Idea, Defensibility, Market & Traction)
 
-The operating milestone is a production benchmark across carriers that measures inspection savings or underwriting gains against the best available alternative. The reported signing gives Ageospatial a potential site for that test. Engineer-led integration adds rollout work, and the memo supplies no budget or runway for replication. The published terms described in the memo require consent for foundation-model training on customer data and subject some requests to third-party licensor terms. Assignment and change-of-control rights remain unverified. (Market & Traction; Defensibility; Key Risks)
+The operating milestone is a repeatable production deployment with carrier-verified savings or recovered premium, measured after integration and review costs. The founder reports signing Ageospatial’s largest insurer customer, with the contract value and production results undisclosed. That relationship gives Ageospatial a plausible setting for the test. Engineer-led rollout adds work at each carrier, and the memo gives no burn, runway, or deployment cost to establish the capital needed. (Market & Traction, Key Risks)
 
-**Proceeds bridge.** The illustrative $500,000 check at a $10 million post-money valuation starts at 5% ownership and falls to 3% after 40% relative dilution, with no follow-on checks. The eight-year 5× objective requires $2.5 million in holder cash, or about $83.3 million in distributable equity proceeds at 3%. The hurdle is $125 million at 2% and $62.5 million at 4%. The memo gives no applicable acquisition price or buyer economics to support a valuation range. (Market & Traction; Key Facts)
+Under the shared scenario, a $500,000 check at a $10 million post-money valuation buys 5%, diluted to 3% with no follow-ons. A 5× gross cash return within eight years requires $2.5 million to the holder, or about $83.3 million of distributable equity at 3% ownership. The hurdle rises to $125 million at 2% and falls to $62.5 million at 4%. With illustrative net debt of $5 million, the 3% case requires about $88.3 million of enterprise value. A $25 million sale in year eight yields $600,000 gross to the holder, or 1.2×. A $100 million sale yields $2.85 million, or 5.7×. Both use simple pro rata allocation before investor taxes. The memo supplies no usable sale price, company debt, fee, or preference terms to refine the bridge. (Market & Traction, Key Facts)
 
-The sale scenarios assume zero net debt and transaction fees, so enterprise value equals equity consideration. The illustrative waterfall allocates all consideration pro rata in cash, with zero preference deductions, stock, escrow, earnouts, rollover, or compensation.
-
-| Illustrative outcome | Timing | Enterprise value and distributable equity | Holder cash at 3% | Gross multiple |
-|---|---|---:|---:|---:|
-| Modest sale | Year 5 | $50M | $1.5M | 3× |
-| Strong sale | Year 7 | $100M | $3.0M | 6× |
-| Prolonged private | Through year 8 | No sale or payout | $0 | 0× |
-
-The strong sale clears the hurdle at 3% but returns only 4× at 2%. In the prolonged-private scenario, growth plateaus, buyers stay away, public scale remains out of reach, and the company reinvests its cash. The investor still holds the shares. The memo supports no independent fallback. Nearmap’s sponsor buyout is category precedent, while Ageospatial has no disclosed revenue or cash generation to underwrite its own buyout. (Market & Traction; Key Facts)
+If growth plateaus, buyers stay away, public-market scale remains out of reach, and Ageospatial reinvests all available cash through year eight, the holder realizes $0 and retains the shares. A sponsor buyout lacks evidence of predictable cash generation. A secondary lacks eligible share demand, an IPO lacks operating-scale evidence, and a dividend or buyback lacks evidence of distributable cash. Wind-down recovery is unquantifiable without the residual after obligations and preferences. (Market & Traction, Key Facts)
 
 ### Countercase
 
-A platform buyer could license comparable property attributes or underwriting tools from Moody’s CAPE or Nearmap. Ageospatial’s carrier integrations could also require enough bespoke work that a buyer gains little by owning them. The memo supplies no measured advantage over those substitutes, so the price a buyer could justify remains open. That gap warrants Watch. The evidence does not establish a binding price cap or transfer barrier that triggers Pass. (The Idea; Defensibility; Key Risks)
+Moody’s already has imagery-derived property attributes through CAPE, and Nearmap already sells imagery-based underwriting workflows. A potential acquirer could use an existing product or license the incremental workflow, especially if each carrier deployment continues to require substantial engineering. Third-party licensing and the explicit consent requirement for training foundation models on customer data also limit what a buyer can assume it would obtain. The memo leaves change-of-control rights unresolved. These facts weaken the ownership case, but they establish neither a structural closing block nor a supported sale price that leaves the holder materially short. The Pass gate remains open, and the missing buyer economics support Watch. (Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 16/30 |
+| Counterparty rationale or source of cash | 15/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 10/20 |
+| Milestones and capital needed | 9/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 41/100** (Pass)
+**Total Score: 39/100** (Pass)
 
 ### Decisive diligence question
 
-Can carrier production results show enough incremental value from owning Ageospatial’s workflow to support the modeled exit hurdle? Move to Reach out if a prospective platform buyer uses a replicated carrier benchmark to quantify an ownership advantage over licensing and can justify a price that would leave at least $83.3 million in distributable equity at 3% ownership.
+Can a carrier-verified production deployment demonstrate enough incremental economic benefit for a strategic buyer to value Ageospatial above the holder’s proceeds hurdle? Measured savings or recovered premium after integration costs, tied to a credible buyer valuation of the workflow and rights it could acquire, would move the action to Reach out if the implied distributable equity clears about $83.3 million at 3% ownership. (The Idea, Market & Traction, Key Risks)

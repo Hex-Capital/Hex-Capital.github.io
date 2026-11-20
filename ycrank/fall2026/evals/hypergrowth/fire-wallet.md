@@ -5,26 +5,26 @@
 
 ### Company case
 
-**Path B — Repeatable sales or partner distribution with account expansion.** The clearest first buyer is an API provider that wants to charge software agents for recurring requests. Fire’s documented e402 workflow lets the provider verify a payment and return a response while the agent pays from a funded account with spending limits. If API providers can adopt the same integration through developer outreach and merchant referrals, Fire could add accounts through a repeatable process and grow transaction volume as each account serves more paid requests. In a second geography, the same integration could carry over if agents can fund their wallets and merchants can settle and convert eUSD through the available providers. The memo names those dependencies but documents no live second-market deployment. (The Idea, Key Risks)
+**Channel-led or repeatable sales** is Fire’s strongest path. The initial buyer is an ecommerce merchant that needs to accept and settle payments as orders recur. Fire’s checkout deposits payments into a merchant-controlled wallet. The growth hypothesis is that merchant introductions bring in similar buyers and a reusable checkout integration lets Fire onboard them with limited effort. The settlement workflow could travel across markets, but merchant integration and access to fiat conversion remain unresolved. (The Idea, Key Risks)
 
-Fire reports a mainnet test that returned a paid response in under two seconds, a signed Trustboop LOI, and an ecommerce enterprise onboarding. The test supports technical feasibility. The LOI and onboarding indicate early commercial interest, though the memo does not establish that either uses e402 in production. The enterprise’s $1.5M per month is its existing volume, and the $100M per year attributed to introductions is potential GMV. Neither measures Fire’s processed volume. The memo provides no evidence of retained or expanding accounts. (Defensibility, Market & Traction)
+Fire reports a signed LOI with Trustboop and an ecommerce enterprise customer in onboarding. Those are early signs of buyer commitment. The customer’s reported $1.5M in monthly volume is its existing business, and the 10 introductions associated with an estimated $100M in potential annual GMV are a pipeline claim. The memo records a WordPress beta and a company-reported e402 mainnet test that returned a paid response in under two seconds. The test supports technical feasibility for a transaction. The first unproven link is whether Fire can take a referred merchant through a repeatable integration to live, recurring use. (Market & Traction, Key Risks, Defensibility)
 
 ### Countercase
 
-The strongest case for a Pass is that Fire could grow payment volume without capturing meaningful revenue while taking on integration and support work. Fire advertises zero merchant and e402 fees, and the $0.00256 per-request fee is a network charge. At current pricing, more requests generate zero direct fee revenue for Fire. In a scenario where Fire introduces a paid plan, its revenue would have to cover the effort to win, integrate, and support each merchant, plus any per-request costs Fire absorbs. Merchants must implement and verify e402 payments, and another geography could add work if funding or conversion coverage differs. These are concrete constraints, but the memo contains no rollout cost data establishing that they scale proportionally or impose a structural ceiling. The Pass gate is therefore unmet. (The Idea, Key Facts, Key Risks)
+Even if merchants adopt Fire, transaction growth may fail to produce contribution. Fire advertises no subscription, no merchant fee, and no Fire fee on e402 payments. The $0.00256 network fee is not Fire revenue. Merchants must implement and verify e402 payments, and the memo gives no rollout or support cost measurements and no evidence of merchant repeat use. This leaves the structural downside gate untriggered. The memo establishes zero pricing on the advertised flows, while the effort per rollout and merchants’ willingness to pay remain open. (The Idea, Key Risks, Market & Traction)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 10/25 |
+| Global buyer demand | 12/25 |
 | Repeatable acquisition and onboarding | 9/25 |
 | Retention and customer expansion | 7/20 |
-| Contribution as volume grows | 6/20 |
+| Contribution as volume grows | 7/20 |
 | Evidence of fit in the first buyer segment | 5/10 |
 
-**Total Score: 37/100** (Pass)
+**Total Score: 40/100** (Pass)
 
 ### Decisive diligence question
 
-Can an independent API provider in a second geography go live through Fire’s documented e402 integration and pay Fire to handle recurring production requests? One buyer-funded test showing repeat requests at the buyer’s normal cadence, a reusable setup, and credible contribution after measured integration and support costs would move the action to **Reach out**. Until then, **Watch**.
+Can an independent merchant from the reported referral pipeline go live using the same checkout setup as the first merchant and pay Fire for recurring use? A documented rollout showing repeat transactions at the merchant’s normal cadence and fees that cover measured onboarding and support costs would move the action to Reach out.

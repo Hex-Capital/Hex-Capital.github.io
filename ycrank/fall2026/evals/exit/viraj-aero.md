@@ -5,23 +5,25 @@
 
 ### Company case
 
-Strategic acquisition is the strongest path. A turbine manufacturer or power-system packager could buy Viraj Aero to sell integrated power and cooling water at data centers facing grid delays and water constraints. The memo documents on-site gas procurement and a €4.5 million aviation seed round with separate grant support. Viraj reports more than 1.3 GW of interest under letters of intent, one paying engine manufacturer with undisclosed scope and payment, and a first GENA unit under construction. The acquisition rationale is an inference. Ownership could give a buyer control over the condenser design and its integration across a product line if a field test shows that the combined system delivers a material advantage over building or partnering. (*The Idea*, *Market & Traction*, *Defensibility*)
+Viraj Aero’s strongest path is a strategic acquisition of its GENA power-and-water technology by a turbine manufacturer or packager. The buyer would pay for control of a system that could help it win data center projects where both grid access and cooling water constrain deployment. Viraj reports a patent on its compact exhaust-water condenser and publishes GENA specifications of 10 MW, 45% electrical efficiency, and 2 ppm NOx. The acquisition rationale is conditional on recovered water producing enough site-level value to make ownership more attractive than licensing the retrofit, partnering with Viraj, or developing an alternative. The Safran proof of concept documents interest in the aviation application, while the memo provides a clearer site-level benefit to test for GENA. (The Idea; Defensibility; Market & Traction)
 
-The operating milestone is a permitted data center installation that demonstrates continuous-duty power output, efficiency, emissions, and usable cooling-water yield together. The aviation ground tests show progress with related hardware. GENA’s test budget, runway, and site approvals remain open. The company-reported condenser patent identifies a potential asset, while title, assignment rights, and any partner restrictions remain unverified. (*Market & Traction*, *Defensibility*, *Key Risks*)
+The operating milestone is a continuous-duty test at a representative data center site that measures net power, efficiency, emissions, and usable water delivered to the cooling system. The memo records a €4.5 million aviation seed round and separate grant support. Viraj reports that the first GENA unit is under construction and that more than 1.3 GW of demand is under letters of intent. Those signals support an early test path, while the funding and schedule for a site trial remain open. The reported patent gives a buyer an identifiable asset to diligence in a company acquisition. Patent title, encumbrances, and any required consents remain unverified. (Market & Traction; Defensibility; Key Risks)
 
-The memo provides no usable acquisition price or quantified buyer economics. The proceeds bridge uses the illustrative $500,000 seed check at a $10 million post-money valuation, diluted from 5% to 3%, with no follow-on checks. The eight-year 5× objective requires $2.5 million in holder cash, or $83.3 million in distributable equity proceeds at 3% ownership. The threshold is $125 million at 2% and $62.5 million at 4%. The sale scenarios assume zero net debt, fees, or other enterprise-to-equity adjustments and a simple pro rata waterfall with no senior claims. Cash equals equity consideration at closing. Stock, escrow, earnouts, rollover, and compensation are each modeled at $0. (*Market & Traction*, *Key Facts*)
+**Illustrative proceeds bridge.** With investor terms undisclosed, assume a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-ons. The target is $2.5 million in gross cash within eight years. A fully cash-funded sale requires $83.3 million in distributable equity at 3% ownership, $125 million at 2%, or $62.5 million at 4%. At 3%, illustrative net debt of $5 million raises the enterprise-value hurdle to $88.3 million. Assuming closing cash, pro rata distribution, and no additional deductions for fees or senior claims, the year-eight outcomes before investor taxes are:
 
-| Illustrative outcome | Timing | Enterprise value → distributable equity | Holder cash | Gross multiple |
-|---|---|---:|---:|---:|
-| Modest acquisition | Year 5 | $50M → $50M | $1.50M | 3.0× |
-| Strong acquisition | Year 8 | $100M → $100M | $3.00M | 6.0× |
-| Prolonged private | Through year 8 | Growth plateaus, buyers stay away, public scale remains out of reach, and cash is reinvested | $0, shares retained | 0.0× |
+| Scenario | Cash to the holder |
+|---|---:|
+| $25 million enterprise-value sale | $600,000 (1.2×) |
+| $100 million enterprise-value sale | $2.85 million (5.7×) |
+| Eight years private with all available cash reinvested and no liquidity event | $0, with shares retained |
 
-The strong case clears the hurdle at 3% ownership and falls to 4.0× at 2%. Both acquisition prices are scenario inputs. The best fallback is an aviation-led acquisition following successful flight testing and progress toward certification. Safran’s proof of concept gives that route a specific industrial counterparty, and the aviation program could retain value if GENA’s data center economics disappoint. There is no evidenced aviation purchase price or structure that would deliver cash to this holder. The memo’s adjacent secondary transaction supplies no evidence of demand for Viraj shares. (*Market & Traction*, *Key Risks*)
+Viraj’s LOIs and reported payment from an engine manufacturer leave buyer savings, margins, and realizable acquisition prices unquantified. The strong-sale scenario clears the target on the assumed terms, but the memo provides no basis for underwriting that price. In the prolonged-private scenario, early deployments could plateau, buyers could use alternative equipment, public-market scale could remain out of reach, and Viraj could keep reinvesting in engineering and production. Any wind-down recovery would depend on assets remaining after obligations and preferences, which the memo does not quantify. (Market & Traction; Key Risks; Key Facts)
+
+The VoltaGrid secondary establishes that a peer transaction occurred. Viraj’s holder eligibility, share demand, price, and sale fraction remain unevidenced. The reported engine-manufacturer payment provides too little information to underwrite sponsor financing or cash available for dividends or buybacks after reinvestment. GENA’s first-unit stage also leaves public-market scale and holder resale unevidenced. (Market & Traction; Key Facts)
 
 ### Countercase
 
-An equipment maker could serve most sites with conventional on-site generation and source water recovery where needed through a supply or licensing agreement. Viraj already markets a retrofit to packagers and operators, and the memo identifies competing power systems and heat-recovery options. If those options deliver comparable site economics, an acquirer has little reason to pay an ownership premium. The memo leaves that risk open and establishes neither equivalent site economics nor a price ceiling below the holder’s hurdle. It therefore does not trigger a structural Pass. (*The Idea*, *Defensibility*, *Market & Traction*)
+A turbine packager could meet the power requirement with existing turbine or reciprocating-engine packages and use Viraj’s retrofit through a commercial agreement if recovered water proves valuable. Viraj already markets that retrofit. Its published GENA specifications still need to be demonstrated together under continuous duty, and deployment depends on site gas supply and air approvals. These are credible reasons a buyer might decline to acquire Viraj or pay below the holder’s hurdle. The memo leaves both the economics and transfer terms open, so the evidence supports Watch and does not trigger the Pass gate. (The Idea; Defensibility; Key Risks)
 
 ### Dimension Scores
 
@@ -30,11 +32,11 @@ An equipment maker could serve most sites with conventional on-site generation a
 | Counterparty rationale or source of cash | 16/30 |
 | Plausible investor proceeds | 8/30 |
 | Milestones and capital needed | 11/20 |
-| Transaction feasibility | 5/10 |
-| Independent alternatives | 3/10 |
+| Transaction feasibility | 6/10 |
+| Independent alternatives | 2/10 |
 
 **Total Score: 43/100** (Pass)
 
 ### Decisive diligence question
 
-Can a continuous-duty GENA installation demonstrate enough economic value from owning the technology to support an acquisition that pays this holder 5× within eight years? Move to **Reach out** when measured site results and a turbine maker’s or packager’s documented comparison with building or licensing support a cash price that clears the hurdle after plausible dilution and senior claims. (*The Idea*, *Defensibility*, *Key Risks*)
+After a continuous-duty GENA test at a representative site, can a turbine manufacturer or packager use the measured power and usable-water economics to justify owning the technology at a price that would clear the holder’s cash hurdle? A buyer-side analysis that values ownership over licensing, partnering, or building and supports roughly $88 million in enterprise value under the illustrative 3% ownership and $5 million net-debt case would move the action to Reach out. (The Idea; Key Risks)

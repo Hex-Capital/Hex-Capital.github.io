@@ -5,26 +5,26 @@
 
 ### Company case
 
-**Path B — Repeatable sales with account expansion** is the strongest path. The initial buyer is an embedded or systems engineering team that repeatedly traces faults across hardware, firmware, and software. HyperBench says its system graph connects repositories, components, interfaces, and test evidence so agents can propose cross-repository fixes, retest them on existing hardware, and submit draft pull requests. Its published evaluation covers diagnostic questions and repository debugging. The memo records a private-beta launch and 23.4K launch-post views, with no reported customer activation, payment, or recurring use. (*The Idea*, *Market & Traction*, *Key Risks*, *Key Facts*)
+Repeatable direct sales is HyperBench’s strongest prospective path. Embedded and systems engineering teams have a recurring job tracing failures across hardware, firmware, and software. HyperBench says its system graph links repositories, components, interfaces, and test evidence so its agents can propose cross-repository fixes and retest them on existing hardware. For teams with similar bench setups, local execution and support for existing equipment make the same product plausible across markets. The memo documents no paid cross-market adoption. (The Idea, Key Risks)
 
-The growth scenario assumes direct signups can become paid deployments through a standard setup, then expand to more repositories, boards, or test workloads within each account. The same engineering job could recur abroad using the same core product, but each new team would still need to map its interfaces and connect its bench. Reusing those mappings and test integrations could spread setup effort across more workloads. Compute and bench execution would still grow with usage, and sales, setup, and support effort are unmeasured. The main constraint is whether a new team can reach bench-verified value through a reusable setup. (*The Idea*, *Defensibility*, *Key Risks*)
+The observed private-beta launch, signup form, and booking link establish a route for reaching buyers. HyperBench’s published evaluation covers diagnostic questions and repository repairs, while the memo gives no example of an independent buyer activating on its own bench, committing budget or changing a workflow, or returning and expanding paid use. At this stage, a buyer-funded pilot with a measured onboarding handoff could establish the first link in the sales motion. (The Idea, Market & Traction, Key Risks, Key Facts)
 
 ### Countercase
 
-Physical verification could make each deployment a custom integration project. The memo flags differences in instrumentation and hardware setups, and the published evaluation leaves verification across customer benches unresolved. If each team requires fresh interface mapping, equipment integration, and ongoing hands-on support, adding customers could increase delivery effort in proportion to revenue. That risk warrants Watch. The structural Pass gate requires observed rollout costs, which the memo leaves unknown. (*Key Risks*)
+Bench integration could break the sales motion even if buyers value the repairs. Teams with custom instrumentation may require fresh interface mapping and equipment setup before their first verified fix. If founders must repeat that work for each account, delivery effort could rise in proportion to sales. The memo identifies the risk but gives no measured rollout labor, support, or compute costs and no evidence that bespoke setup is unavoidable. The structural downside gate does not apply. (Key Risks, The Idea)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 9/25 |
+| Global buyer demand | 15/25 |
 | Repeatable acquisition and onboarding | 9/25 |
 | Retention and customer expansion | 7/20 |
 | Contribution as volume grows | 7/20 |
 | Evidence of fit in the first buyer segment | 4/10 |
 
-**Total Score: 36/100** (Pass)
+**Total Score: 42/100** (Pass)
 
 ### Decisive diligence question
 
-Can an independent embedded engineering team outside the US enter through the beta signup, pay for a pilot, and use HyperBench to verify fixes on its own bench across successive faults? A pilot that reaches those milestones through a documented setup, with founder hours and ongoing delivery costs measured against the pilot fee, would move the action to **Reach out** if the results show that the setup is reusable and the price can support delivery.
+Can two independent embedded engineering teams progress from beta inquiry to a buyer-funded pilot and their first bench-verified fix using the same onboarding steps? Rollout records showing that buyers can take over routine setup, with bounded setup and support hours on both benches, would move the action to Reach out.

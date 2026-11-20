@@ -5,29 +5,25 @@
 
 ### Company case
 
-The strongest path is a strategic acquisition by an established CRO. A buyer could pay to own GalenOps and the oncology simulation tools if combining them catches protocol problems earlier and reduces trial execution costs. Ownership could add value if it gives the CRO control of a validated workflow and reusable data it can deploy across sponsors, conditional on securing transferable rights. Harbor’s reported trial contract shows commercial demand for tech-enabled execution. The ownership rationale for Nxtcure remains an inference. (The Idea, Market & Traction, Defensibility)
+Strategic acquisition is the strongest path. An established oncology CRO could buy GalenOps and the digital-twin capability to reduce protocol rework and trial operating costs across its sponsor programs. Ownership could make economic sense if the integrated workflow delivers repeatable savings and the buyer can reuse the software and study data across programs. The memo documents a synthetic-study demo. Nxtcure describes per-program licensing and says the twin modules still require validation. The memo gives no measured buyer savings or acquisition pricing evidence. (The Idea, Market & Traction, Defensibility, Key Risks)
 
-The memo documents a synthetic GalenOps demo. Nxtcure says it plans to compare digital-twin predictions with measured study endpoints, and the founder reports $500,000 in YC financing. The earlier pilots were for the trial-matching app. A paid study with a live oncology sponsor would test the current product’s accuracy and operating benefit. The budget and runway to reach that milestone, along with IP and data transfer rights, remain unverified. The memo provides no usable acquisition pricing or independent fallback for this holder. (Market & Traction, Key Risks, Key Facts, Defensibility)
+A paid pilot in a live oncology study could measure operating time and rework against the sponsor’s existing workflow and compare prespecified twin forecasts with observed outcomes. The demo and founder-reported $500,000 YC financing give some support to reaching a pilot. The memo leaves the pilot budget, runway, and sponsor commitment open. The reported pilots were for the earlier trial-matching app. A sale would also depend on transferable software and data reuse rights, which the memo leaves unverified. (Market & Traction, Defensibility, Key Risks)
 
-**Proceeds bridge.** The illustrative check is $500,000 at a $10 million post-money valuation, with ownership diluted from 5% to 3% and no follow-on checks. The eight-year 5× objective requires $2.5 million in holder cash, or about $83.3 million in distributable equity proceeds at 3%. The hurdle is $125 million at 2% and $62.5 million at 4%.
+Under the illustrative terms, a $500,000 check at a $10 million post-money valuation buys 5%, diluted to 3% with no follow-ons. The 5× objective requires $2.5 million in gross cash within eight years, or $83.3 million in distributable equity at 3%. The equity hurdle rises to $125 million at 2% and falls to $62.5 million at 4%. With illustrative net debt of $5 million, the 3% case needs about $88.3 million in enterprise value. At year eight, a $25 million sale yields $600,000 gross (1.2×), and a $100 million sale yields $2.85 million gross (5.7×). Both examples assume pro rata distribution before investor taxes. Company-specific debt, fees, and senior claims are unknown, and the memo gives no basis for underwriting either sale price. (Market & Traction, Key Facts)
 
-- **Modest sale in year 5.** An assumed $50 million enterprise value yields $50 million in distributable equity proceeds and $1.5 million in holder cash, or 3×.
-- **Strong sale in year 7.** An assumed $100 million enterprise value yields $100 million in distributable equity proceeds and $3 million in holder cash, or 6×. At 2% ownership it yields $2 million, or 4×.
-- **Prolonged private through year 8.** Growth plateaus, buyers stay away, public scale remains out of reach, and cash is reinvested. The holder realizes $0, or 0×, and retains the shares.
-
-Both sale cases are sensitivities. They assume zero net debt and other price adjustments, a simple pro rata waterfall with no preference adjustment, and all cash paid at close before investor taxes. Stock, escrow, earnouts, rollover, and compensation each contribute $0. Actual investment and sale terms remain unknown.
+If growth plateaus, buyer interest fails to materialize, public-market scale remains out of reach, and available cash is reinvested, eight years of private operation yields $0 realized, with the shares still held. The memo shows neither cash generation for a sponsor buyout or shareholder payout, nor demand for an eligible secondary, nor operating scale for an IPO and resale. A wind-down would pay only the residual after obligations and preferences, which the memo leaves unquantifiable. (Market & Traction, Key Facts)
 
 ### Countercase
 
-A CRO could license Nxtcure’s planned modules or combine Harbor’s trial execution with QuantHealth’s pre-enrollment simulation. If licensing or combining vendors captures most of the benefit, owning Nxtcure may warrant too small a premium to clear the investor’s hurdle. The memo establishes overlap and a planned licensing option. It leaves unresolved whether either substitute captures the full benefit of the combined workflow or caps the price below the hurdle. That gap supports Watch. The modeled prolonged-private outcome alone does not trigger a Pass. (The Idea, Defensibility, Key Risks)
+A CRO can license simulation and use existing execution tools. QuantHealth already offers pre-enrollment simulation, Harbor offers trial execution, and Nxtcure itself proposes licensing its twins. A buyer may capture most of the benefit through contracts while leaving validation risk with Nxtcure. That weakens the case for an ownership premium. The memo establishes neither a structural closing block nor a supported sale price that leaves the holder materially short, so the Pass gate does not apply. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 10/30 |
+| Counterparty rationale or source of cash | 11/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 9/20 |
+| Milestones and capital needed | 8/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
@@ -35,4 +31,4 @@ A CRO could license Nxtcure’s planned modules or combine Harbor’s trial exec
 
 ### Decisive diligence question
 
-After a paid live oncology pilot, can an established CRO quantify enough incremental value from owning Nxtcure’s transferable workflow and data rights over licensing or combining vendors to support roughly $83.3 million in distributable equity proceeds? A buyer-backed readout with measured trial results and a valuation bridge that clears the holder’s hurdle would move the action to Reach out.
+What would an established oncology CRO pay to own the platform after a paid live-study pilot? A buyer-backed valuation range grounded in measured workflow savings and documented rights to reuse the relevant assets would move the action to Reach out if it supports $2.5 million in holder cash within eight years after dilution, debt, and senior claims.

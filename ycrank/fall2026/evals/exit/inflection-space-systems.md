@@ -5,25 +5,21 @@
 
 ### Company case
 
-Strategic acquisition is the strongest path. A spacecraft integrator serving constellation programs could buy Exponent’s standardized bus design, flight and fleet software, and manufacturing processes to secure production capacity and shorten delivery schedules. The memo documents a batch-supply bottleneck and Inflection’s published volume pricing. Inflection reports building more than half of the spacecraft stack in-house. The case for ownership is an inference. An integrator would need enough control over production schedules and engineering changes to justify buying the business instead of ordering buses. (*The Idea*, *Defensibility*)
+Strategic acquisition is the strongest path. A spacecraft manufacturer or constellation operator could buy Exponent and its integrated flight and ground software to control production schedules and shorten integration. Inflection reports building more than half of the spacecraft stack in-house. That supports a plausible acquisition structure, with IP title, third-party rights, and any required consents still unverified. The buyer benefit is an inference. It depends on Exponent demonstrating a cost or delivery advantage large enough to justify ownership over building, licensing, or buying buses. (The Idea, Defensibility)
 
-The operating milestone is a successful orbital qualification followed by a production lot that demonstrates repeatable cycle time, yield, and unit cost. Inflection reports flight hardware fabrication and testing underway and a Q1 2028 launch booking, following an earlier 2027 target. The founders’ spacecraft engineering and test automation experience supports the plan. The memo gives no funded runway or cost estimate through qualification and repeat production. It also leaves IP title and transfer consents unverified. (*Market & Traction*, *Founders & Team*, *Key Risks*, *Defensibility*)
+A successful first flight followed by repeat builds with measured unit costs and cycle times would make that advantage testable. Inflection reports fabrication and ground testing underway and a Q1 2028 launch booking. The reported booking is more direct schedule evidence than the earlier 2027 target. The memo leaves funding through flight and repeat production unverified. Published bus prices establish asking prices, while realized revenue, paying customers, and evidence of a realizable acquisition price remain unverified. (Market & Traction, Key Risks, Key Facts)
 
-**Proceeds bridge.** The memo supplies no check terms or usable acquisition valuation evidence. Published spacecraft prices establish asking prices for units. The seed scenario assumes a $500,000 check for 5%, diluted by 40% to 3%, with no follow-on checks. A 5× gross return within eight years requires $2.5 million in cash, or $83.3 million in distributable equity proceeds at 3% ownership. The hurdle is $125 million at 2% and $62.5 million at 4%. (*Key Facts*)
+With investor terms unavailable, the illustrative case assumes a $500,000 check at a $10 million post-money valuation, no follow-ons, and 5% ownership diluted by 40% to 3%. The eight-year target is $2.5 million gross cash before investor taxes. Under simple pro rata allocation, that requires $83.3 million of distributable equity at 3% ownership, $125 million at 2%, or $62.5 million at 4%. With $5 million of illustrative net debt, the 3% case requires $88.3 million of enterprise value. Fees and senior claims remain unquantified.
 
-The sale figures below are scenario assumptions. They assume zero net debt, no other enterprise-to-equity adjustments, and a pro rata waterfall with no senior claims. Equity consideration is entirely cash paid at closing. Stock, escrow, earnouts, rollover, and compensation are each assumed to be zero. Proceeds are before investor taxes.
+- A **$25 million enterprise-value sale** in year eight yields $600,000 gross, or 1.2×, after illustrative debt.
+- A **$100 million enterprise-value sale** in year eight yields $2.85 million gross, or 5.7×, at 3% ownership. At 2%, the same sale yields $1.9 million, or 3.8×.
+- **Continued private operation** yields $0 realized through year eight if growth plateaus, buyers stay away, public-market scale remains out of reach, and available cash is reinvested. The investor retains the shares.
 
-| Scenario | Timing | Enterprise value and distributable equity | Investor cash | Gross multiple |
-|---|---|---:|---:|---:|
-| Modest sale | Year 5 | $60M | $1.8M | 3.6× |
-| Strong sale | Year 7 | $100M | $3.0M | 6.0× |
-| Prolonged private | Through year 8 | No sale | $0 | 0× |
-
-The strong sale clears the hurdle at 3% and yields $2 million at 2%, below the objective. The prolonged-private case assumes growth plateaus, buyers stay away, public-market scale remains out of reach, and available cash is reinvested. The investor retains the shares and realizes no cash. The memo provides no separate support for a sponsor buyout, a secondary sale open to this holder, a public resale, or a funded payout. (*Market & Traction*, *Key Facts*)
+The memo provides no cash generation to underwrite a sponsor buyout or company-funded payout, no eligible share demand for a secondary, and no operating scale or reporting readiness to support an IPO. (Market & Traction, Key Facts)
 
 ### Countercase
 
-Apex and Muon already offer repeat-production alternatives with flown spacecraft, and Amazon reports building more than 1,000 satellites in-house. An integrator could meet its schedule through procurement or internal production, leaving little reason to pay an ownership premium. The memo also records no disclosed realized revenue or paying customers for Exponent. These facts weaken the acquisition case. A structural Pass would require evidence that the available substitutes cap a credible sale below the holder’s hurdle or that the operating milestone is out of reach. The current evidence supports Watch. (*Defensibility*, *Key Risks*, *Key Facts*)
+Apex and Muon already offer repeat-production alternatives with flown spacecraft, and Amazon reports building over 1,000 satellites in-house. A prospective buyer can therefore source from established suppliers or build internally. Even successful flight qualification may win Inflection orders without creating a reason to own the platform. This supports Watch. The memo establishes neither a structural closing block nor a supported sale-price ceiling that leaves the holder materially short. The prolonged-private case remains hypothetical. (Defensibility, Key Risks)
 
 ### Dimension Scores
 
@@ -31,12 +27,12 @@ Apex and Muon already offer repeat-production alternatives with flown spacecraft
 |-----------|-------|
 | Counterparty rationale or source of cash | 12/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 10/20 |
-| Transaction feasibility | 5/10 |
+| Milestones and capital needed | 9/20 |
+| Transaction feasibility | 6/10 |
 | Independent alternatives | 2/10 |
 
 **Total Score: 37/100** (Pass)
 
 ### Decisive diligence question
 
-Once Exponent qualifies in orbit and demonstrates repeatable production, would owning it save a spacecraft integrator enough time and cost to support at least $83.3 million in distributable equity proceeds? A documented buyer-side comparison of acquisition, procurement, and internal production that supports that price using measured Exponent results would move the action to Reach out.
+Can an identifiable strategic buyer justify a price that clears the holder’s cash hurdle once Exponent has demonstrated in-orbit performance and repeat-build economics? A buyer-specific comparison of acquisition, internal development, and supplier costs that supports at least $83.3 million in distributable equity at 3% ownership within eight years would move the action to Reach out.

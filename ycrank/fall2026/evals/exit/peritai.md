@@ -5,36 +5,30 @@
 
 ### Company case
 
-**Strategic acquisition by a frontier lab** is the strongest path. A lab could buy Perit to bring live voice evaluation in-house, including the Foundry QA workflow and access to specialized contributors across locales. The ownership case depends on whether integrating that capability into model releases would improve testing speed, coverage, or quality enough to justify a purchase over an exclusive license or an internal build. The memo describes the workflow and published pricing. Perit reports six lab customers, more than 6,000 speech hours delivered, and 95%+ accuracy on speech QA samples. Those signals support demand for delivery. The QA figure measures sample accuracy, and the memo gives no measured effect on a lab’s release process. (The Idea, Defensibility, Market & Traction)
+Strategic acquisition is Perit’s strongest route. A frontier lab building live voice agents could buy Perit to bring multilingual interruption, recovery, and noisy-call testing in-house. The memo records an open duplex speech dataset, and Perit describes a broader workflow that combines specialist collection, reviewer calibration, and batch QA in its Foundry workspace. A lab could gain faster turnaround and more control over recurring tests by owning that workflow. The memo provides no measured advantage over licensing or building internally. (The Idea, Defensibility, Market & Traction)
 
-The seed milestone is a **renewed paid live-voice program** that measures the benefit across locales and establishes what it costs to sustain that performance. Reported delivery makes the test plausible. The memo gives two unreconciled revenue figures for the first 4.5 months, $11M+ and $9M+, and gives no program margins, burn, or runway to establish how much capital the milestone would require. Perit describes consent records and an operated QA workspace. Assignment and change-of-control rights remain unverified. A sponsor buyout and company-funded payouts lack evidence of durable cash generation, and the peer tender provides no evidence of demand for Perit shares. (Market & Traction, Key Facts, Defensibility, Key Risks)
+A paid renewal for a production voice-evaluation program, with measured gains in turnaround or failure detection against the lab’s best alternative, would make that ownership case testable. Perit reports six lab customers and more than 6,000 speech hours delivered across nine locales. That supports the ability to run the test at meaningful scale. Renewal history, delivery margins, and the capital needed to expand coverage remain open. A company acquisition is a plausible way to transfer the Foundry operation, subject to diligence on change-of-control terms and continued rights to use contributor data. (Market & Traction, Defensibility, Key Risks)
 
-**Proceeds bridge.** With no investment terms supplied, assume a $500,000 check at $10 million post-money, 5% initial ownership diluted to 3%, and no follow-on checks. The eight-year 5× objective requires $2.5 million in holder cash, or $83.3 million in distributable equity proceeds at 3%. The hurdle is $125 million at 2% and $62.5 million at 4%.
+**Proceeds bridge.** Under the illustrative seed terms, a $500,000 check at a $10 million post-money valuation buys 5%, diluted to 3% with no follow-ons. The eight-year 5× target requires $2.5 million in gross holder cash, or $83.3 million of distributable equity at 3%. The equity hurdle is $125 million at 2% and $62.5 million at 4%. With $5 million of illustrative net debt, the 3% case needs about $88.3 million of enterprise value. A $25 million sale at year eight returns $600,000 gross (1.2×), while a $100 million sale returns $2.85 million (5.7×). Both use simple pro rata allocation after illustrative debt and before investor taxes. Actual debt, fees, and senior claims are unknown. Perit reports $11 million or more in revenue over 4.5 months, and the memo also gives a $9 million or more non-annualized figure for that period. Either figure leaves repeat revenue, margins, and buyer willingness to pay unresolved, so the sale scenarios establish hurdles and sensitivities. (Key Facts)
 
-| Illustrative outcome | Timing | Holder cash | Gross multiple |
-|---|---|---:|---:|
-| Modest sale at $50M enterprise value | Year 4 | $1.5M | 3.0× |
-| Strong sale at $100M enterprise value | Year 7 | $3.0M | 6.0× |
-| Prolonged private hold | Through year 8 | $0 | 0.0× |
-
-The sale scenarios assume zero net debt, zero fees or other price adjustments, and an all-cash pro rata distribution with no preference adjustment. Stock, escrow, earnouts, rollover, and compensation each contribute $0. These are sensitivity cases. The memo supplies no acquisition price evidence, and even the strong scenario returns only 4.0× at 2% ownership. In the prolonged-private case, growth plateaus, buyers stay away, public scale remains out of reach, and cash is reinvested while the investor retains the shares.
+If growth plateaus, buyer interest fails to emerge, public scale stays out of reach, and Perit reinvests available cash for eight years, the holder realizes $0 and retains the shares. In a wind-down, any payout depends on the residual after obligations and preferences, which the memo does not quantify. The memo provides no cash-flow basis for a sponsor buyout or company-funded payout, no demand or holder eligibility for a Perit secondary, and no evidence of IPO readiness or a holder resale path. (Market & Traction, Key Facts)
 
 ### Countercase
 
-A lab may get everything it needs through a program contract. Perit already prices exclusivity separately, competing vendors offer overlapping services, and copies already licensed and delivered cannot be recalled. A buyer could therefore pay for future access without acquiring the company, while ownership may deliver limited control over previously distributed data. This supports Watch. The memo establishes a credible substitute but gives no buyer economics showing that it caps every credible sale below the proceeds hurdle. The modeled $0 private hold does not independently trigger a Pass. (The Idea, Defensibility, Key Risks)
+A lab can buy a program under Perit’s default non-exclusive license or pay separately for exclusivity. Perit says it cannot recall copies already licensed and delivered, so an acquisition would confer limited control over that material. Competing providers also cover parts of Perit’s offering. If a license secures the lab’s required rights and turnaround, ownership has little demonstrated incremental value. The memo establishes neither a structural block nor a supported sale price that falls short, so the Pass gate is not triggered. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 15/30 |
+| Counterparty rationale or source of cash | 17/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 12/20 |
-| Transaction feasibility | 5/10 |
+| Milestones and capital needed | 14/20 |
+| Transaction feasibility | 6/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 42/100** (Pass)
+**Total Score: 47/100** (Neutral)
 
 ### Decisive diligence question
 
-Would owning Perit’s live-voice operation give a renewing lab enough incremental value over an exclusive contract or an internal build to support a sale clearing the $83.3 million base-case equity hurdle? A renewed production program with lab-validated results and a quantified comparison of those options could move the action to Reach out. Evidence that a contract captures substantially all the benefit and caps the price below the hurdle would move it to Pass.
+Can Perit show that owning its live voice-evaluation operation is worth enough to a renewing lab to support a sale that clears the holder’s 5× target? A paid production renewal with buyer-validated gains over the best licensing or in-house option would support **Reach out** if those gains justify a price range that clears the proceeds hurdle under defensible ownership and debt assumptions. A renewal that establishes demand while leaving the ownership premium unmeasured keeps the action at **Watch**.

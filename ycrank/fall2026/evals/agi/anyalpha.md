@@ -5,28 +5,26 @@
 
 ### Company case
 
-**Path B — New economies.** AnyAlpha’s strongest case is that Annie could make small or short-lived prediction-market strategies worth running by reducing the time retail traders spend researching contracts, backtesting rules, and monitoring entry and exit conditions. The company describes a workflow that takes a plain-language thesis through backtesting and automated order placement. The memo documents a public launch, but the market-opening mechanism remains an inference. At comparable execution quality, the time saved would need to exceed the time spent reviewing rules, handling exceptions, and managing partial fills. The memo has no measured comparison or cohort of traders who can now run strategies they previously skipped. (The Idea, Market & Traction, Key Risks)
+**Path B — New Economies.** AnyAlpha could make time-sensitive strategies economical for retail prediction-market traders who currently leave them untested or unexecuted. The former workflow requires traders to research an idea, find the relevant contracts, and watch prices for an entry. AnyAlpha says Annie turns the idea into rules, backtests them, and monitors connected accounts for execution. The seed-stage test is whether that workflow reduces human time and full delivery cost per order executed within the strategy’s rules, including review, retries, partial fills, and slippage. The memo contains no measured comparison with manual execution or evidence that automation made previously abandoned strategies viable. (*The Idea*, *Key Risks*)
 
-AnyAlpha reports more than 1,000 active traders and over $1 million in weekly trading volume shortly after launch. These are early activity signals. Repeat use, payment for Annie, and adoption among previously excluded traders remain unverified. The seed stage fits the mandate, and the founders’ trading-system experience and the public launch support execution credit. Live order reliability remains open. (Market & Traction, Founders & Team, Key Risks)
-
-**Scale scenario.** If AnyAlpha charges for Annie, the expansion unit is a retained paying trader. Contribution per trader would depend on the fee collected, strategy frequency, and the incremental costs of inference, data, execution, and support. More strategies per trader could raise those costs without raising subscription revenue. The observed in-app prices carry the legacy BetAlpha label, leaving Annie’s realized pricing, retention, and marginal costs unknown. (The Idea, Key Facts)
+AnyAlpha reports more than 1,000 active traders and over $1 million in weekly trading volume after launch. Repeat use and willingness to pay for Annie remain unverified. The public launch and Kalshi account linking show shipping progress consistent with the founders’ trading-systems experience. Expansion could reuse the same software and exchange connection across accounts, but the memo gives no current agent pricing or per-account cost data for inference, monitoring, support, and trade exceptions. (*Market & Traction*, *Founders & Team*, *The Idea*, *Key Risks*)
 
 ### Countercase
 
-AnyAlpha may save time for existing traders while capturing little of the value. Kalshi publishes a trading API, and TurbineFi already offers overlapping plain-language strategy creation, backtesting, and cloud execution in the same asset class. Under a model-parity scenario, a competing product could offer the same core workflow. Saved strategies and execution history might give traders a reason to stay, but portability and retention are unverified. The company calls its Kalshi partnership unique at the time of reporting, while exclusivity and duration remain unknown and Kalshi controls API access. That leaves Path A without a separately supported case for control of scarce rails. The competitive overlap weighs against durable value capture, while actual switching and willingness to pay under parity remain untested. Path B therefore stays open for Watch and falls short of the Reach out gate. (Defensibility, Key Risks)
+Annie may make existing trades more convenient while opening little new activity. Under the scenario of cheap, equally capable models, traders could already look to TurbineFi for plain-language strategy creation, backtesting, and cloud execution in the same asset class. AnyAlpha calls its Kalshi partnership the first and only of its kind, but the memo establishes neither contractual exclusivity nor scarce access through the public trading API. Saved strategies and execution history could give repeat traders a reason to stay. The memo shows no buyer preference under functional parity or observed switching to a substitute. Both Path B gates remain open to testing, which supports Watch. The exchange integration supplies no independent Path A case. (*The Idea*, *Defensibility*, *Market & Traction*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
 | Path-specific thesis fit | 10/25 |
-| Durable value capture | 5/25 |
-| Customer demand | 8/20 |
+| Durable value capture | 7/25 |
+| Customer demand | 9/20 |
 | Team and execution | 10/15 |
-| Scale economics | 4/15 |
+| Scale economics | 5/15 |
 
-**Total Score: 37/100** (Pass)
+**Total Score: 41/100** (Pass)
 
 ### Decisive diligence question
 
-Will retail traders repeatedly pay for Annie to run strategies they previously skipped on time or cost grounds when they can also use an alternative with equivalent model capability and execution quality? A paid live trial could answer this by recruiting those traders, measuring human time per successfully executed strategy against their manual baseline, including reviews and fill exceptions, and then offering a comparable same-venue alternative. Material time savings and repeat paid preference at a price that covers incremental delivery costs would support Reach out if the updated evaluation clears the score and confidence gates. If exception handling erases the savings or traders readily switch under parity, Pass.
+Will retail traders who previously abandoned time-sensitive strategies because manual monitoring took too much work pay to keep using AnyAlpha after trying a functionally equivalent alternative? A seed-stage field trial should compare manual execution, Annie, and a comparable tool on the same kinds of strategies. Move to **Reach out** if Annie lowers full cost per correctly executed order enough to make those strategies viable and traders repeatedly choose it at a price that covers delivery costs. Move to **Pass** if the comparison shows that all-in costs still rule out those strategies or that traders readily switch when the alternative delivers the same outcome. (*The Idea*, *Defensibility*, *Key Risks*)

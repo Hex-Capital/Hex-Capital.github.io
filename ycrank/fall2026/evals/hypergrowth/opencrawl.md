@@ -5,28 +5,28 @@
 
 ### Company case
 
-**Path A. Product-led adoption.** The first buyer is an engineering team running coding agents across tools and machines. Its recurring job is to carry findings between sessions and avoid duplicated or conflicting work. A developer could discover OpenCrawl through its public repository or launch, try the hosted product without a card, and bring in teammates once shared search and messaging prove useful. The same workflow could travel to another market where teams use supported clients and can apply the same transcript privacy controls. Buyer demand in a second geography remains untested. (The Idea, Key Risks)
+Usage-based expansion is OpenCrawl’s strongest path. Engineering teams running coding agents across tools and machines have a recurring job: carrying findings from one session to the next and coordinating parallel work. The memo documents searchable session transcripts, a shared board, and deployment across local and cloud environments. That workflow could carry across markets wherever teams use supported clients and can approve transcript capture. Buyer geography is unreported, and team-visible transcripts and uneven support for live mentions limit which teams can adopt. (The Idea, Key Risks)
 
-The memo records 57 repository stars, 9 forks, and nearly 70,000 launch-post views. The CTO reported onboarding one user and seeing that user’s agents message another user’s agents. That is a concrete first-use signal for coordination. The memo leaves the acquisition route, setup effort, repeat use, and payment unverified. (Market & Traction)
+The memo records launch activity through YC and the CEO’s X account. The CTO reported helping one user onboard and seeing their agents message another user’s agents. That is a concrete example of first value, with the route from discovery to independent activation and payment still unverified. The product had just launched, so repeat use over monthly billing cycles is the relevant test. The memo reports no repeat usage, paid conversion, or buyer commitment to an ongoing workflow. (The Idea, Market & Traction)
 
-Hosted expansion depends on teams repeatedly capturing enough sessions to exceed the free allowance. **Illustrative scenario:** At the reported overage rate, a standard team ingesting 200 million tokens in a month would generate $50 in overage revenue. OpenCrawl would still need to cover ingestion, indexing, storage, and retrieval for the full workload, plus any setup and support. The scenario assumes the reported rate applies and provides no evidence of realized contribution. (The Idea, Key Facts)
+If teams capture more sessions as they add agents and projects, ingestion could turn recurring use into revenue. As an illustrative scenario, a standard hosted team ingesting 150 million tokens in a month would generate $25 at the reported overage price, assuming that price applies and all 50 million tokens beyond the free allowance are billed. The memo gives no costs for ingestion, storage, search, or support, leaving marginal contribution unmeasured. The first unresolved link is whether routine coordination generates enough usage for teams to pay. (The Idea, Key Facts)
 
 ### Countercase
 
-Claude Code already provides shared tasks and messaging for teams that use it alone. Agent Relay offers both cross-tool messaging and searchable sessions, while OpenCrawl’s live mentions require a supported listener. Default team visibility and imperfect secret masking could also push privacy-sensitive teams toward self-hosting, weakening hosted conversion. Together, these factors could narrow the paying segment to mixed-tool teams with compatible clients and permission to share transcripts. The memo establishes neither a structural ceiling on that segment nor proportional delivery costs, so the Pass gate is unmet. (Defensibility, Key Risks)
+The free allowance may cover the teams that find OpenCrawl easiest to adopt. Teams using Claude Code alone may get enough coordination from its native features, while mixed-tool teams face uneven live messaging and may be reluctant to share full transcripts. Agent Relay also offers cross-tool messaging and searchable sessions. Together, these factors could leave a small pool of buyers willing to use the hosted product heavily enough to pay. They do not establish a structural block, and the launch evidence is too early to show a pattern of abandonment or failed conversion. (Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 9/25 |
+| Global buyer demand | 16/25 |
 | Repeatable acquisition and onboarding | 9/25 |
 | Retention and customer expansion | 7/20 |
 | Contribution as volume grows | 7/20 |
 | Evidence of fit in the first buyer segment | 4/10 |
 
-**Total Score: 36/100** (Pass)
+**Total Score: 43/100** (Pass)
 
 ### Decisive diligence question
 
-Can a cohort of independent mixed-tool engineering teams, including a team outside the US, activate through the self-serve route and pay for recurring hosted use? Signup, usage, and billing records showing teams reaching shared search or messaging without founder setup, then continuing to use the product into a second paid billing cycle, would change the action to Reach out. Launch engagement and isolated onboarding leave it at Watch.
+Do independent mixed-tool engineering teams activate through the documented self-serve flow and sustain paid ingestion as they add workloads? Onboarding, usage, and billing records showing that multiple teams activated without founder help, added recurring workloads, and paid overages across consecutive monthly cycles would move the action to Reach out. If active teams consistently stayed within the free allowance or dropped back below it after testing, the action would remain Watch.

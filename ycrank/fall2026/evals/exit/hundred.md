@@ -5,23 +5,17 @@
 
 ### Company case
 
-**Strategic acquisition** is the strongest path. An industrial automation vendor or electronics inspection platform could buy Hundred to add whole-tray inspection at receiving. Ownership could let a buyer integrate the station and grading software across its installed base, control the product roadmap, and offer a capability competitors cannot license on the same terms. That advantage is an inference. Rockwell Automation’s strategic investment in Elementary shows industrial interest in adjacent inspection technology, with no evidence of demand for Hundred itself or a usable acquisition price. (The Idea, Market & Traction)
+Strategic acquisition is Hundred’s strongest path. An industrial automation or machine-vision vendor could buy Hundred to add whole-tray inspection at receiving and sell it through its existing channels. Hundred says its controlled-light station calibrates from one known-good part, detects defects smaller than 100 µm, and retains a photo of each part. Rockwell Automation’s strategic investment in Elementary shows interest in adjacent inspection technology. The memo reports an undisclosed investment amount and gives no evidence of buyer interest in Hundred. (The Idea, Defensibility, Market & Traction)
 
-The memo records a public launch and a $125K YC seed entry. Hundred says its controlled-light station uses one known-good part to detect and grade defects smaller than 100 µm. The proposed milestone is a paid rollout across multiple receiving sites that demonstrates fewer escaped defects and lower inspection costs at sustained receiving volumes, with acceptable false rejects. The team’s hardware and software experience and the seed entry support testing. The memo leaves production performance, rollout cost, and runway unverified. It also leaves IP ownership and transfer rights unverified, including rights to any customer images or grading rules a buyer would need. No distinct fallback has evidence of paying this holder within eight years. (The Idea, Defensibility, Market & Traction, Founders & Team, Key Risks, Key Facts)
+An ownership premium would depend on whether acquiring the station and its calibration workflow lets a buyer win more deployments or bring the capability to market faster than building it, licensing it, or partnering with Hundred. A paid receiving deployment at sustained factory volumes could measure labor saved and defect escapes avoided, net of false rejects and handling delays. The memo records a public launch and a reported $125,000 YC seed investment. Hundred’s production error rates, sustained throughput, and the budget and runway needed for that test remain unverified. The memo also leaves ownership and transferability of the core technology and rights to customer images unverified. (Market & Traction, Key Risks, Defensibility)
 
-**Proceeds bridge.** With no applicable terms for the proposed check, assume $500K invested at $10M post-money, 5% initial ownership diluted by 40% relative to 3%, and no follow-on checks. A 5× gross cash return requires $2.5M within eight years. Under a simple pro rata waterfall before investor taxes, that requires $83.3M in distributable equity at 3% ownership, $125M at 2%, or $62.5M at 4%. The sale scenarios assume zero net debt and no other enterprise-to-equity adjustments, so enterprise value equals equity consideration. They assume all cash at closing, with zero stock, escrow, earnouts, rollover, or compensation and no senior claims or transaction fees. The prices and timing are illustrative assumptions. The memo supplies no price evidence. (Market & Traction, Key Facts)
+Using the shared scenario, a $500,000 check at a $10 million post-money valuation buys 5%, diluted to 3% with no follow-ons. The eight-year target is $2.5 million in gross cash before investor taxes. That requires about $83.3 million of distributable equity at 3% ownership, $125 million at 2%, or $62.5 million at 4%. With illustrative net debt of $5 million, the 3% case needs about $88.3 million of enterprise value. A $25 million sale in year eight yields $600,000 (1.2×), and a $100 million sale yields $2.85 million (5.7×), assuming simple pro rata distribution and no additional waterfall deductions. Hundred’s actual debt, fees, and senior claims are unquantified. The memo supplies no buyer economics or transaction pricing to support either sale value. (Market & Traction, Key Facts)
 
-| Scenario | Timing | Assumed sale EV and equity consideration | Gross holder cash at 3% | Gross multiple |
-|-----------|--------|-------------------------------------------|-------------------------|----------------|
-| Modest sale | Year 5 | $40M | $1.2M | 2.4× |
-| Strong sale | Year 7 | $100M | $3.0M | 6.0× |
-| Prolonged private | Through year 8 | No sale or payout | $0, shares retained | 0× realized |
-
-The strong sale clears the hurdle at 3% but yields only $2.0M at 2%. In the prolonged-private scenario, growth plateaus, buyers stay away, public scale remains out of reach, and the company reinvests its cash. The memo gives too little evidence to estimate the likelihood of that outcome.
+If deployment growth plateaus, buyer interest fails to materialize, public scale stays out of reach, and available cash goes back into the business, eight years of private operation yields $0 realized with the shares still held. A funded payout or eligible share purchase could change that outcome. The memo leaves cash generation for a sponsor buyout or company-funded payout unevidenced, along with eligible secondary demand and the scale and readiness for an IPO and resale. Any wind-down recovery would come from the residual after obligations and preferences, which the memo does not quantify. (Market & Traction, Key Facts)
 
 ### Countercase
 
-An automation buyer could retrofit existing cameras, build a receiving workflow around configurable inspection hardware, or license Hundred’s station if it proves useful. The memo identifies available installed-camera software and configurable cameras, alongside undisclosed production error rates and throughput for Hundred. If those alternatives can match Hundred’s receiving economics, ownership may command too little to clear the proceeds hurdle. The memo establishes credible substitutes but leaves their equivalence at whole-tray receiving untested. That gap supports Watch and leaves the structural Pass override untriggered. (Defensibility, Market & Traction, Key Risks)
+Factories may get adequate inspection from existing equipment. Elementary sells AI for installed cameras, and Overview AI sells configurable production-line cameras. If those options can handle receiving inspection at acceptable accuracy and throughput, an acquirer has little reason to pay a premium for a separate station. The memo establishes that those alternatives exist and leaves their performance on Hundred’s specific whole-tray workflow open. Neither a structural block nor a supported price ceiling below the holder’s hurdle is established, so the Pass gate stays open. (Defensibility, Key Risks)
 
 ### Dimension Scores
 
@@ -29,12 +23,12 @@ An automation buyer could retrofit existing cameras, build a receiving workflow 
 |-----------|-------|
 | Counterparty rationale or source of cash | 13/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 9/20 |
+| Milestones and capital needed | 8/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 37/100** (Pass)
+**Total Score: 36/100** (Pass)
 
 ### Decisive diligence question
 
-Can a paid multi-site rollout show an advantage over the best retrofit or licensing option large enough to support roughly $83.3M in distributable equity at 3% ownership? Customer-verified defect, false-reject, throughput, and cost results, tied to a credible estimate of what ownership would add across a buyer’s installed base, would move the action to Reach out. A finding that a retrofit or license delivers comparable economics and caps a sale below the hurdle would move it to Pass. (The Idea, Defensibility, Key Risks)
+Can a paid factory deployment show enough incremental value over installed-camera alternatives to support an acquisition price that clears the holder’s cash target? Customer-verified throughput, defect escapes, false rejects, and labor savings would answer the operating part. A credible buyer-side valuation based on those results and consistent with roughly $88.3 million of enterprise value under the 3% ownership and illustrative debt assumptions would move the action to Reach out.

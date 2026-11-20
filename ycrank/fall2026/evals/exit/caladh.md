@@ -5,36 +5,30 @@
 
 ### Company case
 
-Strategic acquisition is Caladh’s strongest path. A maritime defense integrator could buy Caladh to add a validated drone-disruption capability to its detection portfolio and secure exclusive control over how it is integrated and sold across sites. The memo records Lockheed Martin’s acquisition of Ultra Maritime and Motorola’s acquisition of D-Fend, alongside a Coast Guard request for information on counter-underwater-drone technology. Those observations support buyer interest in adjacent capabilities. Caladh says Eclipse can integrate with third-party detection, but the memo provides no operating-site results or evidence that an integrator would pay for exclusive control. (*Market & Traction*, *The Idea*, *Key Risks*)
+A strategic acquisition by a maritime defense prime is Caladh’s strongest path. Caladh says Eclipse can disrupt hostile maritime drones and integrate with third-party detection. A prime could pay to own a validated product that extends what it can sell to port-security customers. Lockheed Martin’s $3.45 billion purchase of Ultra Maritime and Motorola’s acquisition of D-Fend show that strategic buyers have acquired adjacent capabilities. The memo gives no evidence of buyer interest in Caladh or a measurable benefit from owning Eclipse. (The Idea, Market & Traction, Key Risks)
 
-The operating milestone is an integrator-backed pilot at an operating port that measures Eclipse’s added value alongside existing detection and tests whether the result can be repeated across sites. Kita’s documented undersea acoustics research and confirmed YC backing support a path to a test. The conflicting funding figures leave runway uncertain, and the memo supplies neither a funded pilot plan nor documented Caladh IP ownership or transfer terms. No independent route to cash for this holder is supported. (*Founders & Team*, *Market & Traction*, *Key Risks*, *Defensibility*, *Key Facts*)
+A paid port pilot that meets customer acceptance criteria and converts into a priced rollout would give an acquirer a basis for estimating the value of adding Eclipse to its offering. Kita’s documented undersea engineering work supports the plausibility of a pilot, and Caladh is soliciting pilots. YC backing is confirmed, but the conflicting $125,000 and $500,000 funding entries, together with the absence of a pilot budget or burn figures, leave the capital required to reach that milestone uncertain. The memo also leaves control and transferability of the core rights unverified. (Founders & Team, Market & Traction, Defensibility, Key Risks)
 
-The illustrative seed check is $500,000 at a $10 million post-money valuation, yielding 5% initially and 3% after 40% relative dilution, with no follow-on checks. The eight-year hurdle is $2.5 million in gross cash. That requires $83.3 million in distributable equity proceeds at 3% ownership, $125 million at 2%, or $62.5 million at 4%. The adjacent acquisitions supply no usable price benchmark for Caladh. (*Market & Traction*, *Key Facts*)
+**Illustrative proceeds.** With no Caladh-specific investor terms in the memo, assume a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, no follow-ons, and a $2.5 million gross cash target within eight years. At 3%, the holder needs $83.3 million of distributable equity, or $88.3 million of enterprise value with $5 million of illustrative net debt. The equity hurdle rises to $125 million at 2% ownership and falls to $62.5 million at 4%. At 3%, a $25 million sale yields $600,000 gross (1.2×), while a $100 million sale yields $2.85 million (5.7×), using the same debt assumption and a simple pro rata allocation before taxes. At 2%, even the $100 million sale yields only $1.9 million (3.8×). The adjacent deals establish buyer precedent, but Caladh has no reported revenue or field results to support a realizable sale-price range. (Market & Traction, Key Facts, Key Risks)
 
-The scenarios assume no applicable net debt or other enterprise-to-equity adjustments and a simple pro rata waterfall with no preference deductions. In both sale scenarios, all consideration is cash at closing. Stock, escrow, earnouts, rollover, and compensation are each assumed to be zero.
-
-| Scenario | Timing and proceeds bridge | Holder cash on $500,000 invested |
-|-----------|----------------------------|----------------------------------|
-| Modest sale | Year 5. $40 million enterprise value becomes $40 million of distributable equity proceeds. | $1.2 million, 2.4× |
-| Strong sale | Year 7. $100 million enterprise value becomes $100 million of distributable equity proceeds. | $3.0 million, 6.0×. At 2% ownership, $2.0 million, 4.0×. |
-| Prolonged private | Through year 8. Growth plateaus, buyers stay away, public scale remains out of reach, and available cash is reinvested. The holder retains the shares. | $0 realized, 0× |
+If growth plateaus below public-market scale, buyers stay away, and Caladh reinvests all available cash, the holder realizes $0 over eight years and retains the shares. The memo supplies no evidence of eligible secondary demand, sponsor financing backed by predictable cash flow, a path to public resale, or capacity for a funded payout. (Market & Traction, Key Facts)
 
 ### Countercase
 
-An incumbent could license Eclipse or integrate a competing product and capture enough of the benefit without buying Caladh. Caladh’s claimed third-party compatibility makes licensing plausible, and Ultra Maritime’s demonstrated detection capability gives incumbents an existing platform from which to integrate. The memo establishes neither an equivalent substitute for Eclipse’s claimed disruption capability nor a binding ceiling on what a buyer could pay. The modeled $0 prolonged-private outcome and the missing price evidence leave the case at Watch. Neither establishes the structural failure required for Pass. (*The Idea*, *Defensibility*, *Key Risks*)
+A prime could license or integrate Eclipse if it works, or build on capabilities it already owns. Ultra Maritime has demonstrated underwater detection and classification, and Caladh itself says its systems can integrate with third-party detection. With no reported Caladh field results or verified exclusive rights, the memo gives a prime little reason to pay for ownership. That gap supports Watch. The Pass gate remains open because the memo establishes neither a structural barrier to a sale nor a supported maximum price that leaves the holder materially short. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 14/30 |
+| Counterparty rationale or source of cash | 16/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 8/20 |
+| Milestones and capital needed | 9/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 37/100** (Pass)
+**Total Score: 40/100** (Pass)
 
 ### Decisive diligence question
 
-What incremental value would a maritime integrator capture by owning Eclipse after a successful operating-port pilot, compared with licensing it? Move to **Reach out** if a funded pilot produces measured results and the integrator’s written assessment links those results to an ownership advantage large enough to support a price that clears the holder’s proceeds hurdle. (*Key Risks*, *Market & Traction*)
+Can a paid Eclipse pilot convert into a priced port rollout that makes ownership economically attractive to a strategic buyer? Customer-signed acceptance and a priced rollout commitment would establish the operating milestone. Move to Reach out if the rollout economics support a plausible acquisition range that clears the holder’s cash hurdle after expected dilution. (The Idea, Market & Traction, Key Risks)

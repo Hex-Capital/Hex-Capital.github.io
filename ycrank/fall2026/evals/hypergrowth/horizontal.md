@@ -5,26 +5,26 @@
 
 ### Company case
 
-**Path B. Repeatable sales with account expansion.** The likely first buyer is a plant operations leader whose team repeatedly replans production when materials run short. Horizontal offers workflow-specific founder demos and describes starting with one workflow. If a manufacturer pays to put shortage-driven rescheduling into production, the same sales and implementation process could win similar plants. The first account could then expand into quality investigations, batch release, or additional sites. Paid activation and expansion are scenario assumptions. (The Idea)
+The strongest path is **repeatable direct sales**. A plausible first buyer is the production planning team at an enterprise manufacturer that regularly reschedules work when materials run short. Horizontal offers founder-led demos tailored to a plant workflow and describes starting with one workflow. It says it tests in operating plants and can connect to existing plant systems, with on-premises and regional cloud deployment options. The same planning job could travel across markets, though the work required to adapt integrations and approvals remains unresolved. (*The Idea*, *Defensibility*, *Market & Traction*, *Key Risks*)
 
-Horizontal reports testing in operating plants with international manufacturers. The memo identifies no paying buyer, and the advertised performance gains lack named customers and measurement baselines. The company markets to US and European manufacturers and reports regional cloud and on-premises deployment options. That gives it a plausible way to serve the same buyer across markets, with local system connections, hosting and approval procedures still to validate. Watch for one repeatable paid rollout as an early test of the mechanism. (Market & Traction, Key Facts, The Idea, Defensibility, Key Risks)
+If a paid rescheduling deployment proves valuable, Horizontal could reuse its connectors and approval setup at another manufacturer and sell additional workflows to the first buyer. The memo documents the demo offer and reports plant testing, but gives no buyer-level account of a demo converting to paid go-live, a buyer committing budget or changing a recurring workflow, repeat paid use, or measured rollout effort. The first unresolved link is whether a second independent buyer can reach paid value through the same rollout. (*The Idea*, *Market & Traction*, *Key Facts*)
 
 ### Countercase
 
-Horizontal could win customers and still need a custom integration project at each plant. Differences in plant interfaces and approval procedures could add engineering and validation work on every rollout. Ongoing support and site-specific hosting could also rise with each deployment. The memo lists an open forward-deployed engineering role, but gives no deployment hours or cost data. The structural-cost Pass gate remains untriggered. (Key Risks, Defensibility, Market & Traction)
+Even if one plant gets value, each new plant may require fresh integration, validation, and approval design. Plant-specific interfaces and procedures support this risk, and Horizontal’s advertised performance gains come without named customers or measurement baselines. If delivery effort rises in step with each sale, the direct-sales path loses its ability to scale. The memo provides no comparable deployment records that establish this pattern, so the structural downside gate does not apply. (*Key Risks*, *Market & Traction*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 11/25 |
+| Global buyer demand | 14/25 |
 | Repeatable acquisition and onboarding | 9/25 |
 | Retention and customer expansion | 7/20 |
 | Contribution as volume grows | 7/20 |
 | Evidence of fit in the first buyer segment | 4/10 |
 
-**Total Score: 38/100** (Pass)
+**Total Score: 41/100** (Pass)
 
 ### Decisive diligence question
 
-Can a second independent manufacturer in the other target geography pay for and run the same shortage-rescheduling workflow using the first rollout’s implementation process? Move to Reach out if the second plant uses it on real shortages and rollout records show that site-specific engineering, hosting, and ongoing support are modest relative to contract value.
+Can a second independent manufacturer move from demo to paid, routine use of the same shortage-driven rescheduling workflow through a rollout that a non-founder can run? Buyer-confirmed payment and live use, plus a comparison showing which integration and approval steps carried over and how many implementation hours each deployment took, would move the action to Reach out if the second rollout shows bounded effort and meaningful reuse.

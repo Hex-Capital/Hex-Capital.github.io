@@ -5,28 +5,26 @@
 
 ### Company case
 
-**Path A — Scarce complements** is the strongest case. The potential bottleneck is physical testing capacity that can produce qualification-relevant results for defense and aerospace manufacturers. ChemPilot reports using models to select candidates, feeding measurements back into its software, and running robots alongside scientists in its first lab. If that loop produces more usable results per scientist-hour, cheaper intelligence could make the lab more productive. The memo provides no like-for-like benchmark. ChemPilot’s listed San Francisco location and announced pre-seed round fit the thesis’s seed-led mandate. (The Idea, Defensibility, Market & Traction, ChemPilot.ai)
+**Path B — New Economies.** ChemPilot says materials R&D relies on manual trial and error. Its proposed workflow uses models to select candidates for physical testing and feeds lab measurements back into the software. The founders report that robots already run experiments alongside scientists. The seed-stage hypothesis is that this workflow can make smaller aerospace materials projects economical for buyers who previously shelved them. If equivalent models become widely available, buyers could still pay ChemPilot to run the experiments and deliver results they can use. Both conditions remain untested. (The Idea; Defensibility; Market & Traction)
 
-The founders’ materials research and software automation work support their ability to run a representative trial. The reported pre-incorporation collaboration with a defense prime and government researchers is a limited demand signal. It leaves current buyer commitment unresolved. (Founders & Team, Market & Traction, Key Risks)
-
-**Scale scenario.** If ChemPilot sells project-based R&D, the expansion unit is one additional buyer-accepted program. Its contribution would be the project fee less model costs, scientist time, lab time, consumables, reruns, and any qualification support ChemPilot bears. The memo gives no prices, delivery costs, or lab throughput with which to estimate contribution or expansion capacity. (The Idea, Key Risks, Key Facts)
+The memo documents relevant Technion research and software experience. The reported pre-incorporation collaboration signals interest from industrial and government researchers, while paid demand from buyers with previously shelved projects remains unverified. A plausible expansion unit is a customer brief that yields a buyer-accepted result. Its economics depend on whether the project fee covers scientist time, failed runs and retries, lab costs at realized utilization, and any qualification work included in the contract. The memo provides no measured cost or throughput for that unit. (Founders & Team; Market & Traction; Key Risks; Key Facts)
 
 ### Countercase
 
-Periodic Labs has already deployed experimental-analysis software in its own labs and overlaps in defense R&D. With abundant capital and comparable models, competitors could replicate the lab-and-software setup. ChemPilot claims proprietary experimental data, but its advantage across programs is unmeasured, and downstream qualification could still govern adoption timelines. This leaves bottleneck relief and durable control unproven, so the outreach gate stays closed. Path B is weaker because the memo identifies neither a newly viable buyer or transaction nor a demonstrated reason to choose ChemPilot under model parity. (Defensibility, Market & Traction, Key Risks, The Idea)
+ChemPilot may speed up screening for projects customers already fund while scientist supervision and downstream qualification keep smaller projects uneconomic. Periodic Labs has deployed models in its own physical labs and overlaps in defense R&D, making a competing lab service credible under model parity. The memo leaves both market opening and buyer substitution unresolved. That supports Watch. (Defensibility; Market & Traction; Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 11/25 |
-| Durable value capture | 7/25 |
+| Path-specific thesis fit | 10/25 |
+| Durable value capture | 8/25 |
 | Customer demand | 6/20 |
-| Team and execution | 9/15 |
-| Scale economics | 4/15 |
+| Team and execution | 8/15 |
+| Scale economics | 5/15 |
 
 **Total Score: 37/100** (Pass)
 
 ### Decisive diligence question
 
-Can ChemPilot complete a funded trial for an independent target buyer that meets the buyer’s agreed acceptance criteria faster than its manual baseline and shows that ChemPilot-controlled experimental data materially contributes to the gain when both workflows use comparable models? A verified result would justify rescoring for Reach out at the required threshold. An inconclusive trial keeps the company on Watch. A matched trial showing no meaningful gain or easy substitution would move it to Pass if no other supported path emerges.
+Will an independent buyer place a paid repeat order for work it previously shelved on cost grounds? Reach out if a representative pilot shows a lower fully loaded cost per buyer-accepted result than the conventional route, positive contribution at the price paid, and the buyer repeats because it values ChemPilot’s lab execution even with a model-equivalent option available. Pass if the comparison shows the work remains uneconomic or the buyer can switch and retain the same outcome on equivalent terms.

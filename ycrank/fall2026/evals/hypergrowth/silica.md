@@ -5,28 +5,26 @@
 
 ### Company case
 
-**Path B — Repeatable sales with account expansion.** The initial buyer is a robot builder equipping low-cost training arms to capture light contacts. The memo documents a public demonstration of gearbox-integrated sensing and a web storefront that takes quantity requests for email follow-up. Silica claims paperclip-weight detection and more than 60,000 units requested in the first month. The requests show interest at the top of the funnel. The memo gives no buyer count, paid conversion, shipments, or repeat orders. That leaves first-segment fit and the growth mechanism untested. (The Idea, Defensibility, Market & Traction, Key Risks)
+Repeatable direct sales is Silica’s strongest path. The initial buyers are builders of low-cost robot arms and physical AI training-data teams that need to capture light contacts during recurring data collection. The memo records a public demonstration of gearbox-integrated torque sensing. Silica says its Q Series is designed to fit existing training arms. The same sensing job plausibly travels across markets, but compatibility and qualification across arm platforms remain open. (The Idea, Defensibility, Key Risks)
 
-**Growth scenario.** If a standard Q Series joint fits an existing arm and passes qualification, the same web channel and integration process could bring in more builders. A builder could start with a few joints and buy more as it deploys additional arms. In a second geography, that process assumes compatible mounts, electrical interfaces, and firmware, plus manageable shipping, import requirements, and warranty support. The memo gives no evidence of buyer demand or rollout in a second market. (The Idea, Key Risks)
-
-Contribution would depend on the realized selling price after assembly, calibration, testing, freight, warranty, and buyer-specific integration support. Tooling and inventory would also affect the cash needed to scale. The founder’s quote of under $500 per complete actuator gives a price reference. The memo provides no production costs or measured rollout effort. (The Idea, Defensibility, Key Facts)
+Silica takes quantity requests through a web form and follows up by email. It reports more than 60,000 units requested in the first month, and its founder quoted under $500 per complete actuator. If buyers can qualify a standard joint once and reuse it on more arms, an initial order could lead to repeat purchases. The first unproven link is whether independent buyers will pay for and activate the same design through a repeatable process. The memo documents no buyer-funded test, production deployment, repeat purchase, or marginal rollout cost. (The Idea, Market & Traction, Key Risks)
 
 ### Countercase
 
-The strongest downside is that the preorder surge reflects curiosity and that each paying buyer needs custom integration or extensive qualification support. Silica accepts custom inquiries, publishes specifications as design targets, and was still testing reliability at launch. If torque accuracy varies under repeated loads or temperature changes, calibration and support could grow with each shipment. That would threaten the growth case. The memo establishes neither proportional costs nor a structural ceiling on demand, so the Pass gate remains unmet. (The Idea, Defensibility, Key Risks)
+The reported preorder volume could shrink substantially at confirmation, or buyers could qualify a joint for a prototype and stop there. Published specifications are design targets, reliability testing was underway at launch, and buyers have other joint-level sensing options. If each rollout requires custom integration, calibration, or support, delivery effort could rise with each sale. The memo has no deployment or cost records showing that this burden is structural, so the downside gate is untriggered. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 9/25 |
+| Global buyer demand | 14/25 |
 | Repeatable acquisition and onboarding | 9/25 |
 | Retention and customer expansion | 7/20 |
 | Contribution as volume grows | 7/20 |
 | Evidence of fit in the first buyer segment | 4/10 |
 
-**Total Score: 36/100** (Pass)
+**Total Score: 41/100** (Pass)
 
 ### Decisive diligence question
 
-Can an independent training-arm builder outside the U.S. come through the web channel, pay for a standard Q Series joint, and qualify it on an existing arm with limited Silica engineering time? A buyer-confirmed deployment with a record of payment and integration effort would move the action to **Reach out**. An email-confirmed request alone would keep it at **Watch**.
+Can two independent training-arm buyers convert web requests into paid deployments of the same Q Series model? Move to Reach out if order and installation records show both buyers using the joints in recurring data collection through a shared installation process, with bounded integration and support effort.

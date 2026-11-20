@@ -5,28 +5,26 @@
 
 ### Company case
 
-**Path B — Repeatable sales with account expansion.** The initial buyer is the solar or storage developer screening a pipeline of 1–50 MW projects before paying for utility studies. Ryhla’s website takes individual project submissions, and its launch solicits developer introductions. The growth scenario assumes developers pay for an initial feeder screen, then bring subsequent projects and filings through the same workflow. The memo documents the intake route. Conversion, pricing, and repeat purchases remain unverified. (*The Idea*; *Key Facts*)
+**Repeatable direct sales** is Ryhla’s strongest path. Solar and storage developers evaluating 1–50 MW projects face the same decision at each new site. Ryhla screens feeder capacity and estimated upgrade costs before developers commit to a utility application, then can manage the filing. The memo documents a project intake form and a request for YC introductions. Ryhla reports a live Midwest solar deployment and about $160,000 in fees avoided for a customer after screening out eight of ten planned battery projects. Those outcomes suggest a concrete reason to try the service, while the route from intake to payment remains unverified. (*The Idea*, *Market & Traction*, *Key Facts*)
 
-Ryhla reports a live deployment with an unnamed Midwest solar developer and about $160,000 in avoided fees after screening out eight of ten planned battery projects. Those are concrete early signals that screening could change a developer’s filing decisions. The reported 91% approval rate covers only sites Ryhla flagged as viable, and the memo gives neither the sample size nor outcomes for rejected sites. (*Market & Traction*; *Key Risks*)
-
-Ryhla reports live feeder models in 11 utility territories across eight states, which supports some technical portability within the US. In a second country, the same buyer could use the same screening workflow if Ryhla can obtain local feeder data, validate its models against local utility studies, and adapt filings to local requirements. Contribution could improve if multiple developers share the cost of each territory setup and additional projects require little engineering or filing support. The memo gives no rollout costs or per-project delivery effort. At this stage, the live deployment warrants watching for a paid rollout that tests those assumptions. (*The Idea*; *Market & Traction*; *Key Risks*)
+Ryhla reports live feeder models across 11 utility territories in eight states, making domestic portability credible. The growth case assumes that developers bring subsequent projects through the same workflow and that Ryhla can reuse enough of its modeling and filing process to serve new territories economically. The ten-project example shows value across one portfolio. Repeat paid use at the next project cycle and the cost of onboarding a new territory remain unmeasured. (*Market & Traction*, *Defensibility*, *Key Risks*)
 
 ### Countercase
 
-Ryhla could scale as a territory-by-territory engineering service. Its models are feeder-specific and backtested against utility studies, so each new territory may require fresh data and calibration. Filing management could add labor with each project, while utility-published maps can substitute for some initial screening. If that work grows in proportion to paid volume and Ryhla has no supported path to reducing it, the Pass gate applies. The memo establishes the dependencies, but their cost and reusability are still unresolved. (*Defensibility*; *Key Risks*)
+Territory onboarding could be the first link to break even if developers value the screening. New territories may require fresh feeder data and backtesting, and utilities still determine approval and required upgrades. Ryhla’s reported 91% approval rate covers only sites it flagged as viable. The memo gives neither the sample size nor outcomes for screened-out sites, leaving cross-territory reliability uncertain. If each rollout requires substantial new engineering and manual filing work, delivery costs could rise in proportion to sales. The structural downside gate is untriggered because the memo leaves that cost pattern untested. (*Defensibility*, *Market & Traction*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 12/25 |
+| Global buyer demand | 15/25 |
 | Repeatable acquisition and onboarding | 9/25 |
 | Retention and customer expansion | 7/20 |
 | Contribution as volume grows | 7/20 |
 | Evidence of fit in the first buyer segment | 6/10 |
 
-**Total Score: 41/100** (Pass)
+**Total Score: 44/100** (Pass)
 
 ### Decisive diligence question
 
-Can Ryhla win an independent solar or storage developer through its project intake in a new non-US utility territory and get that developer to pay for a second project using the same workflow? Move to **Reach out** if a paid rollout shows both projects went live and records show that territory setup was reusable and the second project required little incremental engineering or filing labor. Stay on **Watch** while that result is pending. Move to **Pass** if the rollout shows that each new project requires proportional custom work with no supported path to reducing it.
+Can Ryhla take an independent solar or storage developer from standard project intake to a paid screen and completed filing in a newly added utility territory, with documented data, engineering, and filing costs that leave positive contribution on the rollout? A completed rollout with a reusable setup would move the action to Reach out. A rollout whose fee is consumed by territory-specific work would keep it at Watch.

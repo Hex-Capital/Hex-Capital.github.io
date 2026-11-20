@@ -5,26 +5,28 @@
 
 ### Company case
 
-**Path B — New economies.** As teams delegate more work to cheap agents, Roma could make frequent cross-agent follow-ups viable for small teams that currently skip them because copying context, checking status, and reviewing results take too much human time. Roma describes two-way delegation across agents such as Claude, ChatGPT, and Muse, with a shared task record for handoffs. That gives Roma a plausible delivery mechanism. The memo has no like-for-like comparison of human time per successful task after review, retries, and missed pickups, so the market opening remains a hypothesis. (The Idea, Market & Traction, Key Risks)
+**Path B — New Economies.** Roma could make routine follow-ups economical for small teams that currently skip them because someone has to copy context between tools, assign work, chase status, and check completion. The CEO reported that one user completed 39 follow-ups in a week with the original app. That anecdote shows a concrete use, while the user’s prior cadence and labor per successful follow-up remain unknown. Roma 2.0’s two-way delegation gives the team a way to test the mechanism. (The Idea; Market & Traction)
 
-The memo records 35 U.S. iPhone ratings averaging 4.5/5. The founder relayed one user’s account of completing 39 follow-ups in a week on the original app. That suggests a use worth testing, but the account leaves the old workflow’s cost and repeat demand unclear. Roma announced free access through year-end, leaving willingness to pay untested in the memo. The founders’ prior product experience and Roma’s shipped fixes for missed agent pickups support seed-stage execution. The memo gives no basis for estimating contribution per paying workspace after inference, integrations, and support. (Market & Traction, Key Facts, Founders & Team, Key Risks)
+**Scenario assumption.** If manual coordination is what causes teams to skip these follow-ups, compare its full cost per successful outcome with Roma’s cost at the same completion standard. Include setup, review, missed pickups, retries, human exception handling, and software and model fees. Under model parity, Roma’s potential reason for buyers to keep paying is the accumulated task history that preserves decisions, edits, and attribution across agents. Its effect on paid retention remains untested. (The Idea; Defensibility; Key Risks)
+
+The memo records 35 iPhone ratings, and the company reported that some 2.0 users connected at least 10 agents. These are early demand signals during free access. The three-person team shipped two-way delegation and released fixes, notices, and retries for missed pickups. Repeat paid use and Roma’s cost to serve an additional workspace remain unmeasured in the memo. (Market & Traction; The Idea; Founders & Team; Key Risks)
 
 ### Countercase
 
-Roma could save time on work teams already do while leaving them little reason to pay for a separate workspace. ClickUp already offers assignable agents, and Notion runs agents across connected tools. Shared integration standards could help competitors close the cross-provider gap. Roma’s task histories could make handoffs easier, but the memo gives no evidence of buyer preference at functional parity or measurable network effects. It also identifies no scarce capability Roma controls that would support Path A. The overlap blocks Reach out at this stage. It leaves room for Watch because equivalent cross-agent delivery and customer switching have yet to be demonstrated. (Defensibility, Market & Traction, Key Risks)
+Roma may make existing task management easier while review and missed pickups consume enough labor to leave previously skipped work uneconomical. ClickUp already supports agent assignment, and Notion connects agents to external tools through MCP. A rival with equivalent models could reproduce enough of the workflow that buyers see little reason to pay separately for Roma. The memo documents feature overlap and pickup failures, while the net labor cost and buyer choice under parity remain untested. Those open gates support Watch. (Defensibility; Market & Traction; Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 9/25 |
-| Durable value capture | 7/25 |
-| Customer demand | 8/20 |
+| Path-specific thesis fit | 10/25 |
+| Durable value capture | 8/25 |
+| Customer demand | 7/20 |
 | Team and execution | 10/15 |
 | Scale economics | 4/15 |
 
-**Total Score: 38/100** (Pass)
+**Total Score: 39/100** (Pass)
 
 ### Decisive diligence question
 
-Will independent small teams repeatedly pay for Roma to complete follow-up work they previously skipped when they have access to a functionally comparable workflow using the same models? A paid comparative pilot should verify which work teams previously skipped, measure human minutes per successful follow-up at equivalent quality including review, retries, and exceptions, and track which workflow teams choose at renewal. Repeat paid preference with a material labor reduction would support Reach out if the updated score clears the threshold. If the work was already economical or teams readily switch to the equivalent workflow, Pass.
+Will independent teams pay to keep using Roma for follow-ups they previously skipped when they can choose a functionally equivalent alternative using the same models? A paid repeat-use trial that records the prior workflow, measures full cost per successful outcome, and gives teams a genuine choice would answer it. Reach out if teams complete the previously skipped work economically and renew because they value Roma’s continuity across handoffs. Pass if a representative trial shows that review and exceptions erase the savings or that teams switch and retain the same outcome.

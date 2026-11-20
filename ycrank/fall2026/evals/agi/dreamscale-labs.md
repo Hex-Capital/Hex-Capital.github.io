@@ -1,19 +1,19 @@
 ﻿# Dreamscale Labs -- AGI Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Low
+**Evidence confidence:** Medium
 
 ### Company case
 
-**Path A — Scarce complements.** Dreamscale’s strongest candidate bottleneck is cloud inference that meets a robot’s control deadlines when its policy exceeds onboard GPU capacity. As more capable policies become available, robotics teams could use them without upgrading onboard hardware or running their own model servers. That benefit depends on the cloud service returning actions reliably over the robot’s actual network. In a company-run test on one home Wi-Fi link, Dreamscale’s packet recovery cut p99 network time from 420 ms to 160 ms using synthetic frames and simulated compute. The result supports the transport mechanism and leaves end-to-end control reliability open. (The Idea, Key Risks)
+**Path A — Scarce complements.** If cheaper frontier models drive more robots to use policies that exceed onboard memory, the scarce input could be remote inference capacity that reliably meets real-world control deadlines. Robotics teams bear the cost of upgrading onboard hardware or operating their own cloud model servers. Dreamscale reports that its transport cut p99 network time from 420 ms to 160 ms in a synthetic test on one home Wi-Fi link. That isolates a relevant bottleneck, while production end-to-end latency and task reliability remain unmeasured in the memo. (*The Idea*; *Key Risks*)
 
-Dreamscale separately reports running DreamZero 14B in 320 ms versus 350 ms for NVIDIA’s implementation with half the GPU count. This suggests optimization capability. The memo leaves open whether Dreamscale can sustain an advantage as competitors tune the same models. The documented HUD research integration and reported Actor Labs excavator evaluation show external engagement at seed. Buyer budgets, production commitments, and repeat payment remain unknown. The shipped SDK and the founders’ relevant quantization and model-training work support early execution. Production qualification remains ahead. (Defensibility, Market & Traction, The Idea, Founders & Team)
+Dreamscale separately reports running DreamZero 14B in 320 ms versus NVIDIA’s 350 ms with half the GPUs. That suggests an optimization advantage on one model. The shipped SDK and the team’s prior work on robot-model quantization support seed-stage execution. The HUD research integration and Actor Labs excavator evaluation show collaborators committing evaluation effort. The memo leaves paid repeat demand unverified. (*Defensibility*; *The Idea*; *Founders & Team*; *Market & Traction*)
 
-The expansion unit is a paid connected robot-hour. **Scenario assumption:** At the listed $5 rate, a full-price hour contributes only if its share of GPU capacity, including idle capacity, plus networking, support, and deployment costs stays below $5. The memo supplies neither those costs nor paid utilization. The buyer’s cost comparison also needs to include the independent safety systems and validation that Dreamscale assigns to the operator. (The Idea, Key Risks)
+A connected robot-hour is the expansion unit. Assuming customers pay the posted $5 rate, GPU capacity at realized utilization, networking, and deployment support attributable to that hour must cost less than $5 for positive contribution before fixed costs. The memo provides pricing and leaves realized utilization and delivery costs open. (*The Idea*)
 
 ### Countercase
 
-With abundant capital and access to the same checkpoints, rivals could reproduce the serving stack or offer an equivalent result through existing infrastructure. Abstract already hosts overlapping checkpoints, Modal supplies programmable GPU capacity, and compressed local runtimes can bypass the network for buyers whose workloads they can handle. The memo identifies no structural barrier and provides no production switching evidence. These are credible substitutes, but there is no like-for-like field evidence that they meet the same control requirements. The Path A override therefore stays open. Path B lacks evidence that delivery labor falls enough to unlock a new transaction or that buyers would keep paying Dreamscale under model parity. Neither path clears the outreach gate. (Defensibility, Market & Traction, Key Risks)
+Abstract already hosts overlapping checkpoints, and General Instinct offers compressed offline execution for buyers who need it. If either approach meets a target buyer’s task, reliability, and cost requirements, Dreamscale’s optimization may be reproducible or bypassable. The memo identifies no structural barrier and documents no head-to-head production result that establishes equivalent performance. The required scarcity and control remain testable, so the action is Watch. (*Defensibility*; *Market & Traction*; *Key Risks*)
 
 ### Dimension Scores
 
@@ -22,11 +22,11 @@ With abundant capital and access to the same checkpoints, rivals could reproduce
 | Path-specific thesis fit | 12/25 |
 | Durable value capture | 8/25 |
 | Customer demand | 8/20 |
-| Team and execution | 9/15 |
-| Scale economics | 5/15 |
+| Team and execution | 10/15 |
+| Scale economics | 6/15 |
 
-**Total Score: 42/100** (Pass)
+**Total Score: 44/100** (Pass)
 
 ### Decisive diligence question
 
-Will an independent robotics team commit to repeat paid production use after comparing Dreamscale with a tuned cloud alternative and, where feasible, compressed onboard inference? Use the same task-quality and safety requirements on the buyer’s actual network. Measure missed control deadlines, cost per successful operating hour, and the integration work the buyer would have to redo to switch. Repeat payment at viable margins for a measurable advantage Dreamscale can credibly retain would support Reach out if the updated case reaches 65 with at least medium confidence. Equivalent results from a readily switchable substitute would move the case to Pass.
+Will an independent robotics team pay for a repeat deployment after a production trial against its best feasible substitute? Move to Reach out if the buyer repeats at a price that covers measured delivery costs and Dreamscale meets the buyer’s end-to-end latency and task-success thresholds through an operating capability it controls that the substitute cannot match at comparable cost. Move to Pass if the substitute meets those thresholds at comparable cost. An inconclusive trial leaves the action at Watch.

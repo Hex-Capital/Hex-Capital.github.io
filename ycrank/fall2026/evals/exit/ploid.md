@@ -5,38 +5,38 @@
 
 ### Company case
 
-Strategic acquisition is the strongest path. A sales or recruiting platform could buy Ploid’s identity-matching software and transferable data rights to give its customers fresher, more accurate profiles. Ownership could justify a premium if it gives the buyer control over match quality and data freshness that it cannot secure through a license or reproduce economically in-house. Ploid documents a live retrieval API and claims a proprietary index of more than 2 billion people. The founders report customer wins, with contract values, realized revenue, and production gains undisclosed. (*The Idea*, *Defensibility*, *Market & Traction*, *Key Facts*)
+Strategic acquisition is Ploid’s strongest path. A sales or recruiting platform could pay to own Ploid’s cross-site identity matching and live retrieval if combining them improves customers’ results enough to justify ownership over licensing or building. Ploid’s documented API and listed pricing establish a product a buyer can test. Ploid claims a proprietary index of more than 2 billion people and reports thousands of companies using the product. The founder reports closing clients, with contract values undisclosed. The buyer benefit remains an inference until a production comparison measures it. (The Idea, Defensibility, Market & Traction)
 
-A paid production test against the platform’s current data stack could measure the lift in correctly matched, current profiles and put a dollar value on it. The documented product and the CEO’s retrieval experience make that test plausible. Pilot funding, runway, and the capital needed to reach acquisition scale remain unknown. Vendor-supplied contact data and deletion obligations warrant diligence on what a buyer could inherit. The memo establishes neither transfer rights nor a binding restriction. It also provides no usable evidence of an independent route to cash for this holder. (*The Idea*, *Founders & Team*, *Key Risks*, *Market & Traction*, *Key Facts*)
+The operating milestone is a paid production deployment that shows a sustained lift in correctly matched, current profiles at a comparable cost to the platform’s best available integration. The live API and founders’ technical and commercial experience make that test plausible at seed. The memo leaves the test budget, runway, and financing needed to sustain production open. (The Idea, Founders & Team, Key Risks)
 
-The proceeds bridge uses the illustrative $500,000 check at a $10 million post-money valuation, diluted from 5% to 3% ownership with no follow-on checks. The eight-year objective is $2.5 million in gross cash. That requires about $83.3 million in distributable equity proceeds at 3% ownership, $125 million at 2%, or $62.5 million at 4%.
+**Proceeds bridge.** With Ploid’s investor terms undisclosed, assume a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted by 40% to 3%, and zero follow-ons. The eight-year target is $2.5 million in gross cash before investor taxes. At 3% ownership, that takes $83.3 million of distributable equity, or $88.3 million of enterprise value with $5 million of illustrative net debt. The equity hurdle rises to $125 million at 2% ownership and falls to $62.5 million at 4%.
 
-The sale scenarios assume zero net debt and no other price adjustments, so enterprise value equals equity consideration. They assume simple pro rata allocation with no preference adjustment. All consideration is cash at closing, with zero stock, escrow, earnouts, rollover, or compensation. The prices and timing are scenario assumptions. The memo supplies no evidence of what a buyer would pay. (*Key Facts*)
+| Eight-year scenario | Gross cash to the holder at 3% |
+|---|---:|
+| $25 million enterprise-value sale less $5 million illustrative net debt | $600,000 (1.2×) |
+| $100 million enterprise-value sale less $5 million illustrative net debt | $2.85 million (5.7×) |
+| Growth plateaus, buyer interest fails to emerge, public scale remains out of reach, and available cash is reinvested | $0, with shares still held |
 
-| Scenario | Timing after check | Enterprise value and equity consideration | Gross holder cash | Gross multiple |
-|---|---|---:|---:|---:|
-| Modest sale | Year 5 | $40 million | $1.2 million | 2.4× |
-| Strong sale | Year 7 | $100 million | $3 million | 6.0× |
-| Prolonged private | Through year 8 | Growth plateaus, buyers stay away, public scale remains out of reach, and cash is reinvested | $0, with shares retained | 0× realized |
+Both sale scenarios assume full cash payment and simple pro rata allocation after illustrative net debt. Ploid’s actual debt, fees, and senior claims are unverified. In a wind-down, any holder recovery would come from the residual after obligations and preferences. The memo supplies too little information to estimate that residual or support a realizable sale-price range. Listed API prices establish what customers are asked to pay for access. (The Idea, Key Facts)
 
-The strong scenario clears the objective at 3% ownership. At 2%, the same sale returns $2 million, or 4.0×.
+A sponsor buyout or company-funded payout would require evidence of sustainable cash after reinvestment. A secondary would require demand for this holder’s shares and confirmed sale eligibility. An IPO and subsequent resale would require a credible path to public scale and evidence that the holder could sell. Each remains unevidenced. (Market & Traction, Key Facts)
 
 ### Countercase
 
-A platform can already license Ploid’s API, use Apollo’s people search through MCP, or buy live people data from Crustdata. If those options deliver comparable results, a platform can capture much of the benefit without buying Ploid. The overlap is documented, while equivalent production performance and a ceiling on acquisition price remain unproven. The evidence supports Watch. It establishes neither a structural Pass nor the ownership economics needed for outreach. (*The Idea*, *Defensibility*)
+A buyer could license overlapping capabilities through existing integrations. Apollo already offers people search through MCP, and Crustdata sells live people data through an API. Those documented alternatives are more direct evidence of what a buyer can source today than Ploid’s reported index size is of a durable performance advantage. Ploid also relies on vendors for some contact data, and a buyer would need to verify continued data access and its ability to honor deletion obligations after closing. The Pass gate remains untriggered because the overlap leaves the value of Ploid’s combined capability unresolved, and the memo establishes neither a transfer restriction nor a supported price ceiling below the holder’s hurdle. (Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 10/30 |
+| Counterparty rationale or source of cash | 12/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 8/20 |
+| Milestones and capital needed | 9/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 33/100** (Pass)
+**Total Score: 36/100** (Pass)
 
 ### Decisive diligence question
 
-Can a paid production pilot show that owning Ploid’s transferable matching stack is worth enough to a platform buyer to clear the holder’s cash hurdle? A buyer-validated comparison with its best licensing or in-house option would answer this by measuring gains in match accuracy and freshness and translating the gains that depend on ownership into a purchase price. Reach out if that price can plausibly clear the hurdle after dilution and deal terms. Pass if the comparison shows that an available substitute caps the price materially below it.
+Can a paid production deployment show enough sustained improvement in correct, current profile matches to give a strategic buyer an economic reason to acquire Ploid at a price that clears the holder’s hurdle? A benchmark against the buyer’s best licensed alternative, paired with a buyer-validated estimate of the value of ownership, would move the action to **Reach out** if it supports at least $83.3 million of distributable equity at 3% ownership within eight years. A supported price ceiling materially below the applicable hurdle would move the action to **Pass**.

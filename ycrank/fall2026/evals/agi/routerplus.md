@@ -5,28 +5,28 @@
 
 ### Company case
 
-**Path A — Scarce complements.** RouterPlus’s strongest case is supplying inference capacity that can handle sudden spikes while meeting a buyer’s workload requirements. A customer said RouterPlus sourced capacity for peaks of 15× average traffic and arranged a backup provider. That is relevant seed-stage evidence of bottleneck relief. If cheaper inference drives more bursty agent traffic, access to capacity qualified for a specific workload could remain valuable even as routine inference gets cheaper. (The Idea; Market & Traction)
+Path A — Scarce complements. The strongest case is access to inference capacity that can handle sharp traffic peaks at a workload’s latency and reliability requirements. An AI assistant customer reported that RouterPlus sourced capacity for peaks of 15× average traffic and arranged a backup provider. That supports a specific operating constraint at seed stage. If cheaper frontier-quality models increase inference demand faster than qualified peak capacity expands, buyers could still pay RouterPlus for guaranteed throughput and failover. The memo leaves the persistence of that constraint open. (Market & Traction, The Idea)
 
-A separate customer described switching to an open model and reported a 25% drop in P95 latency. RouterPlus reports 3 million daily agent conversations at its largest customer. These signals establish early production use, while paying-customer count and repeat purchases remain unknown. The team shipped EVO Router and then the managed marketplace, and the CTO’s GPU infrastructure experience is relevant to testing and deploying provider capacity. The rollout is early enough for the seed strategy, with geographic fit uncertain given the Bengaluru base. (Market & Traction; Key Facts; Founders & Team; RouterPlus)
+RouterPlus reports pooling several workloads into one provider deal, and its published terms grant it reuse rights over de-identified requirements and derived benchmarks. Pooling could improve procurement terms, while durable capture depends on securing capacity rights that buyers and rivals would struggle to replicate. Separately, RouterPlus reports 3 million daily agent conversations at its largest customer. That signals production demand, with payment and renewal still unverified. (Defensibility, Market & Traction, Key Facts)
 
-The terms give RouterPlus reuse rights for de-identified requirements and derived benchmarks. The company reports one pooled provider deal, which makes aggregation plausible. A scale scenario assumes each additional reserved-capacity deal earns a fee or spread that covers provider commitments, unused capacity, workload testing, backup coverage, and support. Reserved capacity is individually quoted, and standard marketplace usage and bring-your-own-key traffic carry no RouterPlus inference markup. Deal-level contribution remains unknown. (Defensibility; The Idea; Key Facts)
+The founders bring edge AI deployment and GPU infrastructure experience. The team has shipped a managed marketplace and added models from two providers, demonstrating progress on provider integration. Each reserved-capacity contract is a plausible unit of expansion. In a viable scenario, the customer’s reservation payment covers provider commitments, idle backup capacity, workload testing, and ongoing support. Published token pricing carries zero markup, and bring-your-own-key traffic carries zero RouterPlus inference fee. The memo gives no realized reservation margin. (Founders & Team, Market & Traction, The Idea)
 
 ### Countercase
 
-OpenRouter already offers provider scoring and failover, and open-source Switchyard covers routing and benchmarking. With abundant capital, providers and rivals could add capacity or compete for the same allocations. RouterPlus’s published terms say quotes and availability are indicative until a definitive agreement. The memo leaves open whether RouterPlus can secure priority access and retain margin when buyers have comparable offers. This keeps Path A below the outreach gate. The routing alternatives establish meaningful substitution risk, while equivalence on guaranteed peak capacity remains untested. Path B supplies no independent basis for outreach because the reported savings and latency improvements concern existing workloads, with no evidence of a newly viable buyer or transaction. (Defensibility; Key Risks; Market & Traction)
+RouterPlus may be a procurement intermediary whose suppliers control peak access. Provider quotes and availability remain indicative until a definitive agreement. OpenRouter already provides selection and failover, and TrustedRouter offers capacity procurement. Those alternatives make substitution credible. The memo leaves open whether either can match the reported burst workload on comparable terms, so the evidence supports Watch. A comparable offer that meets the same peak requirements would defeat the current scarcity case. The reported latency and inference-cost gains concern existing workloads and leave Path B without evidence of a newly viable market. (Key Risks, Market & Traction, The Idea)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 16/25 |
+| Path-specific thesis fit | 15/25 |
 | Durable value capture | 8/25 |
 | Customer demand | 10/20 |
 | Team and execution | 10/15 |
-| Scale economics | 5/15 |
+| Scale economics | 6/15 |
 
 **Total Score: 49/100** (Neutral)
 
 ### Decisive diligence question
 
-Can RouterPlus repeatedly deliver paid peak-capacity reservations that buyers cannot match at comparable cost and reliability through direct procurement or another router? Signed priority allocations, performance through actual peaks, and positive contribution on repeat purchases by independent buyers would support moving to Reach out if the updated score clears 65 and geographic fit is confirmed. If direct or rival offers match the tested service and remove the margin, move to Pass.
+Will an independent customer renew a paid peak-capacity reservation after comparing it with a credible alternative on the same workload? Move to Reach out if the renewal is backed by enforceable provider commitments, measured peak throughput and failover that the alternative cannot match on comparable terms, and positive contribution after backup and support costs. If the alternative matches those requirements on comparable terms, move to Pass.

@@ -5,15 +5,15 @@
 
 ### Company case
 
-**Path B — New economies** is the strongest fit. Phone Harness describes a tool that lets agents read and operate native mobile apps when browser automation cannot reach the required steps. At seed, the product supports a plausible mechanism. If an agent can complete short, recurring mobile-only jobs at the same quality with less human time, developers could automate jobs too small to justify manual handling. The memo contains no like-for-like delivery trial or evidence that this segment has begun paying for those jobs. (The Idea, Key Facts)
+**Path A — Scarce complements.** The strongest case is that agents handling permitted, recurring workflows in native iPhone apps need reliable access to real devices when browser automation cannot reach the required features. The memo records a public local release and a November cloud beta launch. Phone Harness says its dedicated cloud iPhones retain apps and logins across runs. That persistence could make recurring work easier to deploy, but the memo offers no measured device shortage, throughput limit, or independent buyer commitment showing that access is a binding constraint. (The Idea, Defensibility, Market & Traction)
 
-The company says its hosted devices preserve apps and logins between runs. That continuity gives customers a plausible reason to rent a configured phone even when equivalent models are widely available. Whether customers would keep paying Phone Harness specifically is open. The memo records 522 forks as evidence of developer interest and leaves paid adoption and repeat use unknown. Pana’s prior automation-tool work and the progression from a local release to a cloud beta support seed-stage execution. (Defensibility, Market & Traction, Key Facts, Founders & Team)
+The 522 repository forks show developer interest, with paid cloud demand still unverified. Founder Shawn Pana’s prior work on developer tools and the local and cloud releases support seed-stage execution credit. Reliable fleet operation under recurring customer workloads remains untested in the memo. (Market & Traction, Founders & Team, Key Facts)
 
-**Illustrative economics.** At the listed $80 monthly iPhone rate, an assumed 100 successful jobs per device-month would put rental at $0.80 per successful job before inference and human handling. Whether that opens a market depends on the full cost of completing each job, including retries and exceptions, versus manual delivery at equivalent quality. For Phone Harness, the economics of adding the next device depend on utilization and the cost of hardware, hosting, and support. The memo provides prices and leaves those inputs unmeasured. (The Idea, Key Risks)
+Each additional dedicated iPhone is a plausible expansion unit. Assuming the posted $80 monthly rate and one subscription per device, expected revenue per provisioned phone is $80 times the share of phone-months rented. That revenue must cover hardware, hosting, maintenance, and support. The memo provides no realized occupancy or delivery costs, so repeatable contribution remains uncertain. (The Idea, Key Facts)
 
 ### Countercase
 
-A buyer with the same model could fork the MIT-licensed local harness or use a competing hosted fleet. The memo identifies both a hosted fleet with its own task runner and a competing real-iPhone rental service. For workflows that require camera, Face ID, or multi-touch, the local harness has coverage gaps. App access rules can also rule out otherwise feasible cloud workflows. These facts make substitution and costly exceptions credible, while leaving equivalent delivery on a representative paid workflow untested. Path B’s outreach gate remains unmet, and the evidence does not trigger the thesis override. Path A has no separate supported case because the memo establishes neither a shortage of usable device capacity nor durable control over its supply. (Defensibility, Market & Traction, Key Risks)
+The strongest countercase is that hosted phones are interchangeable and Phone Harness controls little beyond the integration. The local harness is forkable, PhoneUse already offers hosted real iPhones, and third-party app rules can exclude technically feasible workflows. Saved logins may add switching friction, but the memo identifies no structural barrier and offers no direct comparison showing whether a rival can meet the same workflow requirements. The substitution gate remains open, which supports Watch. Path B would require separate evidence that full delivery costs fall enough to make a previously uneconomic use viable. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
@@ -21,12 +21,12 @@ A buyer with the same model could fork the MIT-licensed local harness or use a c
 |-----------|-------|
 | Path-specific thesis fit | 11/25 |
 | Durable value capture | 7/25 |
-| Customer demand | 5/20 |
+| Customer demand | 6/20 |
 | Team and execution | 9/15 |
-| Scale economics | 5/15 |
+| Scale economics | 6/15 |
 
-**Total Score: 37/100** (Pass)
+**Total Score: 39/100** (Pass)
 
 ### Decisive diligence question
 
-Will independent teams pay repeatedly to run a permitted, previously uneconomic mobile-only job on Phone Harness when they can run the same model on a credible alternative? A paid comparative trial should measure successful completion at equivalent quality, count human time and costs including retries and exceptions, and record whether teams continue paying for Phone Harness and why. Move to Reach out if the trial establishes both lower delivery costs that unlock the job and a sustained reason to pay under model parity, and the updated score and confidence clear the outreach gates. Move to Pass if the trial shows that realistic handling costs erase the savings or buyers readily switch under parity.
+Will an independent buyer renew at the posted price after running the same permitted, recurring native iPhone workflow on Phone Harness and a credible hosted alternative? Move to Reach out if the buyer renews because Phone Harness meets a measured reliability or capacity requirement that the alternative cannot meet and that depends on capacity Phone Harness controls and rivals would need meaningful time to reproduce. Pass if the alternative meets the same requirements on comparable terms.

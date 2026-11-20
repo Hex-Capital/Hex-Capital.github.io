@@ -5,36 +5,30 @@
 
 ### Company case
 
-**Strategic acquisition** is the strongest path. A grid-equipment manufacturer or monitoring vendor could buy Talos to add retrofit fault detection across equipment types. The memo records Siemens Energy’s announced agreement to acquire Camlin Energy at an undisclosed price, showing that an equipment manufacturer has chosen to own an adjacent monitoring capability (Market & Traction).
+**Strategic acquisition** is the strongest path. A power-equipment manufacturer or monitoring vendor could buy Talos to add external-sensor diagnostics across equipment types and sell that capability through its installed-base channel. The memo records Siemens Energy’s announced agreement to acquire Camlin Energy at an undisclosed price. That establishes a precedent for buying a monitoring business. Talos’s company-described retrofit system could add coverage beyond oil-based transformer monitoring. The buyer benefit would come from incremental monitoring gross profit and avoided development time. The memo provides no basis to quantify either. (*The Idea*, *Market & Traction*)
 
-Talos reports deployments on 40+ assets and partnerships with utilities, plant owners, and national laboratories. The memo leaves payment terms, detection sensitivity, false-alarm rates, and warning lead times unresolved. The ownership case is an inference. If Talos can show that its alerts catch faults conventional monitoring misses, a buyer could gain an advantage from exclusive control of the models and a reusable library of confirmed faults. The deployments give Talos a base for a paid, multi-site utility test. The capital and runway to complete that test, ownership of the relevant IP, and the transferability of data rights remain unverified (The Idea, Defensibility, Market & Traction, Key Risks).
+Talos reports deployments across 40+ assets, up from an earlier report of 25+, and partnerships with utilities, plant owners, and national laboratories. A paid fleet rollout that documents confirmed fault detections, warning lead times, and false-alarm rates would give a buyer a way to value that coverage. The reported deployments make a field test plausible at this stage. Pilot economics, rollout costs, and funding are unverified. The memo also leaves IP ownership, data reuse rights, and contract transferability open. It provides no usable support for a sponsor buyout, eligible secondary, public resale, or company-funded payout. (*Market & Traction*, *Defensibility*, *Key Risks*, *Key Facts*)
 
-The memo supplies no usable sale-price evidence, investment terms, or shareholder waterfall. The proceeds bridge uses the thesis’s illustrative $500,000 check at a $10 million post-money valuation, diluted from 5% to 3%, with no follow-on. The eight-year 5× objective requires $2.5 million in holder cash, or about $83.3 million in distributable equity proceeds at 3%. The hurdle is $125 million at 2% and $62.5 million at 4%. Both sale scenarios assume zero net debt and zero other price adjustments, so enterprise value equals equity consideration. They assume simple pro rata allocation and all cash at close, with zero stock, escrow, earnout, rollover, or separate compensation. The prices are scenario assumptions.
+**Proceeds bridge.** Actual investor terms are unavailable. The illustrative $500,000 check at a $10 million post-money valuation starts at 5% ownership and falls to 3% after 40% relative dilution, with no follow-ons. The eight-year 5× target is $2.5 million gross, requiring $83.3 million of distributable equity at 3% ownership, $125 million at 2%, or $62.5 million at 4%. With illustrative net debt of $5 million, the 3% hurdle is $88.3 million of enterprise value. At year eight, a $25 million sale would deliver $600,000 gross (1.2×), and a $100 million sale would deliver $2.85 million gross (5.7×). Both assume pro rata cash distribution before investor taxes. Company-specific debt, fees, and senior claims are unquantified. The Camlin announcement supplies no price benchmark, and the memo supplies no Talos-specific economics that support either sale price. (*Market & Traction*, *Key Facts*)
 
-| Scenario | Timing | Enterprise value and distributable equity | Holder cash | Gross multiple |
-|---|---|---:|---:|---:|
-| Modest sale | Year 5 | $40 million | $1.2 million | 2.4× |
-| Strong sale | Year 7 | $100 million | $3.0 million | 6.0× |
-| Prolonged private | Through year 8 | No sale | $0 | 0× |
-
-The strong sale falls to $2 million, or 4.0×, at 2% ownership. In the prolonged-private scenario, fleet adoption plateaus, buyers stay away, public-market scale remains out of reach, and Talos reinvests available cash. The investor retains the shares. The memo supplies no independently supported fallback that pays this holder (Market & Traction, Key Facts).
+If deployments plateau before paid fleet adoption, strategic buyers stay away, public scale remains out of reach, and Talos reinvests all available cash, the holder realizes $0 over eight years and retains the shares. A wind-down would pay only the residual after obligations and preferences, which the memo leaves unquantifiable. (*Key Risks*, *Key Facts*)
 
 ### Countercase
 
-Incumbents already sell continuous transformer monitoring and could add external sensor inputs. A buyer could also license Talos if a contract delivers the same operating benefit. Either alternative could cap the acquisition price below the proceeds hurdle, especially while Talos’s incremental detection value and data rights remain unverified. The memo supports that risk but leaves open whether those substitutes can match Talos in the field or cap what a buyer would pay. The Pass override does not apply (The Idea, Defensibility, Key Risks).
+GE Vernova and Camlin already sell continuous transformer monitoring. An incumbent could add external sensor inputs to its own platform or license Talos’s system. Siemens Energy’s Camlin agreement therefore cuts both ways. It shows willingness to buy monitoring assets and gives Siemens a platform it could extend. Without confirmed incremental fault detection, documented fleet economics, and transferable rights to the data that improves diagnosis, the case for paying an acquisition premium is weak. The memo establishes neither a structural block nor a ceiling on holder proceeds, so the Pass gate does not trigger. (*The Idea*, *Defensibility*, *Market & Traction*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 14/30 |
+| Counterparty rationale or source of cash | 16/30 |
 | Plausible investor proceeds | 8/30 |
 | Milestones and capital needed | 10/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 39/100** (Pass)
+**Total Score: 41/100** (Pass)
 
 ### Decisive diligence question
 
-Would an equipment manufacturer’s build-versus-buy assessment, grounded in a paid multi-site utility deployment, support owning Talos at a price that clears the holder’s proceeds hurdle? Customer-verified faults caught ahead of existing monitors, actionable warning lead times, and an acceptable false-alarm rate would give a buyer evidence to quantify the benefit. Move to **Reach out** if that assessment shows why owning the transferable models and data is worth about $83.3 million in distributable equity at 3% ownership. If it establishes that building or licensing delivers the same benefit and caps the price below the hurdle, move to **Pass**.
+Can a paid utility fleet rollout show that owning Talos is worth enough to a strategic buyer to clear the modeled proceeds hurdle? Utility-verified detection results and rollout economics would need to support a buyer-side valuation near or above $88.3 million under the illustrative 3% ownership and $5 million net debt assumptions, with transferable product and data rights. That would move the action to Reach out. A rollout that validates customer value but leaves the ownership premium unsupported would keep it at Watch. (*Defensibility*, *Market & Traction*, *Key Risks*)

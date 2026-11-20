@@ -5,26 +5,26 @@
 
 ### Company case
 
-**Path B — Repeatable sales with account expansion.** Definite describes a recurring job for manufacturing controllers who rebuild mappings between site-level operating data and entity-level financial records. The company describes founder-led demos, outbound email and LinkedIn outreach, and implementations scoped to one workflow. If outbound can repeatedly win a paid deployment for monthly close, the shared data model and approved mappings could give the same controller a reason to add planning or billing with less setup. Paid activation and expansion remain unverified. (*The Idea*, *Key Facts*)
+Definite’s strongest path is repeatable direct sales. A plausible first buyer is a manufacturing controller who reconciles site-level operating data with entity- and account-level financial records each month. Definite describes a read-only data model that proposes mappings, applies deterministic rules, and traces results to source records. The same reconciliation job could recur across markets, though connector availability and customer-specific accounting definitions leave rollout effort uncertain. The memo records the September shift to the current finance platform. Definite’s reported US and Canadian bank deployments were for its earlier regulatory-reporting product. (The Idea, Key Risks, Market & Traction)
 
-The memo documents Definite’s shift to the broader finance platform by September 2026. Definite’s claim of live US and Canadian bank deployments concerns its earlier regulatory-reporting product. For the current product, a Canadian manufacturing rollout would test whether the same buyer and workflow carry over, with changes limited to connectors, entity and account mappings, and any local reporting rules the workflow requires. The announced Toronto roadshow booth signals outreach, while comparable buyer demand and willingness to pay remain unverified. (*Market & Traction*, *Key Facts*, *Key Risks*)
+Definite describes outbound email and LinkedIn outreach and offers founder-led demos scoped to one workflow. In a scenario where a controller pays to use Definite for monthly close, the existing mappings and review history could make it easier to add planning for that account. The memo gives no current-platform buyer commitment, outbound-to-paid rollout, repeat usage, or paid expansion. The first unresolved link is whether outbound can produce a paid deployment that someone other than a founder can repeat. (The Idea, Defensibility, Market & Traction, Key Facts)
 
 ### Countercase
 
-Each new customer could require founder-led scoping, connector work, and manual validation of customer-specific mappings. Each additional workflow could bring another round of rule configuration and review. Those costs could absorb the revenue from account expansion even if controllers value the product. The memo identifies these risks but provides no measured rollout or support effort, so the structural Pass gate is unproven. (*The Idea*, *Key Risks*, *Key Facts*)
+Each sale could require fresh connector work, customer-specific mappings, and ongoing human review. A mapping error can carry through a deterministic calculation, so review effort could persist after go-live. The memo reports no implementation hours, support costs, or contract pricing to assess contribution on the next account. The structural downside gate does not apply because the memo has no rollout evidence showing that delivery costs rise in proportion to revenue with no credible path to improvement. (The Idea, Key Risks, Key Facts)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 9/25 |
+| Global buyer demand | 14/25 |
 | Repeatable acquisition and onboarding | 9/25 |
 | Retention and customer expansion | 7/20 |
 | Contribution as volume grows | 7/20 |
 | Evidence of fit in the first buyer segment | 4/10 |
 
-**Total Score: 36/100** (Pass)
+**Total Score: 41/100** (Pass)
 
 ### Decisive diligence question
 
-Can Definite win a paying Canadian manufacturer through its stated outbound channel and get its controller through two monthly closes using essentially the same setup as a comparable paid US deployment? Invoices, close-run records, and implementation hours showing reuse of connectors and rules with limited custom work would move the action to Reach out. An unresolved test keeps it at Watch. Evidence that each deployment requires a bespoke rebuild with effort rising in proportion to revenue and no supported path to reuse would move it to Pass.
+Can two independent manufacturing controllers acquired through the same outbound motion pay for Definite and use it through consecutive monthly closes, with a non-founder running the second rollout from the same playbook? Move to Reach out if rollout records show reusable mappings and bounded implementation and review hours at the contracted price. Move to Pass if both deployments show that paid use requires recurring bespoke work that rises in proportion to account revenue, with no demonstrated way to reduce it.

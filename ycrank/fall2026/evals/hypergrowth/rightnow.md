@@ -5,26 +5,26 @@
 
 ### Company case
 
-**Path A: Product-led adoption.** The first buyer is an engineering team running recurring open-weight inference and looking to reduce GPU cost, latency, and tuning work. RightNow offers self-serve API keys, familiar API interfaces, and pay-as-you-go pricing. If a team sees a cost or latency gain on its own traffic, it can route more requests or move another workload to the same endpoint, growing paid token volume. The October hosted-model launch drew 119 votes, and existing keys and balances carried over from RunInfra. RightNow reports kernel-tool use at NVIDIA and Modal. The memo gives no evidence of paid production activation or repeat usage for the hosted API. *(The Idea, Market & Traction, Key Facts)*
+Usage-based expansion is RightNow’s strongest path. Engineering teams already serving open-weight models could move one recurring inference workload to RightNow’s hosted API, then route more production traffic or add workloads if it lowers serving costs or latency. OpenAI- and Anthropic-compatible endpoints, self-serve keys, and per-token billing make that first move plausible across markets for teams that can use shared hosting. Buyer geography and market-specific deployment requirements remain unverified. (The Idea, Key Risks)
 
-**Cross-market scenario.** Assuming the same engineering buyer can use the shared endpoint from a second geography, the API integration could carry over. Payment acceptance, production latency, and any data-handling requirements remain untested. At the next workload, paid token revenue must cover incremental GPU rental, any tuning and support, and the cost of serving credit-funded traffic. Batch processing on idle GPUs could improve utilization, while traffic spikes could require another block of rented capacity. The memo gives list prices and describes the batch feature, with no measured contribution per workload. *(The Idea, Key Risks, Key Facts)*
+The memo documents a hosted API launch and a migration that carried existing keys and balances forward. RightNow also reports kernel-tool use at several named companies. Hosted buyer commitment, conversion from startup credits to paid production use, and expansion at the workload’s normal cadence remain unverified. Even assuming strong fit with the first buyer segment, the first link at risk is whether independent teams can move a production workload onto the standard service and keep paying for it with limited hands-on help. (Market & Traction, The Idea, Key Facts)
 
 ### Countercase
 
-Published performance gains may fade on a buyer’s traffic because prompts, cache reuse, and concurrency vary. If each new workload needs hands-on benchmarking and tuning, and peak demand adds GPU rental roughly in step with usage, self-serve signup could still lead to a labor- and capacity-intensive business. RightNow’s workload-specific benchmark offer and rented GPU capacity make that risk concrete. The memo contains no operating data establishing proportional costs or a structural ceiling on global demand, so the Pass gate stays open pending a paid production test. *(The Idea, Key Risks)*
+The workloads most likely to benefit from RightNow’s tuning may also be the hardest to onboard profitably. The company offers workload-specific benchmarking and migration, and the memo flags that prompt mix, cache reuse, and concurrency can change cost and latency. Batch processing on idle capacity offers a plausible efficiency gain, but the memo gives no marginal GPU or support costs at higher utilization. The structural downside gate remains untriggered because proportional delivery costs are a plausible risk with no observed deployment pattern establishing them. (The Idea, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 9/25 |
+| Global buyer demand | 16/25 |
 | Repeatable acquisition and onboarding | 9/25 |
 | Retention and customer expansion | 7/20 |
 | Contribution as volume grows | 7/20 |
 | Evidence of fit in the first buyer segment | 4/10 |
 
-**Total Score: 36/100** (Pass)
+**Total Score: 43/100** (Pass)
 
 ### Decisive diligence question
 
-Can one independent engineering team in a second geography activate a recurring production workload through the shared API, keep paying after any credits expire, and generate positive incremental contribution without bespoke tuning? Usage and billing records over the buyer’s normal workload cycle, paired with GPU costs and onboarding and support time, would answer it. One success would move the action to Reach out.
+Can several independent engineering teams move an existing production workload through the standard API and sustain or grow paid token use after any credits expire, while generating positive incremental contribution? Move to Reach out if workload records show that pattern at the teams’ normal usage cadence, with paid revenue covering incremental GPU, onboarding, and support costs. Move to Pass if repeated deployments show that serving more traffic requires bespoke work or GPU spending that absorbs the added revenue, with no demonstrated way to reduce those costs.

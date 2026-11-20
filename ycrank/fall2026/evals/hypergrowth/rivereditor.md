@@ -5,26 +5,26 @@
 
 ### Company case
 
-**Path A, product-led adoption.** The strongest initial buyer is a consulting team that regularly turns material from many files into client reports. River offers self-serve web and desktop access, tools and templates for discovery, and an agent that makes reviewable edits across files. In a plausible growth scenario, a consultant finds River through a template, gets a useful edit on a live report, and pays for AI usage as the team brings more projects or colleagues into the workspace. The same workflow could travel to another market if teams can use the existing integrations and accept River’s handling of client data. The memo provides no evidence of a second-market test. (The Idea, Key Risks)
+Product-led adoption is River’s strongest path. The memo documents self-serve web and desktop access, web tools and templates, an editor that makes reviewable changes across related files, and paid AI usage and subscriptions. The clearest initial buyer is a consultant who repeatedly turns many source files into client reports. Assuming consultants in a second market can use the same editors and connectors under their client-data rules, the workflow could travel with limited adaptation. Paid adoption across markets remains unverified. (The Idea, Key Risks)
 
-River reports 100,000+ creators, and its desktop launch reported 200,000+ files created. Those figures suggest trial activity. The memo gives no channel-to-paid conversion, buyer-segment breakdown, or evidence that teams return for their next project. River’s published subscriptions and overage pricing provide a way to charge for heavier use. Each additional workload can add model inference costs, and each new team could add onboarding and support costs. The memo gives no measurements of those costs or realized revenue. (Market & Traction, The Idea)
+River claims more than 100,000 creators. Its desktop launch also reported 50,000 beta users and 200,000 files created. Those counts indicate early activity. The first unresolved link is whether independent consultants can discover River, complete a client report unaided, and convert to paid use. At River’s stage, a small cohort tracked through that workflow could justify outreach. The memo provides too little evidence on that journey, repeat paid use, marginal costs, or concrete buyer commitment to move those dimensions off their defaults. (The Idea, Market & Traction)
 
 ### Countercase
 
-Consulting teams may try River and keep recurring client work in Microsoft 365, where Copilot already offers cross-file editing under existing tenant controls. River sends relevant work content to external providers and acknowledges that its agent can be misdirected by content it reads. If each new team needs hands-on security review, setup, or troubleshooting, self-serve discovery could still lead to labor-intensive onboarding. The memo establishes credible adoption risks. The structural Pass gate would require observed evidence of a ceiling on demand or proportional costs without a supported path to improvement. (Key Risks, Market & Traction)
+Consultants could try River on low-stakes files, then return to Microsoft 365 for recurring client work. Microsoft offers cross-file editing under existing tenant controls, while River sends relevant content to external model providers. That gives consultants handling sensitive files a concrete reason to stay with their existing suite. The memo leaves the effect on buyer behavior unresolved, so the structural downside gate does not apply. (Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 9/25 |
+| Global buyer demand | 15/25 |
 | Repeatable acquisition and onboarding | 9/25 |
 | Retention and customer expansion | 7/20 |
 | Contribution as volume grows | 7/20 |
 | Evidence of fit in the first buyer segment | 4/10 |
 
-**Total Score: 36/100** (Pass)
+**Total Score: 42/100** (Pass)
 
 ### Decisive diligence question
 
-Can a cohort of independent consulting teams in a second geography sign up, get a client report done without founder help, and return for their next reporting cycle as paying customers? Cohort records linking self-serve signup, completed report work, and payment across two reporting cycles would move the action to **Reach out**.
+Can independent consultants who discover River through its web tools or templates complete a first client report without founder help and return for a second report using paid AI at their normal reporting cadence? Account-level records showing that sequence across several independent buyers would move the action to Reach out.

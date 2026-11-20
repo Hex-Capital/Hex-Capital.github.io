@@ -5,28 +5,28 @@
 
 ### Company case
 
-**Path A — Scarce complements.** The strongest candidate bottleneck is the engineering capacity to verify and fix security issues in production agents at regulated companies. The memo cites an industry finding that roughly two-thirds of high-risk AI findings remain unresolved. That establishes a backlog, while its cause remains uncertain. Armorer says it tests proposed fixes against existing workflows before engineers approve them. If cheaper intelligence puts more agents into production, and those checks reduce engineer time per verified fix, Armorer could expand the remediation capacity available to regulated security teams. The memo gives no production measurement of that gain. (*The Idea*, *Key Risks*)
+**Path B — New Economies.** Armorer could make continuous security verification economical for regulated teams that currently rely on findings and remediation tickets. Armorer says it tests proposed fixes against existing workflows before engineers approve them. If that reduces investigation and rework enough, a team that previously deferred continuous verification could afford to run it routinely. The memo provides no before-and-after labor measurements or example of a buyer adding that cadence because costs fell. (The Idea)
 
-Armorer reports 98% accuracy at 1.9 ms median latency in a 50-document comparison. That is a narrow runtime performance signal. The memo also records a completed SOC 2 Type 1, an early qualification signal. Durable control remains hypothetical. Customer-specific regression tests and approval histories could make Armorer costly to replace if buyers rely on that accumulated evidence for production approvals. (*Defensibility*, *Key Facts*)
+Under cheap, widely available frontier models, a buyer might still pay Armorer to maintain customer-specific regression tests and approval histories. That switching cost is an inference. Armorer reports 98% accuracy at 1.9 ms median latency in a 50-document comparison, an early performance signal with uncertain transfer to production. The clearest demand evidence is a Just Eat Takeaway engineering director crediting Armorer with resolving a security problem. Payment, repeat use, and demand from buyers newly able to afford continuous verification remain unestablished. (Defensibility; Market & Traction; Key Facts)
 
-A Just Eat Takeaway engineering director credited Armorer with resolving a security problem. SnapLogic discussions show exploratory interest, and payment and repeat use remain unknown. The founders’ prior AWS security work and Armorer’s published tooling and enterprise launch support a plausible U.S. seed case, with regulated production rollout still to prove. Under an assumed annual enterprise contract, contribution per deployment would depend on contract value after runtime compute, onboarding, and ongoing support. The reported CPU-based guard offers a plausible route to low runtime cost, while customer-hosted deployments could add integration work. Pricing and marginal delivery costs are unmeasured. (*Market & Traction*, *Founders & Team*, *The Idea*, *Key Risks*, *Key Facts*)
+The founders’ AWS security work and Armorer’s published control plane and enterprise launch show relevant execution at seed. Each additional agent workflow is a plausible unit of expansion. The CPU-based runtime guard addresses one part of delivery cost. The full cost per successful verification still depends on setup, engineer review, retries, exceptions, and ongoing maintenance, including for customer-hosted deployments. The memo provides no measured cost per successful outcome. (Founders & Team; Market & Traction; The Idea; Key Risks)
 
 ### Countercase
 
-With abundant capital and equivalent models, a funded security vendor could bundle workflow-tested fixes with the controls a buyer already purchases. The memo identifies existing open-source runtime enforcement and overlapping commercial suites. The company-run benchmark does not establish an advantage on real remediation workloads, and buyer switching behavior is unknown. Path A’s control gate remains open because the alternatives establish substitution risk without demonstrating equivalence across the full workflow. Path B also lacks affirmative evidence that labor savings unlock a previously uneconomic buyer or verification cadence, or that buyers would pay Armorer under functional parity. (*The Idea*, *Defensibility*, *Market & Traction*, *Key Risks*)
+Armorer may help existing security teams close tickets faster while leaving continuous verification too expensive for teams that currently defer it. Open-source runtime enforcement and Check Point’s bundled controls also give buyers credible alternatives. The memo has no production comparison showing that buyers can preserve the full verification and remediation outcome with those alternatives. Both Path B gates remain open, with a specific test available. (The Idea; Defensibility; Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 11/25 |
+| Path-specific thesis fit | 10/25 |
 | Durable value capture | 7/25 |
 | Customer demand | 8/20 |
 | Team and execution | 10/15 |
 | Scale economics | 5/15 |
 
-**Total Score: 41/100** (Pass)
+**Total Score: 40/100** (Pass)
 
 ### Decisive diligence question
 
-Will a regulated buyer commit to a paid production rollout after a side-by-side pilot against its best available alternative using comparably capable models? The pilot should show more verified fixes per engineer-hour at equivalent safety and regression quality, counting reviews, retries, and exceptions. The buyer’s rollout decision should identify what it would lose by switching, such as qualification evidence it would have to rebuild. A pass on both tests with a paid commitment would support **Reach out** if the resulting evidence lifts the score to at least 65 with medium or high confidence. Equivalent performance and a buyer decision to use the alternative would support **Pass**.
+Will an independent regulated buyer that previously deferred continuous verification pay to expand Armorer to a second production workflow after comparing it with a credible alternative using equivalent models? Move to **Reach out** if the trial shows that full delivery cost, including review and exceptions, falls enough to support the new cadence and the buyer pays a viable price for an Armorer-specific advantage. Move to **Pass** if a representative trial shows that the cadence remains uneconomic or that the alternative preserves the outcome and eliminates the buyer’s reason to pay Armorer.

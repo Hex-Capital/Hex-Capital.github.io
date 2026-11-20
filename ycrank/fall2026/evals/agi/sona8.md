@@ -5,28 +5,26 @@
 
 ### Company case
 
-**Path B — New economies** is the strongest fit. Sona8 replaces some manual employee interviews with adaptive voice interviews and task demonstrations, then turns the results into workflow maps. The seed-stage hypothesis is that a transformation team could map a site it previously skipped or refresh a map between consulting engagements. That requires lower human labor per usable map at comparable accuracy, including employee time, review, retries, and validation of rare exceptions. The memo establishes a plausible mechanism and leaves the labor savings and newly viable use unmeasured. (The Idea; Market & Traction; Key Risks)
+Path B — New Economies is the strongest path. Transformation teams typically sample stakeholder interviews and rely on existing documentation, which can miss site-specific workarounds. Sona8 uses adaptive interviews and employee demonstrations to build workflow maps. The investment case assumes that manual interview and synthesis costs put recurring site-level mapping out of reach. If Sona8 lowers the cost per validated map enough, teams could pay to refresh maps after each rollout. The relevant comparison includes interviewer and analyst time in the former model, and model usage, employee follow-up, review, retries, and exception verification with Sona8. Its proposed platform and usage fees give it a way to charge for repeat work. The cost and contribution per validated refresh remain unmeasured in the memo. (The Idea, Key Risks)
 
-A named customer, s.Oliver, describes using Sona8 to map processes and identify differences in planning requirements. Sona8 reports a signed consultancy and more than 10,000 interviews. These are early demand signals, with payment terms, repeat purchasing, and demand from previously excluded buyers still unknown. The founders have relevant transformation and enterprise AI experience, and the October-to-November launches show they added task capture after launching voice interviews. (Market & Traction; Founders & Team)
-
-An additional site or recurring refresh is a plausible unit of expansion. Its contribution would depend on the platform and usage revenue attributable to that work after inference, telephony, onboarding, support, and quality review. The memo describes the pricing structure and leaves those economics unmeasured. (The Idea; Key Facts)
+The s.Oliver testimonial describes actual use to identify differences in teams’ planning requirements. Sona8 separately reports a signed consulting firm using the product on client engagements. These are meaningful seed-stage demand signals for process mapping. Paid repeat use for previously skipped work remains unverified. The founders bring experience conducting manual transformation interviews and building enterprise AI software. The October interview launch and November task-capture launch show current delivery progress. (Market & Traction, Founders & Team)
 
 ### Countercase
 
-Sona8 may make existing consulting work faster while leaving the same sites and projects economically reachable. Low employee participation or manual follow-up on missed exceptions could absorb the savings. With cheap frontier models, buyers could switch to another interview-to-map product. The memo identifies overlapping workflow mapping and MCP access at kawaru.ai. A history of site-specific changes could give buyers a reason to stay, but the memo offers no evidence that customers rely on that history enough to keep paying at parity. The overlap leaves substitution credible and unproven. Both Path B conditions remain open, which keeps outreach gated. Path A has no separate evidence that Sona8 controls access to employee knowledge. (The Idea; Defensibility; Key Risks)
+Sona8 could make existing consulting projects more efficient while leaving recurring site-level mapping uneconomical. Limited employee participation and manual verification of rare exceptions could absorb the labor savings. Under cheap, equivalent models, kawaru.ai’s advertised interview-generated maps and MCP access provide a credible alternative. Accumulated workflow history could favor Sona8 if customers rely on it across projects and find it costly to recreate. Customer-specific data restrictions limit reuse across buyers, and buyer preference under functional parity remains untested. The evidence leaves both required conditions open. (Key Risks, Defensibility)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 10/25 |
-| Durable value capture | 5/25 |
-| Customer demand | 10/20 |
+| Path-specific thesis fit | 11/25 |
+| Durable value capture | 7/25 |
+| Customer demand | 11/20 |
 | Team and execution | 10/15 |
-| Scale economics | 4/15 |
+| Scale economics | 5/15 |
 
-**Total Score: 39/100** (Pass)
+**Total Score: 44/100** (Pass)
 
 ### Decisive diligence question
 
-Will a transformation buyer pay for a second Sona8 refresh at a site it previously left unmapped on cost grounds when it can choose a model-equivalent alternative? A seed-stage trial would compare fully loaded labor against manual delivery at matched map quality, including rare exceptions, then give the buyer a priced choice against the alternative. A paid repeat at viable contribution, with the buyer choosing Sona8 for its accumulated workflow history, would support rescoring for Reach out if the score and confidence gates clear. A representative trial showing that review erases the savings or that buyers readily switch at parity would move the case to Pass.
+Will an enterprise team that previously skipped site-level refreshes because of cost place a paid repeat order with Sona8 after testing a functionally equivalent alternative? Move to Reach out if a representative trial shows that Sona8 delivers maps the buyer validates at a lower full cost than manual delivery, earns positive contribution at the repeat price, and wins the order for a specific advantage the alternative could not reproduce. If the trial shows that full delivery costs still preclude repeat use or that the buyer readily switches and retains the same outcome, move to Pass.

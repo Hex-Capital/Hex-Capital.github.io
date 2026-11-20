@@ -5,28 +5,28 @@
 
 ### Company case
 
-**Path B — New economies** is Vyra’s strongest route. Its editable, reference-guided first cut could make regular short-form publishing viable for solopreneurs who currently skip it because each clip takes too much manual editing. The product automates parts of footage review and timeline assembly, and Vyra’s terms call for human review before publication. The market-opening scenario therefore depends on time saved per publishable clip after review, retries, corrections, and export at comparable quality. The memo gives no measured comparison. (The Idea; Key Risks)
+**Path B — New Economies.** Vyra could make weekly short-form video economical for solopreneurs who already have footage but publish sporadically because editing takes too much time. Vyra says manual editing can take hours per clip. Its product assembles an editable cut from raw footage and style references, which could reduce that labor. The relevant comparison is the full cost per publishable clip at the same quality, including time spent reviewing, retrying, and correcting edits. Vyra’s terms call for review before publication, and the memo gives no measured time savings after that review. (The Idea, Key Risks)
 
-The searchable footage library and reusable style references give repeat creators a reason to return that could persist when the same models are available elsewhere. That advantage depends on how much work buyers would actually lose or have to redo when switching. The memo provides no migration or retention evidence. The app’s 14 ratings and one customer’s report of more than 10,000 views per edited video are early use signals. Vyra’s reported 40 million edited-content views leave paid repeat use among newly served buyers unknown. (Defensibility; Market & Traction)
+In a scenario with four publishable clips per month, the entry plans contribute $6 per clip with an external assistant or $13.50 per clip with built-in AI, assuming the plan credits cover all four. Any incremental external assistant fees and the value of the creator’s time still count. For Vyra, the memo gives no usage or delivery cost data to show whether subscription revenue covers processing, storage, exports, and support as customers publish more often. (The Idea)
 
-San Francisco and the early rollout make Vyra a plausible seed-stage fit. The founders bring relevant creator, editing, and plugin experience and shipped hosted editing and export through external assistants. The expansion unit is a retained subscriber producing clips regularly. The $24 monthly entry plan with an external assistant gives a price point to test against rendering, storage, and support costs per subscriber. Built-in AI plans also need to cover inference. The memo gives no usage or cost data for that bridge. (Founders & Team; Market & Traction; The Idea)
+Under model parity, searchable footage and reusable style references could spare repeat users from rebuilding their workflow elsewhere. That is a plausible reason to stay, with no retention or migration data to substantiate it. The memo records 14 iPhone ratings and a customer testimonial about video views. Vyra also reports a creator count whose definition is unspecified. These signals leave paid repeat use by previously underserved buyers unresolved. At seed, the founders’ editing and plugin experience and the shipped hosted MCP workflow support their ability to run a representative test. (Defensibility, Market & Traction, Founders & Team)
 
 ### Countercase
 
-Vyra may help people who already edit publish faster while leaving occasional creators below the threshold for regular publishing. Review and corrections could consume much of the first-cut savings. Descript already supports assistant-driven editing, and Adobe has previewed agent control inside existing Premiere projects. With comparable models and ample capital, competitors could offer similar workflow features while letting users keep their existing libraries and projects. The memo establishes feature overlap and a review burden, while equivalent finished output, actual switching, and net labor savings remain unmeasured. Path B’s conditions remain open, so the evidence supports Watch. The memo identifies no separate bottleneck Vyra controls for Path A. (The Idea; Defensibility; Key Risks)
+Vyra may simply speed up editing for people who already publish regularly. Review and corrections could leave occasional creators below the threshold for weekly publishing. Even if the labor savings hold, Descript already offers MCP editing and OpusClip offers reusable recipes, so a rival with equivalent models could deliver much of the same workflow. The memo documents overlapping capabilities, while actual substitution and the effect on publishing cadence remain untested. Neither required condition is established, and the evidence does not close the path. (The Idea, Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 11/25 |
+| Path-specific thesis fit | 9/25 |
 | Durable value capture | 7/25 |
-| Customer demand | 8/20 |
+| Customer demand | 6/20 |
 | Team and execution | 10/15 |
 | Scale economics | 5/15 |
 
-**Total Score: 41/100** (Pass)
+**Total Score: 37/100** (Pass)
 
 ### Decisive diligence question
 
-Will solopreneurs who previously skipped regular short-form publishing repeatedly pay for Vyra when they can use an alternative with the same model capabilities? A seed-stage trial should compare their prior workflow, Vyra, and a competing editor on comparable clips. Measure total hands-on time through publication at equivalent quality, track repeat publishing, and let participants choose which product to pay for at viable prices once they have built up footage and style references. A material labor reduction that unlocks repeat publishing, paired with paid preference for Vyra under parity, would support Reach out if the updated score clears 65. A credible trial showing that the labor savings fail to unlock repeat publishing or that buyers readily switch at parity would trigger Pass.
+Can independent solopreneurs who previously skipped weekly video because of editing costs sustain that cadence and renew Vyra at its listed price after trying a functionally comparable editor with the same model quality? A paid trial through renewal should record costs and labor per published clip under the prior workflow and both products, including review, retries, and corrections. Move to **Reach out** if the savings enable weekly publishing and buyers renew because Vyra’s footage and style workflow saves them work under parity. Move to **Pass** if representative results show the savings fail to unlock the cadence or buyers readily switch while keeping the same outcome.

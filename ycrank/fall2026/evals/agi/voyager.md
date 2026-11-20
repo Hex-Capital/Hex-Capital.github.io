@@ -5,28 +5,26 @@
 
 ### Company case
 
-**Path B — New economies** is Voyager’s strongest path. Voyager says its desktop agent can turn a brief into media and edit project files in installed creative apps. One plausible seed-stage scenario is that a small marketing team could afford to produce a fresh batch of short videos every week if the agent took enough work out of moving assets between tools and making edits. That scenario depends on a reduction in human time per approved video at equivalent quality, including review, retries, and manual fixes. The memo establishes a specific workflow to test and leaves the savings and newly viable buying frequency unmeasured. (The Idea, Key Risks)
+**Path B — New Economies.** Voyager describes a desktop agent that turns a creative brief into generated media and executes edits in installed apps. The former workflow requires editors or marketers to coordinate separate tools for storyboarding, generation, sound, and editing. One creator reported completing the short *Nightcap* with Voyager, Meshy, and ElevenLabs, using 78 generations and spending $128.99 on generation across the workflow. The report leaves labor hours and the cost of producing a comparable short through the former workflow unknown. (The Idea, Market & Traction)
 
-A creator reported using Voyager alongside two other tools to finish *Nightcap*. That is one instance of real project use. The memo establishes neither repeat use nor payment to Voyager. The founders previously shipped Moda’s editable AI design canvas, and Parikh authored Voyager’s technical release for `vork`. That track record supports the team’s ability to ship creative tooling, while reliability across app versions and permissions remains a deployment question. (Market & Traction, Key Facts, Founders & Team, Key Risks)
-
-The natural expansion unit is a recurring production team. At the listed $19 starting paid tier, monthly contribution per account would be subscription and top-up revenue less generation costs Voyager bears, support, and other variable delivery costs. The *Nightcap* creator reported 78 generations and $128.99 in generation spend across the workflow. The spend shows why generation volume matters, while its allocation across providers and Voyager’s cost to serve the account remain unknown. (The Idea, Market & Traction)
+**Scenario assumption.** A small marketing team that previously skipped weekly video variants because of editing costs could begin producing them if Voyager reduces the full cost per approved video enough to fit its budget. The comparison must hold quality constant and include generation, retries, human review, manual fixes, and final delivery. With equally capable models available to rivals, the reason to pay Voyager would have to come from reliable execution across the team’s installed apps and reusable project settings that save work on each production. The memo gives a plausible mechanism for both conditions, with repeat paid use and buyer preference under parity still unproven. (The Idea, Defensibility, Market & Traction, Key Risks, Key Facts)
 
 ### Countercase
 
-Cheaper intelligence could make Voyager a convenience for existing editors while making it easier for rivals to offer similar automation. Adobe already offers an overlapping workflow inside Firefly, and Runway and Krea offer agent connectors. Voyager reports support for more than 100 creative tools. Reusable skills and project preferences could give repeat buyers a reason to stay, but the memo contains no retention or paid preference evidence under functional parity. The overlap makes substitution credible without establishing equivalent outcomes or easy switching. Path B remains open and falls short of the outreach gate on both necessary conditions. Path A has no separately evidenced bottleneck that Voyager controls. (The Idea, Defensibility, Key Risks)
+Voyager may make existing editors faster while leaving previously excluded buyers unable to afford finished video. App versions and permissions affect which controls work, and review for confidential footage can add human effort. Adobe’s native agent and overlapping workflows from Higgsfield, Runway, and Krea give buyers credible alternatives. Voyager’s reported integration breadth and saved skills give it a way to compete, with no evidence yet that buyers pay to keep those advantages when a rival can deliver equivalent work. Neither required condition has cleared the gate. The memo documents overlap and execution friction, so a direct comparison can still resolve the case. (The Idea, Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 9/25 |
-| Durable value capture | 7/25 |
+| Path-specific thesis fit | 11/25 |
+| Durable value capture | 8/25 |
 | Customer demand | 6/20 |
-| Team and execution | 9/15 |
-| Scale economics | 6/15 |
+| Team and execution | 10/15 |
+| Scale economics | 5/15 |
 
-**Total Score: 37/100** (Pass)
+**Total Score: 40/100** (Pass)
 
 ### Decisive diligence question
 
-Will small marketing teams that previously could not afford weekly video production pay to repeat it with Voyager when an alternative has access to the same models and can deliver equivalent finished work? A matched trial over several production cycles should record human time and total cost per approved video, then give teams a real choice of which workflow to pay for on their next cycle. A material labor reduction that enables weekly production, followed by repeat purchases at a price that covers variable delivery costs despite the parity option, would support **Reach out** if the updated score and confidence clear the outreach gate. If the labor savings fail to open that buying frequency or buyers readily switch at parity, **Pass**.
+Will independent small marketing teams that previously skipped weekly video variants pay for and repeat that cadence with Voyager when a competing workflow uses equally capable models? A paid production trial should record the former workflow’s cost at the same acceptance standard, measure all labor and generation costs through approval, and give teams a comparable alternative. Move to Reach out if the fully loaded cost makes the new cadence affordable, teams repeatedly choose Voyager for its workflow execution, and the realized price covers Voyager’s variable delivery costs. Pass if the cadence remains uneconomic or teams can switch and preserve the same outcome at comparable cost and effort.

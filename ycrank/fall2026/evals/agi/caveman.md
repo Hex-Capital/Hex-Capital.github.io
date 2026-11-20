@@ -5,28 +5,26 @@
 
 ### Company case
 
-Path B, New Economies, is the strongest candidate. Caveman reports 21% lower list-price cost per solved task than Codex in a company-run benchmark where each solved 90 of 192 runs. That supports a potential reduction in model spend at the same aggregate solve count. In a plausible scenario, small engineering teams could run routine coding jobs they currently skip or ration. That scenario depends on Caveman lowering human delivery labor at comparable quality after counting review, retries, and exception handling. The memo does not establish that labor saving or identify newly served buyers. (Market & Traction, The Idea)
+**Path B — New Economies.** Caveman could make routine maintenance economical for small engineering teams that currently defer it because developer time and agent costs exceed the value of the work. That is a scenario assumption. In Caveman’s own benchmark, its harness cut list-price cost per solved task by 21% versus Codex, with each solving 90 of 192 runs. This supports a reduction in inference spend at the same aggregate solve rate. The market-opening test is whether total cost per accepted change, including developer review, retries, and fixes, falls below what those teams will repeatedly pay to clear work they previously deferred. The memo does not establish that threshold has been crossed. (The Idea, Market & Traction)
 
-Caveman’s proprietary harness and Cloud’s workload tests and rollout history give teams a possible reason to stay if models reach functional parity. The switching cost is an inference. The extension’s displayed 10,000 users show interest in an adjacent free product, while paid use and retention of Code or Cloud remain unknown. Brussee shipped the original tool, a proxy, Cloud, and Code in seven months. A representative customer trial is a reasonable seed-stage milestone for the solo founder. Amsterdam weakens the fit with the fund’s primarily U.S. focus. (Defensibility, Market & Traction, Key Facts, Founders & Team, Caveman)
-
-The expansion unit is one paying Cloud team. In a scenario where a team pays the listed $300 monthly price and stays within its allowance, monthly contribution is $300 less Caveman’s actual cost of redeemed usage, incremental replay and hosting, and variable support. The included usage is part of the subscription. The memo gives no measured contribution or reachable buyer count. (The Idea, Key Facts)
+With cheap, equivalent models available to rivals, Caveman’s reason to get paid would be its ability to catch regressions and safely roll back changes on a team’s own workloads. The proprietary harness and Cloud’s workload-specific tests provide a mechanism, but buyer preference under functional parity remains untested. The reported 10,000 users of the original Chrome extension show interest in the free tool. The solo founder’s progression from open-source prompt to local proxy, Cloud, and Code shows execution. A team processing recurring workloads is a plausible expansion unit, but Cloud’s $300 monthly plan includes $300 of usage, leaving contribution after inference, replay, storage, and support unproven. (The Idea, Defensibility, Market & Traction, Founders & Team, Key Risks)
 
 ### Countercase
 
-Caveman could make existing agent use cheaper while opening no new paid use. An independent test of the original skill found 8.5% fewer output tokens but a higher total bill after a run crossed a long-context pricing tier. That result exposes billing sensitivity, while the newer Code benchmark tests a different product. Edgee already offers context compression for existing agents. If cheap models or competing harnesses deliver equivalent outcomes, buyers have no demonstrated reason to keep paying Caveman. The memo identifies no separate Path A bottleneck that Caveman controls and no direct evidence that defeats either Path B condition. Both conditions remain open, which keeps the action at Watch. (Key Risks, Market & Traction, Defensibility)
+Caveman may lower an existing buyer’s agent bill without making any previously deferred work economical. In an independent test of the original skill, output tokens fell 8.5% while the total bill rose after one run crossed a long-context pricing tier. Edgee already offers context compression for existing agents, and cheaper inference would shrink the dollar value of a given token reduction. The billing result concerns the original skill, and Edgee’s overlap leaves functional parity untested. Neither observation closes Path B. The decisive evidence still comes from company-run benchmarks and indirect signals, so confidence is Low and the action is Watch. No scarce input under Caveman’s control supports Path A. (The Idea, Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 9/25 |
-| Durable value capture | 7/25 |
+| Path-specific thesis fit | 12/25 |
+| Durable value capture | 8/25 |
 | Customer demand | 6/20 |
 | Team and execution | 9/15 |
-| Scale economics | 5/15 |
+| Scale economics | 6/15 |
 
-**Total Score: 36/100** (Pass)
+**Total Score: 41/100** (Pass)
 
 ### Decisive diligence question
 
-Will teams that previously skipped a recurring coding task pay for Caveman and renew when an equally capable alternative is available? A paid pilot should document which tasks the teams previously skipped, measure human minutes and total cost per accepted task against the prior workflow, and offer a comparable alternative at renewal. Repeat use at viable pricing, lower human labor, and renewal under parity would support rescoring for Reach out if the score and mandate gates also clear. A representative trial showing that the work remains uneconomic or that buyers readily switch under parity would change the action to Pass.
+Will independent engineering teams pay Caveman again at a viable price to complete previously deferred maintenance when an alternative uses the same low-cost model? A paid repeat trial on that backlog would move the action to Reach out if Caveman brings full cost per accepted change below the buyers’ spending threshold and those buyers renew because its workload-specific checks or rollback deliver value they cannot get from the alternative. If full costs still leave the work uneconomical or buyers get the same outcome and switch, Pass.

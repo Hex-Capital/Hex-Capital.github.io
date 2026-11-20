@@ -5,36 +5,30 @@
 
 ### Company case
 
-Strategic acquisition is the strongest path. An inference provider could buy RightNow’s kernel-tuning and serving stack if owning it lowered GPU cost per token at a fixed latency target across enough production traffic to justify the purchase. The memo documents a kernel-profiling workflow and a live hosted API that migrated existing keys and balances from RunInfra. RightNow reports kernel-tool use at several large companies, with the depth of that use and any buyer interest unverified. The ownership advantage is an inference that depends on what the integrated stack can deliver beyond the public tooling. (The Idea, Defensibility, Market & Traction)
+Strategic acquisition is the strongest route. An inference provider such as Fireworks or DeepInfra could acquire RightNow’s hosted serving stack to lower GPU cost per request or increase throughput on existing capacity. The memo documents a live API and a workflow that tunes kernels alongside serving settings. RightNow reports kernel-tool use at NVIDIA, AMD, and Modal, with the scope and commercial terms unverified. The acquisition rationale is an inference. Ownership would make economic sense if RightNow’s integrated stack delivered savings across the buyer’s workloads that the buyer could earn only by acquiring the company. (The Idea, Defensibility, Market & Traction)
 
-The operating milestone is a paid production deployment showing repeatable GPU cost savings at equivalent latency on workloads representative of a potential buyer’s fleet. The live API and RightNow’s workload-benchmark offer provide a starting point. Rented GPUs, forthcoming reserved capacity, and undisclosed realized revenue, test budget, and runway leave the cost and timing of reaching that milestone uncertain. The memo also leaves ownership of the nonpublic code and assignment rights for customer contracts unverified. It supplies no independent evidence of a secondary, sponsor buyout, public resale, or company-funded payout that could deliver cash to this holder. (The Idea, Defensibility, Market & Traction, Key Risks, Key Facts)
+A repeatable production benchmark at matched output quality and tail latency is a plausible seed-stage milestone. RightNow already offers to benchmark customer workloads and has migrated its live API from RunInfra with keys and balances carried over. That shows progress toward running the test. Paid workload volume, GPU costs, and runway remain unknown, leaving the capital needed to validate the benefit at scale open. The memo gives no usable evidence on rights to transfer the hosted stack or customer contracts in a sale. (The Idea, Market & Traction, Key Risks, Key Facts)
 
-The illustrative seed case uses a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-on checks. A 5× gross cash return within eight years requires $2.5 million to the holder, or $83.3 million in distributable equity proceeds at 3%. The hurdle is $125 million at 2% ownership and $62.5 million at 4%. The memo supplies no usable sale-price or buyer-savings evidence, so the figures below are scenario assumptions. (Defensibility, Market & Traction, Key Facts)
+With investor terms undisclosed, assume a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted by 40% to 3%, and no follow-ons. The 5× target is $2.5 million in gross cash within eight years. Simple pro rata allocation before investor taxes requires $83.3 million of distributable equity at 3%, $125 million at 2%, or $62.5 million at 4%. Using $5 million of illustrative net debt, the 3% case needs about $88.3 million of enterprise value. A $25 million sale at year eight returns $600,000 gross (1.2×), and a $100 million sale returns $2.85 million gross (5.7×). The memo provides no usable evidence for a realizable sale price or for RightNow’s debt and preference terms. In a prolonged-private scenario, hosted API growth plateaus, buyers stay away, public scale remains out of reach, and available cash goes back into rented GPUs and kernel development. With no sale, listing, secondary, or payout, the holder realizes $0 and retains the shares. Wind-down proceeds are unquantifiable without evidence of residual assets after obligations and preferences. (Market & Traction, Key Risks, Key Facts)
 
-For both sale scenarios, assume zero net debt and zero other enterprise-to-equity adjustments, so enterprise value equals distributable equity consideration. Assume simple pro rata allocation with no preference adjustment, all cash at close, and $0 each in stock, escrow, earnouts, rollover, and compensation. Holder proceeds are before investor taxes.
-
-| Scenario | Timing | Gross cash to the holder on $500,000 invested |
-|---|---|---|
-| Modest sale at $40 million | Year 4 | $1.2 million (2.4×) |
-| Strong sale at $100 million | Year 7 | $3.0 million (6.0×) at 3% ownership, or $2.0 million (4.0×) at 2% |
-| Prolonged private hold with growth plateauing, buyers staying away, public scale out of reach, and cash reinvested | Through year 8 | $0 (0×), with shares still held |
+A sponsor buyout lacks evidence of predictable cash generation. A secondary lacks evidence of demand for eligible shares. An IPO lacks evidence of RightNow’s operating scale and a path to holder resale. Dividends or buybacks lack evidence of surplus cash and a commitment to distribute it. (The Idea, Market & Traction, Key Facts)
 
 ### Countercase
 
-A buyer could use Apache 2.0 AutoKernel, tune internally as Together already does, or buy inference through an API. Gains may also vary with prompts, cache reuse, and concurrency. If those substitutes capture enough of the savings, the incremental value of ownership could fall below the $83.3 million hurdle at 3%. The memo establishes credible substitutes but leaves their production performance and effect on price unresolved. That gap supports Watch. The evidence does not trigger the structural Pass override. (The Idea, Defensibility, Key Risks)
+Together already operates an inference compiler that targets similar efficiency gains, and Apache 2.0 gives potential buyers access to part of RightNow’s optimization workflow. Those documented alternatives bear more directly on the need to buy than reported tool adoption does. A buyer could use AutoKernel, build internally, or contract for serving. Workload-dependent performance could further reduce the value of owning the stack. This supports Watch. The memo leaves open whether those alternatives can match the integrated stack and whether a sale could clear the holder’s hurdle, so the Pass gate is untriggered. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 12/30 |
+| Counterparty rationale or source of cash | 13/30 |
 | Plausible investor proceeds | 8/30 |
 | Milestones and capital needed | 9/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 36/100** (Pass)
+**Total Score: 37/100** (Pass)
 
 ### Decisive diligence question
 
-How much would owning RightNow’s transferable serving stack save an inference provider at production scale compared with its best available substitute? A buyer-validated production benchmark, with matched latency and measured GPU cost per token, would support Reach out if the provider’s own traffic and integration costs imply an acquisition price that can clear the holder’s cash hurdle. Evidence that the best substitute consistently captures enough of the benefit to cap the price below that hurdle would move the action to Pass. (Defensibility, Key Risks)
+Can RightNow show, on a prospective acquirer’s representative production workloads, a repeatable cost advantage from owning its serving stack over the buyer’s best build or licensing option? A buyer-validated benchmark at matched quality and tail latency, with savings at credible volume that support a price range clearing the illustrative $88.3 million enterprise-value hurdle at 3% ownership, would move the action to Reach out. (The Idea, Defensibility, Key Risks)

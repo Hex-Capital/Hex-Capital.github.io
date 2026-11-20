@@ -5,28 +5,28 @@
 
 ### Company case
 
-**Path A — Scarce complements** is the strongest path. The potential bottleneck is the time vehicle builders and defense primes spend integrating and qualifying battery packs and power electronics. SPM says it designs both in-house and delivers them as one system. If cheaper intelligence accelerates vehicle development while physical integration and qualification remain slow, buyers could value a supplier that gets them to production faster. That is a scenario assumption. The memo provides no comparative lead times or qualification results. The 2028 restriction on specified foreign-source advanced batteries could increase demand for eligible suppliers. SPM’s U.S. location and pre-seed history make it a plausible seed-led fit. Path B lacks evidence of an automation-enabled transaction and a reason to pay SPM under model parity. (The Idea; Market & Traction; Key Risks)
+**Path A — Scarce complements.** If AI-enabled vehicle programs increase demand for integrated power systems, vehicle builders and primes that rely on separate pack and electronics suppliers could face longer development schedules. SPM says it designs both in-house. The investment case is that SPM could relieve that integration constraint and retain production orders if switching suppliers requires substantial requalification. The memo leaves both the AI-driven demand increase and the cost of switching unmeasured. (*The Idea*, *Defensibility*)
 
-SPM reports $421,815 in realized revenue in one month and separately describes more than $400,000 in contracted revenue in one month. The memo leaves the relationship between those figures, buyer concentration, and repeat orders unresolved. The $792,000 qualified pipeline, participation in four federal contracts, and bookings into February 2027 are additional company-reported signals with undisclosed terms. Powers’s prior high-voltage vehicle integration work is relevant to the seed-stage technical risk. Delivering qualified packs repeatedly at production volumes remains unverified. (Key Facts; Market & Traction; Founders & Team; Key Risks)
+SPM reports $421,815 in realized revenue in one month and separately describes more than $400,000 in contracted revenue in one month. The memo leaves the relationship between those figures unclear. Reported participation in four federal contracts and production bookings into February 2027 support early demand, while repeat orders from independent buyers for bottleneck relief remain unverified. Powers’ prior high-voltage vehicle integration work supports seed-stage execution credit. (*Key Facts*, *Market & Traction*, *Founders & Team*)
 
-The plausible expansion unit is a repeat fleet order on a qualified design. At viable pricing, repeat units would need to cover cells, assembly, testing, and warranty, while separately contracted engineering would need to recover customer-specific work. Pittsburgh capacity expansion would then depend on enough repeat volume to absorb fixed costs. The memo gives no unit margins, production throughput, or customer-level repeat volumes to test that bridge. (The Idea; Key Risks; Key Facts)
+The expansion unit is a fleet order for a qualified design. Separately contracted engineering could cover customization, while repeat unit pricing would need to cover sourced cells, assembly, and testing. Realized unit costs, production yields, and utilization remain unknown as SPM expands capacity. (*The Idea*, *Key Risks*)
 
 ### Countercase
 
-Inventus Power already offers complete military battery and power systems. With comparable engineering tools and ample capital, an incumbent could match SPM’s bundled offering. SPM reports a patented design method, but its scope is unknown. Customer-specific validation could create switching costs after qualification, while external cell sourcing and reliance on primes could leave suppliers and buyers with much of the bargaining power. This leaves the Path A control gate unmet. Whether an incumbent can match SPM’s performance and qualification timeline remains open, so the evidence supports Watch. (Defensibility; Market & Traction; Key Risks)
+Inventus Power already designs and manufactures complete military battery and power systems. SPM reports a patented pack-design method, but its scope and protection are unclear. Current sales could reflect ordinary procurement that established suppliers can serve. The memo documents product overlap and leaves equivalence on vehicle integration and delivery unresolved, so the path stays open on Watch. The memo offers no evidence of automation lowering delivered labor cost enough to open a new market under Path B. (*Defensibility*, *Market & Traction*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 12/25 |
+| Path-specific thesis fit | 8/25 |
 | Durable value capture | 8/25 |
-| Customer demand | 11/20 |
-| Team and execution | 9/15 |
+| Customer demand | 12/20 |
+| Team and execution | 7/15 |
 | Scale economics | 5/15 |
 
-**Total Score: 45/100** (Neutral)
+**Total Score: 40/100** (Pass)
 
 ### Decisive diligence question
 
-Can SPM show a paid repeat production order from an independent prime that qualified SPM’s system materially faster than its best available alternative? A buyer-documented comparison at equivalent requirements, evidence that switching would require meaningful requalification, and positive contribution on the repeat lot would support moving to Reach out if the updated score and confidence clear the outreach gates. If an incumbent can meet the same requirements on comparable timing and terms with little switching cost, move to Pass. (The Idea; Defensibility; Key Facts)
+Will an independent prime commit production budget for an AI-enabled fleet expansion after qualifying SPM against an incumbent? Move to Reach out if the buyer confirms that the expansion creates a binding integration constraint, the qualification shows that the incumbent cannot meet the same requirements on the needed schedule without substantial rework, and the order price covers repeat-build costs. An incumbent meeting the same requirements on comparable terms would close Path A and move the action to Pass.

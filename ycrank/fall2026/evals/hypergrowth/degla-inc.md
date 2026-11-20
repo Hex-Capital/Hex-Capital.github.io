@@ -5,26 +5,26 @@
 
 ### Company case
 
-**Path B — Repeatable sales with account expansion.** The clearest first buyer is a public-safety agency that repeatedly plans time-sensitive drone search missions. The memo records a live flight demonstration at REACH’s Chula Vista test site. Degla says its onboard system takes spoken objectives and uses camera input to plan and adapt flights locally. It markets two fixed-wing aircraft tiers and solicits pilot deployments through direct outreach and flight demos. Buyer commitment, paid activation, and recurring use remain unverified. (The Idea, Market & Traction, Key Facts)
+Repeatable direct sales to public-safety search-and-rescue teams is Degla’s strongest path. The memo records a live flight demonstration at REACH’s Chula Vista test site. Degla says its onboard software translates spoken objectives into flight plans and adapts them in flight. The recurring job of preparing time-sensitive searches plausibly carries across markets, with aircraft integration and local flight authorization still unresolved. (The Idea, Market & Traction, Defensibility, Key Risks)
 
-**Growth scenario.** If a paid pilot shows that the system reliably reduces mission-planning effort, Degla could reuse the demo-to-pilot process across agencies and expand accounts as buyers equip more aircraft. In a second geography, that path assumes the same core system can serve the same search workflow with manageable local flight authorization and validation. The memo gives a concrete launch-stage flight signal, while buyer demand abroad and the effort required to turn a demo into routine use remain untested. (The Idea, Market & Traction, Key Risks)
+If agencies find enough value to adopt Degla, scheduled demonstrations could lead to paid pilots, and agencies that use the product on recurring missions could add aircraft. That scenario assumes the same onboarding process works across agencies. The first unproven link is converting a demonstration into a live customer deployment through a process Degla can repeat. The memo documents pilot solicitation and a field demo, while buyer commitment, conversion to payment, repeat paid use, and incremental rollout costs remain unverified. (The Idea, Market & Traction, Key Facts)
 
 ### Countercase
 
-Each agency could require a separate sales effort, integration with its operating workflow, and field validation. Each added aircraft could bring hardware fulfillment and support costs. Entering another market could add authorization and local flight testing before the first paid mission. The memo identifies flight authorization and incumbent distribution as risks, and leaves mission reliability and incremental deployment costs unmeasured. Those gaps support Watch. The Pass gate would require evidence of a structural limit on demand or proportional scaling costs without a credible way to reduce them. (The Idea, Defensibility, Key Risks, Key Facts)
+Each agency could require custom aircraft integration, field validation, and flight authorization before it can use Degla on live missions. The demo leaves search reliability across field conditions open, and existing dispatch integrations and sales channels may favor installed vendors. If deployment work scales with each sale, strong fit at one agency could still yield slow, costly growth. The structural downside gate does not apply because the memo contains no customer rollouts showing that this work must recur in proportion to sales. (Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 9/25 |
+| Global buyer demand | 12/25 |
 | Repeatable acquisition and onboarding | 9/25 |
 | Retention and customer expansion | 7/20 |
 | Contribution as volume grows | 7/20 |
 | Evidence of fit in the first buyer segment | 4/10 |
 
-**Total Score: 36/100** (Pass)
+**Total Score: 39/100** (Pass)
 
 ### Decisive diligence question
 
-Can an independent public-safety agency outside the U.S. move from Degla’s advertised demo process to a paid pilot and use the same core system on recurring search missions? A completed pilot with mission records, measured planning time, and a breakdown of authorization, integration, flight-testing, and support effort would answer it. Reliable recurring use and manageable deployment effort would move the action to Reach out.
+Can an independent public-safety agency go from a scheduled demo to a paid pilot and run recurring search missions using a documented onboarding process? A paid pilot with agency-run missions, logged implementation and support hours, and a record of which steps can be reused would move Degla to Reach out if the agency-specific work is bounded.

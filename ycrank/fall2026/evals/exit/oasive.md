@@ -5,34 +5,36 @@
 
 ### Company case
 
-A **strategic acquisition** by a municipal credit-data or fixed-income workflow provider is the strongest path. The memo records a November municipal product launch and describes borrower pages that pair source-linked financials with timestamped meeting summaries. The founder reports coverage of more than 8,600 school districts across 43 states. An incumbent could pay to own the accumulated borrower history and the workflow that keeps it current if those assets save analysts measurable time and would take substantial time or money to reproduce. That ownership advantage remains an inference. The company-reported usage by 15 institutional desks concerns the earlier Macro & Rates and Agency MBS products. Paid municipal deployments with repeatable analyst time savings would strengthen the case. The launch makes that test feasible, while its cost, funding, and runway remain undisclosed. (The Idea, Defensibility, Market & Traction)
+Strategic acquisition is the strongest path. A municipal credit-data incumbent such as Investortools or DPC DATA could pay to own Oasive’s workflow for pairing audited borrower financials with timestamped meeting coverage. The buyer benefit would come from faster coverage expansion or higher customer retention. Ownership would make economic sense if integrating Oasive’s workflow and historical data produced more value than building the feature or licensing the feed. The memo describes the product and incumbent overlap. The buyer benefit is an inference, and the memo provides no measured benefit or buyer-backed price range. (The Idea, Defensibility, Market & Traction)
 
-Using the illustrative $500,000 check at a $10 million post-money valuation, with no follow-on checks and ownership diluted from 5% to 3%, the eight-year objective is $2.5 million in gross cash. That requires $83.3 million in distributable equity proceeds at 3% ownership, $125 million at 2%, or $62.5 million at 4%. The memo provides product pricing but no usable evidence of acquisition value or a separately supported fallback. (Key Facts, Market & Traction)
+A paid municipal production pilot could measure analyst time saved and material credit events surfaced against an incumbent workflow, while tracking the cost of maintaining accurate coverage. The founder reports coverage of more than 8,600 school districts across 43 states, which supports the ability to deploy coverage at scale. The company-reported 15 institutional desks used its earlier Macro & Rates and Agency MBS offerings. Municipal paid adoption, pilot funding, and runway remain unverified. The memo also provides no evidence of the cash generation needed for a buyout or payout, eligible demand for a secondary, or operating scale for a listing. (Market & Traction, The Idea, Key Facts)
 
-For the sale scenarios, assume enterprise value equals distributable equity consideration, with zero net debt or other price adjustments, simple pro rata allocation, and no preference or fee deductions. All consideration is cash at close. Stock, escrow, earnouts, rollover, and compensation are each assumed to be zero. These are sensitivity cases before investor taxes, with illustrative prices and dates.
+**Illustrative proceeds.** With investor terms unavailable, assume a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted by 40% to 3%, and no follow-ons. A 5× gross cash return within eight years requires $2.5 million to the holder. That means about $83.3 million in distributable equity at 3% ownership, $125 million at 2%, or $62.5 million at 4%. With $5 million of illustrative net debt, the 3% hurdle is about $88.3 million in enterprise value. The sale scenarios use simple pro rata allocation before investor taxes. Actual debt, fees, and senior claims are unknown. (Key Facts)
 
-| Scenario | Assumed outcome | Gross cash at 3% |
-|---|---|---|
-| Modest | $40 million sale in year 4 | $1.2 million (2.4×) |
-| Strong | $100 million sale in year 7 | $3 million (6×), falling to $2 million (4×) at 2% ownership |
-| Prolonged private | Growth plateaus, buyers stay away, public scale remains out of reach, and cash is reinvested through year 8 | $0 (0×), with shares still held |
+| Eight-year scenario | Gross cash to holder at 3% |
+|---|---:|
+| $25 million sale, less $5 million illustrative net debt | $600,000 (1.2×) |
+| $100 million sale, less $5 million illustrative net debt | $2.85 million (5.7×) |
+| Growth plateaus below public-market scale, buyer interest fails to emerge, and available cash is reinvested with no secondary or payout | $0, with shares retained |
+
+The sale prices are scenario assumptions. The strongest case has a plausible payer, but the memo supplies no usable evidence that a buyer would pay a price that clears the holder’s hurdle. (The Idea, Market & Traction, Key Facts)
 
 ### Countercase
 
-Incumbents already combine municipal financials with news monitoring and could add meeting summaries using commercially available models. A license could also give a buyer sufficient access at a fraction of an acquisition price. The asset’s durability is uncertain because providers can direct suspension of licensed-data access and Oasive deletes stored API data it cannot refresh within 30 days. These are material ownership and transfer risks. The memo leaves open whether substitutes would cap the price below the hurdle or whether the core asset could transfer with usable rights, so the structural Pass override does not apply. (Defensibility, Key Risks)
+Incumbents already combine municipal financials with news monitoring, and Oasive says it uses a commercially available Google model for meeting transcription. An incumbent could build or license the incremental feature. Even if it preferred to buy, Oasive’s terms allow licensed-data access to be suspended at a provider’s direction, and its policy requires deletion of stored API data that cannot be refreshed within 30 days. Those documented restrictions create a continuity risk for a buyer. Whether an acquisition could preserve the inputs it needs remains open. The evidence establishes neither a structural block nor a supported sale price that leaves the holder materially short, so the Pass gate does not apply. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 13/30 |
+| Counterparty rationale or source of cash | 12/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 10/20 |
+| Milestones and capital needed | 9/20 |
 | Transaction feasibility | 4/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 37/100** (Pass)
+**Total Score: 35/100** (Pass)
 
 ### Decisive diligence question
 
-After paid municipal deployments demonstrate repeatable analyst time savings, would an incumbent’s build-versus-buy analysis justify a cash price that delivers at least $83.3 million in distributable equity proceeds on transferable rights? A buyer-side estimate grounded in measured deployment results, replication costs, and verified data rights would move the action to **Reach out** if it supported that threshold at 3% ownership.
+What acquisition value would a municipal credit-data incumbent underwrite after a paid production pilot of Oasive’s workflow? Move to **Reach out** if measured pilot gains support a buyer-backed range that can clear the holder’s cash target and the buyer can retain the essential data access. Under the illustrative 3% ownership and debt assumptions, that means about $88.3 million in enterprise value. (The Idea, Market & Traction, Key Risks)

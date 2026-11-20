@@ -5,34 +5,30 @@
 
 ### Company case
 
-Strategic acquisition is the strongest path. An investigation software vendor could buy Particularity to add proactive enforcement screening to an existing complaint or evidence workflow. The memo records Particularity’s public launch and NYC’s new authority over subscription cancellation flows. Particularity says its browser agents test live flows, preserve evidence, and map findings to statutory elements for staff review. Existing products cover parts of that workflow. Ownership could make sense if integrating a proven workflow saves the buyer significant development time or helps it win agency contracts. Both benefits remain hypotheses. (*The Idea*, *Market & Traction*)
+Strategic acquisition is the strongest path. Particularity says its browser agents test live checkout and cancellation flows, preserve evidence, and link findings to complaints and statutory elements. An investigation software vendor such as Case IQ could buy that workflow to add proactive detection to its existing intake and case-management product. Owning it could give the buyer control over integration and development if agencies demonstrate demand and the workflow proves costly to replicate. Buyer interest, measured buyer benefit, and that advantage over licensing remain unverified. (The Idea, Market & Traction, Defensibility)
 
-The operating milestone is a paid agency deployment that repeatedly completes live tests and produces evidence investigators accept, with measured staff time saved. The reported $500,000 in YC financing and the founders’ relevant experience support an initial test. The memo gives no pilot commitment, test budget, or runway. Browser reliability, evidence authentication, and procurement reviews could delay deployment. IP ownership and any agency contract transfer terms are unverified. The memo supplies no independent fallback with evidence of cash reaching this holder. (*Market & Traction*, *Founders & Team*, *Key Risks*, *Key Facts*)
+The memo records an October 2026 public launch and reports $500,000 in YC financing. A paid agency deployment that measures investigator time per usable case and shows staff can use the captured evidence in casework would make the acquisition case more concrete. The launch and reported funding make an initial test plausible. Agency adoption, burn, and runway remain unknown, and the memo leaves control of the core technology and transfer rights unverified. (Market & Traction, Defensibility, Key Risks)
 
-The illustrative check is $500,000 at a $10 million post-money valuation, with 5% initial ownership diluted to 3%, no follow-on checks, and a $2.5 million gross cash target within eight years. The scenarios assume no net debt or other enterprise-to-equity adjustments, no senior claims, and a simple pro rata waterfall. All consideration is cash at closing. Stock, escrow, earnouts, rollover, and compensation each contribute $0. At 3% ownership the hurdle is $83.3 million in enterprise value under those assumptions. It rises to $125 million at 2% and falls to $62.5 million at 4%. The memo gives no usable evidence that a buyer would pay within this range. (*Market & Traction*, *Key Facts*)
+Under the illustrative terms, a $500,000 check at a $10 million post-money valuation starts at 5% ownership and falls to 3% after 40% relative dilution, with no follow-ons. The eight-year 5× target is $2.5 million gross before investor taxes. That requires $83.3 million in distributable equity at 3% ownership, $125 million at 2%, or $62.5 million at 4%. Assuming $5 million in net debt and a simple pro rata distribution, a $25 million enterprise-value sale at year eight yields $600,000 (1.2×), and a $100 million sale yields $2.85 million (5.7×). At 2% ownership, even the strong sale yields $1.9 million (3.8×). Debt is illustrative, and actual holder terms, fees, senior claims, and a realizable sale-price range remain unknown. (Market & Traction, Key Facts)
 
-| Scenario | Enterprise value → distributable equity | Holder cash and timing | Gross multiple |
-|-----------|-------------------------------------------|------------------------|----------------|
-| Modest sale | $40M → $40M | $1.2M in year 5 | 2.4× |
-| Strong sale | $100M → $100M | $3.0M in year 7 | 6.0× |
-| Prolonged private | No sale or payout. Growth plateaus, buyers stay away, public scale remains out of reach, and cash is reinvested. | $0 through year 8. Shares remain held. | 0× realized |
+If growth plateaus, buyers stay away, public-market scale stays out of reach, and available cash goes back into the business, the holder realizes $0 over eight years and retains the shares. Sponsor financing, eligible secondary demand, IPO readiness, and distributable cash each lack supporting evidence. A wind-down recovery is unquantifiable without asset values, obligations, and preferences. (Market & Traction, Key Facts)
 
 ### Countercase
 
-An incumbent could add browser screening to its existing product or license Particularity’s capabilities. The memo identifies products that already handle evidence capture or complaint workflows and describes publicly documented browser screening approaches. It also reports no current moat or public revenue signal. These facts weaken the case for an acquisition premium. The memo leaves open whether a substitute can match a workflow that agencies have validated, so the structural Pass gate is unproven. (*The Idea*, *Defensibility*, *Key Facts*)
+Case IQ already handles complaint intake, and Pagefreezer already preserves browser evidence. An incumbent could build or license the additional screening capability, especially if incomplete browser sessions and evidence-authentication requirements limit the value of Particularity’s integrated workflow. The memo supports that substitution risk. A ready end-to-end substitute, a structural closing barrier, and a sale-price ceiling below the holder’s hurdle all remain unestablished, so the Pass gate does not apply. (The Idea, Market & Traction, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 11/30 |
+| Counterparty rationale or source of cash | 13/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 8/20 |
+| Milestones and capital needed | 9/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 34/100** (Pass)
+**Total Score: 37/100** (Pass)
 
 ### Decisive diligence question
 
-Would an investigation software vendor’s build-versus-buy assessment, grounded in a paid agency deployment with measured investigator time savings and accepted evidence, support paying roughly $83 million to own Particularity? A credible estimate at that level would move the action to **Reach out**. An assessment showing that building or licensing delivers comparable value at a cost that caps the purchase price well below the hurdle would move it to **Pass**.
+What price range would an investigation software vendor support for owning Particularity’s workflow once a paid agency deployment demonstrates measurable investigator time savings and usable case evidence? Move to Reach out if buyer-side feedback ties that operating result to a credible purchase-price range that can clear the holder’s 5× target within eight years after realistic dilution and claims.

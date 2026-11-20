@@ -5,36 +5,36 @@
 
 ### Company case
 
-**Strategic acquisition** is the strongest path. A drone manufacturer or public-safety platform could buy Degla’s onboard autonomy software and associated training assets if owning them would let it deploy and improve the capability faster or at lower cost than building it internally or licensing it. The memo records an October live flight demonstration at REACH’s Chula Vista test site. Degla says its system turns spoken objectives into flight plans, replans onboard, and was fine-tuned on expert-pilot decisions. The demo establishes a field test, while repeatability, customer savings, and exclusive rights to the training data remain unverified. Axon’s primary investment in Skydio and Motorola Solutions’ lead investment in BRINC show strategic spending in the category. The economics of buying Degla remain untested. (The Idea; Defensibility; Market & Traction; Key Risks)
+Strategic acquisition is Degla’s strongest path. A drone manufacturer or public-safety drone operator could buy Degla to integrate its onboard mission software across an existing fleet. BRINC is an illustrative buyer because its LiveOps workflow uses teleoperators. Degla says its software translates spoken objectives into flight plans and adapts them onboard. If that cuts operator time while maintaining search performance, a buyer could launch missions faster and serve more deployments with the same staffing. Ownership could be worth paying for if exclusive access to the software and training data gives the buyer an advantage over licensing or building internally. The memo gives no measured operator savings or buyer preference for ownership. (The Idea, Market & Traction, Defensibility)
 
-A paid production pilot on a prospective buyer’s aircraft could establish whether Degla repeatedly cuts operator effort while meeting the buyer’s reliability requirements. The field demo and YC backing support pursuing that milestone. Aircraft integration, repeat flight validation, and any required flight authorizations still need time and capital, and the memo leaves the pilot budget and runway unknown. Rights to transfer the software and training data are also unverified. The memo provides no usable evidence of a sponsor buyout, secondary sale, public resale, or company-funded payout for this holder. (The Idea; Defensibility; Market & Traction; Key Risks; Key Facts)
+The memo records a live flight demonstration at REACH’s Chula Vista test site and confirmed YC backing. That supports a next milestone of repeatable performance in a funded manufacturer pilot. The demonstration leaves miss rates, repeatability and integration costs open. The financing amount is unverified, so the capital available for integration and authorized repeat flights is unknown. A whole-company sale is the modeled structure. The memo leaves ownership and transfer rights for the software and training data unverified. (Market & Traction, Defensibility, Key Risks)
 
-**Proceeds bridge.** The illustrative seed terms are a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-on checks. A 5× gross cash return requires $2.5 million within eight years, or $83.3 million of distributable equity at 3% ownership. The hurdle is $125 million at 2% and $62.5 million at 4%. The memo gives no usable sale valuation. The figures below are sensitivity cases, with all proceeds before investor taxes. (The Idea; Market & Traction; Key Facts)
+With actual shareholder terms unavailable, assume a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted by 40% to 3%, and no follow-ons. The eight-year 5× target is $2.5 million in gross cash. It requires $83.3 million of distributable equity at 3% ownership, $125 million at 2%, or $62.5 million at 4%. With illustrative net debt of $5 million, the 3% case requires about $88.3 million of enterprise value. The sale scenarios assume cash at closing and simple pro rata distribution before investor taxes. Company-specific debt, fees and preferences are unverified.
 
-| Illustrative outcome | Timing | Enterprise value → distributable equity | Holder cash on $500,000 total invested |
-|---|---|---|---|
-| Modest sale | Year 5 | $50M → $50M | $1.5M (3×) |
-| Strong sale | Year 7 | $100M → $100M | $3.0M (6×) |
-| Prolonged private | Through year 8 | Growth plateaus, buyers stay away, public scale remains out of reach, and cash is reinvested | $0 (0×), with all shares retained |
+| Eight-year scenario | Gross holder cash at 3% |
+|---|---|
+| $25 million enterprise sale, less $5 million illustrative net debt | $600,000 (1.2×) |
+| $100 million enterprise sale, less $5 million illustrative net debt | $2.85 million (5.7×) |
+| Pilots fail to convert into broader deployments, buyer interest fails to emerge, public-market scale remains out of reach, and available cash is reinvested in integration and flight validation | $0 realized, with shares retained |
 
-Both sale cases assume cash at closing, zero net debt and other price adjustments, and a simple pro rata waterfall with no preference deductions. Stock, escrow, earnouts, rollover, and compensation are each assumed to be $0. At 2% ownership, even the illustrative strong sale pays $2 million (4×). Degla’s actual waterfall and any buyer-supported price remain unknown.
+At the strong-sale price, ownership diluted to 2% would yield $1.9 million. The memo supplies no supported sale-price range. Wind-down proceeds are indeterminate because the residual after obligations and preferences is unknown. The memo also provides no evidence of cash generation for a buyout or company-funded payout, eligible secondary demand, or a path to public-market scale and holder resale. (Key Facts, Market & Traction)
 
 ### Countercase
 
-Incumbents already offer dock-based operations, teleoperators, and dispatch integration. A buyer could keep its current workflow, prototype onboard inference with commercially available Jetson hardware, or license Degla’s software if that captures the same benefit. The memo identifies no structural barrier and gives no measured reliability or cost advantage that would force a buyer to own Degla. This supports Watch. The Pass override remains untriggered because the memo leaves open whether repeatable production results could justify an ownership premium large enough to clear the hurdle. (The Idea; Defensibility; Market & Traction; Key Risks)
+Incumbents may find their existing workflows sufficient. Skydio already sells remote operations, BRINC has LiveOps, and Flock Aerodome integrates with dispatch. An incumbent that wants onboard replanning could prototype on commercially available Jetson hardware or license the capability. The memo leaves Degla’s training-data exclusivity and field advantage unverified. Axon’s and Motorola Solutions’ investments show capital commitments to incumbent platforms and supply no Degla acquisition pricing. This countercase leaves a decisive gap in the reason to own and the price a buyer could justify. The Pass gate remains untriggered because the memo establishes neither a structural block nor a supported sale range that leaves the holder materially short. (The Idea, Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 12/30 |
+| Counterparty rationale or source of cash | 14/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 9/20 |
+| Milestones and capital needed | 10/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 36/100** (Pass)
+**Total Score: 39/100** (Pass)
 
 ### Decisive diligence question
 
-Can a funded production pilot show a prospective acquirer that owning Degla is worth enough to clear the holder’s proceeds hurdle? A buyer’s written review showing repeatable operator-time savings at its required reliability level, with a buy-versus-build-or-license estimate consistent with the applicable hurdle, would move the action to **Reach out**. A review showing that an ordinary license captures the same value and caps acquisition economics materially below the hurdle would move it to **Pass**.
+Can a manufacturer-funded pilot show enough value to justify buying Degla? Move to Reach out if repeat flights show faster mission launch or lower operator workload at comparable search success, and the manufacturer’s quantified rollout economics support ownership over licensing or building at a sale price near the modeled hurdle. (The Idea, Market & Traction, Key Risks)

@@ -5,33 +5,25 @@
 
 ### Company case
 
-**Strategic acquisition** is Axiomat’s strongest path. A data warehouse or analytics platform could acquire its verification software to serve customers who restrict AI use in pricing or financial reporting. Axiomat launched publicly in November 2026. The company says its software uses Lean to check generated queries against formalized business rules and blocks execution when it cannot establish a proof. A platform could have a reason to own the software if integrating it into its query engine unlocks valuable deployments faster than building an equivalent feature and gives it control an ordinary license cannot provide. The memo leaves production benefits, buyer demand, and the economics of ownership unverified. (*The Idea*, *Defensibility*, *Market & Traction*)
+A strategic acquisition is the strongest path. A data warehouse or enterprise analytics platform such as Snowflake could buy Axiomat’s verification layer to make its data agents usable for sensitive pricing and reporting workflows. Axiomat says its Lean proof gate checks a generated query against a user-approved formal definition before execution and retries or abstains when it cannot prove a match. The buyer benefit is an inference. Ownership could make economic sense if the proof gate measurably reduces costly errors or manual review and acquiring it would be faster or more valuable than building, licensing, or partnering. The memo supplies no measured benefit or buyer interest. (The Idea, Defensibility, Key Risks)
 
-A funded production pilot on a pricing or reporting workflow could test whether the proof gate reduces consequential errors while maintaining acceptable answer coverage and latency. The public launch and the team’s verification and systems experience support the ability to run that test. Pilot funding, integration costs, and runway remain unknown. An acquisition would also depend on rights to transfer the proof software and any customer-specific rules essential to its value. The memo leaves those rights unverified and provides no usable evidence of an independent fallback that could pay this holder. (*Founders & Team*, *Market & Traction*, *Defensibility*, *Key Risks*, *Key Facts*)
+The memo records a November 2026 launch, a product demo, and YC backing. The team’s formal verification and systems engineering experience makes a production test plausible. A relevant milestone is a paid deployment that measures material errors caught, manual review saved, and latency and abstention against native controls. The memo establishes neither paid production use nor the cost, funding, or runway needed to reach that milestone. It also leaves rights to the core implementation and transferability of customer-approved rules unverified. (Market & Traction, Founders & Team, Key Facts, Defensibility)
 
-**Proceeds bridge.** With no investment terms supplied, assume a $500,000 seed check at a $10 million post-money valuation, 5% initial ownership diluted by 40% to 3%, and no follow-on checks. The eight-year 5× objective requires $2.5 million in holder cash, or about $83.3 million of distributable equity proceeds at 3%. The hurdle is $125 million at 2% and $62.5 million at 4%.
+**Illustrative proceeds.** With actual holder terms unavailable, assume a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted by 40% to 3%, and no follow-ons. The 5× gross cash target within eight years is $2.5 million. That requires about $83.3 million of distributable equity at 3% ownership, $125 million at 2%, or $62.5 million at 4%. At 3%, illustrative net debt of $5 million raises the enterprise-value hurdle to about $88.3 million. Using that debt assumption and simple pro rata allocation before investor taxes, a $25 million sale at year eight returns $600,000 (1.2×), and a $100 million sale returns $2.85 million (5.7×), before any fees or senior claims. The memo supplies no company-specific price range or evidence to quantify those deductions.
 
-The sale scenarios below use illustrative prices. They assume zero net debt and zero other price adjustments, so enterprise value equals equity consideration. They also assume a simple pro rata waterfall and full cash payment at closing, with zero stock, escrow, earnout, rollover, and compensation. The memo supplies no buyer economics or transaction pricing to support either sale price. (*Market & Traction*, *Key Facts*)
-
-| Scenario | Timing | Gross holder cash | Multiple on $500,000 |
-|---|---|---:|---:|
-| Modest sale at $50 million | Year 5 | $1.5 million | 3× |
-| Strong sale at $100 million | Year 7 | $3 million | 6× |
-| Prolonged private ownership, with growth plateauing, buyers staying away, public scale out of reach, and cash reinvested | Through year 8 | $0, with shares still held | 0× |
-
-Even the illustrative strong sale pays only $2 million, or 4×, at 2% ownership.
+If growth plateaus, buyers stay away, public scale remains out of reach, and Axiomat reinvests available cash for eight years, the holder realizes $0 and retains the shares. Any wind-down recovery depends on the residual after obligations and preferences, which the memo leaves unquantifiable. A sponsor buyout lacks evidence of predictable cash generation, a secondary lacks eligible share demand, an IPO lacks operating scale and readiness evidence, and a dividend or buyback lacks evidence of distributable cash. (Market & Traction, Key Facts)
 
 ### Countercase
 
-Snowflake already offers semantic views and approved SQL examples. Those controls may suffice for many buyers, and a license could satisfy platforms that need the proof gate. Axiomat’s proofs still depend on correct business rules, while retries and abstentions can reduce practical coverage. Together, those risks could cap acquisition value below the holder’s hurdle. The memo leaves open whether native controls suffice for the workflows where proofs would matter most, so the evidence supports Watch. The prolonged-private scenario is a downside case and does not trigger the Pass override on its own. (*Defensibility*, *Key Risks*)
+Snowflake already offers semantic views and approved SQL examples. Those controls may satisfy buyers, while customers that need proofs could license the capability. A proof also certifies a query against the approved definition, so a mistaken definition can still yield a wrong answer. Retries and abstentions may further limit production value. This weakens the reason to buy but leaves open whether per-query verification can deliver enough incremental value to justify an acquisition. The memo establishes neither a structural block nor a supported sale price that leaves the holder materially short, so the Pass gate does not apply. (Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 11/30 |
+| Counterparty rationale or source of cash | 12/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 9/20 |
+| Milestones and capital needed | 8/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
@@ -39,4 +31,4 @@ Snowflake already offers semantic views and approved SQL examples. Those control
 
 ### Decisive diligence question
 
-Can a funded, platform-sponsored production pilot show that owning Axiomat’s proof gate would create enough incremental value to support an acquisition above the holder’s proceeds hurdle? Move to Reach out if the pilot measures fewer consequential errors at acceptable coverage and latency, and the sponsor’s build-versus-license economics support paying above that hurdle.
+Can a paid production deployment demonstrate enough incremental value over warehouse-native controls to support a strategic buyer’s case for ownership at the modeled sale hurdle? Move to Reach out if measured reductions in material errors or review costs, at acceptable latency and abstention rates, support buyer economics that favor acquisition over building or licensing and imply a price range that can clear the holder’s target. Otherwise, stay on Watch.

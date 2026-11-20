@@ -5,36 +5,28 @@
 
 ### Company case
 
-**Strategic acquisition by a fabrication marketplace** is Confetti’s strongest path. A marketplace could buy the workflow that turns a plain-English prompt into editable CAD and, for eligible designs, a print quote and order. The memo records a public launch and 36 public design pages. Confetti documents project remixing, revision history, and print ordering, and the founders report users working on a custom keyboard and a portable mechanical analyzer. These signals establish an early workflow and design activity. Completed builds, repeat orders, and paying customers remain unverified. (The Idea, Defensibility, Market & Traction, Key Facts)
+Strategic acquisition by a print fulfillment platform is Confetti’s strongest path. The product documentation describes a workflow from plain-English prompts to editable designs, quotes, and orders. Confetti’s terms name Slant 3D and Craftcloud as fulfillment providers. A platform could pay to own that workflow if it consistently turns first-time makers into repeat paying customers and ownership captures more of that order flow than a supplier integration would. The memo establishes a commercial connection. Incremental profit and willingness to acquire are still assumptions. (The Idea, Market & Traction)
 
-The ownership case is conditional. If Confetti can build a transferable library of physically validated designs and revisions that reliably increases completed paid orders, a marketplace could gain more from owning that asset than from integrating the design tool. A production pilot could measure the lift. The launched product gives Confetti a starting point, while unconfirmed funding figures leave the pilot budget and runway unclear. The disclosed data-sharing terms also leave a buyer’s rights to use design histories unverified. The memo supports no independent route to cash for this holder. (Defensibility, Market & Traction, Key Risks, Key Facts)
+The memo records a public launch and 36 public design pages. The founders report users working on a mechanical analyzer, a keyboard, and personalized gifts. Those signals support a pilot through the existing fulfillment workflow. The operating milestone is repeat paid orders from physically validated builds, with conversion lift and incremental gross profit measured against the platform’s existing intake. The memo gives no completed-order counts, burn, or funded test. The two unconfirmed financing figures describe different measures and do not establish available capital. Transfer rights for supplier agreements and user design data are also unresolved. (Market & Traction, Key Facts, Key Risks)
 
-**Illustrative proceeds.** The memo supplies no applicable investment terms or usable acquisition price evidence. The seed case assumes one $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and a 5× gross cash objective within eight years. The holder needs $2.5 million, which requires $83.3 million in distributable equity at 3%, $125 million at 2%, or $62.5 million at 4%.
-
-| Scenario | Timing | Enterprise value to distributable equity | Holder cash at 3% | Gross multiple |
-|---|---|---:|---:|---:|
-| Modest sale | Year 5 | $40M to $40M | $1.2M | 2.4× |
-| Strong sale | Year 7 | $100M to $100M | $3.0M | 6.0× |
-| Prolonged private | Through year 8 | Growth plateaus, buyers stay away, public scale remains out of reach, and cash is reinvested | $0, shares retained | 0.0× |
-
-The sale values are sensitivity assumptions. Both sales assume cash at close, zero net debt and transaction fees, and simple pro rata allocation with no senior preference adjustments. Stock, escrow, earnouts, rollover, and transaction compensation are each assumed to be zero. At 2% ownership, even the modeled strong sale returns only $2 million, or 4.0×.
+Under the illustrative terms, a $500,000 check at a $10 million post-money valuation starts at 5% ownership and falls to 3% after 40% relative dilution, with no follow-ons. The eight-year 5× target is $2.5 million in gross cash before investor taxes. It requires $83.3 million of distributable equity at 3% ownership, $125 million at 2%, or $62.5 million at 4%. With $5 million of assumed net debt, the 3% hurdle is $88.3 million in enterprise value. A $25 million sale in year eight yields $600,000 (1.2×). A $100 million sale yields $2.85 million (5.7×). Both use simple pro rata allocation and the same assumed debt. Actual holder terms, fees, senior claims, and a realizable sale price are unverified. In a prolonged-private scenario where growth plateaus, buyers stay absent, public scale remains out of reach, and available cash is reinvested, the holder realizes $0 and retains the shares. The memo supports no independent liquidity route through a sponsor buyout, eligible secondary, public resale, or company-funded payout. A wind-down residual cannot be estimated without asset values, obligations, and preferences. (Market & Traction, Key Facts)
 
 ### Countercase
 
-Blueprint already combines prompted mechanical design, wiring, and parts sourcing. Flux can generate PCB enclosures through chat, and Confetti users can export files to another fabricator. A marketplace could integrate a design tool and capture much of the order flow without buying Confetti, especially if generated designs still require substantial physical verification. The memo supports a credible substitute but leaves its economic equivalence and any resulting price cap unresolved. The Pass override does not apply on this evidence. (Defensibility, Key Risks)
+A fulfillment platform can keep accepting Confetti orders through a supplier relationship, and users can export files to another manufacturer. Blueprint already covers prompted mechanical design, wiring, and parts sourcing, while Confetti asks users to verify dimensions and test physical builds. A buyer could therefore get much of the benefit through an integration while leaving validation and support with Confetti or its users. This weakens the case for paying an acquisition premium. It does not establish a structural closing barrier or a supported sale price that leaves the holder materially short, so the Pass gate does not apply. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 9/30 |
+| Counterparty rationale or source of cash | 13/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 7/20 |
+| Milestones and capital needed | 9/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 31/100** (Pass)
+**Total Score: 37/100** (Pass)
 
 ### Decisive diligence question
 
-Can a fabrication marketplace’s production pilot show that owning Confetti’s transferable library of validated designs generates enough incremental profit over a standard integration to support roughly $83.3 million in cash equity consideration? Repeat paid builds and buyer-side economics that support that price under the 3% scenario would move the action to Reach out.
+Can a fulfillment platform’s own economics support a price near or above the illustrative $88.3 million enterprise-value hurdle for owning Confetti? A platform-reviewed pilot showing sustained incremental gross profit from repeat paid builds, together with a valuation range that reflects the advantage of ownership over a supplier integration, would move the action to Reach out if the range clears the holder’s hurdle on credible terms.

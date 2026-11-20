@@ -5,28 +5,28 @@
 
 ### Company case
 
-**Path A — Scarce complements.** Tilion’s strongest case is that cheaper intelligence increases the volume of browser-agent work, making reliable execution a bottleneck for data collection and monitoring teams. Buyers with access to the same models could still pay Tilion if its browser infrastructure completes more jobs with fewer retries and less human intervention. An independent benchmark measured a 0.11-second median browser session lifecycle for pre-release Tilion versus 0.15 seconds for Kernel. That establishes a speed advantage in the tested run. End-to-end reliability remains open. A separate test observed a failed Tilion launch, and the memo describes task reassignment without measuring how often it recovers a job. (The Idea; Market & Traction; Key Risks)
+**Path A — Scarce complements.** Tilion’s strongest case is reliable browser execution for agent workflows. If cheap frontier models increase the volume of browser tasks, failed runs could become a binding constraint for data collection and monitoring teams that bear the cost of reruns or missed results. A pre-release benchmark measured a 0.11-second median session lifecycle for Tilion versus 0.15 seconds for the closest tested rival. Tilion says it can reassign failed tasks to another session. The decisive uncertainty is whether that capability yields more completed tasks under representative workloads. (*The Idea*, *Market & Traction*)
 
-Tilion’s founders built Fortress and bring relevant browser infrastructure and model-serving experience. That supports a seed-stage trial. Reported installs and company-reported usage suggest interest, while paid commitments and repeat Cloud use remain unverified. The current waitlist and pre-release designation make availability uncertain despite the August public-access announcement. (Founders & Team; Market & Traction; Key Risks)
+Fortress gives Tilion a browser stack it can maintain directly. Tilion reports monthly Chromium rebases, and the memo records published regression benchmarks. Shipping Fortress through public repositories and package registries demonstrates early execution. Repository engagement and reported use by engineers at more than 170 companies suggest interest, with buyer budgets and repeat paid use still unverified. (*Defensibility*, *Key Facts*, *The Idea*, *Market & Traction*)
 
-At the advertised $0.03 per browser-hour, assume Tilion collects the full rate on each billed hour. Hosting, unbilled retries, and variable support would then have to cost less than $0.03 per billed hour for positive contribution. The memo leaves utilization and cost per successful job unknown. (The Idea; Key Facts)
+The expansion unit is a completed customer task. If the announced Cloud rate holds and retry time is billable, buyer spend per completion is $0.03 times total billable browser-hours divided by successful tasks. Tilion’s contribution depends on compute and support costs across all attempts and on fleet utilization. The memo gives a launch price, while realized completion rates, costs, and utilization remain unknown. (*The Idea*, *Key Facts*)
 
 ### Countercase
 
-With abundant capital and the same models, competitors could offer comparable execution through the standard interfaces Tilion supports. Maintaining its own Chromium fork gives Tilion control over the implementation, while rivals already offer hosted and self-hosted alternatives. Site owners also control whether agents can access their pages, so underwriting privileged access would require evidence the memo lacks. The countercase blocks Reach out today. Substitution on authorized workflows remains untested, leaving a specific Path A milestone. Path B has weaker support because the memo identifies neither a newly viable buyer or transaction nor a reason to pay under functional parity. (Defensibility; The Idea; Market & Traction; Key Risks)
+Standard automation interfaces could make switching easy, and competing providers already offer hosted browsers. The lifecycle benchmark leaves task completion unmeasured, a separate test observed a failed Tilion launch, and site owners retain control over access. If alternatives deliver comparable completion at comparable cost, Tilion’s speed advantage may have little purchasing value. At seed, the shipped browser and measured speed justify a field comparison. The evidence leaves scarcity and durable control unproven, so the action is Watch. (*Defensibility*, *Market & Traction*, *The Idea*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 12/25 |
-| Durable value capture | 8/25 |
-| Customer demand | 8/20 |
+| Path-specific thesis fit | 10/25 |
+| Durable value capture | 7/25 |
+| Customer demand | 7/20 |
 | Team and execution | 9/15 |
-| Scale economics | 4/15 |
+| Scale economics | 5/15 |
 
-**Total Score: 41/100** (Pass)
+**Total Score: 38/100** (Pass)
 
 ### Decisive diligence question
 
-Will an independent buyer commit to repeat paid use after a side-by-side trial on representative, authorized monitoring jobs? Use the same agent and quality bar on Tilion and the buyer’s best available alternative. Measure cost per successful job including retries and manual recovery, and verify Tilion’s variable costs at the paid rate. A sustained advantage attributable to Tilion’s own stack, positive contribution, and a repeat paid commitment would warrant rescoring for Reach out. Equivalent outcomes and costs with easy switching would move the action to Pass.
+Will an independent buyer renew at a price that supports positive contribution after a side-by-side pilot shows Tilion consistently completes materially more of its authorized production tasks than the best available substitute at comparable cost per completion? A renewal on those terms would move the action to Reach out. Equivalent outcomes in a representative comparison would move it to Pass.

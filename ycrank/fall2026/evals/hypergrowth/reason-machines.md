@@ -5,28 +5,26 @@
 
 ### Company case
 
-**Path A — Product-led adoption.** The first buyer is a software team that regularly delegates repository work to coding agents and runs into subscription limits or high inference bills. Reason’s self-serve web and Slack onboarding gives a developer a route from an issue to a pull request. If teams find that workflow valuable enough to make it recurring, more teammates and repositories could drive paid seats and credit top-ups. The same workflow could serve teams abroad. That scenario assumes compatible provider subscriptions and that buyers can accept Reason’s cloud handling of code and prompts without a custom deployment. The memo gives no buyer-level evidence of cross-market adoption. (The Idea, Key Risks)
+Product-led adoption is the strongest path. Reason targets software teams that repeatedly turn repository issues and alerts into pull requests. Its web and Slack onboarding give engineers a self-serve way to try that workflow. If the first run saves enough time or inference spend, teams could pay for more seats or credits as they route more work through Reason. The repository workflow appears portable across markets, although the memo leaves buyer geography and cloud code-handling approvals open. (The Idea, Key Risks)
 
-**Early evidence of fit.** The memo records 112 Chrome extension users. Reason reports 20,000 users in four weeks, with activation and payment undefined. A quoted user describes a concrete outcome from one run: nine issues with reproduction steps, screenshots, and fixes. That is an early signal of value on a real task. Conversion through the intended self-serve flow, repeat workloads, and paid expansion remain unverified. (Market & Traction, Key Facts)
-
-**Contribution at scale.** Reason reports 22% lower cost per solved task than Codex on the same model in its benchmark. Batching and cache reuse could reduce inference cost on eligible workloads. For the next team, incremental revenue would come from seats and top-ups. Contribution would depend on the model and cloud costs Reason bears as workloads grow, plus the onboarding and support each team needs. The benchmark measures a potential cost lever. It leaves contribution on recurring customer workloads unresolved. (The Idea, Defensibility, Key Risks, Key Facts)
+The memo records 118 Product Hunt upvotes, an observed discovery signal. Reason claims 20,000 users in four weeks, and a customer testimonial quoted by the company describes a run that produced nine issues with reproduction steps, screenshots, and fixes. That gives one concrete example of first value. The first unresolved link is whether engineers who discover Reason can reach that value through standard onboarding and then pay to use it on recurring work. The memo provides no account-level evidence connecting those steps. (Market & Traction, Key Facts)
 
 ### Countercase
 
-Reason’s launch could attract developers who try it for a project and return to tools already embedded in their workflow. Cursor offers a similar cloud workflow, Cognition is also optimizing agent costs, and provider quota changes could weaken Reason’s subscription rollover. The reported benchmark advantage could shrink when measured per merged pull request on customer repositories. These risks make a paid cohort more informative than a conversation today. The structural Pass gate remains untriggered because the memo establishes neither a geographic ceiling nor proportional delivery costs. (Defensibility, Market & Traction, Key Risks)
+Launch attention, the Pro trial, and $1,000 in credits for YC companies could drive experimentation that fades once teams pay out of pocket. Reason reports 22% lower cost per solved task than Codex on the same model, a partial measure of inference efficiency. The benchmark leaves open the cost per merged pull request and Reason’s contribution after cloud and support costs. These gaps support Watch. The memo documents neither a pattern of failed conversion nor a structural constraint that blocks the path. (The Idea, Defensibility, Key Risks, Key Facts)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 9/25 |
+| Global buyer demand | 16/25 |
 | Repeatable acquisition and onboarding | 9/25 |
 | Retention and customer expansion | 7/20 |
-| Contribution as volume grows | 9/20 |
-| Evidence of fit in the first buyer segment | 5/10 |
+| Contribution as volume grows | 8/20 |
+| Evidence of fit in the first buyer segment | 4/10 |
 
-**Total Score: 39/100** (Pass)
+**Total Score: 44/100** (Pass)
 
 ### Decisive diligence question
 
-Can an unsubsidized cohort of independent software teams in a second geography self-serve from signup to paid use and keep running repository jobs through its first renewal? Move to **Reach out** if cohort records show that pattern with minimal founder help and positive incremental contribution after Reason’s model, cloud, and support costs. Stay on **Watch** while the cohort result is unresolved.
+Do several independent engineering teams from the same launch cohort self-serve to a first useful pull request, then pay and keep running repository tasks after any trial or promotional credits expire? Account-level onboarding, billing, and usage records showing that sequence over several normal work cycles would move the action to Reach out.

@@ -5,36 +5,32 @@
 
 ### Company case
 
-Strategic acquisition by an industrial equipment maker with a distributed fleet is Mantle’s strongest path. An acquirer could pay for machine-specific repair histories and procedures, trained field coverage, and parts logistics if owning them cuts service costs or improves uptime enough to justify an acquisition over a service contract. Mantle reports multiple live customers, 250+ field technicians, and regional parts hubs. The memo records a public launch in November 2026 and prior founder experience building and operating distributed equipment services. The launch and founder experience support the feasibility of a fleet test. The scale and performance of the service operation still rest on company claims. (The Idea, Defensibility, Market & Traction, Founders & Team)
+Mantle’s strongest path is a strategic sale to an equipment maker with a distributed U.S. installed base, such as an overseas OEM expanding into the U.S. Mantle markets fixed-fee service per machine and says it combines machine-level repair histories, remote diagnostics, trained technicians, and regional parts hubs. An OEM could pay to bring that capability in-house if owning it cuts downtime and engineer travel costs beyond what the OEM could achieve through a service contract or by building its own network. Mantle’s public launch is documented. Its multiple live customers and 250+ field technicians are company-reported. The memo gives no measured buyer savings or evidence of acquisition interest. (The Idea, Defensibility, Market & Traction)
 
-The operating milestone is a repeat deployment across multiple sites that demonstrates faster repairs and lower all-in service costs on the same machine models. The comparison should include repeat visits, parts, and technician time, which determine whether Mantle can deliver those gains profitably under a fixed monthly fee. The reported live customers provide a plausible starting point. The memo leaves the cost of reaching that milestone, available runway, and rights to transfer service records and technician arrangements unverified. A sponsor buyout has less support because the memo establishes a pricing model while leaving revenue predictability and cash generation unverified. The memo supplies no separately supported route to cash for this holder. (The Idea, Defensibility, Market & Traction, Key Risks, Key Facts)
+The operating milestone is a paid deployment across multiple regions for one OEM’s equipment that shows lower downtime and fewer engineer dispatches against the OEM’s baseline, with positive contribution after technician labor, travel, parts, and repeat visits. Reported live customers give Mantle a plausible starting point. The capital needed to reach that milestone and the transferability of machine records and service agreements remain unverified. The memo supplies no cash-flow evidence for a sponsor buyout, eligible share demand for a secondary, operating scale or reporting readiness for an IPO, or excess cash for a payout. (The Idea, Defensibility, Market & Traction, Key Risks, Key Facts)
 
-**Proceeds bridge.** The memo is silent on investment terms and usable valuation evidence, so the scenarios use the illustrative $500,000 check at a $10 million post-money valuation. The initial 5% stake dilutes to 3%, with no follow-on checks. Earning $2.5 million in gross cash within eight years requires about $83.3 million in distributable equity proceeds at 3% ownership, $125 million at 2%, or $62.5 million at 4%.
+**Illustrative holder proceeds.** A $500,000 check at a $10 million post-money valuation buys 5%, diluted by 40% to 3%, with no follow-ons. A 5× gross cash return within eight years requires $2.5 million to the holder and about $83.3 million of distributable equity at 3% ownership. The hurdle rises to $125 million at 2% and falls to $62.5 million at 4%. The sale scenarios assume pro rata cash proceeds before investor taxes and $5 million of illustrative net debt. Mantle’s actual debt, fees, and senior claims are unknown. (Key Facts)
 
-| Illustrative outcome | Timing | Cash to holder at 3% | Gross multiple |
-|---|---|---:|---:|
-| Modest strategic sale at $50 million enterprise value | Year 5 | $1.5 million | 3× |
-| Strong strategic sale at $100 million enterprise value | Year 7 | $3 million | 6× |
-| Prolonged private ownership, with growth plateauing, buyers staying away, public scale out of reach, and cash reinvested | Through year 8 | $0, with shares still held | 0× |
-
-Both sale scenarios assume an all-cash close, zero net debt and transaction fees, and a simple pro rata waterfall with zero preference deductions. Cash at closing is the sole consideration. Stock, escrow, earnouts, rollover, and transaction-linked compensation are each assumed to be zero. The prices and timing are scenario assumptions. At 2% ownership, even the $100 million sale yields $2 million, or 4×.
+- **Modest sale at year eight.** At $25 million enterprise value, $20 million is available after illustrative net debt. The holder receives $600,000 gross, or 1.2×.
+- **Strong sale at year eight.** At $100 million enterprise value, $95 million is available after illustrative net debt. The holder receives $2.85 million gross, or 5.7×. The memo provides no basis to underwrite that price.
+- **Prolonged private operation.** If growth plateaus, buyers stay away, public-market scale remains out of reach, and Mantle reinvests all available cash without a secondary or payout, the holder realizes $0 over eight years and retains the shares. A wind-down recovery cannot be estimated without the assets, obligations, and preferences.
 
 ### Countercase
 
-An equipment maker may get comparable uptime through Mantle’s own per-machine service contract or through an alternative provider. Roboworx already combines nationwide robot fleet service with predictive diagnostics, and the memo identifies no structural barrier or documented exclusivity for Mantle’s service data. Repeat visits and parts costs could also erode the economics of Mantle’s fixed fee. That combination weakens the case for paying an ownership premium. The memo leaves equivalent performance across Mantle’s target equipment and any resulting price ceiling unproven, so the structural Pass override does not apply. (The Idea, Defensibility, Market & Traction, Key Risks)
+An OEM can outsource repairs, and Roboworx already offers nationwide robot service and predictive diagnostics. The memo identifies no exclusive rights to Mantle’s repair data or measured gains in first-visit fix rates. Repeat visits and parts usage could also erode margins on fixed-fee contracts. Those facts weaken the case for paying to own Mantle. The Pass gate remains open because the evidence establishes neither a structural closing barrier nor a credible price range that leaves the holder materially short. The missing support for a realizable price warrants Watch. (The Idea, Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 11/30 |
+| Counterparty rationale or source of cash | 13/30 |
 | Plausible investor proceeds | 8/30 |
 | Milestones and capital needed | 10/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 36/100** (Pass)
+**Total Score: 38/100** (Pass)
 
 ### Decisive diligence question
 
-Would a fleet OEM’s own analysis of a repeat, multi-site deployment show enough incremental value from owning Mantle to support a price that clears the holder’s proceeds hurdle? A buyer-backed comparison of uptime and all-in service costs against contracting, with a price supported by the benefits of owning the transferable assets, would move the action to **Reach out** if the implied distributable equity clears the hurdle at a credible diluted stake. If the comparison shows that contracting captures the same gains and caps the price below the hurdle, move to **Pass**.
+What price could an equipment maker justify paying to own Mantle after a paid multi-region deployment? Measured downtime and dispatch savings, paired with buyer-side economics that quantify the added benefit of ownership over contracting, could support that price. A credible price range clearing the holder’s $2.5 million cash target on plausible ownership and deal terms within eight years would move the action to Reach out.

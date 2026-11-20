@@ -5,26 +5,26 @@
 
 ### Company case
 
-**Path A. Product-led adoption.** Engineering teams that run coding agents repeatedly pay to process context. Caveman’s original open-source repository had about 121,000 stars, and Code offers self-serve signup with existing agent credentials and paid credit plans. The growth hypothesis is that developers discover Code through the open-source project, see savings on recurring work, and buy more credits as their workloads grow. Caveman’s own Codex benchmark reported 21% lower list-price cost per solved task, with both tools solving 90 of 192 runs. The memo documents an audience and a benchmark signal. Paid activation, buyer commitment, and repeat usage remain unverified. (The Idea, Market & Traction, Key Facts)
+Product-led adoption is Caveman’s strongest path. The likely first buyers are software teams that run coding agents regularly and want to lower the cost per successful task. Code supports Claude Agent, Codex, and Cursor, and developers can start with existing credentials through a Mac or browser app. That makes the same workflow plausible across markets. The memo gives no buyer geography, and Cloud’s handling of request and response data could complicate adoption for sensitive workloads. (The Idea, Key Risks)
 
-**Second-market scenario.** If engineering teams outside the Netherlands use the same supported agents and can pay through the same checkout, the browser app and existing credentials could carry the same onboarding flow into that market. Bring-your-own credentials could keep provider charges with the customer. Paid credit volume would still need to cover the model and infrastructure costs Caveman incurs, plus support. The memo provides no cross-market buyer test or per-workload contribution data. (The Idea, Key Facts)
+The original repository’s roughly 121,000 stars show that Caveman can attract developer attention. In a company-run benchmark, Code reported 21% lower list-price cost per solved task against Codex, with both solving 90 of 192 runs. The growth scenario assumes that developers discover Code through the open-source project, reproduce those savings on recurring work, and buy credits as usage grows. The first unproven link is conversion from open-source discovery to paid value through self-serve onboarding. Code launched in November, and the memo records no buyer commitment, repeat paid use, or marginal delivery costs. (The Idea, Market & Traction, Key Facts)
 
 ### Countercase
 
-Developers may keep using the free tool if Code’s savings vary too much across their workloads to justify paying. An independent test of the original skill measured 8.5% fewer output tokens and a higher total bill after one run crossed a long-context pricing tier. That result makes cost per successful task on live customer workloads the relevant test for Code. It leaves the structural Pass gate unmet. (Market & Traction, Key Risks)
+The open-source audience may keep using free tools or run Code on existing credentials. In the independent test cited in the memo, the original skill reduced output tokens by 8.5%, yet the total bill rose after one run crossed a long-context pricing tier. That result concerns the original skill. It shows how billing thresholds could erase savings on real workloads and weaken the reason to pay for Code. The structural downside gate does not apply because the memo establishes neither persistent failure on Code workloads nor unavoidable high-touch delivery. (The Idea, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 9/25 |
+| Global buyer demand | 16/25 |
 | Repeatable acquisition and onboarding | 9/25 |
 | Retention and customer expansion | 7/20 |
 | Contribution as volume grows | 7/20 |
 | Evidence of fit in the first buyer segment | 4/10 |
 
-**Total Score: 36/100** (Pass)
+**Total Score: 43/100** (Pass)
 
 ### Decisive diligence question
 
-Can a first cohort of independent engineering teams outside the Netherlands discover Code through the open-source channel, activate and pay self-serve, and keep using it at their normal workload cadence? Signup and payment records, recurring usage, and matched workload results showing lower billed cost per successful task at comparable quality would move the action to Reach out.
+Can independent software teams discover Code through the open-source project, activate without the founder, and keep paying because it lowers their cost per successful task? A cohort with that documented path and repeat paid use across several normal work cycles would move Caveman to **Reach out**. (The Idea, Market & Traction)

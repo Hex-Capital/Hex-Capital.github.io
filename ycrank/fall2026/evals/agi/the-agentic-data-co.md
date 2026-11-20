@@ -1,32 +1,32 @@
 ﻿# The Agentic Data Co. -- AGI Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Low
+**Evidence confidence:** Medium
 
 ### Company case
 
-**Path A — Scarce complements.** Speech-model teams may need consented, synchronized recordings of familiar speakers interrupting and talking over each other. YapRoom has produced 1,602 conversations from 239 speakers with separate tracks, speaker-level consent, and transcript screening. OpenYap Turn placed second on an independent end-of-turn benchmark. That result supports the relevance of conversational timing, while the incremental training benefit of this corpus and its value for tool-using speech agents remain untested in the memo. (The Idea, Defensibility, Market & Traction, Key Risks)
+**Path A — Scarce complements.** If frontier-quality speech models become cheap and widely available, consented recordings that capture interruptions and overlapping speech could still constrain teams improving live dialogue. The company claims that common training sources underrepresent these behaviors. The memo records an independent benchmark ranking of #2 for OpenYap Turn on English end-of-turn detection. That result supports the technical relevance of the work. The corpus’s incremental effect on a buyer’s model and the scarcity of equivalent data remain unmeasured. (The Idea, Market & Traction, Key Risks)
 
-Open Yap 1K drew 8,204 monthly downloads under a free license. The company says unnamed labs buy its data. The memo establishes interest in the free release and leaves paid conversion, repeat orders, and buyer commitments unverified. Vestergaard’s prior software company sale and Drejer’s experience building growth and data-science functions support seed-stage execution credit. Custom lab delivery remains unverified. (Market & Traction, Key Facts, Founders & Team)
+YapRoom gives the company operational control over collection, including speaker consent, synchronized tracks, and transcript screening. The two-person team shipped a corpus of 1,602 conversations from 239 speakers. Exclusive rights and a recurring participant pool remain unverified. The free dataset recorded 8,204 monthly downloads, an observed signal of interest. The company says unnamed labs buy its data, while paid repeat use and pricing remain unverified. (Defensibility, Founders & Team, Market & Traction, Key Facts)
 
-At the stated payout, one clear two-speaker hour costs $20 in participant payments before recruitment, human review, and privacy screening. **Scenario assumption.** If the rights permit reuse and multiple labs want the same corpus, additional licenses could spread collection costs. If each lab needs fresh custom recordings, each order carries new collection and review costs. The memo gives no realized license prices or reuse rates to establish contribution margins. (The Idea, Key Risks, Key Facts)
+Participant payouts are $20 per usable two-person conversation hour before linguistic review and screening. Under a scenario where the same hour can be licensed repeatedly at $10 per equivalent hour, two licenses would cover only speaker payouts. Viable expansion depends on realized license prices, reuse rights, and the added cost of screening and review. (Key Risks, Defensibility)
 
 ### Countercase
 
-oto already licenses consented full-duplex recordings at an advertised entry price of $10 per audio hour. That offer gives labs a credible alternative, although the price alone cannot establish comparable quality, rights, or usable yield. With abundant capital, rivals could fund their own collection. YapRoom gives the company control of its current collection workflow, while exclusive access to a recurring speaker pool remains hypothetical. The memo also leaves open whether cheap synthetic speech could match the training outcome. These gaps keep Path A below the outreach gate, with substitution still testable. Path B has no independently supported case for a newly viable buyer or transaction. (Defensibility, The Idea, Key Risks)
+Oto already offers consented full-duplex audio at a published entry price of $10 per audio hour. If labs can obtain equivalent training outcomes and usable rights from oto on comparable terms, YapRoom’s collection workflow offers little protection. The memo establishes a credible alternative and leaves equivalence unresolved. That keeps Path A open at Watch. (Defensibility, Market & Traction)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
 | Path-specific thesis fit | 12/25 |
-| Durable value capture | 7/25 |
+| Durable value capture | 8/25 |
 | Customer demand | 8/20 |
-| Team and execution | 9/15 |
+| Team and execution | 10/15 |
 | Scale economics | 6/15 |
 
-**Total Score: 42/100** (Pass)
+**Total Score: 44/100** (Pass)
 
 ### Decisive diligence question
 
-Will an independent speech-model lab reorder at a price that covers fully loaded delivery after a controlled comparison against the best available substitute? A paid pilot should test both datasets on the same model and training budget against a pre-agreed deployment metric. A material lift followed by a paid reorder, with documented rights and repeatable access to comparable recordings, would support moving to Reach out if rescoring clears the outreach threshold. A substitute that meets the same requirement on comparable terms would move the case to Pass.
+Will an independent speech lab place a repeat order at a price that covers fully loaded delivery after a matched training comparison shows that YapRoom’s rights-cleared data meets a deployment requirement the closest available substitute misses? A paid repeat order on those terms would move the action to Reach out. If the substitute meets the same requirement with comparable rights and economics, the evidenced Path A case closes and the action moves to Pass.

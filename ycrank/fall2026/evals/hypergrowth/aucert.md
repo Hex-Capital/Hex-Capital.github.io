@@ -5,26 +5,26 @@
 
 ### Company case
 
-**Path A — Product-led adoption.** Aucert’s public launch is documented, and the company lists a private beta. Aucert offers mobile engineering and QA leads a free first scan from an app-store link alongside founder demos. It says its agents map app flows and retain customer-approved expectations. The memo gives no instance of an independent buyer completing a scan or committing budget. (The Idea, Market & Traction, Defensibility, Key Facts)
+Repeatable direct sales is Aucert’s strongest path. The memo records a public launch and a private beta reported by Aucert. The company seeks introductions to mobile engineering and QA leaders, offers founder demos, and accepts an app-store link for a free first scan. The sample report shows the kind of evidence a release team could review. Aucert could turn that first scan into a paid workflow for checking successive builds if teams can move to their own release builds through a standard setup. The memo gives no example of an independent buyer completing that transition or committing budget. *(The Idea; Market & Traction; Key Risks)*
 
-**Growth scenario.** If a first scan catches a release-blocking defect, the QA lead has a reason to run it on the next build. Reusing approved expectations could make each subsequent scan easier to set up, while subscription limits on scans, devices, and seats give Aucert ways to monetize deeper use. The same entry point could reach a comparable team outside the US. That assumes the agents can handle the app’s language and that the buyer accepts how screen data is processed. The memo documents neither a second-market rollout nor paid repeat use. (The Idea, Defensibility, Key Risks, Key Facts)
+The core job of checking mobile builds before release plausibly travels across markets for teams that can share screen data with Aucert’s AI providers. Aucert says it retains app-specific knowledge and learns customer-approved expectations. Those features could make later scans more useful, but repeat use and paid expansion remain unobserved. The draft plans describe scan and device limits. Actual billing and the marginal costs of running and supporting scans remain unknown. *(The Idea; Defensibility; Key Risks)*
 
 ### Countercase
 
-A public-link scan may be easy to try while release-grade verification still requires manual setup and review on each build. Aucert’s reliance on customer-approved expectations and human release decisions makes that a concrete risk. Each additional workload can add device runtime and AI processing, while each new account can add founder sales, setup, and support. Google Play’s overlapping checks could also limit what Android teams pay for. The memo leaves the amount of recurring labor and the contribution per scan unmeasured, so the structural Pass gate remains untriggered. (The Idea, Key Risks, Key Facts)
+The first link likely to break is the move from a free scan to dependable use on a team’s own release builds. A scan can miss unvisited flows or infer the wrong behavior. If each deployment requires founders to configure app-specific expectations and review findings, onboarding effort could rise with each account. Aucert also says screenshots and UI hierarchies go to AI providers as captured, with redaction still planned. That could exclude teams with stricter data controls. The memo leaves both constraints testable, so the structural downside gate does not apply. *(The Idea; Defensibility; Key Risks)*
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 9/25 |
+| Global buyer demand | 15/25 |
 | Repeatable acquisition and onboarding | 9/25 |
 | Retention and customer expansion | 7/20 |
 | Contribution as volume grows | 7/20 |
 | Evidence of fit in the first buyer segment | 4/10 |
 
-**Total Score: 36/100** (Pass)
+**Total Score: 42/100** (Pass)
 
 ### Decisive diligence question
 
-Can an independent mobile QA team outside the US start from the app-store link, find a defect that changes a release decision, and pay to scan its next build using the same setup? A paid repeat scan, with onboarding time, support time, and device and AI costs recorded for both builds, would move the action to **Reach out** if it showed the workflow carried over with limited manual effort.
+Can two independent mobile release teams move from a free scan to paid verification on their own builds and use it again on their next release through the same onboarding process? Paid use across both release cycles, with setup records showing bounded effort and successful handoff from the founders, would move the action to Reach out.

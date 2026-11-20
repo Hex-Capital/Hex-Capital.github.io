@@ -5,28 +5,28 @@
 
 ### Company case
 
-**Path B — New economies.** Hundred targets the incoming parts that electronics factories currently leave unchecked under manual sampling. The memo records a public seed-stage launch. Hundred claims its controlled-light benchtop station can scan entire shipping trays, detect defects smaller than 100 µm, and calibrate from one known-good sample. The investment case is that inspecting every part becomes economical for a receiving line that can currently justify inspecting only a sample. Sustained throughput and production error rates remain undisclosed. (The Idea, Market & Traction, Key Risks)
+**Path B — New Economies.** Hundred’s strongest case is making full incoming inspection economical for electronics factories that currently sample parts under microscopes. Hundred says its controlled-light benchtop station scans whole shipping trays, uses one known-good part for calibration, and grades defects smaller than 100 µm. If that design cuts operator time enough to inspect every part at receiving speed and acceptable error rates, factories could buy coverage they previously skipped. The memo records a public launch. Production accuracy, sustained throughput, and independent buyer commitments remain unverified. (The Idea, Market & Traction, Key Risks, Key Facts)
 
-**Scenario assumption.** The station must clear incoming volume at the buyer’s required defect-detection and false-reject rates. Compare fully loaded cost per incoming tray with current sampling, including operator time, changeovers, retries, human review, and quarantine, and credit avoided escapes only if measured. For expansion, each additional station would need to cover hardware, installation, qualification, inference, and support at the price a factory will pay. The memo suggests a station sale or lease and leaves those economics unmeasured. (The Idea, Key Risks, Key Facts)
+Under the scenario assumption that frontier-quality vision models are cheap and widely available, buyers could still pay Hundred for reliable imaging and grading across whole trays in their receiving workflow. Per-part photos and customer-specific grading rules could make the station harder to replace if factories rely on them for failure investigations. Production reliance and buyer preference under functional parity remain untested. (Defensibility, Key Risks)
 
-Hundred documents per-part photo retention. If factories rely on those records for failure investigations, switching could sacrifice useful inspection history even with comparable models. That is a potential reason to stay, with production reliance and willingness to pay still unverified. The memo records relevant founder experience in supplier-part failures, production software, and machine learning for structured geometry. It leaves buyer commitments and factory qualification unverified. (Defensibility, Founders & Team, Market & Traction, Key Facts)
+A station per receiving workflow is a plausible expansion unit. Test the full cost per correctly dispositioned part against current sampling and the manual effort required for full coverage. Include station cost at realized utilization, setup, maintenance, rescans, human review, and quarantine handling, with agreed limits on false rejects and defect escapes. The memo gives no operating inputs to validate that cost comparison or a viable station price. Diaz’s supplier-quality experience, Gosserand’s production software work, and Liao’s structured-geometry research support the team’s ability to run the test. (The Idea, Key Risks, Key Facts, Founders & Team)
 
 ### Countercase
 
-Reflective finishes and acceptable part variation could drive enough manual review or quarantine to erase the labor savings. With cheap models and abundant capital, a factory could also adapt its installed cameras or buy a configurable inspection system. Both alternatives exist, and their ability to match Hundred’s whole-tray workflow at receiving remains untested. Either result could close Path B. The memo also leaves Path A without independent support for a bottleneck Hundred can durably control. A factory comparison can resolve the open conditions, so the current action is Watch. (Defensibility, Market & Traction, Key Risks)
+Reflective finishes and acceptable part variation could generate enough manual review and quarantine work to erase the labor savings or slow receiving. An installed-camera retrofit could also deliver equivalent coverage, accuracy, and throughput while reusing equipment the buyer already has. The memo identifies both risks and gives no head-to-head receiving results. Both required conditions remain open and testable at seed, supporting Watch. (Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 8/25 |
+| Path-specific thesis fit | 9/25 |
 | Durable value capture | 7/25 |
-| Customer demand | 5/20 |
+| Customer demand | 6/20 |
 | Team and execution | 8/15 |
-| Scale economics | 4/15 |
+| Scale economics | 5/15 |
 
-**Total Score: 32/100** (Pass)
+**Total Score: 35/100** (Pass)
 
 ### Decisive diligence question
 
-Will a factory that currently samples incoming parts commit budget for a Hundred station after a production trial against manual sampling and its best camera alternative with comparable model capability? A trial that meets the factory’s quality and throughput requirements, shows that full-tray inspection is economical after exception handling, and produces a paid commitment based on an advantage the camera alternative cannot match would move the action to Reach out if the rescored case clears the outreach threshold. If full inspection remains uneconomic or the camera alternative delivers equivalent results at comparable cost and the buyer sees no reason to choose Hundred, move to Pass.
+Will an independent factory that currently samples incoming parts place a paid repeat order at a price that supports positive contribution for Hundred after a representative trial against manual inspection and a credible camera retrofit using equivalent model capability? Move to Reach out if the trial shows that Hundred makes full coverage economical at receiving speed and within the factory’s error limits, and the buyer pays for a station capability the retrofit cannot match. Move to Pass if representative results show that exception handling erases the savings or the retrofit delivers the same outcome at comparable or lower cost. (The Idea, Defensibility, Key Risks)

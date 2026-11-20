@@ -5,26 +5,26 @@
 
 ### Company case
 
-**Path B — Repeatable sales or partner distribution with account expansion.** Tire Swing targets affordable-housing operators whose staff repeatedly verify tenant income and assets and assemble eligibility certifications. The company describes a workflow that extracts data from tenant documents, applies program and property rules, and sends a packet with supporting evidence to staff for approval. Its published terms specify auto-renewing subscriptions. In a growth scenario, a demo using a prospect’s own file leads to a paid deployment, and the operator then adds properties using the same workflow. Founder introductions and industry events are identified routes to prospects, but the memo gives no conversion or onboarding records that connect those routes to live deployments. (The Idea; Key Risks)
+The strongest path is repeatable direct sales to affordable housing operators. Tire Swing proposes to turn tenant income and asset documents into eligibility certifications that staff can review and approve using their existing forms. The memo records founder requests for introductions, an offer to demo the product on a prospect’s own file, and subscription terms. The founders report dozens of live properties across eight states and several housing programs. That footprint supports portability within the US. Serving another country would likely require adapting eligibility rules, forms, and tenant data handling, and the effort is unknown. (The Idea, Market & Traction, Key Risks)
 
-The founders report dozens of live properties across eight states and several U.S. housing programs. That is an early signal of workflow adoption and domestic portability. The count leaves open how many independent operators pay, how often staff run certifications, and whether any operator has added properties after the first deployment. For a comparable buyer outside the U.S., the scenario assumes that document extraction and staff approval can carry over while eligibility rules, forms, and tenant-data requirements are adapted. The scope and cost of that work are untested in the memo. (Market & Traction; Key Risks; Key Facts)
+If the product fits the first buyer segment, the first link likely to break is the handoff from a tailored demo to a paid, live rollout. Tire Swing’s reported library of compliance checks could make setup reusable. At this stage, a small set of independent buyer rollouts could establish that pattern, but the memo leaves lead-to-payment conversion, setup effort, and buyer budget commitments unverified. Recurring certifications give operators a reason to return, and adding properties could expand a paid account if subscription pricing scales with portfolio coverage. The memo gives no account-level evidence of repeat use or paid expansion. (The Idea, Defensibility, Market & Traction, Key Facts)
 
 ### Countercase
 
-The HOTMA deadline could drive a burst of purchases around a rule change, while ongoing demand and expansion remain unmeasured. The memo documents different deadlines for U.S. housing programs that already require separate configurations. If each new program or property adds substantial rule validation, form setup, and support, subscription revenue could grow alongside delivery labor. Each additional certification also adds OCR and AI processing costs, and customer staff still review and approve it. The memo gives no measured rollout or processing costs. The structural Pass gate remains unmet because the effort required for each new rollout and the extent of configuration reuse are unknown. (Market & Traction; Key Risks; Defensibility)
+The reported footprint could reflect a few portfolios whose properties each require custom setup. Program deadlines and property rules vary, staff must review each certification, and third-party AI and OCR add processing costs. If Tire Swing must repeatedly configure rules and resolve exceptions for each operator, delivery effort could rise in proportion to subscription revenue. The memo gives no rollout hours or marginal cost data to test that scenario. The structural downside gate stays open because the rollout burden is measurable and reuse remains plausible. (Market & Traction, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 12/25 |
+| Global buyer demand | 14/25 |
 | Repeatable acquisition and onboarding | 9/25 |
 | Retention and customer expansion | 7/20 |
 | Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 5/10 |
+| Evidence of fit in the first buyer segment | 4/10 |
 
-**Total Score: 40/100** (Pass)
+**Total Score: 41/100** (Pass)
 
 ### Decisive diligence question
 
-Can an independent affordable-housing operator outside the U.S. buy through a documented sales route and use Tire Swing for recurring paid certifications with bounded localization and onboarding work? A paid rollout showing actual repeat certifications, what changed in the rules and forms, and setup, support, and processing costs relative to a comparable U.S. deployment would answer it. A successful rollout that reuses the core workflow at manageable cost would move the action to **Reach out**. Evidence that each operator requires a fresh compliance build with costs that rise in proportion to revenue and no supported path to reuse would move it to **Pass**.
+Can two independent operators in different states go from the same lead channel to paid, staff-approved certifications using the same onboarding checklist? Move to Reach out if signed orders and rollout logs show that both reached first value and that the second rollout reused the rules and forms workflow with comparable or lower setup hours for a comparable portfolio.

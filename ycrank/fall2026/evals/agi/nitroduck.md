@@ -5,28 +5,28 @@
 
 ### Company case
 
-**Path A — Scarce complements** is the strongest fit. The proposed bottleneck is crop-specific plant regeneration, which can limit editing for fruit and vegetable breeders. Nitroduck proposes editing breeder-supplied pollen so breeders can obtain edited seed through their existing crosses and skip a separate regeneration step. Under the scenario assumption that cheaper intelligence lets breeders design more candidate traits, the ability to turn those designs into usable seed could become more valuable. The memo provides no measured AI-driven demand change, editing efficiency, or validation in a commercially relevant specialty crop. Path B is weaker because the memo identifies neither a newly viable buyer or use nor measured delivery savings at equivalent quality. (The Idea, Key Risks)
+**Path B — New Economies.** Nitroduck proposes a flat-fee pollen-editing service that would fit into breeders’ existing crosses and bypass crop-specific plant regeneration. The company identifies tissue culture as a constraint and estimates that developing a new trait costs $3 million. The investment hypothesis is that removing the regeneration step could make editing economical for specialty-crop programs that previously relied on conventional crossing or shelved a trait. The memo records a public launch, while edited seed in a commercially relevant specialty crop remains a stated milestone. There is no measured labor saving or buyer commitment for that use. (*The Idea*, *Market & Traction*, *Key Risks*, *Key Facts*)
 
-The founders’ completed duckweed engineering project and crop research support their ability to attempt the seed-stage milestone. The public launch establishes that Nitroduck offered the service. The memo offers no evidence of buyer commitment or payment, so customer demand takes the absent-evidence default. Seed stage fits the strategy. Czechia makes geographic fit less direct under a primarily U.S. mandate. (Founders & Team, Market & Traction, Key Facts)
+The relevant comparison is labor and full delivery cost per confirmed edited seed that meets the breeder’s requirements. The proposed service could remove regeneration labor, but the comparison must include failed attempts, verification, shipping, and compliance. For the breeder, the fee plus those remaining costs must make a previously excluded project viable. For Nitroduck, the fee must cover delivery at the realized success rate. The memo gives no price, yield, or delivery-cost figures. (*The Idea*, *Key Risks*)
 
-The proposed flat fee defines a unit of sale. The scale case would depend on the fee per breeder project covering lab work, failed attempts, verification, and fulfillment, and on how many projects the team could serve across qualified crops. The memo gives no price, cost, or throughput figures to assess that bridge, so scale economics takes the absent-evidence default. (The Idea, Key Risks)
+Under the scenario of cheap, equivalent frontier models, breeders could still pay Nitroduck to execute the physical work if it can reliably deliver a result they cannot obtain on comparable terms. The founders’ prize-winning duckweed work supports seed-stage execution credit. Whether Nitroduck can deliver and control the specialty-crop service remains unproven. (*Defensibility*, *Founders & Team*, *Key Risks*)
 
 ### Countercase
 
-Even if the service works, breeders could meet their needs through other providers. Pairwise already licenses editing tools to a vegetable breeder, Hudson River Biotechnology offers editing with regeneration, and Plantik’s published pollen-editing patent application raises possible overlap. In the abundant-capital scenario, competitors could fund crop-by-crop qualification, and the memo establishes no Nitroduck rights or operating advantage that would protect its economics. Those alternatives and the potential IP overlap weigh against durable value capture. Whether they can serve the same hard-to-edit crops or prevent Nitroduck from serving them remains unresolved. The Path A override stays open, and the missing evidence on performance and control keeps the company below the outreach gate. (Defensibility, Market & Traction, Key Risks)
+Low success rates or crop-specific rework could erase the labor savings and leave the same projects uneconomic. Even if the service works, Pairwise already licenses editing tools to a vegetable breeder, and Plantik’s published pollen-editing patent application raises potential overlap. Those facts establish competitive and IP risks, while equivalent delivery and actual claim overlap remain unresolved. Neither Path B condition has been demonstrated. A breeder trial can test both, supporting Watch. (*Defensibility*, *Market & Traction*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
 | Path-specific thesis fit | 8/25 |
-| Durable value capture | 5/25 |
+| Durable value capture | 6/25 |
 | Customer demand | 5/20 |
-| Team and execution | 9/15 |
-| Scale economics | 4/15 |
+| Team and execution | 7/15 |
+| Scale economics | 5/15 |
 
 **Total Score: 31/100** (Pass)
 
 ### Decisive diligence question
 
-Can Nitroduck complete one breeder-funded qualification trial in an existing specialty-crop breeding program, meeting the breeder’s pre-agreed threshold for usable edited seed without separate regeneration? A verified success would establish bottleneck relief and buyer commitment and warrant rescoring for Reach out, subject to credible control of delivery and the remaining outreach gates. A trial showing the workflow still requires the regeneration step it promises to remove would favor Pass if it rules out the proposed route. (Key Risks)
+Can Nitroduck win a repeat paid order from an independent breeder after delivering confirmed edited seed for a specialty-crop project that breeder previously ruled out on cost? Move to **Reach out** if the trial shows lower labor and full cost per successful outcome, the fee covers Nitroduck’s delivery costs, and the breeder reorders because available alternatives cannot deliver on comparable terms. Move to **Pass** if a representative trial shows that the savings fail to open the use or that an equivalent provider can match the outcome and economics. (*The Idea*, *Defensibility*, *Key Risks*)

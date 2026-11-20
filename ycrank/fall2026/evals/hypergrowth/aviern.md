@@ -5,28 +5,28 @@
 
 ### Company case
 
-**Path B — Repeatable sales or partner distribution with account expansion.** The initial buyer is a parcel carrier’s feeder-program lead. Aviern says urgent shipments to smaller U.S. communities can require a truck leg beyond the airports served by crewed feeder routes. In a per-flight service scenario, a carrier would pay to put one recurring lane into service, then add flight frequency and destinations through the same agreement. Growth would compound if Aviern could reuse the carrier integration, aircraft platform, and launch process across lanes and carriers. (The Idea)
+Aviern’s strongest path is repeatable direct sales to parcel carriers. The recurring job is moving urgent freight from a carrier hub to smaller communities where shipments currently finish by truck, according to Aviern. If one feeder lane proves valuable, the same carrier could add paid flights or routes using the same aircraft, dispatch software, and operating procedures. The job plausibly recurs across markets, but operating approvals and airport integration remain unresolved. The Idea; Key Risks.
 
-The memo records a flown scaled demonstrator and public requests for introductions to FedEx, UPS, and DHL. Aviern reports more than 150 autonomous demonstrator miles. That is an early technical signal. Buyer urgency, paid cargo activation, and repeat shipments remain unverified. In a second-market scenario, the same carrier could bring the same feeder job and aircraft platform to a non-U.S. market, but Aviern would still need operating approval, airport and ground-handling arrangements, and enough recurring freight on the new lanes. The memo gives no evidence of willingness to pay in a second geography. (The Idea, Market & Traction, Key Facts, Key Risks)
+The memo documents a cargo launch and requests for introductions to carrier feeder-program leads. Aviern reports more than 150 autonomous miles on a scaled demonstrator. That supports early flight feasibility. Evidence of carrier commitment, commercial onboarding, and repeat paid use is absent. The Idea; Market & Traction; Key Facts.
 
-Under the per-flight scenario, route contribution would start with carrier payments and deduct the costs attributable to running the lane. More flights add operating and maintenance costs, ground handling, and any required supervision. More lanes add airport setup and approvals, and more aircraft tie up fleet capital. Aviern’s estimate of about $100 per flight hour is an aircraft operating-cost estimate. Its scope and the carrier price, aircraft utilization, and all-in lane costs remain unverified. The growth lever is spreading carrier integration and route-launch work over more paid flights. (The Idea, Key Risks)
+The first link likely to break, even assuming strong carrier demand, is turning that demand into a lawful, repeatable commercial go-live. In an illustrative per-flight model, revenue from an added lane would need to cover its incremental aircraft capacity, maintenance, ground handling, and support at realized utilization. Aviern’s estimate of about $100 per flight hour leaves those economics unmeasured at commercial scale. The Idea; Key Risks.
 
 ### Countercase
 
-A successful first lane could still require fresh approvals, substantial setup, and dedicated aircraft for each expansion. In the U.S., the proposed 110 lb total-weight cap for certificated package delivery would rule out an aircraft targeting a 1,000 lb payload if the rule were adopted as drafted and the service fell into that category. The memo leaves the feeder-route classification unresolved, and the flight evidence comes from a scaled demonstrator. The Pass gate remains open because a structural ceiling or proportional rollout costs have yet to be established. (The Idea, Key Risks)
+If the proposed 110 lb total-weight limit for certificated package delivery applies to Aviern’s airport-to-airport feeder service, it would rule out the planned A1000 in that category, given its 1,000 lb payload target. Even with a viable authorization route, each added lane could require enough aircraft capacity and local setup to keep costs rising in step with revenue. The structural downside gate remains open. The classification is unresolved, and scaled flight tests provide no evidence that commercial rollout costs rise proportionally. The Idea; Key Risks.
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 9/25 |
+| Global buyer demand | 11/25 |
 | Repeatable acquisition and onboarding | 9/25 |
 | Retention and customer expansion | 7/20 |
 | Contribution as volume grows | 7/20 |
 | Evidence of fit in the first buyer segment | 4/10 |
 
-**Total Score: 36/100** (Pass)
+**Total Score: 38/100** (Pass)
 
 ### Decisive diligence question
 
-Will an independent parcel carrier fund a pilot on one representative feeder lane for a recurring freight need? A funded commitment with a defined freight schedule, a credible authorization path for the test aircraft, and a plan to measure turnaround and all-in lane cost would move the action to **Reach out**. It would establish buyer commitment and give the pilot a way to test whether the lane can be repeated.
+Can Aviern complete a carrier-funded pilot with repeat flights on one feeder lane under an authorization that covers the intended aircraft weight and payload? Repeat flights and a record of setup and operating effort that shows what can carry over to a second lane would move the action to Reach out. A determination that the target service requires a core aircraft or delivery redesign with no viable alternative would move it to Pass.

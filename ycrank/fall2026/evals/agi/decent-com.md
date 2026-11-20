@@ -5,15 +5,15 @@
 
 ### Company case
 
-**Path B, New economies.** Decent offers small employers self-serve plan quotes and reviews available claims during the year. The opportunity is to make ongoing review economical for employers previously served mainly at renewal. The founders report that AI handles 89% of brokerage work and that one client’s one-off surgery, which accounted for 46% of claims spending, was excluded from the following year’s rates. The surgery example illustrates what a successful intervention can deliver. The labor comparison remains open because the reported automation share gives no human hours per successful review at equivalent quality, including retries, exceptions, and compliance. (The Idea, Market & Traction, Key Risks)
+Path B, New Economies, is Decent’s strongest path. The memo describes small employers revisiting coverage at annual renewal, leaving some billing errors and claims adjustments unaddressed during the year. The investment hypothesis is that AI can make year-round review economical for employers who previously went without it. Decent reports that AI handles 89% of brokerage work and that a one-time surgery representing 46% of one client’s claims spend was excluded from the next year’s rates. The case illustrates what an intervention can achieve. The reported automation share leaves labor time and full cost per successfully resolved issue unknown. (*The Idea*, *Market & Traction*)
 
-The founders report working with 67 companies. Separately, Serif Health and Locate report annual savings of $60,000 and more than $100,000, respectively. These are early demand signals. Broker-of-record conversion, repeat use among employers newly receiving in-year review, and realized commissions are undisclosed. Soman’s experience operating health plans and Budker’s experience deploying AI agents give the team relevant execution experience. Consistent review quality across employers remains unverified. (Market & Traction, Key Facts, Founders & Team)
+The memo documents a live self-serve quote workflow. Decent reports working with 67 companies, and named customers report savings, including more than $100,000 against Locate’s renewal quote. These are early signals of use and customer value, with repeat use and demand from employers newly served by year-round review still unverified. Soman’s prior health-plan operating experience, Budker’s AI deployment experience, and the live quoting workflow support seed-stage execution. (*The Idea*, *Market & Traction*, *Founders & Team*)
 
-**Scale scenario.** If automation makes year-round review viable, the expansion unit is one more employer account with usable claims reports. Its contribution is the realized provider commission less acquisition, onboarding, inference, reviewer and exception-handling time, and ongoing service costs. Decent discloses the commission model and uses self-serve quotes and referrals, but the inputs needed to estimate contribution across accounts remain unknown. (The Idea, Key Facts, Key Risks)
+The expansion unit is one employer served for one plan year. Under the scenario that Decent can extend year-round review at low marginal cost, realized commissions per employer must cover acquisition, claims processing, licensed review, exceptions, compliance, and follow-through. Employer savings establish the potential value of an intervention, while Decent’s contribution remains unknown. Under model parity, the plausible reason to choose Decent is its ability to carry an issue through to a carrier or administrator correction. The memo provides individual outcome reports and leaves the repeatability and distinctiveness of that service unresolved. (*The Idea*, *Market & Traction*, *Key Facts*, *Key Risks*)
 
 ### Countercase
 
-Decent may be making an existing brokerage service cheaper while competing brokers gain access to the same automation. Corridor already automates quotes and proposals, and Ignition combines automation with licensed staff. Decent’s in-year review depends on the reports carriers and administrators share, which also limits the case for Path A. A client would have a reason to stay under model parity if Decent consistently resolved issues or negotiated renewals better than an equivalent broker. The reported savings establish neither that preference nor a durable right to the underlying data. The competitive overlap and dependence on report access weaken value capture, while both necessary Path B conditions remain open to testing. The override does not trigger. (Defensibility, Market & Traction, Key Risks)
+Decent could be making conventional commission brokerage more efficient while serving employers who already have access to comparable help. Corridor automates quoting and proposals, and Ignition combines automation with licensed benefits service. Carriers and administrators determine what claims data Decent receives, and providers set commission terms. That dependence weakens durable capture and supplies no independent Path A case. The competitive overlap leaves open whether rivals can match Decent’s in-year interventions. Neither Path B condition is settled, so the action is Watch. Confidence is Low because the decisive cost and buyer-choice comparisons are missing. (*Defensibility*, *Market & Traction*, *Key Risks*)
 
 ### Dimension Scores
 
@@ -21,12 +21,12 @@ Decent may be making an existing brokerage service cheaper while competing broke
 |-----------|-------|
 | Path-specific thesis fit | 11/25 |
 | Durable value capture | 5/25 |
-| Customer demand | 9/20 |
-| Team and execution | 10/15 |
-| Scale economics | 5/15 |
+| Customer demand | 10/20 |
+| Team and execution | 9/15 |
+| Scale economics | 6/15 |
 
-**Total Score: 40/100** (Pass)
+**Total Score: 41/100** (Pass)
 
 ### Decisive diligence question
 
-Can Decent profitably deliver year-round claims review to small employers previously served only at renewal and retain them when a broker with comparable AI capabilities and claims access offers the same service? Follow a cohort through one renewal, recording actual commissions, human review and exception time, and intervention quality against equivalent manual delivery. Track which employers choose and stay with Decent when given the comparable offer. A credible result on both conditions would support Reach out if the updated score clears the outreach threshold. A representative trial showing that realistic service costs erase the savings or that employers see no reason to stay under parity would move the action to Pass.
+Can Decent profitably deliver year-round claims review to small employers who previously went without it and earn their renewal against a broker with equivalent AI and claims-data access? A representative cohort would need to show lower full cost per verified resolution than comparable manual review, positive contribution at realized commissions, and renewals attributable to Decent’s follow-through. Evidence of all three would move the action to Reach out. Costs that erase the savings or buyers who switch and keep the same outcome would close Path B and move the action to Pass.

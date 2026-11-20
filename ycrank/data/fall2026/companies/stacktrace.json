@@ -23,11 +23,11 @@
   "memoGeneratedAt": "2026-11-18T00:14:49.484Z",
   "evalScores": {
     "agi": {
-      "score": 38,
+      "score": 36,
       "tier": "Pass"
     },
     "hypergrowth": {
-      "score": 37,
+      "score": 43,
       "tier": "Pass"
     },
     "exit": {
@@ -36,12 +36,12 @@
     }
   },
   "consolidatedScores": {
-    "AGI": 38,
-    "HG": 37,
+    "AGI": 36,
+    "HG": 43,
     "EXIT": 37
   },
-  "consolidatedAvg": 37.33,
-  "consolidatedRank": 132,
+  "consolidatedAvg": 38.67,
+  "consolidatedRank": 159,
   "traction": null,
   "paths": {
     "memo": "fall2026/memos/stacktrace.md",

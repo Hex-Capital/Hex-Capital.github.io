@@ -5,28 +5,28 @@
 
 ### Company case
 
-**Path A, scarce complements.** Aikido is targeting firm power for AI compute where onshore grid connections can take years. The memo reports at least 180 GW of advanced-stage data center projects in queues globally. If cheaper intelligence expands compute demand in those markets, buyers could pay for earlier access to usable capacity. Aikido’s proposed floating platform combines on-site wind generation, batteries, diesel backup, and seawater cooling. The physical system would still have to deliver reliable power and cooling even if buyers and competitors had access to the same models. (The Idea, Market & Traction)
+**Path A — Scarce complements.** Aikido could sell earlier access to dependable compute capacity for AI labs and cloud operators facing multiyear waits for firm grid power. Its proposed AO60DC platform combines offshore wind, batteries, diesel backup and seawater cooling. If that combination meets a buyer’s uptime requirements and can be commissioned ahead of its onshore option, the buyer could pay to avoid the grid delay. The memo reports that the A1DC pilot retrofit began and received platform permits, with water deployment still planned in the cited update. That shows progress toward a field test. Aikido says prospective GPU renters are lined up, but the reservation form is nonbinding and the memo identifies no buyer commitment or payment. (The Idea, Market & Traction, Key Risks)
 
-The memo documents a granted patent covering a folding floating-wind platform. That gives Aikido control over a specific design. The founders’ floating-wind and marine engineering experience is relevant, and Aikido reports that its fabrication partner assembled the predecessor platform in under 40 working hours. Aikido also reports final platform permits for its A1DC retrofit. These are credible steps for a U.S.-based seed-stage case, with integrated offshore compute performance still to be demonstrated. The company says prospective GPU renters are lined up. Its inquiry form is nonbinding, and the memo gives no signed capacity contract or realized revenue. (Defensibility, Founders & Team, Market & Traction, Key Risks, Key Facts)
+The granted U.S. patent protects a folding floating-wind platform design. The founders’ offshore wind and hydrodynamics experience, along with the reported assembly of the earlier Aikido One structure in under 40 working hours, support the team’s ability to build the platform. Whether Aikido can turn those capabilities into control of qualified, dependable compute capacity remains open. (Defensibility, Founders & Team, Market & Traction)
 
-**Scale scenario.** At an assumed 10 MW of continuous IT load and a PUE of 1.08, one AO60DC module would need about 10.8 MW of continuous facility power. The design calls for a 15+ MW turbine, whose nameplate rating leaves firm output during low wind unresolved. The expansion unit is one deployed module. Revenue from contracted, usable capacity would need to cover annualized platform and deployment costs, backup fuel, marine servicing, connectivity, and GPU costs where Aikido supplies the hardware. The memo provides design targets and leaves utilization, delivered uptime, and per-module costs unverified. (The Idea, Key Risks)
+The expansion unit is one AO60DC platform. **Illustrative scenario:** At 10 MW of IT load, meeting Aikido’s power usage effectiveness target of below 1.08 would require less than 10.8 MW of total facility power. The proposed 15+ MW turbine rating is nameplate capacity. Deliverable uptime depends on wind output, storage, backup generation and maintenance. For colocation, revenue from contracted IT capacity must cover platform and installation costs over the asset’s life, plus backup fuel, marine servicing and the cost of downtime. The memo gives design targets and a pricing model, while realized utilization, pricing and costs remain unknown. (The Idea, Key Risks, Key Facts)
 
 ### Countercase
 
-The grid queue can be real while the economics of relieving it flow to another supplier. With abundant capital, rival offshore designs could offer comparable capacity. The memo identifies wave-powered nodes, gas-powered barges, subsea modules, and a competing shipbuilder-led design. Aikido’s patent protects a particular platform design, and the memo establishes neither exclusive deployment access nor a buyer-qualified performance advantage. Low wind and vessel-dependent servicing could also make firm offshore capacity expensive to deliver. Rival designs establish credible alternatives, while buyer substitution at equivalent service levels remains untested. The Path A override stays open, and the Reach out gate remains unmet. (Defensibility, Market & Traction, Key Risks)
+The platform could trade an onshore grid delay for offshore certification, variable generation and vessel-dependent maintenance. The patent covers a platform design, and competing marine projects use other designs and power sources. If a rival can deliver equivalent uptime and capacity on comparable terms within the buyer’s required window, the patent may offer little protection for Aikido’s pricing. The memo leaves that substitution test unresolved, so the path remains open. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 14/25 |
+| Path-specific thesis fit | 12/25 |
 | Durable value capture | 9/25 |
 | Customer demand | 6/20 |
-| Team and execution | 10/15 |
+| Team and execution | 9/15 |
 | Scale economics | 5/15 |
 
-**Total Score: 44/100** (Pass)
+**Total Score: 41/100** (Pass)
 
 ### Decisive diligence question
 
-Can Aikido win a binding, priced capacity order from an independent buyer facing a grid delay after an independently witnessed offshore trial at a representative load? The trial should meet the buyer’s uptime and connectivity requirements through low wind and a servicing event, with measured backup and servicing costs that support the contract price and documented deployment rights that let Aikido retain the economics. That milestone would support Reach out if it lifts the score to at least 65 with medium or higher confidence. Evidence that Aikido cannot meet those requirements at a viable price would move the action to Pass.
+Will an independent buyer facing a documented grid delay sign a binding capacity reservation with a meaningful deposit for a site Aikido has the right to use? A reservation backed by metered offshore pilot results, priced to support platform economics and offering a credible delivery lead over the buyer’s alternatives would move the action to **Reach out**. Evidence that the buyer can secure equivalent capacity on comparable or better terms within the same window would move it to **Pass**. (The Idea, Market & Traction, Key Risks)

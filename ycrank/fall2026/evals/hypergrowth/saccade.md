@@ -5,26 +5,26 @@
 
 ### Company case
 
-**Path B, repeatable partner distribution with expansion,** is Saccade’s strongest path. The likely first paying buyer is an adult seeking assessment before memory symptoms. Longevity clinics could refer similar patients, and Acuity could grow through more patients per clinic and repeat testing. The memo documents a working headset attachment and a listed price of $897 per test on a three-month billing schedule. Saccade reports testing adults at San Francisco clinics, but the memo gives no paid conversion, completed study enrollment, or renewals. The reported testing establishes that people tried an assessment. Buyer commitment to Acuity remains unverified. (The Idea, Defensibility, Market & Traction, Key Facts)
+The strongest path is channel-led sales through longevity practices. The likely paying buyer is an adult seeking to monitor cognitive changes before memory symptoms appear. If buyers find the results useful enough to pay for follow-up, clinics could refer similar patients into a standard Acuity visit. The buyer and job plausibly carry across markets, but each rollout needs a way to deliver headset exams, blood draws, and physician consultations locally. (The Idea, Key Risks)
 
-If demand carries into a second market, Saccade could reuse the headset exam and scoring software. It would still need a referral partner and arrangements for staffing, scheduling, blood collection, lab processing, and physician consultations. At the listed price, assuming full collection, each test would contribute $897 less acquisition or referral costs, visit labor and travel, lab and clinician charges, and headset costs allocated per test. Higher headset utilization and a clinic handling routine setup could lower costs per test. The memo provides neither measured delivery costs nor a second-market rollout. (The Idea, Key Risks, Key Facts)
+The memo documents a working headset design and a listed Acuity price of $897 per test, billed every three months. Saccade reports testing adults at San Francisco clinics and soliciting referrals to U.S. longevity practices. The clinic testing shows early operating activity, but the memo gives no account of a referral leading to a paid visit, a target buyer committing budget, or a patient returning for a second paid test. It also gives no implementation hours or per-visit costs. Even assuming strong buyer fit, the first unproven link is whether an independent clinic can turn referrals into paid visits through a workflow local staff can run. (Defensibility, The Idea, Market & Traction, Key Facts)
 
 ### Countercase
 
-The assessment lacks validation for individual risk prediction, and the treatment pathway described in the memo requires early symptomatic disease and amyloid confirmation. An asymptomatic buyer may therefore have little reason to pay for a second assessment. Meanwhile, each test requires another headset appointment, blood draw, and physician consultation. That combination could leave Saccade with one-time demand and delivery costs that rise roughly with volume. The Pass gate remains unmet because the memo has no paid cohort or measured rollout showing that either constraint is structural. (The Idea, Key Risks, Key Facts)
+Saccade says its investigational assessment lacks validation for individual risk prediction. The memo also describes limited immediate treatment implications for asymptomatic patients. Buyers may therefore try an initial assessment and see little reason to pay for quarterly follow-up. If every visit also adds substantial local staffing, scheduling, and clinician time, higher volume may bring little improvement in contribution. The structural downside gate stays open because the memo has no observed pattern of paid buyers declining follow-up and no rollout cost measurements showing that delivery costs grow in proportion to revenue. (The Idea, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 9/25 |
+| Global buyer demand | 12/25 |
 | Repeatable acquisition and onboarding | 9/25 |
 | Retention and customer expansion | 7/20 |
 | Contribution as volume grows | 7/20 |
 | Evidence of fit in the first buyer segment | 4/10 |
 
-**Total Score: 36/100** (Pass)
+**Total Score: 39/100** (Pass)
 
 ### Decisive diligence question
 
-Can an independent longevity clinic in a second geography use the same workflow to convert referred asymptomatic adults into paying Acuity customers who return for the next quarterly test? A cohort that pays and returns, with positive contribution after measured acquisition and delivery costs and without routine founder involvement, would move the action to Reach out.
+Can an independent longevity practice in a second market refer patients who pay for and complete Acuity visits that local staff run using a standard protocol? A documented rollout showing completed paid visits, bounded setup effort, and recorded staff time would move Saccade to Reach out.

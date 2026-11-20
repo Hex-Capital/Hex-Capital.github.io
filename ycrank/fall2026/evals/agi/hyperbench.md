@@ -5,28 +5,26 @@
 
 ### Company case
 
-**Path B — New economies** is the stronger fit. HyperBench says its system graph helps agents trace faults across hardware, firmware, and software, propose fixes across repositories, and retest them on a customer’s existing bench before submitting a draft pull request. Its published evaluation covers diagnostic questions and repository repairs assessed with executable validators or blinded review. That supports the technical premise at seed. Equivalent-quality labor savings on customer benches remain unmeasured in the memo. (The Idea, Key Risks)
+**Path B — New Economies.** HyperBench could make bench-verified checks on routine cross-repository changes economical for small embedded teams that currently reserve physical retesting for higher-risk work. That buyer and testing cadence are scenario assumptions. The memo describes a manual workflow that requires engineers to cross-check datasheets, board layouts, and code before reproducing a fault on a physical bench. HyperBench says its system graph lets agents trace those faults, propose cross-repository repairs, and retest on the team’s existing hardware. Its reported evaluation covers diagnostic questions and repository debugging, with executable validators or blinded review for repairs. The labor savings on customer benches remain unmeasured. (The Idea, Key Risks)
 
-**Scenario assumption:** A small embedded team that reserves cross-repository bench verification for escalated failures could afford to run it on routine changes if the agent reduces engineer time per accepted fix after setup, review, retries, and exceptions. The memo documents a custom Rust indexing pipeline for hardware identifiers and configuration relationships. That provides some support for a product advantage. Whether accumulated mappings and test history give buyers a reason to keep paying under model parity remains a hypothesis. (The Idea, Defensibility, Key Risks)
-
-The Fall 2026 private-beta launch is observable. Buyer commitments, paid use, and repeat use remain unknown. Leong’s firmware work and Ge’s AI infrastructure work are relevant to building the product, while repeatable deployment across customer benches remains unproven. A team subscription is inferred, and the memo supplies no pricing or measured cost to onboard and support the next bench. The San Francisco seed-stage opportunity fits the mandate in principle. (HyperBench, Market & Traction, Founders & Team, The Idea, Key Facts)
+The relevant comparison is full cost per successful, engineer-accepted check. HyperBench would need to save enough diagnosis, repair, and retest labor to cover interface mapping and bench setup, agent runs, retries, exceptions, and engineer review. Deployment on existing benches gives it a plausible team-by-team rollout. The founders’ firmware and AI infrastructure experience, together with the private beta, support seed-stage execution. The memo documents launch attention, while buyer commitments, repeat use, and realized deployment costs remain unknown. (The Idea, Founders & Team, Market & Traction, Key Risks)
 
 ### Countercase
 
-HyperBench could speed up debugging that teams already do while custom bench integration and engineer review consume the savings needed to make routine verification viable. Embedder’s reported real-device testing through SEGGER probes shows that a competitor already covers part of the workflow. With cheap frontier models and comparable bench integrations, buyers might get equivalent cross-repository verification elsewhere. Customers supply the benches, and the memo identifies no separate scarce resource HyperBench controls for Path A. The overlap makes substitution credible, while both decisive Path B conditions remain open to testing. That supports Watch. (The Idea, Defensibility, Key Risks)
+HyperBench may speed up verification that embedded teams already perform without making additional checks economical. Under model parity, teams might also get the same result from competing tools on their own benches. Embedder already supports physical firmware debugging, and HyperBench’s proposed advantage from accumulated interface mappings and test history remains untested in buyer comparisons or migrations. Existing customer benches also leave no evidenced Path A case for HyperBench-controlled scarce capacity. The overlap leaves both Path B gates open for testing at seed. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 9/25 |
-| Durable value capture | 7/25 |
+| Path-specific thesis fit | 10/25 |
+| Durable value capture | 8/25 |
 | Customer demand | 5/20 |
 | Team and execution | 9/15 |
-| Scale economics | 4/15 |
+| Scale economics | 5/15 |
 
-**Total Score: 34/100** (Pass)
+**Total Score: 37/100** (Pass)
 
 ### Decisive diligence question
 
-Will an independent embedded team repeatedly pay HyperBench to bench-verify routine changes it previously skipped when a same-model alternative can deliver equivalent verification quality? A paid pilot on the team’s existing bench should compare the prior manual workflow and the alternative at matched quality, tracking engineer time per accepted change including setup, review, retries, and exceptions. Repeated paid use at a price that covers delivery costs, with measured labor savings and continued preference under parity, would support Reach out if the updated score reaches 65 with at least medium confidence. If labor savings leave routine verification uneconomic or the buyer switches freely under parity, close Path B and move to Pass on the current Path A evidence.
+Will an independent embedded team pay to repeat bench-verified checks it previously skipped after comparing HyperBench with its manual workflow and a credible rival using the same model? Move to Reach out if measured end-to-end costs support the new cadence and the team places a paid repeat order because HyperBench’s system context and bench workflow confer a measurable advantage. Move to Pass if the trial shows that the added checks remain uneconomic or that the rival delivers the same outcome and the buyer readily switches.

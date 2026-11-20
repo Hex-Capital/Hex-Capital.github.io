@@ -5,26 +5,26 @@
 
 ### Company case
 
-**Path A — Product-led adoption.** The likely first buyer is an engineering team lead whose team regularly reviews work from multiple coding agents. Spacesheep describes a self-serve workflow in which a developer publishes an agent’s output to a hosted link and teammates comment or request revisions. If reviewers begin publishing their own work and bring in more teammates, sharing could drive adoption and create demand for paid Team seats. The memo records 651 Product Hunt followers and 28 Chrome extension users. Spacesheep showcases an AI Foundry dashboard, but independent buyer commitment, paid conversion, and repeat use remain unverified. (The Idea, Market & Traction, Key Facts)
+**Product-led adoption** is the strongest path. The likely first buyer is a software team that repeatedly reviews dashboards, mockups, or other outputs from coding agents. Spacesheep describes a workflow in which one user publishes from Claude Code, Codex, or Cursor through MCP or a CLI, then shares a hosted link where teammates can comment and request revisions. If teams adopt that workflow, each shared artifact can introduce another collaborator to the product, and recurring review can create a reason to buy Team seats at the listed $10 per member per month. The same publish-and-review workflow plausibly travels across markets through hosted links, subject to connector access and data governance. Paid adoption across markets remains unreported. (The Idea, Key Risks, Key Facts)
 
-The same publishing and review workflow could serve teams abroad. A second-market rollout would test whether teams can connect their agents under local data-handling requirements and buy and use the same product through the existing signup flow. In a paid expansion scenario, each additional Team seat at the listed $10 per month would add revenue alongside any incremental model usage, hosting, and support costs. Connector setup and governance reviews could also add work per account. The memo provides no cross-market buyer evidence or measured costs to establish how contribution changes as usage grows. (The Idea, Key Risks, Key Facts)
+The memo records Product Hunt visibility and 28 Chrome extension users. The company showcases an AI Foundry lab dashboard, which illustrates what can be published. The first unresolved link is whether independent teams move from discovery to recurring review and payment through self-serve onboarding. The launch and install counts leave that conversion unmeasured, and the dashboard example leaves buyer commitment and repeat use open. Hosting, agent revisions, and support could add costs as usage grows, with no marginal cost measurements in the memo. Those gaps warrant the defaults for acquisition, retention, contribution, and initial fit. (Market & Traction, The Idea, Key Facts)
 
 ### Countercase
 
-Teams may find native publishing sufficient, leaving Spacesheep with a narrower set of buyers who routinely review work across multiple agents. Claude Artifacts and ChatGPT Sites already publish inside their respective products. Claude Code on the web also restricts access to Spacesheep’s domains by default, which could turn a self-serve signup into an administrator-assisted setup. These are concrete risks to demand and onboarding. The memo leaves their effect on buyer behavior and per-account delivery effort unresolved, so the structural Pass gate remains unmet. (Key Risks, The Idea)
+Teams may share an occasional Spacesheep link while keeping routine reviews inside Claude Artifacts or ChatGPT Sites. Teams most likely to value cross-agent publishing may also face setup friction from Claude Code’s default web restrictions or internal rules on sharing coding-session content. The free year of Team offered to YC founders further limits what adoption under that offer would reveal about willingness to pay. These risks leave paid self-serve adoption uncertain. The structural downside gate remains untriggered because the memo documents friction and substitutes while leaving the cross-agent workflow viable to test. (Key Risks, Defensibility, The Idea)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 9/25 |
+| Global buyer demand | 15/25 |
 | Repeatable acquisition and onboarding | 9/25 |
 | Retention and customer expansion | 7/20 |
 | Contribution as volume grows | 7/20 |
 | Evidence of fit in the first buyer segment | 4/10 |
 
-**Total Score: 36/100** (Pass)
+**Total Score: 42/100** (Pass)
 
 ### Decisive diligence question
 
-Can a cohort of independent engineering teams in a second geography reach paid, recurring use through the same self-serve publish-and-share flow? Signup and usage records showing teams connect without founder assistance, pay for Team, and return to review agent output at their normal work cadence would move the action to **Reach out**.
+Can two unaffiliated software teams discover Spacesheep through the same self-serve channel, publish and bring teammates into review without founder help, then convert to paid Team seats after using it across several normal review cycles? Account activity and billing records showing that sequence outside the free-year offer would move the action to **Reach out**.

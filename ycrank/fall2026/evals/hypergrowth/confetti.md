@@ -5,28 +5,26 @@
 
 ### Company case
 
-**Path A, product-led adoption.** Confetti’s first buyer is a novice hardware maker trying to turn an idea into a buildable object without spending weeks learning CAD, sourcing parts, and writing firmware. The memo records 36 public design pages. The founders report users working on a custom keyboard, a portable mechanical analyzer, and personalized gifts. Those signals show early project activity. Paid activation, completed builds, and repeat use remain unverified. (The Idea, Market & Traction, Key Facts)
+Product-led adoption is Confetti’s strongest path. The plausible first buyer is a maker who regularly prototypes custom hardware and wants to spend less time learning CAD and coordinating fabrication. Confetti documents a self-serve workflow that turns prompts and reference images into editable CAD, parts plans, and assembly instructions. Public designs give new users a starting point they can remix, and fabrication-file export lets them use a local printer. That makes the core design workflow plausibly portable with bounded changes. Integrated ordering still depends on supplier availability and delivery. (The Idea, Key Risks)
 
-If published designs give the next thousand makers a useful starting point, self-serve remixing could bring them from discovery to editable CAD and a first build without founder help. Makers who return for another project could convert to a paid plan. The same design workflow could plausibly travel to another market, where Confetti would need to verify that suggested components are available and eligible designs can be printed and delivered at workable prices. The memo gives no evidence of buyer demand in a second geography. (The Idea, Market & Traction, Key Risks)
-
-The listed subscription starts at $29 per month. On an illustrative $100 supplier order where the service fee applies, Confetti would collect $5.50 in fee revenue before any incremental costs it bears. Contribution depends on generation and revision compute, support for makers who get stuck, and any order support Confetti handles. Supplier fulfillment gives Confetti a way to serve orders without operating its own print capacity. The memo leaves both realized revenue and marginal costs unverified. (The Idea, Market & Traction, Key Risks, Key Facts)
+The memo records 36 public design pages and launch activity on YC and Product Hunt. The founders report users working on projects including a custom keyboard and a portable mechanical analyzer. Those signals establish that designs were published and that the founders saw concrete projects underway. The memo gives too little evidence to trace independent users from a named channel through a validated build and payment, establish buyer commitment, or assess repeat use. Monthly plans and order fees define ways to charge, while the costs of inference, support, and order handling remain unmeasured. At this launch stage, the first link to test is whether users can reach physically validated value and pay through the self-serve workflow. (The Idea, Market & Traction, Key Facts)
 
 ### Countercase
 
-A novice may publish a design for a one-off gift, then discover that fit, strength, or electrical compatibility still needs hands-on validation. If makers need help at that step, support could rise with each build. Those who export files to another fabricator can also bypass Confetti’s order fee. These are concrete ways the growth loop could break. The memo leaves their frequency and cost open, so the structural Pass gate remains unmet. (Market & Traction, Key Risks)
+The strongest countercase is that users remix designs for occasional projects, then stall when they have to check dimensions, strength, or electrical compatibility themselves. Even users who complete a build can fabricate elsewhere, which limits Confetti’s opportunity to earn an order fee. The memo documents those workflow constraints and leaves abandonment, repeat purchasing, and marginal costs open. The structural downside gate requires affirmative evidence that these constraints block every credible growth path. The current evidence supports Watch. (Key Risks, Key Facts)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 9/25 |
+| Global buyer demand | 16/25 |
 | Repeatable acquisition and onboarding | 9/25 |
 | Retention and customer expansion | 7/20 |
 | Contribution as volume grows | 7/20 |
 | Evidence of fit in the first buyer segment | 4/10 |
 
-**Total Score: 36/100** (Pass)
+**Total Score: 43/100** (Pass)
 
 ### Decisive diligence question
 
-Can a cohort of first-time makers in one market outside the US discover Confetti through a public remix and independently complete a successful first build on a paid plan? Evidence from multiple makers using the same workflow, with locally available parts or fabrication and measured support time, would move the action to Reach out. Activity that stops at published designs would keep it at Watch.
+Can a small cohort of independent makers who discover Confetti through public designs complete a working first build without founder help and pay for Confetti when their next project comes up? A consistent pattern across that cohort would move the action to Reach out. Repeated abandonment at physical validation or a need for bespoke help on each build would move it to Pass.

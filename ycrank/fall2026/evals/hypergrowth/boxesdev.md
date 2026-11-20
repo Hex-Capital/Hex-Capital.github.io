@@ -5,28 +5,28 @@
 
 ### Company case
 
-**Path A. Product-led adoption.** The first buyer is an engineer or engineering team that regularly runs parallel coding agents and needs isolated environments that keep running when laptops sleep. Boxes.dev offers a self-serve trial and a workflow that snapshots a configured Linux environment and forks it for new tasks. The growth hypothesis is that engineers discover Boxes.dev through developer launches and the CLI, get a first agent running from their own template, then pay for more box-hours or bring teammates onto a shared template. The same workflow could serve teams in another geography if agent authentication, repository access, and credential handling work under local customer requirements. The memo gives no second-market buyer evidence. (The Idea, Defensibility, Key Risks)
+**Usage-based expansion** is the strongest path. The first buyer is an engineering team that regularly runs parallel coding agents. Boxes.dev snapshots a working Linux environment and forks isolated machines, so teams can add concurrent jobs without competing for laptop resources or losing sessions when a laptop sleeps. The same workflow could serve teams in another market if their environments can run on Linux and their credential policies permit hosted agents. Paid adoption by geography is unreported. (The Idea, Key Risks)
 
-**Observed evidence:** The memo records 10,611 standalone CLI downloads in one week. That shows distribution reach, with activation effort and paid conversion still unknown. **Company claim:** An unnamed customer ran over 200 agents on more than 100 machines for one software build. That is a concrete early signal that the isolation problem can justify a substantial deployment, with payment and repeat use unverified. (Market & Traction, Key Facts)
+The memo records public launch activity and CLI downloads, and Boxes.dev lists a self-serve trial. The founders report that one unnamed customer ran more than 200 agents on more than 100 machines for a software build. That suggests the product can handle a large burst for the target workflow. The memo leaves the buyer’s setup effort, budget commitment, payment, and repeat use unknown. Even assuming strong fit, the first unproven link is whether independent teams can get a build running through standard setup and convert to paid use. (The Idea, Market & Traction, Key Facts)
 
-**Contribution scenario:** Published paid plans charge $0.40 per extra awake box-hour. If customers regularly exceed included hours, usage can grow revenue alongside seats. Each additional awake box also adds compute cost, while stored snapshots and support for environment or credential setup can add costs per customer. Customer-provided agent credentials may limit Boxes.dev’s model spend. Realized revenue and incremental delivery costs are unknown, so the contribution from more usage remains unproven. (The Idea, Defensibility, Key Facts, Key Risks)
+The published price is $0.40 per additional awake box-hour on paid plans. If teams run more builds and exceed their included hours, those hours generate incremental revenue. Customer-supplied model access can shift inference spend to the buyer, while Boxes.dev still has to cover hosting and support. The memo provides no marginal cost measurements. (The Idea, Key Facts)
 
 ### Countercase
 
-The strongest countercase is that Boxes.dev solves occasional build bursts and attracts launch-driven trials, while recurring workloads move to hosted environments bundled with an agent. The reported deployment covers one build, and OpenAI’s acquisition of Ona gives it a path to bundle hosted workspaces into Codex. If customers use Boxes.dev only for bursts, the company has little opportunity for seat or workload expansion and still incurs compute costs during those bursts. The memo leaves repeat demand and marginal contribution unresolved, so the structural Pass gate is unmet. (Market & Traction, Key Facts, Key Risks)
+Launch interest could produce trial workloads that end after a single build. The reported large run covers one build, and the free 20-box-hour trial gives teams a way to test the product before committing budget. If customers use Boxes.dev only for occasional bursts, recurring paid expansion may be weak while each burst still incurs hosting costs. This scenario remains testable, and the structural downside gate is untriggered. (The Idea, Market & Traction, Key Facts)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 9/25 |
+| Global buyer demand | 16/25 |
 | Repeatable acquisition and onboarding | 9/25 |
 | Retention and customer expansion | 7/20 |
 | Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 5/10 |
+| Evidence of fit in the first buyer segment | 4/10 |
 
-**Total Score: 37/100** (Pass)
+**Total Score: 43/100** (Pass)
 
 ### Decisive diligence question
 
-Can a cohort of independent engineering teams in a second geography activate through the standard self-serve flow, convert to paid, and keep running agents across successive development cycles? Account-level activation, billing, and usage records showing that pattern without bespoke founder setup would move the action to Reach out. A cohort that stops after the trial or first build would keep it at Watch.
+Can a cohort of unrelated engineering teams reach a first successful build through standard self-serve setup and then pay for additional awake box-hours across successive build cycles? Linked onboarding, usage, and billing records showing that pattern with bounded support effort would move the action to Reach out, with marginal hosting costs still open for diligence.

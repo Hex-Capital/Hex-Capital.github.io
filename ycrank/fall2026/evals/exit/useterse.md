@@ -1,42 +1,32 @@
 ﻿# Terse -- Exit Evaluation
 
-**Action:** Watch  
+**Action:** Watch
 **Evidence confidence:** Low
 
 ### Company case
 
-The strongest path is a **strategic acquisition** by a cloud or developer-infrastructure platform that wants to integrate durable state for collaborative AI workloads. The memo documents a live hosted offering and an MIT-licensed, self-hostable runtime that coordinates concurrent writes and live updates. Terse reports 1.4 million requests in one day and a 60.1% reduction in cold-start latency. Those figures support technical utility, while recurring paid usage and buyer-specific savings remain unverified. A buyer could have a reason to own the hosted operation if acquiring its production workloads and customer relationships would deliver more value than integrating the freely available runtime. Whether those relationships exist at meaningful scale and can transfer is open. (The Idea, Market & Traction, Defensibility)
+Strategic acquisition is Terse’s strongest path. A developer infrastructure platform could pay for Terse Cloud and its production customer relationships if owning the service brought recurring workloads onto the buyer’s platform or reduced integration and operating costs. The memo documents a launched, metered cloud service and a self-hostable runtime that commits actor state and SQLite writes together on successful calls. The buyer benefit is an inference. The memo supplies no measured savings, buyer interest, or supported purchase price. (The Idea; Market & Traction)
 
-The operating milestone is sustained paid production use with measurable reliability or operating-cost gains. The memo records a developer reporting a migration in progress and lists $500,000 in YC financing. The hosted launch and migration make a production test plausible at seed. The memo gives no burn, runway, or cost to reach the milestone. It also supplies no usable acquisition price, buyer economics, or independent route to shareholder cash. (Market & Traction, Key Facts)
+The operating milestone is repeat paid production use that quantifies the benefit to a platform buyer. Terse’s founders reported 1.4 million requests in one day and coordination of 32,752 VM launches in a demo. Doop’s creator reported a migration in progress. These signals make a production test plausible. Paid conversion, retention, burn, and the capital needed to reach the milestone remain unknown. The memo documents the hosted launch but leaves IP ownership, customer contract assignment, and closing requirements unverified. It supplies no predictable cash flow for a sponsor buyout, eligible demand for a secondary, public-market scale or reporting readiness for an IPO, or excess cash for dividends or buybacks. (The Idea; Market & Traction; Key Facts)
 
-**Illustrative proceeds bridge.** With no terms disclosed for the proposed check, assume a $500,000 investment at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-on checks. The eight-year, 5× target is $2.5 million in gross holder cash. Under simple pro rata allocation, the hurdle is $83.3 million in distributable equity proceeds at 3% ownership, $125 million at 2%, and $62.5 million at 4%.
-
-For both sale scenarios, assume zero net debt, transaction fees, and preference adjustments, so enterprise value equals distributable equity consideration. All consideration is cash at closing. Stock, escrow, earnouts, rollover, and compensation are each assumed to be $0. These are sensitivities, with price and waterfall terms unverified.
-
-| Scenario | Timing and distributable equity proceeds | Gross holder cash at 3% |
-|---|---|---:|
-| Modest sale | Year 5, $40 million | $1.20 million (2.4×) |
-| Strong sale | Year 7, $100 million | $3.00 million (6.0×) |
-| Prolonged private | Through year 8, growth plateaus, buyers stay away, public scale remains out of reach, and cash is reinvested | $0 (0×), shares retained |
-
-The strong sale clears the hurdle at 3% ownership. At 2%, the same sale yields $2 million (4.0×). The memo supplies no basis for underwriting the strong sale price today.
+**Illustrative proceeds.** Assume a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted by 40% to 3%, and no follow-ons. The eight-year 5× target is $2.5 million in gross cash before investor taxes. It requires $83.3 million in distributable equity at 3% ownership, $125 million at 2%, or $62.5 million at 4%. At 3%, with $5 million of illustrative net debt, the enterprise-value hurdle is $88.3 million. A year-eight $25 million sale yields $600,000 (1.2×), and a $100 million sale yields $2.85 million (5.7×), assuming simple pro rata allocation. Terse’s actual shareholder terms, net debt, transaction fees, and senior claims are unknown. If growth plateaus, buyer interest fails to materialize, public scale stays out of reach, and Terse reinvests all available cash without a secondary or payout, the holder realizes $0 over eight years and retains the shares. Wind-down proceeds depend on the residual after obligations and preferences, which the memo leaves unquantified. (Market & Traction; Key Facts)
 
 ### Countercase
 
-A platform can self-host Terse’s MIT-licensed runtime. Rivet already offers self-hosted actors with per-actor SQLite and WebSockets, and Cloudflare bundles persistent state and WebSockets into Workers. These substitutes could make ownership worth little unless Terse builds a hosted operation with customer relationships or operating advantages a buyer cannot readily reproduce. The memo provides no retention or switching-cost evidence. That makes the ownership premium too speculative for outreach. The evidence falls short of the structural Pass gate because it establishes neither a binding price ceiling nor that prolonged private ownership without payouts is the probable outcome. (The Idea, Defensibility, Key Risks)
+A platform can self-host Terse’s MIT-licensed runtime, use Rivet’s overlapping self-hosted capabilities, or rely on Cloudflare’s bundled state and WebSockets where Workers fits. Those available substitutes carry more weight than launch usage as evidence of whether a buyer needs to own Terse. They weaken the case for buying the runtime alone. A retained hosted customer base could still give a buyer a reason to pay. The evidence establishes neither a structural block to that sale nor a realizable price that leaves the holder materially short, so the Pass gate does not trigger. (The Idea; Defensibility; Market & Traction; Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 10/30 |
+| Counterparty rationale or source of cash | 9/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 10/20 |
+| Milestones and capital needed | 9/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 35/100** (Pass)
+**Total Score: 33/100** (Pass)
 
 ### Decisive diligence question
 
-Would a cloud platform’s own build-versus-buy analysis, grounded in Terse’s recurring paid production workloads, justify paying above the applicable ownership-adjusted cash hurdle? A credible buyer-side analysis showing that the hosted business is worth that premium over self-hosting the runtime would move the action to **Reach out**.
+Can recurring paid Terse Cloud workloads demonstrate enough incremental value from ownership, compared with self-hosting or partnering, to support a sale that clears the holder’s cash hurdle within eight years? Measured production economics that support a conditional acquisition price above the applicable hurdle would move Terse to Reach out.

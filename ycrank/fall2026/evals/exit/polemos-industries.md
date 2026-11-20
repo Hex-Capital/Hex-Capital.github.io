@@ -5,29 +5,23 @@
 
 ### Company case
 
-A domestic strategic acquisition is the strongest hypothesis. An established defense company could pay for control of a differentiated business if ownership offered an economic advantage over building internally or partnering. Polemos says volume manufacturing would lower unit costs (*The Idea*). The memo documents a public launch and reports $500,000 in YC financing (*Market & Traction*). Polemos identifies testing as its next step. The memo reports no independently verified results, paying customers, or signed contracts, and gives no test budget or runway (*Key Risks*). The financing provides some evidence of capacity to pursue the next milestone. Buyer interest and acquisition pricing remain unverified.
+Strategic acquisition is the strongest path. An established defense contractor could pay to own Polemos’s focused product line if its claimed unit-cost advantage were verified and ownership offered more value than internal development or a commercial agreement. The memo documents the public launch and reports $500,000 in YC financing. Lower costs through volume production are a company claim. The memo provides no measured buyer benefit or buyer interest. (The Idea, Market & Traction)
 
-The reported financing supplies no ownership or waterfall terms, so the proceeds bridge uses the thesis’s illustrative $500,000 check, 5% initial ownership diluted to 3%, and no follow-on checks. The objective is $2.5 million in cash within eight years. The sale scenarios assume zero net debt and transaction costs, simple pro rata allocation with no preference adjustment, and cash paid in full at closing. They assign zero to stock, escrow, earnouts, rollover, and compensation. Under those assumptions, enterprise value equals distributable equity proceeds. The required value is $83.3 million at 3% ownership, $125 million at 2%, and $62.5 million at 4%.
+A paid customer award with verified commercial economics would give a buyer a basis for valuing the business. The memo records testing as a planned step and supplies no independently verified results, paying customers, or signed commitments. It also gives no budget or runway for reaching that milestone. Export licensing is identified as a constraint on international sales. Asset transfer rights and acquisition approvals remain unverified. (Key Risks, Market & Traction)
 
-| Illustrative outcome | Timing | Enterprise value and distributable equity | Holder cash before taxes | Gross multiple |
-|---|---|---|---|---|
-| Modest sale | Year 5 | $40 million each | $1.2 million | 2.4× |
-| Strong sale | Year 8 | $100 million each | $3.0 million | 6.0× |
-| Prolonged private | Through year 8 | No sale | $0, shares retained | 0× |
-
-The sale values are scenario assumptions. At $100 million, dilution to 2% would cut holder cash to $2 million, or 4.0×. In the prolonged-private scenario, growth plateaus, buyers stay away, public listing scale remains out of reach, and available cash is reinvested. The memo supplies no evidence of a separately supported fallback that would pay this holder (*Market & Traction*, *Key Facts*).
+Investor terms and realizable sale prices are unavailable, so the proceeds bridge uses the shared scenario. A $500,000 check at a $10 million post-money valuation starts at 5% ownership and falls to 3% after 40% relative dilution, with no follow-ons. At 3%, a 5× gross cash return within eight years requires $83.3 million of distributable equity, or $88.3 million of enterprise value with illustrative net debt of $5 million. At 2% and 4% ownership, the equity hurdles are $125 million and $62.5 million. With that same illustrative debt, a $25 million sale in year eight yields $600,000 gross (1.2×), and a $100 million sale yields $2.85 million gross (5.7×). These are pre-tax pro rata scenarios. The memo supplies no company-specific debt, fees, preference terms, or valuation evidence to underwrite either sale price. (Market & Traction, Key Facts)
 
 ### Countercase
 
-An incumbent could build internally or capture the benefit through a commercial agreement, leaving little reason to pay an acquisition premium. The memo identifies established industry peers and reports no demonstrated moat (*Market & Traction*, *Defensibility*). It also identifies export licensing as a potential constraint on international sales (*Key Risks*). Whether any restriction would affect a domestic sale is unresolved. The evidence leaves the ownership advantage and achievable price unproven. It supports Watch because it establishes neither a binding blocker nor a price ceiling below the return hurdle.
+A strategic buyer could develop the capability internally or contract for access. The memo identifies no defensibility signal or demonstrated cost advantage that would justify paying for ownership. If growth plateaus, buyer interest remains absent, public scale stays out of reach, and available cash is reinvested for eight years, the holder realizes $0 and retains the shares. The reported financing establishes no eligible secondary. The memo also supplies no cash-generation evidence for a sponsor buyout or company-funded payout, no evidence of IPO readiness, and no basis to estimate a wind-down residual after obligations and preferences. The prolonged-private outcome remains hypothetical, and the evidence establishes neither a structural block nor a supported sale price that leaves the holder materially short. The Pass gate does not apply. (The Idea, Defensibility, Market & Traction, Key Facts, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 8/30 |
+| Counterparty rationale or source of cash | 9/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 7/20 |
+| Milestones and capital needed | 6/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
@@ -35,4 +29,4 @@ An incumbent could build internally or capture the benefit through a commercial 
 
 ### Decisive diligence question
 
-What documented buyer-side economics would justify acquiring Polemos at a price that delivers $2.5 million in cash to this holder within eight years? A credible domestic buyer’s written assessment tying the value of ownership to a verifiable commercial milestone could move the action to Reach out if the price and timing clear the hurdle under the applicable ownership and waterfall terms.
+Can a buyer-side valuation grounded in verified customer economics support a strategic sale that delivers $2.5 million in gross cash to the modeled holder within eight years? A substantiated valuation range that clears that hurdle after net debt and senior claims, at a defensible diluted ownership level, would move the action to Reach out.

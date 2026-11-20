@@ -5,34 +5,30 @@
 
 ### Company case
 
-A strategic acquisition by an established EDA vendor is the strongest private-company path. Archgen combines fast thermal screening with automated edits to physical-design flows. An incumbent could pay for ownership if exclusive control of that workflow gives it a material lead over building an equivalent capability or licensing Archgen’s tools. That advantage is an inference. The memo shows product overlap with Siemens, Cadence, and Synopsys, while buyer interest and ownership economics remain unverified. (The Idea, Market & Traction, Defensibility)
+Strategic acquisition is the strongest path. An EDA incumbent such as Cadence could buy Archgen’s thermal screening, placement engine, and Newton workflow automation to shorten the time customers spend iterating before signoff. Ownership could be worth more than licensing if exclusive integration saves enough engineering time and improves adoption of the buyer’s toolchain. That is an inference. Archgen placed first on the contest’s placement proxy metric, and the company reports LayerTherm ran in 62 ms versus 314 seconds for conventional solvers. The contest result establishes performance on the proxy, while Archgen’s thermal benchmark leaves prediction error unreported. The memo contains no evidence of buyer interest. (The Idea, Defensibility, Market & Traction, Key Risks)
 
-The observed technical result is a first-place finish on the IBM macro-placement proxy. Archgen reports signed pilots with undisclosed payment terms, development work with GlobalFoundries toward a mid-2027 first tapeout, and thermal screening at 62 ms versus 314 seconds in its benchmark. The tapeout gives Archgen a concrete opportunity to measure end-to-end design iteration time and verify thermal accuracy against detailed analysis. YC backing and a reported $15,000 grant provide some funding evidence, while runway and the cost to reach that milestone remain unknown. The memo supplies no usable evidence of IP assignment or transfer rights, and no independently supported route to shareholder cash through a secondary, buyout, listing, or payout. (Defensibility, Market & Traction, Key Risks, Key Facts)
+The first tapeout targeted for mid-2027 is the clearest test. Archgen reports development work with GlobalFoundries and signed pilots with undisclosed counterparties and payment terms. A production comparison could measure iteration time saved while confirming that the resulting layouts meet thermal and timing signoff requirements. The reported work makes the test plausible. The $15,000 grant and YC backing leave the tapeout budget, burn, and additional capital needs unresolved. A corporate acquisition is a plausible structure, with ownership and transferability of the commercial IP and any essential pilot rights still unverified. (Market & Traction, Defensibility, Key Risks)
 
-**Proceeds bridge.** With no investment terms disclosed, the illustrative seed case uses a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-on checks. The 5× objective requires $2.5 million in gross cash within eight years, or $83.3 million in distributable equity proceeds at 3% ownership. The hurdle is $125 million at 2% and $62.5 million at 4%. For both sale scenarios, assume cash at closing equals enterprise value, with zero net debt, transaction costs, or senior preference claims and a pro rata waterfall before investor taxes. Stock, escrow, earnouts, rollover, and compensation each contribute $0. The sale prices are scenario assumptions. The memo supplies no usable acquisition pricing or quantified buyer economics. (Market & Traction, Key Facts)
+**Proceeds bridge.** With investor terms undisclosed, assume a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-ons. The eight-year target is $2.5 million gross before investor taxes. At 3%, it requires $83.3 million in distributable equity, or $88.3 million in enterprise value with an illustrative $5 million of net debt. The equity hurdle rises to $125 million at 2% ownership and falls to $62.5 million at 4%. At year eight, a $25 million sale yields $600,000 gross (1.2×), and a $100 million sale yields $2.85 million gross (5.7×), each after the illustrative debt and before any unverified fees or senior claims. These are sensitivities. The memo supplies no realizable price range or company-specific waterfall. (Market & Traction, Key Facts)
 
-| Scenario | Timing | Gross cash to investor |
-|---|---|---|
-| Modest sale at $50 million enterprise value | Year 4 | $1.5 million, or 3× |
-| Strong sale at $100 million enterprise value | Year 7 | $3 million, or 6×. At 2% ownership, $2 million, or 4× |
-| Prolonged private ownership. Growth plateaus, buyers stay away, public scale remains out of reach, and cash is reinvested | Through year 8 | $0 realized, or 0×. Shares remain held |
+If pilots stall, growth plateaus, buyers stay away, public scale remains out of reach, and available cash is reinvested, the holder realizes $0 over eight years and retains the shares. The memo gives no basis for a sponsor buyout, eligible secondary, IPO resale, or funded dividend or buyback. Wind-down proceeds would depend on residual assets after obligations and preferences, which the memo leaves unquantified. (Market & Traction, Key Facts)
 
 ### Countercase
 
-Siemens has already demonstrated overlapping placement and electrothermal orchestration, and Archgen published its contest implementation. An incumbent could extend its own tools or license Archgen’s screening capability and capture enough of the benefit to keep an acquisition bid below the hurdle. The contest measured a proxy, and Archgen’s thermal latency benchmark leaves prediction error undisclosed. Together, those facts support waiting for production evidence. The memo leaves open whether an incumbent substitute can match Archgen in production or impose a price ceiling, so the structural Pass override does not apply. (Defensibility, Key Risks)
+Siemens has already demonstrated overlapping placement and electrothermal automation, Cadence has integrated thermal simulation and signoff, and Archgen published its contest implementation. Those are more direct signs of available substitutes than the proxy win and reported speedup are of an advantage worth acquiring. An incumbent could extend its existing tools or license a screening component. The evidence leaves strategic acquisition plausible, with neither a structural block nor a supported sale price that establishes a material holder shortfall. The Pass gate remains untriggered. (The Idea, Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 12/30 |
+| Counterparty rationale or source of cash | 14/30 |
 | Plausible investor proceeds | 8/30 |
 | Milestones and capital needed | 11/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 38/100** (Pass)
+**Total Score: 40/100** (Pass)
 
 ### Decisive diligence question
 
-Can a production pilot give an EDA incumbent a reason to own Archgen’s workflow at a price that clears the holder’s proceeds hurdle? Move to **Reach out** if a tapeout pilot measures material end-to-end time savings at comparable verified accuracy and an incumbent’s build-or-license comparison supports paying at least the modeled $83.3 million in distributable equity value at 3% ownership.
+Can the targeted mid-2027 tapeout show enough incremental value over an incumbent’s existing workflow to justify a purchase price that clears the holder’s hurdle? Move to Reach out if a production comparison shows repeatable iteration savings within signoff tolerances and a plausible buyer validates economics that support a price around or above the applicable hurdle. Keep Watch if the tapeout validates the tool and buyer economics remain untested. (Market & Traction, Key Risks)

@@ -1,30 +1,30 @@
 ﻿# CONUS -- Hypergrowth Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Low
+**Evidence confidence:** Medium
 
 ### Company case
 
-**Path B, repeatable sales or partner distribution with account expansion.** Orthopedic and trauma teams have a recurring job before procedures: finding instructions for the implant systems their hospital stocks and checking local protocols. The growth hypothesis is that hospitals sign up for free access, configure their device lists and protocols against shared manufacturer catalogs, and then buy institutional AI licenses as more teams adopt the workflow. In a U.S. rollout, CONUS would need to check whether its manufacturer documentation covers the devices each hospital stocks and repeat the site-level mapping and protocol setup. Catalog reuse across markets is an assumption. (The Idea, Defensibility)
+The strongest path is **repeatable direct hospital sales**. Orthopedic and trauma teams preparing procedures need instructions for the implant systems their hospital stocks. The memo documents a direct hospital signup, free core access, and separately quoted institutional AI licenses. CONUS reports 28 live hospitals and 53 onboarding, and says hospitals add site-specific device lists and protocols. That setup signals an early workflow commitment. The memo gives no account-level record connecting signup to go-live or payment. (The Idea, Market & Traction, Defensibility, Key Facts)
 
-**Observed evidence.** The app had 27 ratings in Germany, a signal of clinician engagement. **Company claims.** CONUS reports 28 live hospitals and 53 onboarding, and separately reports 25 live European hospitals. It names several hospital partners. That supports modest credit for first-segment fit. The memo gives no acquisition attribution, verified paid conversion, or evidence of repeat use or expansion. The live counts leave the paid growth mechanism untested. (Market & Traction, Key Facts)
+If orthopedic teams find enough value to pay for AI access, CONUS could reuse manufacturer documentation across hospitals while configuring each hospital’s inventory and protocols locally. That makes the workflow plausibly portable. Reported European deployments support the use case, while paid adoption in a second market remains unverified. The first link likely to break is the handoff from free hospital setup to a paid rollout that someone other than a founder can repeat. (The Idea, Market & Traction, Defensibility)
 
 ### Countercase
 
-Free access could attract hospitals while generating little demand for paid AI. Each additional site brings its own device lists and protocols, and institutions are responsible for protocol approval and version control. Clinicians also have to verify original sources when using AI answers. If CONUS has to provide substantial hands-on mapping, document maintenance, or support at each site, incremental license revenue could be absorbed by delivery costs. The memo gives no per-site cost or effort data, so it leaves that risk unresolved and does not trigger the structural Pass gate. (The Idea, Defensibility, Key Risks, Key Facts)
+Hospitals may find the free core useful while seeing too little incremental value in a paid AI license. Local protocol approval and version control could also make each rollout labor-intensive. The memo gives no account-level retention or paid expansion data and no measured marginal rollout costs. That leaves a specific, testable gap for Watch. The structural downside gate is untriggered because the memo does not establish that delivery costs rise in proportion to revenue. (Key Facts, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 10/25 |
+| Global buyer demand | 16/25 |
 | Repeatable acquisition and onboarding | 9/25 |
 | Retention and customer expansion | 7/20 |
 | Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 6/10 |
+| Evidence of fit in the first buyer segment | 5/10 |
 
-**Total Score: 39/100** (Pass)
+**Total Score: 44/100** (Pass)
 
 ### Decisive diligence question
 
-Can CONUS convert its first U.S. orthopedic hospital cohort to paid institutional AI through one repeatable onboarding process? Move to **Reach out** if independent hospitals buy through the same channel, use the product across recurring procedures, and show through rollout records that the team can reuse catalog work while keeping site setup and support effort bounded. (The Idea, Market & Traction, Key Risks)
+Can CONUS repeat a paid institutional AI rollout at a second independent orthopedic hospital using the same onboarding process? Two license and go-live records showing that a non-founder ran the process, with local setup hours measured and covered by the license economics, would move the action to Reach out. Free go-lives or paid deals without a demonstrated handoff would keep it at Watch.

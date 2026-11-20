@@ -5,26 +5,28 @@
 
 ### Company case
 
-**Path A — Scarce complements.** Routant’s strongest case is that cheaper intelligence increases agent deployments faster than enterprises can safely connect those agents to private systems. Routant says a software vendor can integrate once through MCP while each enterprise uses an outbound-only gateway and retains control over permissions and approvals. If that design reduces the work needed to satisfy security requirements across customer environments, Routant could relieve a deployment bottleneck that persists even when every vendor has access to equally capable models. The launch demo makes the mechanism concrete. Measured rollout savings and independent buyer commitments remain unverified. (The Idea, Key Facts, Key Risks)
+**Path A — Scarce complements.** If cheap frontier models lead more software vendors to deploy agents inside enterprise systems, private connectivity and security approval could become the bottleneck. Routant describes a gateway that connects to customer-managed systems through outbound-only connections and enforces customer-defined permissions, approvals, and audit logging. The proposed value is getting deployments through enterprise security review without rebuilding access controls for every customer. The memo gives no field comparison showing where that constraint binds or how much Routant relieves it. (The Idea, Key Risks)
 
-Routant’s YC-backed launch makes a seed evaluation appropriate. Mehta’s automated-trading experience and the launch demo give some execution credit, while production gateway reliability remains untested in the memo. Launch votes and comments show attention, leaving buyer commitment unknown. **Scale assumption:** If vendors pay a subscription, reusing the vendor integration across enterprises could spread setup costs, but each new enterprise still needs gateway onboarding, policy configuration, and ongoing support. Expansion economics depend on incremental subscription revenue covering that work and the cost of keeping the gateway available. (Founders & Team, Market & Traction, The Idea, Key Facts, Key Risks)
+Customer-specific policies and approval workflows could make a live installation costly to replace. That is an inference, and the memo shows neither measured switching costs nor exclusive access. The public launch and demo show early product progress, and Mehta’s work on automated trading systems is relevant to the design. The memo documents no independent production deployment, buyer commitment, or revenue. (Defensibility, Founders & Team, Market & Traction, Key Facts)
+
+The expansion unit is one additional enterprise deployment through an existing vendor integration. If the vendor can reuse that integration, Routant could spread the initial work across customers. Each enterprise still has to connect its systems and configure its policies. Gateway reliability and human approval delays could affect the cost and throughput of each deployment. The memo provides no measured rollout costs or realized pricing. (The Idea, Key Risks)
 
 ### Countercase
 
-With abundant capital, competitors can build overlapping access controls, and AWS already offers private MCP connectivity and centralized governance within its cloud. Routant’s proposed advantage is serving vendors across customer-managed environments. The memo leaves open whether buyers value that difference enough to pay, and whether policies and approvals create meaningful switching costs. That overlap weighs against durable value capture. Full substitution for the cross-environment use case remains unproven, so the Path A override stays open. Path B offers no stronger case because the memo identifies neither a newly viable buyer or transaction nor a reason to pay Routant under functional parity. (Defensibility, Market & Traction, Key Risks)
+AWS Bedrock AgentCore already offers overlapping private connectivity and centralized MCP governance. For an AWS customer, the native option could clear the same security review with comparable rollout effort. The memo documents feature overlap and leaves equivalence in customer-managed environments untested, so the substitution gate remains open. The memo also provides no evidence that lower delivered labor costs unlock a previously excluded buyer or use, leaving Path B unsupported. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 11/25 |
-| Durable value capture | 5/25 |
+| Path-specific thesis fit | 9/25 |
+| Durable value capture | 7/25 |
 | Customer demand | 5/20 |
-| Team and execution | 7/15 |
-| Scale economics | 5/15 |
+| Team and execution | 6/15 |
+| Scale economics | 6/15 |
 
 **Total Score: 33/100** (Pass)
 
 ### Decisive diligence question
 
-Can an independent software vendor and its enterprise customer get an agent live on a customer-managed private system with materially fewer integration and security-review hours using Routant than with their best available alternative, under the same security requirements? A measured advantage attributable to a capability Routant controls, followed by a budgeted rollout, would support moving to Reach out if the updated evaluation clears the outreach gate. Comparable results from the alternative would move the action to Pass.
+Can Routant win a paid production rollout by clearing an independent enterprise’s security requirements that its best available substitute cannot meet within the same deployment window? A side-by-side qualification using the same requirements, followed by paid deployment that depends on Routant’s demonstrated advantage, would move the action to Reach out. If the substitute qualifies with comparable effort in a representative rollout, move to Pass.

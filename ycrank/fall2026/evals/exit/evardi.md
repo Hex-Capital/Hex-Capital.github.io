@@ -5,36 +5,33 @@
 
 ### Company case
 
-A strategic acquisition by a distribution or outage-management software vendor is Evardi’s strongest path to investor cash. Evardi combines utility topology, prior switching orders, and operating limits to draft orders and check each step. The company reports 42% fewer unsafe switching actions in simulated storm drills. A buyer could justify owning the software if live deployments show that embedding it across the buyer’s utility customers delivers measurable safety and restoration gains that an ordinary license or an internal build could not match economically. The operating benefit is still supported by simulation, and the ownership rationale is an inference. (*The Idea*, *Defensibility*, *Market & Traction*, *Key Risks*)
+Strategic acquisition is Evardi’s strongest path. A distribution-grid software vendor could buy Evardi’s transformer load modeling and switching-order checks to add those capabilities to its utility software. The reason to own Evardi would be the ability to reuse its integrations and deploy the workflow across utility customers faster or at lower cost than building or licensing it. That benefit is an inference. Buyer interest and the economics of ownership remain unverified. (The Idea; Defensibility)
 
-The operating milestone is a paid utility deployment that measures unsafe actions caught, operator review time, and restoration performance against the existing workflow. Evardi claims deployments at utilities serving more than 10 million customers, which suggests potential sites for a test. The memo lists a $125,000 seed entry. The cost and funding of a production test, available runway, and the effect of the ongoing security audit on deployment timing remain open. Software ownership and the transferability of utility contracts and data rights also remain unverified. The memo supplies no usable valuation evidence or independently supported fallback that could pay this holder. (*Market & Traction*, *Key Risks*, *Key Facts*, *The Idea*)
+Evardi reports deployments at utilities serving more than 10 million customers and says its switching-order simulation caught 60% of errors that passed manual review. Its terms describe the published studies as simulations on public data. A paid production rollout that measures errors caught and review time against the utility’s existing workflow is a plausible next milestone. The memo gives no cost, timeline, or committed funding for that test. It also leaves ownership of the core software and transfer rights for utility data and contracts unverified. (Market & Traction; Key Risks; The Idea)
 
-The illustrative $500,000 check starts at 5% ownership and dilutes to 3%, with no follow-on checks. The 5× objective requires $2.5 million of gross cash within eight years, or about $83.3 million in distributable equity proceeds at 3% ownership. The hurdle is $125 million at 2% and $62.5 million at 4%. The sale scenarios below are assumptions. They set net debt, other price adjustments, and senior claims to zero, so enterprise value equals distributable equity consideration. The holder receives its pro rata share in cash at closing before investor taxes. Stock, escrow, earnouts, rollover, and compensation are each assumed to be zero.
+**Proceeds scenario.** The memo provides no usable evidence for a realizable acquisition price or actual holder terms. The shared scenario assumes a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted by 40% to 3%, and no follow-ons. The eight-year target is $2.5 million in gross cash before investor taxes. That requires about $83.3 million in distributable equity at 3% ownership, $125 million at 2%, or $62.5 million at 4%. With $5 million in illustrative net debt, the 3% hurdle is about $88.3 million in enterprise value. Fees and preference claims are unquantified. (Key Facts; Market & Traction)
 
-| Illustrative outcome | Timing and assumptions | Gross cash to holder | Gross multiple |
-|---|---|---:|---:|
-| Modest sale | Year 5 at $40 million enterprise value and $40 million distributable equity | $1.2 million | 2.4× |
-| Strong sale | Year 7 at $100 million enterprise value and $100 million distributable equity | $3.0 million | 6.0× |
-| Prolonged private | Through year 8, growth plateaus, buyers stay away, public scale remains out of reach, and cash is reinvested | $0, with shares still held | 0× |
+- A **$25 million sale** in year eight returns **$600,000 gross (1.2×)** at 3% after the assumed net debt. A **$100 million sale** on the same terms returns **$2.85 million gross (5.7×)**. Both prices are scenario assumptions.
+- If utility adoption plateaus, buyer interest fails to materialize, public-market scale stays out of reach, and Evardi reinvests available cash for eight years with no secondary or payout, the holder realizes **$0** and retains the shares. In a wind-down, only the residual after obligations and preferences is available to this holder. The memo provides no basis to quantify that residual. (Key Facts; Market & Traction)
 
-The strong sale clears the hurdle at 3% but yields $2.0 million at 2%. The memo leaves buyer willingness to pay at either modeled price unverified. (*Market & Traction*, *Key Facts*)
+A sponsor buyout lacks evidence of predictable cash generation. Dividends or buybacks lack evidence of distributable cash. The memo also supplies no evidence of eligible secondary demand or an operating path to IPO scale. (Key Facts; Market & Traction)
 
 ### Countercase
 
-SMUD reports deploying meter-based transformer visibility and integrating AspenTech outage management for coordinated switching and restoration. That is a real example of an incumbent stack covering workflows Evardi targets. If a buyer can reproduce Evardi’s incremental benefit through an integration or license, ownership could be worth materially less than the required price. The memo establishes workflow overlap and leaves comparative field performance and cost open. That supports Watch, with the structural Pass gate still unresolved. (*Defensibility*, *Key Risks*)
+SMUD reports deploying meter-based transformer mapping and load monitoring alongside an AspenTech outage management integration for coordinated switching and restoration. That gives prospective buyers a documented way to cover overlapping workflows through integration. Evardi’s simulated results leave its incremental value in live operations unresolved, so a vendor could favor integration or licensing over ownership. The overlap weakens the acquisition case. The Pass gate remains untriggered because the evidence establishes neither a structural block nor materially inadequate proceeds at a supported sale price. (Defensibility; Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 15/30 |
+| Counterparty rationale or source of cash | 11/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 11/20 |
+| Milestones and capital needed | 9/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 41/100** (Pass)
+**Total Score: 35/100** (Pass)
 
 ### Decisive diligence question
 
-Can Evardi document a paid live utility deployment whose measured gains over the existing workflow support a credible vendor build-versus-buy case at a price that would leave roughly $83.3 million in distributable equity proceeds? Utility-verified results and a buyer-side estimate showing why ownership captures enough value at that price would move the action to Reach out. Verified results showing that an incumbent integration delivers comparable gains at materially lower cost would move it to Pass.
+Can a paid production rollout show enough incremental value over the utility’s existing workflow for a grid software vendor to justify buying Evardi at a price that clears the holder’s cash target? Utility-verified reductions in switching errors or review time, paired with a credible buyer estimate of the value of owning and deploying the software across its customers, would answer it. Move to Reach out if that evidence supports a price range that clears the roughly $88.3 million illustrative hurdle after debt at 3% ownership, with sensitivity to further dilution. A successful rollout with acquisition economics still unquantified keeps the action at Watch. (The Idea; Market & Traction; Key Risks)

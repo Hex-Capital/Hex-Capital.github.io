@@ -1,42 +1,32 @@
 ﻿# Superserve -- Exit Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Medium
+**Evidence confidence:** Low
 
 ### Company case
 
-Strategic acquisition is the strongest path. An inference platform could buy Superserve’s snapshot and storage technology to run long-lived agents alongside its inference service. Ownership could let the buyer optimize compute, storage, and scheduling together and capture the resulting savings. Baseten’s combination with Blaxel shows that an inference provider has brought persistent sandboxes in-house. Superserve’s measured median snapshot start of 0.56 seconds versus E2B’s 0.75 seconds supports a performance advantage on that operation. The value of owning that advantage remains an inference. (The Idea, Defensibility, Market & Traction)
+Strategic acquisition is the strongest path. A model or agent platform could buy Superserve’s stateful sandbox service to bring persistent execution in-house. Anthropic lists Superserve as a Claude Managed Agents sandbox provider, and Baseten’s combination with Blaxel shows a strategic rationale for pairing persistent sandboxes with inference. Superserve’s copy-on-write storage and full-state snapshots give a buyer a specific capability to evaluate. An external benchmark measured median snapshot starts of 0.56 seconds for Superserve and 0.75 seconds for E2B. The benefit of owning the service still depends on whether it improves costs or performance across the buyer’s workloads enough to justify an acquisition. (*The Idea*, *Defensibility*, *Market & Traction*)
 
-The next operating milestone is a paid production deployment that measures the cost per successful resumed session, including storage and infrastructure operations, against the buyer’s best internal or contracted alternative. Superserve reports more than 100,000 machines per week and 48 million customer sandbox-minutes over 12 weeks. Lindy and Phaser describe launching in under a month. Those signals support the feasibility of a production test, while the capital and runway to reach it remain unknown. The memo supplies no usable acquisition price or buyer savings estimate, no evidence resolving IP and contract transfer rights, and no independently supported route to cash for this holder. (Market & Traction, Defensibility, Key Facts)
+A measurable milestone would be sustained paid production use by an agent platform, with a comparison of cost per completed workload and state-resume latency against its best alternative. Superserve reports more than 100,000 machines per week and 48 million sandbox-minutes over 12 weeks, which makes a production test plausible. Realized revenue, margins, burn, and the capital needed to reach that milestone remain unknown. Superserve operates the service and describes the Firecracker fork as its own, making a sale of the operating business plausible if diligence confirms transferable IP and customer contracts. The memo supplies no independent liquidity evidence for a sponsor buyout, eligible secondary, IPO resale, dividend, or buyback. (*Defensibility*, *Market & Traction*, *Key Facts*)
 
-**Proceeds bridge.** Using the illustrative $500,000 check at a $10 million post-money valuation, 5% initial ownership falls to 3% after 40% relative dilution, with no follow-on checks. The eight-year 5× gross cash objective requires $2.5 million to the holder and about $83.3 million in distributable equity proceeds at 3% ownership. The hurdle rises to $125 million at 2% and falls to $62.5 million at 4%.
-
-The sale cases below are assumptions. They use zero net debt and zero other price adjustments, so enterprise value equals equity consideration. The waterfall is pro rata with no preference adjustment. All consideration is cash at closing. Stock, escrow, earnouts, rollover, and compensation are each $0.
-
-| Scenario | Timing | Enterprise value / distributable equity | Holder cash | Gross multiple |
-|---|---|---|---|---|
-| Modest sale | Year 4 | $40M / $40M | $1.2M | 2.4× |
-| Strong sale | Year 7 | $100M / $100M | $3.0M | 6.0× |
-| Prolonged private | Through year 8 | No sale or payout | $0 | 0× |
-
-The strong sale clears the hurdle at 3% but returns only $2 million, or 4×, at 2%. In the prolonged-private case, growth plateaus, buyers stay away, public scale remains out of reach, and cash is reinvested. The investor retains the shares and realizes $0.
+Under the illustrative terms, a $500,000 check at a $10 million post-money valuation buys 5%, diluted by 40% to 3%, with no follow-ons. The eight-year target of $2.5 million in gross cash requires $83.3 million in distributable equity at 3% ownership, $125 million at 2%, or $62.5 million at 4%. Assuming $5 million of net debt and a pro rata distribution before investor taxes, a $25 million enterprise-value sale in year eight yields $600,000 (1.2×), while a $100 million sale yields $2.85 million (5.7×). The 3% case clears the target at about $88.3 million in enterprise value. Actual investor terms, net debt, fees, preferences, and a supportable acquisition price are unknown. If growth plateaus, buyers stay away, public-market scale remains out of reach, and available cash is reinvested, the holder realizes $0 over eight years and retains the shares. A wind-down would pay only any residual after obligations and preferences, which the memo does not quantify. (*Market & Traction*, *Key Facts*)
 
 ### Countercase
 
-An inference platform can integrate Superserve as an outside provider or choose another sandbox. Anthropic already documents several providers, AWS offers suspendable Firecracker microVMs, and Modal was faster on the benchmark’s end-to-end startup measure. Superserve’s faster snapshot resume could win workloads while leaving a buyer with little reason to own the technology. This warrants Watch. The evidence has yet to establish that available substitutes cap the price below the hurdle, so the structural Pass override does not apply. (Defensibility, Key Risks)
+Anthropic already documents multiple sandbox providers, and AWS offers suspendable Firecracker microVMs. The benchmark also measured Superserve at 0.53 seconds from create request to first command versus Modal at 0.38 seconds, so the snapshot advantage is specific to that operation. A platform could keep Superserve as one of several partners or use a substitute, limiting its reason to pay for ownership. That risk and the absence of a supported price range warrant Watch. The memo establishes neither a structural closing barrier nor a ceiling on holder proceeds that triggers the Pass gate. (*Defensibility*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 16/30 |
+| Counterparty rationale or source of cash | 15/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 12/20 |
-| Transaction feasibility | 5/10 |
+| Milestones and capital needed | 9/20 |
+| Transaction feasibility | 6/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 43/100** (Pass)
+**Total Score: 40/100** (Pass)
 
 ### Decisive diligence question
 
-Can a paid production deployment show enough value from **owning** Superserve to support roughly $83 million in cash equity consideration? Reach out if a prospective buyer validates the production results and can tie the incremental value over licensing or building to that price. If the best substitute delivers comparable economics and caps the price below the hurdle, move to Pass.
+Can Superserve show that owning its sandbox service would create enough value for an agent platform to support a price that clears the holder’s cash target? A paid production deployment with measured savings or incremental gross profit relative to building or partnering, alongside buyer-side evidence that those economics could support roughly $88 million in enterprise value under the illustrative terms, would move the action to Reach out.

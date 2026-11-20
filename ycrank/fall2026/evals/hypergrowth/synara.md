@@ -5,26 +5,26 @@
 
 ### Company case
 
-**Path B, repeatable partner distribution with account expansion.** The initial buyer is a security integrator serving commercial sites such as construction yards and dealerships, where theft and intrusion create a recurring need for monitoring and response. Synara says integrators can resell monitoring under their own brand, bill customers monthly, and use existing cameras and recorders. If one integrator can bring successive sites live through the same setup, its installed base could supply the next wave of customers and each added site could generate recurring wholesale revenue. That revenue model is inferred. (The Idea)
+**Channel-led sales** is Synara’s strongest path. Security integrators could resell recurring incident monitoring to commercial sites they already serve, such as construction yards and dealerships. Synara says it can use existing cameras and recorders, route alerts to operators for verification, and let integrators sell the service under their own brand and bill monthly. If recorder compatibility carries over across sites, an integrator could add monitoring without replacing customer hardware. The recurring job plausibly travels across markets, while recorder compatibility and local dispatch procedures remain open adoption questions. (The Idea, Key Risks)
 
-The memo documents a public launch and partner program. It gives no evidence of a paid activation, a buyer committing budget or changing its workflow, repeat use, or an expansion to a second site. The broader surveillance market estimate leaves Synara’s own cross-market demand untested. In a second geography, the camera and alert workflow could carry over if the installed equipment is compatible. Verified police escalation would still need to meet local dispatch rules. The partner mechanism is plausible at this stage, while initial fit, repeatability, and geographic portability remain untested. (The Idea; Market & Traction; Key Facts; Key Risks)
+The memo records Synara’s October 2026 launch and its advertised partner program. Paid activation, repeat use, and deployment costs remain unverified. Even assuming strong fit with the first buyers, the first unproven link is whether an independent integrator can take a site live on paid monitoring through a process another partner can repeat. Monthly billing is the proposed model, and expansion across an integrator’s installed base remains an inference. (The Idea, Market & Traction, Defensibility, Key Facts)
 
 ### Countercase
 
-Synara could add sites through resellers and still need a proportional increase in delivery capacity. Each site adds video processing and setup or support work. Flagged events add operator review, and verified incidents can require live intervention and dispatch. If false alerts or concurrent incidents force staffing to rise with site count, wholesale fees may leave little contribution after those costs. Synara advertises alert-to-action times under 30 seconds. The footage is illustrative, and the memo gives no measured operator workload, response performance under load, or per-site costs. The structural-cost Pass gate remains untriggered. (The Idea; Key Risks; Key Facts)
+The strongest countercase is that the dealer channel generates leads while Synara still has to configure response rules site by site and add operator capacity as alert volume rises. The product relies on human verification, and local dispatch rules can affect escalation. Synara’s advertised response time comes with illustrative footage, leaving actual operator workload unmeasured. These are credible scaling risks. The structural downside gate remains untriggered because the memo provides no rollout or cost records showing that proportional effort is unavoidable. (The Idea, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 9/25 |
+| Global buyer demand | 13/25 |
 | Repeatable acquisition and onboarding | 9/25 |
 | Retention and customer expansion | 7/20 |
 | Contribution as volume grows | 7/20 |
 | Evidence of fit in the first buyer segment | 4/10 |
 
-**Total Score: 36/100** (Pass)
+**Total Score: 40/100** (Pass)
 
 ### Decisive diligence question
 
-Can an independent integrator in a second geography pay to bring a first site live and then add another through the same setup? A buyer-funded rollout would move the action to **Reach out** if it shows recurring use, workable local escalation, and measured setup time, compute cost, and operator workload that leave credible contribution at the paid price. That would test the assumption that a reseller can add sites without consuming the margin in setup and response labor. (The Idea; Key Risks)
+Can a second independent integrator bring a commercial site live on paid monitoring using the same onboarding process as the first? Move to **Reach out** if invoices and deployment records show both sites reached live service through the same steps, with setup and operator time measured against the recurring fee. Move to **Pass** if comparable rollout records show that each site requires bespoke setup or that operator costs rise in proportion to revenue, with no supported way to improve.

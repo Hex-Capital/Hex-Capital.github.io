@@ -5,28 +5,28 @@
 
 ### Company case
 
-**Path B — New economies** is the stronger case. OpenLake launched a workflow that connects live data to post-training, serves updated models on the existing deployment, and supports A/B testing. **Scenario assumption:** If this workflow cuts operator time per successful update, a production team that can only afford occasional retraining could pay for validated refreshes after smaller batches of new conversations. The memo establishes the launch. The company’s claim of halving serving costs leaves the decisive labor comparison open, including review, retries, governance, and rollback at equivalent quality. Path A lacks evidence of a binding infrastructure constraint that OpenLake controls. (The Idea, Market & Traction, Defensibility)
+**Path B — New Economies** is the strongest path. OpenLake launched a workflow that post-trains models on incoming data, serves updates on the existing deployment, and A/B tests versions. OpenLake describes the former workflow as an in-house cycle of data preparation, training, evaluation, and redeployment. The investment hypothesis is that automating this cycle could let a team with limited engineering capacity update a production model more often than it could previously afford. OpenLake reports that its models halve serving costs on average. The memo gives no before-and-after labor or full delivery cost per update that meets production quality and governance requirements. That comparison would need to include staff time, compute, review, retries, and failed updates. (The Idea; Market & Traction; Key Risks)
 
-The company relays one team’s use of OpenLake to train and evaluate Security-One for production. That supports limited seed-stage demand. Paid repeat use at the proposed higher cadence remains unverified, and the reported 100B-plus tokens per day have no product breakdown. Balyan’s distributed-systems work and the shipped storage engine support execution credit, while safe, repeatable live updates remain to be demonstrated. (Market & Traction, Founders & Team, Key Risks)
+An unnamed customer reportedly used OpenLake to train and evaluate Security-One for production. That supports early demand for the workflow, while paid repeat use at a previously unaffordable cadence remains unverified. Under the assumption that equivalent models are cheap and widely available, customer-specific data connections and evaluation histories could make OpenLake worth paying for if they measurably reduce the effort of releasing reliable updates. The memo gives no buyer comparison or retention evidence for that mechanism. (Market & Traction; Defensibility)
 
-The scale unit is the next continuous-training deployment. Its contribution depends on customer fees after training and evaluation compute, incremental serving and storage, and human onboarding and exception handling. The published Ultra R1 routing price leaves continuous-training revenue and marginal costs unknown. (The Idea, Key Facts)
+The shipped platform and Balyan’s distributed systems experience support seed-stage execution credit. The expansion unit is another production deployment running recurring update cycles. Shared cache and checkpoint infrastructure could help serve those deployments, conditional on per-customer integration and exception handling staying manageable. OpenLake’s reported 100B-plus tokens per day spans the company, and the memo provides no continuous post-training pricing or realized contribution. (Founders & Team; Defensibility; Market & Traction; Key Facts)
 
 ### Countercase
 
-With the same models and ample capital, Together AI or Fireworks could assemble a comparable update workflow from their existing training and serving products. Exportable checkpoints reduce the cost of moving the trained model. OpenLake’s integrations and evaluation history could still earn buyer preference, but that remains an inference. The evidence leaves both Path B gates open and supports Watch at seed. A comparable workflow at equivalent quality and cost, with buyers indifferent between providers, would close Path B. (Defensibility, Market & Traction, Key Risks)
+OpenLake may make an existing workflow more convenient for teams already able to post-train models. Together AI and Fireworks offer managed post-training and inference, and OpenLake’s exportable checkpoints make it possible to move trained models. A rival using the same models could plausibly match the workflow closely enough that buyers retain the core outcome after switching. The memo contains no observed switching or equivalent-workflow comparison that closes Path B. It also gives no evidence of a binding capacity constraint that OpenLake controls, leaving Path A unsupported. Both Path B conditions remain open to a specific test, so the action is Watch. (The Idea; Defensibility; Market & Traction; Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 11/25 |
-| Durable value capture | 5/25 |
+| Path-specific thesis fit | 10/25 |
+| Durable value capture | 7/25 |
 | Customer demand | 7/20 |
-| Team and execution | 9/15 |
-| Scale economics | 4/15 |
+| Team and execution | 10/15 |
+| Scale economics | 5/15 |
 
-**Total Score: 36/100** (Pass)
+**Total Score: 39/100** (Pass)
 
 ### Decisive diligence question
 
-Will a production team that previously could not afford frequent refreshes renew a paid OpenLake deployment after a side-by-side trial using the same model and quality bar as its best alternative? Measure operator time and total cost per successful update, including review, retries, and rollbacks. A paid renewal that demonstrates newly viable refresh frequency and a clear preference for OpenLake would support Reach out if the updated score reaches 65 with at least medium confidence. A credible trial showing no viable new cadence or no reason to pay OpenLake under parity would move the action to Pass.
+Will an independent buyer that previously could not afford frequent production updates pay to renew at a price that covers OpenLake’s delivery costs after comparing it with the buyer’s prior workflow and a credible alternative using equivalent models? A field trial showing lower labor and full cost per accepted update, a newly affordable cadence, and a paid renewal tied to a measurable workflow advantage would move the action to Reach out. A representative trial showing that the cadence remains uneconomic or that the buyer switches and retains the core outcome would close Path B and move the action to Pass.

@@ -5,28 +5,30 @@
 
 ### Company case
 
-**Path A — Scarce complements.** Inflection’s strongest case is supplying flight-qualified spacecraft in batches on schedules that commercial and government constellation operators struggle to meet through bespoke procurement. Exponent uses a standard configuration and common parts, and Inflection plans to automate fabrication and testing. Cheaper intelligence could reduce engineering and test effort, but the memo provides no measured effect on lead time or usable output. Under model parity, buyers would still need a qualified spacecraft delivered on schedule. Inflection has yet to show that it can supply one on terms buyers cannot get elsewhere. Path B remains unproven because the memo identifies neither a measured reduction in delivery labor nor a buyer segment that becomes viable as a result. (The Idea, Defensibility, Key Risks)
+**Path A — Scarce complements.** Inflection’s strongest case is that constellation operators facing long waits for bespoke spacecraft would pay for qualified production capacity that delivers batches on schedule. The memo identifies that constraint through supplier accounts. Exponent’s common parts and single configuration could make fabrication and testing more repeatable. Inflection reports building more than half the spacecraft stack and using its own fleet software for simulation and hardware tests. That gives it some control over execution. Any advantage in yield, cycle time, or qualification remains an inference. (The Idea, Defensibility)
 
-Inflection fits the U.S. seed mandate when assessed as a preflight hardware company. Lisso’s spacecraft design, manufacturing, test and operations experience and Hanley’s integration and test automation experience are relevant to the next milestone. The company reports fabrication, avionics assembly and testing underway, while the manufacturing leadership role remains open. Its reported Q1 2028 launch booking concerns launch capacity. The memo documents no paid spacecraft order or buyer commitment of budget, equipment time or integration work. (Founders & Team, Market & Traction, Key Facts, Key Risks)
+**AGI scenario assumption.** If cheap frontier intelligence speeds up spacecraft design or test analysis, physical fabrication and qualification could become the limiting steps. Inflection would capture value if it can deliver qualified batches faster than other suppliers can add equivalent capacity. The memo contains no measured AI contribution or production throughput. (The Idea, Defensibility, Key Risks)
 
-The published price falls from $1.5 million for one spacecraft to $700,000 each at 100. **Scenario assumption:** If a 100-unit order closed at list price and all units were accepted, it would generate $70 million in sales. Positive contribution would require average variable cost per accepted unit, including rework and failed units, below $700,000. A sustainable rollout would also need enough utilization to cover factory overhead and capital investment. The memo supplies no measured yield, cycle time or cost per accepted unit, and Exponent’s payload limits narrow the customers it can serve. (The Idea, Defensibility, Key Risks)
+Amazon’s reported in-house production of more than 1,000 satellites is indirect evidence that an operator will commit resources to securing volume. Demand for Exponent remains unverified. Inflection reports a Q1 2028 launch booking, while the memo identifies no paying payload customer or spacecraft order. The founders bring spacecraft and test-automation experience, and Inflection reports fabrication and avionics testing underway. Flight qualification is still ahead. (Market & Traction, Founders & Team, Key Facts, Key Risks)
+
+The expansion unit is a batch of spacecraft. At the published 100-unit price, a batch would yield $70 million if sold at list price. That price is about 53% below the single-unit price. Repeatable margins would depend on build and qualification costs, yield, and factory utilization at the discounted price. The memo provides no measured inputs for that cost bridge. (The Idea, Key Risks)
 
 ### Countercase
 
-Well-funded suppliers may close the production gap before Exponent qualifies. Apex already offers configurable buses built for inventory and is expanding its factory. Muon offers repeat production and has flown spacecraft. Some operators can bypass independent suppliers entirely, as Amazon’s reported in-house production illustrates. Inflection reports building more than half its spacecraft stack in-house, but there is no measured yield or cycle-time advantage from that integration. The alternatives keep the Path A outreach gate closed. Whether they can meet the same payload, price and schedule for Exponent’s target buyers remains unresolved, leaving a specific reason to Watch. (Defensibility, Market & Traction, Key Risks)
+Apex offers configurable buses built for inventory, and Apex and Muon already offer repeat production with flown spacecraft. Amazon’s in-house production also shows that some buyers can bypass independent suppliers. Rival capacity could close the scheduling gap before Exponent qualifies. The memo leaves open whether those alternatives can meet the same payload, batch size, and delivery requirements. That keeps the path open at Watch. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
 | Path-specific thesis fit | 8/25 |
-| Durable value capture | 5/25 |
-| Customer demand | 5/20 |
-| Team and execution | 9/15 |
+| Durable value capture | 7/25 |
+| Customer demand | 6/20 |
+| Team and execution | 8/15 |
 | Scale economics | 5/15 |
 
-**Total Score: 32/100** (Pass)
+**Total Score: 34/100** (Pass)
 
 ### Decisive diligence question
 
-Can Inflection deliver a paid, flight-qualified Exponent batch on a schedule that an independent constellation buyer’s best comparable supplier cannot match, at a price that covers measured production and test costs per accepted unit? Buyer acceptance, a like-for-like procurement comparison and batch cost records would answer it. A verified, repeatable advantage would move the case toward Reach out if it clears the score and confidence gates. Evidence that qualified alternatives can match the same terms would move it to Pass.
+Can Inflection deliver a paid qualification batch that an independent operator chooses for a schedule advantage? Move to **Reach out** if the buyer confirms that qualified alternatives missed the required delivery window, and batch records show that AI-assisted engineering or testing materially shortened delivery at a price that covers the batch’s costs. A qualified rival meeting the same requirements on comparable terms would close this case and move the action to **Pass**.

@@ -5,25 +5,17 @@
 
 ### Company case
 
-**Strategic acquisition** is the strongest path. A cloud operator or data center developer facing long waits for grid power could buy Aikido to control a repeatable way to bring offshore compute capacity online. The inferred advantage of ownership is control over platform design and deployment across multiple sites. That advantage becomes valuable if the 10+ MW AO60DC design can reliably deliver capacity sooner or at lower cost than licensing capacity or building a competing platform. (The Idea, Defensibility)
+Strategic acquisition is the strongest path. A marine infrastructure developer could buy Aikido to control its foldable floating platform and integrated wind-powered data center design. The potential benefit is earlier delivery of usable compute capacity where grid connections are delayed. Ownership could make sense if the platform delivers reliable capacity at a lower cost or on a faster schedule than building a competing design, licensing the platform, or buying capacity from Aikido. The memo provides no measured advantage or acquisition price range. (The Idea, Defensibility, Market & Traction)
 
-The memo documents an Aikido-assigned patent covering a folding floating wind platform and $1.72 million in equity sold. Aikido reports that its A1DC pilot retrofit received final platform permits and that prospective GPU renters are lined up. The memo shows no binding capacity agreement or realized revenue. The pilot is a concrete step toward testing offshore operations, while the cost and funding needed to reach certified full-scale service remain open. The assigned patent supports a corporate acquisition structure, with project rights and required consents still unverified. The memo provides no usable acquisition valuation or independently supported fallback that could pay this holder. (Defensibility, Market & Traction, Key Risks, Key Facts)
+The memo documents an Aikido-assigned patent on the floating wind platform and $1.72 million in equity sold. A company sale offers a plausible way to transfer control of the patent, with the rights and consents needed for commercial deployment still unverified. Aikido reports that the A1DC retrofit began and received final platform permits, and says prospective GPU renters are lined up. Their contract and payment status are undisclosed. The operating milestone is a sustained offshore A1DC run that measures uptime and delivered cost under IT load. The retrofit and permits make the test plausible, while its funding and the capital required for a certified 10+ MW commercial platform remain unclear. (Defensibility, Market & Traction, Key Risks, The Idea)
 
-**Proceeds bridge.** The illustrative $500,000 check at a $10 million post-money valuation starts at 5% ownership and falls to 3% after 40% relative dilution, with no follow-on checks. The 5× objective requires $2.5 million in cash within eight years, or $83.3 million in distributable equity proceeds at 3%. The hurdle rises to $125 million at 2% and falls to $62.5 million at 4%.
+**Illustrative holder proceeds.** Assume a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-ons. The eight-year 5× target is $2.5 million in gross cash before investor taxes. It requires $83.3 million of distributable equity at 3% ownership, $125 million at 2%, or $62.5 million at 4%. At 3% ownership, assuming $5 million in net debt for the sale scenarios and simple pro rata distribution, the enterprise-value hurdle is $88.3 million. A $25 million sale in year eight yields $600,000 (1.2×), and a $100 million sale yields $2.85 million (5.7×). The memo leaves actual ownership, debt, fees, and preference terms unquantified, and neither sale price has company-specific support. (Market & Traction, Key Facts)
 
-In the illustrative sale scenarios, enterprise value equals distributable equity after assuming zero net debt, transaction deductions, and preference effects. All consideration is cash paid at closing. Stock, escrow, earnouts, rollover, and compensation are each assumed to be zero. The prices and closing years are scenario assumptions.
-
-| Outcome | Timing | Enterprise value and distributable equity | Holder cash before taxes | Gross multiple |
-|---|---|---:|---:|---:|
-| Modest sale | Year 5 | $50 million | $1.5 million | 3× |
-| Strong sale | Year 7 | $100 million | $3 million | 6× |
-| Prolonged private | Through year 8 | No transaction | $0, shares retained | 0× realized |
-
-The strong sale clears the hurdle at 3% and falls to 4× at 2%. In the prolonged-private scenario, growth plateaus, buyers stay away, public-market scale remains out of reach, and the company reinvests available cash. The memo leaves the strong-case price and the ownership advantage that would justify it untested. (Market & Traction, Key Risks, Key Facts)
+The financing disclosure leaves eligible secondary demand and sale terms unestablished. The memo also lacks evidence of cash generation to finance a sponsor buyout, operating scale and resale readiness for an IPO, or distributable cash and a policy for dividends or buybacks. If growth plateaus, buyers stay away, public scale stays out of reach, and available cash is reinvested for eight years, the holder realizes $0 and retains the shares. Any wind-down recovery would depend on the residual after obligations and preferences, which the memo does not quantify. (Market & Traction, Key Risks, Key Facts)
 
 ### Countercase
 
-A cloud operator could rent Aikido’s capacity under its proposed colocation model and avoid taking on offshore maintenance and power-continuity risks. A shipbuilder-led group is already developing a competing floating data center design, giving buyers another potential route to marine capacity. If a lease or competing design provides comparable speed and reliability, an acquirer could have little reason to pay for control. The memo establishes credible substitutes but leaves their relative cost and performance unresolved. That gap supports Watch. The evidence does not establish a structural price cap or show that the prolonged-private scenario is probable enough to trigger Pass. (The Idea, Defensibility, Key Risks)
+Samsung Heavy Industries and its partners are developing their own floating data center. A prospective buyer could build competing capacity or contract for Aikido’s output while leaving wind variability, backup power, and vessel-dependent maintenance with the operator. Aikido’s reservation inquiries are nonbinding, and commercial-scale certification is still planned. These facts weaken the case for paying to own the platform. The Pass gate remains untriggered because the memo establishes neither a structural barrier to a sale nor a supported sale price that leaves the holder materially short. (Defensibility, The Idea, Key Risks)
 
 ### Dimension Scores
 
@@ -31,12 +23,12 @@ A cloud operator could rent Aikido’s capacity under its proposed colocation mo
 |-----------|-------|
 | Counterparty rationale or source of cash | 14/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 11/20 |
+| Milestones and capital needed | 12/20 |
 | Transaction feasibility | 6/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 41/100** (Pass)
+**Total Score: 42/100** (Pass)
 
 ### Decisive diligence question
 
-Would owning AO60DC give a strategic buyer enough deployment or cost advantage over leasing or building to support a price that delivers $2.5 million to this holder within eight years? A buyer-specific comparison grounded in verified offshore uptime, delivered cost, and deployment lead time would move the action to Reach out if it supports that price under plausible dilution and transaction terms. Evidence that a readily available substitute caps the price below the hurdle would move it to Pass.
+Can a marine infrastructure buyer substantiate a purchase price that clears the holder’s cash hurdle within eight years using A1DC’s measured offshore uptime and delivered cost? Move from Watch to Reach out if buyer-backed pricing tied to those results supports at least $2.5 million in holder cash under credible dilution, debt, and preference assumptions.

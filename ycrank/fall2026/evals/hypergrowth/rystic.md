@@ -5,26 +5,26 @@
 
 ### Company case
 
-**Path A, product-led adoption.** The first buyer is an engineering team that needs to test agents that can modify third-party systems. Tilo’s CTO reports using Rystic in CI for its migration assistant without setting up real accounts for each service. Rystic also reports that an unnamed pilot found a Slack thread-reading bug its existing mocks had missed. These are concrete signals of early fit. The memo gives no paid conversion or retention figures. (Market & Traction, Key Facts)
+**Product-led adoption** is the strongest path. The initial buyer is an engineering team that needs to regression-test agents or integrations that write to external services. Rystic documents a self-serve CLI and reusable, stateful simulators that run locally or in CI. Tilo’s CTO reports using Rystic in migration-assistant CI without setting up real service accounts. Rystic separately reports that an unnamed pilot uncovered a Slack thread-reading bug that its existing mocks had missed. These reports show concrete workflow value. The use of common APIs makes the same job plausible across markets, though the memo gives no buyer geography. (The Idea; Market & Traction)
 
-The route to the next thousand buyers would run through the downloadable CLI and self-serve signup. If teams can get a useful test running with standard simulators, they could keep it in CI and add services, teammates, or metered usage. Those are expansion scenarios. In a second geography, the same product could serve teams using the same APIs and CI workflows, assuming billing, license access, and support carry over. The memo provides no cross-market buyer evidence or confirmation that Tilo activated through the self-serve route. (The Idea, Market & Traction, Key Risks)
+Assuming strong fit with those teams, the first unproven link is whether another team can discover Rystic, get a standard simulator running in CI, and convert to paid use without founder help. Repeat CI runs could lead to paid seats or simulator-minute overages as teams add test suites. The memo documents pricing and one customer’s CI use, while paid conversion, repeat usage at the team’s testing cadence, and expansion remain unmeasured. Local execution gives Rystic a plausible way to serve more runs from the same simulator, but the memo provides no usable measure of incremental support or simulator maintenance costs. (The Idea; Market & Traction; Defensibility)
 
 ### Countercase
 
-Tilo’s migration work may end without leaving a recurring workload, while HJBL reports using exchange simulators Rystic built specifically for it. Standard simulators can run on customer infrastructure and share verification work across accounts. If each new customer needs unsupported APIs or finer fidelity, simulator development, live-service verification, maintenance, and support could grow with each account. The memo documents fidelity gaps and custom work but gives no rollout cost data. That leaves the Pass gate untriggered. A paid cohort would be more informative than a conversation today. (Market & Traction, The Idea, Defensibility, Key Risks)
+The standard catalog could get teams to a first useful test while leaving gaps in the behaviors they need for ongoing CI. Rystic publishes agreement rates of 95.0% across its Slack checks and 92.4% across its GitHub Pulls checks. HJBL’s reported use depended on exchange simulators Rystic built for it. If buyers routinely need that level of customization, founder engineering could grow with each account. The structural downside gate stays open because the memo also records Tilo’s CI use and gives no evidence that bespoke delivery is unavoidable for the initial buyer segment. (Market & Traction; Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 9/25 |
+| Global buyer demand | 16/25 |
 | Repeatable acquisition and onboarding | 9/25 |
 | Retention and customer expansion | 7/20 |
 | Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 7/10 |
+| Evidence of fit in the first buyer segment | 6/10 |
 
-**Total Score: 39/100** (Pass)
+**Total Score: 45/100** (Neutral)
 
 ### Decisive diligence question
 
-Can a cohort of independent engineering teams outside the US install the standard CLI, convert to paid use, and keep running tests in CI after the initial project? Signup, billing, and CI records showing that sequence with limited founder support and no custom simulator builds would move the action to Reach out. If that pattern remains unproven, keep watching.
+Can two independent engineering teams that discover Rystic through a public channel get a standard simulator running in CI, convert to paid use, and keep running it at their normal test cadence with bounded support? Walk through each team’s path using signup, billing, CI, and support records. Two such rollouts would move the action to Reach out. If the teams still need founder-built environments to reach paid value, keep Watch. (The Idea; Market & Traction)

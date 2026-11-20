@@ -5,26 +5,26 @@
 
 ### Company case
 
-**Path B — Repeatable sales or partner distribution with account expansion.** A utility maintenance team could start by paying Talos to monitor a set of critical transformers, then add assets if the alerts give crews enough warning to investigate and act. The memo documents long transformer replacement lead times and a founder-led demo channel. Talos reports sensors deployed across 40+ assets and partnerships with utilities, plant owners, and national labs. The deployment count shows reported field activity, while buyer identities, paid activation, and fleet expansion remain unverified. (The Idea, Market & Traction, Key Facts)
+The strongest path is **channel-led or repeatable sales**, through direct sales to utility maintenance teams. The memo documents a founder-routed demo channel. Talos describes a retrofit sensor package that learns each asset’s baseline and flags changes for maintenance teams to investigate. The same job recurs wherever utilities operate critical equipment. If the sensor package and installation process carry over between sites, asset-specific calibration could let Talos serve new utilities with the same product and expand across a fleet after proving value on the first assets. (The Idea)
 
-**Second-market scenario.** If a utility outside the US can use the same sensor kit and alert workflow, Talos could sell to the same maintenance buyer there. Portability would depend on site approvals, installation, connectivity, and whether local crews can commission the equipment using a standard process. The memo’s global category estimate establishes market context. Talos’s own cross-market demand remains untested. (The Idea, Market & Traction)
+Talos reported deployments on 25+ assets on October 29 and 40+ by November 17, along with partnerships across national laboratories, utilities, and plant owners. That supports early field activity. The memo gives no account-level evidence of who paid, who acted on alerts, or whether an existing buyer added assets. Even assuming strong fit at the first utility, the first unresolved link is whether the next utility can reach paid go-live with a repeatable installation and validation process. At this stage, buyer-funded rollouts and measured deployment effort would be enough to test that link. (Market & Traction, Key Risks)
 
 ### Countercase
 
-Each utility could require a separate sale and site approval, while every additional asset adds hardware, installation, and baseline setup. If field alerts need frequent manual review to distinguish faults from normal variation, support effort could rise with the installed base. Talos describes machine-specific baselines, and the memo leaves detection sensitivity, false-alarm rates, warning lead time, and rollout costs open. The Pass gate requires observed evidence of a structural ceiling or proportional scaling costs. A measured paid rollout would be more informative than a conversation today. (The Idea, Key Risks, Key Facts)
+The deployment count could reflect a few founder-supported trials. If every site needs custom installation and extensive validation before operators trust the alerts, each sale could bring substantial engineering and support work while fleet purchases remain uncertain. Talos’s machine-specific baselines make that a concrete question, and the memo leaves field detection rates, false alarms, warning lead times, and deployment terms unresolved. The structural downside gate requires affirmative evidence of a persistent constraint. The memo leaves rollout effort and buyer conversion open, which supports Watch. (The Idea, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 9/25 |
+| Global buyer demand | 15/25 |
 | Repeatable acquisition and onboarding | 9/25 |
 | Retention and customer expansion | 7/20 |
 | Contribution as volume grows | 7/20 |
 | Evidence of fit in the first buyer segment | 4/10 |
 
-**Total Score: 36/100** (Pass)
+**Total Score: 42/100** (Pass)
 
 ### Decisive diligence question
 
-Can one independent utility turn a paid transformer pilot into a paid rollout at a second site after its maintenance team acts on the alerts? A purchase order for the second site, an alert linked to a maintenance action, and deployment records showing that the same kit went live with less Talos labor per asset would move the action to **Reach out**.
+Can Talos take a second independent utility from demo to paid go-live using the same deployment process as the first? Move to Reach out if two paid rollout records show that a non-founder can run installation and baseline setup, the second operator uses the alerts in its maintenance workflow, and the fee covers the measured installation and early support costs.

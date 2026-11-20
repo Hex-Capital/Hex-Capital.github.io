@@ -5,36 +5,36 @@
 
 ### Company case
 
-**Strategic acquisition** is Alkera’s strongest path to investor cash. The memo records Fivetran’s acquisition of Tobiko Data, whose SQLMesh product plans and validates transformations. That establishes that a data infrastructure platform has bought an adjacent capability. The memo gives no purchase price or evidence of buyer interest in Alkera. (Market & Traction)
+Strategic acquisition is the strongest path. Fivetran’s acquisition of Tobiko Data shows that a data integration buyer has paid to own an adjacent transformation-planning and validation capability. Alkera describes an asset that could extend those checks across Snowflake, dbt, and Hex by tracing column-level dependencies and testing proposed fixes in isolation. A buyer could gain a native way to catch changes that would alter customers’ dashboards. The memo leaves Alkera-specific buyer interest, the economic benefit, and the advantage of ownership over a partnership unverified. (The Idea; Defensibility; Market & Traction)
 
-Alkera describes a product that traces column-level dependencies across Snowflake, dbt, and Hex, links business definitions to their sources, and tests changes in isolation. It reports an 83.28% benchmark pass rate versus 68.49% for Claude Code using the same model. A platform buyer could gain an ownership advantage if integrating Alkera across its installed base prevented enough costly downstream errors to justify buying the technology over building or licensing it. That is an inference. The memo reports launch attention and $500,000 in YC financing via a convertible note. Paid production results, burn, and runway are undisclosed, so the capital needed to demonstrate that advantage remains uncertain. IP ownership, integration rights, and customer consents are also unverified. The memo supplies no independently supported fallback that could pay this holder. (The Idea, Defensibility, Key Risks, Market & Traction, Key Facts)
+The operating milestone is repeatable paid production use across warehouses, transformations, and dashboards, with a measured reduction in downstream errors against existing tools. The product launch and reported $500,000 YC convertible financing make a seed-stage test plausible. Alkera’s reported benchmark advantage provides an initial reliability signal. Paid production results, runway, and the cost of validating and maintaining those integrations remain open. The memo also leaves ownership of the core IP and transferability of material contracts unverified. (The Idea; Market & Traction; Key Risks)
 
-**Proceeds bridge.** The reported note lacks terms for underwriting this check, so the scenarios use the thesis’s illustrative $500,000 check at a $10 million post-money valuation, diluted from 5% to 3%, with no follow-on. The eight-year 5× objective requires $2.5 million in holder cash, or $83.3 million in distributable equity at 3% ownership. The hurdle is $125 million at 2% and $62.5 million at 4%. For the sale scenarios, assume zero net debt and other price adjustments, no senior claims, and a simple pro rata waterfall. Enterprise value therefore equals distributable equity consideration, all paid in cash at closing. Stock, escrow, earnouts, rollover, and compensation are each assumed to be zero. The prices illustrate the hurdle. The memo supplies no basis for an acquisition price range.
+The proceeds bridge uses the shared scenario. A $500,000 check at a $10 million post-money valuation buys 5%, diluted to 3% with no follow-ons. A 5× gross cash return within eight years requires $2.5 million to the holder, or $83.3 million in distributable equity. At 2% and 4% ownership, the equity hurdles are $125 million and $62.5 million. With $5 million in illustrative net debt, the 3% case requires about $88.3 million in enterprise value. The reported convertible financing leaves actual conversion, priority, and dilution terms open, and the Tobiko acquisition has no disclosed price in the memo. (Market & Traction)
 
-| Illustrative outcome | Timing | Gross cash to holder | Gross multiple |
-|---|---|---:|---:|
-| Modest sale at $40 million enterprise value | Year 5 | $1.2 million | 2.4× |
-| Strong sale at $100 million enterprise value | Year 7 | $3.0 million | 6.0× |
-| Prolonged private ownership, with growth plateauing, buyers staying away, public scale out of reach, and cash reinvested | Through year 8 | $0, with shares still held | 0× |
+| Eight-year scenario | Gross cash to the holder at 3% |
+|---|---:|
+| $25 million enterprise-value sale, less $5 million illustrative net debt | $600,000 (1.2×) |
+| $100 million enterprise-value sale, less $5 million illustrative net debt | $2.85 million (5.7×) |
+| Growth plateaus, buyer interest fails to emerge, public scale stays out of reach, and available cash is reinvested | $0, with shares still held |
 
-The strong scenario clears the hurdle at 3% ownership. At 2%, the same sale returns $2 million, or 4×. Buyer willingness to pay and the actual holder waterfall remain the decisive uncertainties.
+The sale cases use simple pro rata allocations before investor taxes and any unquantified fees or senior claims. A wind-down would pay the holder only from any residual after obligations and preferences, which the memo gives no basis to estimate. The memo also leaves sponsor financing capacity, eligible secondary demand, IPO readiness, and distributable cash unevidenced. (Market & Traction; Key Facts)
 
 ### Countercase
 
-Snowflake’s Cortex Code already covers dbt development and catalog-aware SQL, and Altimate offers warehouse connectors, dbt tests, and column lineage. A buyer could build on those capabilities or license Alkera where it fills a gap. Alkera’s reported benchmark leaves errors unresolved, and disconnected systems can hide downstream impact. Together, these facts weaken the case for an acquisition premium. They establish meaningful overlap, while leaving open whether substitutes match Alkera’s cross-tool results in production. The structural Pass override is therefore unproven. (The Idea, Defensibility, Key Risks)
+Fivetran already owns Tobiko’s transformation-planning and validation capabilities. Snowflake’s Cortex Code overlaps with Alkera’s Snowflake workflows, and Altimate already offers warehouse connectors, dbt tests, and column lineage. A buyer could extend existing tools or partner for the remaining coverage, especially if gaps in Alkera’s connected lineage limit its production value. Those concrete alternatives carry more weight than Alkera’s self-reported benchmark when judging why a buyer would pay to own the product. The evidence supports Watch. It leaves both a structural block and a realizable sale price unresolved, so the Pass gate does not apply. (Defensibility; Market & Traction; Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 14/30 |
+| Counterparty rationale or source of cash | 17/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 10/20 |
+| Milestones and capital needed | 9/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 39/100** (Pass)
+**Total Score: 41/100** (Pass)
 
 ### Decisive diligence question
 
-Can a paid production deployment show enough incremental value over native tools and an ordinary license for a data infrastructure platform to justify buying Alkera at a price that clears the holder’s hurdle? Move to **Reach out** if a prospective buyer’s assessment uses measured reductions in downstream errors and credible integration costs to support an ownership advantage and at least $83.3 million in distributable equity under the 3% case.
+Can Alkera show that owning its cross-stack validation product creates enough incremental value for a data integration buyer to support a purchase near the modeled $88.3 million enterprise-value hurdle? Repeatable paid deployments with measured reductions in downstream errors and a buyer-side valuation range that clears the hurdle on credible shareholder terms would move the action to Reach out.

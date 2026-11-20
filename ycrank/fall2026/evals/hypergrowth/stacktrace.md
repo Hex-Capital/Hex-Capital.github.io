@@ -5,26 +5,26 @@
 
 ### Company case
 
-**Path A — Product-led adoption.** Fleet targets engineering and security teams that need to catch stalled runs and enforce policy on unattended coding agents. Stacktrace offers a browser sandbox and self-serve signup for a free tier with 200 session-hours per organization per month. Enterprise pricing is quoted by session-hour. The growth hypothesis is that one team installs Fleet, gets enough value from monitoring live sessions to roll it out to more teams, and upgrades as recurring usage grows. Stacktrace reports unnamed design partners running local or unattended cloud agents. The memo documents the launch and signup route. Buyer activation, realized revenue, and retained usage remain unverified. (*The Idea, Market & Traction, Key Facts*)
+**Usage-based expansion** is Fleet’s strongest path. Engineering and security teams have a recurring job overseeing unattended coding agents. Fleet documents a local sidecar that reads session logs and uses hooks to enforce policy. For teams using supported agents, the same workflow could travel across markets with setup centered on agent compatibility and policy configuration. The memo gives no buyer locations or cross-market rollout evidence. (The Idea, Key Risks)
 
-A second-market scenario assumes another engineering or security team uses the same supported agents and can reuse the same install and policies. Portability depends on whether that buyer can approve the deployment under its telemetry and data-handling requirements and use the same enforcement integrations. The local sidecar offers a plausible way to reuse the deployment. The next customer still adds setup and support effort, and each additional session may add processing or telemetry costs. Contribution improves if paid session volume grows faster than those costs and enterprise sales effort. The memo gives no cross-market buyer test or measured rollout costs. (*The Idea, Key Risks, Key Facts*)
+Fleet has launched and offers self-serve signup and a browser sandbox. Its published pricing gives teams 200 free session-hours per month and prices annual enterprise plans by session-hour volume. The scenario is that a team gets value from monitoring its first workload, adds unattended workloads, and pays for more session-hours. The first unproven link is whether an independent team can get from signup to production value and paid use through a standard setup. A founder reports unnamed design partners running local or unattended cloud agents, with no detail on their Fleet deployment, workflow commitment, or budget. The memo gives no account-level repeat usage, paid expansion, or measurements of the infrastructure and support costs of serving additional hours. (The Idea, Market & Traction, Key Facts)
 
 ### Countercase
 
-Native agent controls could satisfy teams using one vendor before Fleet earns a paid upgrade. The teams most likely to value Fleet’s shared policy across agents may also be the hardest to serve. Their mixed environments could require more integration and tuning because coverage depends on supported logs and enforcement points. That could leave Fleet with easy-to-serve free users and expensive enterprise deployments. The memo establishes native feature overlap and coverage dependencies. Buyer substitution and proportional delivery costs remain unverified, so the structural Pass gate does not apply. (*Defensibility, Key Risks*)
+Native permissions and hooks could satisfy teams that use a single coding agent. Fleet’s cross-agent policy is a reason to buy only if it covers enough of a team’s recurring work. Coverage depends on supported logs and enforcement points, so additional workloads could require custom integration and ongoing support that absorb the revenue from more session-hours. The structural downside gate is not triggered. The memo identifies the coverage dependency but gives no deployment evidence that custom work grows in proportion to revenue. (The Idea, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 9/25 |
+| Global buyer demand | 16/25 |
 | Repeatable acquisition and onboarding | 9/25 |
 | Retention and customer expansion | 7/20 |
 | Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 5/10 |
+| Evidence of fit in the first buyer segment | 4/10 |
 
-**Total Score: 37/100** (Pass)
+**Total Score: 43/100** (Pass)
 
 ### Decisive diligence question
 
-Can an independent engineering or security team outside the US come through Fleet’s self-serve route, deploy the standard product on a recurring unattended workload, and upgrade to paid usage with limited Stacktrace help? A buyer-confirmed rollout with usage records, a paid invoice, and measured onboarding and support time would move the action to **Reach out**. A demo or an unpaid pilot would keep it at **Watch**.
+Can two independent engineering teams use the same Fleet setup to reach production, convert to paid plans, and add billed session-hours as they put more unattended workloads under oversight? Account records showing those steps at each team’s normal usage cadence, with measured and bounded setup and support effort, would move the action to **Reach out**.

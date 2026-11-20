@@ -5,28 +5,28 @@
 
 ### Company case
 
-**Path B — New economies.** Theo’s strongest case is that automating weekly SEO could make recurring work affordable for small businesses that previously went without it. Theo describes a hosted workflow that drafts landing pages and posts, makes technical fixes, and offers owner review or auto-publishing. Starter lists at $69.99 per month. The market-opening hypothesis is plausible at seed, but the memo gives no like-for-like comparison with DIY or freelance delivery that counts setup, review, rework, and exceptions at equivalent quality. (The Idea, Key Risks)
+**Path B — New Economies.** Theo could make weekly search optimization economical for small businesses that previously went without it. With DIY builders, owners spend time researching keywords, writing pages, and fixing their sites. With freelancers or agencies, they pay someone else for that work. Theo’s $69.99 monthly Starter plan bundles hosting with weekly drafts and technical fixes, with owner review or optional auto-publishing. The investment hypothesis is that automation cuts enough labor to make that cadence affordable for businesses that previously skipped it. The memo establishes the workflow and price. Labor per successful outcome and adoption by previously unserved buyers remain unmeasured. (*The Idea*, *Key Facts*)
 
-One reviewer reported paying roughly $69 per month. Theo’s published Buy My Lunch testimonial reports that Google clicks rose from 131 to 929 over 90 days. That outcome is encouraging, but attribution and typical results remain uncertain. Theo’s reported build count can include free drafts, and the memo does not establish paid renewals among buyers previously priced out of ongoing SEO. (Key Facts, Market & Traction, Key Risks)
+One reviewer reported paying roughly $69 per month. Theo’s build and free-audit counts show interest, while conversion and paid renewals remain undisclosed. A testimonial says Buy My Lunch’s Google clicks rose from 131 to 929 over 90 days. That is a customer-reported result, and the memo leaves its attribution and typicality unresolved. At seed, Theo’s shipped site import, hosting, and search integrations show execution progress. Solo founder Miles Pines also reports prior SEO work for Endgrate and other small businesses. Repeatable site cutovers that preserve search traffic remain an execution test. (*Market & Traction*, *Key Facts*, *Founders & Team*, *Key Risks*)
 
-Theo has shipped the hosted workflow, and solo founder Miles Pines reports doing similar SEO work for small businesses. The next execution test is whether the workflow can maintain quality across accounts without relying on founder intervention. At the listed Starter price, the scale case depends on what remains of $69.99 per account-month after hosting, inference, support, publishing labor, and amortized onboarding. The memo gives no measured inputs for that calculation. (The Idea, Founders & Team, Key Risks)
+The expansion unit is one more hosted site on a paid growth plan. Using a qualified organic inquiry as the outcome for diligence, the cost comparison would include owner review, corrections, and missed outcomes under Theo and the former DIY or outsourced workflow. Theo’s own contribution per site depends on free-preview conversion and the cost of hosting, inference, migration, support, and publishing exceptions. The memo supplies a price and a recurring workflow, with realized costs and contribution still unknown. (*The Idea*, *Key Risks*)
 
 ### Countercase
 
-Theo may be automating an existing service that better-funded competitors can bundle into products buyers already use. Durable automates blog research and drafting, and Wix combines AI site generation with SEO tools. Theo’s hosted publishing creates migration work, but customers own their domains and Pro users can copy their site code. If competitors have equally capable models, the memo gives no evidence of sustained buyer preference at parity or of a network effect. Google authorization also gates activation, and weak automated content could undermine the outcome customers pay for. The memo identifies no separate scarce complement Theo controls. The Path B outreach gate remains unmet, but feature overlap alone does not establish that buyers would switch at equivalent quality. (The Idea, Defensibility, Key Risks)
+Theo may be selling a cheaper bundle to businesses already served by site builders and SEO providers. Under the scenario assumption that rivals have equivalent models, Theo’s clearest company-specific advantage is the work a customer would face moving an established publishing workflow. Customers own their domains, Pro users can copy site code, and Durable and Wix already cover parts of the workflow. The memo shows neither demonstrated buyer preference at functional parity nor a benefit to existing customers from each additional customer. Competitive overlap and the lack of buyer-level cost data leave both Path B gates open for testing. The evidence does not establish that either has failed. (*Defensibility*, *Market & Traction*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 10/25 |
-| Durable value capture | 7/25 |
-| Customer demand | 8/20 |
+| Path-specific thesis fit | 11/25 |
+| Durable value capture | 8/25 |
+| Customer demand | 9/20 |
 | Team and execution | 9/15 |
-| Scale economics | 5/15 |
+| Scale economics | 6/15 |
 
-**Total Score: 39/100** (Pass)
+**Total Score: 43/100** (Pass)
 
 ### Decisive diligence question
 
-Can a small cohort of businesses previously priced out of weekly SEO pay and renew at Starter pricing when offered an equally capable, similarly priced alternative? A representative trial should compare Theo with the prior DIY or freelance workflow at equivalent publishing quality, counting setup, owner review, retries, fixes, and support. Material labor savings and repeat paid preference at parity would justify rescoring for outreach. A credible trial showing that the savings disappear or that buyers readily switch at parity would move the action to Pass.
+Will small businesses that previously went without ongoing SEO renew Theo at $69.99 per month after it delivers qualified organic inquiries at a lower full cost than their DIY or outsourced options, when they can choose an equally capable, similarly priced rival without bearing migration costs? A representative paid cohort that demonstrates both lower cost per qualified inquiry and renewals under that comparison would move the action to **Reach out**. A representative test that defeats either condition would move it to **Pass**.

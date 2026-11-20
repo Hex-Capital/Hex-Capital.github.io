@@ -5,26 +5,28 @@
 
 ### Company case
 
-**Path A — Scarce complements.** Contour’s strongest case is that cheaper AI could expand the supply of qualified environmental permitting work for data center, power plant, and factory developers. Contour says consultants prepare studies and applications manually and coordinate revisions, delaying construction. It plans to acquire practices and use Cortex for rule research, emissions calculations, and drafting, with staff retaining technical judgment. The memo documents an accuracy certification requirement for federal Title V applications. That makes staff time through review and correction the relevant test of capacity. Contour’s effect on that capacity remains unmeasured. (The Idea, Key Risks)
+**Path A — Scarce complements.** Contour’s strongest case is that AI infrastructure buildout raises the value of environmental permitting capacity. Contour says manual studies, application preparation, and revisions delay construction. It proposes acquiring consultancies and using Cortex for rule research, emissions calculations, and drafting, with staff retaining technical judgment. If consultant capacity is the binding constraint, this could let each practice deliver more accurate, accepted applications per specialist and give Contour control of the resulting capacity through ownership. The memo provides no measured throughput or completed acquisition. (The Idea, Defensibility)
 
-**Scenario assumptions.** If Cortex reduces total staff hours per certifiable filing at equivalent quality, and acquired practices retain the specialists and client engagements needed to deliver the work, Contour could sell more permitting capacity even when competitors have access to the same models. The expansion unit is one acquired practice. The economic bridge starts with service fees and subtracts specialist review, rework, AI, and integration costs. The resulting cash flow must justify the acquisition price. The memo reports a public launch and provides no evidence of a closed acquisition, buyer commitment, revenue, or practice-level economics. At a seed-stage standard, Agrawal’s enterprise AI delivery and Lubar’s investment banking experience support a first test. Permitting delivery and practice integration remain unproven. (The Idea, Market & Traction, Founders & Team, Key Facts)
+The observed traction is a public launch. The memo records no independent buyer committing budget or projects to Contour. Agrawal’s prior delivery of an enterprise AI search system and Lubar’s investment banking experience support early execution credit, while operating an acquired permitting practice is still untested. (Market & Traction, Key Facts, Founders & Team)
+
+The expansion unit is one acquired practice. **Scenario assumption:** At comparable filing quality, savings in staff time per accepted application could support repeat acquisitions if they cover ongoing review, corrections, on-site integration, and acquisition capital at realistic utilization. The memo gives no measured inputs for that calculation. (The Idea, Key Risks)
 
 ### Countercase
 
-With abundant capital and equivalent models, rivals could acquire comparable practices and equip them with overlapping tools. True Environmental has already acquired a consultancy, and ERM has partnered with Blumen for adjacent permitting intelligence. If expert corrections absorb the drafting savings or agency review determines the schedule, Contour may add little usable capacity or customer value. The memo does not establish equivalent end-to-end delivery by rivals or show that Contour cannot secure control of a practice, so the Path A override does not trigger. Path B remains unproven because the workflow serves existing permitting buyers and the memo identifies no transaction or buyer segment made newly viable. (Defensibility, Market & Traction, Key Risks, The Idea)
+Agency review or required expert sign-off could set the schedule, leaving faster drafting with little effect on construction readiness. Errors in emissions calculations could also add rework before certification. Under cheap, widely available intelligence, incumbent consultancies could pair their staff with comparable tools. ERM’s partnership with Blumen demonstrates access to overlapping capabilities, while True Environmental’s acquisition activity shows competition for the practices Contour wants to own. Those observations leave end-to-end substitution untested. The path stays open at Watch because neither the binding constraint nor Contour’s control of capacity has been demonstrated. (Key Risks, Defensibility, Market & Traction)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 10/25 |
-| Durable value capture | 6/25 |
+| Path-specific thesis fit | 9/25 |
+| Durable value capture | 7/25 |
 | Customer demand | 5/20 |
-| Team and execution | 8/15 |
-| Scale economics | 4/15 |
+| Team and execution | 6/15 |
+| Scale economics | 5/15 |
 
-**Total Score: 33/100** (Pass)
+**Total Score: 32/100** (Pass)
 
 ### Decisive diligence question
 
-Can a Contour-controlled practice complete a paid Title V engagement with materially fewer total staff hours at equivalent filing quality, and win follow-on work from the same developer when a comparable AI-enabled provider is available? A matched manual baseline that counts review, corrections, and revisions, together with evidence of practice control and a follow-on commitment, would support Reach out if the updated case clears the score and confidence gates. If review and rework erase the savings and the trial reveals no credible way to recover them, move to Pass.
+Will an independent infrastructure developer pay to reserve follow-on capacity at a Contour-owned practice after a matched pilot shows that it delivers accepted applications with materially fewer consultant hours and shorter consultant-controlled turnaround than a comparable practice using equivalent models? A paid commitment after controlling for jurisdiction, filing complexity, and rework would move the action to Reach out. A representative result showing equivalent capacity from the comparison practice would close Path A and move the action to Pass. (The Idea, Defensibility, Key Risks)

@@ -5,28 +5,28 @@
 
 ### Company case
 
-**Path A, product-led adoption.** The initial buyer is a team building AI workers that need to keep files and run graphical software across jobs. Orgo’s SDKs, self-serve provisioning, and Vercel and Convex listings give developers a route to a first desktop. If that desktop becomes part of a recurring workflow, the account could expand into more desktops or paid compute hours. Acquisition through those channels and paid expansion remain unverified. (The Idea; Market & Traction)
+Usage-based expansion is Orgo’s strongest path. Developers building always-on AI workers can provision a persistent desktop through an API, run graphical software, and retain files between jobs. If the first desktop becomes part of a recurring workflow, the same team could add desktops for other workers or run existing ones longer. Prepaid compute starts at $0.023 per running hour for Small Linux, and Orgo also sells monthly plans. Running-hour growth translates into revenue when it generates additional billable consumption or paid capacity. (The Idea)
 
-An agency operator reported that a client saved about 12 hours preparing a Squarespace shop with an agent running on Orgo. That is a concrete early signal of value for one workflow. Orgo separately reports more than 1,000 teams and thousands of production desktops. The memo gives no paid conversion or cohort breakdown, so those counts offer limited evidence of repeatable growth. (Market & Traction)
+The same API and desktop workflow could serve teams in other markets that can use U.S. hosting. Orgo says it operates its own U.S. infrastructure, and the memo gives no buyer geography or evidence of what a rollout would require for buyers with local hosting needs. Vercel Connect and Convex listings give developers concrete discovery routes, and the SDK gives them a self-serve activation route. The memo gives no account-level record linking either channel to a live, paying workload. (The Idea, Defensibility, Market & Traction)
 
-**Second-market scenario.** If developers abroad can use the same API from Orgo’s U.S. fleet, the product could reach them through the same channels. That assumes acceptable interactive latency and permission to keep workload data in the U.S. A local hosting requirement would add regional capacity and operating costs. Each additional workload already needs compute while running and storage between runs. Published prices show how Orgo charges, while utilization and incremental delivery costs remain unknown. (The Idea; Defensibility; Key Facts)
+An agency operator reported that an agent running on Orgo saved a client about 12 hours preparing a Squarespace shop. That is a concrete benefit from one workflow. Orgo separately reported more than 1,000 teams and thousands of production desktops. Those figures indicate initial adoption, while paid conversion, repeat use, and expansion within accounts remain unknown. For a company this early, the first unproven link is whether independent teams turn a successful first workload into recurring paid use. (Market & Traction)
 
 ### Countercase
 
-The shop setup may have been a one-off project, leaving little recurring paid usage. AWS already offers overlapping agent desktops with identity integration, giving existing WorkSpaces customers a reason to stay with their provider. If Orgo has to reserve capacity for lightly used desktops, adding workloads could also add costs faster than contribution. The memo leaves both the demand ceiling and the cost curve unresolved, so the structural Pass gate is unmet. (Market & Traction; Key Risks; The Idea)
+The reported footprint could reflect many initial deployments and few expanding paid accounts. The agency testimonial covers one project, and AWS and Daytona offer overlapping desktop capabilities, giving buyers alternatives when they choose where to run their next workload. Even if accounts add desktops, always-on workloads could require additional fleet capacity, storage, and support roughly in step with revenue. Orgo’s status page reported 99.760% compute-fleet uptime over 30 days, making reliability relevant to the always-on use case. The memo has no marginal cost or rollout-effort measurements. The structural downside gate does not apply because proportional costs and weak paid repeat use remain hypotheses. (The Idea, Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 9/25 |
+| Global buyer demand | 16/25 |
 | Repeatable acquisition and onboarding | 9/25 |
 | Retention and customer expansion | 7/20 |
 | Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 5/10 |
+| Evidence of fit in the first buyer segment | 6/10 |
 
-**Total Score: 37/100** (Pass)
+**Total Score: 45/100** (Neutral)
 
 ### Decisive diligence question
 
-Can a first paid cohort outside the U.S. find Orgo through a listed integration, provision desktops without founder help, and keep running the same workloads into a second billing cycle at positive incremental contribution? Channel, provisioning, billing, and workload records, with compute, storage, and support costs for that cohort, would answer it. A successful cohort would move the action to **Reach out**.
+Do multiple independent developer teams that self-serve their first paid desktop keep it running for recurring jobs and then add paid capacity at a positive incremental contribution? Account-level activation, billing, and usage records over consecutive billing cycles, paired with the added fleet, storage, and support costs, would answer it. Repeated expansion on those terms would move Orgo to Reach out.

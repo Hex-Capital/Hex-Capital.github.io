@@ -5,26 +5,26 @@
 
 ### Company case
 
-Path B is the strongest candidate. An AI research team evaluating spatial reasoning or coordination could start with one paid environment, then add tasks as its evaluation needs change. The memo describes demos of a robot driving in GTA V and interacting with server racks in a simulated data center. Melty reports building custom training tasks with unnamed teams. That suggests early interest in a specific research job. Paid activation, recurring use, and account expansion remain unverified. (The Idea, Market & Traction, Key Facts)
+Melty Gym’s strongest path is repeatable direct sales to AI and robotics research teams that need to rerun spatial-reasoning or coordination evaluations as models and tasks change. The memo describes a launch demo showing a G1 robot driving in GTA V and interacting with server racks in a simulated data center. The programmable environment makes the same simulation workflow plausible across markets, with adaptation likely concentrated in model integration and task configuration. Buyer geography and the effort required to serve a second market remain unreported. (The Idea, Market & Traction)
 
-The growth scenario assumes the launch inquiry channel can bring in similar research teams and Melty can reuse game integrations so each team can configure new tasks with less engineering help. In a second geography, the same setup would need to work with the buyer’s models and game access. Any changes to publisher permissions or support would add rollout work. The memo gives no cross-market test, integration reuse data, or task setup times. (The Idea, Defensibility, Key Risks)
+Melty invites research teams to contact founder David Miller and reports building custom tasks with unnamed teams. The first link to test is whether that intake can lead to a paid deployment through a setup another person can repeat. The growth scenario assumes teams can reuse an environment for later evaluations and will pay for that recurring workflow. The memo leaves buyer commitment, repeat use, and marginal delivery effort unverified. (The Idea, Market & Traction, Defensibility)
 
 ### Countercase
 
-Gym could grow as a custom engineering service. The advertised route sends teams to founder David Miller for custom environments, and the only reported team work involves custom tasks. If each buyer or workload requires fresh model integration, task engineering, testing, and ongoing support, delivery effort could rise in proportion to revenue. This supports Watch. The memo describes the current route and leaves the marginal cost of a repeat rollout unresolved, so the structural Pass gate is unproven. (The Idea, Market & Traction, Defensibility)
+The reported custom task work could be the delivery model itself. If each new team or evaluation requires fresh engineering from Miller, delivery effort could grow in proportion to revenue. The memo gives no setup times or evidence of integration reuse, and the reported audience for free consumer Mashups provides no evidence of paid Gym adoption. The structural downside gate remains untriggered because a standardized rollout is still testable. (The Idea, Market & Traction, Defensibility)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 9/25 |
-| Repeatable acquisition and onboarding | 8/25 |
+| Global buyer demand | 15/25 |
+| Repeatable acquisition and onboarding | 9/25 |
 | Retention and customer expansion | 7/20 |
 | Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 5/10 |
+| Evidence of fit in the first buyer segment | 4/10 |
 
-**Total Score: 36/100** (Pass)
+**Total Score: 42/100** (Pass)
 
 ### Decisive diligence question
 
-Can an independent AI research team in a second geography pay for and run a recurring evaluation using an existing Gym integration? A paid rollout with usage records at the team’s normal evaluation cadence and logged engineering and support hours showing materially less work than the original setup would move the action to Reach out.
+Can two independent research teams pay for the same recurring evaluation workflow and reach a usable first run through the same onboarding process? Move to Reach out if both teams use a shared environment template, a non-founder can run the setup, and recorded setup hours and task changes show bounded per-team effort.

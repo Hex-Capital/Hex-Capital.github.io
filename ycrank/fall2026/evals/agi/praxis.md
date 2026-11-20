@@ -5,28 +5,28 @@
 
 ### Company case
 
-Path B, New Economies, is the strongest fit. Praxis describes agents that apply firm rules to intake, conflict checks, document verification, and invoice follow-up, with lawyers retaining approval. In a testimonial, a corporate-law partner reported spending about 1.5 hours per day on client setup and engagement letters before using Praxis. That provides a baseline for part of the workflow. Post-adoption labor and quality remain unmeasured in the memo. (The Idea, Market & Traction)
+**Path B — New Economies.** Praxis could make it economical for small law firms to process inquiries they currently leave unserved because staff must transfer client data and chase documents manually. An unnamed customer recalled spending about 1.5 hours a day on client setup and engagement letters. Praxis also says one firm attributed at least $350,000 in annual lost business to slow intake. These reports establish a plausible labor bottleneck. The seed-stage hypothesis is that automating intake and document follow-up lowers the cost per correctly screened, lawyer-approved engagement enough to serve those inquiries. The memo gives a manual labor baseline and leaves actual savings and newly served volume unmeasured. (The Idea, Market & Traction)
 
-The seed-stage scenario is that lower intake costs let boutique firms accept smaller engagements they previously declined because setup took too much staff time. That scenario depends on net labor savings per successfully opened matter after lawyer review, retries, and exception handling, at equivalent quality. The memo reports live U.S. law-firm deployments, an early demand signal. Payment, repeat use, and acceptance of previously uneconomic matters remain unverified. The founders’ legal consulting, AI product distribution, and applied engineering experience support their ability to run the trial. Reliable handling of conflict-check exceptions remains unproven. (The Idea, Market & Traction, Key Facts, Founders & Team, Key Risks)
+With equivalent models available to rivals, firms might still pay Praxis for a configured workflow that carries their approval rules across intake, document checks, matter updates, and billing. The memo documents firm ownership of the playbooks. Switching costs are plausible if those workflows become embedded, and buyer preference under parity remains untested. Live deployments are reported, with payment and repeat usage undisclosed. The founders’ law-firm consulting, AI product rollout, and applied AI engineering experience supports their ability to run a field test of review burden and conflict-check reliability. (Defensibility, Market & Traction, Key Facts, Founders & Team, Key Risks)
 
-The expansion unit is one additional firm. Under the inferred subscription model, Praxis would need subscription revenue to cover inference, support, and the cost of configuring and integrating each firm. Pricing and those costs remain unknown, so scale economics receives the absent-evidence default. (The Idea, Key Facts)
+The expansion unit is one firm. If Praxis charges a firm-level subscription, as the memo infers, contribution depends on covering onboarding and support for each firm’s rules and connected tools, plus recurring inference and secure processing costs. The buyer’s cost per successful engagement must also include staff cleanup, retries, exceptions, and lawyer review. The memo supplies no realized pricing or operating costs, so repeatable contribution remains a scenario assumption. (The Idea, Key Facts, Key Risks)
 
 ### Countercase
 
-Praxis may speed up intake for matters firms already accept while leaving enough lawyer review and exception work to keep smaller matters uneconomic. With cheap, comparable models and ample capital, incumbents could extend their existing intake agents across more of the workflow while firms keep their case records in place. Switching away from Praxis could require rebuilding cross-tool integrations and approval rules, but firms own their workflows, and the memo provides no measured switching costs, preference under parity, or network effects. It also identifies no separate scarce complement Praxis controls. Both Path B conditions remain open, which supports Watch. (The Idea, Defensibility, Key Risks)
+Praxis may speed up intake for firms already paying to do it. Lawyer review, conflict-check remediation, and document exceptions could keep previously skipped inquiries uneconomic. Clio and Filevine already offer AI intake in the systems firms use, so a buyer could get enough of the benefit inside its existing suite. The memo establishes incumbent overlap and a required review step. It leaves both decisive questions open: whether supervision absorbs the savings and whether firms actually choose a comparable substitute. Neither gate is closed, and both remain unproven. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 10/25 |
+| Path-specific thesis fit | 9/25 |
 | Durable value capture | 7/25 |
-| Customer demand | 8/20 |
-| Team and execution | 8/15 |
-| Scale economics | 4/15 |
+| Customer demand | 7/20 |
+| Team and execution | 7/15 |
+| Scale economics | 5/15 |
 
-**Total Score: 37/100** (Pass)
+**Total Score: 35/100** (Pass)
 
 ### Decisive diligence question
 
-In a paid trial, do boutique firms repeatedly use Praxis to open smaller matters they previously declined on intake cost, and do they choose to keep paying for Praxis when offered an alternative with comparable model capability and workflow coverage? Compare human time per successfully opened matter at equivalent quality, including lawyer review, retries, and exceptions, then observe the firms’ paid choice. Evidence of both viable new matters and a sustained preference for Praxis would move the action to Reach out if rescoring clears the outreach threshold with at least medium confidence. A representative trial that defeats either condition would move the action to Pass.
+Will an independent small law firm renew at a price that covers Praxis’s delivery costs after a representative pilot makes a previously skipped class of inquiries economical to serve, when a functionally equivalent option is available? Compare full cost per correctly completed engagement against manual handling at the same quality standard, including review, retries, and exceptions. A paid renewal after the firm tries the alternative would move the action to Reach out if the cost comparison confirms the market opening. A representative result showing that review erases the savings or that the firm switches while preserving the outcome would close Path B and move the action to Pass.

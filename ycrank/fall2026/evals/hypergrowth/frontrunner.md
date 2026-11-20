@@ -5,26 +5,26 @@
 
 ### Company case
 
-**Path B — Repeatable sales with account expansion.** Frontrunner targets GTM engineers and revenue operations teams that repeatedly update qualification rules and buying signals across tools. The memo documents a live-demo sales entry point and organization-specific agreements. The clearest early fit signal is buyer-reported: Foresight Health’s CEO said the team booked seven meetings in 48 hours after onboarding. Frontrunner reports more than 100 signal-based opportunities acted on daily, but the memo gives no buyer-level history that would establish retention, paid expansion, or repeatable activation. (The Idea, Market & Traction, Key Facts)
+**Channel-led or repeatable sales** is the strongest path. The likely first buyer is a GTM engineering or revenue operations team that repeatedly updates lead qualification and outbound targeting. Frontrunner connects CRM, email, calendar, product, and call data in a shared graph that agents use to research accounts, route leads, and run campaigns. If buyers in a second market use compatible tools and similar qualification rules, the same product could serve them by adapting playbooks and configurations. Buyer geography and paid cross-market adoption are unverified. (The Idea, Key Risks)
 
-**Growth scenario.** If buyers can connect their existing tools and launch signal-based outbound through a standard setup, direct sales could repeatedly win the same buyer. The shared data graph could then let those accounts add lead routing or account research using the original integrations. In a second geography, that mechanism assumes the same buyer owns the workflow and the core integrations still work. The rollout would test whether data handling, outreach rules, or language support require market-specific changes. The memo leaves cross-market willingness to pay, demo-to-paid conversion, and incremental contribution unresolved. (The Idea, Key Risks)
+The memo documents a live-demo intake route. Foresight Health’s CEO reports booking seven meetings within 48 hours of onboarding, a concrete early fit signal for signal-based outbound. Frontrunner separately reports acting on more than 100 signal-based opportunities daily. The memo leaves the path from demo to payment, the steps required to go live, and account-level repeat use or paid expansion unresolved. (The Idea, Market & Traction, Key Facts)
 
 ### Countercase
 
-Frontrunner could win customers by building and maintaining bespoke outbound workflows. The memo describes customer-specific playbooks and configurations, and Frontrunner’s simulations found agents using stale data or stopping early. If each new account adds substantial sales, integration, and configuration work, and each new workload adds model usage, record checks, and support, expansion could add costs as quickly as revenue. The memo provides neither measured rollout costs nor evidence that those costs scale proportionally. The structural Pass gate therefore remains untriggered. (Defensibility, Key Risks)
+Even with strong fit, onboarding and delivery could be the first link to break. Frontrunner builds customer-specific playbooks and configurations. Its simulations surfaced stale prospect data and early agent stops, which could add oversight and support as deployments grow. The memo supplies no marginal cost or rollout-effort measurements to establish whether configuration work is reusable or must be repeated for each buyer. That makes a handoff the deciding test for Watch. The structural downside gate requires affirmative evidence that the delivery burden scales in proportion to revenue with no credible way to improve it. (Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 9/25 |
+| Global buyer demand | 15/25 |
 | Repeatable acquisition and onboarding | 9/25 |
 | Retention and customer expansion | 7/20 |
 | Contribution as volume grows | 7/20 |
 | Evidence of fit in the first buyer segment | 5/10 |
 
-**Total Score: 37/100** (Pass)
+**Total Score: 43/100** (Pass)
 
 ### Decisive diligence question
 
-Can an independent RevOps buyer in a second geography go from the live demo to paid, recurring signal-based outbound using the same onboarding process as an existing customer? A paid rollout that records repeat usage at the buyer’s normal campaign cadence, setup and support hours, and ongoing delivery costs against fees would move the action to **Reach out** if it shows the workflow travels with manageable effort. If the rollout leaves repeat use or delivery effort unresolved, keep watching.
+Can a non-founder take two independent GTM or revenue operations teams from the live-demo route to paid outbound use with the same onboarding playbook? Move to Reach out if rollout records show bounded setup and support effort and both teams keep using the workflow through their next routine targeting change.

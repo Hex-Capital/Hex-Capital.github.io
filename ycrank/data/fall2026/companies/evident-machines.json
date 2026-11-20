@@ -24,11 +24,11 @@
   "memoGeneratedAt": "2026-11-18T00:44:31.398Z",
   "evalScores": {
     "agi": {
-      "score": 42,
+      "score": 43,
       "tier": "Pass"
     },
     "hypergrowth": {
-      "score": 36,
+      "score": 40,
       "tier": "Pass"
     },
     "exit": {
@@ -37,12 +37,12 @@
     }
   },
   "consolidatedScores": {
-    "AGI": 42,
-    "HG": 36,
+    "AGI": 43,
+    "HG": 40,
     "EXIT": 38
   },
-  "consolidatedAvg": 38.67,
-  "consolidatedRank": 85,
+  "consolidatedAvg": 40.33,
+  "consolidatedRank": 99,
   "traction": {
     "tractionRank": 213,
     "tractionScore": 15,

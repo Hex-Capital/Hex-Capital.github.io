@@ -5,28 +5,26 @@
 
 ### Company case
 
-**Path B — Repeatable sales with account expansion.** Supermarket operations teams have a recurring job in overnight shelf replenishment. Theseus could sell a monthly per-robot subscription, start in one store, and expand through the same buyer to other stores in the chain. Daytime order picking could give the buyer more value from the same robot and help justify adding units. The planogram and delivery-list workflows could make installations reusable across stores. The memo identifies retail introductions and preview requests as routes to pilots, with the route from lead to paid activation still unproven. (*The Idea*, *Key Facts*)
+**Channel-led or repeatable sales**, via direct sales to supermarket operations teams, is the strongest path. A grocer could test overnight shelf replenishment in one store, then pay a monthly fee per robot to deploy across more stores. The memo records two robots deployed across two stores and launch footage from Zürich. The system handles planograms and delivery lists on off-the-shelf robots, and the reported offer calls for no store retrofit. Those features make the same replenishment job credible across markets. Theseus is seeking introductions in Switzerland, Germany, and the US and says it has lined up pilots for up to 10 more robots. The live deployments support a meaningful early test, while buyer funding, the route from introduction to go-live, and repeat paid use remain unreported. (The Idea, Market & Traction, Key Risks)
 
-Zürich footage shows the robot working in a grocery aisle. The memo reports two deployments across two unnamed stores, an early signal that stores will give Theseus access to test the workflow. Theseus reports peaks of 400 units restocked and 40 units picked per hour, plus plans for pilots covering up to 10 additional robots in 2027. Paid conversion, sustained shift performance, and account expansion remain unverified. (*Market & Traction*, *Key Risks*)
-
-A Danish grocer’s trial of a competing replenishment robot supports the inference that the job recurs beyond Switzerland. In a **German rollout scenario**, Theseus would need to show that the same system can handle a new grocer’s packaging, shelf layouts, planograms, and delivery lists through configuration, with manageable installation and local support. The monthly fee would need to cover the next robot’s hardware and financing, sales and setup effort, maintenance, and remote operator time. Reusing setup across a chain and training on operator corrections could reduce labor per deployment. The memo gives neither fee amounts nor rollout or intervention costs, leaving that contribution mechanism untested. (*The Idea*, *Market & Traction*, *Defensibility*, *Key Risks*)
+Assuming grocers see enough value to pay, the first link likely to break is repeatable delivery at the next store. If training on remote operator corrections transfers across stores, later deployments could require less setup and fewer operator minutes per shift. That improvement remains a scenario assumption. The company’s reported peak of 400 units restocked per hour leaves full-shift output, intervention rates, and contribution per robot unresolved. (Defensibility, Market & Traction, Key Risks)
 
 ### Countercase
 
-Each new store could require a fresh manipulation and integration effort, and each additional robot could tie up capital and consume substantial remote operator time. Peak throughput leaves open how much staff time a robot saves over real shifts. Under the reported no-upfront-capex offer, Theseus could incur fleet costs before a pilot converts. That combination could make growth capital- and labor-intensive even if grocers want the product. The memo leaves the size and persistence of those costs unresolved, so the structural Pass gate remains untriggered. A measured rollout would resolve more than a conversation today. (*The Idea*, *Market & Traction*, *Key Risks*)
+Each added store could require its own setup and recurring remote supervision, with another robot to fund and maintain. If unfamiliar packaging and layouts keep generating interventions, the monthly fee could leave little contribution even when grocers value the service. The memo establishes that Theseus buys robot bodies and uses remote fallback, while the labor and cost required for successive deployments remain unknown. The structural downside gate requires affirmative evidence that costs scale proportionally with no credible way to improve. The current evidence supports Watch. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 12/25 |
+| Global buyer demand | 16/25 |
 | Repeatable acquisition and onboarding | 9/25 |
 | Retention and customer expansion | 7/20 |
 | Contribution as volume grows | 7/20 |
 | Evidence of fit in the first buyer segment | 5/10 |
 
-**Total Score: 40/100** (Pass)
+**Total Score: 44/100** (Pass)
 
 ### Decisive diligence question
 
-Can an independent German grocer convert a pilot into a paid second-store deployment using the same setup process? A paid rollout with representative shift logs and cost records showing that the second store required little custom work and that its fees cover incremental sales, hardware, support, and remote operator costs would move the action to **Reach out**.
+After a paid pilot demonstrates reliable replenishment over full overnight shifts, will the grocer pay to add a second store using the same rollout process? A second store that matches the first store’s shift performance with less setup effort and fewer operator minutes per shift, while its fee covers incremental hardware, support, and delivery costs, would move the action to Reach out. (The Idea, Defensibility, Key Risks)

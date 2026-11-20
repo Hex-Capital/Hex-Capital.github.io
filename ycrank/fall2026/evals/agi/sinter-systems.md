@@ -5,28 +5,26 @@
 
 ### Company case
 
-**Path A, scarce complements,** is Sinter’s strongest path. The potential bottleneck is affordable tooling for hardware teams that need to test successive revisions in molded plastic. Sinter is piloting in-house photopolymer tools that run in existing presses. The company claims 48-hour delivery at one-tenth the time and cost of traditional methods. The memo documents public FDM prototype ordering and recruitment for molding pilots. Sinter reports producing more than 500 kg of parts with customers in its first month, with no breakdown by process, payment, or repeat orders. Its U.S. location and pilot stage are consistent with seed sourcing. (The Idea, Market & Traction, Key Facts)
+**Path B — New Economies.** The plausible new use is a short run of molded parts for a hardware team that would otherwise skip molding that design revision. The former workflow requires outsourced tool fabrication before the first sample. Sinter claims that printing photopolymer tools for existing presses yields parts in 48 hours at one-tenth the time and cost of conventional methods, and advertises per-part pricing with no minimum. The memo documents public prototype ordering. Sinter reports producing more than 500 kg with customers in its first month, with the share attributable to molding and any repeat molding orders unknown. (The Idea; Market & Traction)
 
-**Scenario assumption.** If cheaper intelligence helps hardware teams revise designs faster or reduces the labor needed to prepare tools, affordable molding could become more valuable. With equal access to models, buyers would still need tools, press time, and a process that reliably yields acceptable parts. Sinter documents automated manufacturability checks and mesh repair with engineering escalation. Any advantage from feeding molding results back into tool design remains an inference. Path B has less support. Advertised no-minimum pricing suggests a possible opening for small orders, while the memo leaves equivalent-quality labor savings and paid use by previously excluded buyers unproven. (The Idea, Defensibility, Key Risks)
-
-The expansion unit is a paid revision job. Contribution depends on the quoted price less tool fabrication and replacement, engineering review, setup, press time, scrap, and rework. Adding jobs profitably would require enough usable shots per tool and enough press and engineering capacity to sustain the quoted turnaround. Sinter provides no tool-life figures by resin or geometry, leaving that cost bridge unverified. The founders’ print-farm and mechatronics experience supports early execution, with qualification across repeat molding jobs still to establish. (The Idea, Founders & Team, Key Risks)
+**Scenario assumption.** If each revision needs fresh tooling, reducing tool fabrication labor could make a small lot economical. Compare labor hours and full cost per accepted lot against outsourced tooling, including engineering review, press setup, inspection, scrap, and replacement inserts. The memo supplies no matched comparison. Under model parity, buyers could still pay Sinter to deliver accepted physical parts. The durability of that advantage depends on whether Sinter can run and qualify those jobs more economically than credible mold shops. The memo describes in-house tools for pilots and lists in-house polymer tooling as coming soon, leaving routine availability uncertain. (The Idea; Defensibility; Key Risks)
 
 ### Countercase
 
-Protolabs advertises one-day aluminum-tool molding, and competing shops can buy photopolymer tooling materials and printers. With abundant capital and comparable models, competitors could offer similar workflows while polymer tool wear erodes Sinter’s cost advantage. That evidence weighs against durable value capture. The advertised lead times cover unspecified job mixes, so they leave open whether an incumbent can match Sinter’s cost and turnaround at the same resin, geometry, tolerances, and lot size. The Path A override therefore remains untriggered, while the lack of a qualified comparison and paid repeat molding demand keeps Sinter below the outreach gate. (Defensibility, Market & Traction, Key Risks)
+Sinter may be making existing rapid molding cheaper without opening a new use. Protolabs advertises one-day aluminum molding, and existing shops can trial commercially available printed inserts. Heat and creep could force enough tool replacements to erase Sinter’s savings. These are credible challenges to both Path B gates. Comparable price and part acceptance at the target lot size remain untested, which supports Watch. (Market & Traction; Defensibility; Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 9/25 |
-| Durable value capture | 5/25 |
+| Path-specific thesis fit | 10/25 |
+| Durable value capture | 8/25 |
 | Customer demand | 7/20 |
 | Team and execution | 8/15 |
-| Scale economics | 5/15 |
+| Scale economics | 6/15 |
 
-**Total Score: 34/100** (Pass)
+**Total Score: 39/100** (Pass)
 
 ### Decisive diligence question
 
-Will hardware buyers pay Sinter for repeat molding jobs after a like-for-like trial against their best quick-turn alternative? Compare accepted parts at the same resin, geometry, tolerances, and lot size, recording turnaround and cost per accepted part after review, rejects, and tool replacement. Move to Reach out if buyers qualify the parts and reorder at viable pricing, and the trial shows a repeatable advantage tied to a process Sinter controls. Move to Pass if competing shops match the economics or tool wear erases the advantage across the target jobs. (The Idea, Defensibility, Market & Traction, Key Risks)
+Will an independent hardware team that previously skipped molding a revision place a paid repeat order after comparing Sinter with a quick-turn supplier on the same resin, tolerances, and lot size? Move to Reach out if the buyer confirms that the price and cadence enabled the run, chooses Sinter for qualified physical delivery, and job records show lower labor per accepted lot and positive contribution after review, scrap, and tool replacement. Move to Pass if the comparison shows the old workflow already serves the use at comparable economics or that Sinter’s labor savings disappear in delivery.

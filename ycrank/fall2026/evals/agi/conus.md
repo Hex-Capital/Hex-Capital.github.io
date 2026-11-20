@@ -5,30 +5,26 @@
 
 ### Company case
 
-**Path B — New economies.** CONUS says it maps procedures to implants available at each hospital and retrieves guidance from manufacturer manuals and local protocols with citations. The seed-stage hypothesis is that faster retrieval could make routine pre-procedure checks worthwhile in cases where clinicians now skip or defer them because gathering the materials takes too long. That is a scenario assumption. The memo describes the manual workflow but leaves baseline labor, check frequency, and time saved at equivalent accuracy unmeasured. (The Idea)
+Path B — New Economies. Surgeons preparing for a procedure may search manufacturer manuals and hospital systems or call a colleague. CONUS says it maps procedures to implants available at each hospital and retrieves guidance with citations to original documents. The market-opening hypothesis is that hospitals could afford a verified device-and-protocol check before routine cases where staff currently skip the check because manual lookup takes too long. The memo offers no evidence on how often that happens or whether CONUS lowers the full cost per correct, verified check. (The Idea; Key Risks)
 
-CONUS reports that manufacturers integrate catalogs and hospitals add device lists and protocols. A maintained, site-specific mapping could give hospitals a reason to pay even when competing models are equally capable, if recreating and maintaining those mappings takes meaningful work. The memo leaves switching costs, buyer preference under parity, and network effects unmeasured. (Defensibility)
-
-The memo records a shipped app and 27 German iOS ratings. CONUS reports 28 live hospitals and 53 onboarding, while a separate company account lists 25 live European hospitals. These are early adoption signals. The memo leaves paid conversion and repeat use unknown, and free core access limits what deployment counts establish about willingness to pay. The founders’ backgrounds in AI rollout, automation engineering, and biomedical instrumentation support the ability to ship. Delivery of reliably current, source-verified guidance remains the execution gap. (Market & Traction, Key Facts, Founders & Team, Key Risks)
-
-A hospital is the natural unit of expansion. The memo gives posted prices but no measured check frequency, realized revenue, or marginal costs for onboarding, inference, support, and document maintenance. Scale economics therefore stays at the default. The Germany-based team is seeking U.S. introductions, leaving fit with the primarily U.S. mandate open. (The Idea, Key Facts)
+Under cheap, equivalent models, hospitals could still pay CONUS to maintain accurate mappings between local inventory, approved protocols, and manufacturer instructions. CONUS reports integrating manufacturer catalogs and hospital-specific data, but buyer preference under parity is untested. The memo records a shipped app and user ratings. CONUS reports 28 live hospitals and 53 onboarding, with a separate founder account citing 25 live hospitals. These signals support early adoption and execution. Paid repeat use is unverified. Each hospital is a plausible expansion unit if shared catalogs can be reused and institutional fees cover site setup, support, and document upkeep. The memo gives pricing options without realized revenue or costs. (Defensibility; Market & Traction; Founders & Team; Key Facts)
 
 ### Countercase
 
-CONUS may speed up an existing lookup without making a new class of checks viable. Its terms require users to verify original sources and assign protocol approval and version control to hospitals. If verification and upkeep absorb the retrieval savings, the market-opening condition fails. M-Eido already offers AI search of uploaded implant manuals. With comparable models, authorized access to the same materials, and enough capital to build the integrations, a rival could reproduce the local workflow if the mappings are straightforward to rebuild. The memo establishes neither failure, so the override does not close Path B. It also establishes no independent Path A case for control of a scarce input. (The Idea, Defensibility, Market & Traction, Key Risks)
+CONUS may simply make existing lookups faster. Its terms require clinicians to verify original sources and assign protocol approval and version control to hospitals. Verification, retries, and stale-document exceptions could absorb the labor savings. M-Eido already offers AI search of uploaded implant manuals, and a rival with equivalent models and access to the same local documents might reproduce the outcome. The evidence leaves both Path B conditions unproven and supports a direct test, so the action is Watch. (Key Risks; Defensibility; Market & Traction)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 8/25 |
+| Path-specific thesis fit | 9/25 |
 | Durable value capture | 8/25 |
-| Customer demand | 10/20 |
+| Customer demand | 8/20 |
 | Team and execution | 9/15 |
-| Scale economics | 4/15 |
+| Scale economics | 5/15 |
 
 **Total Score: 39/100** (Pass)
 
 ### Decisive diligence question
 
-Can a representative hospital pilot show that CONUS makes previously skipped or deferred device checks routine and earns repeat paid use when a comparably capable alternative has access to the same authorized documents? Compare both tools with the manual workflow at equivalent answer accuracy and source currency, counting clinician verification, exceptions, and hospital upkeep. Measured labor savings and a paid renewal in preference to the alternative would support Reach out if the updated case clears 65 points with at least medium confidence and plausible mandate fit. If verification erases the savings or buyers readily switch at parity, move to Pass.
+Will an independent hospital renew a paid CONUS pilot for routine checks it previously skipped on cost grounds after comparing CONUS with manual lookup and an equivalent-model tool using the same documents? Move to Reach out if the trial shows that CONUS lowers the full cost per correct, verified check enough to sustain routine use, including review, retries, and upkeep, and the hospital renews because CONUS’s local mappings deliver measurable value over the equivalent-model tool. A representative trial that rules out either condition closes Path B.

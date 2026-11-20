@@ -5,36 +5,30 @@
 
 ### Company case
 
-The strongest private exit path is a strategic acquisition by a prediction-market exchange. Kalshi is the clearest candidate because its traders can already link their accounts for automated execution. An exchange could pay to own AnyAlpha’s strategy and execution software if ownership lets it retain more active traders and earn more from their activity than it could through an API partnership. The memo documents the October launch and live account linking. AnyAlpha reports more than 1,000 active traders and more than $1 million in weekly trading volume. Those figures are early usage signals. Retention, incremental exchange revenue, and the economics of live trading remain unverified. (*The Idea*, *Market & Traction*, *Key Facts*)
+Strategic acquisition by Kalshi is the strongest path. The memo documents AnyAlpha’s October launch and its November announcement of Kalshi account linking for automated trades. AnyAlpha reports more than 1,000 active traders and more than $1 million in weekly trading volume. Kalshi could pay to own Annie’s research, backtesting, and execution workflow if ownership would secure durable trading activity that the current integration cannot capture on comparable terms. The memo leaves incremental trading activity, its value to Kalshi, and the transferability of integration and customer data rights unverified. (The Idea, Market & Traction, Defensibility)
 
-The seed milestone is a controlled production pilot that measures repeat live trading and incremental exchange contribution after execution and support costs. The live integration gives AnyAlpha a way to run that test. The memo lists a $125,000 seed entry and leaves burn, runway, pilot funding, and the cost of reaching the milestone open. IP ownership, rights to transfer strategy and execution histories, and the continuity of exchange access after a sale also need verification. The memo supplies no usable evidence of an independent route to cash for this holder. (*Market & Traction*, *Defensibility*, *Key Risks*)
+A proposed milestone is six months of repeat trading from linked cohorts, with enough data to estimate the incremental net contribution to Kalshi from owning the workflow versus keeping the current integration. The live launch and the founders’ trading-systems experience make that test plausible at seed. The memo lists a $125,000 seed entry, with burn, runway, and the capital needed to complete the test still unknown. (Market & Traction, Founders & Team)
 
-The illustrative investor writes a $500,000 check at a $10 million post-money valuation, starts at 5%, and holds 3% after 40% relative dilution, with no follow-on checks. The eight-year 5× objective requires $2.5 million in cash. At 3%, that takes about $83.3 million in distributable equity proceeds. The hurdle rises to $125 million at 2% and falls to $62.5 million at 4%.
+Under the illustrative terms, a $500,000 check at a $10 million post-money valuation buys 5%, diluted to 3% with no follow-ons. The eight-year target of $2.5 million in gross cash requires $83.3 million in distributable equity at 3%, $125 million at 2%, or $62.5 million at 4%. Assuming $5 million of net debt for the sale comparisons and simple pro rata distribution, the 3% case requires about $88.3 million in enterprise value. A $25 million sale returns $600,000 gross (1.2×), and a $100 million sale returns $2.85 million gross (5.7×). These prices and debt are scenario assumptions. Live-trading revenue, buyer economics, and transaction prices remain unverified, so the bridge establishes a hurdle without supporting a sale price. (The Idea, Key Facts, Market & Traction)
 
-| Scenario | Enterprise value to equity consideration | Holder cash and gross multiple |
-|---|---|---|
-| Modest sale, year 5 | $50 million EV → $50 million equity | $1.5 million, 3.0× |
-| Strong sale, year 7 | $100 million EV → $100 million equity | $3.0 million, 6.0× |
-| Prolonged private, through year 8 | Growth plateaus, buyers stay away, public scale remains out of reach, and the company reinvests available cash | $0 realized, 0.0×, shares still held |
-
-The sale prices and timing are scenario assumptions. Each sale assumes cash at close, zero net debt or other purchase-price adjustments, and simple pro rata allocation without senior claims, before investor taxes. Stock, escrow, earnouts, rollover, and compensation are each assumed to be $0. At 2% ownership, even the modeled strong sale returns only $2 million, or 4.0×. The memo’s pricing evidence is limited to legacy BetAlpha purchases, so there is no basis to underwrite either sale price. (*The Idea*, *Key Facts*)
+If growth plateaus, buyer interest fails to materialize, public listing scale stays out of reach, and the company reinvests available cash for eight years, the holder realizes $0 and retains the shares. The memo provides no evidence of an eligible secondary or tender, an IPO and resale path, cash generation sufficient for a sponsor buyout, or excess cash available for dividends or buybacks. (The Idea, Market & Traction, Key Facts)
 
 ### Countercase
 
-Kalshi’s public API and existing partnership give it a way to offer automated trading without acquiring AnyAlpha. TurbineFi already offers plain-language strategy creation, historical testing, and cloud execution in the same initial asset class. AnyAlpha calls its Kalshi partnership the first and only of its kind, but the memo supplies no contractual exclusivity or duration. That makes the ownership premium the decisive gap. The evidence does not establish that the alternatives can deliver the same trader retention or exchange contribution, so it does not trigger a structural Pass. (*Defensibility*, *Key Risks*)
+Kalshi can already receive automated orders through the existing integration. Its public API and TurbineFi’s similar strategy-building, backtesting, and cloud execution give it credible ways to build or partner. Those alternatives carry more weight than AnyAlpha’s claim that its partnership was the first and only one at the time, since exclusivity and duration remain unverified. Kalshi could get comparable trading activity without acquiring AnyAlpha. That possibility weakens the case for paying an acquisition premium, but the memo establishes neither a structural block nor a credible sale price that would leave the holder materially short. The Pass gate does not apply. (Defensibility, Key Risks, Market & Traction)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 10/30 |
+| Counterparty rationale or source of cash | 13/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 9/20 |
+| Milestones and capital needed | 10/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 34/100** (Pass)
+**Total Score: 38/100** (Pass)
 
 ### Decisive diligence question
 
-Can AnyAlpha demonstrate that owning its transferable software and strategy assets would generate enough incremental exchange profit over an API partnership to justify a price that clears the holder’s proceeds hurdle? A funded production pilot that measures repeat trader activity and incremental contribution against the partnership baseline would answer it. Buyer-validated economics that support the required price, with a credible path to transfer the assets, would move the action to Reach out. Comparable results through the partnership would move it to Pass.
+Would owning Annie generate enough incremental value for Kalshi over the current integration to support roughly $88.3 million in enterprise value within eight years under the illustrative 3% ownership and debt assumptions? Six months of retained trader cohorts and a buyer-side estimate of the contribution attributable to ownership could answer that. A supported price range that clears the holder’s cash hurdle on plausible terms would move the action to Reach out.

@@ -5,26 +5,26 @@
 
 ### Company case
 
-**Path A, product-led adoption.** The initial buyer is an enterprise application security lead whose engineers repeatedly investigate findings, write patches, and verify fixes as GitHub code changes. 0cloud launched with self-serve onboarding, isolated testing, and proposed patches for review in pull requests. The company reports 1.4K GitHub stars, an early discovery signal. A Spotify engineer reported scanning nearly 30,000 files in under a minute, a concrete signal of scanning speed. Paid activation, recurring patch use, and realized revenue remain unverified. (The Idea, Market & Traction, Key Facts)
+Product-led adoption is the strongest path. 0cloud launched with a self-serve workflow that tests GitHub pull requests and proposes patches for review. The company reports 1.4K GitHub stars, which indicate interest in the open-source project. A Spotify engineer reported scanning nearly 30,000 files in under a minute, a concrete observation of scan speed. The memo provides no evidence that either signal led to a paid 0cloud deployment or a change in a recurring team workflow. (The Idea, Market & Traction, Key Facts)
 
-The growth scenario assumes teams can activate on one repository without founder help, find the proposed patches useful enough to buy more credits after the launch offer, and add repositories as reviews recur. The same GitHub workflow could serve buyers in other countries where hosted processing is acceptable. For buyers with residency restrictions, the company offers on-premises and air-gapped deployment. The founders report work with the Swiss Federal Department of Defence, while paid portability of the hosted workflow remains unverified. Each hosted test would add model and isolated compute costs. Restricted deployments could shift compute to the buyer while adding setup and support for 0.security. The memo leaves those costs unmeasured. (The Idea, Market & Traction, Key Risks, Key Facts)
+Assuming strong fit with engineering and application security teams, the same job travels across markets wherever teams review security fixes in GitHub and can use the hosted service. Buyers with data residency requirements may need the company’s self-hosted or air-gapped option. The first unproven link is paid activation. Open-source discovery could lead a team to connect a repository, get a patch worth reviewing, and buy credits for subsequent pull-request tests. The memo describes that route and the billing unit. Evidence of independent teams completing it, returning for paid use, or generating contribution after testing, inference, and support costs is absent. (The Idea, Key Risks, Key Facts)
 
 ### Countercase
 
-GitHub’s native remediation could satisfy enough of the recurring job that teams try 0cloud and stop when free credits run out. Scanning speed leaves open whether proposed patches save engineers time after review and validation. If the buyers most willing to pay require air-gapped deployments, growth could depend on customer-specific integration and support. These are plausible failure modes. The memo leaves the Pass gate unmet because it provides no observed structural ceiling or evidence that delivery effort scales proportionally with customers. (Market & Traction, Key Risks, The Idea)
+GitHub’s native Autofix could satisfy enough of the same need that teams try 0cloud on launch credits and then decline to pay. Regulated buyers who value air-gapped deployment could require a higher-touch sales and implementation process. The founders report an EY partnership and work with the Swiss Federal Department of Defence, with payment, rollout effort, and handoff still unknown. These risks leave paid activation open to testing. The structural downside gate requires affirmative evidence that every credible path is blocked. (The Idea, Market & Traction, Key Risks, Key Facts)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 12/25 |
+| Global buyer demand | 16/25 |
 | Repeatable acquisition and onboarding | 9/25 |
 | Retention and customer expansion | 7/20 |
 | Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 5/10 |
+| Evidence of fit in the first buyer segment | 4/10 |
 
-**Total Score: 40/100** (Pass)
+**Total Score: 43/100** (Pass)
 
 ### Decisive diligence question
 
-Can independent application security teams in two countries use the standard 0cloud onboarding and buy credits to keep testing pull requests after their launch credits expire? Activation, billing, and recurring usage records showing that sequence without bespoke setup would move the action to Reach out. Trial-only use or inconclusive records would keep it at Watch.
+Can multiple independent GitHub teams reach a patch they choose to review through standard self-serve onboarding, then buy credits and use them in their next normal pull-request cycle after launch credits run out? Account-level records showing that sequence without bespoke founder setup would move the action to Reach out.

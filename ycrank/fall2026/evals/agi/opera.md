@@ -5,26 +5,28 @@
 
 ### Company case
 
-Path B, New Economies, is the strongest fit. OpEra describes connecting to warehouse and ERP systems, encoding site rules in a mathematical model, and rerunning the optimizer when planners enter a new constraint in plain language. The plausible market opening is more frequent replanning at sites that currently absorb smaller disruptions because rebuilding a valid schedule takes too much planner time. OpEra reports 54% fewer unfulfilled orders in a services marketplace and a 10.4% higher premium over market on the same sales volume for a sugar producer. Those results suggest optimization can improve outcomes. The memo gives no like-for-like measure of planner time, exceptions, or retries, and no evidence of payment or repeat use from sites newly able to afford that frequency of replanning. (The Idea, Market & Traction, Key Risks, Key Facts)
+**Path B — New Economies.** OpEra says fleet planners sometimes rebuild delivery plans by hand after disruptions. It describes connecting to existing systems, encoding site-specific constraints, and rerunning the optimizer when a planner enters a change in plain language. The scenario to test is a fleet that currently skips replanning for smaller disruptions because the planner time costs more than the expected benefit. If OpEra cuts the full cost of producing a dispatchable plan enough, that fleet could pay to replan routinely. (The Idea)
 
-The founders’ joint retailer routing project and prior optimization and applied ML work support their ability to build the workflow. Sustained production delivery is still unverified. The site is a plausible expansion unit. If OpEra can reuse integrations and spread rule setup across frequent replans, site fees could cover the ongoing costs of inference, monitoring, and exception handling plus the labor of deploying each additional site. Fees and delivery costs are unknown. The San Francisco base and early operating record make a seed-led entry plausible. (Founders & Team, The Idea, Key Risks, Key Facts, OpEra)
+The memo documents a founder project using retailer routing data. The founders report 38% lower delivery costs and 10% more on-time deliveries. Those figures support the potential value of better routes. The labor-cost test still needs a comparison per dispatchable plan that includes planner review, corrections, exceptions, and dispatch effort. The reported manual workaround is a weak demand signal. The memo leaves paid use and repeat production use unverified. The founders’ routing project and operations research experience support seed-stage execution credit, with reliable live replanning still to demonstrate. (The Idea, Market & Traction, Founders & Team, Key Risks, Key Facts)
+
+Under model parity, a buyer might still pay OpEra to maintain validated site rules and integrations. That advantage is inferred, and the same customization could make expansion expensive. A fleet site is the plausible unit of expansion. Repeat replanning would have to generate enough value to cover setup and validation, while site revenue would need to cover ongoing support and exception handling. The memo offers no measured site costs or realized pricing to test that bridge. (The Idea, Defensibility, Key Risks, Key Facts)
 
 ### Countercase
 
-OpEra may improve an existing planning workflow without opening a new market. Site-specific mappings, rule validation, and review of ambiguous instructions could consume the labor saved by the plain-language interface. With cheap, equally capable models, a buyer or competitor could combine existing scheduling APIs with its own integrations. The memo identifies no structural barrier and gives no evidence that buyers prefer OpEra when an alternative can deliver the same workflow. More competitor capital could fund that integration work, and the memo identifies no scarce input or capability OpEra controls that would support Path A. Both Path B conditions remain unproven, while the record leaves room for a production test. (The Idea, Defensibility, Market & Traction, Key Risks)
+OpEra may improve routing for fleets that already plan regularly while leaving the cost of serving previously excluded use cases largely unchanged. The retailer result measures delivery outcomes, and the memo identifies both site integration work and the risk that ambiguous instructions produce plans that violate operating rules. A buyer with equivalent models could use routing APIs such as Timefold’s and implement its own site rules. The memo contains no direct cost or substitution comparison that settles either gate, so the action is Watch. (Market & Traction, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 11/25 |
-| Durable value capture | 7/25 |
-| Customer demand | 5/20 |
-| Team and execution | 10/15 |
+| Path-specific thesis fit | 10/25 |
+| Durable value capture | 8/25 |
+| Customer demand | 6/20 |
+| Team and execution | 7/15 |
 | Scale economics | 5/15 |
 
-**Total Score: 38/100** (Pass)
+**Total Score: 36/100** (Pass)
 
 ### Decisive diligence question
 
-Can OpEra win repeat paid use in a production trial at independent sites that previously replanned less often because of labor cost? Compare the old workflow, OpEra, and a credible alternative with comparable model capabilities. At equivalent schedule quality, measure total labor per successful replan, including setup, review, retries, and exceptions. Then see whether buyers choose to keep paying OpEra at a price that covers delivery and can explain what they value about OpEra when the alternative performs equally well. Repeat paid use at the newly viable frequency and a demonstrated preference under parity could move the action to Reach out if the evidence raises the score to at least 65 with medium or high confidence. A representative trial showing that labor savings disappear or buyers readily switch at parity would move the action to Pass. (The Idea, Defensibility, Key Risks)
+Will an independent fleet pay to keep using OpEra for disruptions it previously skipped after a live trial compares the manual baseline, OpEra, and a credible alternative with equivalent model capability? Move to Reach out if the trial shows that OpEra lowers the full cost per dispatchable plan enough to make those replans routine, and the fleet renews at a price that covers delivery because it values OpEra’s validated site setup. Move to Pass if a representative trial shows that review and exceptions erase the savings or that the alternative delivers the same outcome on equivalent terms.

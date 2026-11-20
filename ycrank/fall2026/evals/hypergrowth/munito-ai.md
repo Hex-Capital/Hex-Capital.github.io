@@ -5,28 +5,26 @@
 
 ### Company case
 
-**Path B, partner distribution with account expansion,** is the strongest path. The initial buyer is an engineering team that needs recurring open-model inference for sensitive finance, healthcare, or legal workloads. The memo documents a live Opper AI gateway integration for EU-hosted inference and a Kolibri 1 launch on RouterPlus through Munito. Those launches establish that gateways can distribute the service. Paid end-customer activation, repeat usage, and account expansion are unverified. (The Idea, Market & Traction)
+Channel-led growth is Munito’s strongest path. The memo records two live integrations. Opper AI offers Munito’s EU-hosted inference, and RouterPlus launched Aleph Alpha’s Kolibri 1 through Munito. The first buyer is a developer team serving finance, healthcare, or legal customers that needs recurring open-model inference with EU data residency. Munito says its compatible APIs and EU endpoint let teams route sensitive workloads through familiar tooling. The same setup could serve buyers across EU markets, subject to procurement requirements such as certifications still in progress. (Market & Traction, The Idea, Key Risks)
 
-Munito says its OpenAI- and Anthropic-compatible APIs offer EU processing and storage, with zero retention by default for transient requests. It lists prepaid token pricing and contracted volume rates. The growth hypothesis is that one gateway integration can bring in many engineering teams, each starting with one workload and buying more inference as production usage grows. In a second EU country, the same endpoint and API could serve the same buyer **if** EU-wide residency and Munito’s existing vendor controls satisfy local procurement. A market that requires in-country processing would also require local GPU capacity and revised data-handling arrangements. The memo gives no evidence of paid demand across markets. (The Idea, Key Facts, Key Risks)
-
-At this stage, the live integrations are a concrete early signal. The decisive gap is whether recurring paid traffic can fill shared GPU capacity while leaving contribution after rented compute, including idle capacity, any gateway fees, and incremental onboarding and support. Dedicated or region-specific workloads could require a new capacity commitment before traffic fills it. The memo describes internal serving benchmarks but gives no customer-workload cost breakdown. (Defensibility, Key Risks)
+The growth mechanism would be for gateways to bring similar teams to the same endpoint, with prepaid token or page billing capturing revenue as those teams route more production workloads. The first unproven link is whether gateway discovery leads to paid production use through standard onboarding. At this launch stage, the live integrations establish a route to market. The memo gives too little buyer-level evidence to establish activation, commitment, or repeat paid use. It also gives no usable marginal cost measurements, so the reported serving experiments leave the contribution score at its default. (The Idea, Market & Traction, Key Facts, Defensibility)
 
 ### Countercase
 
-The same compatible APIs that make Munito easy to adopt also make it easy to switch providers. Nebius serves overlapping models, while Mistral and Together offer EU deployment options. If buyers route mainly on price, Munito could win traffic without retaining workloads or filling capacity reliably. Pending certifications could also prolong enterprise onboarding. These risks support Watch. The memo establishes neither a structural ceiling on demand nor proportional delivery costs at scale, so the Pass gate does not apply. (Defensibility, Key Risks)
+The API compatibility that makes Munito easy to try also makes it easier to switch providers. Nebius serves overlapping models, and Mistral and Together offer EU inference options. Gateways could therefore add Munito as another routing option while sending it little sustained paid traffic. If traffic does grow, rented GPU capacity could absorb much of the incremental revenue. The memo establishes competitive and capacity risks but provides no evidence of persistent proportional costs or another constraint that triggers the structural downside gate. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 9/25 |
-| Repeatable acquisition and onboarding | 12/25 |
+| Global buyer demand | 16/25 |
+| Repeatable acquisition and onboarding | 9/25 |
 | Retention and customer expansion | 7/20 |
 | Contribution as volume grows | 7/20 |
 | Evidence of fit in the first buyer segment | 4/10 |
 
-**Total Score: 39/100** (Pass)
+**Total Score: 43/100** (Pass)
 
 ### Decisive diligence question
 
-Can one existing gateway bring a cohort of independent engineering teams in a second EU country onto Munito’s standard endpoint, with recurring paid production workloads and positive incremental contribution? Gateway-attributed billing and usage records over the buyers’ normal workload cycle, alongside rollout effort and capacity costs, would answer it. A positive result would move the action to **Reach out**. If the result remains inconclusive, stay at **Watch**.
+Can a live gateway take multiple independent teams serving regulated customers from discovery through standard EU-endpoint onboarding to repeat paid production use? A gateway cohort showing that sequence at the teams’ normal workload cadence would move Munito from Watch to Reach out.

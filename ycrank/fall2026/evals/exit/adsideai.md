@@ -5,25 +5,21 @@
 
 ### Company case
 
-Strategic acquisition is the strongest path. A multi-channel paid-media agency could buy Adside to integrate campaign setup, creative production, and monitoring into its own workflows across client accounts. The memo documents a self-serve offer and a managed-service offer. Adside describes a workflow that combines those tasks across ad platforms. The ownership case is conditional on the buyer being able to capture labor savings or improve campaign performance across its client base at a scale that an ordinary license would leave out of reach. The memo contains no measured customer gains or buyer economics to support an acquisition price. (*The Idea*, *Defensibility*)
+Strategic acquisition by a performance-marketing agency is the strongest path. Adside’s documented workflow combines creative production, campaign setup, and monitoring across ad platforms. An agency could buy it to serve more accounts with the same staff. Ownership could beat licensing or building if Adside can show that integrating the workflow across the buyer’s client base produces durable labor savings beyond what available tools can deliver. That benefit is an inference. The memo supplies no measured agency savings, buyer interest, or transaction pricing. (The Idea, Defensibility)
 
-Adside reports 30 companies live at launch, giving it a starting base for a paid production test. Paid adoption and retention are unverified. The memo lists a $125,000 seed entry, while total funding, burn, and runway are unknown. Campaign operations depend on delegated platform permissions, and personalization uses data within each customer’s account. A sale would need a way to preserve or renew those permissions and establish which assets and data rights can transfer. The memo supplies no usable evidence of an independent fallback that could pay this holder. (*Market & Traction*, *Defensibility*, *Key Risks*)
+A paid agency pilot measuring staff hours per retained client before and after adoption, including human review, would test the buyer benefit. Adside reports 30 companies live at launch, which gives it a starting point for a pilot. Paid retention, burn, and runway remain unknown. The memo lists a $125,000 seed entry with the full round unconfirmed. The other routes have weaker support. A sponsor buyout needs predictable cash flow after reinvestment, a company payout needs excess cash and a commitment to distribute it, a secondary needs demand for eligible shares, and an IPO needs an evidenced path to public-market scale. The memo leaves each unestablished. (The Idea, Market & Traction, Key Facts)
 
-**Proceeds bridge.** Using the illustrative $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted by 40% to 3%, and no follow-on checks, the holder needs $2.5 million in cash within eight years. That requires about $83.3 million of distributable equity at 3%, $125 million at 2%, or $62.5 million at 4%.
+Under the shared scenario, a $500,000 check at a $10 million post-money valuation buys 5%, diluted to 3% after 40% relative dilution and no follow-ons. The eight-year 5× target is $2.5 million in gross cash before investor taxes. At 3%, it requires $83.3 million of distributable equity, or $88.3 million of enterprise value with illustrative net debt of $5 million. At 2% and 4%, the equity hurdles are $125 million and $62.5 million, respectively.
 
-The sale cases below are scenarios. They assume zero net debt and other enterprise-to-equity adjustments, so enterprise value equals equity consideration. They assume the investor sells the full stake and receives simple pro rata cash at closing before taxes, with no preference deductions. Stock, escrow, earnouts, rollover, and compensation are each modeled at zero.
+- **Modest sale at year eight.** A $25 million enterprise value less $5 million of illustrative net debt yields $600,000 to the holder, or 1.2×.
+- **Strong sale at year eight.** A $100 million enterprise value less the same debt yields $2.85 million, or 5.7×.
+- **Prolonged private operation.** If growth plateaus, buyers stay away, IPO scale remains out of reach, and available cash is reinvested, the holder realizes $0 over eight years and retains the shares.
 
-| Scenario | Timing and consideration | Holder cash at 3% | Gross multiple |
-|---|---|---:|---:|
-| Modest sale | Year 5, $50 million all-cash enterprise and equity value | $1.5 million | 3.0× |
-| Strong sale | Year 7, $100 million all-cash enterprise and equity value | $3 million | 6.0× |
-| Prolonged private | Through year 8, growth plateaus, buyers stay away, public scale remains out of reach, and available cash is reinvested. Shares remain held. | $0 | 0.0× |
-
-The strong sale falls to $2 million, or 4.0×, at 2% ownership. The memo’s posted prices establish what Adside charges for its offers, while realized revenue, margins, and buyer willingness to pay remain unknown. The modeled strong sale clears the hurdle at 3%, with no usable memo evidence to underwrite that price. (*The Idea*, *Key Facts*)
+The sale prices are scenario inputs. Adside-specific debt, fees, and senior claims are unknown. A wind-down would pay this holder only from any residual after obligations and preferences, which the memo gives no basis to estimate. (Market & Traction, Key Facts)
 
 ### Countercase
 
-An agency can license Adside today. Google’s official connector and Meta’s direct agent access also reduce the work needed to build platform-specific workflows. If licensing or assembling those tools delivers comparable cross-channel results, the buyer’s rationale for paying an acquisition premium weakens materially. The memo gives no cost or performance comparison showing that these substitutes can replicate the full workflow and cap the price below the hurdle. The structural Pass gate is therefore untriggered. (*The Idea*, *Defensibility*, *Key Risks*)
+Meta’s direct agent access, Google’s native campaign tools, and competing cross-channel products make building or licensing credible substitutes for buying Adside. The workflow also depends on delegated account access, and the memo describes customer data use as account-specific. Continued access after a sale remains unverified. These risks weaken the ownership case. The Pass gate remains unmet because the memo establishes neither a structural transfer block nor a supported sale range that leaves the holder materially short. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
@@ -31,12 +27,12 @@ An agency can license Adside today. Google’s official connector and Meta’s d
 |-----------|-------|
 | Counterparty rationale or source of cash | 13/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 10/20 |
+| Milestones and capital needed | 9/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 38/100** (Pass)
+**Total Score: 37/100** (Pass)
 
 ### Decisive diligence question
 
-Can a paid multi-channel agency deployment demonstrate an economic advantage from owning Adside that could support a price above the investor’s hurdle? A measured improvement in contribution profit across client accounts, together with the agency’s own comparison of buying, licensing, and building, would answer it. If the agency’s rollout economics support an acquisition price that could yield at least $83.3 million in distributable equity under the 3% case, move to Reach out.
+Can a paid agency pilot demonstrate repeatable cross-channel labor savings after human review that support an acquisition price high enough to clear the holder’s hurdle? Move to Reach out if measured savings across paying, retained accounts translate into a credible buyer-side price range that clears the hurdle within eight years, about $88.3 million in enterprise value under the illustrative 3% ownership and $5 million net-debt assumptions.

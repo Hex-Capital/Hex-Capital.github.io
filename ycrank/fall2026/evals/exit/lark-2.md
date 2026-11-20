@@ -5,36 +5,28 @@
 
 ### Company case
 
-**Strategic acquisition** is Lark’s strongest path. A distribution ERP vendor could buy Lark to add purchasing automation that reconciles data across ERP, email, CRM, and files, then writes approved orders back to the ERP. The memo documents purchasing write-back at Interline Hardware. Interline reports a 20% reduction in inventory value across more than 60,000 items and 60 team hours saved per week. Lark separately gives 60 hours per month, leaving the size of the labor benefit unresolved. (The Idea, Market & Traction, Key Facts)
+Strategic acquisition is Lark’s strongest path. A distributor ERP vendor such as Epicor could buy Lark’s purchasing workflows and integrations to sell replenishment automation across its installed base. The case for ownership would depend on whether acquiring the integrations, purchasing logic, and approval controls lets the buyer deploy faster or earn more than building internally or licensing the product. That benefit is an inference. Epicor’s Prophet 21 release documents investment in overlapping automation, while the memo leaves acquisition interest and buyer economics unverified. (The Idea; Defensibility; Key Facts)
 
-Ownership could let an ERP vendor control the integrations and approval workflows and roll them out across its customer base. That advantage depends on Lark demonstrating that the same workflows can be deployed across distributors and ERP systems with limited custom work. Interline received its first recommendations in under a month, and Lark reports that typical setups take one to two months. That supports a repeatability test, while its cost and funding remain unknown. The memo provides no usable evidence on acquisition price, IP or contract transfer, or an independent route to holder cash. (Market & Traction, Defensibility, Key Risks, Key Facts)
+Interline Hardware reports that weekly reorder preparation fell from 70 to 10 team hours and inventory value fell 20% across more than 60,000 items. The detailed customer account is the more direct evidence for the weekly figure, but Lark separately reports 60 hours saved per month. Either cadence suggests customer value, with a material difference in the labor savings a buyer could expect to replicate. The operating milestone is repeat paid deployments across multiple ERP systems with sustained savings and measured implementation costs. Interline received its first recommendations in under a month, and Lark says most setups take one to two months. The memo leaves the cost of scaling those deployments, burn, and runway unverified. It also leaves ownership of the integrations and transfer rights for customer configurations and contracts unverified. (Market & Traction; Key Risks; Key Facts)
 
-**Proceeds bridge.** With no deal terms supplied, assume a $500,000 check for 5% initial ownership, diluted to 3%, with no follow-on. The eight-year, 5× cash objective is $2.5 million. That requires $83.3 million in distributable equity at 3% ownership, $125 million at 2%, or $62.5 million at 4%. The sale scenarios below assume zero net debt and transaction costs, so enterprise value equals equity consideration. They assume a simple pro rata waterfall with no preference deductions. All consideration is cash at close. Stock, escrow, earnouts, rollover, and compensation are each assumed to be zero.
-
-| Scenario | Timing and assumed outcome | Holder cash at 3% | Gross multiple |
-|----------|----------------------------|-------------------|----------------|
-| Modest sale | Year 5 at $40 million enterprise value | $1.2 million | 2.4× |
-| Strong sale | Year 7 at $100 million enterprise value | $3.0 million | 6.0× |
-| Prolonged private | Through year 8, growth plateaus, buyers stay away, public scale remains out of reach, and cash is reinvested | $0 realized, shares retained | 0× realized |
-
-The sale values are scenario assumptions. At 2% ownership even the strong sale yields only $2 million, or 4×. The memo leaves willingness to pay and achievable price unverified. (Market & Traction, Key Facts)
+**Proceeds bridge.** Assume a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-ons. The 5× target requires $2.5 million of gross cash within eight years, or $83.3 million of distributable equity at 3% ownership. The equity hurdle rises to $125 million at 2% and falls to $62.5 million at 4%. With $5 million of illustrative net debt, the 3% case requires about $88.3 million in enterprise value. Assuming cash at closing and a pro rata allocation before investor taxes, a $25 million sale in year eight returns $600,000 (1.2×), while a $100 million sale returns $2.85 million (5.7×). These are scenario prices. The memo supplies no basis for estimating Lark’s realizable sale price, net debt, transaction fees, or senior claims. If growth plateaus, buyer interest fails to emerge, public scale remains out of reach, and Lark reinvests all available cash, the holder realizes $0 over eight years and retains the shares. A wind-down would pay only any residual after obligations and preferences, which the memo leaves unquantified. The memo supplies no evidence of buyout financing capacity, eligible secondary demand, IPO readiness, or distributable cash. (Market & Traction; Key Facts)
 
 ### Countercase
 
-Epicor has already expanded native workflow automation in Prophet 21. An ERP vendor could build more of the workflow itself or license Lark’s cross-system capabilities. Either option could limit what it would pay to own Lark, especially if each deployment still requires substantial customer-specific mapping. The evidence establishes overlap and implementation work. It falls short of the structural Pass gate because equivalent coverage and a below-hurdle price ceiling remain unproven. (Defensibility, Key Risks)
+Epicor may be able to bundle enough native automation into Prophet 21 to satisfy distributors, then license or partner for any remaining cross-system workflows. Its shipped automation is more direct evidence of the build alternative than Interline’s savings are of an incentive to buy Lark. Customer-specific mapping also makes it harder to assume that one successful deployment will scale across an installed base. The overlap weakens the ownership case, but the memo leaves open whether native tools can match Lark’s cross-system purchasing workflow or whether a buyer could pay enough to clear the holder’s hurdle. The evidence supports Watch, with no demonstrated structural block or supported price ceiling that triggers Pass. (Defensibility; Key Risks; Market & Traction)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 14/30 |
+| Counterparty rationale or source of cash | 15/30 |
 | Plausible investor proceeds | 8/30 |
 | Milestones and capital needed | 10/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 39/100** (Pass)
+**Total Score: 40/100** (Pass)
 
 ### Decisive diligence question
 
-Would a distribution ERP vendor gain enough from owning Lark’s workflows to support a sale that delivers at least $83.3 million in distributable equity? Repeatable paid deployments across multiple ERP systems, paired with a buyer-side comparison that quantifies the advantage of ownership over building or licensing, would move the action to Reach out if the economics support that hurdle. (The Idea, Market & Traction, Key Risks)
+Can a distributor ERP vendor justify an acquisition price that leaves at least $83.3 million of cash distributable to shareholders within eight years? A buyer-side build-versus-buy analysis grounded in repeat paid deployments, measured rollout costs, and expected incremental gross profit would move the action to Reach out if it supported that hurdle at the modeled 3% ownership.

@@ -5,26 +5,26 @@
 
 ### Company case
 
-**Path B. Repeatable sales or partner distribution with account expansion.** The clearest first buyer is a water or wastewater equipment supplier that repeatedly screens public infrastructure projects for equipment fit. Capveon publicly offers trade-show meeting plans, territory demos, and free bid reviews. A plausible route to the next thousand suppliers is to use industry events to reach them, demonstrate value on a live bid, and reuse the same seller setup across subsequent bids. The quoted plans vary by market, product, and AI usage, so the expansion hypothesis is paid coverage of more territories or product lines. The memo documents the offers and pricing structure. The earlier paying-customer claim concerns the workflow-handoff offering, leaving paid activation and recurring use of the current product unverified. (*The Idea*, *Key Facts*)
+Repeatable direct sales is Capveon’s strongest path. The first buyer to test is a water and wastewater equipment supplier whose sales team repeatedly screens public projects and checks whether its products meet the specifications. Capveon offers territory-specific demos, free bid reviews, and a free WEFTEC meeting planner. The proposed sales motion is to show a supplier a relevant opportunity, demonstrate value on a live bid with page-cited specification checks, and convert that workflow to a paid account. The memo documents the offers and the October launch. Conversion through that route remains unverified. (The Idea, Market & Traction)
 
-The UK is a concrete second-market test. Capveon reports tender coverage in 14 countries and identifies a centralized UK tender feed it uses. That supports a way to source notices. The scenario assumes UK suppliers have the same screening job and can reuse the equipment-matching workflow with adjustments for local specifications and pre-bid sources. If that holds, multiple sellers could share the cost of maintaining agency feeds, while each new account would still add sales time, catalog setup, document processing, and support. For a recent launch, one independent paid activation that measures this work could justify outreach. (*Market & Traction*, *Key Risks*)
+Capveon reports linked agency records in the U.S. and Canada and national tender coverage in 14 countries. The same specification-review workflow could travel if local feeds and procurement terminology can be adapted while reusing the core product. Coverage supports that possibility, while buyer adoption across markets remains unverified. The company also reported paying customers for its earlier workflow-handoff offering. Buyer commitment to the current bid workflow and repeat paid use across bid cycles remain unverified. (The Idea, Defensibility, Market & Traction, Key Facts)
 
 ### Countercase
 
-The product may travel as a tender index while the workflow sellers would pay for requires manual work in each market. Fragmented pre-bid feeds can erase the lead time the product promises, and missed addenda or misread specifications can make a recommended pursuit ineligible. If every geography needs extensive feed maintenance and each seller needs custom catalog mapping and recurring human review, delivery effort could rise roughly in step with sales. The memo identifies those risks but gives no rollout or cost evidence that establishes a structural ceiling. The Pass gate is therefore unmet. (*The Idea*, *Key Risks*)
+Even assuming strong fit, the first link likely to break is repeatable paid onboarding. A free review could win interest while masking how much work Capveon must do to map each supplier’s equipment capabilities, check local source coverage, and validate bid interpretations. A delayed feed could erase the lead time the supplier would pay for, and a missed addendum could make the review unreliable. The memo gives no account-level onboarding or marginal cost measurements. At this stage, a small paid rollout with measured effort could test the risk. The structural downside gate does not apply because proportional delivery costs remain a hypothesis. (The Idea, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 13/25 |
+| Global buyer demand | 15/25 |
 | Repeatable acquisition and onboarding | 9/25 |
 | Retention and customer expansion | 7/20 |
 | Contribution as volume grows | 7/20 |
 | Evidence of fit in the first buyer segment | 4/10 |
 
-**Total Score: 40/100** (Pass)
+**Total Score: 42/100** (Pass)
 
 ### Decisive diligence question
 
-Can one independent UK water or wastewater equipment supplier come through the trade-show or bid-review funnel, pay, and use the existing product to screen a live local tender without a custom feed or integration? A paid activation with recorded setup and manual review time would move the action to **Reach out** if it shows that the same workflow can serve the buyer with routine effort. A trial or an activation that depends on a custom build would keep it at **Watch**.
+Can two independent water and wastewater equipment suppliers acquired through the same trade-show channel convert from a free review to paid use on a live bid through the same documented onboarding process? Move to Reach out if both pay and complete a live bid review with measured, comparable setup effort and reusable configuration. If successive paid rollouts require bespoke founder work proportional to account revenue and show no credible route to reuse, move to Pass.

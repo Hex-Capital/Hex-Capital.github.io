@@ -1,32 +1,32 @@
 ﻿# GatherHQ -- Hypergrowth Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Low
+**Evidence confidence:** Medium
 
 ### Company case
 
-**Path B — Repeatable sales or partner distribution with account expansion.** Enterprise marketing teams need fresh buyer evidence when planning campaigns. Gather could win an account through a demo, activate it on a research project, and earn repeat usage revenue as the team runs more interviews and simulations. Reusing authorized research across campaigns could make each additional workload cheaper to serve. The memo names demos and customer-published research as acquisition routes, but gives no examples tracing a buyer from either route to paid activation. Slack and the API offer a secondary product-led route, with paid conversion still untested in the memo. (The Idea)
+**Usage-based expansion** is GatherHQ’s strongest path. Enterprise marketing teams need buyer evidence for recurring campaign and messaging decisions. Gather can start with a team’s existing research, sell simulations at $10 each, and charge $50 per consumer interview or $100 per B2B interview when fresh evidence is needed. If teams reuse their research across campaigns, each new decision can generate paid usage with less setup. (The Idea)
 
-**Observed evidence.** Cover Genius co-published a completed study covering 1,392 consumers in seven countries. That establishes that Gather can deliver a cross-market research project for one enterprise buyer. The seven countries describe where respondents were surveyed. Demand from independent buyers in those markets remains open. (Market & Traction)
+Cover Genius co-published a Gather research project that surveyed 1,392 consumers across seven countries. That shows one enterprise buyer committing to a concrete research workflow and Gather delivering it across respondent markets. Buyer geography, payment terms, and the work needed to localize delivery remain unknown. (Market & Traction)
 
-**Company claims.** Gather reports 65+ enterprise marketing teams, and its business lead reported quarterly revenue more than doubling and customer upsells. The upsells provide an early expansion signal, with the product mix and buying cadence unclear after the shift from customer feedback to market research. The reported 10× growth has no defined metric. Enterprise adoption and one completed project support early buyer fit. Repeat paid activation and delivery economics remain untested, which limits confidence in the growth mechanism. (Market & Traction, Key Facts)
+Gather reports 65+ enterprise marketing teams and earlier customer upsells. The upsells are a limited signal of expansion because the memo leaves the product, usage cadence, and customer cohort unspecified. Demos, Slack, and the API give buyers routes into the product, but the memo does not trace an account from discovery to first paid value. The first link likely to break after initial fit is the move from a successful project to repeat paid use with less setup. (The Idea, Market & Traction, Key Facts)
 
 ### Countercase
 
-Gather could scale like a research agency if each campaign needs fresh recruiting, participant incentives, interview review, and hands-on support. Serving buyers in another market could also require local participant sourcing, language support, and review of data permissions. **Scenario assumption:** If customers can reuse authorized evidence for later simulations, compute and incremental support could account for most of the added delivery cost. The posted usage prices show how Gather charges, while the memo leaves sales effort, setup, and per-workload costs unmeasured. There is no observed proportional cost burden or structural ceiling on demand, so the Pass gate is untriggered. (The Idea, Key Risks, Key Facts)
+Gather may sell discrete research projects, with each new campaign requiring fresh participant recruiting and interviews to keep simulations credible. In that scenario, usage revenue could rise alongside delivery costs. The memo documents why evidence needs refreshing and gives unit prices, while recruiting, inference, onboarding, and support costs per additional workload are unknown. The structural downside gate stays open because proportional delivery costs are a plausible risk and remain unverified. (The Idea, Key Risks, Key Facts)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 13/25 |
+| Global buyer demand | 17/25 |
 | Repeatable acquisition and onboarding | 9/25 |
 | Retention and customer expansion | 8/20 |
 | Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 7/10 |
+| Evidence of fit in the first buyer segment | 6/10 |
 
-**Total Score: 44/100** (Pass)
+**Total Score: 47/100** (Neutral)
 
 ### Decisive diligence question
 
-Can a small cohort of independent enterprise marketing teams in a second buyer market come through the same sales channel, go live with a reusable setup, and pay for a second workload at their normal buying cadence? Move to **Reach out** if a cohort record shows that pattern and the second workload contributes after recruiting, incentives, compute, and support. That would test buyer portability, repeat demand, and the main delivery-cost risk in one rollout.
+Do independent enterprise marketing customers add a second paid workload at their next campaign or research cycle, with better contribution than on the first workload? Matched billing and delivery records should show realized usage and the incremental recruiting, inference, setup, and support costs. Repeated paid expansion with improving contribution would move the action to **Reach out**. Repeated evidence that customers buy only one project, or that added work requires proportional bespoke delivery with no demonstrated way to reduce it, would move the action to **Pass**.

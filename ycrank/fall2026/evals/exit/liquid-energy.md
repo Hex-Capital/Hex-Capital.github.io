@@ -5,34 +5,30 @@
 
 ### Company case
 
-Strategic acquisition is the strongest path. An inference platform or modular data-center operator could buy Liquid Energy to control the NanoDC design and manufacturing capability. Ownership could matter if repeat deployments let the buyer bring reliable inference capacity online materially faster than it could through its own build or a capacity contract. The memo records the November 5 launch and reports no confirmed go-live. Liquid Energy claims four-week deployment, 20 units on hand, 2 MW/month of manufacturing capacity, and agreements with unnamed inference platforms. Those claims support a testable path to a paid field deployment. Overnight throughput, connectivity, and the capital needed to scale remain unverified. (The Idea, Market & Traction, Key Risks)
+**Strategic acquisition** is the strongest path. A managed-inference operator such as Crusoe could buy Liquid Energy for its integrated solar-powered NanoDC design and manufacturing capability. Liquid Energy claims four-week deployment and activation within 30 minutes of arrival. If those speeds hold in the field, a buyer could start serving inference workloads sooner at sites where grid access delays conventional capacity. Ownership could make economic sense if bringing the design and production in-house saves more than building a comparable module or contracting for capacity. The memo gives no measured buyer savings or evidence of acquisition interest. (The Idea, Market & Traction)
 
-The memo gives no investment terms, so the bridge assumes a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-on checks. A 5× gross return within eight years requires $2.5 million in holder cash, or $83.3 million in distributable equity proceeds at 3% ownership. The hurdle is $125 million at 2% and $62.5 million at 4%. The sale scenarios assume zero net debt, purchase-price adjustments, and deal fees, with simple pro rata allocation and no preference effects. Enterprise value therefore equals distributable equity consideration. All consideration is cash at closing. Stock, escrow, earnouts, rollover, and compensation are each $0.
+The memo records the November 5 launch. Liquid Energy reports 20 units on hand and 2 MW/month of manufacturing capacity, with first deployments targeted for November. It also reports agreements with unnamed inference platforms. The memo confirms no live deployment or paid usage. A paid deployment across multiple units could establish repeatable installation times, overnight uptime, delivered token throughput, and all-in cost. The reported inventory makes that test plausible, but the memo gives no test budget, burn, or capital plan for the targeted increase to 20 MW/month. The stated business model, in which Liquid Energy owns the hardware, makes a corporate sale plausible at pre-seed. Ownership of the patent-pending cooling IP and assignability of platform agreements remain unverified. (The Idea, Defensibility, Market & Traction, Key Risks)
 
-| Illustrative scenario | Timing | Enterprise value | Gross holder cash |
-|---|---|---:|---:|
-| Modest sale | Year 5 | $50M | $1.5M (3×) |
-| Strong sale | Year 7 | $100M | $3.0M (6×) |
-| Prolonged private | Through year 8 | — | $0 (0×), shares retained |
+Under the shared scenario, a $500,000 check at a $10 million post-money valuation starts at 5% ownership and falls to 3% after 40% relative dilution, with no follow-ons. The eight-year 5× target is $2.5 million gross before investor taxes. That requires $83.3 million of distributable equity at 3% ownership, $125 million at 2%, or $62.5 million at 4%. At 3% and with illustrative net debt of $5 million, the enterprise-value hurdle is $88.3 million. Using that same debt assumption, a $25 million sale in year eight yields $600,000 gross (1.2×), and a $100 million sale yields $2.85 million (5.7×). The strong sale yields only $1.9 million (3.8×) at 2% ownership. The memo supplies no actual shareholder terms, net debt, fees, senior claims, or support for either sale price. The company’s model of roughly $1,500 in annual compute revenue per NanoDC implies about $30,000 across the 20 reported units if all earn the modeled amount. That figure is a revenue scenario with no realized revenue or margin data to support an acquisition price. (Market & Traction, Key Facts)
 
-These prices are scenario assumptions. At the company’s modeled $1,500 in annual compute revenue per unit, the reported 20 units would generate about $30,000 in annual gross compute revenue if all operated at that rate. The memo supplies no realized revenue or buyer economics that support a sale price. In the prolonged-private scenario, growth plateaus, buyers stay away, public scale remains out of reach, and cash is reinvested. The memo supplies no independent route to holder cash in that case. (Key Facts, Market & Traction, The Idea)
+A sponsor buyout lacks demonstrated recurring cash flow. A secondary lacks evidenced share demand and holder eligibility. An IPO with resale lacks evidence of operating scale or reporting readiness. Dividends or buybacks lack demonstrated excess cash. If deployments plateau, buyer interest fails to emerge, public-market scale stays out of reach, and available cash goes back into the fleet for eight years, the holder realizes $0 and retains the shares. A wind-down recovery is unquantifiable without asset values, obligations, and preferences. (The Idea, Market & Traction, Key Facts)
 
 ### Countercase
 
-An inference platform could buy tokens under a capacity contract, and a modular operator could use Greenference’s solar-and-storage approach or Armada’s deployable GPU modules. The claimed patent-pending cooling design has yet to show a field advantage that would make ownership worth a premium. The alternatives weaken the acquisition case, but the memo does not establish that they match NanoDC’s deployment speed and sustained throughput or cap a sale below the proceeds hurdle. The structural Pass override does not apply. (The Idea, Defensibility, Key Risks)
+A potential buyer could contract for NanoDC capacity, use Greenference’s solar-and-storage approach, or source modular GPU infrastructure from Armada. The case for ownership weakens further if battery autonomy or Starlink interruptions limit dependable token delivery. The memo establishes competing approaches and gives no field data showing that NanoDC delivers a durable advantage. The Pass gate remains open because there is no demonstrated equivalent substitute that defeats the acquisition case, structural closing barrier, or supported sale price that leaves the holder materially short. (The Idea, Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 12/30 |
+| Counterparty rationale or source of cash | 13/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 9/20 |
-| Transaction feasibility | 5/10 |
+| Milestones and capital needed | 10/20 |
+| Transaction feasibility | 6/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 36/100** (Pass)
+**Total Score: 39/100** (Pass)
 
 ### Decisive diligence question
 
-Does a paid, repeat-site deployment show enough economic advantage for an inference platform to own NanoDC at a price that clears the holder’s proceeds hurdle? Move to Reach out if customer-validated results show sustained overnight throughput, reliable token delivery, and deployment and operating costs that support an ownership case against buying capacity or using an alternative module, at roughly $83.3 million in distributable equity value under the base assumptions.
+Can a paid, multi-unit deployment give a managed-inference operator a financial reason to own NanoDC at a price that clears the holder’s proceeds hurdle? Field records showing repeatable deployment times, overnight uptime, sustained token throughput, and all-in cost would let the operator compare ownership with building or contracting for capacity. A buyer-reviewed comparison supporting a sale range that delivers $2.5 million within eight years after plausible dilution and senior claims would move the action to **Reach out**.

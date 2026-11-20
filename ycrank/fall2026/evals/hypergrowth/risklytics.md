@@ -1,30 +1,32 @@
 ﻿# Risklytics -- Hypergrowth Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Low
+**Evidence confidence:** Medium
 
 ### Company case
 
-**Path B. Repeatable sales or partner distribution with account expansion.** The initial buyer is a robotics or autonomy company that needs coverage acceptable to its customer before a pilot or deployment. Risklytics drafts the application from company materials, then a licensed broker seeks quotes and checks exclusions before binding. The founders report that three previously denied businesses obtained coverage in one week. That is a concrete early signal of an urgent job. The CEO reports wholesale broker and managing general agent partnerships alongside founder-led outreach. The memo leaves open which channel produced the placements, how much broker time they took, and what commissions were collected. (The Idea, Market & Traction, Key Facts)
+The strongest path is **repeatable direct sales**. Robotics and autonomy companies need coverage that satisfies customer requirements before a pilot or deployment. Risklytics drafts applications from company materials, then a licensed broker shops them to carriers and reviews exclusions before binding. The founders report that three previously denied businesses obtained coverage in one week, including a robotics wholesaler and a teleoperation robotics service. Those reported binds suggest buyers will act when coverage is urgent. The memo does not give premiums, realized commissions, or the acquisition source for any of the three accounts. (The Idea, Market & Traction, Key Facts)
 
-**Scenario.** A repeatable partner channel could bring in similar applicants, while reusable intake and carrier matching could shorten each placement. Renewals, additional deployments, and new coverage lines could expand accounts. The memo gives no renewal or expansion history. For every $100 of bound premium, the founders’ stated 10–20% commission would yield $10–$20 in gross brokerage revenue before any partner share and the costs of acquisition, application correction, carrier shopping, policy review, and servicing. Actual contribution is unknown. The observed tracker spans 49 U.S. states. In a second country, the intake could carry over, but Risklytics would need to establish who can legally place the policies, which carriers can cover the risks, and which policy wording satisfies customers. Overseas buyer demand and rollout costs remain untested. (The Idea, Defensibility, Key Risks, Key Facts)
+The same coverage need could recur across markets, but placement depends on state producer licensing and carrier willingness to cover the applicant’s use. The public tracker covers filings across 49 states. That gives brokers a reference for comparing exclusions, while the portability of the placement workflow remains unproven. Renewals and additional coverage as customers deploy more systems could generate repeat commissions. The memo records no renewal or paid expansion. (The Idea, Defensibility, Key Risks, Key Facts)
+
+Even assuming strong fit with robotics buyers, the first link likely to break is the handoff from founder-led outreach to repeatable placement. The founders say carriers typically pay a commission of 10–20% of premium. In a scale scenario, that commission must cover the incremental cost of prospecting, application review, carrier negotiation, and servicing. Reusing application drafts and carrier research could reduce handling time. The memo gives no comparable placement hours or costs to show whether those savings materialize. For a two-person brokerage that pivoted mid-batch, the immediate test is a repeatable bind with measured effort. (The Idea, Defensibility, Market & Traction, Key Facts)
 
 ### Countercase
 
-Risklytics could remain a specialist brokerage whose software saves drafting time while licensed placement work grows with every account. In one test of a hypothetical robotics application, the tool identified general liability but left it unselected. Insurers control underwriting and may interpret exclusions differently, and placement depends on producer licensing. These are concrete sources of rework and local effort. The memo gives no measured relationship between volume and those costs, so the structural Pass gate is unmet. The untested partner-to-placement workflow and cross-market rollout keep evidence confidence Low. (Key Risks, The Idea)
+Risklytics may be able to win difficult placements while each new account still requires founder outreach and substantial licensed-broker work. A launch-day tester reported that the intake tool identified general liability for a hypothetical robotics applicant but left it unselected. That is one observed example of a review burden. Carrier-specific wording and state licensing could add further work as the brokerage expands. The structural downside gate is unmet. A single intake error and the requirement for licensed review leave open whether broker effort grows in proportion to commissions. (The Idea, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 9/25 |
+| Global buyer demand | 12/25 |
 | Repeatable acquisition and onboarding | 9/25 |
 | Retention and customer expansion | 7/20 |
 | Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 7/10 |
+| Evidence of fit in the first buyer segment | 6/10 |
 
-**Total Score: 39/100** (Pass)
+**Total Score: 41/100** (Pass)
 
 ### Decisive diligence question
 
-Can one partner in a second country repeatedly bring in robotics or autonomy buyers who bind suitable coverage through the existing intake workflow? A first cohort with collected commissions and positive contribution after partner fees, broker time, servicing, and local launch costs, using the same intake without a bespoke rebuild, would move the action to Reach out.
+Can a non-founder licensed broker take several unrelated robotics prospects from the same cold-email channel through paid binding using the same documented workflow? Account records showing the handoff, broker hours, and realized commissions would answer it. Repeated binds with bounded broker effort and commissions that cover incremental acquisition and placement costs would move the action to **Reach out**. If comparable accounts consistently require founder intervention and bespoke work that consumes the commissions, the action would move to **Pass**.

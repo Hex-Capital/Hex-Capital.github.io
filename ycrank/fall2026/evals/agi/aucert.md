@@ -5,26 +5,28 @@
 
 ### Company case
 
-**Path B — New economies.** Aucert could make an evidence-backed verification pass economical on every build for small mobile teams that currently reserve broad manual review for major releases. That buyer and frequency are scenario assumptions. The memo records a public launch and a sample report. Aucert says its agents explore builds, learn approved expectations, and return findings for a human release decision. The sample shows what a finding looks like. Equivalent coverage and labor savings on customer builds remain unmeasured. The early beta and U.S. location make seed entry plausible. (The Idea, Market & Traction, Key Risks, Founders & Team)
+**Path B — New Economies.** The plausible new use is broad verification on every candidate build for mobile teams that currently reserve manual QA, design, accessibility, or store-policy review for selected releases. That cadence is a scenario assumption. Aucert says its agents explore builds without scripts and return evidence for a human release decision. This could make per-build review economical if it cuts reviewer time at comparable coverage after accounting for retries, missed flows, and manual exceptions. The memo provides no representative comparison of labor or cost per successful review. (The Idea, Key Risks)
 
-At equivalent review quality, the labor comparison must include setup, triage, reruns, and manual checks for missed flows. If the savings let teams buy verification on builds they previously left without broad review, Aucert could open a new transaction. Aucert describes an organization-specific knowledge graph that could save teams from rebuilding approved expectations across releases. Buyer preference under model parity remains untested. The memo gives no buyer commitments, paid repeat use, or per-scan costs. Scan and device limits identify potential billing units, with contribution after inference, device runs, and support still unknown. The founders’ prior work on mobile QA pipelines and automated payments testing supports their ability to run the trial. (The Idea, Defensibility, Key Facts, Founders & Team)
+Under model parity, Aucert’s best candidate for durable value is its claimed organization-scoped app knowledge graph. If it reliably carries approved expectations across builds and recreating that context takes meaningful work, buyers may prefer Aucert even when another tool has equally capable agents. The memo reports no retention, migration effort, or buyer comparison that tests this. The free first scan establishes an offer, and paid or repeat use by the target segment remains unreported. (Defensibility, Key Facts)
+
+The founders’ experience running mobile QA pipelines and building automated payment testing, together with the public launch and sample report, supports seed-stage execution credit. For scale, the draft scan and device limits suggest a subscription priced around recurring build checks. The economic test is whether the realized price covers devices, inference, support, and any Aucert-side exception handling while the buyer’s all-in cost, including its own review time, stays below the cost of equivalent manual coverage. The memo gives no realized price or delivery costs. (Founders & Team, Market & Traction, Key Risks, The Idea)
 
 ### Countercase
 
-Aucert may save time on reviews teams already perform, with missed flows and triage consuming enough labor to keep broader per-build verification uneconomic. Even if the savings hold, Momentic already offers exploratory mobile QA, QA Wolf maps workflows and runs mobile tests, and Google Play covers some accessibility and stability checks. Under model parity, buyers could use those alternatives if Aucert’s accumulated app context adds little they would pay to keep. The overlap supports a credible substitution risk. The memo establishes neither failure of the two Path B conditions nor affirmative evidence for both, leaving the outreach gate unmet. Path A has no separate supported case because the memo identifies no scarce verification capability that Aucert controls. (Market & Traction, Defensibility, Key Risks)
+Aucert may speed up existing QA without making broader review economical on builds that teams currently skip. Missed flows and incorrect findings could leave teams doing much of the same manual work. Momentic already offers exploratory mobile testing, QA Wolf maps mobile workflows and generates tests, and Google Play covers some Android checks. That overlap makes substitution credible, while equivalent coverage and actual switching remain untested. Both Path B gates are open, and the memo identifies no independently supported scarce complement that Aucert controls. (Key Risks, Market & Traction, Defensibility)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 9/25 |
+| Path-specific thesis fit | 8/25 |
 | Durable value capture | 7/25 |
 | Customer demand | 5/20 |
-| Team and execution | 10/15 |
-| Scale economics | 4/15 |
+| Team and execution | 8/15 |
+| Scale economics | 5/15 |
 
-**Total Score: 35/100** (Pass)
+**Total Score: 33/100** (Pass)
 
 ### Decisive diligence question
 
-Will mobile teams that previously skipped broad review on routine builds repeatedly pay for Aucert after trying a comparable alternative with equally capable models? A paid trial across consecutive builds should benchmark coverage and total human time against manual review, track delivery costs, and let buyers choose between Aucert and the alternative after comparable onboarding. Repeat purchases on previously unreviewed builds, lower labor at equivalent quality, and a paid preference traceable to Aucert’s retained app context would support Reach out if the results clear the score and confidence gates. Evidence that labor savings fail to open new review occasions or that buyers readily switch under parity would change the action to Pass.
+Will an independent mobile team pay to keep running broad checks on builds it previously skipped after comparing Aucert with an equally capable alternative? A paid trial across consecutive builds should compare both tools at comparable coverage, count reviewer time, retries, and manual exceptions, and track Aucert’s delivery cost. Move to Reach out if the team repeats at a price that covers delivery and chooses Aucert because its retained app knowledge materially reduces work. Stay on Watch if the comparison is inconclusive. Move to Pass if representative results show that the new cadence remains uneconomic or the buyer can switch and retain the same outcome.
